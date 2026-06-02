@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <title>台灣社會福利資源查詢</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-copy">
+        <p class="eyebrow">Taiwan Welfare Resource Hub</p>
+        <h1>台灣社會福利資源查詢</h1>
+        <p class="lede">用民眾的需求來找資源：地區、身分、服務類型、申請方式、聯絡資訊和來源更新狀態集中在同一頁。</p>
+      </div>
+      <figure class="header-visual">
+        <img src="public/assets/taiwan-welfare-map.png" alt="台灣社福資源地圖示意">
+      </figure>
+    </header>
+
+    <main>
+      <section class="tool-shell" aria-label="福利資源查詢工具">
+        <div class="search-row">
+          <label class="search-field">
+            <span>關鍵字</span>
+            <input id="queryInput" type="search" placeholder="例如：急難救助、托育、復康巴士、臺南">
+          </label>
+          <button id="clearButton" class="icon-button" type="button" title="清除篩選" aria-label="清除篩選">清除</button>
+        </div>
+
+        <div class="quick-needs" aria-label="常見需求">
+          <button type="button" data-need="急難救助">急難救助</button>
+          <button type="button" data-need="托育">托育</button>
+          <button type="button" data-need="身障">身障服務</button>
+          <button type="button" data-need="老人">老人照顧</button>
+          <button type="button" data-need="附近據點">附近據點</button>
+        </div>
+
+        <div class="filters" aria-label="篩選條件">
+          <label>
+            <span>縣市</span>
+            <select id="countyFilter"></select>
+          </label>
+          <label>
+            <span>服務對象</span>
+            <select id="audienceFilter"></select>
+          </label>
+          <label>
+            <span>服務類型</span>
+            <select id="categoryFilter"></select>
+          </label>
+          <label>
+            <span>資料狀態</span>
+            <select id="freshnessFilter">
+              <option value="">全部</option>
+              <option value="source-dated">來源有日期</option>
+              <option value="checked">已檢查</option>
+              <option value="needs-review">需人工確認</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="active-bar">
+          <p id="resultCount">讀取資料中...</p>
+          <div id="activeFilters" class="active-filters" aria-label="目前篩選"></div>
+        </div>
+      </section>
+
+      <section class="status-grid" aria-label="資料狀態摘要">
+        <article>
+          <span id="recordTotal">0</span>
+          <p>資源卡片</p>
+        </article>
+        <article>
+          <span id="countyTotal">0</span>
+          <p>涵蓋縣市</p>
+        </article>
+        <article>
+          <span id="reviewTotal">0</span>
+          <p>待人工確認</p>
+        </article>
+        <article>
+          <span>12-01</span>
+          <p>跨年度密集檢查開始</p>
+        </article>
+      </section>
+
+      <section class="results-layout">
+        <aside class="guide-panel" aria-label="查詢提示">
+          <h2>查詢時先看這些</h2>
+          <ol>
+            <li>先確認服務地區和服務對象。</li>
+            <li>看申請方式和要準備的文件。</li>
+            <li>撥電話確認名額、時間和今年度規則。</li>
+          </ol>
+          <div class="quality-note">
+            <h3>資料信心</h3>
+            <p>「需人工確認」不代表不能用，而是缺少可自動判讀的更新日期。這類資源會排入定期檢查。</p>
+          </div>
+        </aside>
+
+        <div id="results" class="resource-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>資料來源以官方或可追溯來源優先。正式公開前請保留 noindex，避免未審核資料被搜尋引擎收錄。</p>
+      <a href="PUBLICATION_CHECKLIST.md">Publication checklist</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

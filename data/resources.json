@@ -1,0 +1,1227 @@
+{
+  "generatedAt": "2026-06-02T09:15:24+00:00",
+  "status": "generated",
+  "notice": "Generated from allowlisted sources. Review before public publication.",
+  "errors": [],
+  "records": [
+    {
+      "id": "mohw-ebao-box",
+      "name": "衛生福利e寶箱",
+      "summary": "全國社會福利資源入口。",
+      "provider": "衛生福利部",
+      "jurisdiction": "全國",
+      "county": "全國",
+      "districts": [],
+      "audiences": [
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "入口平台"
+      ],
+      "needTags": [
+        "中央",
+        "主題式",
+        "分眾",
+        "社會福利"
+      ],
+      "eligibility": "依各服務項目規定。",
+      "howToApply": [
+        "開啟來源網站",
+        "依地區、身分或服務類型查詢",
+        "電話確認今年度資格、名額與文件"
+      ],
+      "documents": [
+        "依各服務項目規定"
+      ],
+      "contact": {
+        "phone": null,
+        "address": null,
+        "website": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+      },
+      "source": {
+        "id": "mohw-ebao-box",
+        "url": "https://www.mohw.gov.tw/cp-16-22219-1.html",
+        "type": "official-portal"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "衛福e寶箱 e化一點通- 衛生福利部"
+      }
+    },
+    {
+      "id": "tainan-1.20171E+14-1",
+      "name": "社團法人臺南市臺南都志願服務協會(永華、溪南)",
+      "summary": "交通接送服務(東區、南區、北區、中西區、安南區、安平區、新化區、玉井區、南化區、左鎮區、善化區、新市區、安定區、山上區、楠西區、永康區、仁德區、歸仁區、關廟區、龍崎區)",
+      "provider": "社團法人臺南市臺南都志願服務協會(永華、溪南)",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "中西區"
+      ],
+      "audiences": [
+        "身心障礙者"
+      ],
+      "serviceCategories": [
+        "社區式服務",
+        "復康巴士"
+      ],
+      "needTags": [
+        "身心障礙者",
+        "社區式服務",
+        "復康巴士",
+        "中西區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "交通接送服務(東區、南區、北區、中西區、安南區、安平區、新化區、玉井區、南化區、左鎮區、善化區、新市區、安定區、山上區、楠西區、永康區、仁德區、歸仁區、關廟區、龍崎區)",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "2997220、2975678",
+        "address": "台南市中西區中華西路二段28巷66號",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "22.989772",
+        "longitude": "120.18839"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.02203E+14-2",
+      "name": "臺南市七股區老人福利協進會",
+      "summary": "提供高齡者進修及休閒所開設之短期課程",
+      "provider": "臺南市七股區老人福利協進會",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "七股區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "七股區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "提供高齡者進修及休閒所開設之短期課程",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "0953-146721",
+        "address": "台南市七股區城內里3鄰21-6號",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "23.1746469",
+        "longitude": "120.1329474"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.02203E+14-3",
+      "name": "財團法人台灣省台南市豐生基督教會",
+      "summary": "提供高齡者進修及休閒所開設之短期課程",
+      "provider": "財團法人台灣省台南市豐生基督教會",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "北區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "北區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "提供高齡者進修及休閒所開設之短期課程",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "0937-665860",
+        "address": "台南市北區六甲里21鄰公園路591之46號10樓之7",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "23.0129952",
+        "longitude": "120.2115399"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.02203E+14-4",
+      "name": "台南市永康區老人福利協進會",
+      "summary": "提供高齡者進修及休閒所開設之短期課程",
+      "provider": "台南市永康區老人福利協進會",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "永康區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "永康區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "提供高齡者進修及休閒所開設之短期課程",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-2051151",
+        "address": "臺南市永康區南灣里14鄰大灣二街71巷18弄30號",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "23.002163",
+        "longitude": "120.2656517"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.2023E+14-5",
+      "name": "奇美醫療財團法人附設臺南市私立佳里奇美綜合長照機構",
+      "summary": "1.協助膳食、2. 簡易身體照顧服務、3.臨時性之陪同就醫、4.其他項目。",
+      "provider": "奇美醫療財團法人附設臺南市私立佳里奇美綜合長照機構",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "佳里區"
+      ],
+      "audiences": [
+        "身心障礙者"
+      ],
+      "serviceCategories": [
+        "社區式服務",
+        "臨時及短期照顧"
+      ],
+      "needTags": [
+        "身心障礙者",
+        "社區式服務",
+        "臨時及短期照顧",
+        "佳里區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "1.協助膳食、2. 簡易身體照顧服務、3.臨時性之陪同就醫、4.其他項目。",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-7263333",
+        "address": "臺南市佳里區佳興里佳里興606號",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "23.181671",
+        "longitude": "120.183728"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.01706E+13-6",
+      "name": "頂廍社區活動中心",
+      "summary": "提供社區居民舉行會議、辦理各式公益活動與情感交流的場所",
+      "provider": "頂廍社區活動中心",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "佳里區"
+      ],
+      "audiences": [
+        "社福及社區"
+      ],
+      "serviceCategories": [
+        "社區活動中心",
+        "社區活動中心"
+      ],
+      "needTags": [
+        "社福及社區",
+        "社區活動中心",
+        "社區活動中心",
+        "佳里區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "提供社區居民舉行會議、辦理各式公益活動與情感交流的場所",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "0910-747629",
+        "address": "臺南市 佳里區 下營里15鄰頂廍117號",
+        "website": "http://tnda.tainan.gov.tw/acthouse/actpage.asp?mainid={766FE62E-BD1B-4B6C-BF21-72DBA91B5D41}",
+        "latitude": "23.173086",
+        "longitude": "120.14976"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.0171E+14-7",
+      "name": "臺南市私立祐健老人長期照顧中心(養護型)",
+      "summary": "養護服務：以生活自理能力缺損需他人照顧之老人，或需鼻胃管、導尿管護理服務需求之老人為服務對象。",
+      "provider": "臺南市私立祐健老人長期照顧中心(養護型)",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "中西區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "老福機構"
+      ],
+      "needTags": [
+        "老人福利",
+        "老福機構",
+        "中西區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "養護服務：以生活自理能力缺損需他人照顧之老人，或需鼻胃管、導尿管護理服務需求之老人為服務對象。",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-2260303",
+        "address": "臺南市中西區開山路90號2、3樓",
+        "website": "https://www.facebook.com/%E5%8F%B0%E5%8D%97%E5%B8%82%E7%A7%81%E7%AB%8B%E7%A5%90%E5%81%A5%E8%80%81%E4%BA%BA%E9%A4%8A%E8%AD%B7%E4%B8%AD%E5%BF%83-154090651447844/",
+        "latitude": "22.98983847",
+        "longitude": "120.2068532"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.0171E+14-8",
+      "name": "財團法人台南市私立長泰教養院",
+      "summary": "收容身心障礙者(服務全區)",
+      "provider": "財團法人台南市私立長泰教養院",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "新化區"
+      ],
+      "audiences": [
+        "身心障礙者"
+      ],
+      "serviceCategories": [
+        "機構式服務",
+        "身障福利機構"
+      ],
+      "needTags": [
+        "身心障礙者",
+        "機構式服務",
+        "身障福利機構",
+        "新化區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "收容身心障礙者(服務全區)",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-5982419",
+        "address": "臺南市新化區北勢里北勢100之3號",
+        "website": "http://www.chamtai.com.tw/",
+        "latitude": "23.0478821",
+        "longitude": "120.2896341"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.0171E+14-9",
+      "name": "財團法人台南市私立長泰教養院新市分院",
+      "summary": "收容身心障礙者(服務全區)",
+      "provider": "財團法人台南市私立長泰教養院新市分院",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "新市區"
+      ],
+      "audiences": [
+        "身心障礙者"
+      ],
+      "serviceCategories": [
+        "機構式服務",
+        "身障福利機構"
+      ],
+      "needTags": [
+        "身心障礙者",
+        "機構式服務",
+        "身障福利機構",
+        "新市區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "收容身心障礙者(服務全區)",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-5970238",
+        "address": "臺南市新市區永就里永新路78號",
+        "website": "https://www.cctt.org.tw/",
+        "latitude": "23.0573532",
+        "longitude": "120.2909442"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.20181E+14-10",
+      "name": "臺南市私立菩提林綜合式長照機構",
+      "summary": "日間照顧、居家服務、夜間喘息",
+      "provider": "臺南市私立菩提林綜合式長照機構",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "後壁區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "後壁區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "日間照顧、居家服務、夜間喘息",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-6871797",
+        "address": "臺南市後壁區後壁里12鄰後壁193-1號",
+        "website": "https://www.facebook.com/%E8%8F%A9%E6%8F%90%E6%9E%97%E5%B0%8F%E8%A6%8F%E6%A8%A1%E5%A4%9A%E6%A9%9F%E8%83%BD%E5%BE%8C%E5%A3%81%E6%97%A5%E7%85%A7%E4%B8%AD%E5%BF%83-495671094246921/?ti=as",
+        "latitude": "23.3674821",
+        "longitude": "120.3663636"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.20181E+14-11",
+      "name": "臺南市私立菩提林綜合式長照機構",
+      "summary": "身體照顧、日常生活照顧及家事等服務",
+      "provider": "臺南市私立菩提林綜合式長照機構",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "後壁區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "後壁區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "身體照顧、日常生活照顧及家事等服務",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-6871797",
+        "address": "臺南市後壁區後壁里12鄰後壁193-1號",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "23.3674821",
+        "longitude": "120.3663636"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.2019E+14-12",
+      "name": "衛生福利部新營醫院附設馨盈社區長照機構",
+      "summary": "\"1．生活照顧。 2．生活自立訓練。 3．健康促進。 4．文康休閒活動。 5．提供或連結交通服務。 6．家屬教育及諮詢服務。 7．護理服務。 8．復健服務。 9．備餐服務。\"",
+      "provider": "衛生福利部新營醫院附設馨盈社區長照機構",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "新營區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "新營區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "\"1．生活照顧。 2．生活自立訓練。 3．健康促進。 4．文康休閒活動。 5．提供或連結交通服務。 6．家屬教育及諮詢服務。 7．護理服務。 8．復健服務。 9．備餐服務。\"",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-6351151#2715",
+        "address": "臺南市新營區信義街89號",
+        "website": "https://www.syh.mohw.gov.tw/",
+        "latitude": "23.3079592",
+        "longitude": "120.3146506"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.2019E+14-13",
+      "name": "三興管理顧問股份有限公司附設臺南市私立三興居家長照機構",
+      "summary": "身體照顧服務、家事服務",
+      "provider": "三興管理顧問股份有限公司附設臺南市私立三興居家長照機構",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "東區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "東區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "身體照顧服務、家事服務",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-2952333",
+        "address": "臺南市安平區建平里014鄰建平十三街19號1樓",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "22.9983606",
+        "longitude": "120.1907518"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.20191E+14-14",
+      "name": "社團法人台灣感動照護共生協會附設臺南市私立清爽逸風社區長照機構",
+      "summary": "\"1．生活照顧。 2．生活自立訓練。 3．健康促進。 4．文康休閒活動。 5．提供或連結交通服務。 6．家屬教育及諮詢服務。 7．護理服務。 8．復健服務。 9．備餐服務。\"",
+      "provider": "社團法人台灣感動照護共生協會附設臺南市私立清爽逸風社區長照機構",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "仁德區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "仁德區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "\"1．生活照顧。 2．生活自立訓練。 3．健康促進。 4．文康休閒活動。 5．提供或連結交通服務。 6．家屬教育及諮詢服務。 7．護理服務。 8．復健服務。 9．備餐服務。\"",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-25460833",
+        "address": "臺南市仁德區仁和里二空路92.96號",
+        "website": "http://85care.com.tw/daycare",
+        "latitude": "22.9604799",
+        "longitude": "120.22345"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.01906E+14-15",
+      "name": "臺南市私立順安老人長期照顧中心(養護型)",
+      "summary": "養護服務：以生活自理能力缺損需他人照顧之老人，或需鼻胃管、導尿管護理服務需求之老人為服務對象。",
+      "provider": "臺南市私立順安老人長期照顧中心(養護型)",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "安南區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "老福機構"
+      ],
+      "needTags": [
+        "老人福利",
+        "老福機構",
+        "安南區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "養護服務：以生活自理能力缺損需他人照顧之老人，或需鼻胃管、導尿管護理服務需求之老人為服務對象。",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-2459966",
+        "address": "臺南市安南區怡安路二段516巷86號2樓",
+        "website": "https://www.facebook.com/ea47874927/?locale=zh_TW",
+        "latitude": "23.0459252",
+        "longitude": "120.1959653"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-2.01906E+14-16",
+      "name": "臺南市私立佑安老人長期照顧中心(養護型)",
+      "summary": "養護服務：以生活自理能力缺損需他人照顧之老人，或需鼻胃管、導尿管護理服務需求之老人為服務對象。",
+      "provider": "臺南市私立佑安老人長期照顧中心(養護型)",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "新營區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "老福機構"
+      ],
+      "needTags": [
+        "老人福利",
+        "老福機構",
+        "新營區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "養護服務：以生活自理能力缺損需他人照顧之老人，或需鼻胃管、導尿管護理服務需求之老人為服務對象。",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-6325999",
+        "address": "臺南市新營區長榮路一段530巷16號",
+        "website": "https://www.facebook.com/YOUANLTC/?locale=zh_TW",
+        "latitude": "23.3207382",
+        "longitude": "120.3207253"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.20191E+14-17",
+      "name": "財團法人高雄市華仁社會福利慈善事業基金會附設臺南市私立大內社區長照機構",
+      "summary": "喘息服務",
+      "provider": "財團法人高雄市華仁社會福利慈善事業基金會附設臺南市私立大內社區長照機構",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "大內區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "大內區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "喘息服務",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-5762996",
+        "address": "742臺南市大內區內江里010鄰內庄289之9號",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "23.1099075",
+        "longitude": "120.3637277"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.20191E+14-18",
+      "name": "萬年護理之家",
+      "summary": "喘息服務",
+      "provider": "萬年護理之家",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "南區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "南區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "喘息服務",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-2963777",
+        "address": "702臺南市南區省躬里014鄰萬年路160巷6號1-4樓",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "22.934249",
+        "longitude": "120.1859919"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.20191E+14-19",
+      "name": "台南市私立祥允泰護理之家",
+      "summary": "喘息服務",
+      "provider": "台南市私立祥允泰護理之家",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "仁德區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "仁德區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "喘息服務",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-2709666",
+        "address": "717臺南市仁德區一甲里009鄰忠義路339號",
+        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "latitude": "22.9764703",
+        "longitude": "120.2545884"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-1.20191E+14-20",
+      "name": "八五樂活安平有限公司附設臺南市私立安平社區長照機構",
+      "summary": "\"1．生活照顧。 2．生活自立訓練。 3．健康促進。 4．文康休閒活動。 5．提供或連結交通服務。 6．家屬教育及諮詢服務。 7．護理服務。 8．復健服務。 9．備餐服務。\"",
+      "provider": "八五樂活安平有限公司附設臺南市私立安平社區長照機構",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "安平區"
+      ],
+      "audiences": [
+        "老人福利"
+      ],
+      "serviceCategories": [
+        "社福資源"
+      ],
+      "needTags": [
+        "老人福利",
+        "社福資源",
+        "安平區",
+        "臺南",
+        "福利地圖"
+      ],
+      "eligibility": "\"1．生活照顧。 2．生活自立訓練。 3．健康促進。 4．文康休閒活動。 5．提供或連結交通服務。 6．家屬教育及諮詢服務。 7．護理服務。 8．復健服務。 9．備餐服務。\"",
+      "howToApply": [
+        "先電話確認服務時間與名額",
+        "確認服務對象與需要文件",
+        "依資源點指示申請或前往"
+      ],
+      "documents": [
+        "依資源點規定"
+      ],
+      "contact": {
+        "phone": "06-2993118",
+        "address": "臺南市安平區育平七街60巷16號1樓",
+        "website": "https://www.facebook.com/85%E6%A8%82%E6%B4%BB%E5%AE%89%E5%B9%B3%E6%97%A5%E9%96%93%E7%85%A7%E8%AD%B7%E6%A9%9F%E6%A7%8B-2249510481956102/?modal=admin_todo_tour",
+        "latitude": "22.9931187",
+        "longitude": "120.1655747"
+      },
+      "source": {
+        "id": "tainan-welfare-map-dataset",
+        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+        "type": "official-open-data"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Imported from Tainan welfare map open-data resource."
+      }
+    },
+    {
+      "id": "tainan-welfare-map",
+      "name": "臺南市福利地圖",
+      "summary": "臺南市福利地圖",
+      "provider": "臺南市政府社會局",
+      "jurisdiction": "臺南市",
+      "county": "臺南市",
+      "districts": [
+        "全市"
+      ],
+      "audiences": [
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "地圖查詢"
+      ],
+      "needTags": [
+        "地方政府",
+        "地圖",
+        "臺南",
+        "行政區"
+      ],
+      "eligibility": "依各服務項目規定。",
+      "howToApply": [
+        "開啟來源網站",
+        "依地區、身分或服務類型查詢",
+        "電話確認今年度資格、名額與文件"
+      ],
+      "documents": [
+        "依各服務項目規定"
+      ],
+      "contact": {
+        "phone": null,
+        "address": null,
+        "website": "https://tnsmap.tainan.gov.tw/"
+      },
+      "source": {
+        "id": "tainan-welfare-map",
+        "url": "https://tnsmap.tainan.gov.tw/",
+        "type": "official-map"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "臺南市福利地圖"
+      }
+    },
+    {
+      "id": "taichung-welfare-network",
+      "name": "臺中市社會福利服務資源網",
+      "summary": "臺中市社會福利資源入口。",
+      "provider": "臺中市政府社會局",
+      "jurisdiction": "臺中市",
+      "county": "臺中市",
+      "districts": [
+        "全市"
+      ],
+      "audiences": [
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "入口平台"
+      ],
+      "needTags": [
+        "地方政府",
+        "資源網",
+        "臺中"
+      ],
+      "eligibility": "依各服務項目規定。",
+      "howToApply": [
+        "開啟來源網站",
+        "依地區、身分或服務類型查詢",
+        "電話確認今年度資格、名額與文件"
+      ],
+      "documents": [
+        "依各服務項目規定"
+      ],
+      "contact": {
+        "phone": null,
+        "address": null,
+        "website": "https://welfare.taichung.gov.tw/"
+      },
+      "source": {
+        "id": "taichung-welfare-network",
+        "url": "https://welfare.taichung.gov.tw/",
+        "type": "official-portal"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "臺中市社會福利服務資源網"
+      }
+    },
+    {
+      "id": "taipei-welfare-map",
+      "name": "臺北市社福設施地圖資訊網",
+      "summary": "來源頁面需人工確認：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "provider": "臺北市政府社會局",
+      "jurisdiction": "臺北市",
+      "county": "臺北市",
+      "districts": [
+        "全市"
+      ],
+      "audiences": [
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "地圖查詢"
+      ],
+      "needTags": [
+        "地方政府",
+        "地圖",
+        "臺北",
+        "社福設施"
+      ],
+      "eligibility": "依各服務項目規定。",
+      "howToApply": [
+        "開啟來源網站",
+        "依地區、身分或服務類型查詢",
+        "電話確認今年度資格、名額與文件"
+      ],
+      "documents": [
+        "依各服務項目規定"
+      ],
+      "contact": {
+        "phone": null,
+        "address": null,
+        "website": "https://map.dosw.gov.taipei/"
+      },
+      "source": {
+        "id": "taipei-welfare-map",
+        "url": "https://map.dosw.gov.taipei/",
+        "type": "official-map"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-02",
+        "sourceUpdatedAt": null,
+        "confidence": "needs-review",
+        "notes": "臺北市社福設施地圖資訊網"
+      }
+    }
+  ]
+}

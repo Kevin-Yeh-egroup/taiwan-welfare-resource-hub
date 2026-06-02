@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-06-02T09:12:55+00:00",
+  "summary": {
+    "checked": 6,
+    "changed": 0,
+    "warnings": 1
+  },
+  "warnings": [
+    {
+      "level": "warning",
+      "sourceId": "taipei-welfare-map",
+      "message": "One or more URLs failed freshness check."
+    }
+  ],
+  "sources": [
+    {
+      "id": "mohw-ebao-box",
+      "name": "衛生福利e寶箱",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 30,
+        "crossYearDays": 7
+      },
+      "entries": [
+        {
+          "url": "https://www.mohw.gov.tw/cp-16-22219-1.html",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "29387",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "checkedAt": "2026-06-02T09:12:52+00:00"
+        }
+      ]
+    },
+    {
+      "id": "tainan-welfare-map-dataset",
+      "name": "臺南市社會福利地圖開放資料",
+      "jurisdiction": "臺南市",
+      "refreshPolicy": {
+        "normalDays": 30,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "checkedAt": "2026-06-02T09:12:52+00:00"
+        },
+        {
+          "url": "https://data.tainan.gov.tw/Resource/93f35ae8-0e16-45ac-90d2-b0315889cf5f?handler=GoJson",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://data.tainan.gov.tw/Resource/93f35ae8-0e16-45ac-90d2-b0315889cf5f?handler=GoJson",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "checkedAt": "2026-06-02T09:12:53+00:00"
+        }
+      ]
+    },
+    {
+      "id": "tainan-welfare-map",
+      "name": "臺南市福利地圖",
+      "jurisdiction": "臺南市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://tnsmap.tainan.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://tnsmap.tainan.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "15936",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "checkedAt": "2026-06-02T09:12:54+00:00"
+        }
+      ]
+    },
+    {
+      "id": "taichung-welfare-network",
+      "name": "臺中市社會福利服務資源網",
+      "jurisdiction": "臺中市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://welfare.taichung.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://welfare.taichung.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "5314",
+          "contentType": "text/html; Charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "checkedAt": "2026-06-02T09:12:54+00:00"
+        }
+      ]
+    },
+    {
+      "id": "taipei-welfare-map",
+      "name": "臺北市社福設施地圖資訊網",
+      "jurisdiction": "臺北市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://map.dosw.gov.taipei/",
+          "ok": false,
+          "status": null,
+          "finalUrl": null,
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": null,
+          "changedSinceLastRun": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+          "checkedAt": "2026-06-02T09:12:54+00:00"
+        }
+      ]
+    }
+  ]
+}

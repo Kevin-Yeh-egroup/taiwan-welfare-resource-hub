@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-06-02",
+  "note": "Initial seed set from web research. Kevin-provided source documents were not present at the listed Downloads paths during setup.",
+  "sourceDocuments": [
+    {
+      "path": "C:/Users/Kevin/Downloads/民國114年12月29日，完成社福資源資料庫建置耗時17分鐘。_20251229102216631.pdf",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/民國115年1月1日，完成社福資源資料庫建置耗時28分鐘。_20260222123907788.pdf",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/民國115年2月7日，完成社福資源資料庫建置耗時93分鐘。_20260222123856072.pdf",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/福利資源整理-衛福部&勞動部.docx",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/台南市政府.docx",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/台中市政府資源_20260328092729830.docx",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/民間資源蒐集.pdf",
+      "status": "missing"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mohw-ebao-box",
+      "name": "衛生福利e寶箱",
+      "url": "https://www.mohw.gov.tw/cp-16-22219-1.html",
+      "organization": "衛生福利部",
+      "jurisdiction": "全國",
+      "sourceType": "official-portal",
+      "crawl": true,
+      "crawlDepth": 1,
+      "refreshPolicy": {
+        "normalDays": 30,
+        "crossYearDays": 7
+      },
+      "tags": ["中央", "主題式", "分眾", "社會福利"]
+    },
+    {
+      "id": "tainan-welfare-map-dataset",
+      "name": "臺南市社會福利地圖開放資料",
+      "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
+      "resourceUrl": "https://data.tainan.gov.tw/Resource/93f35ae8-0e16-45ac-90d2-b0315889cf5f?handler=GoJson",
+      "organization": "臺南市政府社會局",
+      "jurisdiction": "臺南市",
+      "sourceType": "official-open-data",
+      "format": "tainan-welfare-json",
+      "crawl": true,
+      "crawlDepth": 0,
+      "refreshPolicy": {
+        "normalDays": 30,
+        "crossYearDays": 3
+      },
+      "tags": ["地方政府", "開放資料", "地圖", "臺南"]
+    },
+    {
+      "id": "tainan-welfare-map",
+      "name": "臺南市福利地圖",
+      "url": "https://tnsmap.tainan.gov.tw/",
+      "organization": "臺南市政府社會局",
+      "jurisdiction": "臺南市",
+      "sourceType": "official-map",
+      "crawl": true,
+      "crawlDepth": 1,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "tags": ["地方政府", "地圖", "臺南", "行政區"]
+    },
+    {
+      "id": "taichung-welfare-network",
+      "name": "臺中市社會福利服務資源網",
+      "url": "https://welfare.taichung.gov.tw/",
+      "organization": "臺中市政府社會局",
+      "jurisdiction": "臺中市",
+      "sourceType": "official-portal",
+      "crawl": true,
+      "crawlDepth": 1,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "tags": ["地方政府", "資源網", "臺中"]
+    },
+    {
+      "id": "taipei-welfare-map",
+      "name": "臺北市社福設施地圖資訊網",
+      "url": "https://map.dosw.gov.taipei/",
+      "organization": "臺北市政府社會局",
+      "jurisdiction": "臺北市",
+      "sourceType": "official-map",
+      "crawl": true,
+      "crawlDepth": 1,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "tags": ["地方政府", "地圖", "臺北", "社福設施"]
+    }
+  ]
+}
