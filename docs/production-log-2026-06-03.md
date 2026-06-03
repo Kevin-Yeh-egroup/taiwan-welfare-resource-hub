@@ -15,6 +15,7 @@
 - Project ID: `prj_pgs9AuZOuFeqwVLaB0yazcnNR5x3`
 - Org/team ID: `team_lOk9yHNRxLRBcdrU9DATWODG`
 - Verified production deployments:
+  - `dpl_9gpH1CJXJ2Ey1wB81bqjNRvAyv8v` from `c6eae5ca2c5a5abba3aeaa0f42146e2fe5572335`
   - `dpl_CtgEMFYBkq5XZRWdMhzzXeFnF3jU` from `c68f36448e15ca46b31f60224ed15c4f637c0528`
   - `dpl_8wf9Q6UqPZ2fdQrFJQDzjDNB2mhb` from `0dd738b9d3d7767a71c38da47df8f02b12b64f3b`
 - Stable URL: `https://taiwan-welfare-resource-hub.vercel.app/`
@@ -35,8 +36,11 @@ Disallow: /
 
 ## Application Verification
 
-- `data/resources.json` returned 24 records with status `generated`.
-- Browser screenshot `work/production-desktop-loaded.png` confirmed the live page loads the search UI and resource cards.
+- `data/resources.json` returned 411 records with status `generated`.
+- SFAA official foundation records: 355.
+- SFAA records with 2026 source update dates: 163.
+- Search-data checks: `民間基金會` matches 355 records; `芥菜種會` matches `財團法人基督教芥菜種會`.
+- Local and production HTTP/data checks confirmed the live page loads the updated UI and resource JSON.
 - Local validation command passed: `python scripts/validate_data.py`.
 
 ## GitHub Actions
@@ -48,6 +52,6 @@ Disallow: /
 
 ## Remaining Notes
 
-- The Taipei map source still needs certificate/freshness review from the crawler side.
+- The SFAA official page and several public sources require the allowlisted SSL fallback during checks because their certificate chain triggers Python's strict certificate validation; the freshness report has 0 failed-source warnings.
 - Kevin-provided source documents were not available at the original Downloads paths during setup; place them in `source-docs/` and rerun extraction when available.
 - Noindex is intentionally retained. It is not access control; the site is public and link-accessible.
