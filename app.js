@@ -3,7 +3,8 @@ const state = {
   county: "",
   audience: "",
   category: "",
-  freshness: "",
+  currentOnly: false,
+  group: "recommended",
   records: []
 };
 
@@ -14,19 +15,41 @@ const labels = {
   "needs-review": "需再確認"
 };
 
+const groupLabels = {
+  recommended: "最可能相關",
+  government: "政府資源",
+  foundation: "民間資源",
+  contact: "需洽詢",
+  all: "全部資源"
+};
+
+const priorityNames = [
+  "低收入戶及中低收入戶",
+  "115年度低收入戶、中低收入戶資格審核標準",
+  "1957福利諮詢專線",
+  "1966長照服務專線與長照2.0",
+  "萬海急難救助申請",
+  "富邦慈善急難救助個案補助",
+  "各級政府辦理保險對象健保費補助項目",
+  "全國身心障礙福利服務入口網"
+];
+
 const els = {
   query: document.querySelector("#queryInput"),
   county: document.querySelector("#countyFilter"),
   audience: document.querySelector("#audienceFilter"),
   category: document.querySelector("#categoryFilter"),
-  freshness: document.querySelector("#freshnessFilter"),
+  currentOnly: document.querySelector("#currentOnlyFilter"),
   results: document.querySelector("#results"),
+  resultTitle: document.querySelector("#resultTitle"),
   resultCount: document.querySelector("#resultCount"),
   activeFilters: document.querySelector("#activeFilters"),
   clearButton: document.querySelector("#clearButton"),
+  applyFilterButton: document.querySelector("#applyFilterButton"),
   recordTotal: document.querySelector("#recordTotal"),
   countyTotal: document.querySelector("#countyTotal"),
-  reviewTotal: document.querySelector("#reviewTotal")
+  foundationProgramTotal: document.querySelector("#foundationProgramTotal"),
+  currentYearTotal: document.querySelector("#currentYearTotal")
 };
 
 function uniqueSorted(values) {
@@ -49,7 +72,7 @@ function optionList(select, values, allLabel) {
 
 function setupFilters(records) {
   optionList(els.county, uniqueSorted(records.map((record) => record.county)), "全部縣市");
-  optionList(els.audience, uniqueSorted(records.flatMap((record) => record.audiences || [])), "全部對象");
+  optionList(els.audience, uniqueSorted(records.flatMap((record) => record.audiences || [])), "全部身分");
   optionList(els.category, uniqueSorted(records.flatMap((record) => record.serviceCategories || [])), "全部類型");
 }
 
@@ -76,37 +99,124 @@ function searchableText(record) {
     .toLowerCase();
 }
 
-function matches(record) {
-  const query = state.query.trim().toLowerCase();
-  if (query && !searchableText(record).includes(query)) return false;
+function queryTerms() {
+  return state.query
+    .trim()
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
+function matchesQuery(record) {
+  const terms = queryTerms();
+  if (!terms.length) return true;
+  const text = searchableText(record);
+  return terms.every((term) => text.includes(term));
+}
+
+function matchesBaseFilters(record) {
+  if (!matchesQuery(record)) return false;
   if (state.county && record.county !== state.county) return false;
   if (state.audience && !(record.audiences || []).includes(state.audience)) return false;
   if (state.category && !(record.serviceCategories || []).includes(state.category)) return false;
-  if (state.freshness && record.freshness?.confidence !== state.freshness) return false;
+  if (state.currentOnly && record.freshness?.confidence !== "source-dated") return false;
+  return true;
+}
+
+function isFoundationResource(record) {
+  return record.source?.type === "foundation-program-page" || String(record.id || "").startsWith("sfaa-foundation-");
+}
+
+function isGovernmentResource(record) {
+  const provider = `${record.provider || ""} ${record.source?.type || ""}`;
+  return /衛生福利部|勞動部|政府|社會局|社家署|健保署|公所|官方|official|open-data/.test(provider) && !isFoundationResource(record);
+}
+
+function needsContact(record) {
+  const text = [
+    record.eligibility,
+    ...(record.howToApply || []),
+    record.freshness?.notes,
+    record.source?.type
+  ]
+    .filter(Boolean)
+    .join(" ");
+  return /電話|洽詢|確認|需再|contact|foundation-program-page/.test(text);
+}
+
+function groupMatches(record) {
+  if (state.group === "all") return true;
+  if (state.group === "government") return isGovernmentResource(record);
+  if (state.group === "foundation") return isFoundationResource(record);
+  if (state.group === "contact") return needsContact(record);
+  if (state.group === "recommended") return rankRecord(record) > 0 || priorityNames.includes(record.name);
   return true;
 }
 
 function rankRecord(record) {
-  const query = state.query.trim().toLowerCase();
-  if (!query) return 0;
+  const terms = queryTerms();
   const name = String(record.name || "").toLowerCase();
   const provider = String(record.provider || "").toLowerCase();
   const tags = (record.needTags || []).join(" ").toLowerCase();
   const categories = (record.serviceCategories || []).join(" ").toLowerCase();
+  const audiences = (record.audiences || []).join(" ").toLowerCase();
   const summary = String(record.summary || "").toLowerCase();
-  let score = 0;
-  if (name.includes(query)) score += 50;
-  if (tags.includes(query)) score += 35;
-  if (categories.includes(query)) score += 25;
-  if (summary.includes(query)) score += 12;
-  if (provider.includes(query)) score += 8;
-  if (record.source?.type === "foundation-program-page") score += 6;
-  if (record.freshness?.confidence === "source-dated") score += 4;
+  let score = priorityNames.includes(record.name) ? 35 : 0;
+
+  terms.forEach((term) => {
+    if (name.includes(term)) score += 60;
+    if (tags.includes(term)) score += 38;
+    if (categories.includes(term)) score += 28;
+    if (audiences.includes(term)) score += 22;
+    if (summary.includes(term)) score += 12;
+    if (provider.includes(term)) score += 8;
+  });
+  if (record.source?.type === "foundation-program-page") score += 8;
+  if (record.freshness?.confidence === "source-dated") score += 5;
+  if (record.source?.type === "official-program" || record.source?.type === "official-portal") score += 4;
   return score;
 }
 
 function statusText(status) {
   return labels[status] || "已收錄";
+}
+
+function needMeta(record) {
+  const text = searchableText(record);
+  if (/急難|救助|突發/.test(text)) return { tone: "urgent", mark: "急", label: "急難" };
+  if (/低收入|中低收入|生活扶助|社會救助/.test(text)) return { tone: "income", mark: "低", label: "生活" };
+  if (/醫療|健保|保費/.test(text)) return { tone: "medical", mark: "醫", label: "醫療" };
+  if (/長照|居家|喘息|失智|照顧/.test(text)) return { tone: "care", mark: "照", label: "照顧" };
+  if (/身心障礙|身障|輔具/.test(text)) return { tone: "disability", mark: "身", label: "身障" };
+  if (/兒童|兒少|少年|家庭|寄養/.test(text)) return { tone: "child", mark: "兒", label: "兒少" };
+  if (/獎學|助學|清寒|學生|就學/.test(text)) return { tone: "school", mark: "學", label: "就學" };
+  if (isGovernmentResource(record)) return { tone: "government", mark: "政", label: "政府" };
+  return { tone: "local", mark: "資", label: "資源" };
+}
+
+function assistanceText(record) {
+  const categories = record.serviceCategories || [];
+  const preferred = categories.find((item) => !["民間社福資源", "社福基金會", "其他", "方案級民間資源"].includes(item));
+  return preferred || categories[0] || "依來源頁公告";
+}
+
+function firstStep(record) {
+  const steps = record.howToApply || [];
+  return steps[0] || "先開啟來源頁，確認資格、名額、文件與受理狀態。";
+}
+
+function documentHint(record) {
+  const docs = record.documents || [];
+  return docs.slice(0, 2).join("、") || "依來源頁公告";
+}
+
+function contactText(record) {
+  const parts = [
+    record.contact?.phone ? `電話：${record.contact.phone}` : "",
+    record.contact?.email ? `Email：${record.contact.email}` : "",
+    record.contact?.address ? `地址：${record.contact.address}` : ""
+  ].filter(Boolean);
+  return parts.length ? parts.join(" / ") : "請由來源頁確認最新聯絡方式。";
 }
 
 function listItems(items, ordered = false) {
@@ -126,84 +236,139 @@ function escapeHtml(value) {
 
 function renderRecord(record) {
   const confidence = record.freshness?.confidence || "needs-review";
-  const contactParts = [
-    record.contact?.phone ? `電話：${record.contact.phone}` : "",
-    record.contact?.email ? `Email：${record.contact.email}` : "",
-    record.contact?.address ? `地址：${record.contact.address}` : ""
-  ].filter(Boolean);
-
+  const meta = needMeta(record);
   return `
-    <article class="resource-card">
-      <header>
+    <article class="resource-card tone-${escapeHtml(meta.tone)}">
+      <div class="card-top">
+        <div class="card-mark" aria-hidden="true">${escapeHtml(meta.mark)}</div>
         <div>
-          <h2>${escapeHtml(record.name)}</h2>
-          <p class="summary">${escapeHtml(record.summary)}</p>
+          <p class="card-kind">${escapeHtml(meta.label)}</p>
+          <h3>${escapeHtml(record.name)}</h3>
         </div>
         <span class="status-pill ${escapeHtml(confidence)}">${statusText(confidence)}</span>
-      </header>
+      </div>
+
+      <p class="summary">${escapeHtml(record.summary)}</p>
 
       <div class="meta-line">
         <span class="tag">${escapeHtml(record.county || "全國")}</span>
-        ${(record.audiences || []).slice(0, 4).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
-        ${(record.serviceCategories || []).slice(0, 3).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+        ${(record.audiences || []).slice(0, 3).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+        ${(record.serviceCategories || []).slice(0, 2).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
       </div>
 
-      <div class="card-grid">
-        <div class="info-block">
-          <h3>誰適合先查</h3>
-          <p>${escapeHtml(record.eligibility || "依來源頁或服務單位公告。")}</p>
+      <div class="quick-answer-grid">
+        <div>
+          <span>適合誰</span>
+          <p>${escapeHtml((record.audiences || []).slice(0, 3).join("、") || record.eligibility || "依來源頁公告")}</p>
         </div>
-        <div class="info-block">
-          <h3>下一步</h3>
-          ${listItems(record.howToApply, true)}
+        <div>
+          <span>可以協助</span>
+          <p>${escapeHtml(assistanceText(record))}</p>
         </div>
-        <div class="info-block">
-          <h3>可能需要文件</h3>
-          ${listItems(record.documents)}
+        <div>
+          <span>下一步</span>
+          <p>${escapeHtml(firstStep(record))}</p>
         </div>
-        <div class="info-block">
-          <h3>聯絡資訊</h3>
-          <p>${contactParts.length ? escapeHtml(contactParts.join(" / ")) : "請由來源頁確認最新聯絡方式。"}</p>
+        <div>
+          <span>要準備</span>
+          <p>${escapeHtml(documentHint(record))}</p>
         </div>
       </div>
+
+      <details class="details-block">
+        <summary>展開完整申請提醒</summary>
+        <div class="details-grid">
+          <div>
+            <h4>誰適合先查</h4>
+            <p>${escapeHtml(record.eligibility || "依來源頁或服務單位公告。")}</p>
+          </div>
+          <div>
+            <h4>怎麼辦</h4>
+            ${listItems(record.howToApply, true)}
+          </div>
+          <div>
+            <h4>可能需要文件</h4>
+            ${listItems(record.documents)}
+          </div>
+          <div>
+            <h4>聯絡資訊</h4>
+            <p>${escapeHtml(contactText(record))}</p>
+          </div>
+        </div>
+      </details>
 
       <div class="card-actions">
+        ${record.source?.url ? `<a class="primary-link" href="${escapeHtml(record.source.url)}" target="_blank" rel="noopener">查看申請/來源</a>` : ""}
         ${record.contact?.website ? `<a href="${escapeHtml(record.contact.website)}" target="_blank" rel="noopener">單位網站</a>` : ""}
-        ${record.source?.url ? `<a href="${escapeHtml(record.source.url)}" target="_blank" rel="noopener">資料來源</a>` : ""}
       </div>
     </article>
   `;
+}
+
+function currentFilteredRecords() {
+  return state.records
+    .filter(matchesBaseFilters)
+    .filter(groupMatches)
+    .sort((a, b) => rankRecord(b) - rankRecord(a) || String(a.name).localeCompare(String(b.name), "zh-Hant"));
 }
 
 function renderActiveFilters() {
   const filters = [
     state.query ? `搜尋：${state.query}` : "",
     state.county ? `縣市：${state.county}` : "",
-    state.audience ? `對象：${state.audience}` : "",
+    state.audience ? `身分：${state.audience}` : "",
     state.category ? `類型：${state.category}` : "",
-    state.freshness ? `狀態：${statusText(state.freshness)}` : ""
+    state.currentOnly ? "只看來源有日期" : "",
+    `分組：${groupLabels[state.group]}`
   ].filter(Boolean);
 
   els.activeFilters.innerHTML = filters.map((filter) => `<span class="filter-chip">${escapeHtml(filter)}</span>`).join("");
 }
 
 function render() {
-  const filtered = state.records
-    .filter(matches)
-    .sort((a, b) => rankRecord(b) - rankRecord(a) || String(a.name).localeCompare(String(b.name), "zh-Hant"));
-  els.resultCount.textContent = `找到 ${filtered.length} 筆資源`;
+  const baseCount = state.records.filter(matchesBaseFilters).length;
+  const filtered = currentFilteredRecords();
+  const visible = state.group === "all" ? filtered : filtered.slice(0, 36);
+
+  els.resultTitle.textContent = groupLabels[state.group] || "查詢結果";
+  els.resultCount.textContent =
+    state.group === "all"
+      ? `符合條件 ${filtered.length} 筆`
+      : `符合條件 ${baseCount} 筆，這組顯示 ${visible.length} 筆`;
   renderActiveFilters();
-  if (!filtered.length) {
-    els.results.innerHTML = `<div class="empty-state"><p>目前沒有符合條件的資源。可以改用較短的關鍵字，例如「低收入戶」、「急難」、「長照」或直接選縣市。</p></div>`;
+  syncGroupButtons();
+
+  if (!visible.length) {
+    els.results.innerHTML = `<div class="empty-state"><p>目前沒有符合條件的資源。可以改用較短的關鍵字，例如「低收入戶」、「急難」、「長照」，或切換到「全部」。</p></div>`;
     return;
   }
-  els.results.innerHTML = filtered.map(renderRecord).join("");
+
+  const moreNote =
+    filtered.length > visible.length
+      ? `<div class="more-note">這組還有 ${filtered.length - visible.length} 筆。可切到「全部」，或用縣市、身分、關鍵字再縮小。</div>`
+      : "";
+  els.results.innerHTML = visible.map(renderRecord).join("") + moreNote;
 }
 
 function updateStats(records) {
   els.recordTotal.textContent = records.length;
   els.countyTotal.textContent = uniqueSorted(records.map((record) => record.county).filter((county) => county && county !== "全國")).length;
-  els.reviewTotal.textContent = records.filter((record) => record.freshness?.confidence === "needs-review").length;
+  els.foundationProgramTotal.textContent = records.filter((record) => record.source?.type === "foundation-program-page").length;
+  els.currentYearTotal.textContent = records.filter((record) => record.freshness?.confidence === "source-dated").length;
+}
+
+function setQuery(query) {
+  state.query = query;
+  state.group = "recommended";
+  els.query.value = query;
+  render();
+}
+
+function setAudience(audience) {
+  state.audience = audience;
+  state.group = "recommended";
+  els.audience.value = audience;
+  render();
 }
 
 function resetFilters() {
@@ -211,18 +376,26 @@ function resetFilters() {
   state.county = "";
   state.audience = "";
   state.category = "";
-  state.freshness = "";
+  state.currentOnly = false;
+  state.group = "recommended";
   els.query.value = "";
   els.county.value = "";
   els.audience.value = "";
   els.category.value = "";
-  els.freshness.value = "";
+  els.currentOnly.checked = false;
   render();
+}
+
+function syncGroupButtons() {
+  document.querySelectorAll("[data-group]").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.group === state.group);
+  });
 }
 
 function bindEvents() {
   els.query.addEventListener("input", (event) => {
     state.query = event.target.value;
+    state.group = state.query ? "recommended" : state.group;
     render();
   });
   els.county.addEventListener("change", (event) => {
@@ -237,15 +410,22 @@ function bindEvents() {
     state.category = event.target.value;
     render();
   });
-  els.freshness.addEventListener("change", (event) => {
-    state.freshness = event.target.value;
+  els.currentOnly.addEventListener("change", (event) => {
+    state.currentOnly = event.target.checked;
     render();
   });
   els.clearButton.addEventListener("click", resetFilters);
+  els.applyFilterButton.addEventListener("click", () => setQuery("申請"));
+
   document.querySelectorAll("[data-need]").forEach((button) => {
+    button.addEventListener("click", () => setQuery(button.dataset.need || ""));
+  });
+  document.querySelectorAll("[data-audience]").forEach((button) => {
+    button.addEventListener("click", () => setAudience(button.dataset.audience || ""));
+  });
+  document.querySelectorAll("[data-group]").forEach((button) => {
     button.addEventListener("click", () => {
-      state.query = button.dataset.need || "";
-      els.query.value = state.query;
+      state.group = button.dataset.group || "recommended";
       render();
     });
   });
