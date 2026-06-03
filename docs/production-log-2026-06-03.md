@@ -5,8 +5,8 @@
 - Repository: `Kevin-Yeh-egroup/taiwan-welfare-resource-hub`
 - Visibility: public
 - URL: `https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub`
-- Branch: `main`
-- Production commit: `c68f36448e15ca46b31f60224ed15c4f637c0528`
+- Production branch: `main`
+- Note: Vercel is connected to GitHub and creates a new Production deployment for each pushed `main` commit. The stable URL should be treated as the current pointer.
 
 ## Vercel
 
@@ -14,7 +14,9 @@
 - Project: `taiwan-welfare-resource-hub`
 - Project ID: `prj_pgs9AuZOuFeqwVLaB0yazcnNR5x3`
 - Org/team ID: `team_lOk9yHNRxLRBcdrU9DATWODG`
-- Production deployment: `dpl_CtgEMFYBkq5XZRWdMhzzXeFnF3jU`
+- Verified production deployments:
+  - `dpl_CtgEMFYBkq5XZRWdMhzzXeFnF3jU` from `c68f36448e15ca46b31f60224ed15c4f637c0528`
+  - `dpl_8wf9Q6UqPZ2fdQrFJQDzjDNB2mhb` from `0dd738b9d3d7767a71c38da47df8f02b12b64f3b`
 - Stable URL: `https://taiwan-welfare-resource-hub.vercel.app/`
 - Deployment source: GitHub `main`
 - Vercel source metadata: `source=git`, repo visibility `public`, branch alias `taiwan-welfare-resource-hub-git-main-egroup-task3s-projects.vercel.app`
