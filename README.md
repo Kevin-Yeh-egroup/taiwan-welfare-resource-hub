@@ -36,6 +36,7 @@ python scripts/build_source_registry.py
 python scripts/extract_source_urls.py source-docs --out data/extracted-urls.json
 python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
 python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json
+python scripts/crawl_foundation_program_candidates.py --limit 30 --out data/foundation-program-candidates.json
 python scripts/validate_data.py
 node scripts/build_static.mjs
 ```
@@ -43,6 +44,8 @@ node scripts/build_static.mjs
 `extract_source_urls.py` supports `.docx` and `.pdf`. PDF extraction uses `pypdf` if installed.
 
 The SFAA foundation importer uses the official public directory at `https://swft.sfaa.gov.tw/fund/fh0300#`, its public list/detail API, and code tables for city, district, service object, and service type. It records official `A` status as "運作中" but still asks users to confirm current-year program availability with each foundation.
+
+`crawl_foundation_program_candidates.py` is a review-first crawler for foundation websites. It outputs candidate service/program pages only; those candidates must be manually checked for current-year intake, eligibility, documents, and contact details before becoming public resource cards.
 
 ## Public Production Verification
 

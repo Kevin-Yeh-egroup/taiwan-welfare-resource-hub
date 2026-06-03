@@ -39,6 +39,7 @@ def main() -> int:
     root = Path.cwd()
     resources_path = root / "data" / "resources.json"
     sources_path = root / "data" / "sources.json"
+    candidates_path = root / "data" / "foundation-program-candidates.json"
     errors: list[str] = []
 
     for path in [resources_path, sources_path, root / "index.html", root / "robots.txt", root / "vercel.json"]:
@@ -73,6 +74,29 @@ def main() -> int:
             errors.append(f"Record {record_id} has no audience.")
         if not record.get("serviceCategories"):
             errors.append(f"Record {record_id} has no service category.")
+
+    if candidates_path.exists():
+        candidates = load(candidates_path)
+        if candidates.get("mode") != "candidate-only":
+            errors.append("foundation-program-candidates.json must remain candidate-only.")
+        candidate_ids = set()
+        for index, candidate in enumerate(candidates.get("candidates", []), start=1):
+            candidate_id = candidate.get("id")
+            if not candidate_id:
+                errors.append(f"Candidate {index} missing id.")
+            elif candidate_id in candidate_ids:
+                errors.append(f"Duplicate candidate id: {candidate_id}")
+            candidate_ids.add(candidate_id)
+            if not candidate.get("foundationId"):
+                errors.append(f"Candidate {candidate_id} missing foundationId.")
+            if candidate.get("reviewStatus") != "candidate-review-required":
+                errors.append(f"Candidate {candidate_id} must require review.")
+            if candidate.get("canConvertToResource") is not False:
+                errors.append(f"Candidate {candidate_id} must not be auto-convertible.")
+            if not valid_url(candidate.get("pageUrl")):
+                errors.append(f"Candidate {candidate_id} has invalid pageUrl.")
+            if not candidate.get("matchedKeywords"):
+                errors.append(f"Candidate {candidate_id} has no matched keywords.")
 
     if "noindex,nofollow,noarchive" not in (root / "index.html").read_text(encoding="utf-8"):
         errors.append("index.html is missing review-stage noindex meta.")
