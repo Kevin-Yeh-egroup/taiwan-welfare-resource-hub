@@ -448,6 +448,297 @@
       }
     },
     {
+      "id": "mohw-low-income-115-standards",
+      "name": "115年度低收入戶、中低收入戶資格審核標準",
+      "url": "https://dep.mohw.gov.tw/dosaasw/fp-566-84223-103.html",
+      "organization": "衛生福利部社會救助及社工司",
+      "jurisdiction": "全國",
+      "sourceType": "official-annual-standard",
+      "tags": [
+        "中央",
+        "低收入戶",
+        "中低收入戶",
+        "115年度",
+        "資格標準",
+        "社會救助"
+      ],
+      "record": {
+        "summary": "115年度低收入戶與中低收入戶資格審核標準，含各地區每人每月平均所得、動產與不動產限額。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭",
+          "一般民眾"
+        ],
+        "serviceCategories": [
+          "年度標準",
+          "社會救助",
+          "現金與生活扶助"
+        ],
+        "needTags": [
+          "115年低收標準",
+          "低收入戶資格",
+          "中低收入戶資格",
+          "所得標準",
+          "財產標準",
+          "社會救助"
+        ],
+        "eligibility": "需同時看家庭總收入、動產、不動產及地方政府資格審查。115年度低收入戶每人每月所得標準例：臺北市2萬744元、新北市1萬7,750元、桃園市1萬7,186元、臺中市1萬6,431元、臺南市1萬5,515元、高雄市1萬6,970元；中低收入戶標準例：臺北市2萬9,635元、新北市2萬6,625元、臺中市2萬4,647元、臺南市2萬3,273元。",
+        "howToApply": [
+          "先查看115年度標準是否大致符合",
+          "向戶籍地或實際居住地公所/社會局處提出申請",
+          "由地方政府依戶內人口、收入、動產、不動產及相關規定審查"
+        ],
+        "documents": [
+          "申請表",
+          "身分證明",
+          "戶籍資料",
+          "收入證明",
+          "存款或投資資料",
+          "不動產資料",
+          "地方政府要求文件"
+        ],
+        "contact": {
+          "website": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        "id": "mohw-low-income-115-standards",
+        "name": "115年度低收入戶、中低收入戶資格審核標準",
+        "provider": "衛生福利部社會救助及社工司",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "mohw-low-income-faq",
+      "name": "低收入戶與中低收入戶申請常見問答",
+      "url": "https://dep.mohw.gov.tw/dosaasw/cp-572-5035-103.html",
+      "organization": "衛生福利部社會救助及社工司",
+      "jurisdiction": "全國",
+      "sourceType": "official-faq",
+      "tags": [
+        "中央",
+        "低收入戶",
+        "中低收入戶",
+        "常見問答",
+        "申請文件"
+      ],
+      "record": {
+        "summary": "低收入戶、中低收入戶資格、應備文件、申請地點、戶籍與實際居住地、審查與救濟等常見問答。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭",
+          "一般民眾"
+        ],
+        "serviceCategories": [
+          "申請資訊",
+          "社會救助",
+          "補助查詢"
+        ],
+        "needTags": [
+          "低收入戶怎麼申請",
+          "中低收入戶怎麼申請",
+          "申請文件",
+          "資格審查",
+          "戶籍地",
+          "實際居住地"
+        ],
+        "eligibility": "此頁不是資格表，而是申請與審查說明。資格仍需依年度標準與地方政府審查。",
+        "howToApply": [
+          "先確認戶籍或實際居住地受理規定",
+          "準備申請文件",
+          "向公所或社會局處送件",
+          "如對審查結果有疑問，依頁面說明詢問或救濟"
+        ],
+        "documents": [
+          "申請書",
+          "戶籍資料",
+          "收入及財產證明",
+          "其他地方政府要求文件"
+        ],
+        "id": "mohw-low-income-faq",
+        "name": "低收入戶與中低收入戶申請常見問答",
+        "provider": "衛生福利部社會救助及社工司",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "mohw-emergency-assistance",
+      "name": "急難救助",
+      "url": "https://www.mohw.gov.tw/cp-190-226-1.html",
+      "organization": "衛生福利部",
+      "jurisdiction": "全國",
+      "sourceType": "official-program",
+      "tags": [
+        "中央",
+        "急難救助",
+        "社會救助",
+        "經濟急難",
+        "1957"
+      ],
+      "record": {
+        "summary": "家中主要生計者死亡、失蹤、罹患重病、失業或其他急難事故，導致生活陷困時，可查急難救助申請與轉介資訊。",
+        "audiences": [
+          "急難家庭",
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭",
+          "一般民眾"
+        ],
+        "serviceCategories": [
+          "急難救助",
+          "社會救助",
+          "現金與生活扶助",
+          "福利諮詢"
+        ],
+        "needTags": [
+          "急難救助",
+          "突然沒錢",
+          "繳不出房租",
+          "生病失業",
+          "家庭變故",
+          "1957"
+        ],
+        "eligibility": "因死亡、失蹤、重病、失業、災害或其他急難事故導致生活陷困者，可依地方政府或相關救助規定申請或轉介。",
+        "howToApply": [
+          "急迫時先撥打1957或洽所在地社會局處/公所",
+          "說明急難原因與目前生活困境",
+          "依承辦窗口要求補齊證明文件"
+        ],
+        "documents": [
+          "身分證明",
+          "急難事由證明",
+          "收入或生活困難相關資料",
+          "地方政府要求文件"
+        ],
+        "contact": {
+          "phone": "1957",
+          "website": "https://www.mohw.gov.tw/cp-190-226-1.html"
+        },
+        "id": "mohw-emergency-assistance",
+        "name": "急難救助",
+        "provider": "衛生福利部",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "mohw-social-welfare-service-centers",
+      "name": "社會福利服務中心與社會安全網",
+      "url": "https://mohw.gov.tw/ss/cp-4530-50091-204.html",
+      "organization": "衛生福利部",
+      "jurisdiction": "全國",
+      "sourceType": "official-service-network",
+      "tags": [
+        "中央",
+        "社會安全網",
+        "社福中心",
+        "脆弱家庭",
+        "轉介"
+      ],
+      "record": {
+        "summary": "當家庭同時有經濟、照顧、保護、就業或心理壓力，不知道該申請哪一項福利時，可透過社福中心與社會安全網取得評估、轉介與整合服務。",
+        "audiences": [
+          "一般民眾",
+          "經濟困難家庭",
+          "脆弱家庭",
+          "急難家庭",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "社福中心",
+          "社會安全網",
+          "轉介服務",
+          "福利諮詢"
+        ],
+        "needTags": [
+          "不知道找哪裡",
+          "社福中心",
+          "社會安全網",
+          "脆弱家庭",
+          "多重困難",
+          "轉介"
+        ],
+        "eligibility": "不限單一身分。當家庭遇到多重困難或需要社工評估與資源轉介時，可洽地方社福中心、社會局處或1957。",
+        "howToApply": [
+          "說明家庭目前最急迫的問題",
+          "由社工評估需求",
+          "依需求轉介社會救助、保護服務、照顧服務、就業或心理支持"
+        ],
+        "documents": [
+          "身分證明",
+          "可協助說明困境的相關文件",
+          "依轉介服務要求文件"
+        ],
+        "contact": {
+          "phone": "1957",
+          "website": "https://mohw.gov.tw/ss/cp-4530-50091-204.html"
+        },
+        "id": "mohw-social-welfare-service-centers",
+        "name": "社會福利服務中心與社會安全網",
+        "provider": "衛生福利部",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
       "id": "tainan-welfare-map-dataset",
       "name": "臺南市社會福利地圖開放資料",
       "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",

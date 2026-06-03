@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-03T07:03:17+00:00",
+  "generatedAt": "2026-06-03T07:42:52+00:00",
   "summary": {
-    "checked": 34,
-    "changed": 33,
-    "transportWarnings": 31,
+    "checked": 38,
+    "changed": 31,
+    "transportWarnings": 35,
     "warnings": 0
   },
   "warnings": [],
@@ -29,7 +29,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:21+00:00"
+          "checkedAt": "2026-06-03T07:42:05+00:00"
         }
       ]
     },
@@ -54,7 +54,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:22+00:00"
+          "checkedAt": "2026-06-03T07:42:06+00:00"
         }
       ]
     },
@@ -79,7 +79,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:23+00:00"
+          "checkedAt": "2026-06-03T07:42:07+00:00"
         }
       ]
     },
@@ -104,7 +104,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:24+00:00"
+          "checkedAt": "2026-06-03T07:42:07+00:00"
         }
       ]
     },
@@ -126,10 +126,10 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html;charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "sslWarning": null,
-          "checkedAt": "2026-06-03T07:02:25+00:00"
+          "checkedAt": "2026-06-03T07:42:10+00:00"
         }
       ]
     },
@@ -149,12 +149,12 @@
           "finalUrl": "https://www.taiwanjobs.gov.tw/Internet/Index/index.aspx",
           "lastModified": null,
           "etag": null,
-          "contentLength": "117869",
+          "contentLength": "118673",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:27+00:00"
+          "checkedAt": "2026-06-03T07:42:11+00:00"
         }
       ]
     },
@@ -179,7 +179,107 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:28+00:00"
+          "checkedAt": "2026-06-03T07:42:12+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mohw-low-income-115-standards",
+      "name": "115年度低收入戶、中低收入戶資格審核標準",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://dep.mohw.gov.tw/dosaasw/fp-566-84223-103.html",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://dep.mohw.gov.tw/dosaasw/fp-566-84223-103.html",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "21254",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:42:13+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mohw-low-income-faq",
+      "name": "低收入戶與中低收入戶申請常見問答",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://dep.mohw.gov.tw/dosaasw/cp-572-5035-103.html",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://dep.mohw.gov.tw/dosaasw/cp-572-5035-103.html",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "44100",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:42:14+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mohw-emergency-assistance",
+      "name": "急難救助",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.mohw.gov.tw/cp-190-226-1.html",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.mohw.gov.tw/cp-190-226-1.html",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "36408",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:42:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mohw-social-welfare-service-centers",
+      "name": "社會福利服務中心與社會安全網",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://mohw.gov.tw/ss/cp-4530-50091-204.html",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://mohw.gov.tw/ss/cp-4530-50091-204.html",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "18837",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:42:23+00:00"
         }
       ]
     },
@@ -204,7 +304,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:28+00:00"
+          "checkedAt": "2026-06-03T07:42:24+00:00"
         },
         {
           "url": "https://data.tainan.gov.tw/Resource/93f35ae8-0e16-45ac-90d2-b0315889cf5f?handler=GoJson",
@@ -218,7 +318,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:29+00:00"
+          "checkedAt": "2026-06-03T07:42:26+00:00"
         }
       ]
     },
@@ -243,7 +343,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:31+00:00"
+          "checkedAt": "2026-06-03T07:42:27+00:00"
         }
       ]
     },
@@ -268,7 +368,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:31+00:00"
+          "checkedAt": "2026-06-03T07:42:28+00:00"
         }
       ]
     },
@@ -290,10 +390,10 @@
           "etag": "\"3b6628d1cc9d91:0\"",
           "contentLength": "346",
           "contentType": "text/html",
-          "changedSinceLastRun": true,
+          "changedSinceLastRun": false,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:31+00:00"
+          "checkedAt": "2026-06-03T07:42:28+00:00"
         }
       ]
     },
@@ -318,7 +418,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:32+00:00"
+          "checkedAt": "2026-06-03T07:42:29+00:00"
         }
       ]
     },
@@ -338,12 +438,12 @@
           "finalUrl": "https://dosw.gov.taipei/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "329005",
+          "contentLength": "328915",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:33+00:00"
+          "checkedAt": "2026-06-03T07:42:31+00:00"
         }
       ]
     },
@@ -368,7 +468,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:33+00:00"
+          "checkedAt": "2026-06-03T07:42:32+00:00"
         }
       ]
     },
@@ -388,12 +488,12 @@
           "finalUrl": "https://sab.tycg.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "160405",
+          "contentLength": "161158",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:45+00:00"
+          "checkedAt": "2026-06-03T07:42:32+00:00"
         }
       ]
     },
@@ -418,7 +518,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": null,
-          "checkedAt": "2026-06-03T07:02:47+00:00"
+          "checkedAt": "2026-06-03T07:42:37+00:00"
         }
       ]
     },
@@ -443,7 +543,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:52+00:00"
+          "checkedAt": "2026-06-03T07:42:37+00:00"
         }
       ]
     },
@@ -468,7 +568,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:53+00:00"
+          "checkedAt": "2026-06-03T07:42:37+00:00"
         }
       ]
     },
@@ -488,12 +588,12 @@
           "finalUrl": "https://www.society.taichung.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "107431",
+          "contentLength": "107497",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:53+00:00"
+          "checkedAt": "2026-06-03T07:42:38+00:00"
         }
       ]
     },
@@ -518,7 +618,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:54+00:00"
+          "checkedAt": "2026-06-03T07:42:39+00:00"
         }
       ]
     },
@@ -540,10 +640,10 @@
           "etag": null,
           "contentLength": "134925",
           "contentType": "text/html; charset=UTF-8",
-          "changedSinceLastRun": true,
+          "changedSinceLastRun": false,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:55+00:00"
+          "checkedAt": "2026-06-03T07:42:39+00:00"
         }
       ]
     },
@@ -565,10 +665,10 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": true,
+          "changedSinceLastRun": false,
           "error": null,
           "sslWarning": null,
-          "checkedAt": "2026-06-03T07:02:55+00:00"
+          "checkedAt": "2026-06-03T07:42:40+00:00"
         }
       ]
     },
@@ -593,7 +693,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:02:59+00:00"
+          "checkedAt": "2026-06-03T07:42:41+00:00"
         }
       ]
     },
@@ -618,7 +718,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:02+00:00"
+          "checkedAt": "2026-06-03T07:42:42+00:00"
         }
       ]
     },
@@ -643,7 +743,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:02+00:00"
+          "checkedAt": "2026-06-03T07:42:42+00:00"
         }
       ]
     },
@@ -668,7 +768,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:03+00:00"
+          "checkedAt": "2026-06-03T07:42:43+00:00"
         }
       ]
     },
@@ -693,7 +793,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:05+00:00"
+          "checkedAt": "2026-06-03T07:42:43+00:00"
         }
       ]
     },
@@ -718,7 +818,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:06+00:00"
+          "checkedAt": "2026-06-03T07:42:44+00:00"
         }
       ]
     },
@@ -743,7 +843,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:07+00:00"
+          "checkedAt": "2026-06-03T07:42:45+00:00"
         }
       ]
     },
@@ -768,7 +868,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:08+00:00"
+          "checkedAt": "2026-06-03T07:42:46+00:00"
         }
       ]
     },
@@ -793,7 +893,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:12+00:00"
+          "checkedAt": "2026-06-03T07:42:49+00:00"
         }
       ]
     },
@@ -813,12 +913,12 @@
           "finalUrl": "https://social.kinmen.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "110563",
+          "contentLength": "113162",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:15+00:00"
+          "checkedAt": "2026-06-03T07:42:50+00:00"
         }
       ]
     },
@@ -843,7 +943,7 @@
           "changedSinceLastRun": true,
           "error": null,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-03T07:03:17+00:00"
+          "checkedAt": "2026-06-03T07:42:52+00:00"
         }
       ]
     }

@@ -1,0 +1,83 @@
+# Coverage Audit - 2026-06-03
+
+This audit checks the current V1 resource hub against official Taiwan welfare sources, with emphasis on central resources, county/city coverage, and common questions from economically vulnerable residents.
+
+## Current Coverage
+
+- Current dataset after the P0 follow-up: 56 resource records, 37 sources.
+- County/city coverage: all 22 Taiwan county/city social welfare authorities are present as official local-government entry records.
+- Central coverage already present: MOHW welfare e-box, 1957 welfare hotline, MOHW low-income/middle-low-income page, 115 annual low-income/middle-low-income standards, low-income/middle-low-income FAQ, emergency assistance, social welfare service centers/social safety net, 1966 long-term care, NHI premium subsidy dataset, TaiwanJobs, disability employment resources.
+
+## Main Finding
+
+V1 is complete as an official-entry directory, but not yet complete as a resident-ready welfare answer tool.
+
+The largest gap is not missing county governments. The gap is that many high-frequency questions are only reachable through broad portals, not as direct resource cards with current-year eligibility, documents, application location, and action wording.
+
+## High-Priority Missing Or Thin Central Records
+
+| Priority | Missing or thin resource | Why it matters | Official source checked |
+| --- | --- | --- | --- |
+| P0 | 115年度低收入戶、中低收入戶資格審核標準 | Residents ask "do I qualify this year?" before they know which office to call. This should be a standalone, searchable card. | https://dep.mohw.gov.tw/dosaasw/fp-566-84223-103.html |
+| P0 | Social assistance FAQ for low-income/middle-low-income applications | Explains income threshold logic, documents, actual residence requirement, review process, and appeal. Current site only points to the broad page. | https://dep.mohw.gov.tw/dosaasw/cp-572-5035-103.html |
+| P0 | Emergency assistance / urgent relief | Economic-crisis users often need immediate aid, not annual qualification identity. | https://www.mohw.gov.tw/cp-190-226-1.html |
+| P0 | Social welfare service centers / social safety net | Useful when the user has multiple problems and does not know which single subsidy applies. | https://mohw.gov.tw/ss/cp-4530-50091-204.html |
+| P1 | National Pension premium subsidy and 115 premium amounts | Low-income and middle-low-income status affects national pension premium burden. | https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html |
+| P1 | Low-income and middle-low-income housing subsidy | Housing/rent is a common pressure point and is cross-ministry, so users may not find it through MOHW alone. | https://www.nlma.gov.tw/ch/legislation/regsearch/1250 |
+| P1 | Special circumstances family assistance | Important for single-parent, domestic violence, bereavement, pregnancy, and sudden-crisis households. | https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html |
+| P1 | Disability welfare page and assistive-device resources | Current dataset has county entries and disability employment, but not a citizen-friendly central disability welfare card. | https://www.mohw.gov.tw/cp-88-235-1.html |
+| P1 | Childcare services and childcare subsidy | Parents often search by "托育", "育兒", "保母", not by social bureau name. | https://mohw.gov.tw/fp-88-230-1.html |
+| P2 | Elderly welfare and middle-low-income elderly living allowance | Existing long-term-care card is not enough for cash allowance and elderly local resource questions. | https://www.mohw.gov.tw/cp-88-224-1.html |
+| P2 | My E-Government local application service pages | Some local low-income application pages contain documents, processing time, and office contacts; coverage is uneven but useful for V2. | https://www.gov.tw/ |
+
+## Low-Income / Middle-Low-Income Current-Year Finding
+
+The current hub has a "低收入戶及中低收入戶" card, but it does not expose the 115年度 thresholds directly.
+
+For 115年度, MOHW publishes a one-page official standard table. It includes separate income, movable-property, and real-estate limits for Taiwan Province, Taipei, New Taipei, Taoyuan, Taichung, Tainan, Kaohsiung, and Fujian Province. The hub should make this visible as a table or calculator-like guide, with a clear warning that final review still depends on local government review and household composition.
+
+## County / City Coverage Finding
+
+No county/city social welfare authority is missing at the entry level.
+
+What is still missing:
+
+- direct low-income/middle-low-income application pages for each city/county or district office;
+- local emergency assistance pages;
+- local disability living allowance pages;
+- local elderly living allowance pages;
+- local special-circumstances family pages;
+- local childcare and child/youth assistance pages;
+- open-data rows outside Tainan where available.
+
+The practical next step is not to add more generic county cards. It is to add program-level county cards only when the source page has specific application, eligibility, document, or contact details.
+
+## Product / Usability Review
+
+Current strengths:
+
+- The first screen is a real search tool, not a landing page.
+- Search works by everyday keywords and county/category filters.
+- Cards have citizen-facing labels: who it is for, how to use, documents, contact, source.
+- noindex review posture is correct for a public-but-not-final resource.
+
+Current friction:
+
+- Users who search "低收入戶資格", "115年低收標準", "急難救助", "租屋補助", "國民年金補助" may get broad portals instead of a direct answer.
+- The "官方入口" status is honest, but ordinary users may perceive it as less helpful than "可直接申請 / 有年度標準 / 有電話".
+- County cards are broad and repeated; they help coverage but can make the result list feel generic.
+- There is no "我現在遇到什麼狀況?" guided path, such as "沒錢吃飯/繳房租", "想申請低收入戶", "突然失業或生病", "有小孩", "照顧老人/身障家人".
+
+## Recommended V2
+
+1. Add the remaining P1 central records as standalone cards before adding more local pages.
+2. Add a "經濟弱勢快速入口" section above results with four paths: 低收/中低收資格, 急難救助, 房租/住宅, 保費/醫療.
+3. Add a 115年度低收/中低收 threshold table and link to the MOHW PDF/source page.
+4. Tag source types more clearly: "年度標準", "可申辦", "諮詢轉介", "地方入口", "開放資料".
+5. For county V2, add local program cards only when a page has concrete details. Avoid duplicating broad bureau homepages.
+
+## P0 Follow-Up Implemented
+
+- Added standalone central cards for 115年度低收入戶/中低收入戶資格審核標準, low-income/middle-low-income FAQ, 急難救助, and 社會福利服務中心/社會安全網.
+- Updated quick-search buttons toward economic-vulnerability questions: low-income/middle-low-income, 115 annual standard, emergency aid, social welfare center, and premium subsidy.
+- Rebuilt the data pipeline with 56 records, 37 sources, 38 freshness URLs, and 0 freshness warnings.
