@@ -1,25 +1,20 @@
 {
-  "generatedAt": "2026-06-02T09:12:55+00:00",
+  "generatedAt": "2026-06-03T07:03:17+00:00",
   "summary": {
-    "checked": 6,
-    "changed": 0,
-    "warnings": 1
+    "checked": 34,
+    "changed": 33,
+    "transportWarnings": 31,
+    "warnings": 0
   },
-  "warnings": [
-    {
-      "level": "warning",
-      "sourceId": "taipei-welfare-map",
-      "message": "One or more URLs failed freshness check."
-    }
-  ],
+  "warnings": [],
   "sources": [
     {
       "id": "mohw-ebao-box",
       "name": "衛生福利e寶箱",
       "jurisdiction": "全國",
       "refreshPolicy": {
-        "normalDays": 30,
-        "crossYearDays": 7
+        "normalDays": 14,
+        "crossYearDays": 3
       },
       "entries": [
         {
@@ -31,9 +26,160 @@
           "etag": null,
           "contentLength": "29387",
           "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:21+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mohw-1957",
+      "name": "1957福利諮詢專線",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.mohw.gov.tw/cp-16-22804-1.html",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.mohw.gov.tw/cp-16-22804-1.html",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "31373",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mohw-low-income",
+      "name": "低收入戶及中低收入戶",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.mohw.gov.tw/cp-88-79005-1.html",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "32372",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mohw-long-term-care-1966",
+      "name": "1966長照服務專線與長照2.0",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.mohw.gov.tw/fp-16-63417-1.html",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.mohw.gov.tw/fp-16-63417-1.html",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "6265",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:24+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nhi-premium-subsidy",
+      "name": "各級政府辦理保險對象健保費補助項目",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://data.gov.tw/dataset/106333",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://data.gov.tw/dataset/106333",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html;charset=utf-8",
           "changedSinceLastRun": false,
           "error": null,
-          "checkedAt": "2026-06-02T09:12:52+00:00"
+          "sslWarning": null,
+          "checkedAt": "2026-06-03T07:02:25+00:00"
+        }
+      ]
+    },
+    {
+      "id": "taiwanjobs",
+      "name": "台灣就業通",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.taiwanjobs.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.taiwanjobs.gov.tw/Internet/Index/index.aspx",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "117869",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:27+00:00"
+        }
+      ]
+    },
+    {
+      "id": "wda-disability-employment",
+      "name": "身心障礙者就業資源網",
+      "jurisdiction": "全國",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://orsd.wda.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://orsd.wda.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "95474",
+          "contentType": "text/html; charset=UTF-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:28+00:00"
         }
       ]
     },
@@ -55,9 +201,10 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
-          "checkedAt": "2026-06-02T09:12:52+00:00"
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:28+00:00"
         },
         {
           "url": "https://data.tainan.gov.tw/Resource/93f35ae8-0e16-45ac-90d2-b0315889cf5f?handler=GoJson",
@@ -68,9 +215,10 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
-          "checkedAt": "2026-06-02T09:12:53+00:00"
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:29+00:00"
         }
       ]
     },
@@ -92,9 +240,10 @@
           "etag": null,
           "contentLength": "15936",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
-          "checkedAt": "2026-06-02T09:12:54+00:00"
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:31+00:00"
         }
       ]
     },
@@ -116,9 +265,10 @@
           "etag": null,
           "contentLength": "5314",
           "contentType": "text/html; Charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
-          "checkedAt": "2026-06-02T09:12:54+00:00"
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:31+00:00"
         }
       ]
     },
@@ -133,16 +283,567 @@
       "entries": [
         {
           "url": "https://map.dosw.gov.taipei/",
-          "ok": false,
-          "status": null,
-          "finalUrl": null,
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://map.dosw.gov.taipei/",
+          "lastModified": "Mon, 07 Aug 2023 08:54:47 GMT",
+          "etag": "\"3b6628d1cc9d91:0\"",
+          "contentLength": "346",
+          "contentType": "text/html",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:31+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-keelung-social",
+      "name": "基隆市政府社會處",
+      "jurisdiction": "基隆市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.klcg.gov.tw/tw/social",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.klcg.gov.tw/tw/social",
           "lastModified": null,
           "etag": null,
           "contentLength": null,
-          "contentType": null,
-          "changedSinceLastRun": false,
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-          "checkedAt": "2026-06-02T09:12:54+00:00"
+          "contentType": "text/html",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:32+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-taipei-social",
+      "name": "臺北市政府社會局",
+      "jurisdiction": "臺北市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://dosw.gov.taipei/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://dosw.gov.taipei/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "329005",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-new-taipei-social",
+      "name": "新北市政府社會局",
+      "jurisdiction": "新北市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.sw.ntpc.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.sw.ntpc.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-taoyuan-social",
+      "name": "桃園市政府社會局",
+      "jurisdiction": "桃園市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "http://sab.tycg.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sab.tycg.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "160405",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:45+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-hsinchu-city-social",
+      "name": "新竹市政府社會處",
+      "jurisdiction": "新竹市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://society.hccg.gov.tw/ch/index.jsp",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://society.hccg.gov.tw/ch/index.jsp",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=UTF-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": null,
+          "checkedAt": "2026-06-03T07:02:47+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-hsinchu-county-social",
+      "name": "新竹縣政府社會處",
+      "jurisdiction": "新竹縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://social.hsinchu.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://social.hsinchu.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "120892",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:52+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-miaoli-social",
+      "name": "苗栗縣政府社會處",
+      "jurisdiction": "苗栗縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.miaoli.gov.tw/social_affairs/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.miaoli.gov.tw/social_affairs/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "90456",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:53+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-taichung-social",
+      "name": "臺中市政府社會局",
+      "jurisdiction": "臺中市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.society.taichung.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.society.taichung.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "107431",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:53+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-changhua-social",
+      "name": "彰化縣政府社會處",
+      "jurisdiction": "彰化縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://social.chcg.gov.tw/00home/index1.asp",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.chcg.gov.tw/DTO/social/00home/index03.aspx",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "92859",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:54+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-nantou-social-labor",
+      "name": "南投縣政府社會及勞動處",
+      "jurisdiction": "南投縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.nantou.gov.tw/big5/index.asp?dptid=376480000au130000",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.nantou.gov.tw/big5/index.php",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "134925",
+          "contentType": "text/html; charset=UTF-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:55+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-yunlin-social",
+      "name": "雲林縣政府社會處",
+      "jurisdiction": "雲林縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://social.yunlin.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://social.yunlin.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": null,
+          "checkedAt": "2026-06-03T07:02:55+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-chiayi-city-social",
+      "name": "嘉義市政府社會處",
+      "jurisdiction": "嘉義市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.chiayi.gov.tw/web/social/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.chiayi.gov.tw/Default.aspx",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:02:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-chiayi-county-social",
+      "name": "嘉義縣政府社會局",
+      "jurisdiction": "嘉義縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sabcc.cyhg.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sabcc.cyhg.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "164122",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:02+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-tainan-social",
+      "name": "臺南市政府社會局",
+      "jurisdiction": "臺南市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sab.tainan.gov.tw/Default.aspx",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sab.tainan.gov.tw/Default.aspx",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "220516",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:02+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-kaohsiung-social",
+      "name": "高雄市政府社會局",
+      "jurisdiction": "高雄市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "http://socbu.kcg.gov.tw/index.php",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://socbu.kcg.gov.tw/index.php",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=UTF-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:03+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-pingtung-social",
+      "name": "屏東縣政府社會處",
+      "jurisdiction": "屏東縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.pthg.gov.tw/planjdp/Default.aspx",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.pthg.gov.tw/planjdp/Default.aspx",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:05+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-yilan-social",
+      "name": "宜蘭縣政府社會處",
+      "jurisdiction": "宜蘭縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sntroot.e-land.gov.tw/Default.aspx",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sntroot.e-land.gov.tw/Default.aspx",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "104747",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:06+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-hualien-social",
+      "name": "花蓮縣政府社會處",
+      "jurisdiction": "花蓮縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sa.hl.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sa.hl.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "47996",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:07+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-taitung-social",
+      "name": "臺東縣政府社會處",
+      "jurisdiction": "臺東縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "http://taisoc.taitung.gov.tw/WebSite/Page/index.aspx",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://taisoc.taitung.gov.tw/WebSite/Page/index.aspx",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "45370",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:08+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-penghu-social",
+      "name": "澎湖縣政府社會處",
+      "jurisdiction": "澎湖縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.penghu.gov.tw/society/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.penghu.gov.tw/society/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=UTF-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:12+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-kinmen-social",
+      "name": "金門縣政府社會處",
+      "jurisdiction": "金門縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://social.kinmen.gov.tw/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://social.kinmen.gov.tw/",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "110563",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:15+00:00"
+        }
+      ]
+    },
+    {
+      "id": "county-lienchiang-civil-social",
+      "name": "連江縣政府民政社會處",
+      "jurisdiction": "連江縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.matsu.gov.tw/Chhtml/Index/371030000A0001",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.matsu.gov.tw/Chhtml/Index/371030000A0001",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "100577",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-03T07:03:17+00:00"
         }
       ]
     }

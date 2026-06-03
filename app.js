@@ -8,6 +8,7 @@ const state = {
 };
 
 const labels = {
+  "official-entry": "官方入口",
   "source-dated": "來源有日期",
   checked: "已檢查",
   "needs-review": "需人工確認"
@@ -177,7 +178,7 @@ function render() {
 
 function updateStats(records) {
   els.recordTotal.textContent = records.length;
-  els.countyTotal.textContent = uniqueSorted(records.map((record) => record.county)).length;
+  els.countyTotal.textContent = uniqueSorted(records.map((record) => record.county).filter((county) => county !== "全國")).length;
   els.reviewTotal.textContent = records.filter((record) => record.freshness?.confidence === "needs-review").length;
 }
 

@@ -338,6 +338,7 @@ button:hover {
   color: var(--muted);
 }
 
+.status-pill.official-entry,
 .status-pill.source-dated,
 .status-pill.checked {
   background: var(--teal-soft);

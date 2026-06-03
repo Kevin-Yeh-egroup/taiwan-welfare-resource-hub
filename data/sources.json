@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-02",
-  "note": "Initial seed set from web research. Kevin-provided source documents were not present at the listed Downloads paths during setup.",
+  "generatedAt": "2026-06-03",
+  "note": "Official-source registry for Taiwan welfare resource coverage. Raw Kevin-provided source documents were not available locally during generation.",
   "sourceDocuments": [
     {
       "path": "C:/Users/Kevin/Downloads/民國114年12月29日，完成社福資源資料庫建置耗時17分鐘。_20251229102216631.pdf",
@@ -12,6 +12,18 @@
     },
     {
       "path": "C:/Users/Kevin/Downloads/民國115年2月7日，完成社福資源資料庫建置耗時93分鐘。_20260222123856072.pdf",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/民國115年2月9日，完成社福資源資料庫建置耗時111分鐘。_20260222123848776.docx",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/民國115年2月22日，完成社福資源資料庫建置耗時78分鐘。_20260223094133022.docx",
+      "status": "missing"
+    },
+    {
+      "path": "C:/Users/Kevin/Downloads/民國115年2月23日，完成社福資源資料庫建置耗時91分鐘。_20260223094149653.docx",
       "status": "missing"
     },
     {
@@ -39,19 +51,408 @@
       "organization": "衛生福利部",
       "jurisdiction": "全國",
       "sourceType": "official-portal",
-      "crawl": true,
-      "crawlDepth": 1,
-      "refreshPolicy": {
-        "normalDays": 30,
-        "crossYearDays": 7
+      "tags": [
+        "中央",
+        "主題式",
+        "分眾",
+        "社會福利"
+      ],
+      "record": {
+        "summary": "中央整合型入口，可依主題與服務對象查詢衛生醫療與社會福利資源。",
+        "serviceCategories": [
+          "入口平台",
+          "補助查詢",
+          "線上申辦",
+          "社福宣導"
+        ],
+        "audiences": [
+          "兒少",
+          "老人",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "needTags": [
+          "不知道找哪個單位",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "id": "mohw-ebao-box",
+        "name": "衛生福利e寶箱",
+        "provider": "衛生福利部",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
       },
-      "tags": ["中央", "主題式", "分眾", "社會福利"]
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "mohw-1957",
+      "name": "1957福利諮詢專線",
+      "url": "https://www.mohw.gov.tw/cp-16-22804-1.html",
+      "organization": "衛生福利部",
+      "jurisdiction": "全國",
+      "sourceType": "official-hotline",
+      "tags": [
+        "中央",
+        "1957",
+        "福利諮詢",
+        "社會安全網",
+        "轉介"
+      ],
+      "record": {
+        "summary": "生活遭遇困難時，可撥打1957取得社會福利諮詢、通報與轉介服務。",
+        "audiences": [
+          "一般民眾",
+          "低收入戶",
+          "急難家庭",
+          "街友",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "福利諮詢",
+          "急難轉介",
+          "社會安全網"
+        ],
+        "needTags": [
+          "不知道找哪裡",
+          "急難",
+          "社工",
+          "轉介",
+          "1957"
+        ],
+        "contact": {
+          "phone": "1957",
+          "website": "https://www.mohw.gov.tw/cp-16-22804-1.html"
+        },
+        "id": "mohw-1957",
+        "name": "1957福利諮詢專線",
+        "provider": "衛生福利部",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "mohw-low-income",
+      "name": "低收入戶及中低收入戶",
+      "url": "https://www.mohw.gov.tw/cp-88-79005-1.html",
+      "organization": "衛生福利部",
+      "jurisdiction": "全國",
+      "sourceType": "official-program",
+      "tags": [
+        "中央",
+        "低收入戶",
+        "中低收入戶",
+        "社會救助",
+        "醫療補助"
+      ],
+      "record": {
+        "summary": "低收入戶、中低收入戶申請說明、福利內容與常見問題官方入口。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭"
+        ],
+        "serviceCategories": [
+          "現金與生活扶助",
+          "醫療補助",
+          "社會救助"
+        ],
+        "needTags": [
+          "低收入戶",
+          "中低收入戶",
+          "生活補助",
+          "醫療補助",
+          "1957"
+        ],
+        "id": "mohw-low-income",
+        "name": "低收入戶及中低收入戶",
+        "provider": "衛生福利部",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "mohw-long-term-care-1966",
+      "name": "1966長照服務專線與長照2.0",
+      "url": "https://www.mohw.gov.tw/fp-16-63417-1.html",
+      "organization": "衛生福利部",
+      "jurisdiction": "全國",
+      "sourceType": "official-program",
+      "tags": [
+        "中央",
+        "長照",
+        "1966",
+        "照顧服務",
+        "喘息",
+        "輔具",
+        "交通接送"
+      ],
+      "record": {
+        "summary": "有長照需求可撥打1966，由地方照管中心評估並連結長照2.0服務。",
+        "audiences": [
+          "老人",
+          "失能者",
+          "家庭照顧者",
+          "身心障礙者"
+        ],
+        "serviceCategories": [
+          "長照",
+          "居家照顧",
+          "喘息服務",
+          "輔具",
+          "交通接送"
+        ],
+        "needTags": [
+          "1966",
+          "長照",
+          "失能",
+          "喘息",
+          "輔具",
+          "交通接送",
+          "照管中心"
+        ],
+        "contact": {
+          "phone": "1966",
+          "website": "https://www.mohw.gov.tw/fp-16-63417-1.html"
+        },
+        "id": "mohw-long-term-care-1966",
+        "name": "1966長照服務專線與長照2.0",
+        "provider": "衛生福利部",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "nhi-premium-subsidy",
+      "name": "各級政府辦理保險對象健保費補助項目",
+      "url": "https://data.gov.tw/dataset/106333",
+      "organization": "衛生福利部中央健康保險署",
+      "jurisdiction": "全國",
+      "sourceType": "official-program",
+      "tags": [
+        "中央",
+        "健保",
+        "保費補助",
+        "弱勢協助"
+      ],
+      "record": {
+        "summary": "健保署彙整各級政府辦理的保險對象健保費補助項目。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "身心障礙者",
+          "老人",
+          "失業勞工"
+        ],
+        "serviceCategories": [
+          "醫療與健保",
+          "保費補助"
+        ],
+        "needTags": [
+          "健保費",
+          "保費補助",
+          "身心障礙",
+          "低收入戶",
+          "中低收入戶"
+        ],
+        "contact": {
+          "website": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        "id": "nhi-premium-subsidy",
+        "name": "各級政府辦理保險對象健保費補助項目",
+        "provider": "衛生福利部中央健康保險署",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "taiwanjobs",
+      "name": "台灣就業通",
+      "url": "https://www.taiwanjobs.gov.tw/",
+      "organization": "勞動部勞動力發展署",
+      "jurisdiction": "全國",
+      "sourceType": "official-portal",
+      "tags": [
+        "中央",
+        "勞動部",
+        "就業",
+        "職訓",
+        "求職"
+      ],
+      "record": {
+        "summary": "勞動部求職、職訓、就業服務與相關就業促進資訊入口。",
+        "audiences": [
+          "求職者",
+          "失業者",
+          "中高齡者",
+          "青年",
+          "身心障礙者"
+        ],
+        "serviceCategories": [
+          "就業與職訓",
+          "求職服務",
+          "職業訓練"
+        ],
+        "needTags": [
+          "找工作",
+          "職訓",
+          "失業",
+          "就業服務",
+          "台灣就業通"
+        ],
+        "id": "taiwanjobs",
+        "name": "台灣就業通",
+        "provider": "勞動部勞動力發展署",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "wda-disability-employment",
+      "name": "身心障礙者就業資源網",
+      "url": "https://orsd.wda.gov.tw/",
+      "organization": "勞動部勞動力發展署",
+      "jurisdiction": "全國",
+      "sourceType": "official-portal",
+      "tags": [
+        "中央",
+        "勞動部",
+        "身心障礙",
+        "就業",
+        "職業重建"
+      ],
+      "record": {
+        "summary": "身心障礙者職業重建、就業服務與職業訓練資源入口。",
+        "audiences": [
+          "身心障礙者",
+          "求職者",
+          "雇主"
+        ],
+        "serviceCategories": [
+          "就業與職訓",
+          "身障服務",
+          "職業重建"
+        ],
+        "needTags": [
+          "身障就業",
+          "職業重建",
+          "職訓",
+          "就業服務"
+        ],
+        "id": "wda-disability-employment",
+        "name": "身心障礙者就業資源網",
+        "provider": "勞動部勞動力發展署",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
     },
     {
       "id": "tainan-welfare-map-dataset",
       "name": "臺南市社會福利地圖開放資料",
       "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
       "resourceUrl": "https://data.tainan.gov.tw/Resource/93f35ae8-0e16-45ac-90d2-b0315889cf5f?handler=GoJson",
+      "allowInsecureSslFallback": true,
       "organization": "臺南市政府社會局",
       "jurisdiction": "臺南市",
       "sourceType": "official-open-data",
@@ -62,7 +463,12 @@
         "normalDays": 30,
         "crossYearDays": 3
       },
-      "tags": ["地方政府", "開放資料", "地圖", "臺南"]
+      "tags": [
+        "地方政府",
+        "開放資料",
+        "地圖",
+        "臺南"
+      ]
     },
     {
       "id": "tainan-welfare-map",
@@ -71,13 +477,56 @@
       "organization": "臺南市政府社會局",
       "jurisdiction": "臺南市",
       "sourceType": "official-map",
+      "tags": [
+        "地方政府",
+        "地圖",
+        "臺南",
+        "行政區"
+      ],
+      "record": {
+        "summary": "以服務對象、服務類別、行政區與距離查找臺南市福利資源。",
+        "audiences": [
+          "老人",
+          "婦女",
+          "兒童少年",
+          "身心障礙者",
+          "家庭",
+          "災害需求者"
+        ],
+        "serviceCategories": [
+          "地圖查詢",
+          "社福及社區",
+          "長照",
+          "災害救助"
+        ],
+        "needTags": [
+          "臺南",
+          "地圖",
+          "附近據點",
+          "老人福利",
+          "身障",
+          "家庭福利"
+        ],
+        "id": "tainan-welfare-map",
+        "name": "臺南市福利地圖",
+        "provider": "臺南市政府社會局",
+        "jurisdiction": "臺南市",
+        "county": "臺南市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
       "crawl": true,
-      "crawlDepth": 1,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
       "refreshPolicy": {
         "normalDays": 14,
         "crossYearDays": 3
-      },
-      "tags": ["地方政府", "地圖", "臺南", "行政區"]
+      }
     },
     {
       "id": "taichung-welfare-network",
@@ -86,13 +535,51 @@
       "organization": "臺中市政府社會局",
       "jurisdiction": "臺中市",
       "sourceType": "official-portal",
+      "tags": [
+        "地方政府",
+        "資源網",
+        "臺中"
+      ],
+      "record": {
+        "summary": "臺中市整合服務中心、社福便利站與身障便利通等入口。",
+        "audiences": [
+          "兒少",
+          "婦女",
+          "老人",
+          "身心障礙者"
+        ],
+        "serviceCategories": [
+          "服務中心",
+          "據點查詢",
+          "身障生活",
+          "申請資訊"
+        ],
+        "needTags": [
+          "臺中",
+          "社福便利站",
+          "身障便利通",
+          "服務中心"
+        ],
+        "id": "taichung-welfare-network",
+        "name": "臺中市社會福利服務資源網",
+        "provider": "臺中市政府社會局",
+        "jurisdiction": "臺中市",
+        "county": "臺中市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
       "crawl": true,
-      "crawlDepth": 1,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
       "refreshPolicy": {
         "normalDays": 14,
         "crossYearDays": 3
-      },
-      "tags": ["地方政府", "資源網", "臺中"]
+      }
     },
     {
       "id": "taipei-welfare-map",
@@ -101,13 +588,1708 @@
       "organization": "臺北市政府社會局",
       "jurisdiction": "臺北市",
       "sourceType": "official-map",
+      "tags": [
+        "地方政府",
+        "地圖",
+        "臺北",
+        "社福設施"
+      ],
+      "record": {
+        "summary": "以地圖查找臺北市各類型福利機構及設施。",
+        "audiences": [
+          "嬰幼兒",
+          "兒童少年",
+          "老人",
+          "身心障礙者",
+          "婦女",
+          "單親",
+          "新移民"
+        ],
+        "serviceCategories": [
+          "地圖查詢",
+          "照顧服務",
+          "托育",
+          "身障機構",
+          "樂齡學堂"
+        ],
+        "needTags": [
+          "臺北",
+          "附近機構",
+          "托育",
+          "長照",
+          "身障",
+          "樂齡"
+        ],
+        "id": "taipei-welfare-map",
+        "name": "臺北市社福設施地圖資訊網",
+        "provider": "臺北市政府社會局",
+        "jurisdiction": "臺北市",
+        "county": "臺北市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
       "crawl": true,
-      "crawlDepth": 1,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
       "refreshPolicy": {
         "normalDays": 14,
         "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-keelung-social",
+      "name": "基隆市政府社會處",
+      "url": "https://www.klcg.gov.tw/tw/social",
+      "organization": "基隆市政府社會處",
+      "jurisdiction": "基隆市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "基隆市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "基隆市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "基隆市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-keelung-social",
+        "name": "基隆市政府社會處",
+        "provider": "基隆市政府社會處",
+        "jurisdiction": "基隆市",
+        "county": "基隆市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
       },
-      "tags": ["地方政府", "地圖", "臺北", "社福設施"]
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-taipei-social",
+      "name": "臺北市政府社會局",
+      "url": "https://dosw.gov.taipei/",
+      "organization": "臺北市政府社會局",
+      "jurisdiction": "臺北市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "臺北市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "臺北市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "臺北市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-taipei-social",
+        "name": "臺北市政府社會局",
+        "provider": "臺北市政府社會局",
+        "jurisdiction": "臺北市",
+        "county": "臺北市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-new-taipei-social",
+      "name": "新北市政府社會局",
+      "url": "https://www.sw.ntpc.gov.tw/",
+      "organization": "新北市政府社會局",
+      "jurisdiction": "新北市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "新北市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "新北市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "新北市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-new-taipei-social",
+        "name": "新北市政府社會局",
+        "provider": "新北市政府社會局",
+        "jurisdiction": "新北市",
+        "county": "新北市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-taoyuan-social",
+      "name": "桃園市政府社會局",
+      "url": "http://sab.tycg.gov.tw/",
+      "organization": "桃園市政府社會局",
+      "jurisdiction": "桃園市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "桃園市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "桃園市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "桃園市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-taoyuan-social",
+        "name": "桃園市政府社會局",
+        "provider": "桃園市政府社會局",
+        "jurisdiction": "桃園市",
+        "county": "桃園市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-hsinchu-city-social",
+      "name": "新竹市政府社會處",
+      "url": "https://society.hccg.gov.tw/ch/index.jsp",
+      "organization": "新竹市政府社會處",
+      "jurisdiction": "新竹市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "新竹市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "新竹市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "新竹市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-hsinchu-city-social",
+        "name": "新竹市政府社會處",
+        "provider": "新竹市政府社會處",
+        "jurisdiction": "新竹市",
+        "county": "新竹市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-hsinchu-county-social",
+      "name": "新竹縣政府社會處",
+      "url": "https://social.hsinchu.gov.tw/",
+      "organization": "新竹縣政府社會處",
+      "jurisdiction": "新竹縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "新竹縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "新竹縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "新竹縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-hsinchu-county-social",
+        "name": "新竹縣政府社會處",
+        "provider": "新竹縣政府社會處",
+        "jurisdiction": "新竹縣",
+        "county": "新竹縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-miaoli-social",
+      "name": "苗栗縣政府社會處",
+      "url": "https://www.miaoli.gov.tw/social_affairs/",
+      "organization": "苗栗縣政府社會處",
+      "jurisdiction": "苗栗縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "苗栗縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "苗栗縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "苗栗縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-miaoli-social",
+        "name": "苗栗縣政府社會處",
+        "provider": "苗栗縣政府社會處",
+        "jurisdiction": "苗栗縣",
+        "county": "苗栗縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-taichung-social",
+      "name": "臺中市政府社會局",
+      "url": "https://www.society.taichung.gov.tw/",
+      "organization": "臺中市政府社會局",
+      "jurisdiction": "臺中市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "臺中市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "臺中市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "臺中市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-taichung-social",
+        "name": "臺中市政府社會局",
+        "provider": "臺中市政府社會局",
+        "jurisdiction": "臺中市",
+        "county": "臺中市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-changhua-social",
+      "name": "彰化縣政府社會處",
+      "url": "https://social.chcg.gov.tw/00home/index1.asp",
+      "organization": "彰化縣政府社會處",
+      "jurisdiction": "彰化縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "彰化縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "彰化縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "彰化縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-changhua-social",
+        "name": "彰化縣政府社會處",
+        "provider": "彰化縣政府社會處",
+        "jurisdiction": "彰化縣",
+        "county": "彰化縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-nantou-social-labor",
+      "name": "南投縣政府社會及勞動處",
+      "url": "https://www.nantou.gov.tw/big5/index.asp?dptid=376480000au130000",
+      "organization": "南投縣政府社會及勞動處",
+      "jurisdiction": "南投縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "南投縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "南投縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "南投縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-nantou-social-labor",
+        "name": "南投縣政府社會及勞動處",
+        "provider": "南投縣政府社會及勞動處",
+        "jurisdiction": "南投縣",
+        "county": "南投縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-yunlin-social",
+      "name": "雲林縣政府社會處",
+      "url": "https://social.yunlin.gov.tw/",
+      "organization": "雲林縣政府社會處",
+      "jurisdiction": "雲林縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "雲林縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "雲林縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "雲林縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-yunlin-social",
+        "name": "雲林縣政府社會處",
+        "provider": "雲林縣政府社會處",
+        "jurisdiction": "雲林縣",
+        "county": "雲林縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-chiayi-city-social",
+      "name": "嘉義市政府社會處",
+      "url": "https://www.chiayi.gov.tw/web/social/",
+      "organization": "嘉義市政府社會處",
+      "jurisdiction": "嘉義市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "嘉義市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "嘉義市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "嘉義市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-chiayi-city-social",
+        "name": "嘉義市政府社會處",
+        "provider": "嘉義市政府社會處",
+        "jurisdiction": "嘉義市",
+        "county": "嘉義市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-chiayi-county-social",
+      "name": "嘉義縣政府社會局",
+      "url": "https://sabcc.cyhg.gov.tw/",
+      "organization": "嘉義縣政府社會局",
+      "jurisdiction": "嘉義縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "嘉義縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "嘉義縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "嘉義縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-chiayi-county-social",
+        "name": "嘉義縣政府社會局",
+        "provider": "嘉義縣政府社會局",
+        "jurisdiction": "嘉義縣",
+        "county": "嘉義縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-tainan-social",
+      "name": "臺南市政府社會局",
+      "url": "https://sab.tainan.gov.tw/Default.aspx",
+      "organization": "臺南市政府社會局",
+      "jurisdiction": "臺南市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "臺南市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "臺南市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "臺南市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-tainan-social",
+        "name": "臺南市政府社會局",
+        "provider": "臺南市政府社會局",
+        "jurisdiction": "臺南市",
+        "county": "臺南市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-kaohsiung-social",
+      "name": "高雄市政府社會局",
+      "url": "http://socbu.kcg.gov.tw/index.php",
+      "organization": "高雄市政府社會局",
+      "jurisdiction": "高雄市",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "高雄市",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "高雄市社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "高雄市",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-kaohsiung-social",
+        "name": "高雄市政府社會局",
+        "provider": "高雄市政府社會局",
+        "jurisdiction": "高雄市",
+        "county": "高雄市",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-pingtung-social",
+      "name": "屏東縣政府社會處",
+      "url": "https://www.pthg.gov.tw/planjdp/Default.aspx",
+      "organization": "屏東縣政府社會處",
+      "jurisdiction": "屏東縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "屏東縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "屏東縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "屏東縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-pingtung-social",
+        "name": "屏東縣政府社會處",
+        "provider": "屏東縣政府社會處",
+        "jurisdiction": "屏東縣",
+        "county": "屏東縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-yilan-social",
+      "name": "宜蘭縣政府社會處",
+      "url": "https://sntroot.e-land.gov.tw/Default.aspx",
+      "organization": "宜蘭縣政府社會處",
+      "jurisdiction": "宜蘭縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "宜蘭縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "宜蘭縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "宜蘭縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-yilan-social",
+        "name": "宜蘭縣政府社會處",
+        "provider": "宜蘭縣政府社會處",
+        "jurisdiction": "宜蘭縣",
+        "county": "宜蘭縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-hualien-social",
+      "name": "花蓮縣政府社會處",
+      "url": "https://sa.hl.gov.tw/",
+      "organization": "花蓮縣政府社會處",
+      "jurisdiction": "花蓮縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "花蓮縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "花蓮縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "花蓮縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-hualien-social",
+        "name": "花蓮縣政府社會處",
+        "provider": "花蓮縣政府社會處",
+        "jurisdiction": "花蓮縣",
+        "county": "花蓮縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-taitung-social",
+      "name": "臺東縣政府社會處",
+      "url": "http://taisoc.taitung.gov.tw/WebSite/Page/index.aspx",
+      "organization": "臺東縣政府社會處",
+      "jurisdiction": "臺東縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "臺東縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "臺東縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "臺東縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-taitung-social",
+        "name": "臺東縣政府社會處",
+        "provider": "臺東縣政府社會處",
+        "jurisdiction": "臺東縣",
+        "county": "臺東縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-penghu-social",
+      "name": "澎湖縣政府社會處",
+      "url": "https://www.penghu.gov.tw/society/",
+      "organization": "澎湖縣政府社會處",
+      "jurisdiction": "澎湖縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "澎湖縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "澎湖縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "澎湖縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-penghu-social",
+        "name": "澎湖縣政府社會處",
+        "provider": "澎湖縣政府社會處",
+        "jurisdiction": "澎湖縣",
+        "county": "澎湖縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-kinmen-social",
+      "name": "金門縣政府社會處",
+      "url": "https://social.kinmen.gov.tw/",
+      "organization": "金門縣政府社會處",
+      "jurisdiction": "金門縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "金門縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "金門縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "金門縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-kinmen-social",
+        "name": "金門縣政府社會處",
+        "provider": "金門縣政府社會處",
+        "jurisdiction": "金門縣",
+        "county": "金門縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "county-lienchiang-civil-social",
+      "name": "連江縣政府民政社會處",
+      "url": "https://www.matsu.gov.tw/Chhtml/Index/371030000A0001",
+      "organization": "連江縣政府民政社會處",
+      "jurisdiction": "連江縣",
+      "sourceType": "official-local-government",
+      "tags": [
+        "縣市政府",
+        "社會局處",
+        "連江縣",
+        "社會福利",
+        "地方窗口"
+      ],
+      "record": {
+        "summary": "連江縣社會福利主管機關入口，可查老人、身障、兒少、婦女、社會救助與地方補助資訊。",
+        "audiences": [
+          "一般民眾",
+          "老人",
+          "兒少",
+          "婦女",
+          "身心障礙者",
+          "低收入戶",
+          "家庭照顧者"
+        ],
+        "serviceCategories": [
+          "地方社福窗口",
+          "社會救助",
+          "老人福利",
+          "身障服務",
+          "兒少家庭",
+          "補助查詢"
+        ],
+        "needTags": [
+          "連江縣",
+          "社會局",
+          "社會處",
+          "補助",
+          "急難救助",
+          "身障",
+          "老人福利",
+          "托育"
+        ],
+        "howToApply": [
+          "開啟縣市社會局處網站",
+          "依服務身分或補助類型查詢",
+          "撥打網站提供的承辦窗口確認年度資格與文件"
+        ],
+        "documents": [
+          "身分證明",
+          "戶籍或居住證明",
+          "收入或財產證明",
+          "各服務要求文件"
+        ],
+        "id": "county-lienchiang-civil-social",
+        "name": "連江縣政府民政社會處",
+        "provider": "連江縣政府民政社會處",
+        "jurisdiction": "連江縣",
+        "county": "連江縣",
+        "freshness": {
+          "lastChecked": "2026-06-03",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
     }
   ]
 }

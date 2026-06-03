@@ -7,6 +7,7 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import ssl
 import time
 import urllib.error
 import urllib.parse
@@ -26,10 +27,26 @@ def load_json(path: Path, default):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
-def get_url(url: str, method: str = "HEAD") -> dict:
+def is_ssl_certificate_error(exc: Exception) -> bool:
+    return "CERTIFICATE_VERIFY_FAILED" in str(exc)
+
+
+def open_url(request: urllib.request.Request, *, timeout: int, allow_insecure_fallback: bool = False):
+    try:
+        return urllib.request.urlopen(request, timeout=timeout)
+    except urllib.error.URLError as exc:
+        if allow_insecure_fallback and is_ssl_certificate_error(exc):
+            context = ssl._create_unverified_context()
+            response = urllib.request.urlopen(request, timeout=timeout, context=context)
+            response.ssl_warning = str(exc)
+            return response
+        raise
+
+
+def get_url(url: str, method: str = "HEAD", *, allow_insecure_fallback: bool = False) -> dict:
     request = urllib.request.Request(url, method=method, headers={"User-Agent": USER_AGENT})
     started = time.time()
-    with urllib.request.urlopen(request, timeout=25) as response:
+    with open_url(request, timeout=25, allow_insecure_fallback=allow_insecure_fallback) as response:
         body = b""
         if method == "GET":
             body = response.read(1_000_000)
@@ -44,19 +61,20 @@ def get_url(url: str, method: str = "HEAD") -> dict:
             "contentLength": headers.get("content-length"),
             "contentType": headers.get("content-type"),
             "sha256": hashlib.sha256(body).hexdigest() if body else None,
+            "sslWarning": getattr(response, "ssl_warning", None),
         }
 
 
-def check(url: str) -> dict:
+def check(url: str, *, allow_insecure_fallback: bool = False) -> dict:
     try:
-        result = get_url(url, "HEAD")
+        result = get_url(url, "HEAD", allow_insecure_fallback=allow_insecure_fallback)
         if result["status"] >= 400 or not result.get("etag") and not result.get("lastModified"):
-            get_result = get_url(url, "GET")
+            get_result = get_url(url, "GET", allow_insecure_fallback=allow_insecure_fallback)
             result.update({k: v for k, v in get_result.items() if v is not None})
         return {"ok": True, **result}
     except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
         try:
-            get_result = get_url(url, "GET")
+            get_result = get_url(url, "GET", allow_insecure_fallback=allow_insecure_fallback)
             return {"ok": True, **get_result, "headWarning": str(exc)}
         except Exception as get_exc:
             return {"ok": False, "error": str(get_exc), "headError": str(exc)}
@@ -87,12 +105,13 @@ def main() -> int:
     report_sources = []
     snapshot_sources = {}
     changed = 0
+    transport_warnings = 0
     warnings = []
 
     for source in sources_data.get("sources", []):
         entries = []
         for url in source_urls(source):
-            result = check(url)
+            result = check(url, allow_insecure_fallback=source.get("allowInsecureSslFallback", False))
             fingerprint = {
                 "etag": result.get("etag"),
                 "lastModified": result.get("lastModified"),
@@ -115,8 +134,11 @@ def main() -> int:
                 "contentType": result.get("contentType"),
                 "changedSinceLastRun": is_changed,
                 "error": result.get("error"),
+                "sslWarning": result.get("sslWarning"),
                 "checkedAt": now_iso(),
             })
+            if result.get("sslWarning"):
+                transport_warnings += 1
             snapshot_sources[key] = {
                 "sourceId": source["id"],
                 "url": url,
@@ -140,6 +162,7 @@ def main() -> int:
         "summary": {
             "checked": sum(len(item["entries"]) for item in report_sources),
             "changed": changed,
+            "transportWarnings": transport_warnings,
             "warnings": len(warnings),
         },
         "warnings": warnings,

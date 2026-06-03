@@ -19,20 +19,33 @@ jobs:
         with:
           python-version: "3.12"
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Rebuild source registry
+        run: python scripts/build_source_registry.py
+
+      - name: Refresh welfare resources
+        run: python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
+
       - name: Check source freshness
         run: python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json
 
       - name: Validate data
         run: python scripts/validate_data.py
 
-      - name: Commit changed reports
+      - name: Verify static build
+        run: node scripts/build_static.mjs
+
+      - name: Commit changed data
         run: |
           git config user.name "welfare-resource-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/freshness-report.json
+          git add data/sources.json data/resources.json data/freshness-report.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update freshness report"
+            git commit -m "chore: refresh welfare resource data"
             git push
           else
-            echo "No freshness changes to commit."
+            echo "No data changes to commit."
           fi

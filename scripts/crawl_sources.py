@@ -8,8 +8,10 @@ import datetime as dt
 import html
 import json
 import re
+import ssl
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 import urllib.robotparser
 from html.parser import HTMLParser
@@ -71,18 +73,35 @@ def can_fetch(url: str) -> bool:
         return True
 
 
-def fetch_text(url: str) -> str:
+def is_ssl_certificate_error(exc: Exception) -> bool:
+    return "CERTIFICATE_VERIFY_FAILED" in str(exc)
+
+
+def open_url(request: urllib.request.Request, *, timeout: int, allow_insecure_fallback: bool = False):
+    try:
+        return urllib.request.urlopen(request, timeout=timeout)
+    except urllib.error.URLError as exc:
+        if allow_insecure_fallback and is_ssl_certificate_error(exc):
+            context = ssl._create_unverified_context()
+            return urllib.request.urlopen(request, timeout=timeout, context=context)
+        raise
+
+
+def fetch_text(url: str, *, allow_insecure_fallback: bool = False) -> str:
     if not can_fetch(url):
         raise RuntimeError(f"robots.txt disallows fetch: {url}")
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=30) as response:
+    with open_url(request, timeout=30, allow_insecure_fallback=allow_insecure_fallback) as response:
         charset = response.headers.get_content_charset() or "utf-8"
         return response.read().decode(charset, errors="replace")
 
 
 def summarize_page(source: dict) -> dict:
+    if source.get("format") == "static-record":
+        return static_record(source)
+
     try:
-        body = fetch_text(source["url"])
+        body = fetch_text(source["url"], allow_insecure_fallback=source.get("allowInsecureSslFallback", False))
         parser = PageSummaryParser()
         parser.feed(body)
         title = re.sub(r"\s+", " ", html.unescape(parser.title)).strip() or source["name"]
@@ -113,6 +132,36 @@ def summarize_page(source: dict) -> dict:
     }
 
 
+def static_record(source: dict) -> dict:
+    record = dict(source.get("record", {}))
+    record.setdefault("id", source["id"])
+    record.setdefault("name", source.get("name"))
+    record.setdefault("summary", f"{source.get('jurisdiction', '全國')}社會福利官方入口。")
+    record.setdefault("provider", source.get("organization"))
+    record.setdefault("jurisdiction", source.get("jurisdiction", "全國"))
+    record.setdefault("county", source.get("jurisdiction", "全國"))
+    record.setdefault("districts", [])
+    record.setdefault("audiences", infer_audiences(source))
+    record.setdefault("serviceCategories", infer_categories(source))
+    record.setdefault("needTags", source.get("tags", []))
+    record.setdefault("eligibility", "依各服務項目規定。")
+    record.setdefault("howToApply", ["開啟官方來源網站", "依身分、地區或需求查詢", "電話確認最新資格、名額與文件"])
+    record.setdefault("documents", ["依各服務項目規定"])
+    record.setdefault("contact", {})
+    record["contact"].setdefault("website", source.get("url"))
+    record.setdefault("source", {"id": source["id"], "url": source.get("url"), "type": source.get("sourceType")})
+    record.setdefault(
+        "freshness",
+        {
+            "lastChecked": now_date(),
+            "sourceUpdatedAt": None,
+            "confidence": "official-entry",
+            "notes": "Official source entry; specific programs should be checked from the linked source.",
+        },
+    )
+    return record
+
+
 def infer_audiences(source: dict) -> list[str]:
     text = " ".join([source.get("name", ""), " ".join(source.get("tags", []))])
     pairs = [
@@ -137,6 +186,14 @@ def infer_categories(source: dict) -> list[str]:
         values.append("地圖資料")
     if "社會福利" in tags or "資源網" in tags:
         values.append("入口平台")
+    if "縣市政府" in tags or "社會局處" in tags:
+        values.append("地方社福窗口")
+    if "就業" in tags or "職訓" in tags:
+        values.append("就業與職訓")
+    if "健保" in tags:
+        values.append("醫療與健保")
+    if "長照" in tags:
+        values.append("長照")
     return values or ["社福資源"]
 
 
@@ -157,7 +214,7 @@ def extract_json_array(text: str):
 
 def import_tainan(source: dict, limit: int | None = None) -> list[dict]:
     url = source.get("resourceUrl") or source["url"]
-    text = fetch_text(url)
+    text = fetch_text(url, allow_insecure_fallback=source.get("allowInsecureSslFallback", False))
     rows = extract_json_array(text)
     if not rows:
         raise RuntimeError("Could not find JSON array in Tainan resource page.")
@@ -215,7 +272,11 @@ def main() -> int:
             else:
                 records.append(summarize_page(source))
         except Exception as exc:
-            errors.append({"sourceId": source.get("id"), "error": str(exc)})
+            errors.append({
+                "sourceId": source.get("id"),
+                "url": source.get("resourceUrl") or source.get("url"),
+                "error": str(exc),
+            })
             records.append(summarize_page(source))
         time.sleep(args.sleep)
 
