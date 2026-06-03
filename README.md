@@ -13,7 +13,8 @@
 - Public GitHub repo: https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub
 - Vercel Production: https://taiwan-welfare-resource-hub.vercel.app/
 - Review-stage `noindex` 已啟用：公開連結可看，但先不建議被搜尋引擎收錄。
-- V1 目標是全台官方入口可查：22 縣市社會局處、中央福利/長照/健保/就業入口，加上可匯入的逐筆開放資料。
+- V1 目標是全台官方入口可查：22 縣市社會局處、中央福利/長照/健保/就業入口，加上可匯入的逐筆開放資料與全國性社福財團法人名錄。
+- Current dataset: 411 resource records, including 355 official SFAA national social-welfare foundation records queried on 2026-06-03.
 - 使用者提供的 Downloads 文件目前在本機路徑讀不到，已保留 `source-docs/` 與抽取腳本，檔案補上後可重新抽 URL seeds。
 
 ## Local Preview
@@ -40,6 +41,8 @@ node scripts/build_static.mjs
 ```
 
 `extract_source_urls.py` supports `.docx` and `.pdf`. PDF extraction uses `pypdf` if installed.
+
+The SFAA foundation importer uses the official public directory at `https://swft.sfaa.gov.tw/fund/fh0300#`, its public list/detail API, and code tables for city, district, service object, and service type. It records official `A` status as "運作中" but still asks users to confirm current-year program availability with each foundation.
 
 ## Public Production Verification
 

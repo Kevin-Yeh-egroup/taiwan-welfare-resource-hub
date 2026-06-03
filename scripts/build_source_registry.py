@@ -12,7 +12,7 @@ COUNTY_SOCIAL_BUREAUS = [
     ("keelung-social", "基隆市政府社會處", "https://www.klcg.gov.tw/tw/social", "基隆市"),
     ("taipei-social", "臺北市政府社會局", "https://dosw.gov.taipei/", "臺北市"),
     ("new-taipei-social", "新北市政府社會局", "https://www.sw.ntpc.gov.tw/", "新北市"),
-    ("taoyuan-social", "桃園市政府社會局", "http://sab.tycg.gov.tw/", "桃園市"),
+    ("taoyuan-social", "桃園市政府社會局", "https://sab.tycg.gov.tw/", "桃園市"),
     ("hsinchu-city-social", "新竹市政府社會處", "https://society.hccg.gov.tw/ch/index.jsp", "新竹市"),
     ("hsinchu-county-social", "新竹縣政府社會處", "https://social.hsinchu.gov.tw/", "新竹縣"),
     ("miaoli-social", "苗栗縣政府社會處", "https://www.miaoli.gov.tw/social_affairs/", "苗栗縣"),
@@ -292,6 +292,24 @@ def main() -> int:
     sources = []
     sources.extend(static_source(source) for source in CENTRAL_SOURCES)
     sources.extend(static_source(source) for source in ECONOMIC_WEAKNESS_SOURCES)
+    sources.append({
+        "id": "sfaa-social-welfare-foundations",
+        "name": "全國性財團法人社會福利基金會查詢",
+        "url": "https://swft.sfaa.gov.tw/fund/fh0300#",
+        "apiBase": "https://swft.sfaa.gov.tw/api",
+        "apiUrl": "https://swft.sfaa.gov.tw/api/main/foundBasic/found/searchFront",
+        "allowInsecureSslFallback": True,
+        "organization": "衛生福利部社會及家庭署",
+        "jurisdiction": "全國",
+        "sourceType": "official-foundation-directory",
+        "format": "sfaa-foundation-json",
+        "crawl": True,
+        "crawlDepth": 0,
+        "pageSize": 500,
+        "detailSleepSeconds": 0.04,
+        "refreshPolicy": refresh_policy(14, 2),
+        "tags": ["中央", "財團法人", "社會福利基金會", "民間資源", "全國性", "今年度仍在運作"],
+    })
     sources.append({
         "id": "tainan-welfare-map-dataset",
         "name": "臺南市社會福利地圖開放資料",

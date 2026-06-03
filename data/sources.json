@@ -739,6 +739,34 @@
       }
     },
     {
+      "id": "sfaa-social-welfare-foundations",
+      "name": "全國性財團法人社會福利基金會查詢",
+      "url": "https://swft.sfaa.gov.tw/fund/fh0300#",
+      "apiBase": "https://swft.sfaa.gov.tw/api",
+      "apiUrl": "https://swft.sfaa.gov.tw/api/main/foundBasic/found/searchFront",
+      "allowInsecureSslFallback": true,
+      "organization": "衛生福利部社會及家庭署",
+      "jurisdiction": "全國",
+      "sourceType": "official-foundation-directory",
+      "format": "sfaa-foundation-json",
+      "crawl": true,
+      "crawlDepth": 0,
+      "pageSize": 500,
+      "detailSleepSeconds": 0.04,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 2
+      },
+      "tags": [
+        "中央",
+        "財團法人",
+        "社會福利基金會",
+        "民間資源",
+        "全國性",
+        "今年度仍在運作"
+      ]
+    },
+    {
       "id": "tainan-welfare-map-dataset",
       "name": "臺南市社會福利地圖開放資料",
       "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
@@ -1160,7 +1188,7 @@
     {
       "id": "county-taoyuan-social",
       "name": "桃園市政府社會局",
-      "url": "http://sab.tycg.gov.tw/",
+      "url": "https://sab.tycg.gov.tw/",
       "organization": "桃園市政府社會局",
       "jurisdiction": "桃園市",
       "sourceType": "official-local-government",

@@ -4,9 +4,10 @@ This audit checks the current V1 resource hub against official Taiwan welfare so
 
 ## Current Coverage
 
-- Current dataset after the P0 follow-up: 56 resource records, 37 sources.
+- Current dataset after the SFAA foundation follow-up: 411 resource records, 38 sources.
 - County/city coverage: all 22 Taiwan county/city social welfare authorities are present as official local-government entry records.
 - Central coverage already present: MOHW welfare e-box, 1957 welfare hotline, MOHW low-income/middle-low-income page, 115 annual low-income/middle-low-income standards, low-income/middle-low-income FAQ, emergency assistance, social welfare service centers/social safety net, 1966 long-term care, NHI premium subsidy dataset, TaiwanJobs, disability employment resources.
+- Civil-society coverage now includes the SFAA official directory of national social-welfare foundations: 355 foundation records.
 
 ## Main Finding
 
@@ -79,5 +80,15 @@ Current friction:
 ## P0 Follow-Up Implemented
 
 - Added standalone central cards for 115年度低收入戶/中低收入戶資格審核標準, low-income/middle-low-income FAQ, 急難救助, and 社會福利服務中心/社會安全網.
-- Updated quick-search buttons toward economic-vulnerability questions: low-income/middle-low-income, 115 annual standard, emergency aid, social welfare center, and premium subsidy.
-- Rebuilt the data pipeline with 56 records, 37 sources, 38 freshness URLs, and 0 freshness warnings.
+- Updated quick-search buttons toward economic-vulnerability questions: low-income/middle-low-income, 115 annual standard, emergency aid, social welfare center, premium subsidy, and civil-society foundations.
+- Rebuilt the data pipeline with 411 records, 38 sources, 39 freshness URLs, and 0 freshness warnings.
+
+## SFAA Foundation Follow-Up Implemented
+
+- Added the official SFAA source: https://swft.sfaa.gov.tw/fund/fh0300#
+- Crawled the public list API and each public detail record, excluding embedded images and PDF bytes.
+- Imported 355 national social-welfare foundations as citizen-facing cards with county, district, phone, email, website, service object, service type, status, source update date, and source notes.
+- All 355 imported foundations were returned by the live 2026-06-03 official query with status `A`, mapped in the cards as "運作中".
+- 163 of the 355 foundation records have a 2026 source update date; the latest observed source update was 2026-06-02.
+- Important limitation: this confirms the foundation is listed as operating in the official registry. It does not guarantee every foundation currently has an open assistance program; users should confirm annual programs, quota, service area, and required documents from the foundation website or phone.
+- Updated 桃園市政府社會局 from `http://sab.tycg.gov.tw/` to `https://sab.tycg.gov.tw/` to avoid scheduled freshness timeout.

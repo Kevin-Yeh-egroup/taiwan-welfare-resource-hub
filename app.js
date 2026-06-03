@@ -107,6 +107,7 @@ function renderRecord(record) {
   const confidence = record.freshness?.confidence || "needs-review";
   const contactParts = [
     record.contact?.phone ? `電話：${record.contact.phone}` : "",
+    record.contact?.email ? `Email：${record.contact.email}` : "",
     record.contact?.address ? `地址：${record.contact.address}` : ""
   ].filter(Boolean);
 

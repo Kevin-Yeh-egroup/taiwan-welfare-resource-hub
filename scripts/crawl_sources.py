@@ -17,7 +17,7 @@ import urllib.robotparser
 from html.parser import HTMLParser
 from pathlib import Path
 
-USER_AGENT = "taiwan-welfare-resource-hub/0.1 (+https://example.invalid; contact: Kevin)"
+USER_AGENT = "taiwan-welfare-resource-hub/0.1 (+https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub)"
 
 
 def now_date() -> str:
@@ -94,6 +94,284 @@ def fetch_text(url: str, *, allow_insecure_fallback: bool = False) -> str:
     with open_url(request, timeout=30, allow_insecure_fallback=allow_insecure_fallback) as response:
         charset = response.headers.get_content_charset() or "utf-8"
         return response.read().decode(charset, errors="replace")
+
+
+def request_json(
+    url: str,
+    *,
+    method: str = "GET",
+    payload: dict | None = None,
+    headers: dict | None = None,
+    allow_insecure_fallback: bool = False,
+    timeout: int = 45,
+):
+    body = None
+    request_headers = {"User-Agent": USER_AGENT, **(headers or {})}
+    if payload is not None:
+        body = json.dumps(payload).encode("utf-8")
+        request_headers.setdefault("Content-Type", "application/json")
+    request = urllib.request.Request(url, data=body, headers=request_headers, method=method)
+    with open_url(request, timeout=timeout, allow_insecure_fallback=allow_insecure_fallback) as response:
+        charset = response.headers.get_content_charset() or "utf-8"
+        return json.loads(response.read().decode(charset, errors="replace"))
+
+
+def parse_date(value) -> str | None:
+    text = clean(value)
+    if not text:
+        return None
+    match = re.match(r"(\d{4})[-/](\d{1,2})[-/](\d{1,2})", text)
+    if not match:
+        return None
+    year, month, day = match.groups()
+    return f"{int(year):04d}-{int(month):02d}-{int(day):02d}"
+
+
+def normalize_url(value: str | None) -> str | None:
+    text = clean(value)
+    if not text:
+        return None
+    if text.startswith("www."):
+        text = f"https://{text}"
+    parsed = urllib.parse.urlparse(text)
+    if parsed.scheme in {"http", "https"} and parsed.netloc:
+        return text
+    return None
+
+
+def slug(value: str) -> str:
+    text = re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower()
+    return text or "row"
+
+
+def append_unique(values: list[str], item: str | None) -> None:
+    item = clean(item)
+    if item and item not in values:
+        values.append(item)
+
+
+def code_values(primary, secondary, code_map: dict[str, str]) -> list[str]:
+    values: list[str] = []
+    raw_items = []
+    if primary:
+        raw_items.append(primary)
+    if isinstance(secondary, list):
+        raw_items.extend(secondary)
+    elif secondary:
+        raw_items.extend(str(secondary).split(","))
+
+    for raw in raw_items:
+        key = clean(raw)
+        append_unique(values, code_map.get(key, key) if key else None)
+    return values
+
+
+def code_map_from_payload(payload) -> dict[str, str]:
+    rows = payload.get("resultList", []) if isinstance(payload, dict) else []
+    return {clean(row.get("no")): clean(row.get("value1")) for row in rows if clean(row.get("no")) and clean(row.get("value1"))}
+
+
+def format_address(item: dict, city_map: dict[str, str], district_map: dict[str, str]) -> str | None:
+    city = city_map.get(clean(item.get("city")) or "", "")
+    district = district_map.get(clean(item.get("district")) or "", "")
+    address = clean(item.get("address")) or ""
+    full = f"{city}{district}{address}".strip()
+    return full or None
+
+
+FOUNDATION_AUDIENCE_KEYWORDS = [
+    ("盲", "身心障礙者"),
+    ("障礙", "身心障礙者"),
+    ("老人", "老人"),
+    ("長照", "老人"),
+    ("兒童", "兒童及青少年"),
+    ("少年", "兒童及青少年"),
+    ("青少年", "兒童及青少年"),
+    ("婦女", "婦女"),
+    ("家庭", "家庭"),
+    ("清寒", "經濟弱勢"),
+    ("急難", "經濟弱勢"),
+    ("醫療", "傷病者"),
+]
+
+FOUNDATION_CATEGORY_KEYWORDS = [
+    ("獎學", "清寒獎學金"),
+    ("清寒", "經濟扶助"),
+    ("急難", "急難救助"),
+    ("醫療", "醫療照護"),
+    ("長照", "長期照顧服務"),
+    ("老人", "老人福利"),
+    ("兒童", "兒童及青少年福利"),
+    ("少年", "兒童及青少年福利"),
+    ("障礙", "身心障礙福利"),
+]
+
+
+def infer_foundation_values(name: str, pairs: list[tuple[str, str]]) -> list[str]:
+    values: list[str] = []
+    for keyword, label in pairs:
+        if keyword in name:
+            append_unique(values, label)
+    return values
+
+
+def foundation_status_text(status: str | None) -> str:
+    return {"A": "運作中"}.get(clean(status) or "", clean(status) or "未標示")
+
+
+def build_sfaa_headers(source: dict) -> dict:
+    return {
+        "Origin": "https://swft.sfaa.gov.tw",
+        "Referer": source.get("url", "https://swft.sfaa.gov.tw/fund/fh0300#"),
+    }
+
+
+def import_sfaa_foundations(source: dict, limit: int | None = None) -> list[dict]:
+    api_base = source.get("apiBase", "https://swft.sfaa.gov.tw/api").rstrip("/")
+    headers = build_sfaa_headers(source)
+    allow_insecure = source.get("allowInsecureSslFallback", False)
+    page_size = int(source.get("pageSize", 500))
+    search_url = source.get("apiUrl") or f"{api_base}/main/foundBasic/found/searchFront"
+    detail_sleep = float(source.get("detailSleepSeconds", 0.04))
+
+    code_maps = {}
+    for code in ["CITY", "DISTRICT", "SRVOBJECT", "SRVTYPE"]:
+        payload = request_json(
+            f"{api_base}/system/codeType/getOneWithCode/{code}",
+            headers=headers,
+            allow_insecure_fallback=allow_insecure,
+        )
+        code_maps[code] = code_map_from_payload(payload)
+
+    rows: list[dict] = []
+    page = 1
+    while True:
+        payload = {
+            "serviceObject": [""],
+            "serviceType": [""],
+            "cities": [""],
+            "name": "",
+            "page": page,
+            "pageSize": page_size,
+        }
+        response = request_json(
+            search_url,
+            method="POST",
+            payload=payload,
+            headers=headers,
+            allow_insecure_fallback=allow_insecure,
+            timeout=70,
+        )
+        batch = response.get("resultList", [])
+        rows.extend(batch)
+        total = int(response.get("pagination", {}).get("total") or len(rows))
+        if limit and len(rows) >= limit:
+            rows = rows[:limit]
+            break
+        if len(rows) >= total or not batch:
+            break
+        page += 1
+
+    records = []
+    for index, row in enumerate(rows, start=1):
+        foundation_uuid = clean(row.get("uuid"))
+        detail = {}
+        if foundation_uuid:
+            try:
+                detail_payload = request_json(
+                    f"{api_base}/main/foundBasic/found/findEntityConvertVo/{foundation_uuid}",
+                    headers=headers,
+                    allow_insecure_fallback=allow_insecure,
+                    timeout=50,
+                )
+                detail = detail_payload.get("result", {}) if isinstance(detail_payload, dict) else {}
+            except Exception:
+                detail = {}
+            time.sleep(detail_sleep)
+
+        item = {**row, **detail}
+        name = clean(item.get("name")) or f"全國性社會福利財團法人 {index}"
+        county = code_maps["CITY"].get(clean(item.get("city")) or "", "全國")
+        district = code_maps["DISTRICT"].get(clean(item.get("district")) or "", "")
+        audiences = code_values(item.get("mserviceObject"), item.get("sserviceObject"), code_maps["SRVOBJECT"])
+        service_categories = code_values(item.get("mserviceType"), item.get("sserviceType"), code_maps["SRVTYPE"])
+
+        if not audiences:
+            audiences = infer_foundation_values(name, FOUNDATION_AUDIENCE_KEYWORDS)
+        if not service_categories:
+            service_categories = infer_foundation_values(name, FOUNDATION_CATEGORY_KEYWORDS)
+        append_unique(audiences, "一般民眾")
+        append_unique(service_categories, "民間社福資源")
+        append_unique(service_categories, "社福基金會")
+
+        modified = parse_date(row.get("modifyDate") or item.get("modifyDate"))
+        licensed = parse_date(item.get("licenseDate") or row.get("licenseDate"))
+        status = foundation_status_text(item.get("status") or row.get("status"))
+        confidence = "source-dated" if modified and modified.startswith(str(dt.date.today().year)) else "checked"
+        address = format_address(item, code_maps["CITY"], code_maps["DISTRICT"])
+        website = normalize_url(item.get("url")) or source["url"]
+        phone = clean(item.get("phone")) or clean(item.get("contactPhone"))
+        email = clean(item.get("contactEmail"))
+        main_categories = "、".join(service_categories[:3])
+        main_audiences = "、".join(audiences[:3])
+
+        need_tags = []
+        for value in [
+            name,
+            clean(item.get("no")),
+            county,
+            district,
+            "財團法人",
+            "基金會",
+            "民間基金會",
+            "社會福利基金會",
+            "民間資源",
+            "全國性",
+            "今年度仍在運作",
+            "2026",
+            *audiences,
+            *service_categories,
+        ]:
+            append_unique(need_tags, value)
+
+        records.append({
+            "id": f"sfaa-foundation-{slug(clean(item.get('no')) or foundation_uuid or str(index))}",
+            "name": name,
+            "summary": f"{name}為衛福部社家署全國性社會福利財團法人名錄所列機構，登記地在{county}{district}。主要服務：{main_categories}；主要對象：{main_audiences}。",
+            "provider": name,
+            "jurisdiction": "全國",
+            "county": county,
+            "districts": [district] if district else [],
+            "audiences": audiences,
+            "serviceCategories": service_categories,
+            "needTags": need_tags,
+            "eligibility": f"官方名錄狀態為「{status}」。實際補助、收案條件、服務地區與今年度方案，仍需以基金會網站或電話確認。",
+            "howToApply": [
+                "先開啟基金會網站或官方名錄頁，確認是否有今年度服務、補助或活動公告。",
+                "以電話或 Email 詢問服務地區、資格、名額、收案時間與文件。",
+                "若是急難或經濟弱勢需求，先說明戶籍/居住地、家庭狀況、目前困難與是否已有低收/中低收入戶資格。",
+            ],
+            "documents": [
+                "身分證明文件",
+                "戶籍或居住地資料",
+                "低收入戶、中低收入戶、身障或其他弱勢證明（如有）",
+                "收入、醫療、急難事實或其他方案指定文件",
+            ],
+            "contact": {
+                "phone": phone,
+                "email": email,
+                "address": address,
+                "website": website,
+            },
+            "source": {"id": source["id"], "url": source["url"], "type": source.get("sourceType")},
+            "freshness": {
+                "lastChecked": now_date(),
+                "sourceUpdatedAt": modified,
+                "confidence": confidence,
+                "notes": f"{now_date()} 自官方名錄查得狀態為「{status}」；最近資料更新：{modified or '未標示'}；設立日期：{licensed or '未標示'}。",
+            },
+        })
+    return records
 
 
 def summarize_page(source: dict) -> dict:
@@ -269,6 +547,8 @@ def main() -> int:
         try:
             if source.get("format") == "tainan-welfare-json":
                 records.extend(import_tainan(source, limit=args.limit))
+            elif source.get("format") == "sfaa-foundation-json":
+                records.extend(import_sfaa_foundations(source, limit=args.limit))
             else:
                 records.append(summarize_page(source))
         except Exception as exc:

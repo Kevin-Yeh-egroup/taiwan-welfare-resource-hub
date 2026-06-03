@@ -14,7 +14,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-USER_AGENT = "taiwan-welfare-resource-hub/0.1 (+https://example.invalid; contact: Kevin)"
+USER_AGENT = "taiwan-welfare-resource-hub/0.1 (+https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub)"
 
 
 def now_iso() -> str:
