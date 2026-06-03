@@ -472,12 +472,14 @@ function bindEvents() {
 
 async function init() {
   try {
+    bindEvents();
+    document.body.classList.remove("is-booting");
     const response = await fetch("data/resources.json", { cache: "no-store" });
     const data = await response.json();
     state.records = data.records || [];
     setupFilters(state.records);
+    syncControls();
     updateStats(state.records);
-    bindEvents();
     render();
   } catch (error) {
     els.resultCount.textContent = "資料載入失敗";

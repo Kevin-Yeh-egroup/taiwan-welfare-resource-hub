@@ -224,6 +224,13 @@ summary:focus-visible {
   color: var(--ink);
 }
 
+.is-booting [data-need],
+.is-booting [data-audience],
+.is-booting #applyFilterButton {
+  opacity: 0.72;
+  pointer-events: none;
+}
+
 .visual-tile {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
