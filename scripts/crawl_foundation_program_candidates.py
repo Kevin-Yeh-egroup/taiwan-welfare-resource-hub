@@ -376,8 +376,30 @@ def priority_score(record: dict) -> int:
     return score
 
 
-def choose_foundations(resources: list[dict], limit: int) -> list[dict]:
-    candidates = [record for record in resources if record.get("id", "").startswith("sfaa-foundation-") and priority_score(record) >= 0]
+def previous_foundation_ids(paths: list[str] | None) -> set[str]:
+    ids = set()
+    for path in paths or []:
+        candidate_path = Path(path)
+        if not candidate_path.exists():
+            continue
+        data = load_json(candidate_path)
+        ids.update(item.get("id") for item in data.get("selectedFoundations", []) if item.get("id"))
+        ids.update(item.get("foundationId") for item in data.get("candidates", []) if item.get("foundationId"))
+    return ids
+
+
+def choose_foundations(resources: list[dict], limit: int, *, exclude_ids: set[str] | None = None, only_current_year: bool = False) -> list[dict]:
+    current_year = str(dt.date.today().year)
+    exclude_ids = exclude_ids or set()
+    candidates = []
+    for record in resources:
+        if not record.get("id", "").startswith("sfaa-foundation-") or priority_score(record) < 0:
+            continue
+        if record["id"] in exclude_ids:
+            continue
+        if only_current_year and not (record.get("freshness", {}).get("sourceUpdatedAt") or "").startswith(current_year):
+            continue
+        candidates.append(record)
     candidates.sort(
         key=lambda record: (
             priority_score(record),
@@ -484,6 +506,8 @@ def main() -> int:
     parser.add_argument("--resources", default="data/resources.json")
     parser.add_argument("--out", default="data/foundation-program-candidates.json")
     parser.add_argument("--batch", default="A")
+    parser.add_argument("--previous", action="append", default=[], help="Candidate JSON to exclude from this batch. Can be passed multiple times.")
+    parser.add_argument("--only-current-year", action="store_true", help="Only select SFAA foundations with sourceUpdatedAt in the current year.")
     parser.add_argument("--limit", type=int, default=30)
     parser.add_argument("--max-pages-per-site", type=int, default=6)
     parser.add_argument("--max-candidates-per-site", type=int, default=3)
@@ -493,7 +517,13 @@ def main() -> int:
     args = parser.parse_args()
 
     resources_data = load_json(Path(args.resources))
-    selected = choose_foundations(resources_data.get("records", []), args.limit)
+    excluded_foundation_ids = previous_foundation_ids(args.previous)
+    selected = choose_foundations(
+        resources_data.get("records", []),
+        args.limit,
+        exclude_ids=excluded_foundation_ids,
+        only_current_year=args.only_current_year,
+    )
     robots = RobotsCache(timeout=min(args.timeout, 10))
     all_candidates = []
     site_reports = []
@@ -521,6 +551,9 @@ def main() -> int:
             "maxCandidatesPerSite": args.max_candidates_per_site,
             "minScore": args.min_score,
             "sourceDataset": args.resources,
+            "previousCandidateFiles": args.previous,
+            "excludedFoundations": len(excluded_foundation_ids),
+            "onlyCurrentYear": args.only_current_year,
         },
         "summary": {
             "selectedFoundations": len(selected),

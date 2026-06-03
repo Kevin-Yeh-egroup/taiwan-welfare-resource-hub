@@ -37,6 +37,7 @@ python scripts/extract_source_urls.py source-docs --out data/extracted-urls.json
 python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
 python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json
 python scripts/crawl_foundation_program_candidates.py --limit 30 --out data/foundation-program-candidates.json
+python scripts/crawl_foundation_program_candidates.py --batch B --previous data/foundation-program-candidates.json --only-current-year --limit 30 --out data/foundation-program-candidates-batch-b.json
 python scripts/validate_data.py
 node scripts/build_static.mjs
 ```
