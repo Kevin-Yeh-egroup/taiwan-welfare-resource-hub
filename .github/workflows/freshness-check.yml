@@ -29,6 +29,9 @@ jobs:
       - name: Refresh welfare resources
         run: python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
 
+      - name: Convert reviewed foundation program pages
+        run: python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json --allowlist data/formal-program-allowlist.json --out data/resources.json
+
       - name: Check source freshness
         run: python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json
 
@@ -42,7 +45,7 @@ jobs:
         run: |
           git config user.name "welfare-resource-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/sources.json data/resources.json data/freshness-report.json
+          git add data/sources.json data/resources.json data/freshness-report.json data/formal-program-allowlist.json data/foundation-program-candidates*.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh welfare resource data"
             git push

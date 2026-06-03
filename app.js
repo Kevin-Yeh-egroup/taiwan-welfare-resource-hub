@@ -11,7 +11,7 @@ const labels = {
   "official-entry": "官方入口",
   "source-dated": "來源有日期",
   checked: "已檢查",
-  "needs-review": "需人工確認"
+  "needs-review": "需再確認"
 };
 
 const els = {
@@ -50,7 +50,7 @@ function optionList(select, values, allLabel) {
 function setupFilters(records) {
   optionList(els.county, uniqueSorted(records.map((record) => record.county)), "全部縣市");
   optionList(els.audience, uniqueSorted(records.flatMap((record) => record.audiences || [])), "全部對象");
-  optionList(els.category, uniqueSorted(records.flatMap((record) => record.serviceCategories || [])), "全部服務");
+  optionList(els.category, uniqueSorted(records.flatMap((record) => record.serviceCategories || [])), "全部類型");
 }
 
 function searchableText(record) {
@@ -66,7 +66,9 @@ function searchableText(record) {
     ...(record.needTags || []),
     record.eligibility,
     ...(record.howToApply || []),
+    ...(record.documents || []),
     record.contact?.phone,
+    record.contact?.email,
     record.contact?.address
   ]
     .filter(Boolean)
@@ -84,13 +86,32 @@ function matches(record) {
   return true;
 }
 
+function rankRecord(record) {
+  const query = state.query.trim().toLowerCase();
+  if (!query) return 0;
+  const name = String(record.name || "").toLowerCase();
+  const provider = String(record.provider || "").toLowerCase();
+  const tags = (record.needTags || []).join(" ").toLowerCase();
+  const categories = (record.serviceCategories || []).join(" ").toLowerCase();
+  const summary = String(record.summary || "").toLowerCase();
+  let score = 0;
+  if (name.includes(query)) score += 50;
+  if (tags.includes(query)) score += 35;
+  if (categories.includes(query)) score += 25;
+  if (summary.includes(query)) score += 12;
+  if (provider.includes(query)) score += 8;
+  if (record.source?.type === "foundation-program-page") score += 6;
+  if (record.freshness?.confidence === "source-dated") score += 4;
+  return score;
+}
+
 function statusText(status) {
-  return labels[status] || "待檢查";
+  return labels[status] || "已收錄";
 }
 
 function listItems(items, ordered = false) {
   const tag = ordered ? "ol" : "ul";
-  if (!items || !items.length) return "<p>尚未整理</p>";
+  if (!items || !items.length) return "<p>依來源頁公告。</p>";
   return `<${tag}>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</${tag}>`;
 }
 
@@ -122,33 +143,33 @@ function renderRecord(record) {
       </header>
 
       <div class="meta-line">
-        <span class="tag">${escapeHtml(record.county)}</span>
+        <span class="tag">${escapeHtml(record.county || "全國")}</span>
         ${(record.audiences || []).slice(0, 4).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
         ${(record.serviceCategories || []).slice(0, 3).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
       </div>
 
       <div class="card-grid">
         <div class="info-block">
-          <h3>適合誰</h3>
-          <p>${escapeHtml(record.eligibility || "需依個別辦法確認。")}</p>
+          <h3>誰適合先查</h3>
+          <p>${escapeHtml(record.eligibility || "依來源頁或服務單位公告。")}</p>
         </div>
         <div class="info-block">
-          <h3>怎麼使用</h3>
+          <h3>下一步</h3>
           ${listItems(record.howToApply, true)}
         </div>
         <div class="info-block">
-          <h3>先準備</h3>
+          <h3>可能需要文件</h3>
           ${listItems(record.documents)}
         </div>
         <div class="info-block">
           <h3>聯絡資訊</h3>
-          <p>${contactParts.length ? escapeHtml(contactParts.join(" / ")) : "依來源頁面"}</p>
+          <p>${contactParts.length ? escapeHtml(contactParts.join(" / ")) : "請由來源頁確認最新聯絡方式。"}</p>
         </div>
       </div>
 
       <div class="card-actions">
-        ${record.contact?.website ? `<a href="${escapeHtml(record.contact.website)}" target="_blank" rel="noopener">開啟網站</a>` : ""}
-        ${record.source?.url ? `<a href="${escapeHtml(record.source.url)}" target="_blank" rel="noopener">查看來源</a>` : ""}
+        ${record.contact?.website ? `<a href="${escapeHtml(record.contact.website)}" target="_blank" rel="noopener">單位網站</a>` : ""}
+        ${record.source?.url ? `<a href="${escapeHtml(record.source.url)}" target="_blank" rel="noopener">資料來源</a>` : ""}
       </div>
     </article>
   `;
@@ -156,10 +177,10 @@ function renderRecord(record) {
 
 function renderActiveFilters() {
   const filters = [
-    state.query ? `關鍵字：${state.query}` : "",
+    state.query ? `搜尋：${state.query}` : "",
     state.county ? `縣市：${state.county}` : "",
     state.audience ? `對象：${state.audience}` : "",
-    state.category ? `服務：${state.category}` : "",
+    state.category ? `類型：${state.category}` : "",
     state.freshness ? `狀態：${statusText(state.freshness)}` : ""
   ].filter(Boolean);
 
@@ -167,11 +188,13 @@ function renderActiveFilters() {
 }
 
 function render() {
-  const filtered = state.records.filter(matches);
+  const filtered = state.records
+    .filter(matches)
+    .sort((a, b) => rankRecord(b) - rankRecord(a) || String(a.name).localeCompare(String(b.name), "zh-Hant"));
   els.resultCount.textContent = `找到 ${filtered.length} 筆資源`;
   renderActiveFilters();
   if (!filtered.length) {
-    els.results.innerHTML = `<div class="empty-state"><p>目前沒有符合條件的資源。請放寬縣市、對象或關鍵字。</p></div>`;
+    els.results.innerHTML = `<div class="empty-state"><p>目前沒有符合條件的資源。可以改用較短的關鍵字，例如「低收入戶」、「急難」、「長照」或直接選縣市。</p></div>`;
     return;
   }
   els.results.innerHTML = filtered.map(renderRecord).join("");
@@ -179,8 +202,22 @@ function render() {
 
 function updateStats(records) {
   els.recordTotal.textContent = records.length;
-  els.countyTotal.textContent = uniqueSorted(records.map((record) => record.county).filter((county) => county !== "全國")).length;
+  els.countyTotal.textContent = uniqueSorted(records.map((record) => record.county).filter((county) => county && county !== "全國")).length;
   els.reviewTotal.textContent = records.filter((record) => record.freshness?.confidence === "needs-review").length;
+}
+
+function resetFilters() {
+  state.query = "";
+  state.county = "";
+  state.audience = "";
+  state.category = "";
+  state.freshness = "";
+  els.query.value = "";
+  els.county.value = "";
+  els.audience.value = "";
+  els.category.value = "";
+  els.freshness.value = "";
+  render();
 }
 
 function bindEvents() {
@@ -204,19 +241,7 @@ function bindEvents() {
     state.freshness = event.target.value;
     render();
   });
-  els.clearButton.addEventListener("click", () => {
-    state.query = "";
-    state.county = "";
-    state.audience = "";
-    state.category = "";
-    state.freshness = "";
-    els.query.value = "";
-    els.county.value = "";
-    els.audience.value = "";
-    els.category.value = "";
-    els.freshness.value = "";
-    render();
-  });
+  els.clearButton.addEventListener("click", resetFilters);
   document.querySelectorAll("[data-need]").forEach((button) => {
     button.addEventListener("click", () => {
       state.query = button.dataset.need || "";
@@ -236,8 +261,8 @@ async function init() {
     bindEvents();
     render();
   } catch (error) {
-    els.resultCount.textContent = "資料讀取失敗";
-    els.results.innerHTML = `<div class="empty-state"><p>無法讀取 data/resources.json，請確認本機伺服器是從 repo 根目錄啟動。</p></div>`;
+    els.resultCount.textContent = "資料載入失敗";
+    els.results.innerHTML = `<div class="empty-state"><p>無法讀取 data/resources.json，請先確認資料檔已產生並重新整理頁面。</p></div>`;
     console.error(error);
   }
 }

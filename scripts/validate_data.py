@@ -59,6 +59,35 @@ def validate_candidate_file(path: Path, errors: list[str]) -> None:
             errors.append(f"{path.name} candidate {candidate_id} has no matched keywords.")
 
 
+def candidate_ids_from_file(path: Path) -> set[str]:
+    candidates = load(path)
+    return {candidate["id"] for candidate in candidates.get("candidates", []) if candidate.get("id")}
+
+
+def validate_formal_program_allowlist(path: Path, candidate_ids: set[str], errors: list[str]) -> None:
+    if not path.exists():
+        errors.append(f"Missing formal program allowlist: {path}")
+        return
+    allowlist = load(path)
+    reviewed_ids = set()
+    programs = allowlist.get("programs", [])
+    if not programs:
+        errors.append(f"{path.name} has no programs.")
+    for index, program in enumerate(programs, start=1):
+        candidate_id = program.get("candidateId")
+        if not candidate_id:
+            errors.append(f"{path.name} program {index} missing candidateId.")
+            continue
+        if candidate_id in reviewed_ids:
+            errors.append(f"{path.name} duplicate candidateId: {candidate_id}")
+        reviewed_ids.add(candidate_id)
+        if candidate_id not in candidate_ids:
+            errors.append(f"{path.name} candidateId not found in candidate files: {candidate_id}")
+        for field in ["name", "summary", "eligibility", "documents"]:
+            if not program.get(field):
+                errors.append(f"{path.name} {candidate_id} missing {field}.")
+
+
 def main() -> int:
     root = Path.cwd()
     resources_path = root / "data" / "resources.json"
@@ -98,8 +127,11 @@ def main() -> int:
         if not record.get("serviceCategories"):
             errors.append(f"Record {record_id} has no service category.")
 
+    candidate_ids = set()
     for candidates_path in sorted((root / "data").glob("foundation-program-candidates*.json")):
+        candidate_ids.update(candidate_ids_from_file(candidates_path))
         validate_candidate_file(candidates_path, errors)
+    validate_formal_program_allowlist(root / "data" / "formal-program-allowlist.json", candidate_ids, errors)
 
     if "noindex,nofollow,noarchive" not in (root / "index.html").read_text(encoding="utf-8"):
         errors.append("index.html is missing review-stage noindex meta.")

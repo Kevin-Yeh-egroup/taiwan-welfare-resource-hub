@@ -24,6 +24,7 @@ body {
   color: var(--ink);
   font-family: "Noto Sans TC", "Microsoft JhengHei", Arial, sans-serif;
   line-height: 1.55;
+  overflow-x: hidden;
 }
 
 button,
@@ -81,6 +82,10 @@ h1 {
 .header-visual {
   margin: 0;
   justify-self: end;
+}
+
+.header-copy {
+  min-width: 0;
 }
 
 .header-visual img {
@@ -460,6 +465,16 @@ button:hover {
 
   .app-header {
     padding-top: 24px;
+    gap: 18px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.16;
+  }
+
+  .lede {
+    font-size: 1rem;
   }
 
   .tool-shell,

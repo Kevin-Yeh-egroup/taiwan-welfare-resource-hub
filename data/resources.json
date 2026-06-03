@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T08:29:56+00:00",
+  "generatedAt": "2026-06-03T09:32:52.974909+00:00",
   "status": "generated",
   "notice": "Generated from allowlisted sources. Review before public publication.",
   "errors": [],
@@ -32406,6 +32406,2125 @@
         "id": "county-lienchiang-civil-social",
         "url": "https://www.matsu.gov.tw/Chhtml/Index/371030000A0001",
         "type": "official-local-government"
+      }
+    },
+    {
+      "id": "foundation-program-a0120-cb6bb18de2b3",
+      "name": "萬海急難救助申請",
+      "summary": "提供家庭突發變故、醫療或生活急難等情況的急難救助申請入口。頁面有申請、資格、文件與表單資訊，送件前請確認今年度公告、名額與受理狀態。",
+      "provider": "財團法人萬海航運社會福利慈善事業基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中山區"
+      ],
+      "audiences": [
+        "急難家庭",
+        "經濟困難家庭",
+        "低收入戶",
+        "中低收入戶",
+        "身心障礙者",
+        "一般民眾",
+        "其他",
+        "老人"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "醫療補助",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "其他",
+        "兒童及青少年福利",
+        "老人福利",
+        "身心障礙福利"
+      ],
+      "needTags": [
+        "急難救助",
+        "個案補助",
+        "醫療困難",
+        "低收入戶",
+        "中低收入戶",
+        "申請表",
+        "申請",
+        "急難",
+        "救助",
+        "最新消息",
+        "補助",
+        "公告",
+        "服務",
+        "專案",
+        "身障",
+        "2025",
+        "聯絡",
+        "表單",
+        "婦女",
+        "兒童",
+        "青少年",
+        "少年",
+        "家庭",
+        "資格",
+        "扶助",
+        "醫療",
+        "辦法",
+        "社福",
+        "文件",
+        "受理",
+        "低收入",
+        "身心障礙",
+        "弱勢",
+        "老人",
+        "115年",
+        "服務方案"
+      ],
+      "eligibility": "適合遭遇突發事故、家庭變故、醫療或生活急難者先查詢；實際補助資格、收案條件、服務區域與名額以基金會來源頁為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分與戶籍或居住資料",
+        "急難事實或醫療相關證明",
+        "低收入戶、中低收入戶、身障或其他弱勢證明（如有）",
+        "來源頁指定申請表與附件"
+      ],
+      "contact": {
+        "phone": "02-25677961＃7135",
+        "email": "rita_chen@wanhai.com",
+        "address": "臺北市中山區松江路136號10樓",
+        "website": "https://wanhai-charity.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://wanhai-charity.org.tw/emergency-application/",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0120-candidate-cb6bb18de2b3"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0120-candidate-cb6bb18de2b3 on 2026-06-03. Candidate signals: 2026, 115年, 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0120-candidate-cb6bb18de2b3",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0216-00b0d173327b",
+      "name": "家扶貧困兒童少年家庭扶助服務",
+      "summary": "家扶提供貧困兒童少年與家庭的扶助服務，可作為經濟弱勢家庭尋找兒少生活、教育、急難與家庭支持資源的入口。",
+      "provider": "財團法人台灣兒童暨家庭扶助基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "信義區"
+      ],
+      "audiences": [
+        "兒童(含青少年)",
+        "經濟困難家庭",
+        "單親或特殊境遇家庭",
+        "低收入戶",
+        "中低收入戶",
+        "身心障礙者",
+        "婦女",
+        "家庭"
+      ],
+      "serviceCategories": [
+        "兒童及青少年福利",
+        "低收入戶與中低收入戶救助",
+        "單親、外籍配偶、高風險與其他特殊需求家庭",
+        "民間社福資源",
+        "身心障礙福利",
+        "婦女權益與福利",
+        "災害(變)救助",
+        "志願服務"
+      ],
+      "needTags": [
+        "兒少扶助",
+        "弱勢家庭",
+        "教育支持",
+        "生活扶助",
+        "家扶",
+        "兒童",
+        "少年",
+        "家庭",
+        "扶助",
+        "服務",
+        "最新消息",
+        "專案",
+        "醫療",
+        "照護",
+        "方案",
+        "服務內容",
+        "申請",
+        "兒少",
+        "身心障礙",
+        "照顧",
+        "急難",
+        "救助",
+        "獎助",
+        "補助",
+        "計畫",
+        "青少年",
+        "弱勢",
+        "財團法人台灣兒童暨家庭扶助基金會",
+        "貧困兒童少年家庭扶助服務",
+        "貧困兒童少年家庭扶助服務 - 家扶服務 ｜ 家扶基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合兒童少年家庭有經濟困難、照顧壓力或急難需求時先查詢；是否收案、服務內容與轉介方式以家扶來源頁及在地中心評估為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "家庭與兒少身分資料",
+        "收入或經濟困難證明",
+        "就學或照顧需求資料",
+        "家扶中心要求的評估文件"
+      ],
+      "contact": {
+        "phone": "(04)22061234",
+        "email": "fund@ccf.org.tw",
+        "address": "臺北市信義區忠孝東路5段482號4樓",
+        "website": "http://www.ccf.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.ccf.org.tw/service/domestic/61d7d3917b3ca",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0216-candidate-00b0d173327b"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0216-candidate-00b0d173327b on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0216-candidate-00b0d173327b",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0216-7fac96da9863",
+      "name": "家扶兒童少年家庭寄養服務",
+      "summary": "家扶提供兒童少年家庭寄養服務資訊，可供需要短期或替代照顧、保護性安置或相關轉介的家庭與專業人員查詢。",
+      "provider": "財團法人台灣兒童暨家庭扶助基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "信義區"
+      ],
+      "audiences": [
+        "兒童(含青少年)",
+        "家庭",
+        "社工或轉介單位",
+        "照顧者",
+        "身心障礙者",
+        "婦女",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "兒童及青少年福利",
+        "家庭照顧支持",
+        "民間社福資源",
+        "身心障礙福利",
+        "婦女權益與福利",
+        "災害(變)救助",
+        "志願服務",
+        "清寒獎學金"
+      ],
+      "needTags": [
+        "寄養服務",
+        "兒少保護",
+        "家庭照顧",
+        "轉介",
+        "家扶",
+        "兒童",
+        "少年",
+        "家庭",
+        "服務",
+        "最新消息",
+        "專案",
+        "扶助",
+        "醫療",
+        "照護",
+        "照顧",
+        "計畫",
+        "福利",
+        "條件",
+        "服務項目",
+        "青少年",
+        "兒少",
+        "電話",
+        "申請",
+        "資格",
+        "財團法人台灣兒童暨家庭扶助基金會",
+        "兒童少年家庭寄養服務",
+        "兒童少年家庭寄養服務 - 家扶服務 ｜ 家扶基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合兒少需要寄養、替代照顧或由社政單位評估轉介時查詢；實際條件與流程以家扶及主管機關評估為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "兒少與家庭基本資料",
+        "社政或專業轉介資料",
+        "照顧需求評估資料",
+        "來源頁或承辦單位指定文件"
+      ],
+      "contact": {
+        "phone": "(04)22061234",
+        "email": "fund@ccf.org.tw",
+        "address": "臺北市信義區忠孝東路5段482號4樓",
+        "website": "http://www.ccf.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.ccf.org.tw/service/domestic/61d7d6a74a2d5",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0216-candidate-7fac96da9863"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0216-candidate-7fac96da9863 on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0216-candidate-7fac96da9863",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0142-edcf116a7ea2",
+      "name": "愛盲獎助學金申請",
+      "summary": "愛盲基金會提供視障或低視能者獎助學金申請資訊，適合學生或家長查詢受理時間、資格、名額與應備文件。",
+      "provider": "財團法人愛盲基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中正區"
+      ],
+      "audiences": [
+        "身心障礙者",
+        "視障者",
+        "低視能者",
+        "學生",
+        "家庭",
+        "老人",
+        "兒童(含青少年)",
+        "婦女"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "清寒獎學金",
+        "兒童及青少年福利",
+        "民間社福資源",
+        "老人福利",
+        "婦女權益與福利",
+        "低收入戶與中低收入戶救助",
+        "急難救助(短期、臨時性補助)"
+      ],
+      "needTags": [
+        "視障",
+        "低視能",
+        "獎助學金",
+        "清寒",
+        "學生補助",
+        "獎助",
+        "申請",
+        "最新消息",
+        "服務",
+        "家庭",
+        "補助",
+        "專案",
+        "照護",
+        "獎學",
+        "身心障礙",
+        "辦法",
+        "聯絡",
+        "弱勢",
+        "資格",
+        "身障",
+        "條件",
+        "受理",
+        "文件",
+        "名額",
+        "公告",
+        "電話",
+        "2025",
+        "財團法人愛盲基金會",
+        "獎助學金申請",
+        "獎助學金申請 | 各項資源申請 | 視障/低視能者 | 財團法人愛盲基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合視障或低視能學生查詢；實際資格、名額、受理期間與是否需在學或清寒證明，以基金會來源頁為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分與在學資料",
+        "身心障礙或視覺相關證明",
+        "清寒或經濟困難證明（如頁面要求）",
+        "來源頁指定申請表與附件"
+      ],
+      "contact": {
+        "phone": "02-23616663",
+        "email": "evelove@tfb.org.tw",
+        "address": "臺北市中正區忠孝西路一段50號13樓之19",
+        "website": "http://www.tfb.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.tfb.org.tw/contents/text?id=113",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0142-candidate-edcf116a7ea2"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0142-candidate-edcf116a7ea2 on 2026-06-03. Candidate signals: 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0142-candidate-edcf116a7ea2",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0142-9440507e681f",
+      "name": "愛盲視障與低視能服務申請",
+      "summary": "提供視障或低視能者生活重建、定向行動、輔具使用與社工聯繫等服務申請入口；可先填寫表單或致電各區資源中心。",
+      "provider": "財團法人愛盲基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中正區"
+      ],
+      "audiences": [
+        "身心障礙者",
+        "視障者",
+        "低視能者",
+        "老人",
+        "家庭照顧者",
+        "兒童(含青少年)",
+        "婦女",
+        "家庭"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "老人福利",
+        "家庭照顧支持",
+        "民間社福資源",
+        "兒童及青少年福利",
+        "婦女權益與福利",
+        "清寒獎學金",
+        "低收入戶與中低收入戶救助"
+      ],
+      "needTags": [
+        "視障服務",
+        "低視能",
+        "生活重建",
+        "輔具",
+        "社工聯繫",
+        "服務申請",
+        "服務",
+        "申請",
+        "最新消息",
+        "家庭",
+        "獎助",
+        "補助",
+        "專案",
+        "照護",
+        "清寒",
+        "獎學",
+        "身心障礙",
+        "辦法",
+        "聯絡",
+        "服務內容",
+        "表單",
+        "計畫",
+        "電話",
+        "2025",
+        "財團法人愛盲基金會",
+        "服務申請 | 視障/低視能者 | 財團法人愛盲基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合視力退化、視障或低視能者與家屬先提出需求；實際服務項目、區域與評估方式以基金會來源頁及社工聯繫為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "身心障礙或視覺狀況相關資料",
+        "服務需求說明",
+        "社工評估時要求的補充文件"
+      ],
+      "contact": {
+        "phone": "02-23616663",
+        "email": "evelove@tfb.org.tw",
+        "address": "臺北市中正區忠孝西路一段50號13樓之19",
+        "website": "http://www.tfb.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.tfb.org.tw/contents/text?id=36",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0142-candidate-9440507e681f"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0142-candidate-9440507e681f on 2026-06-03. Candidate signals: 2025, 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0142-candidate-9440507e681f",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0062-afa126236c26",
+      "name": "利河伯國內清寒獎助學金",
+      "summary": "利河伯基金會提供國內清寒獎助學金申請資訊，適合經濟困難學生查詢年度受理、名額、辦法與文件。",
+      "provider": "財團法人利河伯社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺中市",
+      "districts": [
+        "北屯區"
+      ],
+      "audiences": [
+        "學生",
+        "經濟困難家庭",
+        "低收入戶",
+        "中低收入戶",
+        "兒童(含青少年)",
+        "老人",
+        "身心障礙者",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "清寒獎學金",
+        "兒童及青少年福利",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "老人福利",
+        "急難救助(短期、臨時性補助)",
+        "社福基金會",
+        "方案級民間資源"
+      ],
+      "needTags": [
+        "清寒獎助學金",
+        "學生補助",
+        "低收入戶",
+        "中低收入戶",
+        "教育扶助",
+        "福利",
+        "清寒",
+        "獎助",
+        "申請",
+        "服務",
+        "聯絡",
+        "服務內容",
+        "老人",
+        "照顧",
+        "長照",
+        "公告",
+        "補助",
+        "最新消息",
+        "辦法",
+        "家庭",
+        "名額",
+        "社福",
+        "受理",
+        "低收入",
+        "文件",
+        "2026",
+        "財團法人利河伯社會福利基金會",
+        "國內清寒獎助學金",
+        "財團法人利河伯社會福利基金會>國內清寒獎助學金開始申請囉!!",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合國內清寒或經濟困難學生查詢；實際年級、成績、名額、受理時間與送件方式以基金會來源頁為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "在學資料",
+        "成績或就學證明（如頁面要求）",
+        "清寒、低收或中低收證明（如有）",
+        "來源頁指定申請表與附件"
+      ],
+      "contact": {
+        "phone": "04-2243-6960＃1312",
+        "email": "phoenixc@tjc.org.tw",
+        "address": "臺中市北屯區松竹路二段180號",
+        "website": "http://www.rehoboth-welfare.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.rehoboth-welfare.org.tw/OnePage.aspx?mid=33&id=42",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0062-candidate-afa126236c26"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0062-candidate-afa126236c26 on 2026-06-03. Candidate signals: 2026, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0062-candidate-afa126236c26",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0037-99657e97ca45",
+      "name": "永大社會福利方案補助申請說明",
+      "summary": "永大基金會的申請 Q&A 說明方案補助受理期間與常見申請問題，可供有兒少、老人、身障、婦女、急難等服務需求者查詢下一步。",
+      "provider": "財團法人永大社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "大安區"
+      ],
+      "audiences": [
+        "兒童(含青少年)",
+        "老人",
+        "身心障礙者",
+        "婦女",
+        "經濟困難家庭",
+        "社福團體",
+        "家庭",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "兒童及青少年福利",
+        "老人福利",
+        "身心障礙福利",
+        "民間社福資源",
+        "婦女權益與福利",
+        "長期照顧服務",
+        "災害(變)救助"
+      ],
+      "needTags": [
+        "方案補助",
+        "社會福利",
+        "急難",
+        "兒少",
+        "老人",
+        "身障",
+        "申請",
+        "福利",
+        "服務",
+        "服務項目",
+        "兒童",
+        "青少年",
+        "少年",
+        "身心障礙",
+        "婦女",
+        "救助",
+        "方案",
+        "補助",
+        "計畫",
+        "資格",
+        "扶助",
+        "聯絡",
+        "財團法人永大社會福利基金會",
+        "申請Q&A",
+        "申請Q&A | 財團法人永大社會福利基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合先確認基金會是否受理相關福利方案補助；實際申請主體、受理月份、經費餘額與審查標準以基金會來源頁為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "需求或方案說明",
+        "申請單位或個案基本資料",
+        "經費或服務計畫資料（如需）",
+        "基金會指定文件"
+      ],
+      "contact": {
+        "phone": "02-27367555",
+        "email": "ytswef@gmali.com",
+        "address": "臺北市大安區敦化南路二段267號9樓之5之6",
+        "website": "https://yungtay.org/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://yungtay.org/Result/",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0037-candidate-99657e97ca45"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0037-candidate-99657e97ca45 on 2026-06-03. Candidate signals: none. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0037-candidate-99657e97ca45",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0028-bd3529d916a8",
+      "name": "富邦慈善急難救助個案補助",
+      "summary": "富邦慈善基金會提供經濟弱勢個人或家庭在近期發生急難事由時的個案補助資訊，頁面含線上申請、文件與洽詢資訊。",
+      "provider": "財團法人富邦慈善基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中正區"
+      ],
+      "audiences": [
+        "急難家庭",
+        "經濟困難家庭",
+        "低收入戶",
+        "中低收入戶",
+        "身心障礙者",
+        "一般民眾",
+        "家庭",
+        "老人"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "醫療補助",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "兒童及青少年福利",
+        "災害(變)救助",
+        "志願服務",
+        "單親、外籍配偶、高風險與其他特殊需求家庭"
+      ],
+      "needTags": [
+        "急難救助",
+        "個案補助",
+        "醫療困難",
+        "線上申請",
+        "低收入戶",
+        "中低收入戶",
+        "補助",
+        "醫療",
+        "申請",
+        "急難",
+        "救助",
+        "弱勢",
+        "家庭",
+        "身心障礙",
+        "計畫",
+        "福利",
+        "服務",
+        "文件",
+        "低收入",
+        "中低收入",
+        "照顧",
+        "照護",
+        "洽詢",
+        "電話",
+        "專案",
+        "社福",
+        "財團法人富邦慈善基金會",
+        "富邦慈善基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合經濟弱勢個人或家庭近期遭遇急難事故時查詢；急難事由、補助金額、是否通過與文件以基金會來源頁審查規定為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分與戶籍或居住資料",
+        "急難事由證明",
+        "低收、中低收、身障或其他弱勢證明（如有）",
+        "收入、醫療或照顧支出資料",
+        "來源頁指定申請資料"
+      ],
+      "contact": {
+        "phone": "02-66387885＃743",
+        "email": "charity@fubon.com",
+        "address": "臺北市中正區仁愛路4段258號4樓",
+        "website": "http://www.fuboncharity.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.fuboncharity.org.tw/chinese/help/info",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0028-candidate-bd3529d916a8"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0028-candidate-bd3529d916a8 on 2026-06-03. Candidate signals: none. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0028-candidate-bd3529d916a8",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0028-311162cd4f6c",
+      "name": "富邦用愛心做朋友助學金申請說明",
+      "summary": "富邦慈善基金會提供弱勢學生助學金申請說明，款項通常透過學校或社福機構辦理，適合學生家庭、學校承辦人與社福機構查詢。",
+      "provider": "財團法人富邦慈善基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中正區"
+      ],
+      "audiences": [
+        "學生",
+        "經濟困難家庭",
+        "兒童(含青少年)",
+        "學校承辦人",
+        "社福機構",
+        "家庭",
+        "老人",
+        "身心障礙者"
+      ],
+      "serviceCategories": [
+        "兒童及青少年福利",
+        "清寒獎學金",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "災害(變)救助",
+        "志願服務",
+        "醫療補助",
+        "單親、外籍配偶、高風險與其他特殊需求家庭"
+      ],
+      "needTags": [
+        "助學金",
+        "清寒",
+        "弱勢學生",
+        "學校申請",
+        "社福機構",
+        "申請",
+        "社福",
+        "弱勢",
+        "家庭",
+        "受理",
+        "補助",
+        "名額",
+        "醫療",
+        "電話",
+        "服務",
+        "專案",
+        "急難",
+        "救助",
+        "計畫",
+        "財團法人富邦慈善基金會",
+        "學校/社福機構",
+        "富邦慈善基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合弱勢學生家庭、學校或社福機構確認是否能提出助學金申請；實際資格、受理期限、名額與匯款方式以基金會來源頁為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "學生與在學資料",
+        "清寒或經濟困難證明",
+        "學校或社福機構申請資料",
+        "來源頁指定申請說明與附件"
+      ],
+      "contact": {
+        "phone": "02-66387885＃743",
+        "email": "charity@fubon.com",
+        "address": "臺北市中正區仁愛路4段258號4樓",
+        "website": "http://www.fuboncharity.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.fuboncharity.org.tw/chinese/friend/school/info",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0028-candidate-311162cd4f6c"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0028-candidate-311162cd4f6c on 2026-06-03. Candidate signals: none. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0028-candidate-311162cd4f6c",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0143-3c54e5e5d6cb",
+      "name": "世豐善智國小清寒補助申請辦法",
+      "summary": "世豐善智基金會提供國小清寒補助申請辦法，適合清寒家庭或學校承辦人查詢年度資格、名額與表單。",
+      "provider": "財團法人世豐善智慈善事業基金會",
+      "jurisdiction": "全國",
+      "county": "高雄市",
+      "districts": [
+        "橋頭區"
+      ],
+      "audiences": [
+        "國小學生",
+        "經濟困難家庭",
+        "低收入戶",
+        "中低收入戶",
+        "學校承辦人",
+        "其他",
+        "兒童(含青少年)",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "清寒獎學金",
+        "兒童及青少年福利",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "急難救助(短期、臨時性補助)",
+        "社福基金會",
+        "方案級民間資源"
+      ],
+      "needTags": [
+        "國小",
+        "清寒補助",
+        "獎助學金",
+        "低收入戶",
+        "中低收入戶",
+        "申請辦法",
+        "清寒",
+        "補助",
+        "申請",
+        "辦法",
+        "114年度",
+        "114年",
+        "表單",
+        "獎助",
+        "家庭",
+        "名額",
+        "資格",
+        "專案",
+        "聯絡",
+        "電話",
+        "2026",
+        "財團法人世豐善智慈善事業基金會",
+        "國小清寒補助申請辦法",
+        "國小清寒補助申請辦法 - 財團法人世豐善智慈善事業基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合國小階段清寒或經濟困難學生查詢；實際年度、名額、申請資格與送件方式以基金會來源頁為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "在學資料",
+        "清寒、低收或中低收證明（如有）",
+        "學校推薦或承辦資料（如需）",
+        "來源頁指定表單與附件"
+      ],
+      "contact": {
+        "phone": "07-6116116＃815",
+        "email": "ginachu@shehfung.com",
+        "address": "高雄市橋頭區頂鹽里復興西路810號",
+        "website": "http://www.sfcharity.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "http://www.sfcharity.org.tw/10-rule/19-junior",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0143-candidate-3c54e5e5d6cb"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0143-candidate-3c54e5e5d6cb on 2026-06-03. Candidate signals: 2026, 114年, 114年度. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0143-candidate-3c54e5e5d6cb",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0143-a6b00cc224c0",
+      "name": "世豐善智高中大學互助獎助學金",
+      "summary": "世豐善智基金會提供高中、大學階段互助獎助學金申請辦法，可供清寒學生與學校承辦人查詢年度規則與文件。",
+      "provider": "財團法人世豐善智慈善事業基金會",
+      "jurisdiction": "全國",
+      "county": "高雄市",
+      "districts": [
+        "橋頭區"
+      ],
+      "audiences": [
+        "高中職學生",
+        "大專學生",
+        "經濟困難家庭",
+        "低收入戶",
+        "中低收入戶",
+        "學校承辦人",
+        "其他",
+        "兒童(含青少年)"
+      ],
+      "serviceCategories": [
+        "清寒獎學金",
+        "兒童及青少年福利",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "急難救助(短期、臨時性補助)",
+        "社福基金會",
+        "方案級民間資源"
+      ],
+      "needTags": [
+        "高中",
+        "大學",
+        "獎助學金",
+        "清寒",
+        "低收入戶",
+        "中低收入戶",
+        "獎助",
+        "申請",
+        "辦法",
+        "補助",
+        "114年度",
+        "114年",
+        "表單",
+        "資格",
+        "家庭",
+        "文件",
+        "聯絡",
+        "電話",
+        "2026",
+        "財團法人世豐善智慈善事業基金會",
+        "高中大學互助獎助學金申請辦法",
+        "高中大學互助獎助學金申請辦法 - 財團法人世豐善智慈善事業基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合高中職或大專清寒學生查詢；實際年度、申請條件、應備文件與是否仍受理以基金會來源頁為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "在學資料",
+        "成績或修業資料（如頁面要求）",
+        "清寒、低收或中低收證明（如有）",
+        "來源頁指定表單與附件"
+      ],
+      "contact": {
+        "phone": "07-6116116＃815",
+        "email": "ginachu@shehfung.com",
+        "address": "高雄市橋頭區頂鹽里復興西路810號",
+        "website": "http://www.sfcharity.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "http://www.sfcharity.org.tw/10-rule/21-high",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0143-candidate-a6b00cc224c0"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0143-candidate-a6b00cc224c0 on 2026-06-03. Candidate signals: 2026, 114年, 114年度. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0143-candidate-a6b00cc224c0",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0088-1c308720123e",
+      "name": "永齡銘日希望獎助學金",
+      "summary": "永齡基金會提供弱勢學生獎助學金資訊，適合學生與家庭查詢申請資格、條件、辦法與公告。",
+      "provider": "財團法人永齡慈善基金會",
+      "jurisdiction": "全國",
+      "county": "新北市",
+      "districts": [
+        "新店區"
+      ],
+      "audiences": [
+        "學生",
+        "兒童(含青少年)",
+        "經濟困難家庭",
+        "低收入戶",
+        "中低收入戶",
+        "家庭",
+        "老人",
+        "身心障礙者"
+      ],
+      "serviceCategories": [
+        "清寒獎學金",
+        "兒童及青少年福利",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "老人福利",
+        "身心障礙福利",
+        "婦女權益與福利",
+        "災害(變)救助"
+      ],
+      "needTags": [
+        "獎助學金",
+        "弱勢學生",
+        "清寒",
+        "教育扶助",
+        "永齡",
+        "醫療",
+        "弱勢",
+        "獎助",
+        "福利",
+        "社福",
+        "青少年",
+        "少年",
+        "最新消息",
+        "兒少",
+        "獎學",
+        "辦法",
+        "資格",
+        "條件",
+        "申請",
+        "2025",
+        "公告",
+        "財團法人永齡慈善基金會",
+        "永齡銘日希望獎助學金",
+        "永齡基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合弱勢或經濟困難學生查詢；實際年齡、年級、資格條件、年度受理與文件以基金會來源頁為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "在學資料",
+        "成績或就學證明（如頁面要求）",
+        "清寒或經濟困難證明",
+        "來源頁指定申請文件"
+      ],
+      "contact": {
+        "phone": "02-55790123*70766",
+        "email": "FA@yonglin.org.tw",
+        "address": "新北市新店區北新路三段207號15樓",
+        "website": "http://www.yonglin.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.yonglin.org.tw/project/education/detail/28",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0088-candidate-1c308720123e"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0088-candidate-1c308720123e on 2026-06-03. Candidate signals: 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0088-candidate-1c308720123e",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0118-477e4d86a667",
+      "name": "切膚之愛失智與長照服務",
+      "summary": "切膚之愛基金會提供長照、失智照顧與家屬支持相關服務資訊，適合彰化地區長者、失智家庭與照顧者查詢服務內容與聯絡方式。",
+      "provider": "財團法人切膚之愛社會福利慈善事業基金會",
+      "jurisdiction": "全國",
+      "county": "彰化縣",
+      "districts": [
+        "彰化市"
+      ],
+      "audiences": [
+        "老人",
+        "失智者",
+        "家庭照顧者",
+        "身心障礙者",
+        "一般民眾",
+        "家庭"
+      ],
+      "serviceCategories": [
+        "長期照顧服務",
+        "老人福利",
+        "家庭照顧支持",
+        "身心障礙福利",
+        "民間社福資源",
+        "志願服務",
+        "清寒獎學金",
+        "其他"
+      ],
+      "needTags": [
+        "失智照顧",
+        "長照",
+        "日照",
+        "家屬支持",
+        "彰化",
+        "服務項目",
+        "服務",
+        "福利",
+        "聯絡",
+        "照顧",
+        "家庭",
+        "身障",
+        "獎學",
+        "最新消息",
+        "方案",
+        "報名",
+        "身心障礙",
+        "計畫",
+        "服務內容",
+        "申請",
+        "辦法",
+        "補助",
+        "電話",
+        "專案",
+        "2026",
+        "財團法人切膚之愛社會福利慈善事業基金會",
+        "身障自立生活中心-樂翔居",
+        "服務項目 | 財團法人切膚之愛社會福利慈善事業基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合長者、失智者、身障者或照顧者先查詢；實際服務據點、收案資格、費用補助與名額以基金會來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "失智、身障或長照需求相關資料（如有）",
+        "長照評估或轉介資料（如需）",
+        "服務單位要求的文件"
+      ],
+      "contact": {
+        "phone": "04-7285420",
+        "email": "392296@cch.org.tw",
+        "address": "彰化縣彰化市博愛街53巷85號",
+        "website": "https://www.sgwlf.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.sgwlf.org.tw/service.php?cID=5",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0118-candidate-477e4d86a667"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0118-candidate-477e4d86a667 on 2026-06-03. Candidate signals: 2026, 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0118-candidate-477e4d86a667",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0118-ab34bb07a886",
+      "name": "切膚之愛長照與身障服務項目",
+      "summary": "切膚之愛基金會提供長者、身心障礙者與家庭照顧相關服務項目，可供民眾確認服務內容、資格、文件與聯絡方式。",
+      "provider": "財團法人切膚之愛社會福利慈善事業基金會",
+      "jurisdiction": "全國",
+      "county": "彰化縣",
+      "districts": [
+        "彰化市"
+      ],
+      "audiences": [
+        "老人",
+        "身心障礙者",
+        "家庭照顧者",
+        "一般民眾",
+        "家庭"
+      ],
+      "serviceCategories": [
+        "長期照顧服務",
+        "老人福利",
+        "身心障礙福利",
+        "家庭照顧支持",
+        "民間社福資源",
+        "志願服務",
+        "清寒獎學金",
+        "其他"
+      ],
+      "needTags": [
+        "長照服務",
+        "身障服務",
+        "照顧支持",
+        "服務申請",
+        "彰化",
+        "服務項目",
+        "服務",
+        "福利",
+        "聯絡",
+        "長照",
+        "照顧",
+        "家庭",
+        "身障",
+        "獎學",
+        "最新消息",
+        "方案",
+        "報名",
+        "老人",
+        "計畫",
+        "資格",
+        "申請",
+        "文件",
+        "身心障礙",
+        "電話",
+        "2026",
+        "財團法人切膚之愛社會福利慈善事業基金會",
+        "服務項目 | 財團法人切膚之愛社會福利慈善事業基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合長者、身心障礙者或家庭照顧者先查詢；實際資格、服務區域、補助與文件以基金會來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "身心障礙或長照需求相關資料（如有）",
+        "低收或中低收證明（如有）",
+        "服務單位要求的評估或申請文件"
+      ],
+      "contact": {
+        "phone": "04-7285420",
+        "email": "392296@cch.org.tw",
+        "address": "彰化縣彰化市博愛街53巷85號",
+        "website": "https://www.sgwlf.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.sgwlf.org.tw/service.php?cID=2",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0118-candidate-ab34bb07a886"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0118-candidate-ab34bb07a886 on 2026-06-03. Candidate signals: 2026, 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0118-candidate-ab34bb07a886",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0064-3fedd586f308",
+      "name": "天主教失智老人基金會萬華老人服務中心",
+      "summary": "提供萬華地區長者服務中心資訊，適合長者、失智家庭與照顧者查詢日間照顧、據點服務、申請資格與聯絡方式。",
+      "provider": "財團法人天主教失智老人社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "萬華區"
+      ],
+      "audiences": [
+        "老人",
+        "失智者",
+        "家庭照顧者",
+        "低收入戶",
+        "中低收入戶",
+        "身心障礙者",
+        "家庭",
+        "其他"
+      ],
+      "serviceCategories": [
+        "長期照顧服務",
+        "老人福利",
+        "家庭照顧支持",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "身心障礙福利",
+        "志願服務",
+        "其他"
+      ],
+      "needTags": [
+        "老人服務中心",
+        "萬華",
+        "失智照顧",
+        "日照",
+        "低收入戶",
+        "中低收入戶",
+        "老人",
+        "聯絡",
+        "最新消息",
+        "公告",
+        "服務",
+        "服務項目",
+        "長照",
+        "照顧",
+        "福利",
+        "身心障礙",
+        "資格",
+        "文件",
+        "報名",
+        "醫療",
+        "服務內容",
+        "方案",
+        "家庭",
+        "弱勢",
+        "計畫",
+        "條件",
+        "低收入",
+        "中低收入",
+        "補助",
+        "申請",
+        "電話",
+        "社福",
+        "財團法人天主教失智老人社會福利基金會",
+        "萬華老人服務中心",
+        "天主教失智老人基金會",
+        "人工確認方案"
+      ],
+      "eligibility": "適合萬華或鄰近地區長者、失智家庭與照顧者查詢；實際收案條件、補助、文件與名額以基金會來源頁或電話為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "長照、失智或照顧需求資料",
+        "低收或中低收證明（如有）",
+        "服務中心指定申請或評估文件"
+      ],
+      "contact": {
+        "phone": "02-2332-0992＃163",
+        "email": "crt37crt37@gmail.com",
+        "address": "臺北市萬華區德昌街125巷11號",
+        "website": "http://www.cfad.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.cfad.org.tw/service/32",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0064-candidate-3fedd586f308"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0064-candidate-3fedd586f308 on 2026-06-03. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0064-candidate-3fedd586f308",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0064-0eaf2b5ea597",
+      "name": "天主教失智老人基金會居家服務",
+      "summary": "提供居家服務資訊，適合長者、失智者與照顧者確認服務內容、申請方式、低收或中低收相關補助可能性與聯絡方式。",
+      "provider": "財團法人天主教失智老人社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "萬華區"
+      ],
+      "audiences": [
+        "老人",
+        "失智者",
+        "家庭照顧者",
+        "低收入戶",
+        "中低收入戶",
+        "身心障礙者",
+        "家庭",
+        "其他"
+      ],
+      "serviceCategories": [
+        "長期照顧服務",
+        "老人福利",
+        "家庭照顧支持",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "身心障礙福利",
+        "志願服務",
+        "其他"
+      ],
+      "needTags": [
+        "居家服務",
+        "失智照顧",
+        "長照",
+        "低收入戶",
+        "中低收入戶",
+        "照顧者",
+        "老人",
+        "聯絡",
+        "最新消息",
+        "公告",
+        "服務",
+        "服務項目",
+        "照顧",
+        "申請",
+        "身心障礙",
+        "服務內容",
+        "醫療",
+        "中低收入",
+        "低收入",
+        "電話",
+        "財團法人天主教失智老人社會福利基金會",
+        "天主教失智老人基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合長者、失智者或照顧者先查詢；實際服務資格、補助身分、時數與收案區域以基金會來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "長照或居家服務需求資料",
+        "低收或中低收證明（如有）",
+        "服務單位指定申請文件"
+      ],
+      "contact": {
+        "phone": "02-2332-0992＃163",
+        "email": "crt37crt37@gmail.com",
+        "address": "臺北市萬華區德昌街125巷11號",
+        "website": "http://www.cfad.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.cfad.org.tw/service/31",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0064-candidate-0eaf2b5ea597"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0064-candidate-0eaf2b5ea597 on 2026-06-03. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0064-candidate-0eaf2b5ea597",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0091-add901502fa9",
+      "name": "白永恩聖方濟長照服務處",
+      "summary": "白永恩基金會提供長照服務處資訊，可供長者、身障者、照顧者與社工查詢服務項目、申請方式與洽詢電話。",
+      "provider": "財團法人天主教白永恩神父社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "士林區"
+      ],
+      "audiences": [
+        "老人",
+        "身心障礙者",
+        "家庭照顧者",
+        "社工或轉介單位",
+        "一般民眾",
+        "兒童(含青少年)",
+        "婦女",
+        "家庭"
+      ],
+      "serviceCategories": [
+        "長期照顧服務",
+        "老人福利",
+        "身心障礙福利",
+        "家庭照顧支持",
+        "民間社福資源",
+        "兒童及青少年福利",
+        "婦女權益與福利",
+        "志願服務"
+      ],
+      "needTags": [
+        "長照",
+        "居家照顧",
+        "服務處",
+        "洽詢",
+        "轉介",
+        "服務",
+        "福利",
+        "服務方案",
+        "方案",
+        "身障",
+        "最新消息",
+        "聯絡",
+        "報名",
+        "弱勢",
+        "老人",
+        "照顧",
+        "服務項目",
+        "扶助",
+        "電話",
+        "申請",
+        "辦法",
+        "財團法人天主教白永恩神父社會福利基金會",
+        "聖方濟長照服務處",
+        "聖方濟長照服務處 | 白永恩服務 | 財團法人天主教白永恩神父社會福利基金會官網",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合有長照、照顧或身障服務需求者先查詢；實際收案資格、服務區域、補助與名額以基金會來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "長照或身障需求相關資料（如有）",
+        "轉介或評估資料（如需）",
+        "服務單位要求的申請文件"
+      ],
+      "contact": {
+        "phone": "02-8866-2976",
+        "email": "info@beunen.org.tw",
+        "address": "臺北市士林區臺北市士林區德行東路202號4樓",
+        "website": "http://www.beunen.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.beunen.org.tw/contents/text?id=51",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0091-candidate-add901502fa9"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0091-candidate-add901502fa9 on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0091-candidate-add901502fa9",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0091-1667bfbc2af3",
+      "name": "白永恩稻香身障日照中心",
+      "summary": "白永恩基金會提供身心障礙者日間照顧中心資訊，適合身障者、家屬、照顧者與轉介單位查詢服務內容與申請方式。",
+      "provider": "財團法人天主教白永恩神父社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "士林區"
+      ],
+      "audiences": [
+        "身心障礙者",
+        "家庭照顧者",
+        "社工或轉介單位",
+        "一般民眾",
+        "老人",
+        "兒童(含青少年)",
+        "婦女",
+        "家庭"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "長期照顧服務",
+        "家庭照顧支持",
+        "民間社福資源",
+        "兒童及青少年福利",
+        "老人福利",
+        "婦女權益與福利",
+        "志願服務"
+      ],
+      "needTags": [
+        "身障日照",
+        "日間照顧",
+        "照顧支持",
+        "轉介",
+        "服務申請",
+        "身障",
+        "服務",
+        "福利",
+        "長照",
+        "服務方案",
+        "方案",
+        "最新消息",
+        "聯絡",
+        "報名",
+        "身心障礙",
+        "照顧",
+        "服務項目",
+        "家庭",
+        "計畫",
+        "電話",
+        "洽詢",
+        "申請",
+        "辦法",
+        "財團法人天主教白永恩神父社會福利基金會",
+        "稻香身障日照中心",
+        "稻香身障日照中心 | 白永恩服務 | 財團法人天主教白永恩神父社會福利基金會官網",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合身心障礙者與家屬查詢；實際年齡、障別、服務區域、收案與補助條件以基金會來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "身心障礙證明或相關評估資料",
+        "家庭照顧需求資料",
+        "服務單位指定文件"
+      ],
+      "contact": {
+        "phone": "02-8866-2976",
+        "email": "info@beunen.org.tw",
+        "address": "臺北市士林區臺北市士林區德行東路202號4樓",
+        "website": "http://www.beunen.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.beunen.org.tw/contents/text?id=89",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0091-candidate-1667bfbc2af3"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0091-candidate-1667bfbc2af3 on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0091-candidate-1667bfbc2af3",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0057-8a92b5aa8a08",
+      "name": "門諾長照與社區服務",
+      "summary": "門諾基金會提供長照與社區服務資訊，涵蓋居家照顧、社區據點、行動關懷與物資支持，適合花蓮及偏鄉長者家庭查詢。",
+      "provider": "財團法人門諾社會福利慈善事業基金會",
+      "jurisdiction": "全國",
+      "county": "花蓮縣",
+      "districts": [
+        "花蓮市"
+      ],
+      "audiences": [
+        "老人",
+        "身心障礙者",
+        "家庭照顧者",
+        "低收入戶",
+        "中低收入戶",
+        "一般民眾",
+        "兒童(含青少年)"
+      ],
+      "serviceCategories": [
+        "長期照顧服務",
+        "老人福利",
+        "身心障礙福利",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "兒童及青少年福利",
+        "志願服務",
+        "急難救助(短期、臨時性補助)"
+      ],
+      "needTags": [
+        "長照",
+        "居家照顧",
+        "社區服務",
+        "偏鄉",
+        "花蓮",
+        "物資支持",
+        "服務",
+        "福利",
+        "最新消息",
+        "專案",
+        "聯絡",
+        "公告",
+        "報名",
+        "中低收入",
+        "低收入",
+        "老人",
+        "照顧",
+        "身心障礙",
+        "身障",
+        "電話",
+        "洽詢",
+        "辦法",
+        "財團法人門諾社會福利慈善事業基金會",
+        "居家型服務",
+        "門諾服務 | 財團法人門諾社會福利慈善事業基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合花蓮及偏鄉長者、身障者或照顧者查詢；實際服務區域、資格、低收或中低收補助與申請方式以基金會來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "長照或照顧需求資料",
+        "低收或中低收證明（如有）",
+        "服務單位指定申請或評估文件"
+      ],
+      "contact": {
+        "phone": "03-8338009",
+        "email": "111631@mf.org.tw",
+        "address": "花蓮縣花蓮市民權路4號",
+        "website": "http://www.mf.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.mf.org.tw/official/service?equal%5Bclassid%5D=1",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0057-candidate-8a92b5aa8a08"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0057-candidate-8a92b5aa8a08 on 2026-06-03. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0057-candidate-8a92b5aa8a08",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0061-57f25c828412",
+      "name": "婦聯高中職就學補助",
+      "summary": "婦聯社會福利基金會提供高中職學生就學補助資訊，適合清寒或經濟困難家庭查詢名額、辦法與聯絡方式。",
+      "provider": "財團法人中華民國婦聯社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中正區"
+      ],
+      "audiences": [
+        "高中職學生",
+        "經濟困難家庭",
+        "低收入戶",
+        "中低收入戶",
+        "家庭",
+        "兒童(含青少年)",
+        "老人",
+        "身心障礙者"
+      ],
+      "serviceCategories": [
+        "清寒獎學金",
+        "兒童及青少年福利",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "老人福利",
+        "身心障礙福利",
+        "婦女權益與福利",
+        "災害(變)救助"
+      ],
+      "needTags": [
+        "高中職",
+        "就學補助",
+        "清寒",
+        "學生補助",
+        "低收入戶",
+        "中低收入戶",
+        "福利",
+        "補助",
+        "家庭",
+        "辦法",
+        "名額",
+        "聯絡",
+        "最新消息",
+        "公告",
+        "專案",
+        "社福",
+        "2026",
+        "2025",
+        "財團法人中華民國婦聯社會福利基金會",
+        "高中職就學補助",
+        "婦聯社會福利基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合高中職清寒或經濟困難學生查詢；實際年度、名額、資格、是否仍受理與文件以基金會來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "在學資料",
+        "清寒、低收或中低收證明（如有）",
+        "家庭經濟資料（如頁面要求）",
+        "基金會指定申請資料"
+      ],
+      "contact": {
+        "phone": "0928553187",
+        "email": "fnwl0800@gmail.com",
+        "address": "臺北市中正區中華路一段77號3號",
+        "website": "https://www.nwl.url.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.nwl.url.tw/custom_cg22341.html",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0061-candidate-57f25c828412"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0061-candidate-57f25c828412 on 2026-06-03. Candidate signals: 2026, 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0061-candidate-57f25c828412",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-a0094-eb9b8445c4f5",
+      "name": "永瑞慈善經費申請",
+      "summary": "永瑞基金會提供經費申請資訊，服務範圍包含兒童、老人、婦女、身心障礙者與其他需要援助者，可作為急難或低收入相關民間補助查詢入口。",
+      "provider": "財團法人永瑞慈善事業基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中正區"
+      ],
+      "audiences": [
+        "急難家庭",
+        "經濟困難家庭",
+        "低收入戶",
+        "身心障礙者",
+        "老人",
+        "兒童(含青少年)",
+        "婦女",
+        "家庭"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "低收入戶與中低收入戶救助",
+        "兒童及青少年福利",
+        "老人福利",
+        "身心障礙福利",
+        "民間社福資源",
+        "婦女權益與福利",
+        "志願服務"
+      ],
+      "needTags": [
+        "經費申請",
+        "急難",
+        "低收入",
+        "身障",
+        "老人",
+        "兒少",
+        "最新消息",
+        "申請",
+        "聯絡",
+        "資格",
+        "補助",
+        "救助",
+        "電話",
+        "2026",
+        "2025",
+        "財團法人永瑞慈善事業基金會",
+        "財團法人永瑞慈善基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合需要民間經費協助者或轉介單位先查詢；實際申請資格、補助範圍、文件與是否開放受理以基金會來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "急難、低收入或身障等需求證明（如有）",
+        "經費需求說明",
+        "基金會指定申請文件"
+      ],
+      "contact": {
+        "phone": "02-25078870",
+        "email": "yungray.charity@msa.hinet.net",
+        "address": "臺北市中正區南京東路三段118號11樓",
+        "website": "http://www.yungray-foundation.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.yungray-foundation.org.tw/funding",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0094-candidate-eb9b8445c4f5"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0094-candidate-eb9b8445c4f5 on 2026-06-03. Candidate signals: 2026, 2025, 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0094-candidate-eb9b8445c4f5",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
+      }
+    },
+    {
+      "id": "foundation-program-e0011-3d0b3f56a989",
+      "name": "嘉義博愛仁愛之家社福資訊",
+      "summary": "嘉義博愛仁愛之家提供安養、養護與日間托老等社福資訊，適合長者、家屬與照顧者查詢入住或服務內容、醫療復健與生活照護。",
+      "provider": "財團法人臺灣省私立嘉義博愛仁愛之家",
+      "jurisdiction": "全國",
+      "county": "嘉義市",
+      "districts": [
+        "東區"
+      ],
+      "audiences": [
+        "老人",
+        "家庭照顧者",
+        "低收入戶",
+        "中低收入戶",
+        "身心障礙者",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "長期照顧服務",
+        "老人福利",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "身心障礙福利",
+        "其他",
+        "社福基金會",
+        "方案級民間資源"
+      ],
+      "needTags": [
+        "安養",
+        "養護",
+        "日間托老",
+        "嘉義",
+        "老人福利",
+        "低收入戶",
+        "中低收入戶",
+        "電話",
+        "聯絡",
+        "最新消息",
+        "照護",
+        "服務",
+        "社福",
+        "申請",
+        "中低收入",
+        "低收入",
+        "老人",
+        "補助",
+        "照顧",
+        "服務內容",
+        "醫療",
+        "身心障礙",
+        "財團法人臺灣省私立嘉義博愛仁愛之家",
+        "社福資訊",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合長者或家屬查詢安養、養護與日間托老服務；實際入住資格、收費、補助身分與床位以機構來源頁或電話確認為準。",
+      "howToApply": [
+        "開啟來源頁確認今年度受理狀態、服務區域、名額與申請期限。",
+        "依頁面準備申請表、資格證明、身分資料與需求說明。",
+        "送件或前往服務前，先以電話或 Email 確認最新規則，避免白跑一趟。"
+      ],
+      "documents": [
+        "身分資料",
+        "健康或照護需求資料",
+        "低收或中低收證明（如有）",
+        "機構指定入住或服務申請文件"
+      ],
+      "contact": {
+        "phone": "05-2762306",
+        "email": "hchonatu@gmail.com",
+        "address": "嘉義市東區太平里11鄰林森東路235號",
+        "website": "https://www.cyboai.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.cyboai.org.tw/info.aspx",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-e0011-candidate-3d0b3f56a989"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-e0011-candidate-3d0b3f56a989 on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-e0011-candidate-3d0b3f56a989",
+        "reviewedAt": "2026-06-03",
+        "selectionPolicy": "manual-allowlist"
       }
     }
   ]

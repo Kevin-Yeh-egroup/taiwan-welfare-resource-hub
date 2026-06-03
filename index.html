@@ -12,7 +12,7 @@
       <div class="header-copy">
         <p class="eyebrow">Taiwan Welfare Resource Hub</p>
         <h1>台灣社會福利資源查詢</h1>
-        <p class="lede">用民眾的需求來找資源：地區、身分、服務類型、申請方式、聯絡資訊、官方與民間資源的來源更新狀態集中在同一頁。</p>
+        <p class="lede">用需求、身分或縣市快速查找政府與民間社福資源，包含急難救助、低收與中低收、長照、身障、兒少、清寒獎助等資訊。</p>
       </div>
       <figure class="header-visual">
         <img src="public/assets/taiwan-welfare-map.png" alt="台灣社福資源地圖示意">
@@ -20,22 +20,24 @@
     </header>
 
     <main>
-      <section class="tool-shell" aria-label="福利資源查詢工具">
+      <section class="tool-shell" aria-label="社福資源查詢工具">
         <div class="search-row">
           <label class="search-field">
-            <span>關鍵字</span>
-            <input id="queryInput" type="search" placeholder="例如：急難救助、托育、復康巴士、臺南">
+            <span>搜尋需求</span>
+            <input id="queryInput" type="search" placeholder="例如：急難救助、低收入戶、長照、清寒獎學金、嘉義">
           </label>
-          <button id="clearButton" class="icon-button" type="button" title="清除篩選" aria-label="清除篩選">清除</button>
+          <button id="clearButton" class="icon-button" type="button">清除</button>
         </div>
 
         <div class="quick-needs" aria-label="常見需求">
-          <button type="button" data-need="低收入戶資格">低收/中低收</button>
-          <button type="button" data-need="115年低收標準">115年資格</button>
           <button type="button" data-need="急難救助">急難救助</button>
-          <button type="button" data-need="社福中心">社福中心</button>
-          <button type="button" data-need="保費補助">保費補助</button>
-          <button type="button" data-need="民間基金會">民間基金會</button>
+          <button type="button" data-need="低收入戶">低收入戶</button>
+          <button type="button" data-need="中低收入戶">中低收入戶</button>
+          <button type="button" data-need="長照">長照</button>
+          <button type="button" data-need="身心障礙">身心障礙</button>
+          <button type="button" data-need="清寒獎學金">清寒獎學金</button>
+          <button type="button" data-need="兒少">兒少</button>
+          <button type="button" data-need="家庭照顧">家庭照顧</button>
         </div>
 
         <div class="filters" aria-label="篩選條件">
@@ -48,7 +50,7 @@
             <select id="audienceFilter"></select>
           </label>
           <label>
-            <span>服務類型</span>
+            <span>資源類型</span>
             <select id="categoryFilter"></select>
           </label>
           <label>
@@ -58,21 +60,21 @@
               <option value="official-entry">官方入口</option>
               <option value="source-dated">來源有日期</option>
               <option value="checked">已檢查</option>
-              <option value="needs-review">需人工確認</option>
+              <option value="needs-review">需再確認</option>
             </select>
           </label>
         </div>
 
         <div class="active-bar">
-          <p id="resultCount">讀取資料中...</p>
+          <p id="resultCount">載入資料中...</p>
           <div id="activeFilters" class="active-filters" aria-label="目前篩選"></div>
         </div>
       </section>
 
-      <section class="status-grid" aria-label="資料狀態摘要">
+      <section class="status-grid" aria-label="資料概況">
         <article>
           <span id="recordTotal">0</span>
-          <p>資源卡片</p>
+          <p>資源筆數</p>
         </article>
         <article>
           <span id="countyTotal">0</span>
@@ -80,25 +82,25 @@
         </article>
         <article>
           <span id="reviewTotal">0</span>
-          <p>待人工確認</p>
+          <p>需再確認</p>
         </article>
         <article>
           <span>12-01</span>
-          <p>跨年度密集檢查開始</p>
+          <p>跨年加密檢查</p>
         </article>
       </section>
 
       <section class="results-layout">
-        <aside class="guide-panel" aria-label="查詢提示">
-          <h2>查詢時先看這些</h2>
+        <aside class="guide-panel" aria-label="申請提醒">
+          <h2>申請前先確認</h2>
           <ol>
-            <li>先確認服務地區和服務對象。</li>
-            <li>看申請方式和要準備的文件。</li>
-            <li>撥電話確認名額、時間和今年度規則；民間基金會需再確認是否有開放收案。</li>
+            <li>今年度是否仍開放、名額是否已滿。</li>
+            <li>戶籍地、居住地、年齡、身分別是否符合。</li>
+            <li>是否需要低收、中低收、身障、醫療、急難或就學證明。</li>
           </ol>
           <div class="quality-note">
-            <h3>資料信心</h3>
-            <p>「需人工確認」不代表不能用，而是缺少可自動判讀的更新日期。這類資源會排入定期檢查。</p>
+            <h3>資料狀態</h3>
+            <p>本工具會定期重跑來源檢查；民間方案仍請以來源頁或電話確認最新資格、金額、文件與截止日。</p>
           </div>
         </aside>
 
@@ -107,7 +109,7 @@
     </main>
 
     <footer class="app-footer">
-      <p>資料來源以官方或可追溯來源優先。正式公開前請保留 noindex，避免未審核資料被搜尋引擎收錄。</p>
+      <p>此網站仍在 review-stage，保留 noindex；資料用於查詢與轉介前整理，申請前請向主管機關或服務單位確認。</p>
       <a href="PUBLICATION_CHECKLIST.md">Publication checklist</a>
     </footer>
 
