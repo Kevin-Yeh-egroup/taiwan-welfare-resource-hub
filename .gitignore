@@ -8,6 +8,9 @@ __pycache__/
 .pytest_cache/
 data/source-snapshots.json
 data/crawl-report.json
+dist/
 work/
 source-docs/*
 !source-docs/.gitkeep
+
+.vercel

@@ -1,0 +1,8 @@
+{
+  "name": "taiwan-welfare-resource-hub",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "build": "node scripts/build_static.mjs"
+  }
+}
