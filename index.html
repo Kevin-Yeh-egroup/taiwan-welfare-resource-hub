@@ -11,10 +11,10 @@
     <header class="app-header">
       <div class="header-copy">
         <p class="eyebrow">Taiwan Welfare Resource Hub</p>
-        <h1>先從你遇到的困難開始找</h1>
+        <h1>先用你的狀況找福利資源</h1>
         <p class="lede">
-          <span>用需求、身分或縣市查找政府與民間資源。</span>
-          <span>先確認能不能申請，再看文件、電話與來源網站。</span>
+          <span>不用先知道制度名稱，先選你現在遇到的狀況。</span>
+          <span>再看資格、要準備什麼、可以問哪個單位。</span>
         </p>
       </div>
       <figure class="header-visual">
@@ -26,65 +26,65 @@
       <section class="finder-board" aria-label="社福資源快速查詢">
         <div class="search-panel">
           <label class="search-field">
-            <span>用一句話搜尋</span>
-            <input id="queryInput" type="search" placeholder="例如：沒收入、長照、孩子學費、身障服務">
+            <span>用一句話說你的狀況</span>
+            <input id="queryInput" type="search" placeholder="例如：最近沒收入、想查低收入戶、孩子學費、長照">
           </label>
           <button id="clearButton" class="clear-button" type="button">清除</button>
         </div>
 
-        <section class="choice-section" aria-label="我現在需要什麼">
+        <section class="choice-section" aria-label="先選遇到的狀況">
           <div class="section-heading">
-            <p class="eyebrow">Need-first search</p>
-            <h2>我現在需要什麼？</h2>
+            <p class="eyebrow">先選遇到的狀況</p>
+            <h2>你現在想先解決什麼？</h2>
           </div>
           <div class="need-grid">
             <button type="button" class="visual-tile tone-urgent" data-need="急難救助">
               <span class="tile-mark">急</span>
               <strong>急難救助</strong>
-              <small>突發變故、短期補助</small>
+              <small>臨時沒錢、事故、醫療急用</small>
             </button>
-            <button type="button" class="visual-tile tone-income" data-need="低收入戶 中低收入戶">
+            <button type="button" class="visual-tile tone-income" data-need="低收入戶">
               <span class="tile-mark">低</span>
-              <strong>低收/中低收</strong>
-              <small>資格、生活扶助、醫療</small>
+              <strong>低收入戶／中低收入戶</strong>
+              <small>資格、生活扶助、健保補助</small>
             </button>
             <button type="button" class="visual-tile tone-medical" data-need="醫療補助">
               <span class="tile-mark">醫</span>
               <strong>醫療補助</strong>
-              <small>健保、醫療困難</small>
+              <small>健保費、醫療費、住院壓力</small>
             </button>
             <button type="button" class="visual-tile tone-care" data-need="長照">
               <span class="tile-mark">照</span>
               <strong>長照服務</strong>
-              <small>1966、居家、喘息</small>
+              <small>1966、居家服務、喘息照顧</small>
             </button>
             <button type="button" class="visual-tile tone-disability" data-need="身心障礙">
               <span class="tile-mark">身</span>
-              <strong>身障服務</strong>
-              <small>日照、就業、輔具</small>
+              <strong>身心障礙服務</strong>
+              <small>手冊、輔具、日照、就業</small>
             </button>
             <button type="button" class="visual-tile tone-child" data-need="兒少 家庭">
               <span class="tile-mark">兒</span>
               <strong>兒少家庭</strong>
-              <small>扶助、寄養、家庭支持</small>
+              <small>托育、就學、家庭支持</small>
             </button>
             <button type="button" class="visual-tile tone-school" data-need="清寒獎學金">
               <span class="tile-mark">學</span>
-              <strong>清寒獎助</strong>
-              <small>學生、學費、助學金</small>
+              <strong>學費與獎助學金</strong>
+              <small>清寒、學雜費、助學金</small>
             </button>
             <button type="button" class="visual-tile tone-local" data-need="社會局 社福中心">
               <span class="tile-mark">地</span>
-              <strong>找在地單位</strong>
-              <small>縣市政府、社福中心</small>
+              <strong>找戶籍地或所在地單位</strong>
+              <small>社會局處、公所、社福中心</small>
             </button>
           </div>
         </section>
 
-        <section class="choice-section" aria-label="我符合哪種身分">
+        <section class="choice-section" aria-label="選擇身分或對象">
           <div class="section-heading">
-            <p class="eyebrow">Identity filter</p>
-            <h2>我符合哪種身分？</h2>
+            <p class="eyebrow">再選可能符合的身分</p>
+            <h2>你目前比較像哪種情況？</h2>
           </div>
           <div class="identity-grid">
             <button type="button" data-audience="低收入戶">低收入戶</button>
@@ -101,29 +101,29 @@
 
       <section class="guide-strip" aria-label="最常被詢問的弱勢資格">
         <div class="section-heading">
-          <p class="eyebrow">Start here</p>
-          <h2>先看最常問</h2>
+          <p class="eyebrow">常見問題先看這裡</p>
+          <h2>很多人會先問這幾項</h2>
         </div>
         <div class="guide-card-grid">
           <button type="button" class="guide-card" data-need="低收入戶 資格">
-            <span>年度標準</span>
+            <span>資格怎麼看</span>
             <strong>低收入戶資格</strong>
-            <small>所得、動產、不動產限制</small>
+            <small>看人口、收入、動產、不動產</small>
           </button>
           <button type="button" class="guide-card" data-need="中低收入戶 資格">
-            <span>年度標準</span>
+            <span>資格怎麼看</span>
             <strong>中低收入戶資格</strong>
-            <small>各地區標準與申請入口</small>
+            <small>各縣市標準與申請入口</small>
           </button>
           <button type="button" class="guide-card" data-need="急難救助 申請">
-            <span>短期協助</span>
-            <strong>急難救助申請</strong>
-            <small>突發事故、醫療、生活急難</small>
+            <span>臨時需要幫忙</span>
+            <strong>急難救助怎麼申請</strong>
+            <small>事故、醫療、失業或生活急難</small>
           </button>
           <button type="button" class="guide-card" data-need="1966 長照">
-            <span>照顧服務</span>
-            <strong>長照 1966</strong>
-            <small>居家、喘息、輔具與接送</small>
+            <span>家裡有人需要照顧</span>
+            <strong>長照 1966 可以問什麼</strong>
+            <small>居家服務、喘息、輔具與交通</small>
           </button>
         </div>
       </section>
@@ -131,7 +131,7 @@
       <section class="status-grid" aria-label="資料概況">
         <article>
           <span id="recordTotal">0</span>
-          <p>資源筆數</p>
+          <p>目前整理</p>
         </article>
         <article>
           <span id="countyTotal">0</span>
@@ -139,56 +139,56 @@
         </article>
         <article>
           <span id="foundationProgramTotal">0</span>
-          <p>民間方案卡</p>
+          <p>民間方案</p>
         </article>
         <article>
           <span id="currentYearTotal">0</span>
-          <p>來源有日期</p>
+          <p>來源標示日期</p>
         </article>
       </section>
 
       <section class="results-layout">
         <aside class="filter-panel" aria-label="進階篩選">
-          <h2>縮小範圍</h2>
+          <h2>縮小查詢範圍</h2>
           <label>
-            <span>我的縣市</span>
+            <span>縣市</span>
             <select id="countyFilter"></select>
           </label>
           <label>
-            <span>我的身分</span>
+            <span>身分或對象</span>
             <select id="audienceFilter"></select>
           </label>
           <label>
-            <span>資源類型</span>
+            <span>想找的協助</span>
             <select id="categoryFilter"></select>
           </label>
           <label class="check-line">
             <input id="currentOnlyFilter" type="checkbox">
-            <span>只看來源有日期</span>
+            <span>只看來源有標示日期</span>
           </label>
-          <button id="applyFilterButton" type="button" class="apply-button">我要申請</button>
+          <button id="applyFilterButton" type="button" class="apply-button">看申請方式</button>
           <div class="quality-note">
-            <h3>申請前先確認</h3>
-            <p>民間方案與地方補助常有名額、年度、文件差異。送件前請先看來源頁或電話確認。</p>
+            <h3>送件前先確認</h3>
+            <p>民間方案與地方補助常會因名額、年度、戶籍地或文件不同而調整。送件前建議先看來源頁，或打電話問承辦單位。</p>
           </div>
         </aside>
 
         <section class="results-panel" aria-label="查詢結果">
           <div class="results-toolbar">
             <div>
-              <p class="eyebrow">Results</p>
-              <h2 id="resultTitle">建議先看</h2>
+              <p class="eyebrow">查詢結果</p>
+              <h2 id="resultTitle">建議你先看</h2>
               <p id="resultCount">載入資料中...</p>
             </div>
             <div id="activeFilters" class="active-filters" aria-label="目前篩選"></div>
           </div>
 
           <div class="group-tabs" role="tablist" aria-label="結果分組">
-            <button type="button" data-group="recommended" class="is-active">最可能相關</button>
-            <button type="button" data-group="government">政府資源</button>
-            <button type="button" data-group="foundation">民間資源</button>
-            <button type="button" data-group="contact">需洽詢</button>
-            <button type="button" data-group="all">全部</button>
+            <button type="button" data-group="recommended" class="is-active">建議先看</button>
+            <button type="button" data-group="government">政府／公所資源</button>
+            <button type="button" data-group="foundation">民間基金會</button>
+            <button type="button" data-group="contact">建議先電話確認</button>
+            <button type="button" data-group="all">全部結果</button>
           </div>
 
           <div id="results" class="resource-list" aria-live="polite"></div>
@@ -197,7 +197,7 @@
     </main>
 
     <footer class="app-footer">
-      <p>此網站仍在 review-stage，保留 noindex；資料用於查詢與轉介前整理，申請前請向主管機關或服務單位確認。</p>
+      <p>此網站仍在 review-stage，保留 noindex。資料適合先查詢、轉介前整理；實際申請前，請再向主管機關、戶籍地公所或服務單位確認。</p>
       <a href="PUBLICATION_CHECKLIST.md">Publication checklist</a>
     </footer>
 

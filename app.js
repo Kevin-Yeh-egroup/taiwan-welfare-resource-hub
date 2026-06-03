@@ -16,11 +16,11 @@ const labels = {
 };
 
 const groupLabels = {
-  recommended: "最可能相關",
-  government: "政府資源",
-  foundation: "民間資源",
-  contact: "需洽詢",
-  all: "全部資源"
+  recommended: "建議先看",
+  government: "政府／公所資源",
+  foundation: "民間基金會",
+  contact: "建議先電話確認",
+  all: "全部結果"
 };
 
 const priorityNames = [
@@ -44,6 +44,7 @@ const els = {
   resultTitle: document.querySelector("#resultTitle"),
   resultCount: document.querySelector("#resultCount"),
   activeFilters: document.querySelector("#activeFilters"),
+  resultsPanel: document.querySelector(".results-panel"),
   clearButton: document.querySelector("#clearButton"),
   applyFilterButton: document.querySelector("#applyFilterButton"),
   recordTotal: document.querySelector("#recordTotal"),
@@ -71,9 +72,9 @@ function optionList(select, values, allLabel) {
 }
 
 function setupFilters(records) {
-  optionList(els.county, uniqueSorted(records.map((record) => record.county)), "全部縣市");
-  optionList(els.audience, uniqueSorted(records.flatMap((record) => record.audiences || [])), "全部身分");
-  optionList(els.category, uniqueSorted(records.flatMap((record) => record.serviceCategories || [])), "全部類型");
+  optionList(els.county, uniqueSorted(records.map((record) => record.county)), "不限縣市");
+  optionList(els.audience, uniqueSorted(records.flatMap((record) => record.audiences || [])), "不限身分");
+  optionList(els.category, uniqueSorted(records.flatMap((record) => record.serviceCategories || [])), "不限類型");
 }
 
 function searchableText(record) {
@@ -314,12 +315,12 @@ function currentFilteredRecords() {
 
 function renderActiveFilters() {
   const filters = [
-    state.query ? `搜尋：${state.query}` : "",
+    state.query ? `關鍵字：${state.query}` : "",
     state.county ? `縣市：${state.county}` : "",
-    state.audience ? `身分：${state.audience}` : "",
-    state.category ? `類型：${state.category}` : "",
-    state.currentOnly ? "只看來源有日期" : "",
-    `分組：${groupLabels[state.group]}`
+    state.audience ? `身分／對象：${state.audience}` : "",
+    state.category ? `協助類型：${state.category}` : "",
+    state.currentOnly ? "只看來源有標示日期" : "",
+    `目前分組：${groupLabels[state.group]}`
   ].filter(Boolean);
 
   els.activeFilters.innerHTML = filters.map((filter) => `<span class="filter-chip">${escapeHtml(filter)}</span>`).join("");
@@ -333,19 +334,20 @@ function render() {
   els.resultTitle.textContent = groupLabels[state.group] || "查詢結果";
   els.resultCount.textContent =
     state.group === "all"
-      ? `符合條件 ${filtered.length} 筆`
-      : `符合條件 ${baseCount} 筆，這組顯示 ${visible.length} 筆`;
+      ? `找到 ${filtered.length} 筆可參考資源`
+      : `找到 ${baseCount} 筆可參考資源，先顯示 ${visible.length} 筆`;
   renderActiveFilters();
   syncGroupButtons();
+  syncShortcutButtons();
 
   if (!visible.length) {
-    els.results.innerHTML = `<div class="empty-state"><p>目前沒有符合條件的資源。可以改用較短的關鍵字，例如「低收入戶」、「急難」、「長照」，或切換到「全部」。</p></div>`;
+    els.results.innerHTML = `<div class="empty-state"><p>目前沒有找到符合條件的資源。可以改用比較短的說法，例如「低收入戶」、「急難」、「長照」，或先取消縣市、身分、日期限制。</p></div>`;
     return;
   }
 
   const moreNote =
     filtered.length > visible.length
-      ? `<div class="more-note">這組還有 ${filtered.length - visible.length} 筆。可切到「全部」，或用縣市、身分、關鍵字再縮小。</div>`
+      ? `<div class="more-note">這組還有 ${filtered.length - visible.length} 筆。可以切到「全部結果」，或用縣市、身分、關鍵字再縮小。</div>`
       : "";
   els.results.innerHTML = visible.map(renderRecord).join("") + moreNote;
 }
@@ -357,18 +359,59 @@ function updateStats(records) {
   els.currentYearTotal.textContent = records.filter((record) => record.freshness?.confidence === "source-dated").length;
 }
 
-function setQuery(query) {
+function selectHasValue(select, value) {
+  return [...select.options].some((option) => option.value === value);
+}
+
+function setSelectValue(select, value) {
+  select.value = value && selectHasValue(select, value) ? value : "";
+}
+
+function syncControls() {
+  els.query.value = state.query;
+  setSelectValue(els.county, state.county);
+  setSelectValue(els.audience, state.audience);
+  setSelectValue(els.category, state.category);
+  els.currentOnly.checked = state.currentOnly;
+}
+
+function scrollToResults() {
+  window.requestAnimationFrame(() => {
+    els.resultsPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+
+function syncShortcutButtons() {
+  document.querySelectorAll("[data-need]").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.need === state.query);
+  });
+  document.querySelectorAll("[data-audience]").forEach((button) => {
+    const audience = button.dataset.audience || "";
+    button.classList.toggle("is-active", Boolean(audience && state.audience === audience && state.query.includes(audience)));
+  });
+}
+
+function applyShortcut({ query, audience = "", scroll = true }) {
+  state.query = query;
+  state.audience = audience;
+  state.category = "";
+  state.currentOnly = false;
+  state.group = "recommended";
+  syncControls();
+  render();
+  if (scroll) scrollToResults();
+}
+
+function setQuery(query, options = {}) {
   state.query = query;
   state.group = "recommended";
-  els.query.value = query;
+  syncControls();
   render();
+  if (options.scroll) scrollToResults();
 }
 
 function setAudience(audience) {
-  state.audience = audience;
-  state.group = "recommended";
-  els.audience.value = audience;
-  render();
+  applyShortcut({ query: audience, audience });
 }
 
 function resetFilters() {
@@ -378,11 +421,7 @@ function resetFilters() {
   state.category = "";
   state.currentOnly = false;
   state.group = "recommended";
-  els.query.value = "";
-  els.county.value = "";
-  els.audience.value = "";
-  els.category.value = "";
-  els.currentOnly.checked = false;
+  syncControls();
   render();
 }
 
@@ -415,10 +454,10 @@ function bindEvents() {
     render();
   });
   els.clearButton.addEventListener("click", resetFilters);
-  els.applyFilterButton.addEventListener("click", () => setQuery("申請"));
+  els.applyFilterButton.addEventListener("click", () => setQuery("申請", { scroll: true }));
 
   document.querySelectorAll("[data-need]").forEach((button) => {
-    button.addEventListener("click", () => setQuery(button.dataset.need || ""));
+    button.addEventListener("click", () => applyShortcut({ query: button.dataset.need || "" }));
   });
   document.querySelectorAll("[data-audience]").forEach((button) => {
     button.addEventListener("click", () => setAudience(button.dataset.audience || ""));

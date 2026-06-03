@@ -243,6 +243,14 @@ summary:focus-visible {
   transform: translateY(-1px);
 }
 
+.visual-tile.is-active,
+.guide-card.is-active,
+.identity-grid button.is-active {
+  border-color: #0b726f;
+  background: var(--teal-soft);
+  box-shadow: 0 0 0 3px rgba(11, 114, 111, 0.12);
+}
+
 .tile-mark {
   grid-row: 1 / span 2;
   display: inline-grid;
