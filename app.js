@@ -284,6 +284,22 @@ function renderApplicationConditions(record) {
   `;
 }
 
+function renderApplicationMethod(record) {
+  const steps = record.howToApply || [];
+  if (!steps.length) return "";
+  return `
+    <section class="method-block" aria-label="申請方式">
+      <div class="method-heading">
+        <span>申請方式</span>
+        <small>${escapeHtml(record.applicationMethodSourceNote || "實際受理窗口、期限、文件與線上申辦方式，請以來源頁或承辦單位公告為準。")}</small>
+      </div>
+      <ol class="method-list">
+        ${steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
+      </ol>
+    </section>
+  `;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -317,6 +333,7 @@ function renderRecord(record) {
 
       ${renderApplicationConditions(record)}
       ${renderBenefitItems(record)}
+      ${renderApplicationMethod(record)}
 
       <div class="quick-answer-grid">
         <div>

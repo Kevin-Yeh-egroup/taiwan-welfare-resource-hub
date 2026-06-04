@@ -761,6 +761,68 @@ summary:focus-visible {
   font-weight: 900;
 }
 
+.method-block {
+  margin-top: 12px;
+  border: 1px solid #d7e0ee;
+  border-radius: 8px;
+  background: #f7faff;
+  padding: 12px;
+}
+
+.method-heading {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.method-heading span {
+  color: #245b91;
+  font-size: 0.92rem;
+  font-weight: 900;
+}
+
+.method-heading small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.method-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  counter-reset: method-step;
+}
+
+.method-list li {
+  position: relative;
+  min-width: 0;
+  border-left: 3px solid var(--blue);
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 10px 10px 10px 42px;
+  color: #31413d;
+  line-height: 1.5;
+  counter-increment: method-step;
+}
+
+.method-list li::before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 900;
+  content: counter(method-step);
+}
+
 .quick-answer-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
