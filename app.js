@@ -17,9 +17,9 @@ const labels = {
 
 const groupLabels = {
   recommended: "建議先看",
-  government: "政府／公所資源",
-  foundation: "民間基金會",
-  contact: "建議先電話確認",
+  central: "公部門中央資源",
+  local: "公部門地方資源",
+  private: "民間資源",
   all: "全部結果"
 };
 
@@ -173,9 +173,28 @@ function isFoundationResource(record) {
   return record.source?.type === "foundation-program-page" || String(record.id || "").startsWith("sfaa-foundation-");
 }
 
+function isPrivateResource(record) {
+  return isFoundationResource(record);
+}
+
+function isPublicCentralResource(record) {
+  if (isPrivateResource(record)) return false;
+  const sourceType = record.source?.type || "";
+  const scope = `${record.county || ""} ${record.jurisdiction || ""}`;
+  if (/全國|全省|中央/.test(scope)) return true;
+  return /official-(portal|hotline|program|annual-standard|faq|service-network)/.test(sourceType);
+}
+
+function isPublicLocalResource(record) {
+  if (isPrivateResource(record) || isPublicCentralResource(record)) return false;
+  const sourceType = record.source?.type || "";
+  const provider = `${record.provider || ""} ${sourceType}`;
+  return /政府|社會局|社會處|公所|open-data|official-map|official-local-government/.test(provider);
+}
+
 function isGovernmentResource(record) {
   const provider = `${record.provider || ""} ${record.source?.type || ""}`;
-  return /衛生福利部|勞動部|政府|社會局|社家署|健保署|公所|官方|official|open-data/.test(provider) && !isFoundationResource(record);
+  return /衛生福利部|勞動部|政府|社會局|社家署|健保署|公所|官方|official|open-data/.test(provider) && !isPrivateResource(record);
 }
 
 function needsContact(record) {
@@ -192,8 +211,9 @@ function needsContact(record) {
 
 function groupMatches(record) {
   if (state.group === "all") return true;
-  if (state.group === "government") return isGovernmentResource(record);
-  if (state.group === "foundation") return isFoundationResource(record);
+  if (state.group === "central") return isPublicCentralResource(record);
+  if (state.group === "local") return isPublicLocalResource(record);
+  if (state.group === "private") return isPrivateResource(record);
   if (state.group === "contact") return needsContact(record);
   if (state.group === "recommended") return rankRecord(record) > 0 || priorityNames.includes(record.name);
   return true;
@@ -564,12 +584,14 @@ function render() {
   const visible = state.group === "all" ? filtered : filtered.slice(0, 36);
   const visibleCards = groupVisibleRecords(visible);
   const collapsedCount = visible.length - visibleCards.length;
+  const groupLabel = groupLabels[state.group] || "查詢結果";
+  const hasBaseFilter = Boolean(state.query || state.county || state.audience || state.category || state.currentOnly);
 
-  els.resultTitle.textContent = groupLabels[state.group] || "查詢結果";
+  els.resultTitle.textContent = groupLabel;
   els.resultCount.textContent =
     state.group === "all"
       ? `找到 ${filtered.length} 筆可參考資源${collapsedCount ? `，合併顯示為 ${visibleCards.length} 張卡` : ""}`
-      : `找到 ${baseCount} 筆可參考資源，先顯示 ${visibleCards.length} 張卡${collapsedCount ? `（已收合 ${collapsedCount} 筆同單位方案）` : ""}`;
+      : `${groupLabel} ${filtered.length} 筆，先顯示 ${visibleCards.length} 張卡${collapsedCount ? `（已收合 ${collapsedCount} 筆同單位方案）` : ""}${hasBaseFilter && baseCount !== filtered.length ? `；目前篩選共 ${baseCount} 筆` : ""}`;
   renderActiveFilters();
   syncGroupButtons();
   syncShortcutButtons();
@@ -648,6 +670,14 @@ function setAudience(audience) {
   applyShortcut({ query: audience, audience });
 }
 
+function showResourceDescriptions() {
+  const hasNarrowingFilter = Boolean(state.query || state.county || state.audience || state.category || state.currentOnly);
+  state.group = hasNarrowingFilter ? "all" : "recommended";
+  syncControls();
+  render();
+  scrollToResults();
+}
+
 function resetFilters() {
   state.query = "";
   state.county = "";
@@ -688,7 +718,7 @@ function bindEvents() {
     render();
   });
   els.clearButton.addEventListener("click", resetFilters);
-  els.applyFilterButton.addEventListener("click", () => setQuery("申請", { scroll: true }));
+  els.applyFilterButton.addEventListener("click", showResourceDescriptions);
 
   document.querySelectorAll("[data-need]").forEach((button) => {
     button.addEventListener("click", () => applyShortcut({ query: button.dataset.need || "" }));
