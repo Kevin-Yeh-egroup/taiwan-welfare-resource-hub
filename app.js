@@ -88,6 +88,7 @@ function searchableText(record) {
     ...(record.audiences || []),
     ...(record.serviceCategories || []),
     ...(record.needTags || []),
+    ...(record.benefitItems || []).flatMap((item) => [item.label, item.amount, item.unit, item.note, item.sourceDate]),
     record.eligibility,
     ...(record.howToApply || []),
     ...(record.documents || []),
@@ -226,6 +227,34 @@ function listItems(items, ordered = false) {
   return `<${tag}>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</${tag}>`;
 }
 
+function renderBenefitItems(record) {
+  const items = record.benefitItems || [];
+  if (!items.length) return "";
+  const visible = items.slice(0, 5);
+  return `
+    <section class="benefit-block" aria-label="補助項目與金額">
+      <div class="benefit-heading">
+        <span>補助項目與金額</span>
+        <small>${escapeHtml(record.benefitSourceNote || "金額會因年度、縣市、資格或審查結果不同，申請前請以來源頁或承辦單位為準。")}</small>
+      </div>
+      <div class="benefit-list">
+        ${visible
+          .map(
+            (item) => `
+              <div class="benefit-item">
+                <strong>${escapeHtml(item.label)}</strong>
+                <p class="benefit-amount">${escapeHtml([item.amount, item.unit].filter(Boolean).join(" "))}</p>
+                ${item.note ? `<p>${escapeHtml(item.note)}</p>` : ""}
+                ${item.sourceDate || item.sourceUrl ? `<small>${item.sourceDate ? `來源日期：${escapeHtml(item.sourceDate)}` : ""}${item.sourceDate && item.sourceUrl ? " / " : ""}${item.sourceUrl ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">金額來源</a>` : ""}</small>` : ""}
+              </div>
+            `
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -256,6 +285,8 @@ function renderRecord(record) {
         ${(record.audiences || []).slice(0, 3).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
         ${(record.serviceCategories || []).slice(0, 2).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
       </div>
+
+      ${renderBenefitItems(record)}
 
       <div class="quick-answer-grid">
         <div>

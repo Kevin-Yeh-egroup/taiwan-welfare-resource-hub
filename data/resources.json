@@ -157,7 +157,50 @@
         "id": "mohw-low-income",
         "url": "https://www.mohw.gov.tw/cp-88-79005-1.html",
         "type": "official-program"
-      }
+      },
+      "benefitSourceNote": "生活扶助金額會因戶籍地、低收入戶款別與家庭人口不同而異；以下先列衛福部公告的臺灣省、福建省適用金額與常見福利項目。",
+      "benefitItems": [
+        {
+          "label": "臺灣省第1款家庭生活補助",
+          "amount": "11,850元",
+          "unit": "人/月",
+          "note": "低收入戶款別須由地方政府審查認定。",
+          "sourceDate": "113-01-26；自113-01-01適用",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-86736-7e9a8f34-e240-45da-97fd-01d5856d7aaf.html"
+        },
+        {
+          "label": "臺灣省第2款家庭生活補助",
+          "amount": "6,825元",
+          "unit": "戶/月",
+          "note": "實際核發仍依戶籍地政府及款別規定。",
+          "sourceDate": "113-01-26；自113-01-01適用",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-86736-7e9a8f34-e240-45da-97fd-01d5856d7aaf.html"
+        },
+        {
+          "label": "臺灣省第2、3款兒童生活補助",
+          "amount": "3,008元",
+          "unit": "人/月",
+          "note": "適用對象與年齡由地方政府審查。",
+          "sourceDate": "113-01-26；自113-01-01適用",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-86736-7e9a8f34-e240-45da-97fd-01d5856d7aaf.html"
+        },
+        {
+          "label": "臺灣省第2、3款高中職以上就學生活補助",
+          "amount": "6,825元",
+          "unit": "人/月",
+          "note": "需符合低收入戶款別與就學條件。",
+          "sourceDate": "113-01-26；自113-01-01適用",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-86736-7e9a8f34-e240-45da-97fd-01d5856d7aaf.html"
+        },
+        {
+          "label": "兒少未來教育與發展帳戶開戶金",
+          "amount": "10,000元",
+          "unit": "一次性開戶金",
+          "note": "105年1月1日以後出生兒童可依規定申請，另有相對提撥款。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+        }
+      ]
     },
     {
       "summary": "有長照需求可撥打1966，由地方照管中心評估並連結長照2.0服務。",
@@ -262,7 +305,50 @@
         "id": "nhi-premium-subsidy",
         "url": "https://data.gov.tw/dataset/106333",
         "type": "official-program"
-      }
+      },
+      "benefitSourceNote": "健保費補助多由補助單位按月提供名單，在健保費開計作業中扣減；若未獲補助，需向補助單位、縣市社政單位、健保署或投保單位洽詢。",
+      "benefitItems": [
+        {
+          "label": "中低收入戶自付健保費",
+          "amount": "補助1/2",
+          "unit": "自付保費",
+          "note": "依衛福部社會救助及社工司相關規定認定。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "中低收入戶未滿18歲兒童及少年",
+          "amount": "全額",
+          "unit": "自付保費",
+          "note": "由補助單位提供符合補助名單。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "極重度、重度身心障礙者",
+          "amount": "全額",
+          "unit": "自付保費",
+          "note": "由衛福部社會及家庭署補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "中度身心障礙者",
+          "amount": "補助1/2",
+          "unit": "自付保費",
+          "note": "由衛福部社會及家庭署補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "輕度身心障礙者",
+          "amount": "補助1/4",
+          "unit": "自付保費",
+          "note": "由各縣市政府補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        }
+      ]
     },
     {
       "summary": "勞動部求職、職訓、就業服務與相關就業促進資訊入口。",
@@ -418,7 +504,50 @@
         "id": "mohw-low-income-115-standards",
         "url": "https://dep.mohw.gov.tw/dosaasw/fp-566-84223-103.html",
         "type": "official-annual-standard"
-      }
+      },
+      "benefitSourceNote": "這是115年度資格審核門檻，不是每月可領補助金額；實際補助金額仍要看縣市、款別與家庭狀況。",
+      "benefitItems": [
+        {
+          "label": "低收入戶所得門檻：臺灣省",
+          "amount": "15,515元以下",
+          "unit": "每人每月",
+          "note": "另需符合動產、不動產及家庭人口審查。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "低收入戶所得門檻：臺北市",
+          "amount": "20,744元以下",
+          "unit": "每人每月",
+          "note": "臺北市另有低收入戶類別條件。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "低收入戶所得門檻：新北市",
+          "amount": "17,750元以下",
+          "unit": "每人每月",
+          "note": "須併同動產與不動產限額審查。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "中低收入戶所得門檻：臺灣省",
+          "amount": "23,273元以下",
+          "unit": "每人每月",
+          "note": "這是資格門檻，不代表核發金額。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "中低收入戶所得門檻：臺北市",
+          "amount": "29,635元以下",
+          "unit": "每人每月",
+          "note": "這是資格門檻，不代表核發金額。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        }
+      ]
     },
     {
       "summary": "低收入戶、中低收入戶資格、應備文件、申請地點、戶籍與實際居住地、審查與救濟等常見問答。",
@@ -530,7 +659,26 @@
         "id": "mohw-emergency-assistance",
         "url": "https://www.mohw.gov.tw/cp-190-226-1.html",
         "type": "official-program"
-      }
+      },
+      "benefitSourceNote": "急難紓困屬臨時救助，是否核發與金額依訪視、審查與急迫程度認定。",
+      "benefitItems": [
+        {
+          "label": "急難紓困關懷救助金",
+          "amount": "10,000至30,000元",
+          "unit": "每案",
+          "note": "通報後訪視，送核定機關核定後發放。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
+        },
+        {
+          "label": "急迫個案先發救助金",
+          "amount": "5,000元",
+          "unit": "先行發給",
+          "note": "訪視時認定為急迫個案才會立即先發。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
+        }
+      ]
     },
     {
       "summary": "當家庭同時有經濟、照顧、保護、就業或心理壓力，不知道該申請哪一項福利時，可透過社福中心與社會安全網取得評估、轉介與整合服務。",

@@ -126,6 +126,13 @@ def main() -> int:
             errors.append(f"Record {record_id} has no audience.")
         if not record.get("serviceCategories"):
             errors.append(f"Record {record_id} has no service category.")
+        for benefit_index, benefit in enumerate(record.get("benefitItems", []), start=1):
+            if not benefit.get("label"):
+                errors.append(f"Record {record_id} benefit {benefit_index} missing label.")
+            if not benefit.get("amount"):
+                errors.append(f"Record {record_id} benefit {benefit_index} missing amount.")
+            if not valid_url(benefit.get("sourceUrl")):
+                errors.append(f"Record {record_id} benefit {benefit_index} has invalid sourceUrl.")
 
     candidate_ids = set()
     for candidates_path in sorted((root / "data").glob("foundation-program-candidates*.json")):

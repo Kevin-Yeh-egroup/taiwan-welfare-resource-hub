@@ -635,6 +635,69 @@ summary:focus-visible {
   color: #3d4945;
 }
 
+.benefit-block {
+  margin-top: 12px;
+  border: 1px solid #dbe8e3;
+  border-radius: 8px;
+  background: #f8fbf9;
+  padding: 12px;
+}
+
+.benefit-heading {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.benefit-heading span {
+  color: var(--teal);
+  font-size: 0.92rem;
+  font-weight: 900;
+}
+
+.benefit-heading small,
+.benefit-item small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.benefit-item small a {
+  color: var(--teal);
+  font-weight: 800;
+}
+
+.benefit-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.benefit-item {
+  min-width: 0;
+  border-left: 3px solid var(--gold);
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 10px;
+}
+
+.benefit-item strong {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.benefit-item p {
+  margin: 4px 0 0;
+  color: #42534f;
+  line-height: 1.45;
+}
+
+.benefit-item .benefit-amount {
+  color: #7a4b06;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
 .quick-answer-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -819,6 +882,7 @@ summary:focus-visible {
   .identity-grid,
   .status-grid,
   .filter-panel,
+  .benefit-list,
   .quick-answer-grid,
   .details-grid,
   .card-top {
