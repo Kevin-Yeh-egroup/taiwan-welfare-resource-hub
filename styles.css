@@ -635,6 +635,69 @@ summary:focus-visible {
   color: #3d4945;
 }
 
+.condition-block {
+  margin-top: 12px;
+  border: 1px solid #cfe5df;
+  border-radius: 8px;
+  background: #f6fbf9;
+  padding: 12px;
+}
+
+.condition-heading {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.condition-heading span {
+  color: var(--teal);
+  font-size: 0.92rem;
+  font-weight: 900;
+}
+
+.condition-heading small,
+.condition-item small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.condition-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.condition-item {
+  min-width: 0;
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 10px;
+}
+
+.condition-item strong {
+  display: block;
+  color: #183d38;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.condition-item p {
+  margin: 4px 0;
+  color: #42534f;
+  line-height: 1.5;
+}
+
+.condition-item small {
+  display: block;
+  margin-top: 5px;
+}
+
+.condition-item small a {
+  color: var(--teal);
+  font-weight: 800;
+}
+
 .benefit-block {
   margin-top: 12px;
   border: 1px solid #dbe8e3;
@@ -882,6 +945,7 @@ summary:focus-visible {
   .identity-grid,
   .status-grid,
   .filter-panel,
+  .condition-list,
   .benefit-list,
   .quick-answer-grid,
   .details-grid,

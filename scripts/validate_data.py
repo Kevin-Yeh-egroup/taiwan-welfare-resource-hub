@@ -126,6 +126,13 @@ def main() -> int:
             errors.append(f"Record {record_id} has no audience.")
         if not record.get("serviceCategories"):
             errors.append(f"Record {record_id} has no service category.")
+        for condition_index, condition in enumerate(record.get("applicationConditions", []), start=1):
+            if not condition.get("label"):
+                errors.append(f"Record {record_id} condition {condition_index} missing label.")
+            if not condition.get("requirement"):
+                errors.append(f"Record {record_id} condition {condition_index} missing requirement.")
+            if not valid_url(condition.get("sourceUrl")):
+                errors.append(f"Record {record_id} condition {condition_index} has invalid sourceUrl.")
         for benefit_index, benefit in enumerate(record.get("benefitItems", []), start=1):
             if not benefit.get("label"):
                 errors.append(f"Record {record_id} benefit {benefit_index} missing label.")

@@ -141,7 +141,7 @@
         "notes": "Official source entry; specific program pages should be checked from the linked source."
       },
       "districts": [],
-      "eligibility": "依各服務項目規定。",
+      "eligibility": "低收入戶、中低收入戶需由地方政府依家庭總收入、動產、不動產、戶內人口與實際生活狀況審查。申請前可先看年度標準，正式結果仍以戶籍地公所或縣市政府審查為準。",
       "howToApply": [
         "開啟官方來源網站",
         "依身分、地區或需求查詢",
@@ -198,6 +198,37 @@
           "unit": "一次性開戶金",
           "note": "105年1月1日以後出生兒童可依規定申請，另有相對提撥款。",
           "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+        }
+      ],
+      "conditionSourceNote": "低收入戶與中低收入戶不是只看薪水，還會看家庭人口、動產、不動產及地方政府審查；以下為先判斷用的官方條件摘要。",
+      "applicationConditions": [
+        {
+          "label": "先看戶內人口與戶籍地",
+          "requirement": "通常向戶籍地公所或縣市社會局處提出申請，地方政府會依戶內人口與實際生活狀況審查。",
+          "note": "若戶籍地與居住地不同，送件前建議先電話確認受理方式。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+        },
+        {
+          "label": "低收入戶基本判斷",
+          "requirement": "家庭總收入平均分配全家人口，每人每月需低於當年度、當地公告最低生活費，且家庭財產未超過公告金額。",
+          "note": "仍需看動產、不動產、扶養義務與地方政府審查。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+        },
+        {
+          "label": "中低收入戶基本判斷",
+          "requirement": "家庭總收入平均分配全家人口，每人每月需未超過當年度、當地最低生活費1.5倍，且家庭財產未超過公告金額。",
+          "note": "這是資格方向，實際是否符合仍由地方政府認定。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+        },
+        {
+          "label": "會被查核的資料",
+          "requirement": "通常會查核收入、存款或投資等動產、不動產資料，也可能需要訪視或補件。",
+          "note": "資料不完整可能影響審查時程。",
+          "sourceDate": "查核日2026-06-04",
           "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
         }
       ]
@@ -292,7 +323,7 @@
         "notes": "Official source entry; specific program pages should be checked from the linked source."
       },
       "districts": [],
-      "eligibility": "依各服務項目規定。",
+      "eligibility": "健保費補助依補助身分認定，常見包含中低收入戶、未滿18歲中低收入戶兒少，以及不同等級身心障礙者。多數補助由補助機關提供名單扣減，不一定由民眾向健保署自行申請。",
       "howToApply": [
         "開啟官方來源網站",
         "依身分、地區或需求查詢",
@@ -345,6 +376,37 @@
           "amount": "補助1/4",
           "unit": "自付保費",
           "note": "由各縣市政府補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        }
+      ],
+      "conditionSourceNote": "健保費補助資格依補助身分認定；若沒有看到補助扣減，需洽補助單位、縣市社政單位、健保署或投保單位確認。",
+      "applicationConditions": [
+        {
+          "label": "中低收入戶",
+          "requirement": "需已被地方政府認定為中低收入戶，才可適用自付健保費補助。",
+          "note": "補助比例依健保署補助表及補助單位名單辦理。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "中低收入戶未滿18歲兒少",
+          "requirement": "需符合中低收入戶身分，且為未滿18歲兒童及少年。",
+          "note": "符合名單通常由補助單位提供。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "身心障礙者",
+          "requirement": "需具有身心障礙身分，補助比例依極重度、重度、中度、輕度等級不同。",
+          "note": "極重度、重度、中度由衛福部社會及家庭署補助；輕度多由縣市政府補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "補助方式",
+          "requirement": "補助單位多會按月提供符合資格名單，在健保費開計時扣減。",
+          "note": "若資格符合但帳單未扣減，應向補助單位或健保署確認名單與投保資料。",
           "sourceDate": "查核日2026-06-04",
           "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
         }
@@ -547,6 +609,44 @@
           "sourceDate": "114-10-15",
           "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
         }
+      ],
+      "conditionSourceNote": "這張卡列的是115年度資格門檻範例；門檻每年、每縣市不同，且需同時符合所得、動產、不動產。",
+      "applicationConditions": [
+        {
+          "label": "低收入戶：臺灣省所得門檻",
+          "requirement": "每人每月平均所得需在15,515元以下，且動產、不動產未超過115年度公告限額。",
+          "note": "臺灣省動產限額為每人96,000元，不動產限額為每戶385萬元。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "低收入戶：臺北市所得門檻",
+          "requirement": "每人每月平均所得需在20,744元以下，且動產、不動產未超過115年度公告限額。",
+          "note": "臺北市動產限額為每人150,000元，不動產限額為每戶837萬元。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "低收入戶：新北市所得門檻",
+          "requirement": "每人每月平均所得需在17,750元以下，且動產、不動產未超過115年度公告限額。",
+          "note": "新北市動產限額為每人100,000元，不動產限額為每戶472萬元。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "中低收入戶：臺灣省所得門檻",
+          "requirement": "每人每月平均所得需在23,273元以下，且動產、不動產未超過115年度公告限額。",
+          "note": "臺灣省中低收入戶動產限額為每人144,000元，不動產限額為每戶578萬元。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "中低收入戶：臺北市所得門檻",
+          "requirement": "每人每月平均所得需在29,635元以下，且動產、不動產未超過115年度公告限額。",
+          "note": "臺北市中低收入戶動產限額為每人160,000元，不動產限額為每戶992萬元。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        }
       ]
     },
     {
@@ -675,6 +775,37 @@
           "amount": "5,000元",
           "unit": "先行發給",
           "note": "訪視時認定為急迫個案才會立即先發。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
+        }
+      ],
+      "conditionSourceNote": "急難救助重點是近期急難事故造成生活陷困；是否核定、金額與文件仍由承辦單位審查。",
+      "applicationConditions": [
+        {
+          "label": "家庭主要負擔者發生重大變故",
+          "requirement": "家中主要生計者死亡、失蹤、罹患重傷病、失業或其他事故，導致家庭生活陷入困難。",
+          "note": "需能說明急難原因與目前生活困境。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
+        },
+        {
+          "label": "家庭成員遭遇事故或重病",
+          "requirement": "家庭成員發生意外、罹患重病或其他急難事故，造成醫療、照顧或生活壓力。",
+          "note": "通常需準備診斷、醫療費用或事故相關證明。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_2_376855"
+        },
+        {
+          "label": "因災害或財產限制影響生活",
+          "requirement": "因災害、財產強制執行、凍結或其他原因，短期內無法維持基本生活。",
+          "note": "承辦單位可能會訪視或要求補件。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_2_376855"
+        },
+        {
+          "label": "其他重大急難事件",
+          "requirement": "不屬於一般固定補助，但確有急迫生活困難時，可先洽1957、社會局處或公所評估。",
+          "note": "同一急難事由通常以申請一次為原則。",
           "sourceDate": "115-04-01",
           "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
         }

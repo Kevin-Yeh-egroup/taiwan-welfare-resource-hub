@@ -88,6 +88,7 @@ function searchableText(record) {
     ...(record.audiences || []),
     ...(record.serviceCategories || []),
     ...(record.needTags || []),
+    ...(record.applicationConditions || []).flatMap((item) => [item.label, item.requirement, item.note, item.sourceDate]),
     ...(record.benefitItems || []).flatMap((item) => [item.label, item.amount, item.unit, item.note, item.sourceDate]),
     record.eligibility,
     ...(record.howToApply || []),
@@ -255,6 +256,34 @@ function renderBenefitItems(record) {
   `;
 }
 
+function renderApplicationConditions(record) {
+  const items = record.applicationConditions || [];
+  if (!items.length) return "";
+  const visible = items.slice(0, 6);
+  return `
+    <section class="condition-block" aria-label="申請條件">
+      <div class="condition-heading">
+        <span>申請條件先看</span>
+        <small>${escapeHtml(record.conditionSourceNote || "資格會因年度、縣市、家庭人口與審查結果不同，送件前請以來源頁或承辦單位為準。")}</small>
+      </div>
+      <div class="condition-list">
+        ${visible
+          .map(
+            (item) => `
+              <div class="condition-item">
+                <strong>${escapeHtml(item.label)}</strong>
+                <p>${escapeHtml(item.requirement)}</p>
+                ${item.note ? `<small>${escapeHtml(item.note)}</small>` : ""}
+                ${item.sourceDate || item.sourceUrl ? `<small>${item.sourceDate ? `來源日期：${escapeHtml(item.sourceDate)}` : ""}${item.sourceDate && item.sourceUrl ? " / " : ""}${item.sourceUrl ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">條件來源</a>` : ""}</small>` : ""}
+              </div>
+            `
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -286,6 +315,7 @@ function renderRecord(record) {
         ${(record.serviceCategories || []).slice(0, 2).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
       </div>
 
+      ${renderApplicationConditions(record)}
       ${renderBenefitItems(record)}
 
       <div class="quick-answer-grid">
