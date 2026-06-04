@@ -225,6 +225,146 @@ ECONOMIC_WEAKNESS_SOURCES = [
 ]
 
 
+HIGH_DEMAND_CENTRAL_SOURCES = [
+    {
+        "id": "mohw-national-pension-premium-115",
+        "name": "115年國民年金保險費與弱勢補助",
+        "url": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html",
+        "organization": "衛生福利部社會保險司",
+        "jurisdiction": "全國",
+        "sourceType": "official-annual-standard",
+        "tags": ["中央", "國民年金", "保費補助", "低收入戶", "中低收入戶", "身心障礙", "115年度"],
+        "record": {
+            "summary": "115年國民年金保險費自付金額與政府補助金額，含低收入戶、中低收入戶、所得未達一定標準及身心障礙者。",
+            "audiences": ["低收入戶", "中低收入戶", "身心障礙者", "所得未達一定標準者", "國民年金被保險人"],
+            "serviceCategories": ["保費補助", "國民年金", "社會保險", "經濟弱勢"],
+            "needTags": ["國民年金補助", "國保保費", "低收入戶國保", "中低收入戶國保", "身障國保", "115年國民年金"],
+        },
+    },
+    {
+        "id": "mohw-special-circumstances-family",
+        "name": "特殊境遇家庭扶助",
+        "url": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html",
+        "organization": "衛生福利部保護服務司",
+        "jurisdiction": "全國",
+        "sourceType": "official-program",
+        "tags": ["中央", "特殊境遇家庭", "單親", "家暴", "喪偶", "急難", "婦女", "兒少"],
+        "record": {
+            "summary": "家庭因配偶死亡、失蹤、離婚、家暴、未婚懷孕或其他重大變故而生活困難時，可查特殊境遇家庭扶助。",
+            "audiences": ["特殊境遇家庭", "單親家庭", "婦女", "兒少", "急難家庭"],
+            "serviceCategories": ["家庭支持", "現金與生活扶助", "子女就學", "保護服務"],
+            "needTags": ["特殊境遇", "單親補助", "家暴家庭", "喪偶", "未婚懷孕", "子女生活津貼"],
+        },
+    },
+    {
+        "id": "mohw-disability-welfare",
+        "name": "身心障礙福利入口",
+        "url": "https://www.mohw.gov.tw/cp-88-235-1.html",
+        "organization": "衛生福利部",
+        "jurisdiction": "全國",
+        "sourceType": "official-portal",
+        "tags": ["中央", "身心障礙", "身障福利", "輔具", "照顧", "津貼"],
+        "record": {
+            "summary": "身心障礙者福利主題入口，可查生活補助、輔具、照顧、機構、優先採購與相關服務。",
+            "audiences": ["身心障礙者", "身障家庭", "照顧者"],
+            "serviceCategories": ["身障服務", "生活補助", "輔具", "照顧服務", "就業支持"],
+            "needTags": ["身障補助", "身心障礙", "輔具", "身障生活補助", "身障照顧", "優先採購"],
+        },
+    },
+    {
+        "id": "mohw-childcare-services",
+        "name": "托育服務與育兒支持",
+        "url": "https://mohw.gov.tw/fp-88-230-1.html",
+        "organization": "衛生福利部",
+        "jurisdiction": "全國",
+        "sourceType": "official-portal",
+        "tags": ["中央", "托育", "育兒", "保母", "兒童", "家庭支持"],
+        "record": {
+            "summary": "托育服務主題入口，可查公共托育、居家托育、育兒津貼與兒童家庭支持相關資訊。",
+            "audiences": ["嬰幼兒家庭", "父母", "照顧者", "兒童"],
+            "serviceCategories": ["托育", "育兒津貼", "兒童家庭", "照顧服務"],
+            "needTags": ["托育補助", "育兒津貼", "保母", "公共托育", "未滿2歲", "育兒"],
+        },
+    },
+    {
+        "id": "mohw-elderly-welfare",
+        "name": "老人福利與中低收入老人生活津貼入口",
+        "url": "https://www.mohw.gov.tw/cp-88-224-1.html",
+        "organization": "衛生福利部",
+        "jurisdiction": "全國",
+        "sourceType": "official-portal",
+        "tags": ["中央", "老人福利", "中低收入老人", "生活津貼", "照顧", "關懷據點"],
+        "record": {
+            "summary": "老人福利主題入口，可查中低收入老人生活津貼、照顧服務、關懷據點、老人福利機構與地方窗口。",
+            "audiences": ["老人", "中低收入老人", "照顧者", "家庭"],
+            "serviceCategories": ["老人福利", "生活津貼", "照顧服務", "社區據點"],
+            "needTags": ["老人生活津貼", "中低收入老人", "老人福利", "關懷據點", "老人機構"],
+        },
+    },
+    {
+        "id": "moe-dream-aid-tuition-reduction",
+        "name": "教育部圓夢助學網：學雜費減免",
+        "url": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E",
+        "organization": "教育部",
+        "jurisdiction": "全國",
+        "sourceType": "official-program",
+        "tags": ["中央", "教育部", "學雜費減免", "助學", "低收入戶", "中低收入戶", "身心障礙", "特殊境遇家庭"],
+        "record": {
+            "summary": "教育部圓夢助學網整理低收入戶、中低收入戶、身心障礙、原住民、特殊境遇家庭等學生學雜費減免。",
+            "audiences": ["學生", "低收入戶", "中低收入戶", "身心障礙者", "原住民", "特殊境遇家庭"],
+            "serviceCategories": ["助學", "學雜費減免", "教育補助"],
+            "needTags": ["學雜費減免", "助學", "低收入戶學生", "中低收入戶學生", "身障學生", "特殊境遇家庭學生"],
+        },
+    },
+    {
+        "id": "wda-labor-subsidy",
+        "name": "勞動部勞工補助與就業促進資源",
+        "url": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx",
+        "organization": "勞動部勞動力發展署",
+        "jurisdiction": "全國",
+        "sourceType": "official-portal",
+        "tags": ["中央", "勞動部", "勞工補助", "失業給付", "就業促進", "特定對象"],
+        "record": {
+            "summary": "勞動部勞工補助入口，包含失業給付、跨域津貼、臨工津貼、青年專案與特定對象就業資源。",
+            "audiences": ["失業者", "求職者", "青年", "中高齡者", "特定對象"],
+            "serviceCategories": ["就業與職訓", "失業給付", "就業獎助", "職涯支持"],
+            "needTags": ["失業給付", "勞工補助", "臨工津貼", "跨域津貼", "青年就業", "特定對象就業"],
+        },
+    },
+    {
+        "id": "moi-rent-subsidy-115",
+        "name": "115年300億元中央擴大租金補貼",
+        "url": "https://www.gov.tw/News_Content_37_561179",
+        "organization": "內政部國土管理署",
+        "jurisdiction": "全國",
+        "sourceType": "official-annual-program",
+        "tags": ["中央", "租金補貼", "住宅補貼", "115年度", "租屋", "低收入戶", "中低收入戶"],
+        "record": {
+            "summary": "115年度300億元中央擴大租金補貼，協助租屋家庭減輕租金負擔，申請期間為115年1月1日至115年12月31日。",
+            "audiences": ["租屋家庭", "低收入戶", "中低收入戶", "弱勢家庭", "一般民眾"],
+            "serviceCategories": ["住宅與租金", "租金補貼", "經濟弱勢"],
+            "needTags": ["租金補貼", "租屋補助", "300億租金補貼", "115年租金補貼", "房租", "住宅補貼"],
+        },
+    },
+    {
+        "id": "mohw-113-protection-hotline",
+        "name": "113保護專線與關懷e起來",
+        "url": "https://dep.mohw.gov.tw/DOPS/fp-1183-6499-105.html",
+        "organization": "衛生福利部保護服務司",
+        "jurisdiction": "全國",
+        "sourceType": "official-hotline",
+        "tags": ["中央", "113", "保護專線", "家暴", "性侵", "兒少保護", "老人保護", "身障保護"],
+        "record": {
+            "summary": "113保護專線提供家暴、性侵害、兒少、老人與身心障礙保護通報諮詢；敏感案件應直接洽官方專線。",
+            "audiences": ["受暴者", "兒少", "老人", "身心障礙者", "一般民眾"],
+            "serviceCategories": ["保護服務", "通報諮詢", "安全求助"],
+            "needTags": ["113", "家暴", "性侵", "兒少保護", "老人保護", "身障保護", "通報"],
+            "contact": {"phone": "113", "website": "https://dep.mohw.gov.tw/DOPS/fp-1183-6499-105.html"},
+        },
+    },
+]
+
+
 SOURCE_DOCUMENTS = [
     "C:/Users/Kevin/Downloads/民國114年12月29日，完成社福資源資料庫建置耗時17分鐘。_20251229102216631.pdf",
     "C:/Users/Kevin/Downloads/民國115年1月1日，完成社福資源資料庫建置耗時28分鐘。_20260222123907788.pdf",
@@ -292,6 +432,7 @@ def main() -> int:
     sources = []
     sources.extend(static_source(source) for source in CENTRAL_SOURCES)
     sources.extend(static_source(source) for source in ECONOMIC_WEAKNESS_SOURCES)
+    sources.extend(static_source(source) for source in HIGH_DEMAND_CENTRAL_SOURCES)
     sources.append({
         "id": "sfaa-social-welfare-foundations",
         "name": "全國性財團法人社會福利基金會查詢",
@@ -314,16 +455,23 @@ def main() -> int:
         "id": "tainan-welfare-map-dataset",
         "name": "臺南市社會福利地圖開放資料",
         "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
-        "resourceUrl": "https://data.tainan.gov.tw/Resource/93f35ae8-0e16-45ac-90d2-b0315889cf5f?handler=GoJson",
         "allowInsecureSslFallback": True,
         "organization": "臺南市政府社會局",
         "jurisdiction": "臺南市",
         "sourceType": "official-open-data",
-        "format": "tainan-welfare-json",
+        "format": "static-record",
         "crawl": True,
         "crawlDepth": 0,
         "refreshPolicy": refresh_policy(30, 3),
         "tags": ["地方政府", "開放資料", "地圖", "臺南"],
+        "record": {
+            "summary": "臺南市社會福利地圖開放資料入口；原始 JSON resource 端點目前受 robots.txt 限制，本專案保留入口連結供人工查核。",
+            "audiences": ["一般民眾", "老人", "婦女", "兒童少年", "身心障礙者", "家庭"],
+            "serviceCategories": ["開放資料", "地圖查詢", "地方社福窗口"],
+            "needTags": ["臺南", "開放資料", "福利地圖", "附近據點", "社福資源"],
+            "howToApply": ["開啟臺南市政府開放資料入口", "依資料集說明前往臺南市福利地圖或社會局查詢", "實際服務仍需以資源點或承辦單位確認"],
+            "documents": ["依各資源點規定"],
+        },
     })
     sources.append(static_source({
         "id": "tainan-welfare-map",

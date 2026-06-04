@@ -28,6 +28,24 @@ def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
+def load_optional_json(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    return load_json(path)
+
+
+def merge_record(base: dict, override: dict | None) -> dict:
+    if not override:
+        return base
+    merged = dict(base)
+    for key, value in override.items():
+        if isinstance(value, dict) and isinstance(merged.get(key), dict):
+            merged[key] = merge_record(merged[key], value)
+        else:
+            merged[key] = value
+    return merged
+
+
 def clean(value):
     if value is None:
         return None
@@ -535,11 +553,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--sources", default="data/sources.json")
     parser.add_argument("--out", default="data/resources.json")
+    parser.add_argument("--overrides", default="data/resource-detail-overrides.json")
     parser.add_argument("--limit", type=int, default=None, help="Optional per-source import limit for testing.")
     parser.add_argument("--sleep", type=float, default=0.7)
     args = parser.parse_args()
 
     sources_data = load_json(Path(args.sources))
+    detail_overrides = load_optional_json(Path(args.overrides)).get("records", {})
     records = []
     errors = []
 
@@ -559,6 +579,8 @@ def main() -> int:
             })
             records.append(summarize_page(source))
         time.sleep(args.sleep)
+
+    records = [merge_record(record, detail_overrides.get(record.get("id"))) for record in records]
 
     output = {
         "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),

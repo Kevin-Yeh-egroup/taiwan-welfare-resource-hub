@@ -82,6 +82,40 @@ def check(url: str, *, allow_insecure_fallback: bool = False) -> dict:
         return {"ok": False, "error": str(exc)}
 
 
+def is_retryable_failure(result: dict) -> bool:
+    if result.get("ok"):
+        return False
+    text = " ".join(str(result.get(key) or "") for key in ["error", "headError"]).lower()
+    return any(marker in text for marker in [
+        "timed out",
+        "timeout",
+        "temporarily unavailable",
+        "connection reset",
+        "remote end closed",
+        "502",
+        "503",
+        "504",
+    ])
+
+
+def check_with_retries(
+    url: str,
+    *,
+    allow_insecure_fallback: bool = False,
+    retries: int = 2,
+    retry_sleep: float = 2.0,
+) -> dict:
+    result = {}
+    for attempt in range(retries + 1):
+        result = check(url, allow_insecure_fallback=allow_insecure_fallback)
+        if result.get("ok") or not is_retryable_failure(result) or attempt == retries:
+            if attempt:
+                result["retryAttempts"] = attempt
+            return result
+        time.sleep(retry_sleep * (attempt + 1))
+    return result
+
+
 def source_urls(source: dict) -> list[str]:
     urls = [source.get("url")]
     if source.get("resourceUrl"):
@@ -95,6 +129,8 @@ def main() -> int:
     parser.add_argument("--out", default="data/freshness-report.json")
     parser.add_argument("--snapshots", default="data/source-snapshots.json")
     parser.add_argument("--sleep", type=float, default=0.7)
+    parser.add_argument("--retries", type=int, default=2)
+    parser.add_argument("--retry-sleep", type=float, default=2.0)
     args = parser.parse_args()
 
     sources_path = Path(args.sources)
@@ -111,7 +147,12 @@ def main() -> int:
     for source in sources_data.get("sources", []):
         entries = []
         for url in source_urls(source):
-            result = check(url, allow_insecure_fallback=source.get("allowInsecureSslFallback", False))
+            result = check_with_retries(
+                url,
+                allow_insecure_fallback=source.get("allowInsecureSslFallback", False),
+                retries=args.retries,
+                retry_sleep=args.retry_sleep,
+            )
             fingerprint = {
                 "etag": result.get("etag"),
                 "lastModified": result.get("lastModified"),
@@ -134,6 +175,7 @@ def main() -> int:
                 "contentType": result.get("contentType"),
                 "changedSinceLastRun": is_changed,
                 "error": result.get("error"),
+                "retryAttempts": result.get("retryAttempts", 0),
                 "sslWarning": result.get("sslWarning"),
                 "checkedAt": now_iso(),
             })

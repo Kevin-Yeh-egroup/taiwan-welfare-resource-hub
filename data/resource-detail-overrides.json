@@ -1,0 +1,1175 @@
+{
+  "generatedAt": "2026-06-04T09:10:17.295Z",
+  "note": "Citizen-facing detail fields merged after source crawl so scheduled rebuilds preserve application conditions, benefit amounts, and application notes.",
+  "records": {
+    "mohw-low-income": {
+      "eligibility": "低收入戶、中低收入戶需由地方政府依家庭總收入、動產、不動產、戶內人口與實際生活狀況審查。申請前可先看年度標準，正式結果仍以戶籍地公所或縣市政府審查為準。",
+      "howToApply": [
+        "先看自己戶籍地的年度資格標準；完整115年度表請查「115年度低收入戶、中低收入戶資格審核標準」卡片。",
+        "向戶籍地公所或縣市社會局處提出申請；戶籍地與居住地不同時，先電話確認受理方式。",
+        "依承辦單位要求準備身分、戶籍、收入、存款投資、不動產與其他證明文件。",
+        "送件後由地方政府審查，必要時可能補件或訪視；核定結果以公所或縣市政府通知為準。"
+      ],
+      "documents": [
+        "依各服務項目規定"
+      ],
+      "benefitSourceNote": "生活扶助金額會因戶籍地、低收入戶款別與家庭人口不同而異；以下先列衛福部公告的臺灣省、福建省適用金額與常見福利項目。",
+      "benefitItems": [
+        {
+          "label": "臺灣省第1款家庭生活補助",
+          "amount": "11,850元",
+          "unit": "人/月",
+          "note": "低收入戶款別須由地方政府審查認定。",
+          "sourceDate": "113-01-26；自113-01-01適用",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-86736-7e9a8f34-e240-45da-97fd-01d5856d7aaf.html"
+        },
+        {
+          "label": "臺灣省第2款家庭生活補助",
+          "amount": "6,825元",
+          "unit": "戶/月",
+          "note": "實際核發仍依戶籍地政府及款別規定。",
+          "sourceDate": "113-01-26；自113-01-01適用",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-86736-7e9a8f34-e240-45da-97fd-01d5856d7aaf.html"
+        },
+        {
+          "label": "臺灣省第2、3款兒童生活補助",
+          "amount": "3,008元",
+          "unit": "人/月",
+          "note": "適用對象與年齡由地方政府審查。",
+          "sourceDate": "113-01-26；自113-01-01適用",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-86736-7e9a8f34-e240-45da-97fd-01d5856d7aaf.html"
+        },
+        {
+          "label": "臺灣省第2、3款高中職以上就學生活補助",
+          "amount": "6,825元",
+          "unit": "人/月",
+          "note": "需符合低收入戶款別與就學條件。",
+          "sourceDate": "113-01-26；自113-01-01適用",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-86736-7e9a8f34-e240-45da-97fd-01d5856d7aaf.html"
+        },
+        {
+          "label": "兒少未來教育與發展帳戶開戶金",
+          "amount": "10,000元",
+          "unit": "一次性開戶金",
+          "note": "105年1月1日以後出生兒童可依規定申請，另有相對提撥款。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+        }
+      ],
+      "conditionSourceNote": "這張卡先整理一般民眾申請低收入戶／中低收入戶時最常需要注意的判斷重點；完整115年度所得、動產、不動產門檻，請看「115年度低收入戶、中低收入戶資格審核標準」卡片或官方標準來源。",
+      "applicationConditions": [
+        {
+          "label": "先用戶籍地判斷",
+          "requirement": "低收入戶與中低收入戶需依戶籍地看當年度門檻，六都、臺灣省、福建省（金門縣、連江縣）標準不同。",
+          "note": "完整115年度標準已集中在年度標準卡，避免同一張表在結果頁重複出現。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "三項都要符合",
+          "requirement": "所得、動產、不動產三項都要看；只符合其中一項，不代表一定通過。",
+          "note": "正式結果仍由戶籍地公所或縣市政府依家庭人口與資料審查。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "由地方政府審查",
+          "requirement": "送件後由戶籍地公所或縣市政府審查，可能補件、訪視或依家庭實際狀況認定。",
+          "note": "若戶籍地與居住地不同，建議先電話確認受理方式。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+        }
+      ],
+      "applicationMethodSourceNote": "低收入戶與中低收入戶通常由戶籍地公所受理，正式流程仍依縣市政府公告與承辦單位說明為準。",
+      "contact": {
+        "website": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "official-entry",
+        "notes": "Official source entry; specific program pages should be checked from the linked source."
+      }
+    },
+    "nhi-premium-subsidy": {
+      "eligibility": "健保費補助依補助身分認定，常見包含中低收入戶、未滿18歲中低收入戶兒少，以及不同等級身心障礙者。多數補助由補助機關提供名單扣減，不一定由民眾向健保署自行申請。",
+      "howToApply": [
+        "先確認自己是否已具有中低收入戶、未滿18歲中低收入戶兒少或身心障礙等補助身分。",
+        "查看健保費帳單是否已有補助扣減；若沒有，先向認定身分的補助單位或縣市社政單位確認名單。",
+        "再向健保署或投保單位確認投保資料、補助名單與保費開計狀態。",
+        "若身分或資料有異動，依補助單位要求補正後，再確認後續帳單是否扣減。"
+      ],
+      "documents": [
+        "依各服務項目規定"
+      ],
+      "benefitSourceNote": "健保費補助多由補助單位按月提供名單，在健保費開計作業中扣減；若未獲補助，需向補助單位、縣市社政單位、健保署或投保單位洽詢。",
+      "benefitItems": [
+        {
+          "label": "中低收入戶自付健保費",
+          "amount": "補助1/2",
+          "unit": "自付保費",
+          "note": "依衛福部社會救助及社工司相關規定認定。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "中低收入戶未滿18歲兒童及少年",
+          "amount": "全額",
+          "unit": "自付保費",
+          "note": "由補助單位提供符合補助名單。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "極重度、重度身心障礙者",
+          "amount": "全額",
+          "unit": "自付保費",
+          "note": "由衛福部社會及家庭署補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "中度身心障礙者",
+          "amount": "補助1/2",
+          "unit": "自付保費",
+          "note": "由衛福部社會及家庭署補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "輕度身心障礙者",
+          "amount": "補助1/4",
+          "unit": "自付保費",
+          "note": "由各縣市政府補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        }
+      ],
+      "conditionSourceNote": "健保費補助資格依補助身分認定；若沒有看到補助扣減，需洽補助單位、縣市社政單位、健保署或投保單位確認。",
+      "applicationConditions": [
+        {
+          "label": "中低收入戶",
+          "requirement": "需已被地方政府認定為中低收入戶，才可適用自付健保費補助。",
+          "note": "補助比例依健保署補助表及補助單位名單辦理。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "中低收入戶未滿18歲兒少",
+          "requirement": "需符合中低收入戶身分，且為未滿18歲兒童及少年。",
+          "note": "符合名單通常由補助單位提供。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "身心障礙者",
+          "requirement": "需具有身心障礙身分，補助比例依極重度、重度、中度、輕度等級不同。",
+          "note": "極重度、重度、中度由衛福部社會及家庭署補助；輕度多由縣市政府補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        },
+        {
+          "label": "補助方式",
+          "requirement": "補助單位多會按月提供符合資格名單，在健保費開計時扣減。",
+          "note": "若資格符合但帳單未扣減，應向補助單位或健保署確認名單與投保資料。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+        }
+      ],
+      "applicationMethodSourceNote": "健保費補助多由補助單位提供符合資格名單後扣減，民眾重點是確認身分認定與帳單是否已反映補助。",
+      "contact": {
+        "website": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "official-entry",
+        "notes": "Official source entry; specific program pages should be checked from the linked source."
+      }
+    },
+    "mohw-low-income-115-standards": {
+      "eligibility": "需依戶籍地對照115年度地區標準，且所得、動產、不動產三項都須符合；臺灣省欄位適用於非六都、非金門連江的縣市，六都與福建省另有專欄。",
+      "howToApply": [
+        "先依戶籍地找到115年度低收入戶或中低收入戶所得、動產、不動產門檻。",
+        "若家庭狀況可能接近門檻，向戶籍地公所或縣市社會局處詢問申請表與應備文件。",
+        "準備家庭人口、收入、財產與其他地方政府要求資料後送件。",
+        "由地方政府依社會救助規定審查，結果以核定通知為準。"
+      ],
+      "documents": [
+        "申請表",
+        "身分證明",
+        "戶籍資料",
+        "收入證明",
+        "存款或投資資料",
+        "不動產資料",
+        "地方政府要求文件"
+      ],
+      "conditionSourceNote": "115年度低收入戶與中低收入戶，需依戶籍地看對應地區標準；以下列出衛福部官方表格的完整所得、動產、不動產門檻。",
+      "applicationConditions": [
+        {
+          "label": "三項都要符合",
+          "requirement": "所得、動產、不動產三項都要看；只符合其中一項，不代表一定通過。",
+          "note": "正式結果仍由戶籍地公所或縣市政府依家庭人口與資料審查。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "六都各有自己的標準",
+          "requirement": "戶籍在臺北市、新北市、桃園市、臺中市、臺南市、高雄市，要看該直轄市那一欄。",
+          "note": "不要用臺灣省欄位判斷六都資格。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "金門、連江看福建省",
+          "requirement": "戶籍在金門縣或連江縣，依官方表格的福建省欄位判斷。",
+          "note": "福建省欄位的動產限額是以每戶4口內計算，超過4口再加計。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        }
+      ],
+      "applicationMethodSourceNote": "這張卡是資格門檻查詢，不是核定結果；實際申請仍需向戶籍地公所或縣市政府送件。",
+      "incomeStandardGroups": [
+        {
+          "label": "115年低收入戶資格審核標準",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html",
+          "items": [
+            {
+              "region": "臺灣省",
+              "income": "15,515元以下／人月",
+              "movableAssets": "每人每年96,000元",
+              "realEstate": "每戶385萬元",
+              "note": "適用於非六都、非金門連江的縣市。"
+            },
+            {
+              "region": "臺北市",
+              "income": "20,744元以下／人月",
+              "movableAssets": "每人每年150,000元",
+              "realEstate": "每戶837萬元"
+            },
+            {
+              "region": "新北市",
+              "income": "17,750元以下／人月",
+              "movableAssets": "每人每年100,000元",
+              "realEstate": "每戶472萬元"
+            },
+            {
+              "region": "桃園市",
+              "income": "17,186元以下／人月",
+              "movableAssets": "每人每年96,000元",
+              "realEstate": "每戶470萬元"
+            },
+            {
+              "region": "臺中市",
+              "income": "16,431元以下／人月",
+              "movableAssets": "每人每年96,000元",
+              "realEstate": "每戶386萬元"
+            },
+            {
+              "region": "臺南市",
+              "income": "15,515元以下／人月",
+              "movableAssets": "每人每年96,000元",
+              "realEstate": "每戶385萬元"
+            },
+            {
+              "region": "高雄市",
+              "income": "16,970元以下／人月",
+              "movableAssets": "每人每年96,000元",
+              "realEstate": "每戶397萬元"
+            },
+            {
+              "region": "福建省（金門縣、連江縣）",
+              "income": "15,173元以下／人月",
+              "movableAssets": "每戶4口內400,000元；第5口起每增加1口加100,000元",
+              "realEstate": "每戶307萬元"
+            }
+          ]
+        },
+        {
+          "label": "115年中低收入戶資格審核標準",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html",
+          "items": [
+            {
+              "region": "臺灣省",
+              "income": "23,273元以下／人月",
+              "movableAssets": "每人每年144,000元",
+              "realEstate": "每戶578萬元",
+              "note": "適用於非六都、非金門連江的縣市。"
+            },
+            {
+              "region": "臺北市",
+              "income": "29,635元以下／人月",
+              "movableAssets": "每人每年160,000元",
+              "realEstate": "每戶992萬元"
+            },
+            {
+              "region": "新北市",
+              "income": "26,625元以下／人月",
+              "movableAssets": "每人每年150,000元",
+              "realEstate": "每戶708萬元"
+            },
+            {
+              "region": "桃園市",
+              "income": "25,779元以下／人月",
+              "movableAssets": "每人每年144,000元",
+              "realEstate": "每戶705萬元"
+            },
+            {
+              "region": "臺中市",
+              "income": "24,647元以下／人月",
+              "movableAssets": "每人每年144,000元",
+              "realEstate": "每戶579萬元"
+            },
+            {
+              "region": "臺南市",
+              "income": "23,273元以下／人月",
+              "movableAssets": "每人每年144,000元",
+              "realEstate": "每戶578萬元"
+            },
+            {
+              "region": "高雄市",
+              "income": "25,455元以下／人月",
+              "movableAssets": "每人每年144,000元",
+              "realEstate": "每戶596萬元"
+            },
+            {
+              "region": "福建省（金門縣、連江縣）",
+              "income": "22,760元以下／人月",
+              "movableAssets": "每戶4口內600,000元；第5口起每增加1口加150,000元",
+              "realEstate": "每戶461萬元"
+            }
+          ]
+        }
+      ],
+      "taiwanProvinceNote": {
+        "title": "「臺灣省」是什麼意思？",
+        "text": "在衛福部這份標準表裡，「臺灣省」是地區分類，不是要去省政府申請。戶籍在六都要看自己的直轄市；戶籍在金門、連江看福建省；其他縣市看臺灣省這一欄。",
+        "areas": [
+          "基隆市",
+          "新竹市",
+          "嘉義市",
+          "宜蘭縣",
+          "新竹縣",
+          "苗栗縣",
+          "彰化縣",
+          "南投縣",
+          "雲林縣",
+          "嘉義縣",
+          "屏東縣",
+          "花蓮縣",
+          "臺東縣",
+          "澎湖縣"
+        ]
+      },
+      "contact": {
+        "website": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "official-entry",
+        "notes": "Official source entry; specific program pages should be checked from the linked source."
+      },
+      "benefitSourceNote": "這張卡是115年度資格審核標準，不是單一補助金額；實際生活扶助、健保費、租金、國民年金等補助金額，要再看對應資源卡與地方政府核定。",
+      "benefitItems": [
+        {
+          "label": "資格門檻本身不核發金額",
+          "amount": "無固定金額",
+          "unit": "",
+          "note": "本卡用來判斷可能是否符合低收入戶或中低收入戶資格；通過後可銜接生活扶助、醫療、健保費、租金或其他弱勢補助。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
+        {
+          "label": "低收入戶／中低收入戶相關補助",
+          "amount": "依補助項目與戶籍地核定",
+          "unit": "",
+          "note": "同一身分可能影響多項補助，但金額會因地方標準、家戶人口、補助類型而不同。請看各補助卡或洽戶籍地公所。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+        }
+      ]
+    },
+    "mohw-emergency-assistance": {
+      "eligibility": "因死亡、失蹤、重病、失業、災害或其他急難事故導致生活陷困者，可依地方政府或相關救助規定申請或轉介。",
+      "howToApply": [
+        "急迫時先撥打1957福利諮詢專線，或洽所在地社會局處、公所、社福中心。",
+        "說明急難原因、發生時間、家庭目前生活困境與最急迫需求。",
+        "依窗口要求準備身分證明、急難事由證明、醫療或收入支出相關資料。",
+        "承辦單位可能訪視或要求補件，核定後才會發放救助金。"
+      ],
+      "documents": [
+        "身分證明",
+        "急難事由證明",
+        "收入或生活困難相關資料",
+        "地方政府要求文件"
+      ],
+      "benefitSourceNote": "急難紓困屬臨時救助，是否核發與金額依訪視、審查與急迫程度認定。",
+      "benefitItems": [
+        {
+          "label": "急難紓困關懷救助金",
+          "amount": "10,000至30,000元",
+          "unit": "每案",
+          "note": "通報後訪視，送核定機關核定後發放。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
+        },
+        {
+          "label": "急迫個案先發救助金",
+          "amount": "5,000元",
+          "unit": "先行發給",
+          "note": "訪視時認定為急迫個案才會立即先發。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
+        }
+      ],
+      "conditionSourceNote": "急難救助重點是近期急難事故造成生活陷困；是否核定、金額與文件仍由承辦單位審查。",
+      "applicationConditions": [
+        {
+          "label": "家庭主要負擔者發生重大變故",
+          "requirement": "家中主要生計者死亡、失蹤、罹患重傷病、失業或其他事故，導致家庭生活陷入困難。",
+          "note": "需能說明急難原因與目前生活困境。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
+        },
+        {
+          "label": "家庭成員遭遇事故或重病",
+          "requirement": "家庭成員發生意外、罹患重病或其他急難事故，造成醫療、照顧或生活壓力。",
+          "note": "通常需準備診斷、醫療費用或事故相關證明。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_2_376855"
+        },
+        {
+          "label": "因災害或財產限制影響生活",
+          "requirement": "因災害、財產強制執行、凍結或其他原因，短期內無法維持基本生活。",
+          "note": "承辦單位可能會訪視或要求補件。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_2_376855"
+        },
+        {
+          "label": "其他重大急難事件",
+          "requirement": "不屬於一般固定補助，但確有急迫生活困難時，可先洽1957、社會局處或公所評估。",
+          "note": "同一急難事由通常以申請一次為原則。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/fp-190-226-1.html"
+        }
+      ],
+      "applicationMethodSourceNote": "急難救助適合近期發生急迫變故時先求助；是否核發與金額仍需承辦單位評估。",
+      "contact": {
+        "phone": "1957",
+        "website": "https://www.mohw.gov.tw/cp-190-226-1.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-03",
+        "sourceUpdatedAt": null,
+        "confidence": "official-entry",
+        "notes": "Official source entry; specific program pages should be checked from the linked source."
+      }
+    },
+    "mohw-national-pension-premium-115": {
+      "eligibility": "適用國民年金被保險人；實際自付比例依低收入戶、中低收入戶、所得未達一定標準、身心障礙程度或一般身分判定。所得未達一定標準需向戶籍所在地縣市政府申請認定。",
+      "howToApply": [
+        "先確認自己是否為國民年金被保險人，以及是否已具有低收入戶、中低收入戶或身心障礙身分。",
+        "若要申請「所得未達一定標準」，向戶籍所在地縣市政府提出認定申請。",
+        "收到國民年金繳款單後，確認自付金額是否已依身分扣減；若有疑問，洽勞保局或戶籍地縣市政府。",
+        "身分變更、戶籍變更或資格認定改變時，需再確認後續保費是否調整。"
+      ],
+      "documents": [
+        "身分證明",
+        "戶籍資料",
+        "低收入戶、中低收入戶或身心障礙證明（如有）",
+        "所得未達一定標準申請文件",
+        "縣市政府要求文件"
+      ],
+      "benefitSourceNote": "衛福部社會保險司 Q&A 標示 115 年 1 月 1 日起月投保金額 21,103 元、費率 10.5%、每月保費總額 2,216 元；以下列自付金額與政府補助金額。",
+      "benefitItems": [
+        {
+          "label": "一般民眾",
+          "amount": "自付1,329元；政府補助887元",
+          "unit": "月",
+          "note": "自付比率60%。",
+          "sourceDate": "115-02-25",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+        },
+        {
+          "label": "低收入戶",
+          "amount": "自付0元；政府補助2,216元",
+          "unit": "月",
+          "note": "自付比率0%。",
+          "sourceDate": "115-02-25",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+        },
+        {
+          "label": "中低收入戶",
+          "amount": "自付665元；政府補助1,551元",
+          "unit": "月",
+          "note": "自付比率30%。",
+          "sourceDate": "115-02-25",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+        },
+        {
+          "label": "所得未達一定標準者",
+          "amount": "自付665元或997元",
+          "unit": "月",
+          "note": "依最低生活費1.5倍或2倍門檻判斷，政府補助1,551元或1,219元。",
+          "sourceDate": "115-02-25",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+        },
+        {
+          "label": "身心障礙者",
+          "amount": "自付0元、665元或997元",
+          "unit": "月",
+          "note": "極重度/重度自付0元，中度自付665元，輕度自付997元。",
+          "sourceDate": "115-02-25",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+        }
+      ],
+      "conditionSourceNote": "國民年金保費補助依被保險人身分與戶籍地審核；所得未達一定標準仍需縣市政府認定。",
+      "applicationConditions": [
+        {
+          "label": "需為國民年金被保險人",
+          "requirement": "年滿25歲、未滿65歲且未參加相關社會保險者，通常可能納入國民年金；是否加保以主管機關資料為準。",
+          "note": "本卡重點為保費負擔與補助，不取代加保資格判定。",
+          "sourceDate": "115-02-25",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+        },
+        {
+          "label": "低收、中低收或身障身分",
+          "requirement": "已有低收入戶、中低收入戶或身心障礙身分者，保費自付比例會不同。",
+          "note": "身分認定由相關主管機關辦理。",
+          "sourceDate": "115-02-25",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+        },
+        {
+          "label": "所得未達一定標準",
+          "requirement": "需向戶籍所在地縣市政府申請認定，並依115年最低生活費與平均消費支出門檻判斷。",
+          "note": "此資格較社會救助認定寬鬆，但仍需審核家庭總收入。",
+          "sourceDate": "115-02-25",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+        }
+      ],
+      "applicationMethodSourceNote": "國民年金保費通常由繳款單反映補助結果；所得未達一定標準需先向縣市政府申請認定。",
+      "contact": {
+        "website": "https://dep.mohw.gov.tw/DOSI/cp-308-602-102.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": "2026-02-25",
+        "confidence": "source-dated",
+        "notes": "官方頁面標示最後更新日期115-05-07、內容更新時間115-02-25，並列115年保費表。"
+      }
+    },
+    "mohw-special-circumstances-family": {
+      "eligibility": "家庭總收入平均每人每月需未超過當年最低生活費2.5倍及臺灣地區平均每人每月消費支出1.5倍，且家庭財產未超過公告標準，並符合配偶死亡/失蹤、離婚、家暴、未婚懷孕、獨自扶養18歲以下子女等特殊境遇之一。",
+      "howToApply": [
+        "先確認是否符合特殊境遇家庭情形之一，以及是否有生活、醫療、托育、法律或子女就學需求。",
+        "向戶籍所在地直轄市、縣市主管機關、公所，或由社會福利機構轉介申請。",
+        "依扶助項目準備戶籍、身分、事件證明、收入財產、醫療費用或訴訟費用等文件。",
+        "子女生活津貼、教育補助、托育津貼等項目可能需每年重新申請認定。"
+      ],
+      "documents": [
+        "戶口名簿或戶籍資料",
+        "特殊境遇事由證明",
+        "收入及財產資料",
+        "醫療費用收據或診斷證明（醫療補助）",
+        "學籍或註冊資料（教育補助）",
+        "地方政府要求文件"
+      ],
+      "benefitSourceNote": "特殊境遇家庭扶助項目由法律列明，實際核定、文件與地方程序由戶籍地主管機關辦理。",
+      "benefitItems": [
+        {
+          "label": "緊急生活扶助",
+          "amount": "當年度低收入戶每人每月最低生活費1倍",
+          "unit": "最多3個月",
+          "note": "同一個案同一事由以補助一次為限。",
+          "sourceDate": "115-06-02頁面查核；法規修正103-01-29",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        },
+        {
+          "label": "子女生活津貼",
+          "amount": "當年度最低工資1/10",
+          "unit": "每名子女或孫子女/月",
+          "note": "每年申請一次。",
+          "sourceDate": "115-06-02頁面查核；法規修正103-01-29",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        },
+        {
+          "label": "子女教育補助",
+          "amount": "學雜費減免60%",
+          "unit": "高級中等以上學校",
+          "note": "經學校審核確認後減免。",
+          "sourceDate": "115-06-02頁面查核；法規修正103-01-29",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        },
+        {
+          "label": "傷病醫療補助",
+          "amount": "超過3萬元部分最高補助70%；每人每年最高12萬元",
+          "unit": "醫療自付費用",
+          "note": "未滿6歲子女或孫子女另依規定補助。",
+          "sourceDate": "115-06-02頁面查核；法規修正103-01-29",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        },
+        {
+          "label": "兒童托育津貼",
+          "amount": "1,500元",
+          "unit": "人/月",
+          "note": "未滿6歲子女或孫子女進入私立托教機構時可依規定申請。",
+          "sourceDate": "115-06-02頁面查核；法規修正103-01-29",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        },
+        {
+          "label": "法律訴訟補助",
+          "amount": "最高50,000元",
+          "unit": "每案",
+          "note": "限符合家庭暴力受害等規定且無力負擔訴訟費用者。",
+          "sourceDate": "115-06-02頁面查核；法規修正103-01-29",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        }
+      ],
+      "conditionSourceNote": "特殊境遇家庭需同時看家庭收入/財產與法定情形；各項扶助可能有不同申請期限與文件。",
+      "applicationConditions": [
+        {
+          "label": "收入與財產門檻",
+          "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍及臺灣地區平均每人每月消費支出1.5倍，且家庭財產未超過公告標準。",
+          "note": "全家人口與收入計算準用社會救助相關規定。",
+          "sourceDate": "115-06-02頁面查核",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        },
+        {
+          "label": "需符合特殊境遇情形",
+          "requirement": "例如配偶死亡/失蹤、離婚、家暴受害、未婚懷孕、獨自扶養18歲以下子女或其他重大變故。",
+          "note": "其他重大變故需由直轄市、縣市政府評估。",
+          "sourceDate": "115-06-02頁面查核",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        },
+        {
+          "label": "避免重複補助",
+          "requirement": "若已依其他法令取得性質相同補助，可能只能補差額或不得重複領取。",
+          "note": "送件前需告知已領取之相關補助。",
+          "sourceDate": "115-06-02頁面查核",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+        }
+      ],
+      "applicationMethodSourceNote": "以戶籍所在地主管機關、公所或社福機構轉介為主要入口；保護性案件優先確保安全。",
+      "contact": {
+        "website": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": "2026-06-02",
+        "confidence": "source-dated",
+        "notes": "官方頁面標示最後更新日期115-06-02；法規內容修正日期為民國103-01-29。"
+      }
+    },
+    "mohw-disability-welfare": {
+      "eligibility": "以身心障礙證明與需求評估為核心；不同補助或服務需依障礙程度、年齡、收入、家庭狀況與地方政府規定判定。",
+      "howToApply": [
+        "先確認是否已有身心障礙證明，或需先辦理鑑定與需求評估。",
+        "依需求查生活補助、輔具、照顧服務、機構、就業或交通等資源。",
+        "向戶籍地縣市社會局處、公所、身障服務中心或相關平台確認申請文件。",
+        "涉及保護、安置或個案安全時，只使用官方窗口與專線，不公開敏感地址。"
+      ],
+      "documents": [
+        "身心障礙證明",
+        "身分證明",
+        "戶籍或居住資料",
+        "收入財產資料（部分補助）",
+        "醫療或輔具評估資料（如需）"
+      ],
+      "benefitSourceNote": "身心障礙福利涵蓋生活補助、輔具、照顧、機構與就業等多類資源；金額與資格多由地方政府或專案規定。",
+      "benefitItems": [
+        {
+          "label": "身心障礙者生活補助",
+          "amount": "依障礙程度、收入與縣市規定核定",
+          "unit": "月",
+          "note": "通常需戶籍地縣市政府審查。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-235-1.html"
+        },
+        {
+          "label": "輔具補助與醫療輔具資訊",
+          "amount": "依輔具項目及補助基準核定",
+          "unit": "件/案",
+          "note": "需依評估、處方或地方補助規定辦理。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-235-1.html"
+        },
+        {
+          "label": "身障福利機構與照顧服務",
+          "amount": "依服務類型與收費/補助規定",
+          "unit": "案",
+          "note": "可查機構資訊與評鑑結果。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-235-1.html"
+        }
+      ],
+      "conditionSourceNote": "身障資源通常先看是否有身心障礙證明，再依需求評估與地方規定申請。",
+      "applicationConditions": [
+        {
+          "label": "身心障礙證明",
+          "requirement": "多數補助或服務需先取得身心障礙證明。",
+          "note": "若尚未取得，先查鑑定醫院與鑑定流程。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-235-1.html"
+        },
+        {
+          "label": "需求評估",
+          "requirement": "部分服務需由社政或專業團隊評估後決定服務項目。",
+          "note": "服務內容可能依縣市、障礙程度與家庭情況不同。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-235-1.html"
+        }
+      ],
+      "applicationMethodSourceNote": "此卡是中央入口，實際申請多由縣市政府、評估單位或指定平台辦理。",
+      "contact": {
+        "website": "https://www.mohw.gov.tw/cp-88-235-1.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "官方身心障礙福利入口於2026-06-04查核可用；各補助細節需續爬地方頁與子平台。"
+      }
+    },
+    "mohw-childcare-services": {
+      "eligibility": "依兒童年齡、托育型態、父母就業或家庭條件、戶籍/居住地及地方政府規定判定；中央入口需再連到實際托育或育兒津貼頁。",
+      "howToApply": [
+        "先確認需求是公共托育、居家托育、育兒津貼或托育補助。",
+        "依兒童年齡與托育型態，查中央入口與戶籍/居住地縣市政府規定。",
+        "準備兒童與父母身分、戶籍、托育契約或相關證明。",
+        "送件前向托育所在地或戶籍地承辦窗口確認今年度金額與期限。"
+      ],
+      "documents": [
+        "兒童及父母身分資料",
+        "戶籍資料",
+        "托育契約或收托證明（如需）",
+        "收入或弱勢身分證明（如有）",
+        "地方政府要求文件"
+      ],
+      "benefitSourceNote": "托育與育兒補助會依年齡、托育型態、家庭條件與縣市加碼而不同；此卡先作中央入口，金額需續抓子頁或地方頁。",
+      "benefitItems": [
+        {
+          "label": "育兒津貼",
+          "amount": "依年度與兒童序別/資格公告",
+          "unit": "月",
+          "note": "需查中央與地方最新公告。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://mohw.gov.tw/fp-88-230-1.html"
+        },
+        {
+          "label": "托育補助",
+          "amount": "依托育型態與家庭條件核定",
+          "unit": "月",
+          "note": "公共化、準公共或居家托育金額不同。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://mohw.gov.tw/fp-88-230-1.html"
+        },
+        {
+          "label": "地方加碼",
+          "amount": "依縣市公告",
+          "unit": "月/案",
+          "note": "地方政府可能另有育兒或托育加碼。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://mohw.gov.tw/fp-88-230-1.html"
+        }
+      ],
+      "conditionSourceNote": "托育與育兒補助最容易因年度、兒童年齡、托育型態與縣市加碼不同而變動。",
+      "applicationConditions": [
+        {
+          "label": "兒童年齡",
+          "requirement": "需符合育兒津貼或托育補助對應年齡。",
+          "note": "不同年齡可能適用不同補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://mohw.gov.tw/fp-88-230-1.html"
+        },
+        {
+          "label": "托育型態",
+          "requirement": "送托公共化、準公共、居家托育或自行照顧，申請項目不同。",
+          "note": "同一期間通常不能重複領取性質相同補助。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://mohw.gov.tw/fp-88-230-1.html"
+        }
+      ],
+      "applicationMethodSourceNote": "先用中央入口判斷補助類型，再依地方政府或指定系統送件。",
+      "contact": {
+        "website": "https://mohw.gov.tw/fp-88-230-1.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "官方托育服務入口於2026-06-04查核可用；金額需續抓子頁或地方公告。"
+      }
+    },
+    "mohw-elderly-welfare": {
+      "eligibility": "老人福利資源依年齡、收入、中低收入老人身分、失能狀況、居住地與服務需求判定；生活津貼與照顧服務需向地方政府或長照窗口確認。",
+      "howToApply": [
+        "先確認需求是生活津貼、關懷據點、老人機構、照顧服務或長照評估。",
+        "生活津貼多向戶籍地公所或社會局處申請；照顧服務可洽1966或照管中心。",
+        "準備身分、戶籍、收入財產、照顧需求或醫療評估資料。",
+        "入住機構、保護服務或長照服務，需以官方名冊和地方窗口為準。"
+      ],
+      "documents": [
+        "身分證明",
+        "戶籍資料",
+        "收入財產資料（津貼類）",
+        "長照或失能評估資料（照顧類）",
+        "地方政府要求文件"
+      ],
+      "benefitSourceNote": "老人福利包含現金津貼、社區關懷據點、老人機構與長照資源；金額需依地方政府或個別補助規定。",
+      "benefitItems": [
+        {
+          "label": "中低收入老人生活津貼",
+          "amount": "依身分與地方政府核定",
+          "unit": "月",
+          "note": "需符合年齡、收入與財產等條件。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-224-1.html"
+        },
+        {
+          "label": "社區照顧關懷據點",
+          "amount": "服務型資源",
+          "unit": "據點",
+          "note": "提供關懷訪視、電話問安、諮詢轉介，部分據點提供餐飲或健康促進。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-224-1.html"
+        },
+        {
+          "label": "老人福利機構與長照資源",
+          "amount": "依服務類型與評估核定",
+          "unit": "案",
+          "note": "可查立案機構、評鑑與各縣市照管中心。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-224-1.html"
+        }
+      ],
+      "conditionSourceNote": "老人福利要先分清楚是現金津貼、社區據點、機構或長照服務，受理窗口不同。",
+      "applicationConditions": [
+        {
+          "label": "年齡與身分",
+          "requirement": "生活津貼通常需符合老人年齡與中低收入等身分條件。",
+          "note": "最終仍由戶籍地地方政府審查。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-224-1.html"
+        },
+        {
+          "label": "照顧需求",
+          "requirement": "若是居家服務、喘息、交通接送或機構照顧，需依長照或地方評估。",
+          "note": "可先撥1966或洽照管中心。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-224-1.html"
+        }
+      ],
+      "applicationMethodSourceNote": "現金津貼多洽戶籍地地方政府；照顧服務可洽1966與照管中心。",
+      "contact": {
+        "phone": "1966",
+        "website": "https://www.mohw.gov.tw/cp-88-224-1.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "官方老人福利入口於2026-06-04查核可用；生活津貼金額與地方程序需續抓地方頁。"
+      }
+    },
+    "moe-dream-aid-tuition-reduction": {
+      "eligibility": "就讀高級中等以上學校並符合低收入戶、中低收入戶、身心障礙、原住民、特殊境遇家庭、軍公教遺族、現役軍人子女等身分者，可依各類規定申請學雜費減免。",
+      "howToApply": [
+        "先確認學生身分與就讀學制是否符合圓夢助學網所列類別。",
+        "約每年2月及9月，依學校規定期限內辦理。",
+        "新生通常於註冊時向學校提出；舊生通常於上學期末向學校提出，並於下學期註冊繳費單減免。",
+        "準備申請書與低收/中低收、身障、特殊境遇家庭或其他身分證明文件。"
+      ],
+      "documents": [
+        "申請書",
+        "低收入戶或中低收入戶證明",
+        "身心障礙證明或手冊（如適用）",
+        "戶籍謄本或戶口名簿（含記事）",
+        "特殊境遇家庭身分證明（如適用）",
+        "學校要求文件"
+      ],
+      "benefitSourceNote": "教育部圓夢助學網列出不同身分的學雜費減免標準；實際申請期限依學校公告。",
+      "benefitItems": [
+        {
+          "label": "低收入戶學生",
+          "amount": "學雜費全免",
+          "unit": "學期",
+          "note": "就讀高級中等以上學校並領有低收入戶證明。",
+          "sourceDate": "115-06-04",
+          "sourceUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+        },
+        {
+          "label": "中低收入戶學生",
+          "amount": "學雜費減免60%",
+          "unit": "學期",
+          "note": "就讀高級中等以上學校並領有中低收入戶證明。",
+          "sourceDate": "115-06-04",
+          "sourceUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+        },
+        {
+          "label": "身心障礙學生及身障人士子女",
+          "amount": "重度/極重度全免；中度減免70%；輕度減免40%",
+          "unit": "學期",
+          "note": "家庭所得與學生/父母身障資格仍需符合規定。",
+          "sourceDate": "115-06-04",
+          "sourceUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+        },
+        {
+          "label": "特殊境遇家庭子女或孫子女",
+          "amount": "學雜費減免60%",
+          "unit": "學期",
+          "note": "適用高級中等以上學校。",
+          "sourceDate": "115-06-04",
+          "sourceUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+        },
+        {
+          "label": "原住民學生專科以上",
+          "amount": "約11,000至44,000元",
+          "unit": "學期或依類科",
+          "note": "採固定數額方式，依學系或類科不同。",
+          "sourceDate": "115-06-04",
+          "sourceUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+        }
+      ],
+      "conditionSourceNote": "各類學雜費減免需符合身分與學校受理期限，送件窗口通常是學校。",
+      "applicationConditions": [
+        {
+          "label": "就學身分",
+          "requirement": "需就讀符合規定之高級中等以上學校或專科以上學校。",
+          "note": "不同身分類別適用學制不同。",
+          "sourceDate": "115-06-04",
+          "sourceUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+        },
+        {
+          "label": "弱勢或特定身分證明",
+          "requirement": "需提出低收/中低收、身障、特殊境遇家庭、原住民等對應證明。",
+          "note": "依學校規定期限內辦理。",
+          "sourceDate": "115-06-04",
+          "sourceUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+        }
+      ],
+      "applicationMethodSourceNote": "主要由學校受理，申請時間通常落在每年2月與9月，仍以學校公告為準。",
+      "contact": {
+        "website": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": "2026-06-04",
+        "confidence": "source-dated",
+        "notes": "教育部圓夢助學網頁面標示更新日期115-06-04。"
+      }
+    },
+    "wda-labor-subsidy": {
+      "eligibility": "依失業、求職、特定對象、中高齡、青年、跨域就業或臨時工作等不同方案規定判定；每項補助需進入勞動部勞動力發展署子頁確認。",
+      "howToApply": [
+        "先確認需求是失業給付、職訓、跨域津貼、臨工津貼、青年專案或特定對象就業資源。",
+        "進入勞工補助子頁或台灣就業通，查看申請資格、文件與線上申請入口。",
+        "多數就業促進資源需洽公立就業服務機構或線上系統辦理。",
+        "送件前確認是否已有就業保險、失業認定、求職登記或其他必要條件。"
+      ],
+      "documents": [
+        "身分證明",
+        "失業或求職相關資料",
+        "投保或離職資料（如需）",
+        "求職登記或就服站文件",
+        "各補助子頁要求文件"
+      ],
+      "benefitSourceNote": "勞工補助入口包含多個子方案，金額與資格需以各子方案公告為準。",
+      "benefitItems": [
+        {
+          "label": "失業給付",
+          "amount": "依就業保險資格與平均月投保薪資核定",
+          "unit": "月",
+          "note": "需完成失業認定等程序。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+        },
+        {
+          "label": "跨域津貼",
+          "amount": "依跨域就業距離、搬遷或租屋等子項核定",
+          "unit": "案/月",
+          "note": "需看子頁條件。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+        },
+        {
+          "label": "臨工津貼",
+          "amount": "依臨時工作方案規定核定",
+          "unit": "日/案",
+          "note": "需經就服機構媒合或認定。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+        },
+        {
+          "label": "青年專案補助與特定對象就業資源",
+          "amount": "依專案公告核定",
+          "unit": "案",
+          "note": "青年、中高齡、身障或其他特定對象需看專案規定。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+        }
+      ],
+      "conditionSourceNote": "此入口是就業補助導覽，需進入各子項確認金額、資格與申請期限。",
+      "applicationConditions": [
+        {
+          "label": "先確認補助類型",
+          "requirement": "失業、跨域、臨工、青年或特定對象補助的條件不同。",
+          "note": "不建議只用入口頁判斷資格。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+        },
+        {
+          "label": "常需就服或失業認定",
+          "requirement": "部分補助需公立就業服務機構認定、求職登記、失業認定或線上申請。",
+          "note": "以子方案公告為準。",
+          "sourceDate": "查核日2026-06-04",
+          "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+        }
+      ],
+      "applicationMethodSourceNote": "先從勞動部入口找對子方案，再依就服站或線上系統辦理。",
+      "contact": {
+        "website": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "官方勞工補助入口於2026-06-04查核可用；子方案金額需逐項續爬。"
+      }
+    },
+    "moi-rent-subsidy-115": {
+      "eligibility": "115年度租金補貼以租屋家庭為主，需符合家庭成員、所得、住宅持有、租賃契約與補貼專案規定；弱勢身分可能有加碼或優先判定。",
+      "howToApply": [
+        "確認租賃契約、租屋地址與家庭成員資料是否符合專案規定。",
+        "115年度申請期間為115年1月1日上午9點至115年12月31日下午5點，採隨到隨辦。",
+        "可線上申請，或下載申請書郵寄租賃房屋所在地縣市政府受理單位或內政部國土管理署。",
+        "114年度符合舊案帶入條件者，可能由系統帶入，仍需留意審查與撥款狀態。"
+      ],
+      "documents": [
+        "申請書或線上申請資料",
+        "身分證明",
+        "租賃契約",
+        "租屋地址資料",
+        "家庭成員資料",
+        "弱勢身分證明（如有）",
+        "專案要求文件"
+      ],
+      "benefitSourceNote": "115年租金補貼金額會依租屋地區、家庭條件與弱勢加碼不同，需以專區試算或公告為準。",
+      "benefitItems": [
+        {
+          "label": "115年300億元中央擴大租金補貼",
+          "amount": "依租屋地區與家庭條件核定",
+          "unit": "月",
+          "note": "弱勢、青年、育兒或其他加碼條件可能影響金額。",
+          "sourceDate": "115年度；查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_37_561179"
+        },
+        {
+          "label": "舊案帶入",
+          "amount": "符合條件者無須重新申請",
+          "unit": "案",
+          "note": "114年度核定且符合核撥紀錄或指定期間申請合格者可能帶入。",
+          "sourceDate": "115年度；查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_37_561179"
+        }
+      ],
+      "conditionSourceNote": "租金補貼最容易因年度、租屋地、家庭人口、弱勢加碼與舊案帶入規則而不同。",
+      "applicationConditions": [
+        {
+          "label": "115年度申請期間",
+          "requirement": "115年1月1日上午9點至115年12月31日下午5點。",
+          "note": "採隨到隨辦。",
+          "sourceDate": "115年度；查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_37_561179"
+        },
+        {
+          "label": "租屋事實與契約",
+          "requirement": "需有符合專案規定的租賃契約與租屋地址。",
+          "note": "115年起部分無稅籍或未保存登記建物新案可能有不同限制。",
+          "sourceDate": "115年度；查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_37_561179"
+        },
+        {
+          "label": "所得與住宅持有規定",
+          "requirement": "需符合專案對家庭所得、住宅持有及家庭成員的規定。",
+          "note": "實際仍以內政部國土管理署與受理單位審查為準。",
+          "sourceDate": "115年度；查核日2026-06-04",
+          "sourceUrl": "https://www.gov.tw/News_Content_37_561179"
+        }
+      ],
+      "applicationMethodSourceNote": "可線上或郵寄申請；租屋地縣市政府與內政部國土管理署均可能是受理/審查相關窗口。",
+      "contact": {
+        "website": "https://has.nlma.gov.tw/house300e/?OpBrowser=1"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": "2026-02-01",
+        "confidence": "source-dated",
+        "notes": "我的E政府115年租金補貼攻略於2026-06-04查核可用，並載明115年度申請期間。"
+      }
+    },
+    "mohw-113-protection-hotline": {
+      "eligibility": "全國民眾如遭遇或知悉家庭暴力、性侵害、性騷擾、兒少、老人或身心障礙者保護事件，可撥113求助或通報；若有立即人身安全危險，先撥110。",
+      "howToApply": [
+        "有立即危險時先撥110。",
+        "可用市話、公共電話或手機撥打113，24小時全年無休。",
+        "通報時盡量提供人、事、時、地、物，但不要在公開平台留下個資或敏感地址。",
+        "也可依官方頁使用113線上諮詢或簡訊服務。"
+      ],
+      "documents": [
+        "不需先準備文件即可求助",
+        "可協助說明事件的人、事、時、地、物資訊",
+        "後續依社工或警政單位要求補充資料"
+      ],
+      "benefitSourceNote": "113是保護服務求助/通報專線，不是現金補助；重點是即時安全、通報與後續保護服務連結。",
+      "benefitItems": [
+        {
+          "label": "113保護專線",
+          "amount": "免付費",
+          "unit": "24小時全年無休",
+          "note": "市話、公共電話或手機皆可撥打。",
+          "sourceDate": "115-06-02頁面查核；更新時間113-05-24",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/fp-1183-6499-105.html"
+        },
+        {
+          "label": "線上諮詢與簡訊服務",
+          "amount": "依官方服務方式",
+          "unit": "求助管道",
+          "note": "特殊語言通譯與服務內容以官方頁為準。",
+          "sourceDate": "115-06-02頁面查核；更新時間113-05-24",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/fp-1183-6499-105.html"
+        }
+      ],
+      "conditionSourceNote": "保護服務資訊不得揭露庇護地址或可識別個案內容；公開站只放官方求助入口。",
+      "applicationConditions": [
+        {
+          "label": "家庭暴力、性侵害或性騷擾",
+          "requirement": "本人、家人、朋友或知悉事件者皆可求助或通報。",
+          "note": "立即危險先撥110。",
+          "sourceDate": "115-06-02頁面查核",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/fp-1183-6499-105.html"
+        },
+        {
+          "label": "兒少、老人、身障保護",
+          "requirement": "知道兒少、老人或身心障礙者遭虐待、疏忽或嚴重傷害時，可主動撥113。",
+          "note": "請提供足以協助定位與評估的資訊。",
+          "sourceDate": "115-06-02頁面查核",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOPS/fp-1183-6499-105.html"
+        }
+      ],
+      "applicationMethodSourceNote": "保護服務以安全為優先；本網站不收個案資料，只導向官方求助與通報管道。",
+      "contact": {
+        "phone": "113",
+        "website": "https://dep.mohw.gov.tw/DOPS/fp-1183-6499-105.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-04",
+        "sourceUpdatedAt": "2026-06-02",
+        "confidence": "source-dated",
+        "notes": "官方頁面標示最後更新日期115-06-02；服務時間為24小時全年無休。"
+      }
+    }
+  }
+}
