@@ -97,6 +97,14 @@ function searchableText(record) {
       group.sourceDate,
       ...(group.items || []).flatMap((item) => [item.region, item.income, item.movableAssets, item.realEstate, item.note])
     ]),
+    ...(record.relatedPrograms || []).flatMap((program) => [
+      program.name,
+      program.summary,
+      ...(program.audiences || []),
+      ...(program.serviceCategories || []),
+      ...(program.needTags || []),
+      program.eligibility
+    ]),
     ...(record.benefitItems || []).flatMap((item) => [item.label, item.amount, item.unit, item.note, item.sourceDate]),
     record.eligibility,
     ...(record.howToApply || []),
@@ -132,6 +140,33 @@ function matchesBaseFilters(record) {
   if (state.category && !(record.serviceCategories || []).includes(state.category)) return false;
   if (state.currentOnly && record.freshness?.confidence !== "source-dated") return false;
   return true;
+}
+
+function parentFoundationId(record) {
+  if (record.parentFoundationId) return record.parentFoundationId;
+  const match = String(record.id || "").match(/^foundation-program-([a-z]\d{4})-/i);
+  return match ? `sfaa-foundation-${match[1]}` : "";
+}
+
+function hydrateRelatedPrograms(records) {
+  const byId = new Map(records.map((record) => [record.id, record]));
+  records.forEach((record) => {
+    record.relatedPrograms = [];
+  });
+  records.forEach((record) => {
+    if (record.source?.type !== "foundation-program-page") return;
+    const parentId = parentFoundationId(record);
+    const parent = byId.get(parentId);
+    if (!parent) return;
+    record.parentFoundationId = parentId;
+    parent.relatedPrograms.push(record);
+  });
+  records.forEach((record) => {
+    if (record.relatedPrograms?.length) {
+      record.relatedPrograms.sort((a, b) => String(a.name).localeCompare(String(b.name), "zh-Hant"));
+    }
+  });
+  return records;
 }
 
 function isFoundationResource(record) {
@@ -183,6 +218,7 @@ function rankRecord(record) {
     if (provider.includes(term)) score += 8;
   });
   if (record.source?.type === "foundation-program-page") score += 8;
+  if (record.relatedPrograms?.length) score += 10;
   if (record.freshness?.confidence === "source-dated") score += 5;
   if (record.source?.type === "official-program" || record.source?.type === "official-portal") score += 4;
   return score;
@@ -352,14 +388,42 @@ function renderApplicationMethod(record) {
   const steps = record.howToApply || [];
   if (!steps.length) return "";
   return `
-    <section class="method-block" aria-label="申請方式">
+    <section class="method-block" aria-label="申請注意事項">
       <div class="method-heading">
-        <span>申請方式</span>
-        <small>${escapeHtml(record.applicationMethodSourceNote || "實際受理窗口、期限、文件與線上申辦方式，請以來源頁或承辦單位公告為準。")}</small>
+        <span>申請注意事項</span>
+        <small>${escapeHtml(record.applicationMethodSourceNote || "實際受理窗口、期限、文件與線上申辦注意事項，請以來源頁或承辦單位公告為準。")}</small>
       </div>
       <ol class="method-list">
         ${steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
       </ol>
+    </section>
+  `;
+}
+
+function renderRelatedPrograms(programs) {
+  if (!programs.length) return "";
+  return `
+    <section class="related-programs" aria-label="旗下可查方案">
+      <div class="related-heading">
+        <span>旗下可查方案</span>
+        <small>同一單位的具體服務，先收在這裡，避免結果頁重複出現。</small>
+      </div>
+      <div class="related-program-list">
+        ${programs
+          .map(
+            (program) => `
+              <div class="related-program">
+                <div>
+                  <strong>${escapeHtml(program.name)}</strong>
+                  <p>${escapeHtml(program.summary || program.eligibility || "依來源頁公告。")}</p>
+                  <small>${escapeHtml((program.serviceCategories || []).slice(0, 3).join("、") || "方案資訊")}</small>
+                </div>
+                ${program.source?.url ? `<a href="${escapeHtml(program.source.url)}" target="_blank" rel="noopener">查看方案</a>` : ""}
+              </div>
+            `
+          )
+          .join("")}
+      </div>
     </section>
   `;
 }
@@ -398,6 +462,7 @@ function renderRecord(record) {
       ${renderApplicationConditions(record)}
       ${renderBenefitItems(record)}
       ${renderApplicationMethod(record)}
+      ${renderRelatedPrograms(record.visibleRelatedPrograms || [])}
 
       <div class="quick-answer-grid">
         <div>
@@ -426,7 +491,7 @@ function renderRecord(record) {
             <p>${escapeHtml(record.eligibility || "依來源頁或服務單位公告。")}</p>
           </div>
           <div>
-            <h4>怎麼辦</h4>
+            <h4>申請注意事項</h4>
             ${listItems(record.howToApply, true)}
           </div>
           <div>
@@ -455,6 +520,31 @@ function currentFilteredRecords() {
     .sort((a, b) => rankRecord(b) - rankRecord(a) || String(a.name).localeCompare(String(b.name), "zh-Hant"));
 }
 
+function groupVisibleRecords(records) {
+  const visibleIds = new Set(records.map((record) => record.id));
+  const childrenByParent = new Map();
+
+  records.forEach((record) => {
+    if (record.source?.type !== "foundation-program-page") return;
+    const parentId = parentFoundationId(record);
+    if (!parentId || !visibleIds.has(parentId)) return;
+    if (!childrenByParent.has(parentId)) childrenByParent.set(parentId, []);
+    childrenByParent.get(parentId).push(record);
+  });
+
+  return records
+    .filter((record) => {
+      if (record.source?.type !== "foundation-program-page") return true;
+      const parentId = parentFoundationId(record);
+      return !parentId || !visibleIds.has(parentId);
+    })
+    .map((record) =>
+      childrenByParent.has(record.id)
+        ? { ...record, visibleRelatedPrograms: childrenByParent.get(record.id) }
+        : record
+    );
+}
+
 function renderActiveFilters() {
   const filters = [
     state.query ? `關鍵字：${state.query}` : "",
@@ -472,12 +562,14 @@ function render() {
   const baseCount = state.records.filter(matchesBaseFilters).length;
   const filtered = currentFilteredRecords();
   const visible = state.group === "all" ? filtered : filtered.slice(0, 36);
+  const visibleCards = groupVisibleRecords(visible);
+  const collapsedCount = visible.length - visibleCards.length;
 
   els.resultTitle.textContent = groupLabels[state.group] || "查詢結果";
   els.resultCount.textContent =
     state.group === "all"
-      ? `找到 ${filtered.length} 筆可參考資源`
-      : `找到 ${baseCount} 筆可參考資源，先顯示 ${visible.length} 筆`;
+      ? `找到 ${filtered.length} 筆可參考資源${collapsedCount ? `，合併顯示為 ${visibleCards.length} 張卡` : ""}`
+      : `找到 ${baseCount} 筆可參考資源，先顯示 ${visibleCards.length} 張卡${collapsedCount ? `（已收合 ${collapsedCount} 筆同單位方案）` : ""}`;
   renderActiveFilters();
   syncGroupButtons();
   syncShortcutButtons();
@@ -491,7 +583,7 @@ function render() {
     filtered.length > visible.length
       ? `<div class="more-note">這組還有 ${filtered.length - visible.length} 筆。可以切到「全部結果」，或用縣市、身分、關鍵字再縮小。</div>`
       : "";
-  els.results.innerHTML = visible.map(renderRecord).join("") + moreNote;
+  els.results.innerHTML = visibleCards.map(renderRecord).join("") + moreNote;
 }
 
 function updateStats(records) {
@@ -618,7 +710,7 @@ async function init() {
     document.body.classList.remove("is-booting");
     const response = await fetch("data/resources.json", { cache: "no-store" });
     const data = await response.json();
-    state.records = data.records || [];
+    state.records = hydrateRelatedPrograms(data.records || []);
     setupFilters(state.records);
     syncControls();
     updateStats(state.records);

@@ -943,6 +943,77 @@ summary:focus-visible {
   content: counter(method-step);
 }
 
+.related-programs {
+  min-width: 0;
+  margin-top: 12px;
+  border: 1px solid #dfe7dd;
+  border-radius: 8px;
+  background: #fbfdf9;
+  padding: 12px;
+  overflow-wrap: anywhere;
+}
+
+.related-heading {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.related-heading span {
+  color: #376d41;
+  font-size: 0.92rem;
+  font-weight: 900;
+}
+
+.related-heading small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.related-program-list {
+  display: grid;
+  gap: 8px;
+}
+
+.related-program {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 10px;
+  min-width: 0;
+  border-top: 1px solid #e4ece3;
+  padding-top: 8px;
+}
+
+.related-program:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.related-program strong {
+  display: block;
+  color: #1d413b;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.related-program p {
+  margin: 4px 0;
+  color: #42534f;
+  line-height: 1.5;
+}
+
+.related-program small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.related-program a {
+  color: var(--teal);
+  font-weight: 900;
+  white-space: nowrap;
+}
+
 .quick-answer-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1161,5 +1232,13 @@ summary:focus-visible {
   .standard-group-heading {
     display: grid;
     justify-content: stretch;
+  }
+
+  .related-program {
+    grid-template-columns: 1fr;
+  }
+
+  .related-program a {
+    justify-self: start;
   }
 }

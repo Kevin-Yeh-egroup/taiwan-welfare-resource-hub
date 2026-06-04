@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T09:32:52.974909+00:00",
+  "generatedAt": "2026-06-04T03:51:07.904Z",
   "status": "generated",
   "notice": "Generated from allowlisted sources. Review before public publication.",
   "errors": [],
@@ -143,7 +143,7 @@
       "districts": [],
       "eligibility": "低收入戶、中低收入戶需由地方政府依家庭總收入、動產、不動產、戶內人口與實際生活狀況審查。申請前可先看年度標準，正式結果仍以戶籍地公所或縣市政府審查為準。",
       "howToApply": [
-        "先看自己戶籍地的年度資格標準，確認所得、動產、不動產是否大致接近門檻。",
+        "先看自己戶籍地的年度資格標準；完整115年度表請查「115年度低收入戶、中低收入戶資格審核標準」卡片。",
         "向戶籍地公所或縣市社會局處提出申請；戶籍地與居住地不同時，先電話確認受理方式。",
         "依承辦單位要求準備身分、戶籍、收入、存款投資、不動產與其他證明文件。",
         "送件後由地方政府審查，必要時可能補件或訪視；核定結果以公所或縣市政府通知為準。"
@@ -202,8 +202,15 @@
           "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
         }
       ],
-      "conditionSourceNote": "115年度低收入戶與中低收入戶，需依戶籍地看對應地區標準；以下列出衛福部官方表格的完整所得、動產、不動產門檻。",
+      "conditionSourceNote": "這張卡先整理一般民眾申請低收入戶／中低收入戶時最常需要注意的判斷重點；完整115年度所得、動產、不動產門檻，請看「115年度低收入戶、中低收入戶資格審核標準」卡片或官方標準來源。",
       "applicationConditions": [
+        {
+          "label": "先用戶籍地判斷",
+          "requirement": "低收入戶與中低收入戶需依戶籍地看當年度門檻，六都、臺灣省、福建省（金門縣、連江縣）標準不同。",
+          "note": "完整115年度標準已集中在年度標準卡，避免同一張表在結果頁重複出現。",
+          "sourceDate": "114-10-15",
+          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        },
         {
           "label": "三項都要符合",
           "requirement": "所得、動產、不動產三項都要看；只符合其中一項，不代表一定通過。",
@@ -212,155 +219,14 @@
           "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
         },
         {
-          "label": "六都各有自己的標準",
-          "requirement": "戶籍在臺北市、新北市、桃園市、臺中市、臺南市、高雄市，要看該直轄市那一欄。",
-          "note": "不要用臺灣省欄位判斷六都資格。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
-        },
-        {
-          "label": "金門、連江看福建省",
-          "requirement": "戶籍在金門縣或連江縣，依官方表格的福建省欄位判斷。",
-          "note": "福建省欄位的動產限額是以每戶4口內計算，超過4口再加計。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+          "label": "由地方政府審查",
+          "requirement": "送件後由戶籍地公所或縣市政府審查，可能補件、訪視或依家庭實際狀況認定。",
+          "note": "若戶籍地與居住地不同，建議先電話確認受理方式。",
+          "sourceDate": "115-04-01",
+          "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
         }
       ],
-      "applicationMethodSourceNote": "低收入戶與中低收入戶通常由戶籍地公所受理，正式流程仍依縣市政府公告與承辦單位說明為準。",
-      "taiwanProvinceNote": {
-        "title": "「臺灣省」是什麼意思？",
-        "text": "在衛福部這份標準表裡，「臺灣省」是地區分類，不是要去省政府申請。戶籍在六都要看自己的直轄市；戶籍在金門、連江看福建省；其他縣市看臺灣省這一欄。",
-        "areas": [
-          "基隆市",
-          "新竹市",
-          "嘉義市",
-          "宜蘭縣",
-          "新竹縣",
-          "苗栗縣",
-          "彰化縣",
-          "南投縣",
-          "雲林縣",
-          "嘉義縣",
-          "屏東縣",
-          "花蓮縣",
-          "臺東縣",
-          "澎湖縣"
-        ]
-      },
-      "incomeStandardGroups": [
-        {
-          "label": "115年低收入戶資格審核標準",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html",
-          "items": [
-            {
-              "region": "臺灣省",
-              "income": "15,515元以下／人月",
-              "movableAssets": "每人每年96,000元",
-              "realEstate": "每戶385萬元",
-              "note": "適用於非六都、非金門連江的縣市。"
-            },
-            {
-              "region": "臺北市",
-              "income": "20,744元以下／人月",
-              "movableAssets": "每人每年150,000元",
-              "realEstate": "每戶837萬元"
-            },
-            {
-              "region": "新北市",
-              "income": "17,750元以下／人月",
-              "movableAssets": "每人每年100,000元",
-              "realEstate": "每戶472萬元"
-            },
-            {
-              "region": "桃園市",
-              "income": "17,186元以下／人月",
-              "movableAssets": "每人每年96,000元",
-              "realEstate": "每戶470萬元"
-            },
-            {
-              "region": "臺中市",
-              "income": "16,431元以下／人月",
-              "movableAssets": "每人每年96,000元",
-              "realEstate": "每戶386萬元"
-            },
-            {
-              "region": "臺南市",
-              "income": "15,515元以下／人月",
-              "movableAssets": "每人每年96,000元",
-              "realEstate": "每戶385萬元"
-            },
-            {
-              "region": "高雄市",
-              "income": "16,970元以下／人月",
-              "movableAssets": "每人每年96,000元",
-              "realEstate": "每戶397萬元"
-            },
-            {
-              "region": "福建省（金門縣、連江縣）",
-              "income": "15,173元以下／人月",
-              "movableAssets": "每戶4口內400,000元；第5口起每增加1口加100,000元",
-              "realEstate": "每戶307萬元"
-            }
-          ]
-        },
-        {
-          "label": "115年中低收入戶資格審核標準",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html",
-          "items": [
-            {
-              "region": "臺灣省",
-              "income": "23,273元以下／人月",
-              "movableAssets": "每人每年144,000元",
-              "realEstate": "每戶578萬元",
-              "note": "適用於非六都、非金門連江的縣市。"
-            },
-            {
-              "region": "臺北市",
-              "income": "29,635元以下／人月",
-              "movableAssets": "每人每年160,000元",
-              "realEstate": "每戶992萬元"
-            },
-            {
-              "region": "新北市",
-              "income": "26,625元以下／人月",
-              "movableAssets": "每人每年150,000元",
-              "realEstate": "每戶708萬元"
-            },
-            {
-              "region": "桃園市",
-              "income": "25,779元以下／人月",
-              "movableAssets": "每人每年144,000元",
-              "realEstate": "每戶705萬元"
-            },
-            {
-              "region": "臺中市",
-              "income": "24,647元以下／人月",
-              "movableAssets": "每人每年144,000元",
-              "realEstate": "每戶579萬元"
-            },
-            {
-              "region": "臺南市",
-              "income": "23,273元以下／人月",
-              "movableAssets": "每人每年144,000元",
-              "realEstate": "每戶578萬元"
-            },
-            {
-              "region": "高雄市",
-              "income": "25,455元以下／人月",
-              "movableAssets": "每人每年144,000元",
-              "realEstate": "每戶596萬元"
-            },
-            {
-              "region": "福建省（金門縣、連江縣）",
-              "income": "22,760元以下／人月",
-              "movableAssets": "每戶4口內600,000元；第5口起每增加1口加150,000元",
-              "realEstate": "每戶461萬元"
-            }
-          ]
-        }
-      ]
+      "applicationMethodSourceNote": "低收入戶與中低收入戶通常由戶籍地公所受理，正式流程仍依縣市政府公告與承辦單位說明為準。"
     },
     {
       "summary": "有長照需求可撥打1966，由地方照管中心評估並連結長照2.0服務。",
@@ -643,7 +509,7 @@
       }
     },
     {
-      "summary": "115年度低收入戶與中低收入戶資格審核標準，含臺灣省、六都、福建省（金門縣、連江縣）的所得、動產與不動產限額。",
+      "summary": "115年度低收入戶與中低收入戶資格審核標準表，集中列出臺灣省、六都、福建省（金門縣、連江縣）的所得、動產與不動產限額。",
       "audiences": [
         "低收入戶",
         "中低收入戶",
@@ -699,49 +565,6 @@
         "url": "https://dep.mohw.gov.tw/dosaasw/fp-566-84223-103.html",
         "type": "official-annual-standard"
       },
-      "benefitSourceNote": "這是115年度資格審核門檻，不是每月可領補助金額；實際補助金額仍要看縣市、款別與家庭狀況。",
-      "benefitItems": [
-        {
-          "label": "低收入戶所得門檻：臺灣省",
-          "amount": "15,515元以下",
-          "unit": "每人每月",
-          "note": "另需符合動產、不動產及家庭人口審查。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
-        },
-        {
-          "label": "低收入戶所得門檻：臺北市",
-          "amount": "20,744元以下",
-          "unit": "每人每月",
-          "note": "臺北市另有低收入戶類別條件。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
-        },
-        {
-          "label": "低收入戶所得門檻：新北市",
-          "amount": "17,750元以下",
-          "unit": "每人每月",
-          "note": "須併同動產與不動產限額審查。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
-        },
-        {
-          "label": "中低收入戶所得門檻：臺灣省",
-          "amount": "23,273元以下",
-          "unit": "每人每月",
-          "note": "這是資格門檻，不代表核發金額。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
-        },
-        {
-          "label": "中低收入戶所得門檻：臺北市",
-          "amount": "29,635元以下",
-          "unit": "每人每月",
-          "note": "這是資格門檻，不代表核發金額。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
-        }
-      ],
       "conditionSourceNote": "115年度低收入戶與中低收入戶，需依戶籍地看對應地區標準；以下列出衛福部官方表格的完整所得、動產、不動產門檻。",
       "applicationConditions": [
         {
@@ -766,7 +589,7 @@
           "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
         }
       ],
-      "applicationMethodSourceNote": "這張卡先協助判斷門檻；正式申請仍要回到戶籍地公所或縣市社會局處。",
+      "applicationMethodSourceNote": "這張卡是資格門檻查詢，不是核定結果；實際申請仍需向戶籍地公所或縣市政府送件。",
       "taiwanProvinceNote": {
         "title": "「臺灣省」是什麼意思？",
         "text": "在衛福部這份標準表裡，「臺灣省」是地區分類，不是要去省政府申請。戶籍在六都要看自己的直轄市；戶籍在金門、連江看福建省；其他縣市看臺灣省這一欄。",
@@ -30860,7 +30683,7 @@
     {
       "id": "tainan-1.20181E+14-10",
       "name": "臺南市私立菩提林綜合式長照機構",
-      "summary": "日間照顧、居家服務、夜間喘息",
+      "summary": "日間照顧、居家服務、夜間喘息、身體照顧、日常生活照顧及家事等服務。",
       "provider": "臺南市私立菩提林綜合式長照機構",
       "jurisdiction": "臺南市",
       "county": "臺南市",
@@ -30868,26 +30691,40 @@
         "後壁區"
       ],
       "audiences": [
-        "老人福利"
+        "老人福利",
+        "長者",
+        "照顧者"
       ],
       "serviceCategories": [
-        "社福資源"
+        "社福資源",
+        "長期照顧服務",
+        "居家服務",
+        "日間照顧",
+        "喘息服務"
       ],
       "needTags": [
         "老人福利",
         "社福資源",
         "後壁區",
         "臺南",
-        "福利地圖"
+        "福利地圖",
+        "居家服務",
+        "日間照顧",
+        "夜間喘息",
+        "身體照顧",
+        "日常生活照顧",
+        "家事服務"
       ],
-      "eligibility": "日間照顧、居家服務、夜間喘息",
+      "eligibility": "提供日間照顧、居家服務、夜間喘息、身體照顧、日常生活照顧及家事等服務；實際服務對象、名額與費用補助請先電話確認。",
       "howToApply": [
-        "先電話確認服務時間與名額",
-        "確認服務對象與需要文件",
-        "依資源點指示申請或前往"
+        "先電話確認日照、居服、夜間喘息或家事服務是否仍有名額。",
+        "說明長照需求、照顧狀況、是否已有長照評估或低收／中低收身分。",
+        "依機構或長照窗口指示準備文件並約定服務評估。"
       ],
       "documents": [
-        "依資源點規定"
+        "依資源點規定",
+        "長照需求與服務項目資料",
+        "身分或補助資格證明"
       ],
       "contact": {
         "phone": "06-6871797",
@@ -30905,59 +30742,11 @@
         "lastChecked": "2026-06-03",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Imported from Tainan welfare map open-data resource."
-      }
-    },
-    {
-      "id": "tainan-1.20181E+14-11",
-      "name": "臺南市私立菩提林綜合式長照機構",
-      "summary": "身體照顧、日常生活照顧及家事等服務",
-      "provider": "臺南市私立菩提林綜合式長照機構",
-      "jurisdiction": "臺南市",
-      "county": "臺南市",
-      "districts": [
-        "後壁區"
-      ],
-      "audiences": [
-        "老人福利"
-      ],
-      "serviceCategories": [
-        "社福資源"
-      ],
-      "needTags": [
-        "老人福利",
-        "社福資源",
-        "後壁區",
-        "臺南",
-        "福利地圖"
-      ],
-      "eligibility": "身體照顧、日常生活照顧及家事等服務",
-      "howToApply": [
-        "先電話確認服務時間與名額",
-        "確認服務對象與需要文件",
-        "依資源點指示申請或前往"
-      ],
-      "documents": [
-        "依資源點規定"
-      ],
-      "contact": {
-        "phone": "06-6871797",
-        "address": "臺南市後壁區後壁里12鄰後壁193-1號",
-        "website": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
-        "latitude": "23.3674821",
-        "longitude": "120.3663636"
+        "notes": "Imported from Tainan welfare map open-data resource. Same provider, phone, address and source as tainan-1.20181E+14-11; service descriptions were merged."
       },
-      "source": {
-        "id": "tainan-welfare-map-dataset",
-        "url": "https://data.tainan.gov.tw/DataSet/Detail/7227a4b1-1fe6-4bde-989b-55b072e3f66e",
-        "type": "official-open-data"
-      },
-      "freshness": {
-        "lastChecked": "2026-06-03",
-        "sourceUpdatedAt": null,
-        "confidence": "checked",
-        "notes": "Imported from Tainan welfare map open-data resource."
-      }
+      "mergedFrom": [
+        "tainan-1.20181E+14-11"
+      ]
     },
     {
       "id": "tainan-1.2019E+14-12",
