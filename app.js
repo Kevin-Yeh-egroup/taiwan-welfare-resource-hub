@@ -89,6 +89,14 @@ function searchableText(record) {
     ...(record.serviceCategories || []),
     ...(record.needTags || []),
     ...(record.applicationConditions || []).flatMap((item) => [item.label, item.requirement, item.note, item.sourceDate]),
+    record.taiwanProvinceNote?.title,
+    record.taiwanProvinceNote?.text,
+    ...(record.taiwanProvinceNote?.areas || []),
+    ...(record.incomeStandardGroups || []).flatMap((group) => [
+      group.label,
+      group.sourceDate,
+      ...(group.items || []).flatMap((item) => [item.region, item.income, item.movableAssets, item.realEstate, item.note])
+    ]),
     ...(record.benefitItems || []).flatMap((item) => [item.label, item.amount, item.unit, item.note, item.sourceDate]),
     record.eligibility,
     ...(record.howToApply || []),
@@ -258,7 +266,9 @@ function renderBenefitItems(record) {
 
 function renderApplicationConditions(record) {
   const items = record.applicationConditions || [];
-  if (!items.length) return "";
+  const hasStandards = (record.incomeStandardGroups || []).length;
+  const hasProvinceNote = Boolean(record.taiwanProvinceNote);
+  if (!items.length && !hasStandards && !hasProvinceNote) return "";
   const visible = items.slice(0, 6);
   return `
     <section class="condition-block" aria-label="申請條件">
@@ -266,21 +276,75 @@ function renderApplicationConditions(record) {
         <span>申請條件先看</span>
         <small>${escapeHtml(record.conditionSourceNote || "資格會因年度、縣市、家庭人口與審查結果不同，送件前請以來源頁或承辦單位為準。")}</small>
       </div>
-      <div class="condition-list">
-        ${visible
-          .map(
-            (item) => `
-              <div class="condition-item">
-                <strong>${escapeHtml(item.label)}</strong>
-                <p>${escapeHtml(item.requirement)}</p>
-                ${item.note ? `<small>${escapeHtml(item.note)}</small>` : ""}
-                ${item.sourceDate || item.sourceUrl ? `<small>${item.sourceDate ? `來源日期：${escapeHtml(item.sourceDate)}` : ""}${item.sourceDate && item.sourceUrl ? " / " : ""}${item.sourceUrl ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">條件來源</a>` : ""}</small>` : ""}
-              </div>
-            `
-          )
-          .join("")}
-      </div>
+      ${renderTaiwanProvinceNote(record)}
+      ${renderIncomeStandardGroups(record)}
+      ${visible.length ? `
+        <div class="condition-list">
+          ${visible
+            .map(
+              (item) => `
+                <div class="condition-item">
+                  <strong>${escapeHtml(item.label)}</strong>
+                  <p>${escapeHtml(item.requirement)}</p>
+                  ${item.note ? `<small>${escapeHtml(item.note)}</small>` : ""}
+                  ${item.sourceDate || item.sourceUrl ? `<small>${item.sourceDate ? `來源日期：${escapeHtml(item.sourceDate)}` : ""}${item.sourceDate && item.sourceUrl ? " / " : ""}${item.sourceUrl ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">條件來源</a>` : ""}</small>` : ""}
+                </div>
+              `
+            )
+            .join("")}
+        </div>
+      ` : ""}
     </section>
+  `;
+}
+
+function renderTaiwanProvinceNote(record) {
+  const note = record.taiwanProvinceNote;
+  if (!note) return "";
+  return `
+    <div class="province-note">
+      <strong>${escapeHtml(note.title)}</strong>
+      <p>${escapeHtml(note.text)}</p>
+      ${(note.areas || []).length ? `<small>${escapeHtml(note.areas.join("、"))}</small>` : ""}
+    </div>
+  `;
+}
+
+function renderIncomeStandardGroups(record) {
+  const groups = record.incomeStandardGroups || [];
+  if (!groups.length) return "";
+  return `
+    <div class="standard-groups">
+      ${groups
+        .map(
+          (group) => `
+            <div class="standard-group">
+              <div class="standard-group-heading">
+                <strong>${escapeHtml(group.label)}</strong>
+                <small>${escapeHtml(group.sourceDate || "")}${group.sourceUrl ? ` / <a href="${escapeHtml(group.sourceUrl)}" target="_blank" rel="noopener">官方標準來源</a>` : ""}</small>
+              </div>
+              <div class="standard-card-grid">
+                ${(group.items || [])
+                  .map(
+                    (item) => `
+                      <div class="standard-card">
+                        <strong>${escapeHtml(item.region)}</strong>
+                        <dl>
+                          <div><dt>平均所得</dt><dd>${escapeHtml(item.income)}</dd></div>
+                          <div><dt>動產限額</dt><dd>${escapeHtml(item.movableAssets)}</dd></div>
+                          <div><dt>不動產限額</dt><dd>${escapeHtml(item.realEstate)}</dd></div>
+                        </dl>
+                        ${item.note ? `<small>${escapeHtml(item.note)}</small>` : ""}
+                      </div>
+                    `
+                  )
+                  .join("")}
+              </div>
+            </div>
+          `
+        )
+        .join("")}
+    </div>
   `;
 }
 

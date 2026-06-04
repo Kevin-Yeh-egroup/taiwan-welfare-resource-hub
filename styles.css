@@ -636,11 +636,13 @@ summary:focus-visible {
 }
 
 .condition-block {
+  min-width: 0;
   margin-top: 12px;
   border: 1px solid #cfe5df;
   border-radius: 8px;
   background: #f6fbf9;
   padding: 12px;
+  overflow-wrap: anywhere;
 }
 
 .condition-heading {
@@ -696,6 +698,124 @@ summary:focus-visible {
 .condition-item small a {
   color: var(--teal);
   font-weight: 800;
+}
+
+.province-note {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  margin-bottom: 10px;
+  border: 1px solid #b9dcd5;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 10px;
+  overflow-wrap: anywhere;
+}
+
+.province-note strong {
+  color: #183d38;
+  font-size: 0.95rem;
+}
+
+.province-note p {
+  margin: 0;
+  color: #31413d;
+  line-height: 1.55;
+}
+
+.province-note small {
+  color: var(--muted);
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.standard-groups {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.standard-group {
+  min-width: 0;
+  border: 1px solid #dcebe7;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  padding: 10px;
+  overflow-wrap: anywhere;
+}
+
+.standard-group-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 10px;
+  min-width: 0;
+  margin-bottom: 8px;
+}
+
+.standard-group-heading strong {
+  color: var(--teal);
+  font-size: 0.95rem;
+}
+
+.standard-group-heading small,
+.standard-card small {
+  color: var(--muted);
+  line-height: 1.45;
+  min-width: 0;
+}
+
+.standard-group-heading a {
+  color: var(--teal);
+  font-weight: 800;
+}
+
+.standard-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.standard-card {
+  min-width: 0;
+  border-left: 3px solid var(--green);
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 10px;
+  overflow-wrap: anywhere;
+}
+
+.standard-card > strong {
+  display: block;
+  color: #1d413b;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.standard-card dl {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+}
+
+.standard-card dl div {
+  display: grid;
+  grid-template-columns: 68px minmax(0, 1fr);
+  gap: 6px;
+}
+
+.standard-card dt {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.standard-card dd {
+  margin: 0;
+  color: #263832;
+  font-weight: 900;
+  line-height: 1.35;
+  min-width: 0;
 }
 
 .benefit-block {
@@ -1008,6 +1128,7 @@ summary:focus-visible {
   .status-grid,
   .filter-panel,
   .condition-list,
+  .standard-card-grid,
   .benefit-list,
   .quick-answer-grid,
   .details-grid,
@@ -1035,5 +1156,10 @@ summary:focus-visible {
 
   .status-pill {
     justify-self: start;
+  }
+
+  .standard-group-heading {
+    display: grid;
+    justify-content: stretch;
   }
 }

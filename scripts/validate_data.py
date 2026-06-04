@@ -133,6 +133,17 @@ def main() -> int:
                 errors.append(f"Record {record_id} condition {condition_index} missing requirement.")
             if not valid_url(condition.get("sourceUrl")):
                 errors.append(f"Record {record_id} condition {condition_index} has invalid sourceUrl.")
+        for group_index, group in enumerate(record.get("incomeStandardGroups", []), start=1):
+            if not group.get("label"):
+                errors.append(f"Record {record_id} income standard group {group_index} missing label.")
+            if not valid_url(group.get("sourceUrl")):
+                errors.append(f"Record {record_id} income standard group {group_index} has invalid sourceUrl.")
+            for item_index, item in enumerate(group.get("items", []), start=1):
+                for field in ["region", "income", "movableAssets", "realEstate"]:
+                    if not item.get(field):
+                        errors.append(
+                            f"Record {record_id} income standard group {group_index} item {item_index} missing {field}."
+                        )
         for benefit_index, benefit in enumerate(record.get("benefitItems", []), start=1):
             if not benefit.get("label"):
                 errors.append(f"Record {record_id} benefit {benefit_index} missing label.")
