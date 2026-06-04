@@ -35,7 +35,6 @@ const priorityNames = [
 ];
 
 const els = {
-  query: document.querySelector("#queryInput"),
   county: document.querySelector("#countyFilter"),
   audience: document.querySelector("#audienceFilter"),
   category: document.querySelector("#categoryFilter"),
@@ -45,7 +44,6 @@ const els = {
   resultCount: document.querySelector("#resultCount"),
   activeFilters: document.querySelector("#activeFilters"),
   resultsPanel: document.querySelector(".results-panel"),
-  clearButton: document.querySelector("#clearButton"),
   applyFilterButton: document.querySelector("#applyFilterButton"),
   recordTotal: document.querySelector("#recordTotal"),
   countyTotal: document.querySelector("#countyTotal"),
@@ -567,7 +565,7 @@ function groupVisibleRecords(records) {
 
 function renderActiveFilters() {
   const filters = [
-    state.query ? `關鍵字：${state.query}` : "",
+    state.query ? `資源主題：${state.query}` : "",
     state.county ? `縣市：${state.county}` : "",
     state.audience ? `身分／對象：${state.audience}` : "",
     state.category ? `協助類型：${state.category}` : "",
@@ -603,7 +601,7 @@ function render() {
 
   const moreNote =
     filtered.length > visible.length
-      ? `<div class="more-note">這組還有 ${filtered.length - visible.length} 筆。可以切到「全部結果」，或用縣市、身分、關鍵字再縮小。</div>`
+      ? `<div class="more-note">這組還有 ${filtered.length - visible.length} 筆。可以切到「全部結果」，或用縣市、身分、資源類別再縮小。</div>`
       : "";
   els.results.innerHTML = visibleCards.map(renderRecord).join("") + moreNote;
 }
@@ -624,7 +622,6 @@ function setSelectValue(select, value) {
 }
 
 function syncControls() {
-  els.query.value = state.query;
   setSelectValue(els.county, state.county);
   setSelectValue(els.audience, state.audience);
   setSelectValue(els.category, state.category);
@@ -696,11 +693,6 @@ function syncGroupButtons() {
 }
 
 function bindEvents() {
-  els.query.addEventListener("input", (event) => {
-    state.query = event.target.value;
-    state.group = state.query ? "recommended" : state.group;
-    render();
-  });
   els.county.addEventListener("change", (event) => {
     state.county = event.target.value;
     render();
@@ -717,7 +709,6 @@ function bindEvents() {
     state.currentOnly = event.target.checked;
     render();
   });
-  els.clearButton.addEventListener("click", resetFilters);
   els.applyFilterButton.addEventListener("click", showResourceDescriptions);
 
   document.querySelectorAll("[data-need]").forEach((button) => {

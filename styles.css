@@ -128,27 +128,12 @@ main {
   min-width: 0;
 }
 
-.search-panel {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 12px;
-  align-items: end;
-  margin-bottom: 18px;
-  padding: 16px;
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-}
-
-.search-field,
 .filter-panel label {
   display: grid;
   gap: 6px;
   min-width: 0;
 }
 
-.search-field span,
 .filter-panel label > span {
   color: var(--muted);
   font-size: 0.92rem;
@@ -175,7 +160,6 @@ summary:focus-visible {
   outline-offset: 2px;
 }
 
-.clear-button,
 .apply-button {
   min-height: 46px;
   border: 1px solid transparent;
@@ -186,7 +170,6 @@ summary:focus-visible {
   font-weight: 800;
 }
 
-.clear-button:hover,
 .apply-button:hover {
   background: #102b28;
 }
@@ -1192,7 +1175,6 @@ summary:focus-visible {
     font-size: 1rem;
   }
 
-  .search-panel,
   .need-grid,
   .guide-card-grid,
   .identity-grid,
