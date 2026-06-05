@@ -7,13 +7,14 @@
 - Public GitHub repo: https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub
 - Vercel Production: https://taiwan-welfare-resource-hub.vercel.app/
 - Review-stage `noindex` 保留中：HTML meta robots、`robots.txt`、Vercel `X-Robots-Tag` 都會阻擋搜尋引擎索引。
-- Current dataset: 459 resource records from 83 allowlisted sources.
+- Current dataset: 468 resource records from 92 allowlisted sources.
 - Foundation coverage: 355 official SFAA national social-welfare foundation records queried on 2026-06-03.
 - Reviewed foundation program cards: 22 manually allowlisted program/service pages converted from candidate crawls.
 - Batch 0/1 central expansion: 9 high-demand nationwide cards for national pension premium subsidy, special-circumstances families, disability welfare, childcare, elder welfare, education tuition reduction, labor subsidy, 115 rent subsidy, and 113 protection hotline.
 - Batch 2 local expansion: 12 six-municipality program cards covering Taipei, New Taipei, Taoyuan, Taichung, Tainan, and Kaohsiung local benefits with concrete eligibility, amounts, and application notes.
 - Batch 3A local expansion: 12 northern/central non-municipality program cards covering Keelung, Hsinchu City, Hsinchu County, Miaoli, Changhua, Nantou, and Yunlin.
 - Batch 3B local expansion: 12 southern/eastern non-municipality program cards covering Chiayi City, Chiayi County, Pingtung, Yilan, Hualien, and Taitung.
+- Batch 3C local expansion: 9 offshore county program cards covering Penghu, Kinmen, and Lienchiang.
 
 ## Local Preview
 

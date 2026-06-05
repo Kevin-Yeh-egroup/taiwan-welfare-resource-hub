@@ -4,13 +4,14 @@ This audit checks the current V1 resource hub against official Taiwan welfare so
 
 ## Current Coverage
 
-- Current dataset after Batch 3B southern/eastern local expansion: 459 resource records, 83 sources.
+- Current dataset after Batch 3C offshore local expansion: 468 resource records, 92 sources.
 - County/city coverage: all 22 Taiwan county/city social welfare authorities are present as official local-government entry records.
 - Central coverage already present: MOHW welfare e-box, 1957 welfare hotline, MOHW low-income/middle-low-income page, 115 annual low-income/middle-low-income standards, low-income/middle-low-income FAQ, emergency assistance, social welfare service centers/social safety net, 1966 long-term care, NHI premium subsidy dataset, TaiwanJobs, disability employment resources.
 - Batch 0/1 central additions: national pension premium subsidy, special-circumstances families, disability welfare, childcare and parenting support, elder welfare, education tuition reduction, labor subsidy and employment support, 115 central rent subsidy, and 113 protection hotline.
 - Batch 2 local additions: 12 program-level six-municipality cards across Taipei, New Taipei, Taoyuan, Taichung, Tainan, and Kaohsiung.
 - Batch 3A local additions: 12 program-level cards across Keelung, Hsinchu City, Hsinchu County, Miaoli, Changhua, Nantou, and Yunlin.
 - Batch 3B local additions: 12 program-level cards across Chiayi City, Chiayi County, Pingtung, Yilan, Hualien, and Taitung.
+- Batch 3C local additions: 9 program-level cards across Penghu, Kinmen, and Lienchiang.
 - Civil-society coverage now includes the SFAA official directory of national social-welfare foundations: 355 foundation records.
 
 ## Main Finding
@@ -85,7 +86,7 @@ Current friction:
 
 - Added standalone central cards for 115年度低收入戶/中低收入戶資格審核標準, low-income/middle-low-income FAQ, 急難救助, and 社會福利服務中心/社會安全網.
 - Updated quick-search buttons toward economic-vulnerability questions: low-income/middle-low-income, 115 annual standard, emergency aid, social welfare center, premium subsidy, and civil-society foundations.
-- Rebuilt the data pipeline with 459 records, 83 sources, 83 freshness URLs, and 0 freshness warnings after Batch 3B.
+- Rebuilt the data pipeline with 468 records, 92 sources, 92 freshness URLs, and 0 freshness warnings after Batch 3C.
 
 ## SFAA Foundation Follow-Up Implemented
 
@@ -102,4 +103,11 @@ Current friction:
 - Added official local cards for Chiayi City, Chiayi County, Pingtung County, Yilan County, Hualien County, and Taitung County.
 - The batch emphasizes resident-facing pages with current-year eligibility, subsidy amount, and application notes.
 - Fixed the Taichung 115 low-income/middle-low-income annual-standard card to use the stable official article path and expose income, movable-property, and real-estate thresholds together.
-- Remaining local expansion: Penghu, Kinmen, and Lienchiang, followed by deeper civil-society program confirmation.
+- Batch 3C completes the planned broad local expansion through Penghu, Kinmen, and Lienchiang; follow-up should shift to deeper civil-society program confirmation.
+
+## Batch 3C Follow-Up Implemented
+
+- Added official local cards for Penghu County, Kinmen County, and Lienchiang County.
+- The batch covers low-income/middle-low-income standards, emergency assistance, child/youth support, new immigrant assistance, and child/youth medical assistance.
+- Low-income/middle-low-income cards now explicitly explain that Penghu uses the Taiwan Province standard column, while Kinmen and Lienchiang use the Fujian Province standard column.
+- Remaining local work is no longer broad county coverage; the next useful work is deeper program confirmation inside local bureaus, township offices, and civil-society provider websites.
