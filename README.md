@@ -7,15 +7,16 @@
 - Public GitHub repo: https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub
 - Vercel Production: https://taiwan-welfare-resource-hub.vercel.app/
 - Review-stage `noindex` 保留中：HTML meta robots、`robots.txt`、Vercel `X-Robots-Tag` 都會阻擋搜尋引擎索引。
-- Current dataset: 476 resource records from 92 allowlisted sources.
+- Current dataset: 483 resource records from 92 allowlisted sources.
 - Foundation coverage: 355 official SFAA national social-welfare foundation records queried on 2026-06-03.
-- Reviewed foundation program cards: 30 manually allowlisted program/service pages converted from candidate crawls.
+- Reviewed foundation program cards: 37 manually allowlisted program/service pages converted from candidate crawls.
 - Batch 0/1 central expansion: 9 high-demand nationwide cards for national pension premium subsidy, special-circumstances families, disability welfare, childcare, elder welfare, education tuition reduction, labor subsidy, 115 rent subsidy, and 113 protection hotline.
 - Batch 2 local expansion: 12 six-municipality program cards covering Taipei, New Taipei, Taoyuan, Taichung, Tainan, and Kaohsiung local benefits with concrete eligibility, amounts, and application notes.
 - Batch 3A local expansion: 12 northern/central non-municipality program cards covering Keelung, Hsinchu City, Hsinchu County, Miaoli, Changhua, Nantou, and Yunlin.
 - Batch 3B local expansion: 12 southern/eastern non-municipality program cards covering Chiayi City, Chiayi County, Pingtung, Yilan, Hualien, and Taitung.
 - Batch 3C local expansion: 9 offshore county program cards covering Penghu, Kinmen, and Lienchiang.
 - Batch 4A foundation deep crawl: 8 reviewed civil-society program cards for Moxian, Garden of Hope, Joyce McMillan, Spinal Cord Injury, and Hondao service pages.
+- Batch 4B foundation deep crawl: 7 reviewed civil-society program cards for VTCIDD Taoyuan disability services, Saint Island scholarships/living assistance, Mega charity emergency/medical relief, and Shing Yi social assistance.
 
 ## Local Preview
 
@@ -35,7 +36,7 @@ http://localhost:4173
 python scripts/build_source_registry.py
 python scripts/extract_source_urls.py source-docs --out data/extracted-urls.json
 python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
-python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json data/foundation-program-candidates-batch-c.json --allowlist data/formal-program-allowlist.json --out data/resources.json
+python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json data/foundation-program-candidates-batch-c.json data/foundation-program-candidates-batch-d.json data/foundation-program-candidates-batch-e.json --allowlist data/formal-program-allowlist.json --out data/resources.json
 python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json
 python scripts/validate_data.py
 node scripts/build_static.mjs
@@ -47,6 +48,8 @@ Optional candidate crawl batches:
 python scripts/crawl_foundation_program_candidates.py --limit 30 --out data/foundation-program-candidates.json
 python scripts/crawl_foundation_program_candidates.py --batch B --previous data/foundation-program-candidates.json --only-current-year --limit 30 --out data/foundation-program-candidates-batch-b.json
 python scripts/crawl_foundation_program_candidates.py --batch C --previous data/foundation-program-candidates.json --previous data/foundation-program-candidates-batch-b.json --only-current-year --limit 30 --out data/foundation-program-candidates-batch-c.json
+python scripts/crawl_foundation_program_candidates.py --batch D --previous data/foundation-program-candidates.json --previous data/foundation-program-candidates-batch-b.json --previous data/foundation-program-candidates-batch-c.json --only-current-year --limit 30 --out data/foundation-program-candidates-batch-d.json
+python scripts/crawl_foundation_program_candidates.py --batch E --previous data/foundation-program-candidates.json --previous data/foundation-program-candidates-batch-b.json --previous data/foundation-program-candidates-batch-c.json --previous data/foundation-program-candidates-batch-d.json --limit 30 --out data/foundation-program-candidates-batch-e.json
 ```
 
 `crawl_foundation_program_candidates.py` is review-first. Candidate pages stay non-public until a reviewed entry is added to `data/formal-program-allowlist.json`.

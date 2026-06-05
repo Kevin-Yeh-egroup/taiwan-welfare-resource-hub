@@ -1,0 +1,442 @@
+{
+  "generatedAt": "2026-06-05T07:49:23+00:00",
+  "batch": "D",
+  "mode": "candidate-only",
+  "notice": "Review-only candidate pages crawled from foundation websites. Do not treat these as public resource records until manually reviewed.",
+  "crawlPolicy": {
+    "userAgent": "taiwan-welfare-resource-hub/0.1 (+https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub)",
+    "robotsRespected": true,
+    "maxPagesPerSite": 6,
+    "maxCandidatesPerSite": 3,
+    "minScore": 8,
+    "sourceDataset": "data/resources.json",
+    "previousCandidateFiles": [
+      "data\\foundation-program-candidates.json",
+      "data\\foundation-program-candidates-batch-b.json",
+      "data\\foundation-program-candidates-batch-c.json"
+    ],
+    "excludedFoundations": 90,
+    "onlyCurrentYear": true
+  },
+  "summary": {
+    "selectedFoundations": 3,
+    "websitesAttempted": 3,
+    "websitesWithCandidates": 2,
+    "pagesFetched": 13,
+    "candidates": 6,
+    "highConfidence": 6,
+    "mediumConfidence": 0,
+    "lowConfidence": 0,
+    "errors": 0
+  },
+  "selectedFoundations": [
+    {
+      "id": "sfaa-foundation-d0004",
+      "name": "財團法人私立八德教養院",
+      "county": "桃園市",
+      "website": "http://www.pade-institute.org.tw",
+      "sourceUpdatedAt": "2026-04-15",
+      "priorityScore": 19,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-d0006",
+      "name": "財團法人台灣省私立啟智技藝訓練中心",
+      "county": "桃園市",
+      "website": "https://www.vtcidd.org",
+      "sourceUpdatedAt": "2026-02-06",
+      "priorityScore": 19,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-a0073",
+      "name": "財團法人婦女權益促進發展基金會",
+      "county": "臺北市",
+      "website": "http://www.iwomenweb.org.tw/",
+      "sourceUpdatedAt": "2026-01-23",
+      "priorityScore": 17,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sfaa-foundation-d0004-candidate-7a3f332c1720",
+      "foundationId": "sfaa-foundation-d0004",
+      "foundationName": "財團法人私立八德教養院",
+      "county": "桃園市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.pade-institute.org.tw",
+      "pageUrl": "http://www.pade-institute.org.tw/ap/cust_view.aspx?bid=121",
+      "pageTitle": "財團法人私立八德教養院-服務內容",
+      "linkText": "服務內容",
+      "summary": "財團法人私立八德教養院,原「財團法人台灣省私立八德殘障教養院」更名為「財團法人私立八德教養院」",
+      "matchedKeywords": [
+        "服務",
+        "服務內容",
+        "聯絡",
+        "公告",
+        "最新消息",
+        "服務項目",
+        "115年",
+        "115年度",
+        "114年",
+        "114年度",
+        "身心障礙",
+        "福利",
+        "申請",
+        "計畫",
+        "照顧",
+        "家庭",
+        "電話"
+      ],
+      "currentYearSignals": [
+        "115年",
+        "115年度",
+        "114年",
+        "114年度",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "申請",
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 46,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-05"
+    },
+    {
+      "id": "sfaa-foundation-d0004-candidate-8929c8a36faf",
+      "foundationId": "sfaa-foundation-d0004",
+      "foundationName": "財團法人私立八德教養院",
+      "county": "桃園市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.pade-institute.org.tw",
+      "pageUrl": "http://www.pade-institute.org.tw/ap/cust_view.aspx?bid=122",
+      "pageTitle": "財團法人私立八德教養院-服務對象與目標",
+      "linkText": "服務對象與目標",
+      "summary": "財團法人私立八德教養院,原「財團法人台灣省私立八德殘障教養院」更名為「財團法人私立八德教養院」",
+      "matchedKeywords": [
+        "服務",
+        "聯絡",
+        "公告",
+        "最新消息",
+        "服務項目",
+        "服務內容",
+        "115年",
+        "115年度",
+        "114年",
+        "114年度",
+        "身心障礙",
+        "福利",
+        "兒童",
+        "家庭",
+        "電話"
+      ],
+      "currentYearSignals": [
+        "115年",
+        "115年度",
+        "114年",
+        "114年度",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 41,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-05"
+    },
+    {
+      "id": "sfaa-foundation-d0004-candidate-0a68bfb587f3",
+      "foundationId": "sfaa-foundation-d0004",
+      "foundationName": "財團法人私立八德教養院",
+      "county": "桃園市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.pade-institute.org.tw",
+      "pageUrl": "http://www.pade-institute.org.tw/ap/index.aspx",
+      "pageTitle": "財團法人私立八德教養院-首頁",
+      "linkText": "首頁",
+      "summary": "財團法人私立八德教養院,原「財團法人台灣省私立八德殘障教養院」更名為「財團法人私立八德教養院」",
+      "matchedKeywords": [
+        "聯絡",
+        "公告",
+        "最新消息",
+        "服務",
+        "服務項目",
+        "服務內容",
+        "115年",
+        "115年度",
+        "114年",
+        "114年度",
+        "身心障礙",
+        "福利",
+        "2026",
+        "2025",
+        "兒童",
+        "申請",
+        "電話"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "115年",
+        "115年度",
+        "2025",
+        "114年",
+        "114年度",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "申請",
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 40,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-05"
+    },
+    {
+      "id": "sfaa-foundation-d0006-candidate-75642a798b70",
+      "foundationId": "sfaa-foundation-d0006",
+      "foundationName": "財團法人台灣省私立啟智技藝訓練中心",
+      "county": "桃園市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "https://www.vtcidd.org",
+      "pageUrl": "https://www.vtcidd.org/OnePage.aspx?mid=50&id=17",
+      "pageTitle": "財團法人台灣省私立啟智技藝訓練中心>桃園市身心障礙者恆愛日間托育服務中心(桃園市政府社會局委託辦理)",
+      "linkText": "桃園市身心障礙者恆愛日間托育服務中心",
+      "summary": "啟智技藝訓練中心",
+      "matchedKeywords": [
+        "身心障礙",
+        "服務",
+        "聯絡",
+        "專案",
+        "補助",
+        "2025",
+        "電話",
+        "照顧",
+        "服務內容",
+        "家庭",
+        "申請",
+        "計畫",
+        "2026"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "2025"
+      ],
+      "applicationSignals": [
+        "申請",
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 38,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-05"
+    },
+    {
+      "id": "sfaa-foundation-d0006-candidate-b392c5cefa53",
+      "foundationId": "sfaa-foundation-d0006",
+      "foundationName": "財團法人台灣省私立啟智技藝訓練中心",
+      "county": "桃園市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "https://www.vtcidd.org",
+      "pageUrl": "https://www.vtcidd.org/OnePage.aspx?mid=51&id=18",
+      "pageTitle": "財團法人台灣省私立啟智技藝訓練中心>身心障礙者服務中心(桃園市政府社會局委託辦理)",
+      "linkText": "身心障礙者服務中心",
+      "summary": "啟智技藝訓練中心",
+      "matchedKeywords": [
+        "身心障礙",
+        "服務",
+        "聯絡",
+        "專案",
+        "補助",
+        "2025",
+        "服務內容",
+        "家庭",
+        "照顧",
+        "福利",
+        "2026"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "2025"
+      ],
+      "applicationSignals": [
+        "聯絡"
+      ],
+      "negativeSignals": [],
+      "score": 34,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-05"
+    },
+    {
+      "id": "sfaa-foundation-d0006-candidate-7d2679360efc",
+      "foundationId": "sfaa-foundation-d0006",
+      "foundationName": "財團法人台灣省私立啟智技藝訓練中心",
+      "county": "桃園市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "https://www.vtcidd.org",
+      "pageUrl": "https://www.vtcidd.org/OnePage.aspx?mid=48&id=15",
+      "pageTitle": "財團法人台灣省私立啟智技藝訓練中心>楊梅服務區(高支持密度者居住及生活服務)",
+      "linkText": "楊梅服務區",
+      "summary": "啟智技藝訓練中心",
+      "matchedKeywords": [
+        "服務",
+        "聯絡",
+        "身心障礙",
+        "專案",
+        "補助",
+        "2025",
+        "電話",
+        "服務內容",
+        "照護",
+        "家庭",
+        "2026"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "2025"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 33,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-05"
+    }
+  ],
+  "siteReports": [
+    {
+      "foundationId": "sfaa-foundation-d0004",
+      "foundationName": "財團法人私立八德教養院",
+      "website": "http://www.pade-institute.org.tw",
+      "fetchedPages": [
+        "http://www.pade-institute.org.tw/ap/index.aspx",
+        "http://www.pade-institute.org.tw/ap/sitemap2.aspx?bid=15",
+        "http://www.pade-institute.org.tw/ap/cust_view.aspx?bid=121",
+        "http://www.pade-institute.org.tw/ap/news_list.aspx?bid=32",
+        "http://www.pade-institute.org.tw/ap/cust_view.aspx?bid=120",
+        "http://www.pade-institute.org.tw/ap/cust_view.aspx?bid=122"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-d0006",
+      "foundationName": "財團法人台灣省私立啟智技藝訓練中心",
+      "website": "https://www.vtcidd.org",
+      "fetchedPages": [
+        "https://www.vtcidd.org",
+        "https://www.vtcidd.org/OnePage.aspx?mid=50&id=17",
+        "https://www.vtcidd.org/OnePage.aspx?mid=51&id=18",
+        "https://www.vtcidd.org/OnePage.aspx?mid=45&id=153",
+        "https://www.vtcidd.org/OnePage.aspx?mid=48&id=15",
+        "https://www.vtcidd.org/OnePage.aspx?mid=49&id=16"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-a0073",
+      "foundationName": "財團法人婦女權益促進發展基金會",
+      "website": "http://www.iwomenweb.org.tw/",
+      "fetchedPages": [
+        "http://www.iwomenweb.org.tw/"
+      ],
+      "errors": []
+    }
+  ]
+}

@@ -417,6 +417,171 @@
       "applicationMethodSourceNote": "建議先用所在地與需求類型縮小範圍，再洽弘道或在地服務單位確認。",
       "howToApply": ["依需求從弘道服務頁進入對應計畫或服務據點。", "可先洽弘道或在地服務單位，確認服務區域、收案條件與是否需要轉介。", "若是急迫生活或照顧需求，先說明長者年齡、居住地、照顧狀況與經濟困難。"],
       "documents": ["身分與居住資料", "長者照顧、健康或生活需求資料", "經濟困難或急難事由證明（如申請支持服務）", "各服務計畫要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-d0006-candidate-75642a798b70",
+      "name": "桃園市身心障礙者恆愛日間托育服務中心",
+      "summary": "桃園市政府社會局委託啟智技藝訓練中心辦理，服務設籍桃園市、15歲以上且符合特定身障類別與等級者，提供日間托育、臨時照顧、生活技能、專業團隊、家庭支持與健康促進。",
+      "audiences": ["身心障礙者", "心智障礙者", "自閉症者", "家庭照顧者", "桃園市民"],
+      "serviceCategories": ["身心障礙福利", "日間照顧", "臨時照顧", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["啟智技藝訓練中心", "恆愛", "日間托育", "臨時照顧", "桃園市", "身心障礙"],
+      "eligibility": "適合設籍桃園市、年滿15歲以上，且領有身心障礙證明第一類或舊制06智能障礙、11自閉症、13染色體異常類別，中度以上者查詢；實際收案、名額與評估以中心及桃園市社會局規定為準。",
+      "conditionSourceNote": "來源頁列出服務對象、服務容量與服務內容，正式使用前仍需向中心確認名額與評估流程。",
+      "applicationConditions": [
+        {"label": "戶籍地", "requirement": "設籍桃園市。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=50&id=17"},
+        {"label": "年齡與障礙類別", "requirement": "15歲以上，領有身心障礙證明第一類，或舊制06智能障礙、11自閉症、13染色體異常類別。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=50&id=17"},
+        {"label": "障礙程度與名額", "requirement": "以中度以上為主要服務對象；日間托育25名、臨時照顧5名，實際名額須洽中心確認。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=50&id=17"}
+      ],
+      "benefitSourceNote": "此頁是照顧服務，不是固定金額現金補助；服務內容與是否需付費或補助，須由中心確認。",
+      "benefitItems": [
+        {"label": "日間托育服務", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "包含生活技能訓練、專業團隊服務、家庭支持、權益維護、休閒參與、健康促進、社區支持與行為支持。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=50&id=17"},
+        {"label": "臨時照顧服務", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "提供餐食、基本身體照顧、休閒育樂與家庭照顧者諮詢等短時段支持。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=50&id=17"},
+        {"label": "輔具與無障礙資源", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "中心可連結輔具、無障礙環境與身障資源。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=50&id=17"}
+      ],
+      "applicationMethodSourceNote": "來源頁說明由社工單一窗口受理申請與初步評估。",
+      "howToApply": ["先電話洽詢中心或桃園市社會局身心障礙服務窗口，確認是否仍有名額。", "由社工單一窗口受理申請並進行初步評估。", "依服務使用者與家庭期待、個別需求與專業團隊建議，擬定服務計畫。"],
+      "documents": ["身分資料", "戶籍或居住資料", "身心障礙證明", "醫療、復健或照顧需求資料", "社工評估時要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-d0006-candidate-b392c5cefa53",
+      "name": "桃園市身心障礙者服務中心",
+      "summary": "桃園市政府委託啟智技藝訓練中心辦理，服務設籍或實際居住於桃園市桃園區、八德區，7至64歲且領有身心障礙證明者，提供個案管理、轉銜、雙老家庭支持、家庭活動、資源連結與安家實物銀行。",
+      "audiences": ["身心障礙者", "身障家庭", "雙老家庭", "家庭照顧者", "桃園市民"],
+      "serviceCategories": ["身心障礙福利", "個案管理", "家庭照顧支持", "實物銀行", "民間社福資源"],
+      "needTags": ["啟智技藝訓練中心", "身心障礙者服務中心", "桃園區", "八德區", "雙老家庭", "實物銀行"],
+      "eligibility": "適合設籍或實際居住於桃園市桃園區、八德區，7至64歲領有身心障礙證明，且有個案管理、家庭支持、資源連結、轉銜或物資需求者查詢。",
+      "conditionSourceNote": "來源頁列出服務對象、服務內容與兩處服務中心聯絡方式；是否收案仍需由中心社工評估。",
+      "applicationConditions": [
+        {"label": "服務地區", "requirement": "設籍或實際居住於桃園市桃園區、八德區。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=51&id=18"},
+        {"label": "年齡與身分", "requirement": "7至64歲，領有身心障礙證明。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=51&id=18"},
+        {"label": "需求類型", "requirement": "可依個案管理、轉銜服務、雙老家庭、家庭支持、資源連結、社區宣導或安家實物銀行需求洽詢。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=51&id=18"}
+      ],
+      "benefitSourceNote": "此頁主要是社工服務與資源連結，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "個案管理與資源連結", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "協助盤點家庭需求、連結社福資源並追蹤服務。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=51&id=18"},
+        {"label": "生涯轉銜與家庭支持", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "可含轉銜、老化照顧者與家庭支持活動。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=51&id=18"},
+        {"label": "安家實物銀行", "amount": "實物或物資協助，依社工評估", "unit": "依家戶需求", "note": "由分行社工評估家戶需求後連結物資。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=51&id=18"}
+      ],
+      "applicationMethodSourceNote": "建議先洽八德或桃園中心，確認服務區域與承辦窗口。",
+      "howToApply": ["依居住地洽八德或桃園身心障礙者服務中心，可先電話、Line或Email詢問。", "向社工說明身心障礙者年齡、居住地、照顧狀況、經濟與服務需求。", "若需物資或多重資源連結，由社工進一步評估家戶需求。"],
+      "documents": ["身分資料", "戶籍或實際居住資料", "身心障礙證明", "家庭照顧、經濟、轉銜或物資需求資料", "社工評估時要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-d0006-candidate-7d2679360efc",
+      "name": "啟智技藝訓練中心楊梅服務區",
+      "summary": "啟智技藝訓練中心楊梅服務區為全日型服務機構，服務18歲以上心智障礙及多重障礙者，提供居住生活支持、健康維護、終身學習、自我倡議、工作活動與高支持密度照顧。",
+      "audiences": ["身心障礙者", "心智障礙者", "多重障礙者", "家庭照顧者"],
+      "serviceCategories": ["身心障礙福利", "住宿式服務", "日間活動", "照顧服務", "民間社福資源"],
+      "needTags": ["啟智技藝訓練中心", "楊梅服務區", "全日型服務", "住宿服務", "心智障礙", "多重障礙"],
+      "eligibility": "適合18歲以上心智障礙及多重障礙者家庭查詢全日型照顧、居住支持與日常活動服務；實際收案、名額、費用與補助需向中心確認。",
+      "conditionSourceNote": "來源頁列出服務對象、服務容量、服務內容與服務特色。",
+      "applicationConditions": [
+        {"label": "年齡與身分", "requirement": "18歲以上心智障礙及多重障礙者。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=48&id=15"},
+        {"label": "服務型態", "requirement": "全日型服務機構，來源頁列服務人數238人；實際名額須洽中心確認。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=48&id=15"},
+        {"label": "支持需求", "requirement": "適合有居住生活、健康維護、工作活動、終身學習、自我倡議與高支持密度照顧需求者。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=48&id=15"}
+      ],
+      "benefitSourceNote": "此頁是住宿與照顧服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "全日型居住與生活支持", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "包含居住生活支持、健康維護與日常照顧。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=48&id=15"},
+        {"label": "工作活動與社區適應", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "提供工作活動、終身學習、自我倡議與社區生活轉銜支持。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=48&id=15"},
+        {"label": "高支持密度與無障礙照護", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "來源頁說明有高支持密度服務、無障礙環境與老化照顧區。", "sourceUrl": "https://www.vtcidd.org/OnePage.aspx?mid=48&id=15"}
+      ],
+      "applicationMethodSourceNote": "建議先洽楊梅服務區，確認名額、收案、費用與政府補助適用狀態。",
+      "howToApply": ["先電話洽詢啟智技藝訓練中心楊梅服務區。", "說明身心障礙類別、照顧需求、居住需求與家庭支持狀況。", "由服務端評估是否適合全日型服務，並確認名額、費用、政府補助與所需文件。"],
+      "documents": ["身分資料", "身心障礙證明", "戶籍或居住資料", "醫療、照顧、行為支持或用藥資料", "中心評估時要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0196-candidate-034ead9def9a",
+      "name": "聖島助學專案",
+      "summary": "聖島社會福利慈善基金會助學專案支持經濟弱勢學子就學，補助可能包含註冊費、書籍費、教材費、輔具費、交通費、住宿費與獎學金；需透過學校、社福、公所或公信力機構轉介。",
+      "audiences": ["學生", "經濟困難家庭", "低收入戶", "中低收入戶", "身心障礙者"],
+      "serviceCategories": ["清寒獎學金", "教育支持", "兒童及青少年福利", "低收入戶與中低收入戶救助", "民間社福資源"],
+      "needTags": ["聖島", "助學", "清寒學生", "教育補助", "低收入戶", "中低收入戶", "轉介"],
+      "eligibility": "適合具中華民國國籍或居留身分且實際居住國內，因家庭經濟困難、失親、家庭功能失調、隔代教養或特殊事故而影響就學的學生家庭查詢；申請需由學校、社福單位、公所或公信力機構轉介。",
+      "conditionSourceNote": "資格來源包含聖島共同申請資格頁與助學專案頁；實際核定由基金會審查。",
+      "applicationConditions": [
+        {"label": "家庭與經濟狀況", "requirement": "經濟弱勢家庭，可能包含失親、家庭功能失調、隔代教養、特殊事故或其他影響就學的家庭困境。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_00.aspx"},
+        {"label": "身分與居住", "requirement": "具中華民國國籍或居留身分，且實際居住於中華民國境內。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_00.aspx"},
+        {"label": "轉介限制", "requirement": "需由學校、社福單位、鄉鎮市區公所或具公信力機構轉介，不是由個人直接自行申請。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_00.aspx"}
+      ],
+      "benefitSourceNote": "來源頁列出可補助項目，但金額依申請者家庭狀況與基金會審查核定。",
+      "benefitItems": [
+        {"label": "就學相關補助", "amount": "依審查核定", "unit": "每案", "note": "可能包含註冊費、書籍費、教材費、輔具費、交通費、住宿費與獎學金。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_01.aspx"},
+        {"label": "弱勢學生持續支持", "amount": "依審查核定", "unit": "每案", "note": "依家庭經濟狀況、學習需要與轉介資料審查。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_01.aspx"}
+      ],
+      "applicationMethodSourceNote": "聖島共同資格頁說明須先由可信任機構轉介，基金會再要求補件與審查。",
+      "howToApply": ["先找學校、社福單位、鄉鎮市區公所或其他具公信力機構協助評估與轉介。", "由轉介單位填寫轉介或推薦資料，透過郵寄、傳真或Email送至基金會。", "基金會通知需補文件後，依要求寄送申請表、證明文件與帳戶資料；資料不全通常不進入審查。"],
+      "documents": ["申請表", "成績單或就學資料", "戶籍資料", "存摺封面", "低收入戶、中低收入戶或清寒證明（如有）", "身心障礙證明、重大傷病或診斷證明（如有）"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0196-candidate-83a2fc5a3a89",
+      "name": "聖島雪炭專案",
+      "summary": "聖島社會福利慈善基金會雪炭專案協助短期、中期或長期經濟困窘家庭，依家庭狀況補助生活費或必要且迫切的支出；需透過具公信力單位轉介。",
+      "audiences": ["經濟困難家庭", "低收入戶", "中低收入戶", "急難家庭", "學生家庭"],
+      "serviceCategories": ["急難救助(短期、臨時性補助)", "生活補助", "低收入戶與中低收入戶救助", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["聖島", "雪炭", "生活費", "經濟困難", "急難", "低收入戶", "中低收入戶", "轉介"],
+      "eligibility": "適合因短期、中期或長期因素陷入經濟困窘，且需要生活費或必要迫切支出協助的家庭查詢；需由學校、社福單位、公所或具公信力機構轉介。",
+      "conditionSourceNote": "資格來源包含聖島共同申請資格頁與雪炭專案頁；實際是否補助與金額由基金會審查。",
+      "applicationConditions": [
+        {"label": "家庭經濟困境", "requirement": "短期、中期或長期經濟困窘家庭，或因特殊事故需要生活費、必要或迫切經費協助。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_02.aspx"},
+        {"label": "身分與居住", "requirement": "具中華民國國籍或居留身分，且實際居住於中華民國境內。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_00.aspx"},
+        {"label": "轉介限制", "requirement": "需由學校、社福單位、鄉鎮市區公所或具公信力機構轉介。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_00.aspx"}
+      ],
+      "benefitSourceNote": "來源頁說明生活費或必要迫切支出依家庭狀況核定。",
+      "benefitItems": [
+        {"label": "生活費補助", "amount": "依申請者家庭狀況核定", "unit": "每案", "note": "協助短期、中期或長期經濟困窘家庭維持生活。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_02.aspx"},
+        {"label": "必要或迫切經費", "amount": "依審查核定", "unit": "每案", "note": "依轉介資料與家庭需求，協助必要且迫切的支出。", "sourceUrl": "https://www.saint-island-charity.org/Allowance/Allowance_02.aspx"}
+      ],
+      "applicationMethodSourceNote": "聖島共同資格頁說明須先由可信任機構轉介，基金會再要求補件與審查。",
+      "howToApply": ["先找學校、社福單位、鄉鎮市區公所或其他具公信力機構協助評估與轉介。", "由轉介單位填寫轉介或推薦資料，透過郵寄、傳真或Email送至基金會。", "基金會通知需補文件後，依要求寄送申請表、家庭經濟與急難事由資料；資料不全通常不進入審查。"],
+      "documents": ["申請表", "戶籍資料", "身分證明", "存摺封面", "低收入戶、中低收入戶或清寒證明（如有）", "身心障礙證明、重大傷病或診斷證明（如有）", "急難、支出或家庭困境相關資料"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0136-candidate-b8df06d012d9",
+      "name": "兆豐慈善急難救助與醫療補助",
+      "summary": "兆豐慈善基金會提供遭逢災害、意外變故或醫療困境之清貧家庭急難救助、醫療、喪葬及災害相關補助；申請僅接受機構轉介，不接受個人自行申請。",
+      "audiences": ["急難家庭", "經濟困難家庭", "低收入戶", "中低收入戶", "住院病患", "喪葬困難家庭"],
+      "serviceCategories": ["急難救助(短期、臨時性補助)", "醫療補助", "喪葬補助", "低收入戶與中低收入戶救助", "民間社福資源"],
+      "needTags": ["兆豐慈善", "急難救助", "醫療補助", "喪葬補助", "災害", "機構轉介"],
+      "eligibility": "適合遭逢災害、意外變故、醫療或喪葬困境的清貧家庭，由社福、醫療、學校、公部門或其他服務機構評估後轉介申請；個人不能自行申請。",
+      "conditionSourceNote": "兆豐申請辦法明列僅接受機構轉介；補助實例頁列有急難與醫療補助案例。",
+      "applicationConditions": [
+        {"label": "急難或醫療困境", "requirement": "清貧家庭遭逢災害、意外變故、醫療、喪葬或其他急難情形。", "sourceUrl": "https://www.megacharity.org.tw/CharityCare?ID=5"},
+        {"label": "機構轉介", "requirement": "僅接受機構轉介申請，不接受個人申請。", "sourceUrl": "https://www.megacharity.org.tw/CharityCare/ApplyMethod"},
+        {"label": "文件完整", "requirement": "需填妥補助申請表與個人資料蒐集告知同意書，並附相關證明文件；資料不全不予受理且不退件。", "sourceUrl": "https://www.megacharity.org.tw/CharityCare/ApplyMethod"}
+      ],
+      "benefitSourceNote": "兆豐案例頁可見急難救助多筆5,000至30,000元案例；實際金額仍依個案審查核定。",
+      "benefitItems": [
+        {"label": "急難生活救助", "amount": "實例多為5,000至30,000元，依審查核定", "unit": "每案", "note": "協助災害、意外變故或生活急難家庭度過困境。", "sourceUrl": "https://www.megacharity.org.tw/CharityCare?ID=5"},
+        {"label": "醫療補助", "amount": "依審查核定", "unit": "每案", "note": "協助清貧家庭或醫療困境個案之醫療相關支出。", "sourceUrl": "https://www.megacharity.org.tw/CharityCare?ID=5"},
+        {"label": "喪葬或災害協助", "amount": "依審查核定", "unit": "每案", "note": "依急難原因、家庭經濟與轉介資料審查。", "sourceUrl": "https://www.megacharity.org.tw/CharityCare?ID=5"}
+      ],
+      "applicationMethodSourceNote": "來源頁明確要求機構轉介，並以掛號郵寄申請資料。",
+      "howToApply": ["先由社福、醫療、學校、公部門或其他服務機構評估個案是否符合急難或醫療補助需求。", "由轉介機構填寫補助申請表與個人資料蒐集告知同意書，備齊證明文件。", "以掛號郵寄至兆豐慈善基金會；資料不全不予受理且不退件。"],
+      "documents": ["補助申請表", "個人資料蒐集告知同意書", "轉介機構資料", "身分與家庭經濟資料", "急難、醫療、喪葬或災害相關證明", "其他基金會要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0038-candidate-4c33f0e877fa",
+      "name": "興毅基金會社會救助服務",
+      "summary": "興毅基金會提供急難救助與食物銀行等社會救助服務；急難救助需透過政府、社福、醫療或學校單位轉介，並附轉介單與社會救助申請表。",
+      "audiences": ["急難家庭", "經濟困難家庭", "弱勢家庭", "學生", "社工或轉介單位"],
+      "serviceCategories": ["急難救助(短期、臨時性補助)", "食物銀行", "生活補助", "民間社福資源"],
+      "needTags": ["興毅基金會", "社會救助", "急難救助", "食物銀行", "轉介", "偏鄉"],
+      "eligibility": "適合遭逢急難、生活困境或需要食物銀行支持的弱勢家庭查詢；急難救助需由政府、社福、醫療或學校單位轉介，食物銀行與偏鄉急難服務則依服務區域與評估辦理。",
+      "conditionSourceNote": "來源頁說明急難救助需轉介，並列出食物銀行與偏鄉急難服務區域。",
+      "applicationConditions": [
+        {"label": "急難救助轉介", "requirement": "需由政府單位、社福單位、醫療院所或學校單位轉介。", "sourceUrl": "https://www.shingyifundweb.org/category/service/social-assistance-service"},
+        {"label": "申請文件", "requirement": "急難救助需附轉介單與社會救助申請表。", "sourceUrl": "https://www.shingyifundweb.org/category/service/social-assistance-service"},
+        {"label": "食物銀行與服務區域", "requirement": "偏鄉急難救助以花蓮、台東為主；食物銀行服務區域包含台北文山、新北新莊與台南安定等服務點。", "sourceUrl": "https://www.shingyifundweb.org/category/service/social-assistance-service"}
+      ],
+      "benefitSourceNote": "來源頁列出急難救助與食物銀行服務，但未公告固定金額。",
+      "benefitItems": [
+        {"label": "急難救助", "amount": "依審查核定", "unit": "每案", "note": "由轉介單位送件後，基金會依個案困境與文件評估。", "sourceUrl": "https://www.shingyifundweb.org/category/service/social-assistance-service"},
+        {"label": "忠信食物銀行", "amount": "實物或物資協助，依服務區域與評估", "unit": "依家戶需求", "note": "協助弱勢或突遭變故家庭取得生活物資支持。", "sourceUrl": "https://www.shingyifundweb.org/category/service/social-assistance-service"}
+      ],
+      "applicationMethodSourceNote": "急難救助須由轉介單位備齊轉介單與申請表，基金會收到後再評估與聯繫。",
+      "howToApply": ["先由政府、社福、醫療或學校單位評估並協助轉介。", "轉介單位準備轉介單、社會救助申請表與急難事由資料後送件。", "基金會收到資料後進行後續評估；若是食物銀行需求，先確認是否在服務區域與收案範圍內。"],
+      "documents": ["社會救助申請表", "轉介單", "身分與家庭經濟資料", "急難、醫療、就學或生活困境證明", "食物銀行或服務端要求文件"]
     }
   ]
 }

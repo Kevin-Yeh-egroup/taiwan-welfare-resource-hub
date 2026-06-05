@@ -45,10 +45,9 @@ const els = {
   activeFilters: document.querySelector("#activeFilters"),
   resultsPanel: document.querySelector(".results-panel"),
   applyFilterButton: document.querySelector("#applyFilterButton"),
-  recordTotal: document.querySelector("#recordTotal"),
-  countyTotal: document.querySelector("#countyTotal"),
-  foundationProgramTotal: document.querySelector("#foundationProgramTotal"),
-  currentYearTotal: document.querySelector("#currentYearTotal")
+  centralResourceTotal: document.querySelector("#centralResourceTotal"),
+  localResourceTotal: document.querySelector("#localResourceTotal"),
+  privateResourceTotal: document.querySelector("#privateResourceTotal")
 };
 
 function uniqueSorted(values) {
@@ -187,7 +186,7 @@ function isPublicLocalResource(record) {
   if (isPrivateResource(record) || isPublicCentralResource(record)) return false;
   const sourceType = record.source?.type || "";
   const provider = `${record.provider || ""} ${sourceType}`;
-  return /政府|社會局|社會處|公所|open-data|official-map|official-local-government/.test(provider);
+  return /政府|社會局|社會處|衛生局|公所|open-data|official-map|official-local/.test(provider);
 }
 
 function isGovernmentResource(record) {
@@ -615,10 +614,9 @@ function render() {
 }
 
 function updateStats(records) {
-  els.recordTotal.textContent = records.length;
-  els.countyTotal.textContent = uniqueSorted(records.map((record) => record.county).filter((county) => county && county !== "全國")).length;
-  els.foundationProgramTotal.textContent = records.filter((record) => record.source?.type === "foundation-program-page").length;
-  els.currentYearTotal.textContent = records.filter((record) => record.freshness?.confidence === "source-dated").length;
+  els.centralResourceTotal.textContent = records.filter(isPublicCentralResource).length;
+  els.localResourceTotal.textContent = records.filter(isPublicLocalResource).length;
+  els.privateResourceTotal.textContent = records.filter(isPrivateResource).length;
 }
 
 function selectHasValue(select, value) {
