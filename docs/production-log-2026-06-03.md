@@ -134,6 +134,22 @@ Disallow: /
 - Production browser verification: homepage status grid shows `公部門中央資源 21`, `公部門地方資源 70`, and `民間資源 402`; filtering `臺北市` + `社工或轉介單位` + `急難救助(短期、臨時性補助)` found 3 cards including `信義公益基金會急難救助`, with `申請條件`, `補助項目與金額`, and `申請注意事項`
 - Runtime log check: not run because the Vercel CLI was not available in PATH; Vercel deployment state, HTTP checks, data checks, and browser verification all passed
 
+## Batch 4D Production Verification - 2026-06-05
+
+- Commit: `0f0e10d93298fc4fac7cb558bbd74e1ba56c9e0c`
+- Deployment: `dpl_AcmRwRsKPJWjzdtypzYkjonCAfg9`
+- Deployment URL: `https://taiwan-welfare-resource-fyadbf7vc-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/freshness-report.json` `200`, `robots.txt` `200`; `index.html` references `app.js?v=20260605-batch4d`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 505 records, 92 sources, 92 freshness URLs checked, 0 freshness warnings
+- Batch 4D verification: 12 of 12 reviewed foundation program cards present; reviewed foundation program total is 59
+- Added civil-society program pages: `中華文化台北兒童福利中心`, `中華文化翠柏新村老人安養與長照服務`, `婦聯聽覺健康臺北市聽覺生活重建與家庭支持服務`, `台灣賽珍珠新住民子女及家庭服務`, `賽珍珠桃園市南區新住民家庭服務中心`, `毓得老人關懷與臺中長照交通接送服務`, `陽光燒傷顏損重建服務`, `老五老社區餐食與交通接送服務`, `老五老居家照顧與喘息服務`, `心路早期療育服務`, `心路智能障礙者照顧服務`, and `喜憨兒心智障礙照顧服務`
+- UI refinement: audience filter and visible card tags now hide the internal `none` value while keeping source data unchanged.
+- Production browser verification: homepage status grid shows `公部門中央資源 21`, `公部門地方資源 70`, and `民間資源 414`; filtering `臺北市` + `燒傷者` + `醫療復健` found exactly 1 card, `陽光燒傷顏損重建服務`, with `申請條件`, `補助項目與金額`, and `申請注意事項` in the expected order; `none` was absent from the audience dropdown and card text
+- Runtime log check: not run because the Vercel CLI was not available in PATH; Vercel deployment state, HTTP checks, data checks, and browser verification all passed
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
