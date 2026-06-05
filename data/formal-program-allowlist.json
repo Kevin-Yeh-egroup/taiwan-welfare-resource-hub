@@ -582,6 +582,245 @@
       "applicationMethodSourceNote": "急難救助須由轉介單位備齊轉介單與申請表，基金會收到後再評估與聯繫。",
       "howToApply": ["先由政府、社福、醫療或學校單位評估並協助轉介。", "轉介單位準備轉介單、社會救助申請表與急難事由資料後送件。", "基金會收到資料後進行後續評估；若是食物銀行需求，先確認是否在服務區域與收案範圍內。"],
       "documents": ["社會救助申請表", "轉介單", "身分與家庭經濟資料", "急難、醫療、就學或生活困境證明", "食物銀行或服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0168-candidate-34af127abfa6",
+      "name": "漢慈兒少生活陪讀服務",
+      "summary": "漢慈公益基金會提供高關懷家庭兒少課後陪讀，包含免費課業輔導、多元學習課程、品格建立與家庭關懷服務，服務對象以經濟弱勢、單親、隔代教養、身心障礙、新移民、寄養家庭或突發重大事故家庭兒少為主。",
+      "audiences": ["兒童(含青少年)", "弱勢兒少", "低收入戶", "中低收入戶", "單親家庭", "隔代教養家庭", "新住民家庭"],
+      "serviceCategories": ["兒童及青少年福利", "課後照顧", "教育支持", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["漢慈", "兒少生活陪讀", "課後陪讀", "高關懷家庭", "學校轉介", "社福轉介"],
+      "eligibility": "適合經濟弱勢、單親、隔代教養、身心障礙、新移民、寄養家庭或突發重大事故導致生活困境之兒童及少年查詢；來源頁也列出領有中低收入戶證明者。",
+      "conditionSourceNote": "來源頁列出收案對象與學校、社福轉介單下載。",
+      "applicationConditions": [
+        {"label": "兒少與家庭條件", "requirement": "經濟弱勢之單親、隔代教養、身心障礙、新移民等高關懷家庭兒童及少年。", "sourceUrl": "http://www.hfoundation.org.tw/service-children/"},
+        {"label": "經濟證明", "requirement": "來源頁列有領中低收入戶證明者。", "sourceUrl": "http://www.hfoundation.org.tw/service-children/"},
+        {"label": "特殊困境", "requirement": "寄養家庭兒童及少年，或突發重大事故導致生活困境者。", "sourceUrl": "http://www.hfoundation.org.tw/service-children/"}
+      ],
+      "benefitSourceNote": "此頁是兒少教育與家庭支持服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "免費課業輔導", "amount": "服務協助，非定額現金補助", "unit": "依收案", "note": "提供課後陪讀與課業輔導，協助提升學習能力。", "sourceUrl": "http://www.hfoundation.org.tw/service-children/"},
+        {"label": "多元學習與品格教育", "amount": "服務協助，非定額現金補助", "unit": "依服務安排", "note": "包含多元課程、正向品格建立與家庭關懷。", "sourceUrl": "http://www.hfoundation.org.tw/service-children/"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供學校轉介單與社福轉介單。",
+      "howToApply": ["可由學校或社福單位評估兒少與家庭需求後轉介。", "下載並填寫學校轉介單或社福轉介單。", "送件前可先洽漢慈公益基金會服務據點，確認目前收案名額與服務區域。"],
+      "documents": ["學校轉介單或社福轉介單", "兒少與家庭身分資料", "中低收入戶或弱勢家庭證明（如有）", "單親、隔代教養、身障、新住民、寄養或突發事故相關資料", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0309-candidate-5a8e5befebc6",
+      "name": "基督徒救世會婦幼家庭關懷服務",
+      "summary": "基督徒救世會婦幼家庭關懷服務包含急難扶助、重症嬰幼兒醫療補助、婦女心理健康支持與孕產照護，主要服務雙北婦幼家庭，也接受其他縣市由社福機構社工轉介之急難家庭。",
+      "audiences": ["婦女", "兒童(含青少年)", "孕產婦", "經濟困難家庭", "中低收入戶", "急難家庭", "社工或轉介單位"],
+      "serviceCategories": ["急難救助(短期、臨時性補助)", "醫療補助", "心理諮商", "孕產婦支持", "兒童及青少年福利", "民間社福資源"],
+      "needTags": ["基督徒救世會", "婦幼家庭", "急難扶助", "醫療補助", "心理健康支持", "孕產照護", "雙北"],
+      "eligibility": "適合雙北地區婦幼家庭有急難、重症嬰幼兒醫療、孕產照護或育兒心理支持需求時查詢；居住其他區域的急難民眾，可透過所在縣市社福機構社工轉介。",
+      "conditionSourceNote": "來源總覽頁連結各服務；急難扶助、醫療補助、心理健康支持與孕產照護頁列出較具體條件與社工專線。",
+      "applicationConditions": [
+        {"label": "急難扶助", "requirement": "具中低收入身分或特殊境遇婦女及家庭，三個月內因重大傷害、疾病、家庭變故等緊急事件造成家庭生活困難。", "sourceUrl": "https://www.csstpe.org.tw/OnePage.aspx?id=28&mid=50"},
+        {"label": "重症嬰幼兒醫療", "requirement": "6歲以下罹患重症、癌症、早產或罕見疾病兒童，於雙北地區醫院就醫且符合脆弱家庭狀況。", "sourceUrl": "https://www.csstpe.org.tw/OnePage.aspx?id=175&mid=50"},
+        {"label": "心理與孕產支持", "requirement": "雙北市養育學齡前子女之婦女及家庭，或雙北市懷孕、產後六個月婦女及其家庭。", "sourceUrl": "https://www.csstpe.org.tw/OnePage.aspx?id=176&mid=50"}
+      ],
+      "benefitSourceNote": "來源頁列出服務項目與補助方向；金額或次數依個案與救世會補助標準評估。",
+      "benefitItems": [
+        {"label": "急難扶助", "amount": "短期經濟支持，依審查核定", "unit": "每案", "note": "協助重大急難事件後維持基本生活。", "sourceUrl": "https://www.csstpe.org.tw/OnePage.aspx?id=28&mid=50"},
+        {"label": "嬰幼兒醫療補助", "amount": "依審查核定", "unit": "每案", "note": "協助6歲以下重症、癌症、早產或罕見疾病兒童住院醫療照顧與家庭負擔。", "sourceUrl": "https://www.csstpe.org.tw/OnePage.aspx?id=175&mid=50"},
+        {"label": "心理諮商費用補助", "amount": "依本會補助標準提供適當次數", "unit": "依需求", "note": "提供電話諮詢、情緒支持，視需求轉介心理諮商並補助。", "sourceUrl": "https://www.csstpe.org.tw/OnePage.aspx?id=176&mid=50"},
+        {"label": "孕產照護支持", "amount": "依補助標準，可能含產後15天月子餐", "unit": "依審查", "note": "提供主題課程、憂鬱篩檢、產後護理照顧支持與月子餐補助。", "sourceUrl": "https://www.csstpe.org.tw/OnePage.aspx?id=177&mid=50"}
+      ],
+      "applicationMethodSourceNote": "各服務頁均列社工專線；孕產照護需填申請/轉介表並檢附福利相關指標佐證文件。",
+      "howToApply": ["雙北地區民眾可先撥社工專線 02-2729-0265 分機122 洽黃社工。", "其他縣市急難民眾可透過所在地社福機構社工人員向救世會提出申請。", "依服務類型下載申請表或轉介表，準備經濟、醫療、孕產、家庭困境或福利指標佐證文件後送件。"],
+      "documents": ["急難家庭救助申請辦法與轉介表", "急重症嬰幼兒醫療支持補助辦法與轉介表", "心理健康支持服務申請表", "孕產婦孕期及產後照護支持服務申請表", "福利身分、醫療診斷、孕產或家庭困境佐證文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0238-candidate-80ac46eb7164",
+      "name": "信義公益基金會急難救助",
+      "summary": "信義公益基金會急難救助協助主要經濟負擔者死亡、失蹤、重傷病，或家庭遭遇突發變故導致生活陷困者；包含生活、醫療、喪葬與緊急災害救助，需透過社工轉介申請。",
+      "audiences": ["急難家庭", "經濟困難家庭", "住院病患", "喪葬困難家庭", "災害受影響家庭", "社工或轉介單位"],
+      "serviceCategories": ["急難救助(短期、臨時性補助)", "醫療補助", "喪葬補助", "災害救助", "民間社福資源"],
+      "needTags": ["信義公益", "急難救助", "生活救助", "醫療救助", "喪葬補助", "緊急災害", "機構轉介"],
+      "eligibility": "適合家庭主要經濟負擔者死亡、失蹤、罹患重傷病或因其他突發事件失去穩定經濟來源、家庭生活陷入困境者查詢；申請需由社工轉介，個人自行申請不受理。",
+      "conditionSourceNote": "來源頁列出補助對象、社工轉介限制、事故申請期限與四項救助項目。",
+      "applicationConditions": [
+        {"label": "家庭急難", "requirement": "家庭主要經濟負擔者死亡、失蹤、罹患重傷病，或因意外事件失去穩定經濟來源，導致生活陷困。", "sourceUrl": "https://www.sinyicharity.org.tw/assistance"},
+        {"label": "轉介限制", "requirement": "需透過縣市政府社會局處、醫院社工室或政府立案民間社福機構專業社工轉介，自行申請不受理。", "sourceUrl": "https://www.sinyicharity.org.tw/assistance"},
+        {"label": "申請期限", "requirement": "醫療或喪葬補助應於事故發生三個月內提出；生活扶助或緊急災害救助應於六個月內提出。", "sourceUrl": "https://www.sinyicharity.org.tw/assistance"}
+      ],
+      "benefitSourceNote": "來源頁列四項救助項目，發放標準依審查標準辦法視情節輕重補助。",
+      "benefitItems": [
+        {"label": "生活救助", "amount": "依審查核定", "unit": "每案", "note": "協助家庭突發變故後的生活困境。", "sourceUrl": "https://www.sinyicharity.org.tw/assistance"},
+        {"label": "醫療救助", "amount": "依審查核定", "unit": "每案", "note": "申請醫療補助需於事故發生三個月內提出。", "sourceUrl": "https://www.sinyicharity.org.tw/assistance"},
+        {"label": "喪葬補助", "amount": "依審查核定", "unit": "每案", "note": "申請喪葬補助需於事故發生三個月內提出。", "sourceUrl": "https://www.sinyicharity.org.tw/assistance"},
+        {"label": "緊急災害救助", "amount": "依審查核定", "unit": "每案", "note": "生活扶助或緊急災害救助需於六個月內提出。", "sourceUrl": "https://www.sinyicharity.org.tw/assistance"}
+      ],
+      "applicationMethodSourceNote": "來源頁明列表單由轉介社工填寫，紙本郵寄至基金會。",
+      "howToApply": ["先由縣市政府社工、醫院社工室或政府立案民間社福機構專業社工評估與轉介。", "由轉介社工填寫急難救助申請辦法及申請表。", "紙本資料郵寄至信義公益基金會急難救助小組；當年度預算撥畢即停止受理。"],
+      "documents": ["急難救助申請表（由轉介社工填寫）", "轉介單位資料", "身分與家庭經濟資料", "醫療、喪葬、災害或突發變故證明", "各救助項目要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0055-candidate-d6be38ea763b",
+      "name": "善牧家庭暴力保護服務",
+      "summary": "善牧基金會家庭暴力保護服務提供受暴婦幼安全住所、創傷修復、追蹤輔導、法律協助、心理諮商、安全計畫、生活照顧、經濟與物資協助及社區支持服務。",
+      "audiences": ["受暴者", "婦女", "兒童(含青少年)", "家庭", "家庭照顧者"],
+      "serviceCategories": ["保護服務", "家庭暴力防治", "庇護安置", "心理諮商", "法律與心理支持", "民間社福資源"],
+      "needTags": ["善牧", "家庭暴力", "受暴婦幼", "庇護家園", "安全計畫", "心理諮商", "法律協助"],
+      "eligibility": "適合家庭暴力被害人及其子女、受暴家庭，需要安全住所、創傷修復、法律與心理支持、經濟物資協助或社區支持時查詢；若有立即危險應先撥110或113。",
+      "conditionSourceNote": "來源頁列出服務內容、庇護家園與社區支持服務據點。",
+      "applicationConditions": [
+        {"label": "服務對象", "requirement": "家庭暴力被害人及其子女、受暴家庭。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=49"},
+        {"label": "服務需求", "requirement": "需要安全住所、創傷修復、追蹤輔導、法律協助、心理諮商、安全計畫或社區支持服務。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=49"},
+        {"label": "安全優先", "requirement": "若有人身安全危險，應優先撥110報警或113保護專線，再由保護網絡評估轉介。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=49"}
+      ],
+      "benefitSourceNote": "此頁主要是保護服務與資源連結，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "安全住所與庇護家園", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "提供安全住所與不同階段支持。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=49"},
+        {"label": "法律、心理與安全計畫", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "可含法律協助、心理諮商、安全計畫與創傷修復。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=49"},
+        {"label": "經濟、物資與生活重建支持", "amount": "服務協助或物資協助，依評估", "unit": "依需求", "note": "來源頁列經濟生活規劃、醫療健康、就業安排、經濟與物資協助。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=49"}
+      ],
+      "applicationMethodSourceNote": "保護服務通常由113、警政、社政或保護網絡轉介；非緊急需求可洽善牧服務據點。",
+      "howToApply": ["若有立即人身安全危險，先撥110；需要保護服務可撥113。", "可由社政、警政、醫療、學校或保護網絡評估後轉介善牧服務。", "非立即危險可洽善牧服務據點，說明安全、居住、法律、醫療、心理、經濟與子女照顧需求。"],
+      "documents": ["身分資料", "通報、報案、保護令或社工轉介資料（如有）", "醫療、法律、居住、經濟或子女照顧需求資料", "承辦社工評估時要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0055-candidate-ee54b88868a1",
+      "name": "善牧兒童保護與支持服務",
+      "summary": "善牧基金會兒童保護與支持服務協助遭受創傷或弱勢家庭兒少，提供個案服務、安全策略討論、親職功能促進、生活陪伴、輔導、創傷修復、轉銜適應、外展與通報支持。",
+      "audiences": ["兒童(含青少年)", "弱勢兒少", "受暴兒少", "家庭", "社工或轉介單位"],
+      "serviceCategories": ["兒童及青少年福利", "安置與保護", "創傷復原", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["善牧", "兒童保護", "弱勢兒少", "受創兒少", "庇護家園", "少年服務", "目睹兒少"],
+      "eligibility": "適合遭受創傷、失依、目睹暴力、家庭支持不足或弱勢家庭兒少，需要保護安置、個案服務、創傷修復、親職工作、少年服務或社區支持時查詢。",
+      "conditionSourceNote": "來源頁列出兒少保護與支持服務內容，以及庇護家園、少年中心、目睹兒少與社區支持服務。",
+      "applicationConditions": [
+        {"label": "服務對象", "requirement": "遭受創傷兒少、弱勢家庭兒少、受創失依兒少或有高需求支持之兒少。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=48"},
+        {"label": "服務需求", "requirement": "個案服務、安全策略、親職功能、日常陪伴與輔導、創傷修復、轉銜適應、外展或通報支持。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=48"},
+        {"label": "服務型態", "requirement": "包含庇護家園及自立宿舍、少年中心及學園、目睹兒少服務、社區支持與收出養服務等。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=48"}
+      ],
+      "benefitSourceNote": "此頁主要是兒少保護、安置與支持服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "個案服務與安全策略", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "討論安全策略、促進親職功能並協助家庭生活調適。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=48"},
+        {"label": "庇護、安置與生活陪伴", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "提供庇護家園、自立宿舍、少年中心、學園及日常生活陪伴輔導。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=48"},
+        {"label": "創傷修復與轉銜支持", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "透過諮商、親職工作、支持性團體與後續追蹤協助兒少復原。", "sourceUrl": "https://www.goodshepherd.org.tw/contents/text?id=48"}
+      ],
+      "applicationMethodSourceNote": "兒少保護類服務建議由社政、學校、醫療或保護網絡轉介；緊急安全風險先撥113或110。",
+      "howToApply": ["若兒少有立即安全風險，先撥110或113。", "可由地方社政、學校、醫療院所、保護網絡或社福機構評估後轉介。", "向社工說明兒少安全、家庭照顧、創傷、就學、居住與轉銜需求，由服務端評估適合的服務。"],
+      "documents": ["兒少與家庭身分資料", "社政、學校、醫療或保護網絡轉介資料（如有）", "安全、照顧、就學、居住、醫療或創傷支持需求資料", "承辦社工評估時要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0201-candidate-6a424369cdcd",
+      "name": "台灣關愛基金會文山婦幼服務中心",
+      "summary": "台灣關愛基金會文山婦幼服務中心服務在台非本國籍懷孕移工及非本國籍孩童，協助產檢、生產、醫療照顧、疫苗接種、教育與安全照顧，並提供文山服務據點與基金會聯絡方式。",
+      "audiences": ["外籍移工", "孕產婦", "兒童(含青少年)", "弱勢兒少", "經濟困難家庭"],
+      "serviceCategories": ["孕產婦支持", "兒童及青少年福利", "醫療補助", "安置與保護", "民間社福資源"],
+      "needTags": ["台灣關愛基金會", "文山婦幼", "非本國籍孩童", "移工媽媽", "產檢", "兒童醫療", "疫苗"],
+      "eligibility": "適合在台非本國籍懷孕移工、非本國籍孩童及其照顧者，有產檢、生產、兒童醫療照顧、疫苗、教育或安全照顧需求時查詢。",
+      "conditionSourceNote": "來源頁列出專案服務目標群體、服務目標、效益與聯絡資訊。",
+      "applicationConditions": [
+        {"label": "服務對象", "requirement": "在台非本國籍懷孕移工及非本國籍孩童。", "sourceUrl": "https://www.twhhf.org/zh-hant/service/123"},
+        {"label": "醫療與產檢需求", "requirement": "協助外籍女性落實產檢並平安生產，協助非本國籍寶寶獲得必要醫療照顧。", "sourceUrl": "https://www.twhhf.org/zh-hant/service/123"},
+        {"label": "照顧與教育需求", "requirement": "協助非本國籍孩童接受穩定照顧、疫苗接種、基礎教育與文化學習。", "sourceUrl": "https://www.twhhf.org/zh-hant/service/123"}
+      ],
+      "benefitSourceNote": "此頁主要是收容照顧、醫療與教育支持服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "孕產婦產檢與生產協助", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "協助外籍女性落實產檢並平安生產。", "sourceUrl": "https://www.twhhf.org/zh-hant/service/123"},
+        {"label": "非本國籍兒童醫療照顧", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "協助無法取得健保身分之非本國籍寶寶獲得必要醫療照顧。", "sourceUrl": "https://www.twhhf.org/zh-hant/service/123"},
+        {"label": "疫苗、教育與生活照顧", "amount": "服務協助，非定額現金補助", "unit": "依收容與服務安排", "note": "協助孩童疫苗接種、穩定生活、教育與文化學習。", "sourceUrl": "https://www.twhhf.org/zh-hant/service/123"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供基金會與文山捐物地址聯絡資訊；服務需求建議先電話或email洽詢。",
+      "howToApply": ["有服務需求時可先洽台灣關愛基金會官方信箱或電話，說明孕產、兒童醫療、照顧或安全需求。", "若在文山服務範圍，可同步洽文山婦幼服務中心聯絡電話確認收案與物資需求。", "由基金會或合作社工評估身分、急迫性、醫療與照顧需求後安排服務。"],
+      "documents": ["孕產婦或孩童身分資料", "在台居留、移工或非本國籍身分相關資料（如有）", "醫療、產檢、生產、疫苗或照顧需求資料", "社工或服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0148-candidate-8aa845f65fa5",
+      "name": "華科聽覺照顧獎補助學金",
+      "summary": "華科事業群慈善基金會聽覺照顧獎補助學金包含聽障學生獎學金、聽障大專生聽打員經費補助、社服單位轉介助聽器補助，以及周思齊棒球獎助學金等項目。",
+      "audiences": ["身心障礙者", "聽覺障礙者", "學生", "社工或轉介單位", "弱勢兒少"],
+      "serviceCategories": ["身心障礙福利", "清寒獎學金", "教育支持", "輔具", "民間社福資源"],
+      "needTags": ["華科", "PSA", "聽障學生獎學金", "聽打員", "助聽器補助", "周思齊獎學金"],
+      "eligibility": "適合聽障高中、大專與研究所學生、需要聽打員經費補充之聽障大專生、需由社服單位轉介助聽器補助者，以及特定基層棒球獎助學金需求者查詢。",
+      "conditionSourceNote": "來源頁列出獎補助類型與申請表入口；細部資格、期限與文件需進入各項目了解更多或洽基金會確認。",
+      "applicationConditions": [
+        {"label": "聽障學生獎學金", "requirement": "關懷聽障高中及大專學生，鼓勵聽障學子勤奮向學。", "sourceUrl": "https://www.psa.org.tw/services-2/hear-2/subsidy_scholarship/"},
+        {"label": "聽打員經費補助", "requirement": "協助補充聽障大專生課程聽打員時數經費不足需求。", "sourceUrl": "https://www.psa.org.tw/services-2/hear-2/subsidy_scholarship/"},
+        {"label": "聽障補助轉介", "requirement": "助聽器補助需由社服單位轉介申請，並直接洽詢基金會。", "sourceUrl": "https://www.psa.org.tw/services-2/hear-2/subsidy_scholarship/"}
+      ],
+      "benefitSourceNote": "來源頁列出獎補助項目，但未在總覽頁公告固定金額；實際金額以各項目辦法或基金會確認為準。",
+      "benefitItems": [
+        {"label": "聽障學生獎學金", "amount": "依各年度或項目辦法核定", "unit": "每案", "note": "鼓勵聽障高中、大專與研究所學生向學。", "sourceUrl": "https://www.psa.org.tw/services-2/hear-2/subsidy_scholarship/"},
+        {"label": "聽障大專生聽打員經費補助", "amount": "依辦法核定", "unit": "每案", "note": "補充各校免費聽打員時數不足之經費需求。", "sourceUrl": "https://www.psa.org.tw/services-2/hear-2/subsidy_scholarship/"},
+        {"label": "助聽器補助", "amount": "依轉介與審查核定", "unit": "每案", "note": "需由社服單位轉介，並依基金會補助申請表辦理。", "sourceUrl": "https://www.psa.org.tw/services-2/hear-2/subsidy_scholarship/"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供了解更多與補助申請表入口；聽障補助明示需社服單位轉介。",
+      "howToApply": ["依需求點選聽障學生獎學金、聽打員經費補助或周思齊獎學金的了解更多。", "若是助聽器補助，請由社服單位轉介並洽華科基金會確認申請表與最新期限。", "送件前先確認年度公告、身份證明、在學或聽障證明、經費需求與申請期限。"],
+      "documents": ["申請表", "身分資料", "聽覺障礙或身心障礙證明", "在學證明或學生資料", "聽打員經費、助聽器需求或轉介資料", "各獎補助項目要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0140-candidate-74888132fe95",
+      "name": "全聯物資銀行身心障礙及婦女服務類",
+      "summary": "全聯慶祥慈善事業基金會物資銀行身心障礙及婦女服務類，提供正式立案之身障福利團體與婦女福利團體申請實物捐贈與身障及婦女經濟重建專案，協助服務對象維持基本生活與脫貧。",
+      "audiences": ["身心障礙者", "婦女", "經濟困難家庭", "社福機構", "社工或轉介單位"],
+      "serviceCategories": ["實物銀行", "身心障礙福利", "婦女福利", "生活補助", "民間社福資源"],
+      "needTags": ["全聯慶祥", "全聯物資銀行", "身障及婦女", "經濟重建", "實物捐贈", "禮券"],
+      "eligibility": "適合正式立案之身心障礙福利團體及婦女福利團體查詢；服務對象長期有民生用品或醫護耗材缺乏，需外援協助維持基本生活者，可由服務單位申請。",
+      "conditionSourceNote": "來源頁明列申請單位、服務對象、申請期、合作期間、禮券申請例示與115年贊助單位入口。",
+      "applicationConditions": [
+        {"label": "申請單位", "requirement": "於中華民國中央或地方正式登記立案之身心障礙福利團體及婦女福利團體（青少女除外）。", "sourceUrl": "https://www.pxmart.org.tw/project/2/4"},
+        {"label": "服務對象需求", "requirement": "服務對象長期遇有民生用品或醫護耗材缺乏，需外援協助維持基本生活。", "sourceUrl": "https://www.pxmart.org.tw/project/2/4"},
+        {"label": "申請期間與合作期間", "requirement": "每年12月為申請期；合作期間為每年4月至11月，共8個月。", "sourceUrl": "https://www.pxmart.org.tw/project/2/4"}
+      ],
+      "benefitSourceNote": "來源頁以服務單位提案與禮券額度為例；實際補助依全聯物資銀行徵選與核定。",
+      "benefitItems": [
+        {"label": "實物捐贈", "amount": "依徵選與需求核定", "unit": "依服務單位", "note": "協助民生用品或醫護耗材缺乏之身障或婦女服務對象。", "sourceUrl": "https://www.pxmart.org.tw/project/2/4"},
+        {"label": "經濟重建禮券支持", "amount": "例：10案 x 8月 x 3,000元 = 24萬元", "unit": "依提案", "note": "每年3月及7月分兩次提供全聯禮券，需配合服務與成果報告。", "sourceUrl": "https://www.pxmart.org.tw/project/2/4"}
+      ],
+      "applicationMethodSourceNote": "來源頁指向文件下載與徵選流程，服務對象通常需透過合作社福單位接受服務。",
+      "howToApply": ["由正式立案之身障福利或婦女福利團體於每年12月申請期準備提案。", "依全聯物資銀行身心障礙及婦女類徵選流程送件。", "獲選單位於合作期間依規定提領禮券、提供捐贈收據、線上填寫執行與成果報告。"],
+      "documents": ["服務單位提案資料", "立案證明或法人資料", "服務案次與預計禮券額度規劃", "捐贈收據", "個案服務執行報表", "執行報告與成果報告"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0266-candidate-f2ff897a6dff",
+      "name": "業成員工愛心基金補助計畫",
+      "summary": "業成社會福利慈善事業基金會員工愛心基金補助計畫支持依法設立並實際提供社福服務之非營利單位，115年受理期間為4月1日至4月30日，每單位申請金額以20萬元為限。",
+      "audiences": ["社福機構", "社工或轉介單位", "弱勢兒少", "身心障礙者", "經濟困難家庭"],
+      "serviceCategories": ["社福機構補助", "兒童及青少年福利", "身心障礙福利", "教育支持", "民間社福資源"],
+      "needTags": ["業成", "員工愛心基金", "社福單位補助", "115年", "20萬元", "提案"],
+      "eligibility": "適合依法設立、實際提供社會福利直接服務之非營利組織查詢；計畫優先支持持續性福利服務方案與資源相對缺乏地區。",
+      "conditionSourceNote": "來源頁列出補助方向、補助金額、申請文件、115年申請期間與審查程序。",
+      "applicationConditions": [
+        {"label": "提案單位", "requirement": "需提出依據區域特性與組織服務項目規劃之持續性福利服務方案。", "sourceUrl": "https://www.gisfoundation.org.tw/service06.html"},
+        {"label": "補助方向", "requirement": "以支持直接服務計畫為主，優先補助缺少相同服務型態或資源相對缺乏者。", "sourceUrl": "https://www.gisfoundation.org.tw/service06.html"},
+        {"label": "申請期間", "requirement": "115年4月1日至4月30日受理申請，書面資料以郵戳為憑。", "sourceUrl": "https://www.gisfoundation.org.tw/service06.html"}
+      ],
+      "benefitSourceNote": "來源頁明列每單位申請金額上限與撥款方式。",
+      "benefitItems": [
+        {"label": "年度服務方案補助", "amount": "每單位以20萬元為限", "unit": "每單位", "note": "每年度經費補助依員工實際捐薪金額為主。", "sourceUrl": "https://www.gisfoundation.org.tw/service06.html"},
+        {"label": "當年度撥款", "amount": "依核定金額，當年度12月前匯撥", "unit": "每案", "note": "獲贊助單位需提供合法捐款收據並配合期末訪視與結案報告。", "sourceUrl": "https://www.gisfoundation.org.tw/service06.html"}
+      ],
+      "applicationMethodSourceNote": "來源頁要求書面及電子檔資料，未通過也不退件。",
+      "howToApply": ["提案單位於115年4月1日至4月30日備妥書面與電子檔資料。", "送交提案單位行文、提案計畫書、PPT簡介、近二年實績與成果及法人附件。", "通過初審後進入基金會審查評選，獲選單位再由員工捐薪贊助並配合結案。"],
+      "documents": ["提案單位行文", "提案計畫書與PPT簡介", "近二年辦理實績與成果", "單位簡介", "法人登記證書影本", "組織或捐助章程影本", "近兩年財務報表", "評鑑成果"]
+    },
+    {
+      "candidateId": "sfaa-foundation-b0009-candidate-a9a8794d9120",
+      "name": "永信社會福利基金會長照與社區照顧服務",
+      "summary": "永信社會福利基金會在臺中大甲、清水等地提供社區整合服務A單位、老人養護中心、社區照顧關懷據點、日間托老、日間照顧、居家服務、到宅沐浴、失智團體家屋、小規模多機能與多元陪伴照顧服務。",
+      "audiences": ["老人", "失能者", "失智者", "家庭照顧者", "臺中市民"],
+      "serviceCategories": ["老人福利", "長期照顧服務", "日間照顧", "居家服務", "喘息服務", "民間社福資源"],
+      "needTags": ["永信", "松柏園", "大甲", "清水", "長照A單位", "日間照顧", "居家服務", "到宅沐浴"],
+      "eligibility": "適合臺中市大甲、清水、外埔、大安等區域長者、失能失智者與家庭照顧者查詢長照、日照、居服、到宅沐浴、團體家屋、小規模多機能或臨時短期陪伴照顧服務。",
+      "conditionSourceNote": "來源頁列出各項長照與社區照顧服務，部分服務地區與內容明確；實際收案資格、費用與長照給付需電話確認。",
+      "applicationConditions": [
+        {"label": "服務地區", "requirement": "社區整合服務A單位列大甲區、清水區；居家服務列臺中市大甲區、外埔區及大安區。", "sourceUrl": "https://www.ysswf.com/service.php"},
+        {"label": "長照需求", "requirement": "適合有長照諮詢與評估、日間照顧、居家服務、到宅沐浴、失智照顧或小規模多機能需求者。", "sourceUrl": "https://www.ysswf.com/service.php"},
+        {"label": "照顧者支持", "requirement": "多元陪伴照顧服務針對臨時、短期及緊急照顧需求，協助減輕家庭照顧壓力。", "sourceUrl": "https://www.ysswf.com/service.php"}
+      ],
+      "benefitSourceNote": "此頁主要是長照與社區照顧服務總覽，不是固定金額現金補助；費用與長照給付適用需向單位確認。",
+      "benefitItems": [
+        {"label": "長照諮詢與整合連結", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "A單位協助長照諮詢、評估與一案到底申請流程。", "sourceUrl": "https://www.ysswf.com/service.php"},
+        {"label": "日照、居服與到宅沐浴", "amount": "依長照給付或服務費用確認", "unit": "依服務", "note": "提供日間照顧、居家服務、到宅沐浴等照顧支持。", "sourceUrl": "https://www.ysswf.com/service.php"},
+        {"label": "失智團體家屋與小規模多機能", "amount": "依收案與費用確認", "unit": "依服務", "note": "提供失智長輩團體家屋、小規模多機能與日夜間照顧支持。", "sourceUrl": "https://www.ysswf.com/service.php"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供基金會地址與電話；建議先電話確認服務區、名額、費用與長照給付。",
+      "howToApply": ["先洽永信社會福利基金會，說明長者居住地、失能失智狀況與照顧需求。", "若需要長照服務，先確認是否已完成1966長照評估或需由A單位協助申請。", "依服務類型準備長照評估、身分、身障或醫療照顧需求資料，確認名額與費用。"],
+      "documents": ["身分與居住資料", "長照評估資料（如有）", "身心障礙證明或醫療診斷資料（如有）", "照顧需求、用藥、失能失智或家庭照顧者資料", "服務端要求文件"]
     }
   ]
 }
