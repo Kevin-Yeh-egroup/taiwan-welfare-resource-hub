@@ -50,8 +50,14 @@ const els = {
   privateResourceTotal: document.querySelector("#privateResourceTotal")
 };
 
+const hiddenDisplayValues = new Set(["none"]);
+
+function displayValues(values) {
+  return (values || []).filter((value) => value && !hiddenDisplayValues.has(String(value).trim().toLowerCase()));
+}
+
 function uniqueSorted(values) {
-  return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+  return [...new Set(displayValues(values))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
 }
 
 function optionList(select, values, allLabel) {
@@ -465,6 +471,8 @@ function escapeHtml(value) {
 function renderRecord(record) {
   const confidence = record.freshness?.confidence || "needs-review";
   const meta = needMeta(record);
+  const visibleAudiences = displayValues(record.audiences);
+  const visibleCategories = displayValues(record.serviceCategories);
   return `
     <article class="resource-card tone-${escapeHtml(meta.tone)}">
       <div class="card-top">
@@ -480,8 +488,8 @@ function renderRecord(record) {
 
       <div class="meta-line">
         <span class="tag">${escapeHtml(record.county || "全國")}</span>
-        ${(record.audiences || []).slice(0, 3).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
-        ${(record.serviceCategories || []).slice(0, 2).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+        ${visibleAudiences.slice(0, 3).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+        ${visibleCategories.slice(0, 2).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
       </div>
 
       ${renderApplicationConditions(record)}
@@ -492,7 +500,7 @@ function renderRecord(record) {
       <div class="quick-answer-grid">
         <div>
           <span>適合誰</span>
-          <p>${escapeHtml((record.audiences || []).slice(0, 3).join("、") || record.eligibility || "依來源頁公告")}</p>
+          <p>${escapeHtml(visibleAudiences.slice(0, 3).join("、") || record.eligibility || "依來源頁公告")}</p>
         </div>
         <div>
           <span>可以協助</span>

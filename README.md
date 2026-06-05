@@ -7,9 +7,9 @@
 - Public GitHub repo: https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub
 - Vercel Production: https://taiwan-welfare-resource-hub.vercel.app/
 - Review-stage `noindex` 保留中：HTML meta robots、`robots.txt`、Vercel `X-Robots-Tag` 都會阻擋搜尋引擎索引。
-- Current dataset: 493 resource records from 92 allowlisted sources.
+- Current dataset: 505 resource records from 92 allowlisted sources.
 - Foundation coverage: 355 official SFAA national social-welfare foundation records queried on 2026-06-03.
-- Reviewed foundation program cards: 47 manually allowlisted program/service pages converted from candidate crawls.
+- Reviewed foundation program cards: 59 manually allowlisted program/service pages converted from candidate crawls.
 - Batch 0/1 central expansion: 9 high-demand nationwide cards for national pension premium subsidy, special-circumstances families, disability welfare, childcare, elder welfare, education tuition reduction, labor subsidy, 115 rent subsidy, and 113 protection hotline.
 - Batch 2 local expansion: 12 six-municipality program cards covering Taipei, New Taipei, Taoyuan, Taichung, Tainan, and Kaohsiung local benefits with concrete eligibility, amounts, and application notes.
 - Batch 3A local expansion: 12 northern/central non-municipality program cards covering Keelung, Hsinchu City, Hsinchu County, Miaoli, Changhua, Nantou, and Yunlin.
@@ -18,6 +18,7 @@
 - Batch 4A foundation deep crawl: 8 reviewed civil-society program cards for Moxian, Garden of Hope, Joyce McMillan, Spinal Cord Injury, and Hondao service pages.
 - Batch 4B foundation deep crawl: 7 reviewed civil-society program cards for VTCIDD Taoyuan disability services, Saint Island scholarships/living assistance, Mega charity emergency/medical relief, and Shing Yi social assistance.
 - Batch 4C foundation deep crawl: 10 reviewed civil-society program cards for Han Ci child after-school services, Christian Salvation Service women/children support, Sinyi emergency assistance, Good Shepherd protection services, Taiwan Caring Foundation migrant women/children support, PSA hearing subsidies/scholarships, PX Mart material-bank partnerships, GIS employee charity subsidies, and Yung Shin long-term/community care.
+- Batch 4D foundation deep crawl: 12 reviewed civil-society program cards for Chinese Culture child/elder care, hearing life-reconstruction/family support, Pearl S. Buck new immigrant family services, Yude elder/LTC transport, Sunshine burn/facial-difference reconstruction, Oldyes community/home care, Syin-Lu early intervention/disability care, and Children Are Us care services.
 
 ## Local Preview
 
@@ -37,7 +38,7 @@ http://localhost:4173
 python scripts/build_source_registry.py
 python scripts/extract_source_urls.py source-docs --out data/extracted-urls.json
 python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
-python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json data/foundation-program-candidates-batch-c.json data/foundation-program-candidates-batch-d.json data/foundation-program-candidates-batch-e.json data/foundation-program-candidates-batch-f.json --allowlist data/formal-program-allowlist.json --out data/resources.json
+python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json data/foundation-program-candidates-batch-c.json data/foundation-program-candidates-batch-d.json data/foundation-program-candidates-batch-e.json data/foundation-program-candidates-batch-f.json data/foundation-program-candidates-batch-g.json --allowlist data/formal-program-allowlist.json --out data/resources.json
 python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json
 python scripts/validate_data.py
 node scripts/build_static.mjs
@@ -52,6 +53,7 @@ python scripts/crawl_foundation_program_candidates.py --batch C --previous data/
 python scripts/crawl_foundation_program_candidates.py --batch D --previous data/foundation-program-candidates.json --previous data/foundation-program-candidates-batch-b.json --previous data/foundation-program-candidates-batch-c.json --only-current-year --limit 30 --out data/foundation-program-candidates-batch-d.json
 python scripts/crawl_foundation_program_candidates.py --batch E --previous data/foundation-program-candidates.json --previous data/foundation-program-candidates-batch-b.json --previous data/foundation-program-candidates-batch-c.json --previous data/foundation-program-candidates-batch-d.json --limit 30 --out data/foundation-program-candidates-batch-e.json
 python scripts/crawl_foundation_program_candidates.py --batch F --previous data/foundation-program-candidates.json --previous data/foundation-program-candidates-batch-b.json --previous data/foundation-program-candidates-batch-c.json --previous data/foundation-program-candidates-batch-d.json --previous data/foundation-program-candidates-batch-e.json --limit 30 --out data/foundation-program-candidates-batch-f.json
+python scripts/crawl_foundation_program_candidates.py --batch G --previous data/foundation-program-candidates.json --previous data/foundation-program-candidates-batch-b.json --previous data/foundation-program-candidates-batch-c.json --previous data/foundation-program-candidates-batch-d.json --previous data/foundation-program-candidates-batch-e.json --previous data/foundation-program-candidates-batch-f.json --limit 30 --out data/foundation-program-candidates-batch-g.json
 ```
 
 `crawl_foundation_program_candidates.py` is review-first. Candidate pages stay non-public until a reviewed entry is added to `data/formal-program-allowlist.json`.

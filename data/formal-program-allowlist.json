@@ -821,6 +821,284 @@
       "applicationMethodSourceNote": "來源頁提供基金會地址與電話；建議先電話確認服務區、名額、費用與長照給付。",
       "howToApply": ["先洽永信社會福利基金會，說明長者居住地、失能失智狀況與照顧需求。", "若需要長照服務，先確認是否已完成1966長照評估或需由A單位協助申請。", "依服務類型準備長照評估、身分、身障或醫療照顧需求資料，確認名額與費用。"],
       "documents": ["身分與居住資料", "長照評估資料（如有）", "身心障礙證明或醫療診斷資料（如有）", "照顧需求、用藥、失能失智或家庭照顧者資料", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0013-candidate-34e878262b7e",
+      "name": "中華文化台北兒童福利中心",
+      "summary": "中華文化社會福利事業基金會附設台北兒童福利中心，提供安置教養、幼兒教育、課後照顧等兒童少年福利服務，協助兒少權益與全人發展。",
+      "audiences": ["兒童(含青少年)", "弱勢兒少", "家庭", "社工或轉介單位"],
+      "serviceCategories": ["兒童及青少年福利", "安置與保護", "課後照顧", "教育支持", "民間社福資源"],
+      "needTags": ["中華文化", "台北兒童福利中心", "兒少安置", "幼兒教育", "課後照顧"],
+      "eligibility": "適合需要兒少安置教養、幼兒教育、課後照顧或兒少福利服務之家庭與轉介單位查詢；實際收案條件、名額、費用與轉介程序需洽中心確認。",
+      "conditionSourceNote": "來源頁列出附設機構性質、服務類型與官方網址。",
+      "applicationConditions": [
+        {"label": "服務對象", "requirement": "需要安置教養、幼兒教育、課後照顧等綜合性兒童少年福利服務之兒少與家庭。", "sourceUrl": "https://www.ccswf.org.tw/ChcfPortal/institution/childWelfare.do"},
+        {"label": "轉介確認", "requirement": "兒少安置或教養服務通常需由社政、司法、學校或社福網絡評估轉介，實際流程需向中心確認。", "sourceUrl": "https://www.ccswf.org.tw/ChcfPortal/institution/childWelfare.do"}
+      ],
+      "benefitSourceNote": "此頁是兒少服務機構介紹，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "安置教養", "amount": "服務協助，非定額現金補助", "unit": "依收案評估", "note": "提供兒童少年安置與教養支持。", "sourceUrl": "https://www.ccswf.org.tw/ChcfPortal/institution/childWelfare.do"},
+        {"label": "幼兒教育與課後照顧", "amount": "服務協助，非定額現金補助", "unit": "依服務安排", "note": "提供幼兒教育、課後照顧與兒少發展支持。", "sourceUrl": "https://www.ccswf.org.tw/ChcfPortal/institution/childWelfare.do"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供中心官方網站，建議先由轉介單位或家長電話確認服務資格與目前名額。",
+      "howToApply": ["先洽台北兒童福利中心或中華文化基金會確認目前服務類型與收案方式。", "如涉及兒少安置，建議由地方社政、學校、醫療、司法或社福單位評估後轉介。", "依服務端要求準備兒少身分、家庭狀況、轉介或照顧需求資料。"],
+      "documents": ["兒少與家庭身分資料", "戶籍或監護資料", "社政、學校、醫療或司法轉介資料（如有）", "家庭照顧、就學或安置需求資料", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0013-candidate-4794b07d535c",
+      "name": "中華文化翠柏新村老人安養與長照服務",
+      "summary": "翠柏新村老人安養中心提供安養服務、養護照顧與長照2.0相關服務，包含健康照顧、醫師巡診、生活照顧、個案輔導、社區整合型服務、機構喘息、長照交通接送與失智社區據點。",
+      "audiences": ["老人", "失能者", "失智者", "家庭照顧者", "新北市民"],
+      "serviceCategories": ["老人福利", "長期照顧服務", "住宿式服務", "喘息服務", "交通接送", "民間社福資源"],
+      "needTags": ["翠柏新村", "老人安養", "養護照顧", "長照2.0", "機構喘息", "失智據點"],
+      "eligibility": "適合長者、失能失智者及家庭照顧者查詢安養、養護、機構喘息、長照交通接送、失智社區據點與連續性照顧服務；實際入住、費用、補助與收案資格需向中心確認。",
+      "conditionSourceNote": "來源頁列出服務項目、服務特色、長照服務與中心聯絡資訊。",
+      "applicationConditions": [
+        {"label": "長者照顧需求", "requirement": "需要安養、養護、健康照顧、生活照顧、個案輔導或長照2.0服務之長者。", "sourceUrl": "https://www.ccswf.org.tw/ChcfPortal/institution/elderlyCare.do"},
+        {"label": "長照與喘息需求", "requirement": "需要社區整合型服務、機構喘息、長照交通接送或失智社區服務據點者，可先洽詢中心。", "sourceUrl": "https://www.ccswf.org.tw/ChcfPortal/institution/elderlyCare.do"}
+      ],
+      "benefitSourceNote": "此頁主要是老人安養與長照服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "安養與養護照顧", "amount": "依收案與費用確認", "unit": "依服務", "note": "提供生活照顧、健康照顧、醫師巡診、輔療團體與資源連結。", "sourceUrl": "https://www.ccswf.org.tw/ChcfPortal/institution/elderlyCare.do"},
+        {"label": "長照2.0相關服務", "amount": "依長照給付或服務費用確認", "unit": "依評估", "note": "包含社區整合型服務、機構喘息、長照交通接送與失智社區服務據點。", "sourceUrl": "https://www.ccswf.org.tw/ChcfPortal/institution/elderlyCare.do"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供中心地址與電話，入住或使用長照服務前需確認名額、評估與費用。",
+      "howToApply": ["先洽翠柏新村老人安養中心，說明長者身體狀況、照顧需求與居住地。", "若需要長照2.0服務，確認是否需先完成1966長照評估或由中心協助連結。", "依服務類型準備身分、醫療、長照評估與家庭照顧資料，確認收案、費用與補助適用。"],
+      "documents": ["身分與戶籍資料", "長照評估資料（如有）", "診斷證明、用藥或照顧需求資料", "身心障礙證明或福利身分資料（如有）", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0282-candidate-67fe0eebf45a",
+      "name": "婦聯聽覺健康臺北市聽覺生活重建與家庭支持服務",
+      "summary": "婦聯聽覺健康基金會承辦臺北市聽覺及聲音機能類生活重建、訓練、支援及家庭支持服務，協助聽語障者進行日常生活、人際社交、心理支持、家庭訪視與照顧者支持。",
+      "audiences": ["聽覺障礙者", "身心障礙者", "家庭照顧者", "臺北市民", "社工或轉介單位"],
+      "serviceCategories": ["身心障礙福利", "聽覺障礙服務", "生活重建", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["婦聯聽覺健康", "聽覺障礙", "生活重建", "家庭支持", "臺北市社會局委託"],
+      "eligibility": "適合設籍且居住臺北市、持有臺北市身心障礙證明且經需求評估有生活重建需求之聽語障者及其家庭查詢；醫療等單位轉介、經受託單位評估並經社會局同意者，也可能接受服務。",
+      "conditionSourceNote": "來源頁為受託服務頁；臺北市社會局頁列出聽覺及聲音機能類服務對象、服務內容與婦聯聽覺健康聯絡資訊。",
+      "applicationConditions": [
+        {"label": "臺北市身障資格", "requirement": "15歲以上、設籍且居住臺北市，持有臺北市核發或註記身心障礙手冊或證明，並經需求評估核定有生活重建需求。", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=58AD92A8DB2B1952"},
+        {"label": "聽語障服務例外", "requirement": "聽語障者因配戴助聽器或植入人工電子耳而有生活重建訓練需要者，不限中途致障者。", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=58AD92A8DB2B1952"},
+        {"label": "轉介評估", "requirement": "具障礙事實，經醫療等單位轉介，由受託單位評估有生活重建需求且經社會局同意者，可接受服務。", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=58AD92A8DB2B1952"}
+      ],
+      "benefitSourceNote": "此頁是臺北市身障生活重建與家庭支持服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "生活重建服務", "amount": "服務協助，非定額現金補助", "unit": "依個別化服務計畫", "note": "包含自我照顧、居家生活、社區參與、人際社交與心理支持。", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=58AD92A8DB2B1952"},
+        {"label": "家庭支持服務", "amount": "服務協助，非定額現金補助", "unit": "依家庭需求", "note": "包含家庭關懷訪視、照顧者支持、心理情緒支持、成長團體、諮詢與照顧技巧訓練。", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=58AD92A8DB2B1952"}
+      ],
+      "applicationMethodSourceNote": "臺北市社會局頁列婦聯聽覺健康聯絡電話；建議先電話確認需求評估與收案流程。",
+      "howToApply": ["先洽婦聯聽覺健康基金會或臺北市社會局，確認是否符合聽覺及聲音機能類服務資格。", "準備身心障礙證明、臺北市設籍居住資料、需求評估或醫療轉介資料。", "由受託單位進行整體評估，訂定個別化服務計畫後提供生活重建或家庭支持。"],
+      "documents": ["身心障礙手冊或證明", "臺北市戶籍或居住資料", "需求評估資料", "醫療或轉介資料（如有）", "家庭照顧與服務需求資料"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0325-candidate-2eac3aadc0f0",
+      "name": "台灣賽珍珠新住民子女及家庭服務",
+      "summary": "台灣賽珍珠基金會提供經濟弱勢新住民子女及其家庭服務，包含助養扶助、個案輔導、學習陪伴、獎助學金、親職講座、親子活動、兒少成長活動，並提供婦女培力與通譯培訓等支持。",
+      "audiences": ["新住民家庭", "兒童(含青少年)", "弱勢兒少", "婦女", "經濟困難家庭"],
+      "serviceCategories": ["新住民服務", "兒童及青少年福利", "教育支持", "清寒獎學金", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["賽珍珠", "新住民子女", "助養扶助", "學習陪伴", "獎助學金", "婦女培力"],
+      "eligibility": "適合經濟弱勢新住民子女及其家庭，需要助養扶助、個案輔導、學習陪伴、獎助學金、親職支持、婦女培力或通譯服務時查詢；實際資格、名額與服務區域需洽基金會確認。",
+      "conditionSourceNote": "來源頁列出服務項目、服務對象方向與基金會聯絡資訊。",
+      "applicationConditions": [
+        {"label": "經濟弱勢新住民家庭", "requirement": "服務聚焦經濟弱勢新住民子女及其家庭。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=66&id=61"},
+        {"label": "婦女培力需求", "requirement": "新住民婦女可查詢工作坊、通譯培訓、通譯服務與支持性服務方案。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=66&id=61"}
+      ],
+      "benefitSourceNote": "來源頁列服務類型，不是固定金額現金補助；助養扶助、獎助學金與活動依年度辦法或基金會評估。",
+      "benefitItems": [
+        {"label": "助養扶助與個案輔導", "amount": "依方案或個案評估", "unit": "依家庭需求", "note": "協助經濟弱勢新住民子女與家庭連結資源。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=66&id=61"},
+        {"label": "學習陪伴與獎助學金", "amount": "依年度辦法核定", "unit": "依學生或方案", "note": "提供學習陪伴、獎助學金、親職講座與兒少成長活動。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=66&id=61"},
+        {"label": "婦女培力與通譯支持", "amount": "服務協助，非定額現金補助", "unit": "依服務安排", "note": "提供工作坊、通譯人員培訓與支持性服務方案。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=66&id=61"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供基金會電話與信箱；各服務可能有不同年度辦法或表單。",
+      "howToApply": ["先洽台灣賽珍珠基金會，說明新住民家庭、子女教育、經濟或婦女培力需求。", "依服務類型確認是否需填助養扶助、獎助學金、課程或活動表單。", "送件或報名前確認年度受理期間、服務區域、名額與所需文件。"],
+      "documents": ["新住民或家庭身分資料", "兒少或學生資料", "經濟弱勢證明（如有）", "在學或成績資料（申請獎助學金時）", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0325-candidate-a1b4382d49a1",
+      "name": "賽珍珠桃園市南區新住民家庭服務中心",
+      "summary": "賽珍珠基金會承辦桃園市南區新住民家庭服務中心，服務設籍或居住於中壢、平鎮、龍潭、楊梅、新屋區之新住民及家庭成員，提供社會福利諮詢、新住民家庭支持、課程活動、多元文化宣導與通譯志工培訓。",
+      "audiences": ["新住民家庭", "婦女", "兒童(含青少年)", "桃園市民", "社工或轉介單位"],
+      "serviceCategories": ["新住民服務", "家庭照顧支持", "福利諮詢", "婦女福利", "民間社福資源"],
+      "needTags": ["賽珍珠", "桃園新住民", "南區新住民家庭服務中心", "福利諮詢", "通譯培訓"],
+      "eligibility": "設籍或居住於桃園市南區中壢、平鎮、龍潭、楊梅、新屋區之新住民及家庭成員，可查詢福利諮詢、家庭支持、課程活動、多元文化宣導與通譯志工服務。",
+      "conditionSourceNote": "來源頁明列服務對象、服務時間、服務內容與聯絡資訊。",
+      "applicationConditions": [
+        {"label": "服務區域", "requirement": "設籍或居住於桃園市南區中壢、平鎮、龍潭、楊梅、新屋區。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=96&id=243"},
+        {"label": "服務對象", "requirement": "新住民及其家庭成員。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=96&id=243"},
+        {"label": "服務時間", "requirement": "週二至週六 08:00-12:00、13:00-17:00，國定假日除外。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=96&id=243"}
+      ],
+      "benefitSourceNote": "此頁是新住民家庭服務中心資訊，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "社會福利諮詢", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "協助新住民家庭查詢與連結政府福利措施。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=96&id=243"},
+        {"label": "家庭支持與課程活動", "amount": "服務協助，非定額現金補助", "unit": "依活動安排", "note": "提供新住民家庭支持方案、各項課程與多元文化宣導。", "sourceUrl": "https://www.psbf.org.tw/OnePage.aspx?mid=96&id=243"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供地址、電話、email、Facebook與LINE@。",
+      "howToApply": ["先以電話、email、LINE@或到中心洽詢，說明居住區域與家庭需求。", "確認是否屬桃園市南區服務範圍，以及需要福利諮詢、家庭支持、課程或通譯服務。", "依中心安排準備身分、居住與家庭需求資料。"],
+      "documents": ["新住民或家庭成員身分資料", "居住或設籍資料", "福利諮詢或家庭支持需求資料", "課程活動報名資料（如適用）", "中心要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-b0026-candidate-9e2651ce416b",
+      "name": "毓得老人關懷與臺中長照交通接送服務",
+      "summary": "毓得社會福利基金會提供獨居老人關懷問安、福利服務諮詢、圓夢計畫、志工訪視、日照長照公開資訊，以及臺中市長期照顧交通接送服務，包含服務區域、服務對象、費用與取消規則。",
+      "audiences": ["老人", "失能者", "身心障礙者", "低收入戶", "中低收入戶", "臺中市民"],
+      "serviceCategories": ["老人福利", "長期照顧服務", "交通接送", "獨居老人服務", "民間社福資源"],
+      "needTags": ["毓得", "獨居老人", "關懷問安", "長照交通接送", "臺中市", "低收中低收"],
+      "eligibility": "適合臺中市長者、失能者、身心障礙者、低收入戶或中低收入戶查詢獨居老人關懷、長照日照與交通接送；交通接送須經臺中市長期照顧管理中心評估符合長照給付資格。",
+      "conditionSourceNote": "來源頁列出獨居老人關懷問安、長照公開資訊、交通接送服務範圍、資格、費用與服務電話。",
+      "applicationConditions": [
+        {"label": "交通接送服務區域", "requirement": "服務臺中市中、西、東、南、北、南屯、西屯、北屯、烏日、霧峰、太平、大里、潭子、豐原等區。", "sourceUrl": "https://www.yude.org.tw/productClassify/tws_txt/index/1000029600"},
+        {"label": "長照給付資格", "requirement": "需經臺中市長期照顧管理中心照顧管理專員評估符合長照給付資格。", "sourceUrl": "https://www.yude.org.tw/productClassify/tws_txt/index/1000029600"},
+        {"label": "服務對象", "requirement": "65歲以上失能或衰弱老人、領有身心障礙證明者、55至64歲原住民、50歲以上失智症者。", "sourceUrl": "https://www.yude.org.tw/productClassify/tws_txt/index/1000029600"}
+      ],
+      "benefitSourceNote": "交通接送來源頁列出補助金額與自付額；其他關懷服務以服務協助為主。",
+      "benefitItems": [
+        {"label": "獨居老人關懷問安", "amount": "服務協助，非定額現金補助", "unit": "依服務安排", "note": "包含福利服務諮詢、圓夢計畫、志工居家關懷訪視與聯誼活動。", "sourceUrl": "https://www.yude.org.tw/productClassify/tws_txt/index/1000029600"},
+        {"label": "低收入戶交通接送", "amount": "長照補助230元，自付0元", "unit": "單趟", "note": "來源頁以單趟計算列低收入戶補助與自付額。", "sourceUrl": "https://www.yude.org.tw/productClassify/tws_txt/index/1000029600"},
+        {"label": "中低收入戶交通接送", "amount": "長照補助210元，自付20元", "unit": "單趟", "note": "來源頁以單趟計算列中低收入戶補助與自付額。", "sourceUrl": "https://www.yude.org.tw/productClassify/tws_txt/index/1000029600"},
+        {"label": "一般戶交通接送", "amount": "長照補助168元，自付62元", "unit": "單趟", "note": "例：一般戶來回接送需自費124元。", "sourceUrl": "https://www.yude.org.tw/productClassify/tws_txt/index/1000029600"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供服務申請書、服務中心地址與電話；取消需最遲於預訂乘車時間前一天辦理。",
+      "howToApply": ["先確認是否已經臺中市長照管理中心評估符合長照給付資格。", "洽毓得長照交通接送服務電話或服務中心，確認接送區域、時間與預約規則。", "預約後需於指定上車地點等候；若需取消，最遲於預訂乘車時間前一天辦理。"],
+      "documents": ["服務申請書", "身分資料", "長照評估或給付資格資料", "低收入戶或中低收入戶證明（如適用）", "身心障礙證明或失能失智相關資料", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0031-candidate-6b17801ca4b1",
+      "name": "陽光燒傷顏損重建服務",
+      "summary": "陽光基金會服務燒傷與顏面損傷者，整合社工、復健、心理、社教等專業團隊，提供生理重建、心理輔導、經濟補助、居家復健護理、就學及就業輔導，並可透過通報資料表或服務中心電話洽詢。",
+      "audiences": ["燒傷者", "顏面損傷者", "身心障礙者", "學生", "就業困難者", "社工或轉介單位"],
+      "serviceCategories": ["身心障礙福利", "醫療復健", "心理諮商", "經濟補助", "就學與就業支持", "民間社福資源"],
+      "needTags": ["陽光基金會", "燒傷", "顏面損傷", "口腔癌", "經濟補助", "居家復健", "個案通報"],
+      "eligibility": "適合燒傷者、顏面損傷者、口腔癌、血管瘤、神經纖維瘤、黑色素痣、胎記等造成外觀或功能差異者，且有生理衛教、心理調適、經濟支持、職業輔導或就學宣導需求時查詢。",
+      "conditionSourceNote": "來源頁列出服務對象、服務內容與通報方式。",
+      "applicationConditions": [
+        {"label": "燒傷者", "requirement": "因接觸熱、電或化學物質引起皮膚傷害，且有生理衛教、心理調適、經濟支持、職業輔導、就學宣導等需求，願意接受服務者。", "sourceUrl": "https://www.sunshine.org.tw/service/index/all"},
+        {"label": "顏面損傷者", "requirement": "先天疾病、後天意外或疾病導致頭、頸、臉任一部位有瘢痕或不一樣記號，且有服務需求者。", "sourceUrl": "https://www.sunshine.org.tw/service/index/all"},
+        {"label": "其他外觀差異服務群體", "requirement": "神經纖維瘤、黑色素痣、胎記、血管瘤造成全身任一部位皮膚或外觀有明顯不一樣記號者。", "sourceUrl": "https://www.sunshine.org.tw/service/index/all"}
+      ],
+      "benefitSourceNote": "來源頁列出重建與支持服務，含經濟補助，但未公告固定金額。",
+      "benefitItems": [
+        {"label": "全方位重建服務", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "包含生理重建、心理輔導、居家復健護理、社教與社會參與支持。", "sourceUrl": "https://www.sunshine.org.tw/service/index/all"},
+        {"label": "經濟補助", "amount": "依個案評估", "unit": "每案", "note": "來源頁列經濟補助為服務項目之一，實際金額需由陽光評估確認。", "sourceUrl": "https://www.sunshine.org.tw/service/index/all"},
+        {"label": "就學與就業輔導", "amount": "服務協助，非定額現金補助", "unit": "依需求", "note": "協助服務對象就學宣導、職業輔導與社會參與。", "sourceUrl": "https://www.sunshine.org.tw/service/index/all"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供通報資料表與服務中心電話。",
+      "howToApply": ["若本人正面臨困難，可填寫陽光通報資料表或主動來電服務中心洽詢。", "說明燒傷、顏面損傷、疾病或外觀差異狀況，以及醫療、復健、心理、經濟、就學或就業需求。", "由陽光工作人員評估後續聯絡、服務安排與所需文件。"],
+      "documents": ["身分資料", "診斷證明或醫療資料", "燒傷、顏面損傷或相關疾病資料", "經濟或就學就業需求資料", "通報資料表", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0225-candidate-464d2818be8c",
+      "name": "老五老社區餐食與交通接送服務",
+      "summary": "老五老基金會社區服務提供失能、弱勢獨居長輩送餐服務、據點共餐、社區健康站與交通接送，服務區域含臺北、新北、臺中、南投、彰化、新竹等據點並列聯絡電話。",
+      "audiences": ["老人", "獨居老人", "失能者", "弱勢家庭", "家庭照顧者"],
+      "serviceCategories": ["老人福利", "餐食服務", "社區據點", "交通接送", "長期照顧服務", "民間社福資源"],
+      "needTags": ["老五老", "送餐服務", "據點共餐", "社區健康站", "交通接送", "獨居長輩"],
+      "eligibility": "適合失能、弱勢或獨居長輩查詢送餐、共餐、社區據點與交通接送；社區據點服務對象以65歲以上長輩為主，實際服務區域、名額與費用需洽各中心確認。",
+      "conditionSourceNote": "來源頁列出送餐服務區域電話、據點共餐、社區健康站服務對象與交通接送聯絡資訊。",
+      "applicationConditions": [
+        {"label": "送餐需求", "requirement": "失能、弱勢獨居長輩，因經濟或交通不便等因素需要每日餐食與關懷。", "sourceUrl": "https://www.ofo.org.tw/service/generational"},
+        {"label": "社區據點", "requirement": "社區據點服務對象為65歲以上長輩，提供基本保健測量、健康操、成長團體、身心活化與福利諮詢轉介。", "sourceUrl": "https://www.ofo.org.tw/service/generational"},
+        {"label": "交通接送", "requirement": "協助移動困難和行動不便民眾就醫、復健或前往社區據點。", "sourceUrl": "https://www.ofo.org.tw/service/generational"}
+      ],
+      "benefitSourceNote": "此頁主要是餐食、據點與交通服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "送餐服務", "amount": "服務協助，費用依中心確認", "unit": "依服務安排", "note": "提供每日餐食與志工關懷，服務範圍列臺北、新北、臺中、南投、彰化等地。", "sourceUrl": "https://www.ofo.org.tw/service/generational"},
+        {"label": "據點共餐與健康站", "amount": "服務協助，費用依據點確認", "unit": "依活動安排", "note": "提供共餐、健康量測、社會參與、福利諮詢與轉介。", "sourceUrl": "https://www.ofo.org.tw/service/generational"},
+        {"label": "交通接送", "amount": "服務協助，費用依中心確認", "unit": "依趟次", "note": "提供社區巡迴與長照醫療交通接送。", "sourceUrl": "https://www.ofo.org.tw/service/generational"}
+      ],
+      "applicationMethodSourceNote": "來源頁列各地服務範圍與電話；據點共餐需於用餐前一天來電預約。",
+      "howToApply": ["依居住地或需求，先撥打來源頁列出的服務中心電話確認服務區域。", "據點共餐請於用餐前一天來電預約。", "送餐或交通接送需說明長者失能、獨居、經濟、交通與照顧需求，由中心評估安排。"],
+      "documents": ["長者身分資料", "居住地資料", "失能、獨居或弱勢需求資料", "長照評估資料（如有）", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0225-candidate-333bb3fee81a",
+      "name": "老五老居家照顧與喘息服務",
+      "summary": "老五老基金會居家服務提供長者、身心障礙者、失能者與家庭照顧者居家照顧及喘息服務，包含身體照顧、生活照顧、陪伴服務、家事服務，並列出65歲以上失能長輩、獨居者、衰弱者、失智者與失能身障者等服務對象。",
+      "audiences": ["老人", "失能者", "失智者", "身心障礙者", "家庭照顧者"],
+      "serviceCategories": ["老人福利", "長期照顧服務", "居家服務", "喘息服務", "身心障礙福利", "民間社福資源"],
+      "needTags": ["老五老", "居家服務", "喘息服務", "身體照顧", "生活照顧", "家庭照顧者"],
+      "eligibility": "適合65歲以上失能長輩、65歲以上IADL獨居者、衰弱者、55歲以上失能原住民、50歲以上失智症患者、失能身心障礙者，或經長照管理中心或社工評估日常生活需協助者查詢。",
+      "conditionSourceNote": "來源頁列出居家服務內容、服務對象與服務申請入口。",
+      "applicationConditions": [
+        {"label": "長照或失能條件", "requirement": "65歲以上失能長輩、65歲以上IADL獨居者、65歲以上衰弱者、55歲以上失能原住民、50歲以上失智症患者。", "sourceUrl": "https://www.ofo.org.tw/service/pro"},
+        {"label": "身心障礙條件", "requirement": "失能身心障礙者，或經當地長照管理中心、社工評估日常生活功能需人協助者。", "sourceUrl": "https://www.ofo.org.tw/service/pro"}
+      ],
+      "benefitSourceNote": "此頁是居家照顧與喘息服務，不是固定金額現金補助；費用與長照給付需依評估確認。",
+      "benefitItems": [
+        {"label": "身體照顧", "amount": "依長照給付或服務費用確認", "unit": "依服務", "note": "包含沐浴擦澡、洗頭、更換尿布、翻身拍背、生命徵象測量等。", "sourceUrl": "https://www.ofo.org.tw/service/pro"},
+        {"label": "生活照顧與家事服務", "amount": "依長照給付或服務費用確認", "unit": "依服務", "note": "包含備餐、餵食、肢體活動、環境清潔、代購與代送等。", "sourceUrl": "https://www.ofo.org.tw/service/pro"},
+        {"label": "陪伴與喘息支持", "amount": "依長照給付或服務費用確認", "unit": "依服務", "note": "陪同外出、就醫、復健、安全看顧，減輕家庭照顧負擔。", "sourceUrl": "https://www.ofo.org.tw/service/pro"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供服務申請入口；通常需長照或社工評估。",
+      "howToApply": ["先確認是否已由1966或當地長照管理中心評估長照需求。", "洽老五老基金會服務中心或使用來源頁服務申請入口，說明居家照顧與喘息需求。", "依評估結果確認服務項目、時段、費用、自付額與需要準備的文件。"],
+      "documents": ["身分與居住資料", "長照評估資料（如有）", "身心障礙證明或失能失智資料（如有）", "家庭照顧者與照顧需求資料", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0078-candidate-b300ddc97406",
+      "name": "心路早期療育服務",
+      "summary": "心路基金會早期療育服務協助0至6歲發展遲緩及障礙兒童，提供機構療育、外展服務、日間托育、時段療育、發展監測、家庭支持、到宅示範、園所支援、個案管理與專業評估治療。",
+      "audiences": ["兒童(含青少年)", "發展遲緩兒童", "身心障礙者", "家庭照顧者", "社工或轉介單位"],
+      "serviceCategories": ["早期療育", "兒童及青少年福利", "身心障礙福利", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["心路", "早期療育", "0-6歲", "發展遲緩", "日間托育", "時段療育", "外展服務"],
+      "eligibility": "適合0至6歲發展遲緩或障礙兒童及其家庭查詢早療、日間托育、時段療育、發展評估、家庭支持、到宅示範或園所支援。",
+      "conditionSourceNote": "來源頁列出服務對象、機構服務、外展服務與早療服務項目。",
+      "applicationConditions": [
+        {"label": "年齡與需求", "requirement": "0至6歲發展遲緩及障礙兒童，需要早期療育、日間托育、時段療育、發展評估或家庭支持。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/1"},
+        {"label": "外展需求", "requirement": "缺乏資源地區的衛生所、幼兒園、社區或家庭，可由行動團隊提供發展監測與諮詢、到宅示範、定點療育、園所支援與個案管理。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/1"}
+      ],
+      "benefitSourceNote": "此頁是早療服務，不是固定金額現金補助；費用、補助與名額需洽服務據點確認。",
+      "benefitItems": [
+        {"label": "日間托育與時段療育", "amount": "服務協助，費用依據點確認", "unit": "依服務", "note": "提供學前日間特殊教育、復健治療、轉銜融合，以及時段制認知與復健療育。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/1"},
+        {"label": "外展與家庭支持", "amount": "服務協助，費用依據點確認", "unit": "依評估", "note": "提供發展監測、家庭支持、到宅示範、園所支援與個案管理。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/1"},
+        {"label": "專業評估與治療", "amount": "服務協助，費用依據點確認", "unit": "依評估", "note": "專業團隊為0至6歲幼兒評估發展，提供家長諮詢與建議。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/1"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供服務據點與基金會聯絡資訊，建議先洽所在地服務據點。",
+      "howToApply": ["先洽心路基金會或所在地服務據點，說明兒童年齡、發展狀況與療育需求。", "若已有兒童發展聯合評估或早療通報資料，可一併提供。", "由據點評估適合日間托育、時段療育、外展、家庭支持或專業評估治療。"],
+      "documents": ["兒童與家長身分資料", "發展評估報告或診斷資料（如有）", "早療通報或轉介資料（如有）", "身心障礙證明（如有）", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0078-candidate-1492027b9cc4",
+      "name": "心路智能障礙者照顧服務",
+      "summary": "心路基金會照顧服務提供智能障礙者日間、夜間與全日型機構式服務，並提供兩年期生活重建、日常生活技能、技藝陶冶、輔具指導、社會適應、職業重建準備、家庭支持、健康促進與社區適應。",
+      "audiences": ["身心障礙者", "智能障礙者", "家庭照顧者", "失能者", "社工或轉介單位"],
+      "serviceCategories": ["身心障礙福利", "日間照顧", "住宿式服務", "生活重建", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["心路", "智能障礙", "日間生活支持", "夜間居住", "生活重建", "家庭支持"],
+      "eligibility": "適合智能障礙者及其家庭查詢日間生活支持、夜間居住、全日型照顧、生活重建、健康促進與社區適應服務；實際收案資格、區域、費用與名額需洽據點確認。",
+      "conditionSourceNote": "來源頁列出照顧服務目的、生活重建與服務項目。",
+      "applicationConditions": [
+        {"label": "照顧服務需求", "requirement": "智能障礙者需要日間、夜間或全日型機構式服務，或家庭照顧資源不足。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/7"},
+        {"label": "生活重建需求", "requirement": "有生活支持需求的智能障礙者，需要日常生活技能、技藝陶冶、輔具指導、社會適應或職業重建準備。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/7"}
+      ],
+      "benefitSourceNote": "此頁為身障照顧與生活重建服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "日間生活支持", "amount": "服務協助，費用依據點確認", "unit": "依服務", "note": "提供生活訓練、個別支持計畫與家庭支持。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/7"},
+        {"label": "夜間居住與機構式服務", "amount": "服務協助，費用依據點確認", "unit": "依收案", "note": "提供居家生活事務、社區生活與休閒活動支持。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/7"},
+        {"label": "生活重建與健康促進", "amount": "服務協助，費用依據點確認", "unit": "依評估", "note": "提供技能訓練、輔具指導、健康促進與社區適應。", "sourceUrl": "https://www.syinlu.org.tw/service/service_item/7"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供服務據點與基金會聯絡資訊，建議先電話確認服務型態與名額。",
+      "howToApply": ["先洽心路基金會或服務據點，說明障礙類別、年齡、生活能力與家庭照顧狀況。", "確認需要日間、夜間、全日型、生活重建或社區適應服務。", "依據點評估準備身心障礙證明、需求資料、醫療或轉介資料，確認費用與補助適用。"],
+      "documents": ["身分資料", "身心障礙證明", "醫療或功能評估資料", "家庭照顧需求資料", "轉介資料（如有）", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0100-candidate-cb4a2923b6bc",
+      "name": "喜憨兒心智障礙照顧服務",
+      "summary": "喜憨兒基金會照顧服務提供心智障礙者全日型照顧、日間照顧、家庭托顧、臨時照顧、長期照顧、社區式小型作業設施與社區家園，依服務對象年齡、能力與需求規劃生活與訓練內容。",
+      "audiences": ["身心障礙者", "智能障礙者", "家庭照顧者", "失能者", "社工或轉介單位"],
+      "serviceCategories": ["身心障礙福利", "日間照顧", "住宿式服務", "臨時照顧", "長期照顧服務", "民間社福資源"],
+      "needTags": ["喜憨兒", "心智障礙", "日間照顧", "全日型照顧", "家庭托顧", "臨時照顧", "社區作業設施"],
+      "eligibility": "適合心智障礙者與其家庭照顧者查詢日間照顧、全日型住宿、家庭托顧、臨時照顧、長期照顧與社區作業設施；日間照顧優先服務15至64歲心智障礙者或合併心智障礙之多重障礙者。",
+      "conditionSourceNote": "來源頁列出照顧服務介紹、照顧服務項目與日間照顧優先服務條件。",
+      "applicationConditions": [
+        {"label": "心智障礙照顧需求", "requirement": "心智障礙者需要日間、全日型住宿、家庭托顧、臨時照顧、長期照顧或社區式小型作業設施。", "sourceUrl": "https://www.c-are-us.org.tw/service/care_service"},
+        {"label": "日間照顧優先對象", "requirement": "優先服務15至64歲之心智障礙者或合併心智障礙之多重障礙者。", "sourceUrl": "https://www.c-are-us.org.tw/service/care_service"}
+      ],
+      "benefitSourceNote": "此頁為照顧服務總覽，不是固定金額現金補助；費用與補助需依據點確認。",
+      "benefitItems": [
+        {"label": "全日型與日間照顧", "amount": "服務協助，費用依據點確認", "unit": "依收案", "note": "提供24小時照顧、日間照顧與生活訓練。", "sourceUrl": "https://www.c-are-us.org.tw/service/care_service"},
+        {"label": "家庭托顧與臨時照顧", "amount": "服務協助，費用依據點確認", "unit": "依需求", "note": "協助照顧者休息或處理突發狀況。", "sourceUrl": "https://www.c-are-us.org.tw/service/care_service"},
+        {"label": "社區家園與社區作業設施", "amount": "服務協助，費用依據點確認", "unit": "依服務", "note": "提供社區性住宿、作業活動、日常生活支持與社區融合。", "sourceUrl": "https://www.c-are-us.org.tw/service/care_service"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供服務據點入口，建議先洽所在地喜憨兒據點確認收案、費用與補助。",
+      "howToApply": ["先洽喜憨兒基金會或所在地服務據點，說明心智障礙者年齡、能力、照顧需求與家庭狀況。", "確認適合日間照顧、全日型、家庭托顧、臨時照顧、長照或社區作業設施。", "依據點評估準備身心障礙證明、需求資料與可能的長照或社政轉介資料。"],
+      "documents": ["身分資料", "身心障礙證明", "醫療或功能評估資料", "家庭照顧需求資料", "長照或社政轉介資料（如有）", "服務端要求文件"]
     }
   ]
 }
