@@ -4,10 +4,11 @@ This audit checks the current V1 resource hub against official Taiwan welfare so
 
 ## Current Coverage
 
-- Current dataset after Batch 0/1 central expansion: 423 resource records, 47 sources.
+- Current dataset after Batch 2 six-municipality local expansion: 435 resource records, 59 sources.
 - County/city coverage: all 22 Taiwan county/city social welfare authorities are present as official local-government entry records.
 - Central coverage already present: MOHW welfare e-box, 1957 welfare hotline, MOHW low-income/middle-low-income page, 115 annual low-income/middle-low-income standards, low-income/middle-low-income FAQ, emergency assistance, social welfare service centers/social safety net, 1966 long-term care, NHI premium subsidy dataset, TaiwanJobs, disability employment resources.
 - Batch 0/1 central additions: national pension premium subsidy, special-circumstances families, disability welfare, childcare and parenting support, elder welfare, education tuition reduction, labor subsidy and employment support, 115 central rent subsidy, and 113 protection hotline.
+- Batch 2 local additions: 12 program-level six-municipality cards across Taipei, New Taipei, Taoyuan, Taichung, Tainan, and Kaohsiung.
 - Civil-society coverage now includes the SFAA official directory of national social-welfare foundations: 355 foundation records.
 
 ## Main Finding
@@ -82,7 +83,7 @@ Current friction:
 
 - Added standalone central cards for 115年度低收入戶/中低收入戶資格審核標準, low-income/middle-low-income FAQ, 急難救助, and 社會福利服務中心/社會安全網.
 - Updated quick-search buttons toward economic-vulnerability questions: low-income/middle-low-income, 115 annual standard, emergency aid, social welfare center, premium subsidy, and civil-society foundations.
-- Rebuilt the data pipeline with 423 records, 47 sources, 47 freshness URLs, and 0 freshness warnings.
+- Rebuilt the data pipeline with 435 records, 59 sources, 59 freshness URLs, and 0 freshness warnings after Batch 2.
 
 ## SFAA Foundation Follow-Up Implemented
 
