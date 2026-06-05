@@ -21,6 +21,7 @@
   - `dpl_BAmatL7kDMJjqwTfwmU9Pjd8bkLQ` from `12332e4b3d4c61832f0f3f9364d216e14a359258`
   - `dpl_Hj9Fykc3wKe3PiH5k59zLpb269hX` from `edbda91`
   - `dpl_bQi7vYNQRR8R8udDLpXDmW77t7WR` from `d172a09b4ae0866ab5b5bfe4488da378816f24b6`
+  - `dpl_8owvjFeyazSqtKky4iGcmuzyo33d` from `0ed5c3426c561ec2bbbcde929ea8ab3ea7a429bd`
 - Stable URL: `https://taiwan-welfare-resource-hub.vercel.app/`
 - Deployment source: GitHub `main`
 - Vercel source metadata: `source=git`, repo visibility `public`, branch alias `taiwan-welfare-resource-hub-git-main-egroup-task3s-projects.vercel.app`
@@ -116,6 +117,21 @@ Disallow: /
 - Batch 4B verification: 7 of 7 reviewed foundation program cards present; reviewed foundation program total is 37
 - Added civil-society program pages: `桃園市身心障礙者恆愛日間托育服務中心`, `桃園市身心障礙者服務中心`, `啟智技藝訓練中心楊梅服務區`, `聖島助學專案`, `聖島雪炭專案`, `兆豐慈善急難救助與醫療補助`, and `興毅基金會社會救助服務`
 - Production browser verification: homepage status grid shows `公部門中央資源 21`, `公部門地方資源 70`, and `民間資源 392`; cards still show `申請條件`, `補助項目與金額`, and `申請注意事項`
+- Runtime log check: not run because the Vercel CLI was not available in PATH; Vercel deployment state, HTTP checks, data checks, and browser verification all passed
+
+## Batch 4C Production Verification - 2026-06-05
+
+- Commit: `0ed5c3426c561ec2bbbcde929ea8ab3ea7a429bd`
+- Deployment: `dpl_8owvjFeyazSqtKky4iGcmuzyo33d`
+- Deployment URL: `https://taiwan-welfare-resource-a3xrz99zq-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `robots.txt` `200`; `index.html` references `app.js?v=20260605-batch4c`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 493 records, 92 sources, 92 freshness URLs checked, 0 freshness warnings
+- Batch 4C verification: 10 of 10 reviewed foundation program cards present; reviewed foundation program total is 47
+- Added civil-society program pages: `漢慈兒少生活陪讀服務`, `基督徒救世會婦幼家庭關懷服務`, `信義公益基金會急難救助`, `善牧家庭暴力保護服務`, `善牧兒童保護與支持服務`, `台灣關愛基金會文山婦幼服務中心`, `華科聽覺照顧獎補助學金`, `全聯物資銀行身心障礙及婦女服務類`, `業成員工愛心基金補助計畫`, and `永信社會福利基金會長照與社區照顧服務`
+- Production browser verification: homepage status grid shows `公部門中央資源 21`, `公部門地方資源 70`, and `民間資源 402`; filtering `臺北市` + `社工或轉介單位` + `急難救助(短期、臨時性補助)` found 3 cards including `信義公益基金會急難救助`, with `申請條件`, `補助項目與金額`, and `申請注意事項`
 - Runtime log check: not run because the Vercel CLI was not available in PATH; Vercel deployment state, HTTP checks, data checks, and browser verification all passed
 
 ## GitHub Actions
