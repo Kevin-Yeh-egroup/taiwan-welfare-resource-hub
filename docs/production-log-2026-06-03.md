@@ -103,6 +103,21 @@ Disallow: /
 - Production browser verification: `民間資源` group showed `476` records and `30` foundation programs; `墨仙急難救助金` expanded in-page with `申請條件先看`, `補助項目與金額`, `申請注意事項`, `依個案核定`, and `開啟來源頁`; old related-program text `查看方案` was absent
 - Runtime logs: `vercel logs --since 1h --level error` returned no logs
 
+## Batch 4B Production Verification - 2026-06-05
+
+- Commit: `77acb970f8b0046ee5881e478430af37239f4f37`
+- Deployment: `dpl_HWRJsH1rT1vTs1DqLDKQBFw5hCTG`
+- Deployment URL: `https://taiwan-welfare-resource-3krvx5yv1-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`; `index.html` references `app.js?v=20260605-batch4b`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present
+- Data verification: 483 records, 92 sources, 92 freshness URLs checked, 0 freshness warnings
+- Batch 4B verification: 7 of 7 reviewed foundation program cards present; reviewed foundation program total is 37
+- Added civil-society program pages: `桃園市身心障礙者恆愛日間托育服務中心`, `桃園市身心障礙者服務中心`, `啟智技藝訓練中心楊梅服務區`, `聖島助學專案`, `聖島雪炭專案`, `兆豐慈善急難救助與醫療補助`, and `興毅基金會社會救助服務`
+- Production browser verification: homepage status grid shows `公部門中央資源 21`, `公部門地方資源 70`, and `民間資源 392`; cards still show `申請條件`, `補助項目與金額`, and `申請注意事項`
+- Runtime log check: not run because the Vercel CLI was not available in PATH; Vercel deployment state, HTTP checks, data checks, and browser verification all passed
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
