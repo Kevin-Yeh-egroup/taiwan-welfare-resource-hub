@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-05T06:50:06+00:00",
+  "generatedAt": "2026-06-05T07:22:20+00:00",
   "summary": {
     "checked": 92,
-    "changed": 70,
+    "changed": 86,
     "transportWarnings": 12,
     "warnings": 0
   },
@@ -30,7 +30,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:49+00:00"
+          "checkedAt": "2026-06-05T07:19:52+00:00"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:49+00:00"
+          "checkedAt": "2026-06-05T07:19:53+00:00"
         }
       ]
     },
@@ -82,7 +82,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:50+00:00"
+          "checkedAt": "2026-06-05T07:19:53+00:00"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:50+00:00"
+          "checkedAt": "2026-06-05T07:19:53+00:00"
         }
       ]
     },
@@ -134,7 +134,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:53+00:00"
+          "checkedAt": "2026-06-05T07:19:55+00:00"
         }
       ]
     },
@@ -154,13 +154,13 @@
           "finalUrl": "https://www.taiwanjobs.gov.tw/Internet/Index/index.aspx",
           "lastModified": null,
           "etag": null,
-          "contentLength": "118374",
+          "contentLength": "117981",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:44:55+00:00"
+          "checkedAt": "2026-06-05T07:19:57+00:00"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:56+00:00"
+          "checkedAt": "2026-06-05T07:19:59+00:00"
         }
       ]
     },
@@ -212,7 +212,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:57+00:00"
+          "checkedAt": "2026-06-05T07:20:00+00:00"
         }
       ]
     },
@@ -238,7 +238,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:57+00:00"
+          "checkedAt": "2026-06-05T07:20:00+00:00"
         }
       ]
     },
@@ -264,7 +264,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:57+00:00"
+          "checkedAt": "2026-06-05T07:20:01+00:00"
         }
       ]
     },
@@ -290,7 +290,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:57+00:00"
+          "checkedAt": "2026-06-05T07:20:02+00:00"
         }
       ]
     },
@@ -316,7 +316,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:58+00:00"
+          "checkedAt": "2026-06-05T07:20:02+00:00"
         }
       ]
     },
@@ -342,7 +342,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:58+00:00"
+          "checkedAt": "2026-06-05T07:20:03+00:00"
         }
       ]
     },
@@ -368,7 +368,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:58+00:00"
+          "checkedAt": "2026-06-05T07:20:04+00:00"
         }
       ]
     },
@@ -394,7 +394,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:59+00:00"
+          "checkedAt": "2026-06-05T07:20:05+00:00"
         }
       ]
     },
@@ -420,7 +420,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:44:59+00:00"
+          "checkedAt": "2026-06-05T07:20:06+00:00"
         }
       ]
     },
@@ -446,7 +446,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:45:00+00:00"
+          "checkedAt": "2026-06-05T07:20:06+00:00"
         }
       ]
     },
@@ -472,7 +472,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:45:01+00:00"
+          "checkedAt": "2026-06-05T07:20:07+00:00"
         }
       ]
     },
@@ -498,7 +498,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:45:01+00:00"
+          "checkedAt": "2026-06-05T07:20:07+00:00"
         }
       ]
     },
@@ -524,7 +524,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:45:02+00:00"
+          "checkedAt": "2026-06-05T07:20:08+00:00"
         }
       ]
     },
@@ -546,11 +546,11 @@
           "etag": null,
           "contentLength": "281311",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:45:02+00:00"
+          "checkedAt": "2026-06-05T07:20:10+00:00"
         }
       ]
     },
@@ -570,13 +570,13 @@
           "finalUrl": "https://dosw.gov.taipei/cp.aspx?n=0BF751F1B9F07AA1",
           "lastModified": null,
           "etag": null,
-          "contentLength": "78009",
+          "contentLength": "77919",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:45:03+00:00"
+          "checkedAt": "2026-06-05T07:20:11+00:00"
         }
       ]
     },
@@ -602,7 +602,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:45:03+00:00"
+          "checkedAt": "2026-06-05T07:20:11+00:00"
         }
       ]
     },
@@ -628,7 +628,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:45:04+00:00"
+          "checkedAt": "2026-06-05T07:20:12+00:00"
         }
       ]
     },
@@ -652,9 +652,9 @@
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
-          "retryAttempts": 3,
+          "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:47:42+00:00"
+          "checkedAt": "2026-06-05T07:20:13+00:00"
         }
       ]
     },
@@ -678,9 +678,9 @@
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
-          "retryAttempts": 1,
+          "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:37+00:00"
+          "checkedAt": "2026-06-05T07:20:16+00:00"
         }
       ]
     },
@@ -706,7 +706,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:38+00:00"
+          "checkedAt": "2026-06-05T07:20:17+00:00"
         }
       ]
     },
@@ -732,7 +732,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:38+00:00"
+          "checkedAt": "2026-06-05T07:20:18+00:00"
         }
       ]
     },
@@ -758,7 +758,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:40+00:00"
+          "checkedAt": "2026-06-05T07:20:19+00:00"
         }
       ]
     },
@@ -784,7 +784,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:41+00:00"
+          "checkedAt": "2026-06-05T07:20:20+00:00"
         }
       ]
     },
@@ -810,7 +810,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:48:43+00:00"
+          "checkedAt": "2026-06-05T07:20:23+00:00"
         }
       ]
     },
@@ -832,11 +832,11 @@
           "etag": null,
           "contentLength": "197336",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:48:44+00:00"
+          "checkedAt": "2026-06-05T07:20:25+00:00"
         }
       ]
     },
@@ -862,7 +862,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:44+00:00"
+          "checkedAt": "2026-06-05T07:20:25+00:00"
         }
       ]
     },
@@ -888,7 +888,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:45+00:00"
+          "checkedAt": "2026-06-05T07:20:26+00:00"
         }
       ]
     },
@@ -914,7 +914,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:49+00:00"
+          "checkedAt": "2026-06-05T07:20:29+00:00"
         }
       ]
     },
@@ -940,7 +940,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:48:51+00:00"
+          "checkedAt": "2026-06-05T07:20:31+00:00"
         }
       ]
     },
@@ -960,13 +960,13 @@
           "finalUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634",
           "lastModified": null,
           "etag": null,
-          "contentLength": "78581",
+          "contentLength": "78583",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:48:52+00:00"
+          "checkedAt": "2026-06-05T07:20:32+00:00"
         }
       ]
     },
@@ -992,7 +992,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:48:53+00:00"
+          "checkedAt": "2026-06-05T07:20:34+00:00"
         }
       ]
     },
@@ -1018,7 +1018,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:00+00:00"
+          "checkedAt": "2026-06-05T07:20:39+00:00"
         }
       ]
     },
@@ -1044,7 +1044,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:00+00:00"
+          "checkedAt": "2026-06-05T07:20:39+00:00"
         }
       ]
     },
@@ -1070,7 +1070,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:01+00:00"
+          "checkedAt": "2026-06-05T07:20:40+00:00"
         }
       ]
     },
@@ -1096,7 +1096,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:02+00:00"
+          "checkedAt": "2026-06-05T07:20:40+00:00"
         }
       ]
     },
@@ -1122,7 +1122,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:03+00:00"
+          "checkedAt": "2026-06-05T07:20:41+00:00"
         }
       ]
     },
@@ -1144,11 +1144,11 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:03+00:00"
+          "checkedAt": "2026-06-05T07:20:42+00:00"
         }
       ]
     },
@@ -1170,11 +1170,11 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:04+00:00"
+          "checkedAt": "2026-06-05T07:20:44+00:00"
         }
       ]
     },
@@ -1196,11 +1196,11 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:05+00:00"
+          "checkedAt": "2026-06-05T07:20:49+00:00"
         }
       ]
     },
@@ -1226,7 +1226,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:49:06+00:00"
+          "checkedAt": "2026-06-05T07:20:51+00:00"
         }
       ]
     },
@@ -1252,7 +1252,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:49:08+00:00"
+          "checkedAt": "2026-06-05T07:20:52+00:00"
         }
       ]
     },
@@ -1278,7 +1278,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:09+00:00"
+          "checkedAt": "2026-06-05T07:20:54+00:00"
         }
       ]
     },
@@ -1304,7 +1304,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:12+00:00"
+          "checkedAt": "2026-06-05T07:20:55+00:00"
         }
       ]
     },
@@ -1330,7 +1330,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:13+00:00"
+          "checkedAt": "2026-06-05T07:20:57+00:00"
         }
       ]
     },
@@ -1356,7 +1356,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:15+00:00"
+          "checkedAt": "2026-06-05T07:20:58+00:00"
         }
       ]
     },
@@ -1378,11 +1378,11 @@
           "etag": null,
           "contentLength": "25981",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:16+00:00"
+          "checkedAt": "2026-06-05T07:21:00+00:00"
         }
       ]
     },
@@ -1404,11 +1404,11 @@
           "etag": null,
           "contentLength": "20601",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:17+00:00"
+          "checkedAt": "2026-06-05T07:21:01+00:00"
         }
       ]
     },
@@ -1434,7 +1434,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:49:18+00:00"
+          "checkedAt": "2026-06-05T07:21:01+00:00"
         }
       ]
     },
@@ -1460,7 +1460,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:49:18+00:00"
+          "checkedAt": "2026-06-05T07:21:02+00:00"
         }
       ]
     },
@@ -1486,7 +1486,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:21+00:00"
+          "checkedAt": "2026-06-05T07:21:05+00:00"
         }
       ]
     },
@@ -1512,7 +1512,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:24+00:00"
+          "checkedAt": "2026-06-05T07:21:09+00:00"
         }
       ]
     },
@@ -1538,7 +1538,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:28+00:00"
+          "checkedAt": "2026-06-05T07:21:16+00:00"
         }
       ]
     },
@@ -1558,13 +1558,13 @@
           "finalUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=7A1D5BD79C00DCCC",
           "lastModified": null,
           "etag": null,
-          "contentLength": "100369",
+          "contentLength": "98386",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:31+00:00"
+          "checkedAt": "2026-06-05T07:21:18+00:00"
         }
       ]
     },
@@ -1584,13 +1584,13 @@
           "finalUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=FCE747C0D3337E3F",
           "lastModified": null,
           "etag": null,
-          "contentLength": "102495",
+          "contentLength": "102616",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:32+00:00"
+          "checkedAt": "2026-06-05T07:21:19+00:00"
         }
       ]
     },
@@ -1610,13 +1610,13 @@
           "finalUrl": "https://social.kinmen.gov.tw/Content_List.aspx?n=81A09B86DAF7E6C5",
           "lastModified": null,
           "etag": null,
-          "contentLength": "96341",
+          "contentLength": "94313",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:33+00:00"
+          "checkedAt": "2026-06-05T07:21:20+00:00"
         }
       ]
     },
@@ -1642,7 +1642,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:33+00:00"
+          "checkedAt": "2026-06-05T07:21:21+00:00"
         }
       ]
     },
@@ -1668,7 +1668,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:34+00:00"
+          "checkedAt": "2026-06-05T07:21:21+00:00"
         }
       ]
     },
@@ -1694,7 +1694,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:34+00:00"
+          "checkedAt": "2026-06-05T07:21:22+00:00"
         }
       ]
     },
@@ -1720,7 +1720,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:34+00:00"
+          "checkedAt": "2026-06-05T07:21:22+00:00"
         }
       ]
     },
@@ -1746,7 +1746,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:35+00:00"
+          "checkedAt": "2026-06-05T07:21:23+00:00"
         }
       ]
     },
@@ -1772,7 +1772,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:36+00:00"
+          "checkedAt": "2026-06-05T07:21:24+00:00"
         }
       ]
     },
@@ -1798,7 +1798,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:36+00:00"
+          "checkedAt": "2026-06-05T07:21:24+00:00"
         }
       ]
     },
@@ -1824,7 +1824,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:36+00:00"
+          "checkedAt": "2026-06-05T07:21:25+00:00"
         }
       ]
     },
@@ -1850,7 +1850,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:37+00:00"
+          "checkedAt": "2026-06-05T07:21:25+00:00"
         }
       ]
     },
@@ -1870,13 +1870,13 @@
           "finalUrl": "https://dosw.gov.taipei/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "329390",
+          "contentLength": "329301",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:37+00:00"
+          "checkedAt": "2026-06-05T07:21:26+00:00"
         }
       ]
     },
@@ -1902,7 +1902,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:38+00:00"
+          "checkedAt": "2026-06-05T07:21:26+00:00"
         }
       ]
     },
@@ -1928,7 +1928,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:43+00:00"
+          "checkedAt": "2026-06-05T07:21:52+00:00"
         }
       ]
     },
@@ -1954,7 +1954,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:45+00:00"
+          "checkedAt": "2026-06-05T07:21:55+00:00"
         }
       ]
     },
@@ -1980,7 +1980,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:49:50+00:00"
+          "checkedAt": "2026-06-05T07:21:56+00:00"
         }
       ]
     },
@@ -2000,13 +2000,13 @@
           "finalUrl": "https://www.miaoli.gov.tw/social_affairs/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "90478",
+          "contentLength": "90508",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:50+00:00"
+          "checkedAt": "2026-06-05T07:21:56+00:00"
         }
       ]
     },
@@ -2032,7 +2032,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:50+00:00"
+          "checkedAt": "2026-06-05T07:21:57+00:00"
         }
       ]
     },
@@ -2058,7 +2058,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:51+00:00"
+          "checkedAt": "2026-06-05T07:21:58+00:00"
         }
       ]
     },
@@ -2078,13 +2078,13 @@
           "finalUrl": "https://www.nantou.gov.tw/big5/index.php",
           "lastModified": null,
           "etag": null,
-          "contentLength": "135329",
+          "contentLength": "135607",
           "contentType": "text/html; charset=UTF-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:52+00:00"
+          "checkedAt": "2026-06-05T07:22:02+00:00"
         }
       ]
     },
@@ -2106,11 +2106,11 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:53+00:00"
+          "checkedAt": "2026-06-05T07:22:02+00:00"
         }
       ]
     },
@@ -2136,7 +2136,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:56+00:00"
+          "checkedAt": "2026-06-05T07:22:03+00:00"
         }
       ]
     },
@@ -2156,13 +2156,13 @@
           "finalUrl": "https://sabcc.cyhg.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "164502",
+          "contentLength": "164122",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:49:56+00:00"
+          "checkedAt": "2026-06-05T07:22:06+00:00"
         }
       ]
     },
@@ -2184,11 +2184,11 @@
           "etag": null,
           "contentLength": "220489",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:56+00:00"
+          "checkedAt": "2026-06-05T07:22:06+00:00"
         }
       ]
     },
@@ -2214,7 +2214,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:59+00:00"
+          "checkedAt": "2026-06-05T07:22:07+00:00"
         }
       ]
     },
@@ -2240,7 +2240,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:59+00:00"
+          "checkedAt": "2026-06-05T07:22:08+00:00"
         }
       ]
     },
@@ -2266,7 +2266,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:49:59+00:00"
+          "checkedAt": "2026-06-05T07:22:11+00:00"
         }
       ]
     },
@@ -2288,11 +2288,11 @@
           "etag": null,
           "contentLength": "47974",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:50:01+00:00"
+          "checkedAt": "2026-06-05T07:22:12+00:00"
         }
       ]
     },
@@ -2318,7 +2318,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T06:50:02+00:00"
+          "checkedAt": "2026-06-05T07:22:13+00:00"
         }
       ]
     },
@@ -2344,7 +2344,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:50:04+00:00"
+          "checkedAt": "2026-06-05T07:22:16+00:00"
         }
       ]
     },
@@ -2364,13 +2364,13 @@
           "finalUrl": "https://social.kinmen.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "115230",
+          "contentLength": "110563",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:50:05+00:00"
+          "checkedAt": "2026-06-05T07:22:19+00:00"
         }
       ]
     },
@@ -2396,7 +2396,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T06:50:06+00:00"
+          "checkedAt": "2026-06-05T07:22:20+00:00"
         }
       ]
     }

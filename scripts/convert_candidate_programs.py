@@ -150,7 +150,7 @@ def build_record(override: dict, candidate: dict, foundation: dict, reviewed_at:
         limit=8,
     )
 
-    return {
+    record = {
         "id": program_id(candidate_id),
         "name": clean(override.get("name")) or clean(candidate.get("linkText")) or clean(candidate.get("pageTitle")) or candidate_id,
         "summary": build_summary(override, candidate),
@@ -189,6 +189,16 @@ def build_record(override: dict, candidate: dict, foundation: dict, reviewed_at:
             "selectionPolicy": "manual-allowlist",
         },
     }
+    for field in [
+        "applicationConditions",
+        "conditionSourceNote",
+        "benefitItems",
+        "benefitSourceNote",
+        "applicationMethodSourceNote",
+    ]:
+        if override.get(field):
+            record[field] = override[field]
+    return record
 
 
 def remove_generated(records: list[dict]) -> list[dict]:

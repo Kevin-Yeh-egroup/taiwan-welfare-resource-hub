@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T06:44:38.013845+00:00",
+  "generatedAt": "2026-06-05T07:19:42.507072+00:00",
   "status": "generated",
   "notice": "Generated from allowlisted sources. Review before public publication.",
   "errors": [],
@@ -16197,7 +16197,7 @@
     {
       "id": "sfaa-foundation-a0132",
       "name": "財團法人化英慈善事業基金會",
-      "summary": "財團法人化英慈善事業基金會為衛福部社家署全國性社會福利財團法人名錄所列機構，登記地在臺北市南港區。主要服務：兒童及青少年福利、災害(變)救助、急難救助(短期、臨時性補助)；主要對象：兒童(含青少年)、家庭、一般民眾。",
+      "summary": "財團法人化英慈善事業基金會為衛福部社家署全國性社會福利財團法人名錄所列機構，登記地在臺北市南港區。主要服務：民間社福資源、社福基金會；主要對象：一般民眾。",
       "provider": "財團法人化英慈善事業基金會",
       "jurisdiction": "全國",
       "county": "臺北市",
@@ -16205,15 +16205,9 @@
         "南港區"
       ],
       "audiences": [
-        "兒童(含青少年)",
-        "家庭",
         "一般民眾"
       ],
       "serviceCategories": [
-        "兒童及青少年福利",
-        "災害(變)救助",
-        "急難救助(短期、臨時性補助)",
-        "清寒獎學金",
         "民間社福資源",
         "社福基金會"
       ],
@@ -16230,13 +16224,7 @@
         "全國性",
         "今年度仍在運作",
         "2026",
-        "兒童(含青少年)",
-        "家庭",
         "一般民眾",
-        "兒童及青少年福利",
-        "災害(變)救助",
-        "急難救助(短期、臨時性補助)",
-        "清寒獎學金",
         "民間社福資源",
         "社福基金會"
       ],
@@ -16253,8 +16241,8 @@
         "收入、醫療、急難事實或其他方案指定文件"
       ],
       "contact": {
-        "phone": "02-55819568",
-        "email": "chief.charity@msa.hinet.net",
+        "phone": null,
+        "email": null,
         "address": "臺北市南港區三重路19-11號10樓",
         "website": "https://swft.sfaa.gov.tw/fund/fh0300#"
       },
@@ -16267,7 +16255,7 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": "2022-07-21",
         "confidence": "checked",
-        "notes": "2026-06-05 自官方名錄查得狀態為「運作中」；最近資料更新：2022-07-21；設立日期：2005-08-18。"
+        "notes": "2026-06-05 自官方名錄查得狀態為「運作中」；最近資料更新：2022-07-21；設立日期：2005-08-17。"
       }
     },
     {
@@ -16682,7 +16670,7 @@
     {
       "id": "sfaa-foundation-a0138",
       "name": "財團法人燕景社會福利慈善事業基金會",
-      "summary": "財團法人燕景社會福利慈善事業基金會為衛福部社家署全國性社會福利財團法人名錄所列機構，登記地在臺北市中山區。主要服務：身心障礙福利、兒童及青少年福利、老人福利；主要對象：身心障礙者、老人、兒童(含青少年)。",
+      "summary": "財團法人燕景社會福利慈善事業基金會為衛福部社家署全國性社會福利財團法人名錄所列機構，登記地在臺北市中山區。主要服務：民間社福資源、社福基金會；主要對象：一般民眾。",
       "provider": "財團法人燕景社會福利慈善事業基金會",
       "jurisdiction": "全國",
       "county": "臺北市",
@@ -16690,22 +16678,9 @@
         "中山區"
       ],
       "audiences": [
-        "身心障礙者",
-        "老人",
-        "兒童(含青少年)",
-        "婦女",
-        "家庭",
         "一般民眾"
       ],
       "serviceCategories": [
-        "身心障礙福利",
-        "兒童及青少年福利",
-        "老人福利",
-        "婦女權益與福利",
-        "災害(變)救助",
-        "醫療補助",
-        "急難救助(短期、臨時性補助)",
-        "其他",
         "民間社福資源",
         "社福基金會"
       ],
@@ -16722,20 +16697,7 @@
         "全國性",
         "今年度仍在運作",
         "2026",
-        "身心障礙者",
-        "老人",
-        "兒童(含青少年)",
-        "婦女",
-        "家庭",
         "一般民眾",
-        "身心障礙福利",
-        "兒童及青少年福利",
-        "老人福利",
-        "婦女權益與福利",
-        "災害(變)救助",
-        "醫療補助",
-        "急難救助(短期、臨時性補助)",
-        "其他",
         "民間社福資源",
         "社福基金會"
       ],
@@ -16752,8 +16714,8 @@
         "收入、醫療、急難事實或其他方案指定文件"
       ],
       "contact": {
-        "phone": "02-2313-1169＃816",
-        "email": "jannet@huhmaw.com",
+        "phone": null,
+        "email": null,
         "address": "臺北市中山區樂群二路267號6樓之6",
         "website": "https://swft.sfaa.gov.tw/fund/fh0300#"
       },
@@ -16766,7 +16728,7 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": "2025-07-09",
         "confidence": "checked",
-        "notes": "2026-06-05 自官方名錄查得狀態為「運作中」；最近資料更新：2025-07-09；設立日期：2006-06-05。"
+        "notes": "2026-06-05 自官方名錄查得狀態為「運作中」；最近資料更新：2025-07-09；設立日期：2006-06-04。"
       }
     },
     {
@@ -37185,11 +37147,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "source-dated",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0120-candidate-cb6bb18de2b3 on 2026-06-03. Candidate signals: 2026, 115年, 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0120-candidate-cb6bb18de2b3 on 2026-06-05. Candidate signals: 2026, 115年, 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0120-candidate-cb6bb18de2b3",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -37286,11 +37248,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0216-candidate-00b0d173327b on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0216-candidate-00b0d173327b on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0216-candidate-00b0d173327b",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -37383,11 +37345,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0216-candidate-7fac96da9863 on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0216-candidate-7fac96da9863 on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0216-candidate-7fac96da9863",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -37484,11 +37446,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0142-candidate-edcf116a7ea2 on 2026-06-03. Candidate signals: 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0142-candidate-edcf116a7ea2 on 2026-06-05. Candidate signals: 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0142-candidate-edcf116a7ea2",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -37581,11 +37543,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0142-candidate-9440507e681f on 2026-06-03. Candidate signals: 2025, 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0142-candidate-9440507e681f on 2026-06-05. Candidate signals: 2025, 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0142-candidate-9440507e681f",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -37681,11 +37643,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "source-dated",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0062-candidate-afa126236c26 on 2026-06-03. Candidate signals: 2026, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0062-candidate-afa126236c26 on 2026-06-05. Candidate signals: 2026, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0062-candidate-afa126236c26",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -37777,11 +37739,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0037-candidate-99657e97ca45 on 2026-06-03. Candidate signals: none. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0037-candidate-99657e97ca45 on 2026-06-05. Candidate signals: none. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0037-candidate-99657e97ca45",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -37877,11 +37839,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0028-candidate-bd3529d916a8 on 2026-06-03. Candidate signals: none. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0028-candidate-bd3529d916a8 on 2026-06-05. Candidate signals: none. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0028-candidate-bd3529d916a8",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -37970,11 +37932,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0028-candidate-311162cd4f6c on 2026-06-03. Candidate signals: none. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0028-candidate-311162cd4f6c on 2026-06-05. Candidate signals: none. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0028-candidate-311162cd4f6c",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38064,11 +38026,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "source-dated",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0143-candidate-3c54e5e5d6cb on 2026-06-03. Candidate signals: 2026, 114年, 114年度. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0143-candidate-3c54e5e5d6cb on 2026-06-05. Candidate signals: 2026, 114年, 114年度. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0143-candidate-3c54e5e5d6cb",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38156,11 +38118,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "source-dated",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0143-candidate-a6b00cc224c0 on 2026-06-03. Candidate signals: 2026, 114年, 114年度. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0143-candidate-a6b00cc224c0 on 2026-06-05. Candidate signals: 2026, 114年, 114年度. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0143-candidate-a6b00cc224c0",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38251,11 +38213,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0088-candidate-1c308720123e on 2026-06-03. Candidate signals: 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0088-candidate-1c308720123e on 2026-06-05. Candidate signals: 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0088-candidate-1c308720123e",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38348,11 +38310,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "source-dated",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0118-candidate-477e4d86a667 on 2026-06-03. Candidate signals: 2026, 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0118-candidate-477e4d86a667 on 2026-06-05. Candidate signals: 2026, 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0118-candidate-477e4d86a667",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38443,11 +38405,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "source-dated",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0118-candidate-ab34bb07a886 on 2026-06-03. Candidate signals: 2026, 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0118-candidate-ab34bb07a886 on 2026-06-05. Candidate signals: 2026, 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0118-candidate-ab34bb07a886",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38547,11 +38509,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0064-candidate-3fedd586f308 on 2026-06-03. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0064-candidate-3fedd586f308 on 2026-06-05. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0064-candidate-3fedd586f308",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38640,11 +38602,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0064-candidate-0eaf2b5ea597 on 2026-06-03. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0064-candidate-0eaf2b5ea597 on 2026-06-05. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0064-candidate-0eaf2b5ea597",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38735,11 +38697,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0091-candidate-add901502fa9 on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0091-candidate-add901502fa9 on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0091-candidate-add901502fa9",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38832,11 +38794,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0091-candidate-1667bfbc2af3 on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0091-candidate-1667bfbc2af3 on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0091-candidate-1667bfbc2af3",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -38927,11 +38889,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0057-candidate-8a92b5aa8a08 on 2026-06-03. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0057-candidate-8a92b5aa8a08 on 2026-06-05. Candidate signals: 最新消息, 公告. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0057-candidate-8a92b5aa8a08",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -39019,11 +38981,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "source-dated",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0061-candidate-57f25c828412 on 2026-06-03. Candidate signals: 2026, 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0061-candidate-57f25c828412 on 2026-06-05. Candidate signals: 2026, 2025, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0061-candidate-57f25c828412",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -39107,11 +39069,11 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "source-dated",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0094-candidate-eb9b8445c4f5 on 2026-06-03. Candidate signals: 2026, 2025, 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0094-candidate-eb9b8445c4f5 on 2026-06-05. Candidate signals: 2026, 2025, 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-a0094-candidate-eb9b8445c4f5",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
     },
@@ -39200,13 +39162,1164 @@
         "lastChecked": "2026-06-05",
         "sourceUpdatedAt": null,
         "confidence": "checked",
-        "notes": "Converted from manually reviewed candidate sfaa-foundation-e0011-candidate-3d0b3f56a989 on 2026-06-03. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-e0011-candidate-3d0b3f56a989 on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
       },
       "programReview": {
         "candidateId": "sfaa-foundation-e0011-candidate-3d0b3f56a989",
-        "reviewedAt": "2026-06-03",
+        "reviewedAt": "2026-06-05",
         "selectionPolicy": "manual-allowlist"
       }
+    },
+    {
+      "id": "foundation-program-a0285-a0d6c6c1aa67",
+      "name": "墨仙急難救助金",
+      "summary": "墨仙基金會提供弱勢兒少家庭在就學、生活、醫療與喪葬急難上的短中長期扶助；案家不能自行申請，需由社工、醫院社工、立案社福機構或學校社工、教師轉介。",
+      "provider": "財團法人墨仙社會福利慈善基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中正區"
+      ],
+      "audiences": [
+        "弱勢兒少",
+        "兒少家庭",
+        "急難家庭",
+        "低收入戶",
+        "中低收入戶",
+        "身心障礙者",
+        "兒童(含青少年)",
+        "其他"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "兒童及青少年福利",
+        "醫療補助",
+        "低收入戶與中低收入戶救助",
+        "民間社福資源",
+        "社福基金會",
+        "方案級民間資源"
+      ],
+      "needTags": [
+        "墨仙",
+        "急難救助",
+        "兒少家庭",
+        "學雜費",
+        "生活費",
+        "醫療補助",
+        "喪葬補助",
+        "社工轉介",
+        "急難",
+        "救助",
+        "福利",
+        "計畫",
+        "最新消息",
+        "服務",
+        "服務項目",
+        "方案",
+        "115年",
+        "114年",
+        "兒少",
+        "申請",
+        "辦法",
+        "扶助",
+        "弱勢",
+        "家庭",
+        "兒童",
+        "青少年",
+        "少年",
+        "照顧",
+        "補助",
+        "醫療",
+        "文件",
+        "低收入",
+        "中低收入",
+        "身心障礙",
+        "獎助",
+        "公告"
+      ],
+      "eligibility": "適合未滿18歲兒童及青少年之弱勢家庭，尤其是失親、缺乏母愛或其他經濟困境家庭；需由社政、醫院、社福機構或學校端專業人員轉介，實際補助由基金會審查。",
+      "howToApply": [
+        "先由社會局處社工、醫院社工、立案社福機構社工或學校社工、教師完成個案評估與轉介。",
+        "轉介單位實際訪視後，在轉介單內說明建議補助項目與補助方式。",
+        "以電子郵件送交轉介單與附件；基金會收到資料後約10個工作天內回覆審查結果。"
+      ],
+      "documents": [
+        "社福慈善急難救助轉介單",
+        "3個月內全戶戶籍謄本或戶口名簿影本",
+        "低收入戶證明、中低收入戶證明或最近一年度所得與財產清單",
+        "主要照顧者無法工作或家庭變故證明，如診斷證明、身障證明、重大傷病、非自願離職、在監或死亡證明",
+        "受補助人或監護人存摺封面影本",
+        "醫療收據、學雜費收據或其他補助項目證明"
+      ],
+      "contact": {
+        "phone": "02-2777-4991",
+        "email": "info@moxian.org",
+        "address": "臺北市中正區長安東路2段162號4樓之6",
+        "website": "https://www.moxian.org"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.moxian.org/service1.html",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0285-candidate-a0d6c6c1aa67"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-05",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0285-candidate-a0d6c6c1aa67 on 2026-06-05. Candidate signals: 2026, 115年, 114年, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0285-candidate-a0d6c6c1aa67",
+        "reviewedAt": "2026-06-05",
+        "selectionPolicy": "manual-allowlist"
+      },
+      "applicationConditions": [
+        {
+          "label": "服務對象",
+          "requirement": "未滿18歲兒童及青少年之弱勢家庭，尤其是失親、缺乏母愛或其他經濟困境家庭。",
+          "sourceUrl": "https://www.moxian.org/service1.html"
+        },
+        {
+          "label": "轉介限制",
+          "requirement": "不接受案家自行申請，需由縣市社會局處社工、醫院社工、立案社福機構社工或公私立學校社工、教師轉介。",
+          "sourceUrl": "https://www.moxian.org/service1.html"
+        },
+        {
+          "label": "經濟或急難事由",
+          "requirement": "需能提出低收入戶、中低收入戶、所得財產清單、主要照顧者不能工作或其他急難事由等資料供審查。",
+          "sourceUrl": "https://www.moxian.org/service1.html"
+        }
+      ],
+      "conditionSourceNote": "來源頁明列服務對象與轉介限制；是否核定仍以基金會個案審查為準。",
+      "benefitItems": [
+        {
+          "label": "就學相關費用",
+          "amount": "依個案核定",
+          "unit": "每案",
+          "note": "可含學費、制服、校車費、課後照顧費、補習費、幼兒園收托費、營養午餐費。",
+          "sourceUrl": "https://www.moxian.org/service1.html"
+        },
+        {
+          "label": "生活與租屋",
+          "amount": "依個案核定",
+          "unit": "每案",
+          "note": "可含生活費、租屋補助費、生活必需家電用品。",
+          "sourceUrl": "https://www.moxian.org/service1.html"
+        },
+        {
+          "label": "醫療補助",
+          "amount": "依個案核定",
+          "unit": "每案",
+          "note": "可含心理諮商、職能或物理治療、醫療耗材、住院開刀醫療費用。",
+          "sourceUrl": "https://www.moxian.org/service1.html"
+        },
+        {
+          "label": "緊急救助",
+          "amount": "依個案核定",
+          "unit": "每案",
+          "note": "可含喪葬補助費；實際項目由基金會依個案需求審查。",
+          "sourceUrl": "https://www.moxian.org/service1.html"
+        }
+      ],
+      "benefitSourceNote": "來源頁說明補助非固定金額，會依個案需求與審查結果核定。",
+      "applicationMethodSourceNote": "這項資源重點是轉介與資料完整度，不是由民眾自行線上送件。"
+    },
+    {
+      "id": "foundation-program-a0285-d064d45f6df5",
+      "name": "墨仙小樹苗成長方案",
+      "summary": "補助公私立兒少服務單位辦理18歲以下弱勢兒少課後照顧、多元學習、性別教育、職涯探索等方案；115年度收件期間為115年1月1日至2月28日。",
+      "provider": "財團法人墨仙社會福利慈善基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "中正區"
+      ],
+      "audiences": [
+        "弱勢兒少",
+        "兒童",
+        "青少年",
+        "社福團體",
+        "學校承辦人",
+        "兒童(含青少年)",
+        "其他",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "兒童及青少年福利",
+        "教育支持",
+        "課後照顧",
+        "民間社福資源",
+        "醫療補助",
+        "急難救助(短期、臨時性補助)",
+        "社福基金會",
+        "方案級民間資源"
+      ],
+      "needTags": [
+        "墨仙",
+        "小樹苗",
+        "弱勢兒少",
+        "課後照顧",
+        "兒少培力",
+        "115年度",
+        "方案補助",
+        "方案",
+        "福利",
+        "計畫",
+        "最新消息",
+        "服務",
+        "服務項目",
+        "急難",
+        "救助",
+        "115年",
+        "114年",
+        "兒少",
+        "申請",
+        "辦法",
+        "弱勢",
+        "兒童",
+        "青少年",
+        "少年",
+        "服務方案",
+        "補助",
+        "照顧",
+        "獎助",
+        "公告",
+        "文件",
+        "2026",
+        "電話",
+        "財團法人墨仙社會福利慈善基金會",
+        "小樹苗成長方案",
+        "小樹苗成長方案 - 財團法人墨仙社會福利慈善基金會",
+        "人工確認方案"
+      ],
+      "eligibility": "申請單位需為公私立兒少服務單位，方案服務對象為國小、國中、高中階段且未滿18歲之弱勢兒童及青少年。",
+      "howToApply": [
+        "於收件期間以郵寄或電子郵件送交方案計畫書與附件。",
+        "計畫書須寫明方案緣起、目的、服務對象、預期效益、執行方式、經費概算及效益評估。",
+        "方案執行後兩週內提供成果、經費明細、憑證影本及照片等核銷資料。"
+      ],
+      "documents": [
+        "申請公文",
+        "經費申請表",
+        "方案計畫書",
+        "單位立案證明",
+        "方案核銷與成果資料，如成果報告、經費明細、收據影本與照片"
+      ],
+      "contact": {
+        "phone": "02-2777-4991",
+        "email": "info@moxian.org",
+        "address": "臺北市中正區長安東路2段162號4樓之6",
+        "website": "https://www.moxian.org"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.moxian.org/service2.html",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0285-candidate-d064d45f6df5"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-05",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0285-candidate-d064d45f6df5 on 2026-06-05. Candidate signals: 2026, 115年, 115年度, 114年, 最新消息, 公告. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0285-candidate-d064d45f6df5",
+        "reviewedAt": "2026-06-05",
+        "selectionPolicy": "manual-allowlist"
+      },
+      "applicationConditions": [
+        {
+          "label": "申請單位",
+          "requirement": "公私立兒少服務單位，且方案服務對象為未滿18歲弱勢兒童及青少年。",
+          "sourceUrl": "https://www.moxian.org/service2.html"
+        },
+        {
+          "label": "方案主題",
+          "requirement": "可辦理課後照顧、生活能力、多元學習、品格教育、性別教育、自我探索、職涯規劃、社交與金錢概念等成長方案。",
+          "sourceUrl": "https://www.moxian.org/service2.html"
+        },
+        {
+          "label": "115年度收件期間",
+          "requirement": "115年1月1日起至115年2月28日止；跨年度申請前需再確認最新公告。",
+          "sourceUrl": "https://www.moxian.org/service2.html"
+        }
+      ],
+      "conditionSourceNote": "來源頁列出115年度收件期間與方案主題；是否核定以基金會審查為準。",
+      "benefitItems": [
+        {
+          "label": "方案經費補助",
+          "amount": "依計畫總經費酌予補助",
+          "unit": "每案",
+          "note": "不補助人事費、志工鐘點費或車馬費、勞健保、場地或房舍租金、水電瓦斯與設備費。",
+          "sourceUrl": "https://www.moxian.org/service2.html"
+        }
+      ],
+      "benefitSourceNote": "來源頁說明補助金額依申請單位提出之方案總經費，由基金會酌予補助。",
+      "applicationMethodSourceNote": "這是單位申請型方案，不是個人或家庭直接申請的生活補助。"
+    },
+    {
+      "id": "foundation-program-a0106-31317b5b1e92",
+      "name": "勵馨親密關係暴力／家庭暴力被害人服務",
+      "summary": "勵馨提供親密關係暴力與家庭暴力被害人的安全計畫、法律服務、居住資源、經濟安全、生活重建與子女照顧支持；若有立即危險，請先撥110或113。",
+      "provider": "財團法人勵馨社會福利事業基金會",
+      "jurisdiction": "全國",
+      "county": "新北市",
+      "districts": [
+        "新店區"
+      ],
+      "audiences": [
+        "受暴者",
+        "婦女",
+        "兒少家庭",
+        "家庭",
+        "社工或轉介單位",
+        "兒童(含青少年)",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "保護服務",
+        "家庭照顧支持",
+        "居住資源",
+        "法律與心理支持",
+        "民間社福資源",
+        "婦女權益與福利",
+        "兒童及青少年福利",
+        "急難救助(短期、臨時性補助)"
+      ],
+      "needTags": [
+        "勵馨",
+        "家庭暴力",
+        "親密關係暴力",
+        "保護令",
+        "庇護安置",
+        "子女照顧",
+        "113",
+        "家庭",
+        "服務",
+        "最新消息",
+        "服務項目",
+        "兒童",
+        "青少年",
+        "少年",
+        "專案",
+        "聯絡",
+        "申請",
+        "報名",
+        "照顧",
+        "醫療",
+        "婦女",
+        "兒少",
+        "計畫",
+        "扶助",
+        "福利",
+        "服務內容",
+        "電話",
+        "洽詢",
+        "財團法人勵馨社會福利事業基金會",
+        "親密關係暴力／家庭暴力被害人服務",
+        "親密關係暴力／家庭暴力 (家暴) 被害人服務_勵馨基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合遭遇親密關係暴力、家庭暴力者及其子女或家庭查詢；緊急危險應先撥110或113，後續服務由勵馨、地方家庭暴力防治中心或保護網絡評估。",
+      "howToApply": [
+        "若有立即人身危險，先撥110；需要保護或社政協助可撥113。",
+        "非立即危險可洽勵馨服務據點、地方家庭暴力防治中心或由社工轉介。",
+        "向承辦社工說明安全、居住、司法、醫療、經濟與子女照顧需求，由社工評估服務。"
+      ],
+      "documents": [
+        "身分資料",
+        "保護令、通報資料或案情資料（如有）",
+        "醫療、居住、經濟或子女照顧需求資料",
+        "承辦社工評估時要求的補充文件"
+      ],
+      "contact": {
+        "phone": "02-89115595＃307",
+        "email": "secretary@goh.org.tw",
+        "address": "新北市新店區順安街2-1號1樓",
+        "website": "https://www.goh.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.goh.org.tw/services/intimate-violence/",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0106-candidate-31317b5b1e92"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-05",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0106-candidate-31317b5b1e92 on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0106-candidate-31317b5b1e92",
+        "reviewedAt": "2026-06-05",
+        "selectionPolicy": "manual-allowlist"
+      },
+      "applicationConditions": [
+        {
+          "label": "服務對象",
+          "requirement": "遭遇親密關係暴力或家庭暴力的被害人及其子女、家庭。",
+          "sourceUrl": "https://www.goh.org.tw/services/intimate-violence/"
+        },
+        {
+          "label": "危險處理",
+          "requirement": "有立即人身安全危險時，應先撥110；需要保護或社政協助可撥113。",
+          "sourceUrl": "https://www.goh.org.tw/services/intimate-violence/"
+        },
+        {
+          "label": "服務評估",
+          "requirement": "後續會依安全、司法、醫療、庇護、經濟與子女照顧需求安排服務或轉介。",
+          "sourceUrl": "https://www.goh.org.tw/services/intimate-violence/"
+        }
+      ],
+      "conditionSourceNote": "來源頁是服務說明頁，服務內容與可服務縣市需依勵馨據點及社政保護網絡評估。",
+      "benefitItems": [
+        {
+          "label": "安全計畫與危機處理",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "協助安全評估、危機處理與保護網絡連結。",
+          "sourceUrl": "https://www.goh.org.tw/services/intimate-violence/"
+        },
+        {
+          "label": "法律與司法陪伴",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "可含法律諮詢、保護令、出庭陪伴與司法流程支持。",
+          "sourceUrl": "https://www.goh.org.tw/services/intimate-violence/"
+        },
+        {
+          "label": "居住與庇護資源",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "可連結緊急短期庇護、中長期庇護或獨立居住資源。",
+          "sourceUrl": "https://www.goh.org.tw/services/intimate-violence/"
+        },
+        {
+          "label": "經濟安全與生活重建",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "協助經濟安全、就業準備、子女照顧與生活重建。",
+          "sourceUrl": "https://www.goh.org.tw/services/intimate-violence/"
+        }
+      ],
+      "benefitSourceNote": "此頁主要是保護服務與資源連結，不是固定金額現金補助。",
+      "applicationMethodSourceNote": "保護服務通常先求安全，再由社工依風險與需求安排下一步。"
+    },
+    {
+      "id": "foundation-program-a0106-e2c62d99e2a3",
+      "name": "勵馨性暴力防治服務",
+      "summary": "勵馨提供性侵害、性騷擾與數位性別暴力被害人及重要他人的社工評估、司法醫療連結、創傷復原、心理諮商與家庭支持服務。",
+      "provider": "財團法人勵馨社會福利事業基金會",
+      "jurisdiction": "全國",
+      "county": "新北市",
+      "districts": [
+        "新店區"
+      ],
+      "audiences": [
+        "受暴者",
+        "婦女",
+        "兒童(含青少年)",
+        "家庭",
+        "社工或轉介單位",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "保護服務",
+        "心理諮商",
+        "醫療與司法支持",
+        "法律與心理支持",
+        "民間社福資源",
+        "婦女權益與福利",
+        "兒童及青少年福利",
+        "急難救助(短期、臨時性補助)"
+      ],
+      "needTags": [
+        "勵馨",
+        "性侵害",
+        "性騷擾",
+        "數位性別暴力",
+        "創傷復原",
+        "心理諮商",
+        "113",
+        "服務",
+        "最新消息",
+        "服務項目",
+        "家庭",
+        "兒童",
+        "青少年",
+        "少年",
+        "專案",
+        "聯絡",
+        "申請",
+        "報名",
+        "醫療",
+        "扶助",
+        "計畫",
+        "補助",
+        "服務內容",
+        "社福",
+        "婦女",
+        "福利",
+        "洽詢",
+        "兒少",
+        "電話",
+        "財團法人勵馨社會福利事業基金會",
+        "性暴力防治服務",
+        "性暴力防治服務 - 勵馨基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合性侵害、性騷擾、數位性別暴力等性創傷被害人及其重要他人查詢；實際服務內容由勵馨或地方保護網絡評估。",
+      "howToApply": [
+        "若有立即危險先撥110；需要保護服務可撥113。",
+        "可洽勵馨性暴力防治服務或地方保護網絡，由社工評估需求。",
+        "說明事件類型、目前安全狀況、司法醫療需求與是否需要心理諮商或家庭支持。"
+      ],
+      "documents": [
+        "身分資料",
+        "通報、報案、醫療或司法資料（如有）",
+        "安全、諮商、就學、就業或家庭支持需求資料",
+        "承辦社工或諮商單位要求文件"
+      ],
+      "contact": {
+        "phone": "02-89115595＃307",
+        "email": "secretary@goh.org.tw",
+        "address": "新北市新店區順安街2-1號1樓",
+        "website": "https://www.goh.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.goh.org.tw/services/prevention/",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0106-candidate-e2c62d99e2a3"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-05",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0106-candidate-e2c62d99e2a3 on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0106-candidate-e2c62d99e2a3",
+        "reviewedAt": "2026-06-05",
+        "selectionPolicy": "manual-allowlist"
+      },
+      "applicationConditions": [
+        {
+          "label": "服務對象",
+          "requirement": "性侵害、性騷擾、數位性別暴力等性創傷被害人及其重要他人。",
+          "sourceUrl": "https://www.goh.org.tw/services/prevention/"
+        },
+        {
+          "label": "可連結資源",
+          "requirement": "可依需求連結司法、醫療、經濟、心理諮商、就業、就學與社會工作服務。",
+          "sourceUrl": "https://www.goh.org.tw/services/prevention/"
+        },
+        {
+          "label": "服務評估",
+          "requirement": "由社工評估安全、創傷復原、法律、醫療與家庭支持需求後安排服務。",
+          "sourceUrl": "https://www.goh.org.tw/services/prevention/"
+        }
+      ],
+      "conditionSourceNote": "來源頁說明服務對象與服務內容；緊急危險或保護需求仍應先使用110、113或地方保護網絡。",
+      "benefitItems": [
+        {
+          "label": "社工評估與資源連結",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "協助司法、醫療、經濟、就業、就學與安全資源連結。",
+          "sourceUrl": "https://www.goh.org.tw/services/prevention/"
+        },
+        {
+          "label": "心理諮商與創傷復原",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "可含個別、伴侶、家庭或團體諮商與創傷復原支持。",
+          "sourceUrl": "https://www.goh.org.tw/services/prevention/"
+        },
+        {
+          "label": "數位性別暴力服務",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "針對影像外流、網路性暴力等數位性別暴力提供支持與資源連結。",
+          "sourceUrl": "https://www.goh.org.tw/services/prevention/"
+        }
+      ],
+      "benefitSourceNote": "此頁主要是保護服務與諮商支持，不是固定金額現金補助。",
+      "applicationMethodSourceNote": "若有立即安全危險先求助110；需要保護、陪伴或轉介可洽113、勵馨或地方保護網絡。"
+    },
+    {
+      "id": "foundation-program-a0106-6e18e3b42a09",
+      "name": "勵馨兒童與青少年服務",
+      "summary": "勵馨提供兒少保護、安置照顧、未成年懷孕與青少年家長支持、收出養、兒少性剝削防治與青少年就業陪伴等服務。",
+      "provider": "財團法人勵馨社會福利事業基金會",
+      "jurisdiction": "全國",
+      "county": "新北市",
+      "districts": [
+        "新店區"
+      ],
+      "audiences": [
+        "兒童(含青少年)",
+        "弱勢兒少",
+        "家庭",
+        "未成年懷孕者",
+        "社工或轉介單位",
+        "婦女",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "兒童及青少年福利",
+        "安置與保護",
+        "家庭照顧支持",
+        "就業支持",
+        "民間社福資源",
+        "婦女權益與福利",
+        "急難救助(短期、臨時性補助)",
+        "社福基金會"
+      ],
+      "needTags": [
+        "勵馨",
+        "兒少保護",
+        "安置",
+        "未成年懷孕",
+        "青少年家長",
+        "收出養",
+        "兒少性剝削",
+        "青少年就業",
+        "兒童",
+        "青少年",
+        "少年",
+        "服務",
+        "最新消息",
+        "服務項目",
+        "家庭",
+        "專案",
+        "聯絡",
+        "申請",
+        "報名",
+        "照顧",
+        "兒少",
+        "醫療",
+        "補助",
+        "服務內容",
+        "服務方案",
+        "方案",
+        "社福",
+        "福利",
+        "受理",
+        "資格",
+        "弱勢",
+        "獎助",
+        "婦女",
+        "洽詢",
+        "財團法人勵馨社會福利事業基金會",
+        "兒童與青少年服務"
+      ],
+      "eligibility": "適合兒少面臨家庭支持不足、暴力創傷、安置保護、性剝削、未成年懷孕、青少年育兒、收出養或就業轉銜需求時查詢；實際收案由勵馨或地方社政保護網絡評估。",
+      "howToApply": [
+        "若兒少有立即安全風險，先撥110或113。",
+        "可由地方社政、學校、醫療院所、社福機構或勵馨據點轉介與洽詢。",
+        "向社工說明兒少安全、照顧、居住、就學、醫療、法律、經濟或就業需求，由服務端評估。"
+      ],
+      "documents": [
+        "兒少與家庭身分資料",
+        "社政、學校、醫療或保護網絡轉介資料（如有）",
+        "照顧、就學、居住、醫療、法律或經濟需求資料",
+        "承辦社工評估時要求文件"
+      ],
+      "contact": {
+        "phone": "02-89115595＃307",
+        "email": "secretary@goh.org.tw",
+        "address": "新北市新店區順安街2-1號1樓",
+        "website": "https://www.goh.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.goh.org.tw/services/children-youth/",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0106-candidate-6e18e3b42a09"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-05",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0106-candidate-6e18e3b42a09 on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0106-candidate-6e18e3b42a09",
+        "reviewedAt": "2026-06-05",
+        "selectionPolicy": "manual-allowlist"
+      },
+      "applicationConditions": [
+        {
+          "label": "兒少與家庭困境",
+          "requirement": "兒少面臨家庭支持不足、照顧壓力、不利童年經驗、家庭暴力、性侵害、性剝削、經濟或居住需求。",
+          "sourceUrl": "https://www.goh.org.tw/services/children-youth/"
+        },
+        {
+          "label": "特殊服務需求",
+          "requirement": "包含安置照顧、未成年懷孕與青少年家長、收出養、兒少性剝削防治與青少年就業支持。",
+          "sourceUrl": "https://www.goh.org.tw/services/children-youth/"
+        },
+        {
+          "label": "轉介評估",
+          "requirement": "多數服務需由勵馨據點、地方社政或保護網絡依兒少安全與家庭需求評估。",
+          "sourceUrl": "https://www.goh.org.tw/services/children-youth/"
+        }
+      ],
+      "conditionSourceNote": "來源頁為服務整合頁，實際服務區域、收案資格與轉介流程須依各服務據點或社政單位評估。",
+      "benefitItems": [
+        {
+          "label": "安置與生活照顧",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "可含庇護、住宿、生活照顧、就學適應與自立培力。",
+          "sourceUrl": "https://www.goh.org.tw/services/children-youth/"
+        },
+        {
+          "label": "未成年懷孕與青少年家長支持",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "提供懷孕、育兒、居住、家庭與生活重建支持。",
+          "sourceUrl": "https://www.goh.org.tw/services/children-youth/"
+        },
+        {
+          "label": "兒少性剝削防治與創傷復原",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "提供保護、社工、創傷復原與資源連結。",
+          "sourceUrl": "https://www.goh.org.tw/services/children-youth/"
+        },
+        {
+          "label": "青少年就業陪伴",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "協助職涯探索、就業準備、技能培力與轉銜。",
+          "sourceUrl": "https://www.goh.org.tw/services/children-youth/"
+        }
+      ],
+      "benefitSourceNote": "此頁主要是兒少保護與服務支持，不是固定金額現金補助。",
+      "applicationMethodSourceNote": "兒少保護類服務建議先由社政、學校、醫療或社福端轉介；若有急迫安全風險先撥113或110。"
+    },
+    {
+      "id": "foundation-program-a0203-8be1c3936e2c",
+      "name": "瑪喜樂身心障礙者就業服務",
+      "summary": "瑪喜樂基金會提供身心障礙者職業輔導評量、支持性就業、職場開發、職場支持與產品行銷訓練，協助身心障礙者穩定就業。",
+      "provider": "財團法人基督教瑪喜樂社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "彰化縣",
+      "districts": [
+        "彰化市"
+      ],
+      "audiences": [
+        "身心障礙者",
+        "求職者",
+        "社工或轉介單位",
+        "雇主",
+        "兒童(含青少年)",
+        "家庭",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "就業支持",
+        "職業重建",
+        "民間社福資源",
+        "兒童及青少年福利",
+        "志願服務",
+        "社福基金會",
+        "方案級民間資源"
+      ],
+      "needTags": [
+        "瑪喜樂",
+        "身障就業",
+        "支持性就業",
+        "職業輔導評量",
+        "職場開發",
+        "職業重建",
+        "福利",
+        "身心障礙",
+        "服務",
+        "聯絡",
+        "專案",
+        "最新消息",
+        "報名",
+        "照顧",
+        "服務內容",
+        "方案",
+        "電話",
+        "2026",
+        "財團法人基督教瑪喜樂社會福利基金會",
+        "身心障礙者就業服務",
+        "財團法人基督教瑪喜樂社會福利基金會;喜樂保育院 > 身心障礙者就業服務",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合有就業支持、職業評量或職場適應需求之身心障礙者查詢；職業輔導評量以政府轉介個案為主，實際服務由承辦單位評估。",
+      "howToApply": [
+        "先洽瑪喜樂基金會或地方身心障礙就業服務窗口。",
+        "由承辦人員評估就業需求、職業能力與支持方式。",
+        "依評估安排職業輔導評量、職場開發、支持性就業或技能訓練。"
+      ],
+      "documents": [
+        "身分資料",
+        "身心障礙證明",
+        "就業或職涯需求資料",
+        "政府轉介資料（如有）"
+      ],
+      "contact": {
+        "phone": "04-8960271＃132",
+        "email": "joyce929@ms11.hinet.net",
+        "address": "彰化縣彰化市中西里二城路7號",
+        "website": "https://www.joyce929.org.tw"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.joyce929.org.tw/OnePage.aspx?tid=199",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0203-candidate-8be1c3936e2c"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-05",
+        "sourceUpdatedAt": null,
+        "confidence": "source-dated",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0203-candidate-8be1c3936e2c on 2026-06-05. Candidate signals: 2026, 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0203-candidate-8be1c3936e2c",
+        "reviewedAt": "2026-06-05",
+        "selectionPolicy": "manual-allowlist"
+      },
+      "applicationConditions": [
+        {
+          "label": "服務對象",
+          "requirement": "有就業支持、職業評量、職場適應或技能訓練需求之身心障礙者。",
+          "sourceUrl": "https://www.joyce929.org.tw/OnePage.aspx?tid=199"
+        },
+        {
+          "label": "職業輔導評量",
+          "requirement": "來源頁說明以政府轉介之身心障礙者為服務對象。",
+          "sourceUrl": "https://www.joyce929.org.tw/OnePage.aspx?tid=199"
+        },
+        {
+          "label": "就業支持",
+          "requirement": "需經晤談、需求評估、職場開發與資源聯繫後安排支持性就業或訓練。",
+          "sourceUrl": "https://www.joyce929.org.tw/OnePage.aspx?tid=199"
+        }
+      ],
+      "conditionSourceNote": "來源頁列出職業輔導評量、支持性就業與行銷訓練內容；資格與轉介仍以承辦單位或地方就服窗口為準。",
+      "benefitItems": [
+        {
+          "label": "職業輔導評量",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依轉介與評估",
+          "note": "協助了解身心障礙者就業能力、工作興趣與適性方向。",
+          "sourceUrl": "https://www.joyce929.org.tw/OnePage.aspx?tid=199"
+        },
+        {
+          "label": "支持性就業",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "包含晤談、職場開發、資源聯繫與職場支持。",
+          "sourceUrl": "https://www.joyce929.org.tw/OnePage.aspx?tid=199"
+        },
+        {
+          "label": "產品行銷與技能訓練",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "透過標準化流程、技能培力與銷售平台協助身障者工作參與。",
+          "sourceUrl": "https://www.joyce929.org.tw/OnePage.aspx?tid=199"
+        }
+      ],
+      "benefitSourceNote": "此頁主要是就業服務與訓練支持，不是固定金額現金補助。",
+      "applicationMethodSourceNote": "建議先洽地方身障就業服務窗口或基金會，確認是否需政府轉介。"
+    },
+    {
+      "id": "foundation-program-a0283-470a7eb02f58",
+      "name": "脊髓損傷家庭經濟協助",
+      "summary": "脊髓損傷基金會針對傷友或家庭近期因災害、意外、重大變故或緊急事件陷入困境者，提供一次性暫時經濟協助，包含生活、醫療、輔具、就業、居家無障礙修繕與物資協助。",
+      "provider": "財團法人脊髓損傷社會福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺北市",
+      "districts": [
+        "大同區"
+      ],
+      "audiences": [
+        "身心障礙者",
+        "脊髓損傷者",
+        "急難家庭",
+        "經濟困難家庭",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "身心障礙福利",
+        "醫療補助",
+        "輔具",
+        "居住修繕",
+        "民間社福資源",
+        "社福基金會",
+        "方案級民間資源"
+      ],
+      "needTags": [
+        "脊髓損傷",
+        "家庭經濟協助",
+        "急難",
+        "醫療",
+        "輔具",
+        "無障礙修繕",
+        "物資",
+        "家庭",
+        "福利",
+        "服務",
+        "服務項目",
+        "身障",
+        "專案",
+        "補助",
+        "申請",
+        "救助",
+        "財團法人脊髓損傷社會福利基金會",
+        "家庭經濟協助 | 財團法人脊髓損傷社會福利基金會│陪伴傷友從受傷那刻至生命終了都獲得善待",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合脊髓損傷傷友本人或家庭，於近期發生災害、意外、重大變故或緊急事件造成生活困難時查詢；原則上需在事故或需求發生3個月內提出。",
+      "howToApply": [
+        "於急難事故或需協助事項發生3個月內洽基金會。",
+        "說明事故、生活困境與需要協助的項目。",
+        "依基金會要求提供傷友身分、醫療、事故、收入、支出、修繕或輔具估價等資料。"
+      ],
+      "documents": [
+        "身分資料",
+        "脊髓損傷或身心障礙相關證明",
+        "急難事故、重大變故或緊急事件證明",
+        "收入、支出、醫療、輔具、修繕或物資需求資料"
+      ],
+      "contact": {
+        "phone": "02-25579060",
+        "email": "rain@scsrc.org.tw",
+        "address": "臺北市大同區民權西路136號12樓之2",
+        "website": "http://www.scif.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.scif.org.tw/article.php?lang=tw&tb=3&cid=71",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0283-candidate-470a7eb02f58"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-05",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0283-candidate-470a7eb02f58 on 2026-06-05. Candidate signals: none. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0283-candidate-470a7eb02f58",
+        "reviewedAt": "2026-06-05",
+        "selectionPolicy": "manual-allowlist"
+      },
+      "applicationConditions": [
+        {
+          "label": "服務對象",
+          "requirement": "脊髓損傷傷友或其家庭，近期因災害、意外、重大變故或緊急事件造成生活陷困。",
+          "sourceUrl": "https://www.scif.org.tw/article.php?lang=tw&tb=3&cid=71"
+        },
+        {
+          "label": "申請時限",
+          "requirement": "原則上於急難事故或所需協助事項發生3個月內提出。",
+          "sourceUrl": "https://www.scif.org.tw/article.php?lang=tw&tb=3&cid=71"
+        },
+        {
+          "label": "同一事由",
+          "requirement": "同一事由以申請一次為原則；特殊狀況由基金會另行評估。",
+          "sourceUrl": "https://www.scif.org.tw/article.php?lang=tw&tb=3&cid=71"
+        }
+      ],
+      "conditionSourceNote": "來源頁明列申請時限與同一事由以一次為原則；例外仍由基金會評估。",
+      "benefitItems": [
+        {
+          "label": "生活急難協助",
+          "amount": "依個案核定",
+          "unit": "每案",
+          "note": "因急難或重大變故造成生活困難時的暫時性支持。",
+          "sourceUrl": "https://www.scif.org.tw/article.php?lang=tw&tb=3&cid=71"
+        },
+        {
+          "label": "醫療與輔具協助",
+          "amount": "依個案核定",
+          "unit": "每案",
+          "note": "可含醫療、輔具或照護相關支出需求。",
+          "sourceUrl": "https://www.scif.org.tw/article.php?lang=tw&tb=3&cid=71"
+        },
+        {
+          "label": "就業與居家無障礙修繕",
+          "amount": "依個案核定",
+          "unit": "每案",
+          "note": "可含就業相關需求與居家無障礙修繕。",
+          "sourceUrl": "https://www.scif.org.tw/article.php?lang=tw&tb=3&cid=71"
+        },
+        {
+          "label": "物資或實物協助",
+          "amount": "依個案核定",
+          "unit": "每案",
+          "note": "依個案困境提供物資或其他必要協助。",
+          "sourceUrl": "https://www.scif.org.tw/article.php?lang=tw&tb=3&cid=71"
+        }
+      ],
+      "benefitSourceNote": "來源頁列出可協助項目，但未公告固定金額，實際依個案需求與基金會審查。",
+      "applicationMethodSourceNote": "重點是時限與急難事由，建議先電話確認文件與是否仍可受理。"
+    },
+    {
+      "id": "foundation-program-a0186-a41968fd1d3d",
+      "name": "弘道老人福利基金會長者服務",
+      "summary": "弘道提供健康老化、優質照顧、經濟安全、自我實現、高齡友善環境與人才培育等長者服務，適合長者、照顧者與中高齡者先查詢服務方向與在地資源。",
+      "provider": "財團法人弘道老人福利基金會",
+      "jurisdiction": "全國",
+      "county": "臺中市",
+      "districts": [
+        "西區"
+      ],
+      "audiences": [
+        "老人",
+        "中高齡者",
+        "家庭照顧者",
+        "經濟困難家庭",
+        "一般民眾",
+        "身心障礙者"
+      ],
+      "serviceCategories": [
+        "老人福利",
+        "長期照顧服務",
+        "社區據點",
+        "生活危機服務",
+        "就業支持",
+        "民間社福資源",
+        "志願服務",
+        "社福基金會"
+      ],
+      "needTags": [
+        "弘道",
+        "長者服務",
+        "健康老化",
+        "長照",
+        "送餐",
+        "居家修繕",
+        "急難支持",
+        "中高齡就業",
+        "服務",
+        "老人",
+        "福利",
+        "最新消息",
+        "專案",
+        "申請",
+        "計畫",
+        "方案",
+        "家庭",
+        "照顧",
+        "條件",
+        "弱勢",
+        "照護",
+        "財團法人弘道老人福利基金會",
+        "弘道服務",
+        "弘道服務 | 弘道老人福利基金會",
+        "人工確認方案",
+        "民間資源",
+        "今年度仍需電話確認"
+      ],
+      "eligibility": "適合長者或家庭有健康促進、照顧支持、經濟安全、生活危機、中高齡就業或社區參與需求時查詢；實際收案條件與服務區域以弘道各計畫或在地服務單位為準。",
+      "howToApply": [
+        "依需求從弘道服務頁進入對應計畫或服務據點。",
+        "可先洽弘道或在地服務單位，確認服務區域、收案條件與是否需要轉介。",
+        "若是急迫生活或照顧需求，先說明長者年齡、居住地、照顧狀況與經濟困難。"
+      ],
+      "documents": [
+        "身分與居住資料",
+        "長者照顧、健康或生活需求資料",
+        "經濟困難或急難事由證明（如申請支持服務）",
+        "各服務計畫要求文件"
+      ],
+      "contact": {
+        "phone": "04-22060698",
+        "email": "hondao@hondao.org.tw",
+        "address": "臺中市西區民權路234號3樓",
+        "website": "http://www.hondao.org.tw/"
+      },
+      "source": {
+        "id": "sfaa-social-welfare-foundations",
+        "url": "https://www.hondao.org.tw/service",
+        "type": "foundation-program-page",
+        "candidateId": "sfaa-foundation-a0186-candidate-a41968fd1d3d"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-05",
+        "sourceUpdatedAt": null,
+        "confidence": "checked",
+        "notes": "Converted from manually reviewed candidate sfaa-foundation-a0186-candidate-a41968fd1d3d on 2026-06-05. Candidate signals: 最新消息. Application details still require source-page or phone confirmation before use."
+      },
+      "programReview": {
+        "candidateId": "sfaa-foundation-a0186-candidate-a41968fd1d3d",
+        "reviewedAt": "2026-06-05",
+        "selectionPolicy": "manual-allowlist"
+      },
+      "applicationConditions": [
+        {
+          "label": "服務對象",
+          "requirement": "長者、中高齡者、家庭照顧者或有長者照顧與生活支持需求的家庭。",
+          "sourceUrl": "https://www.hondao.org.tw/service"
+        },
+        {
+          "label": "需求類型",
+          "requirement": "可依健康老化、長照、送餐、居家修繕、經濟安全、生活危機、中高齡就業或社區參與需求查詢。",
+          "sourceUrl": "https://www.hondao.org.tw/service"
+        },
+        {
+          "label": "在地服務限制",
+          "requirement": "實際可服務區域、收案條件、名額與費用以各計畫或在地服務單位確認為準。",
+          "sourceUrl": "https://www.hondao.org.tw/service"
+        }
+      ],
+      "conditionSourceNote": "來源頁為服務總覽，適合先理解可用資源類型；個別計畫的資格、名額與費用需再進入計畫頁或電話確認。",
+      "benefitItems": [
+        {
+          "label": "健康老化與社區服務",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依計畫",
+          "note": "可含健康管理、送餐服務與社區照顧。",
+          "sourceUrl": "https://www.hondao.org.tw/service"
+        },
+        {
+          "label": "優質照顧與居家支持",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依計畫",
+          "note": "可含長照服務、寒冬助老、居家修繕、清涼陪伴與志工服務。",
+          "sourceUrl": "https://www.hondao.org.tw/service"
+        },
+        {
+          "label": "經濟安全與生活危機服務",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依需求",
+          "note": "可含預防性經濟安全、生活困境減緩、急難支持與中高齡就業。",
+          "sourceUrl": "https://www.hondao.org.tw/service"
+        },
+        {
+          "label": "自我實現與高齡友善",
+          "amount": "服務協助，非定額現金補助",
+          "unit": "依計畫",
+          "note": "可含長者社會參與、志願服務、高齡友善環境與人才培育。",
+          "sourceUrl": "https://www.hondao.org.tw/service"
+        }
+      ],
+      "benefitSourceNote": "此頁是服務總覽；多數為服務支持或資源連結，不是固定金額現金補助。",
+      "applicationMethodSourceNote": "建議先用所在地與需求類型縮小範圍，再洽弘道或在地服務單位確認。"
     }
   ]
 }

@@ -431,12 +431,20 @@ function renderRelatedPrograms(programs) {
           .map(
             (program) => `
               <div class="related-program">
-                <div>
+                <div class="related-program-main">
                   <strong>${escapeHtml(program.name)}</strong>
                   <p>${escapeHtml(program.summary || program.eligibility || "依來源頁公告。")}</p>
                   <small>${escapeHtml((program.serviceCategories || []).slice(0, 3).join("、") || "方案資訊")}</small>
+                  <details class="related-program-detail">
+                    <summary>查看資源說明</summary>
+                    ${renderApplicationConditions(program)}
+                    ${renderBenefitItems(program)}
+                    ${renderApplicationMethod(program)}
+                    <div class="related-source-link">
+                      ${program.source?.url ? `<a href="${escapeHtml(program.source.url)}" target="_blank" rel="noopener">開啟來源頁</a>` : ""}
+                    </div>
+                  </details>
                 </div>
-                ${program.source?.url ? `<a href="${escapeHtml(program.source.url)}" target="_blank" rel="noopener">查看方案</a>` : ""}
               </div>
             `
           )

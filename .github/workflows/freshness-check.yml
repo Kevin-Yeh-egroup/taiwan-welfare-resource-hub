@@ -30,7 +30,7 @@ jobs:
         run: python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
 
       - name: Convert reviewed foundation program pages
-        run: python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json --allowlist data/formal-program-allowlist.json --out data/resources.json
+        run: python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json data/foundation-program-candidates-batch-c.json --allowlist data/formal-program-allowlist.json --out data/resources.json
 
       - name: Check source freshness
         run: python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json

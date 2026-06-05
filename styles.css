@@ -960,7 +960,7 @@ summary:focus-visible {
 
 .related-program {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr);
   align-items: start;
   gap: 10px;
   min-width: 0;
@@ -989,6 +989,37 @@ summary:focus-visible {
 .related-program small {
   color: var(--muted);
   line-height: 1.45;
+}
+
+.related-program-main {
+  min-width: 0;
+}
+
+.related-program-detail {
+  margin-top: 10px;
+  border-top: 1px solid #e4ece3;
+  padding-top: 8px;
+}
+
+.related-program-detail summary {
+  color: var(--teal);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.related-program-detail[open] summary {
+  margin-bottom: 8px;
+}
+
+.related-program-detail .condition-block,
+.related-program-detail .benefit-block,
+.related-program-detail .method-block {
+  margin-top: 8px;
+}
+
+.related-source-link {
+  margin-top: 10px;
 }
 
 .related-program a {
