@@ -73,6 +73,20 @@ Disallow: /
 - Production browser verification: county filter `臺東縣` showed 5 cards and included both `臺東縣115年度脫貧支持服務計畫購置學習設備補助` and `臺東縣中低收傷病醫療費用補助`; cards showed `申請條件`, `補助項目與金額`, and `申請注意事項`
 - Runtime logs: `vercel logs --since 1h --level error` returned no logs
 
+## Batch 3C Production Verification - 2026-06-05
+
+- Commit: `a9282bd`
+- Deployment: `dpl_GZm1m2oC2HXMnUyzpa1FcAPHfKKJ`
+- Deployment URL: `https://taiwan-welfare-resource-f68gxru7c-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/sources.json` `200`, `data/freshness-report.json` `200`, `robots.txt` `200`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 468 records, 92 sources, 92 freshness URLs checked, 0 freshness warnings
+- Batch 3C verification: 9 of 9 added offshore local cards present
+- Production browser verification: county filter `連江縣` showed all three added program cards: `連江縣低收入戶及中低收入戶生活扶助`, `連江縣政府民眾急難救助`, and `連江縣低收入戶及弱勢兒少醫療補助`; cards showed `申請條件`, `補助項目與金額`, and `申請注意事項`
+- Runtime logs: `vercel logs --since 1h --level error` returned no logs
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
