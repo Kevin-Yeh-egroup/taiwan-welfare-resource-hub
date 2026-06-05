@@ -19,6 +19,7 @@
   - `dpl_CtgEMFYBkq5XZRWdMhzzXeFnF3jU` from `c68f36448e15ca46b31f60224ed15c4f637c0528`
   - `dpl_8wf9Q6UqPZ2fdQrFJQDzjDNB2mhb` from `0dd738b9d3d7767a71c38da47df8f02b12b64f3b`
   - `dpl_BAmatL7kDMJjqwTfwmU9Pjd8bkLQ` from `12332e4b3d4c61832f0f3f9364d216e14a359258`
+  - `dpl_Hj9Fykc3wKe3PiH5k59zLpb269hX` from `edbda91`
 - Stable URL: `https://taiwan-welfare-resource-hub.vercel.app/`
 - Deployment source: GitHub `main`
 - Vercel source metadata: `source=git`, repo visibility `public`, branch alias `taiwan-welfare-resource-hub-git-main-egroup-task3s-projects.vercel.app`
@@ -57,6 +58,20 @@ Disallow: /
 - Production browser verification: county filter `苗栗縣` showed 3 cards and included both `苗栗縣低收入戶與中低收入戶產婦及新生兒營養補助` and `苗栗縣低收入戶及中低收入戶傷病住院看護費用補助`; cards showed `申請條件先看`, `補助項目與金額`, and `申請注意事項`
 - Runtime logs: `vercel logs --since 1h --level error` returned no logs
 - Screenshot note: local screenshot saved to `work/batch-3a-local-miaoli-results.png`; Production screenshot capture timed out in the browser tool, but DOM and HTTP verification succeeded
+
+## Batch 3B Production Verification - 2026-06-05
+
+- Commit: `edbda91`
+- Deployment: `dpl_Hj9Fykc3wKe3PiH5k59zLpb269hX`
+- Deployment URL: `https://taiwan-welfare-resource-fzg7rztmg-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/sources.json` `200`, `data/freshness-report.json` `200`, `robots.txt` `200`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 459 records, 83 sources, 83 freshness URLs checked, 0 freshness warnings
+- Batch 3B verification: 12 of 12 added southern/eastern local cards present
+- Production browser verification: county filter `臺東縣` showed 5 cards and included both `臺東縣115年度脫貧支持服務計畫購置學習設備補助` and `臺東縣中低收傷病醫療費用補助`; cards showed `申請條件`, `補助項目與金額`, and `申請注意事項`
+- Runtime logs: `vercel logs --since 1h --level error` returned no logs
 
 ## GitHub Actions
 
