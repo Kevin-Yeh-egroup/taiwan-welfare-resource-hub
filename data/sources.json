@@ -2553,6 +2553,1236 @@
       }
     },
     {
+      "id": "keelung-low-income-application-115",
+      "name": "基隆市115年低收入戶與中低收入戶申請",
+      "url": "https://www.klcg.gov.tw/tw/financial/2810-292783.html",
+      "organization": "基隆市政府",
+      "jurisdiction": "基隆市",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "基隆市",
+        "低收入戶",
+        "中低收入戶",
+        "115年度"
+      ],
+      "record": {
+        "summary": "基隆市115年低收入戶與中低收入戶申請說明，含最低生活費、動產、不動產及生活扶助款別。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "年度標準",
+          "生活補助"
+        ],
+        "needTags": [
+          "基隆低收入戶",
+          "基隆中低收入戶",
+          "基隆115標準",
+          "生活扶助"
+        ],
+        "eligibility": "115年度基隆市低收入戶最低生活費每人每月15,515元，中低收入戶每人每月23,273元；仍需同時審查家庭人口、收入、動產及不動產。",
+        "conditionSourceNote": "基隆市政府低收入戶、中低收入戶申請頁列出114、115年度標準。",
+        "applicationConditions": [
+          {
+            "label": "115年度低收入戶標準",
+            "requirement": "最低生活費每人每月15,515元；動產每人每年96,000元；不動產每戶385萬元。",
+            "note": "基隆市屬臺灣省標準地區，正式核定仍依戶籍地審查。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
+          },
+          {
+            "label": "115年度中低收入戶標準",
+            "requirement": "最低生活費1.5倍，每人每月23,273元；動產每人每年144,000元；不動產每戶462萬元。",
+            "note": "只看收入不等於一定通過，仍需看全戶財產與應計人口。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
+          }
+        ],
+        "benefitSourceNote": "基隆市頁面連結臺灣省低收入戶生活扶助等級；實際款別由審查結果認定。",
+        "benefitItems": [
+          {
+            "label": "低收入戶生活扶助",
+            "amount": "依款別核定",
+            "unit": "每月",
+            "note": "一款、二款、兒童及在學生活扶助依中央臺灣省標準及地方核定辦理。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
+          }
+        ],
+        "applicationMethodSourceNote": "通常向戶籍所在地區公所提出，實際應備文件依承辦單位通知。",
+        "howToApply": [
+          "向戶籍所在地區公所提出申請。",
+          "準備戶籍、收入、財產、動產、不動產及其他證明。",
+          "等待公所初審及市府核定。"
+        ],
+        "documents": [
+          "申請表",
+          "戶籍資料",
+          "收入與財產資料",
+          "郵局或指定帳戶",
+          "公所要求文件"
+        ],
+        "contact": {
+          "website": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115年度",
+          "confidence": "source-dated",
+          "notes": "Official Keelung application page."
+        },
+        "id": "keelung-low-income-application-115",
+        "name": "基隆市115年低收入戶與中低收入戶申請",
+        "provider": "基隆市政府",
+        "jurisdiction": "基隆市",
+        "county": "基隆市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "keelung-disability-living-assistance",
+      "name": "基隆市身心障礙者生活補助",
+      "url": "https://www.klcg.gov.tw/tw/financial/2798-113116.html",
+      "organization": "基隆市政府",
+      "jurisdiction": "基隆市",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "基隆市",
+        "身心障礙",
+        "生活補助",
+        "低收入戶"
+      ],
+      "record": {
+        "summary": "基隆市身心障礙者生活補助，依低收入戶、中低收入戶及障礙程度核給不同金額。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "基隆身障補助",
+          "身心障礙生活補助",
+          "低收入戶身障",
+          "中低收入身障"
+        ],
+        "eligibility": "需設籍基隆市並領有身心障礙證明，且符合家庭總收入、動產、不動產及未重複領取生活補助等規定。",
+        "conditionSourceNote": "基隆市政府頁面列出家庭總收入、財產及不得重複領取規定。",
+        "applicationConditions": [
+          {
+            "label": "身心障礙及經濟條件",
+            "requirement": "領有身心障礙證明，且家庭總收入平均未達當年度最低生活費2.5倍並未超過平均消費支出1.5倍。",
+            "note": "已領政府其他生活補助或津貼者，可能不得重複領取。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2798-113116.html"
+          }
+        ],
+        "benefitSourceNote": "基隆市政府頁面列出低收入戶及非低收入戶不同障礙程度金額。",
+        "benefitItems": [
+          {
+            "label": "低收入戶極重度、重度、中度",
+            "amount": "9,485元",
+            "unit": "每月",
+            "note": "低收入戶身心障礙者。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2798-113116.html"
+          },
+          {
+            "label": "低收入戶輕度",
+            "amount": "5,437元",
+            "unit": "每月",
+            "note": "低收入戶輕度身心障礙者。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2798-113116.html"
+          }
+        ],
+        "applicationMethodSourceNote": "身障生活補助通常向戶籍地區公所提出，由市府審查。",
+        "howToApply": [
+          "向戶籍所在地區公所提出申請。",
+          "檢附身心障礙證明及收入、財產相關資料。",
+          "由承辦單位確認是否與其他生活補助重複。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "申請表",
+          "戶籍資料",
+          "收入與財產資料",
+          "帳戶資料"
+        ],
+        "contact": {
+          "website": "https://www.klcg.gov.tw/tw/financial/2798-113116.html"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "Official Keelung disability subsidy page."
+        },
+        "id": "keelung-disability-living-assistance",
+        "name": "基隆市身心障礙者生活補助",
+        "provider": "基隆市政府",
+        "jurisdiction": "基隆市",
+        "county": "基隆市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "hsinchu-city-low-income-application-115",
+      "name": "新竹市低收入戶及中低收入戶資格與生活補助",
+      "url": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y",
+      "organization": "新竹市政府社會處",
+      "jurisdiction": "新竹市",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "新竹市",
+        "低收入戶",
+        "中低收入戶",
+        "生活補助",
+        "115年度"
+      ],
+      "record": {
+        "summary": "新竹市低收入戶及中低收入戶資格與生活補助，114年及115年最低生活費標準皆為15,515元。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭",
+          "學生",
+          "兒少家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "申請資訊"
+        ],
+        "needTags": [
+          "新竹市低收入戶",
+          "新竹市中低收入戶",
+          "生活補助",
+          "115最低生活費"
+        ],
+        "eligibility": "家庭總收入平均每人每月未超過當年度最低生活費，並需符合動產、不動產及家庭人口審查。",
+        "conditionSourceNote": "新竹市政府社會處頁面列出低收入戶資格及生活補助說明。",
+        "applicationConditions": [
+          {
+            "label": "低收入戶收入門檻",
+            "requirement": "家庭總收入按全家人口平均分配，每人每月未超過當年公布最低生活費；114年及115年皆為15,515元。",
+            "note": "正式審查仍需看動產、不動產與家庭應計人口。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y"
+          }
+        ],
+        "benefitSourceNote": "頁面列有生活扶助費補助；實際金額依款別、兒童或就學身分核定。",
+        "benefitItems": [
+          {
+            "label": "低收入戶生活扶助",
+            "amount": "依款別核定",
+            "unit": "每月",
+            "note": "含家庭生活補助、兒童生活補助及高中職以上就學生活補助等。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y"
+          }
+        ],
+        "applicationMethodSourceNote": "新竹市社會處頁面提供承辦地址與社會救助資訊。",
+        "howToApply": [
+          "向戶籍所在地區公所或新竹市政府社會處確認申請。",
+          "準備戶籍、收入、財產、就學或其他證明。",
+          "依通知補件並等待審查。"
+        ],
+        "documents": [
+          "申請表",
+          "戶籍資料",
+          "收入與財產資料",
+          "在學證明",
+          "區公所或社會處要求文件"
+        ],
+        "contact": {
+          "website": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115年度",
+          "confidence": "source-dated",
+          "notes": "Official Hsinchu City social affairs page."
+        },
+        "id": "hsinchu-city-low-income-application-115",
+        "name": "新竹市低收入戶及中低收入戶資格與生活補助",
+        "provider": "新竹市政府社會處",
+        "jurisdiction": "新竹市",
+        "county": "新竹市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "hsinchu-city-weak-medical-assistance-115",
+      "name": "新竹市115年度弱勢族群就醫補助",
+      "url": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y",
+      "organization": "新竹市衛生局",
+      "jurisdiction": "新竹市",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "新竹市",
+        "醫療補助",
+        "弱勢就醫",
+        "115年度"
+      ],
+      "record": {
+        "summary": "新竹市115年度弱勢族群就醫補助，協助設籍新竹市且具低收入、中低收入、身障或弱勢證明者排除就醫障礙。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "身心障礙者",
+          "經濟困難家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "醫療補助",
+          "經濟弱勢",
+          "健保與醫療"
+        ],
+        "needTags": [
+          "新竹市醫療補助",
+          "弱勢就醫",
+          "公益彩券回饋金",
+          "醫療費"
+        ],
+        "eligibility": "設籍新竹市，並於當年度具有低收入戶、中低收入戶、中低收入老人生活津貼、身障生活補助或弱勢兒少緊急生活扶助等證明之一。",
+        "conditionSourceNote": "新竹市衛生局115年度弱勢族群就醫補助專區列出補助對象。",
+        "applicationConditions": [
+          {
+            "label": "設籍且具弱勢證明",
+            "requirement": "需設籍新竹市，並具當年度低收入戶、中低收入戶、中低收入老人生活津貼、身障生活補助或弱勢兒少緊急生活扶助等證明。",
+            "note": "單次申請醫療費用補助總額未達200元者，可能累計至200元或經費用罄前辦理。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
+          }
+        ],
+        "benefitSourceNote": "補助項目與金額依新竹市衛生局115年度計畫及審查結果辦理。",
+        "benefitItems": [
+          {
+            "label": "弱勢族群就醫補助",
+            "amount": "依計畫核定",
+            "unit": "案",
+            "note": "可協助醫療費等就醫障礙項目；實際給付以衛生局審核為準。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
+          }
+        ],
+        "applicationMethodSourceNote": "衛生局專區提供申請書與作業流程，可由本人或轉介單位提出。",
+        "howToApply": [
+          "先確認是否具備當年度弱勢身分證明。",
+          "下載或洽衛生局取得申請書及作業流程。",
+          "檢附醫療費用、身分與經濟弱勢證明後送件。"
+        ],
+        "documents": [
+          "申請書",
+          "弱勢身分證明",
+          "醫療費用資料",
+          "身分與戶籍資料",
+          "轉介評估資料"
+        ],
+        "contact": {
+          "website": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115年度",
+          "confidence": "source-dated",
+          "notes": "Official Hsinchu City Health Bureau 115 medical assistance page."
+        },
+        "id": "hsinchu-city-weak-medical-assistance-115",
+        "name": "新竹市115年度弱勢族群就醫補助",
+        "provider": "新竹市衛生局",
+        "jurisdiction": "新竹市",
+        "county": "新竹市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "hsinchu-county-computer-subsidy-115",
+      "name": "新竹縣115年度低收入戶及中低收入戶電腦設備購置補助",
+      "url": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634",
+      "organization": "新竹縣政府社會處",
+      "jurisdiction": "新竹縣",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "新竹縣",
+        "低收入戶",
+        "中低收入戶",
+        "電腦補助",
+        "學生",
+        "115年度"
+      ],
+      "record": {
+        "summary": "新竹縣115年度低收入戶及中低收入戶電腦設備購置補助，每戶最高補助12,000元。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "學生"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "教育補助",
+          "資訊設備",
+          "低收入戶與中低收入戶救助"
+        ],
+        "needTags": [
+          "新竹縣電腦補助",
+          "學生電腦",
+          "低收入戶電腦",
+          "中低收入戶電腦"
+        ],
+        "eligibility": "申請人須為新竹縣列冊低收入戶或中低收入戶之國中、高中職或大學在學學生。",
+        "conditionSourceNote": "新竹縣政府社會處115年度計畫公告列出申請對象與期限。",
+        "applicationConditions": [
+          {
+            "label": "學生及福利身分",
+            "requirement": "新竹縣列冊低收入戶或中低收入戶之國中、高中職或大學在學學生。",
+            "note": "需於公告期限前親送或郵寄申請；文件不齊會喪失資格，不追溯或補發。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634"
+          }
+        ],
+        "benefitSourceNote": "新竹縣政府社會處公告列明補助金額。",
+        "benefitItems": [
+          {
+            "label": "電腦設備購置補助",
+            "amount": "最高12,000元",
+            "unit": "每戶",
+            "note": "需符合資格並依計畫檢附購買與請款文件。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634"
+          }
+        ],
+        "applicationMethodSourceNote": "公告載明親送或郵寄至新竹縣政府社會處社會救助及社工科。",
+        "howToApply": [
+          "於115年9月30日前親送或郵寄申請。",
+          "符合資格者由縣府核發正取通知後始得購買。",
+          "於115年10月31日前檢附購買收據及請款文件辦理請款。"
+        ],
+        "documents": [
+          "申請表",
+          "在學證明",
+          "低收入戶或中低收入戶證明",
+          "購買收據",
+          "請款文件"
+        ],
+        "contact": {
+          "website": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115年度",
+          "confidence": "source-dated",
+          "notes": "Official Hsinchu County 115 computer equipment subsidy."
+        },
+        "id": "hsinchu-county-computer-subsidy-115",
+        "name": "新竹縣115年度低收入戶及中低收入戶電腦設備購置補助",
+        "provider": "新竹縣政府社會處",
+        "jurisdiction": "新竹縣",
+        "county": "新竹縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "hsinchu-county-employment-incentive",
+      "name": "新竹縣低收入戶及中低收入戶就業獎勵補助",
+      "url": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681",
+      "organization": "新竹縣政府社會處",
+      "jurisdiction": "新竹縣",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "新竹縣",
+        "低收入戶",
+        "中低收入戶",
+        "就業獎勵"
+      ],
+      "record": {
+        "summary": "新竹縣低收入戶及中低收入戶就業獎勵補助，穩定就業滿指定期間最高可領12,000元。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "求職者",
+          "就業者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "就業與職訓",
+          "就業獎助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "新竹縣就業獎勵",
+          "低收入戶就業",
+          "中低收入戶就業",
+          "穩定就業津貼"
+        ],
+        "eligibility": "經計畫社工轉介至勞政單位後開案之低收入戶或中低收入戶，每週工時須超過35小時並持續就業。",
+        "conditionSourceNote": "新竹縣政府社會處就業獎勵補助計畫列出工時與申請期限。",
+        "applicationConditions": [
+          {
+            "label": "穩定就業條件",
+            "requirement": "經社工轉介至勞政單位後開案，每週工時超過35小時，自到職日起持續就業。",
+            "note": "需於就業次日起1年內提出申請。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681"
+          }
+        ],
+        "benefitSourceNote": "新竹縣政府社會處計畫列出分段獎勵金額。",
+        "benefitItems": [
+          {
+            "label": "就業滿1個月",
+            "amount": "3,000元",
+            "unit": "次",
+            "note": "符合穩定就業條件後申請。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681"
+          },
+          {
+            "label": "連續任職滿3個月",
+            "amount": "4,000元",
+            "unit": "次",
+            "note": "延續補助。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681"
+          },
+          {
+            "label": "連續就業滿6個月",
+            "amount": "5,000元",
+            "unit": "次",
+            "note": "1案最高發放12,000元。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681"
+          }
+        ],
+        "applicationMethodSourceNote": "文件不齊會通知補件，逾期未補件則退回原件。",
+        "howToApply": [
+          "由社工轉介至勞政單位開案。",
+          "穩定就業達指定期間後，於就業次日起1年內提出申請。",
+          "檢附就業與薪資等證明文件，待審查後匯入指定帳戶。"
+        ],
+        "documents": [
+          "申請書",
+          "低收入戶或中低收入戶證明",
+          "就業證明",
+          "薪資或工時資料",
+          "指定帳戶"
+        ],
+        "contact": {
+          "website": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "Official Hsinchu County employment incentive page."
+        },
+        "id": "hsinchu-county-employment-incentive",
+        "name": "新竹縣低收入戶及中低收入戶就業獎勵補助",
+        "provider": "新竹縣政府社會處",
+        "jurisdiction": "新竹縣",
+        "county": "新竹縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "miaoli-maternal-newborn-nutrition-115",
+      "name": "苗栗縣低收入戶與中低收入戶產婦及新生兒營養補助",
+      "url": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=919810",
+      "organization": "苗栗縣政府",
+      "jurisdiction": "苗栗縣",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "苗栗縣",
+        "低收入戶",
+        "中低收入戶",
+        "產婦",
+        "新生兒",
+        "115年度"
+      ],
+      "record": {
+        "summary": "苗栗縣115年起調高低收入戶與中低收入戶產婦及新生兒營養補助金額。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "孕產婦",
+          "新生兒家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "兒少家庭",
+          "婦女福利",
+          "現金與生活扶助"
+        ],
+        "needTags": [
+          "苗栗產婦補助",
+          "苗栗新生兒營養",
+          "低收入戶新生兒",
+          "中低收入戶產婦"
+        ],
+        "eligibility": "苗栗縣列冊低收入戶或中低收入戶產婦及新生兒，依計畫規定及出生、流產或死胎等事實審查。",
+        "conditionSourceNote": "苗栗縣政府新聞稿說明計畫自115年1月1日起實施。",
+        "applicationConditions": [
+          {
+            "label": "低收入戶或中低收入戶家庭",
+            "requirement": "產婦及新生兒需符合苗栗縣低收入戶或中低收入戶相關規定。",
+            "note": "多胞胎家庭依實際人數核給。",
+            "sourceDate": "115-01-01起實施；查核日2026-06-05",
+            "sourceUrl": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=919810"
+          }
+        ],
+        "benefitSourceNote": "苗栗縣政府公告列出115年調整後補助金額。",
+        "benefitItems": [
+          {
+            "label": "低收入戶產婦及新生兒",
+            "amount": "7,500元",
+            "unit": "每人",
+            "note": "由原每人5,000元提高。",
+            "sourceDate": "115-01-01起實施；查核日2026-06-05",
+            "sourceUrl": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=919810"
+          },
+          {
+            "label": "中低收入戶產婦及新生兒",
+            "amount": "5,000元",
+            "unit": "每人",
+            "note": "由原每人2,500元提高。",
+            "sourceDate": "115-01-01起實施；查核日2026-06-05",
+            "sourceUrl": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=919810"
+          }
+        ],
+        "applicationMethodSourceNote": "實際申請窗口與文件仍以苗栗縣政府社會處或戶籍地公所公告為準。",
+        "howToApply": [
+          "向戶籍地公所或苗栗縣政府社會處確認申請。",
+          "檢附低收入戶或中低收入戶證明、出生或醫療相關證明。",
+          "多胞胎或特殊情形依承辦單位要求補件。"
+        ],
+        "documents": [
+          "申請表",
+          "低收入戶或中低收入戶證明",
+          "出生證明或醫療證明",
+          "戶籍資料",
+          "帳戶資料"
+        ],
+        "contact": {
+          "website": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=919810"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-01-01",
+          "confidence": "source-dated",
+          "notes": "Official Miaoli County 115 program announcement."
+        },
+        "id": "miaoli-maternal-newborn-nutrition-115",
+        "name": "苗栗縣低收入戶與中低收入戶產婦及新生兒營養補助",
+        "provider": "苗栗縣政府",
+        "jurisdiction": "苗栗縣",
+        "county": "苗栗縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "miaoli-hospital-care-subsidy",
+      "name": "苗栗縣低收入戶及中低收入戶傷病住院看護費用補助",
+      "url": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640",
+      "organization": "苗栗縣政府社會處",
+      "jurisdiction": "苗栗縣",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "苗栗縣",
+        "低收入戶",
+        "中低收入戶",
+        "住院看護",
+        "醫療補助"
+      ],
+      "record": {
+        "summary": "苗栗縣低收入戶及中低收入戶傷病住院看護費用補助，依低收、中低收及看護型態核定。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "住院病患",
+          "經濟困難家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "醫療補助",
+          "住院看護",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "苗栗看護補助",
+          "住院看護費",
+          "低收入戶醫療",
+          "中低收入戶看護"
+        ],
+        "eligibility": "苗栗縣列冊低收入戶或中低收入戶，傷病住院期間經醫師證明需看護，且看護費用非本人或扶養義務人能負擔。",
+        "conditionSourceNote": "苗栗縣政府社會處頁面及補助辦法說明看護補助條件。",
+        "applicationConditions": [
+          {
+            "label": "住院且需看護",
+            "requirement": "傷病住院期間經醫師證明需僱請專人或由家人看護。",
+            "note": "中低收入戶通常需達自負費用門檻，實際以辦法及承辦單位審查。",
+            "sourceDate": "115-06-03頁面查核",
+            "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
+          }
+        ],
+        "benefitSourceNote": "苗栗縣補助辦法列出低收入戶與中低收入戶不同看護型態補助標準。",
+        "benefitItems": [
+          {
+            "label": "低收入戶專職看護",
+            "amount": "2,000元",
+            "unit": "每日",
+            "note": "以實際支付及年度上限為準。",
+            "sourceDate": "115-06-03頁面查核",
+            "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
+          },
+          {
+            "label": "低收入戶家人看護",
+            "amount": "1,000元",
+            "unit": "每日",
+            "note": "以實際照顧與審查結果為準。",
+            "sourceDate": "115-06-03頁面查核",
+            "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
+          },
+          {
+            "label": "中低收入戶專職看護",
+            "amount": "1,000元",
+            "unit": "每日",
+            "note": "依自負費用門檻及年度上限核定。",
+            "sourceDate": "115-06-03頁面查核",
+            "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
+          },
+          {
+            "label": "中低收入戶家人看護",
+            "amount": "500元",
+            "unit": "每日",
+            "note": "依自負費用門檻及年度上限核定。",
+            "sourceDate": "115-06-03頁面查核",
+            "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
+          }
+        ],
+        "applicationMethodSourceNote": "補助通常需住院與看護證明，向戶籍地公所或縣府社會處送件。",
+        "howToApply": [
+          "住院期間先取得醫師需看護證明。",
+          "保留看護費用收據或家人看護相關證明。",
+          "向戶籍地公所或苗栗縣政府社會處提出申請。"
+        ],
+        "documents": [
+          "申請表",
+          "住院診斷或醫師證明",
+          "看護費用收據",
+          "低收入戶或中低收入戶證明",
+          "帳戶資料"
+        ],
+        "contact": {
+          "website": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-06-03",
+          "confidence": "source-dated",
+          "notes": "Official Miaoli social affairs page checked."
+        },
+        "id": "miaoli-hospital-care-subsidy",
+        "name": "苗栗縣低收入戶及中低收入戶傷病住院看護費用補助",
+        "provider": "苗栗縣政府社會處",
+        "jurisdiction": "苗栗縣",
+        "county": "苗栗縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "changhua-low-income-living-assistance-115",
+      "name": "彰化縣115年度低收入戶生活扶助",
+      "url": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714",
+      "organization": "彰化縣政府社會處",
+      "jurisdiction": "彰化縣",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "彰化縣",
+        "低收入戶",
+        "生活扶助",
+        "115年度"
+      ],
+      "record": {
+        "summary": "彰化縣115年度低收入戶生活扶助，社會處社會救助專區列出補助標準。",
+        "audiences": [
+          "低收入戶",
+          "經濟困難家庭",
+          "兒少家庭",
+          "學生"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "現金與生活扶助"
+        ],
+        "needTags": [
+          "彰化低收入戶",
+          "彰化生活扶助",
+          "115低收補助",
+          "兒童生活補助"
+        ],
+        "eligibility": "彰化縣列冊低收入戶，依款別、兒童或就學身分核給生活扶助。",
+        "conditionSourceNote": "彰化縣政府社會處115年度低收入戶生活扶助頁面列出補助標準。",
+        "applicationConditions": [
+          {
+            "label": "列冊低收入戶",
+            "requirement": "經彰化縣審查列冊為低收入戶，並依款別、年齡或就學身分核定。",
+            "note": "實際款別與給付資格由戶籍地公所及縣府審查。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714"
+          }
+        ],
+        "benefitSourceNote": "社會處頁面列明115年度低收入戶補助標準。",
+        "benefitItems": [
+          {
+            "label": "低收入戶生活扶助",
+            "amount": "依115年度標準核定",
+            "unit": "每月",
+            "note": "含家庭生活扶助、兒童生活補助及就學生活補助等，實際以社會處公告表件為準。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714"
+          }
+        ],
+        "applicationMethodSourceNote": "社會處頁面提供相關表件，正式申請通常由戶籍地公所受理。",
+        "howToApply": [
+          "向戶籍地鄉鎮市公所提出低收入戶申請或複查。",
+          "檢附收入、財產、戶籍、就學或其他證明。",
+          "經審查列冊後依補助標準核發。"
+        ],
+        "documents": [
+          "申請表",
+          "戶籍資料",
+          "收入與財產資料",
+          "在學證明",
+          "帳戶資料"
+        ],
+        "contact": {
+          "website": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115年度",
+          "confidence": "source-dated",
+          "notes": "Official Changhua social affairs 115 assistance page."
+        },
+        "id": "changhua-low-income-living-assistance-115",
+        "name": "彰化縣115年度低收入戶生活扶助",
+        "provider": "彰化縣政府社會處",
+        "jurisdiction": "彰化縣",
+        "county": "彰化縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "changhua-long-term-care-transport-115",
+      "name": "彰化縣115年度長期照顧交通接送服務",
+      "url": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf",
+      "organization": "彰化縣衛生局",
+      "jurisdiction": "彰化縣",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "彰化縣",
+        "長照",
+        "交通接送",
+        "低收入戶",
+        "中低收入戶",
+        "115年度"
+      ],
+      "record": {
+        "summary": "彰化縣115年度長照交通接送服務，低收入戶補助比率100%，中低收入戶補助比率91%。",
+        "audiences": [
+          "失能者",
+          "長者",
+          "低收入戶",
+          "中低收入戶",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "長期照顧服務",
+          "交通接送",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "彰化長照交通",
+          "交通接送",
+          "低收入戶長照",
+          "中低收入戶長照"
+        ],
+        "eligibility": "符合長照服務交通接送 DA01 使用條件，主要提供往返居家至醫療院所就醫、定期復健或透析治療。",
+        "conditionSourceNote": "彰化縣衛生局115年度長期照顧交通接送服務實施計畫列出補助對象與用途。",
+        "applicationConditions": [
+          {
+            "label": "長照交通接送用途",
+            "requirement": "限往返居家至醫療院所就醫、定期式復健或透析治療之交通接送。",
+            "note": "跨縣就醫除服務使用費外，另可能收取額外費用。",
+            "sourceDate": "115-01-01",
+            "sourceUrl": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+          }
+        ],
+        "benefitSourceNote": "實施計畫列出不同福利身分之補助比率與每趟補助金額。",
+        "benefitItems": [
+          {
+            "label": "低收入戶",
+            "amount": "460元",
+            "unit": "每趟補助",
+            "note": "補助比率100%，自付0元。",
+            "sourceDate": "115-01-01",
+            "sourceUrl": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+          },
+          {
+            "label": "中低收入戶",
+            "amount": "420元",
+            "unit": "每趟補助",
+            "note": "補助比率91%，自付40元。",
+            "sourceDate": "115-01-01",
+            "sourceUrl": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+          }
+        ],
+        "applicationMethodSourceNote": "長照交通接送通常需經長照評估與照顧計畫核定。",
+        "howToApply": [
+          "撥打1966或洽長照管理中心申請長照評估。",
+          "確認是否符合交通接送 DA01 使用條件。",
+          "依核定照顧計畫預約交通接送服務。"
+        ],
+        "documents": [
+          "長照評估資料",
+          "福利身分證明",
+          "就醫、復健或透析需求資料",
+          "承辦單位要求文件"
+        ],
+        "contact": {
+          "website": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-01-01",
+          "confidence": "source-dated",
+          "notes": "Official Changhua Health Bureau 115 long-term care transportation PDF."
+        },
+        "id": "changhua-long-term-care-transport-115",
+        "name": "彰化縣115年度長期照顧交通接送服務",
+        "provider": "彰化縣衛生局",
+        "jurisdiction": "彰化縣",
+        "county": "彰化縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "nantou-low-income-living-assistance-115",
+      "name": "南投縣115年度低收入戶申請及生活補助",
+      "url": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8",
+      "organization": "南投縣政府社會及勞動局",
+      "jurisdiction": "南投縣",
+      "sourceType": "official-local-benefit-handbook",
+      "tags": [
+        "地方政府",
+        "南投縣",
+        "低收入戶",
+        "生活補助",
+        "115年度"
+      ],
+      "record": {
+        "summary": "南投縣115年度社會救助福利手冊整理低收入戶申請條件與生活補助金額。",
+        "audiences": [
+          "低收入戶",
+          "經濟困難家庭",
+          "兒少家庭",
+          "學生"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "年度標準"
+        ],
+        "needTags": [
+          "南投低收入戶",
+          "南投生活補助",
+          "115福利手冊",
+          "低收申請"
+        ],
+        "eligibility": "設籍南投縣並實際居住戶籍所在地，最近一年居住國內達183日；每人每月收入未超過115年度最低生活費15,515元，並符合動產、不動產限制。",
+        "conditionSourceNote": "南投縣115年度社會救助福利手冊列明低收入戶申請條件。",
+        "applicationConditions": [
+          {
+            "label": "115年度低收入戶標準",
+            "requirement": "每人每月收入未超過15,515元；每人動產未超過96,000元；全戶土地及房屋合計未超過385萬元。",
+            "note": "需設籍並實際居住戶籍所在地，且最近一年居住國內達183日。",
+            "sourceDate": "115年度",
+            "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+          }
+        ],
+        "benefitSourceNote": "南投縣115年度手冊列出低收入戶現金扶助金額。",
+        "benefitItems": [
+          {
+            "label": "一款低收入戶",
+            "amount": "11,850元",
+            "unit": "每人每月",
+            "note": "低收入戶現金扶助。",
+            "sourceDate": "115年度",
+            "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+          },
+          {
+            "label": "二款低收入戶",
+            "amount": "6,825元",
+            "unit": "每戶每月",
+            "note": "低收入戶現金扶助。",
+            "sourceDate": "115年度",
+            "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+          },
+          {
+            "label": "二、三款15歲以下兒童",
+            "amount": "3,008元",
+            "unit": "每人每月",
+            "note": "兒童生活補助。",
+            "sourceDate": "115年度",
+            "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+          },
+          {
+            "label": "25歲以下在學學生",
+            "amount": "6,825元",
+            "unit": "每人每月",
+            "note": "不含學分班。",
+            "sourceDate": "115年度",
+            "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+          }
+        ],
+        "applicationMethodSourceNote": "手冊列明受理單位為戶籍所在地公所社會課或民政課，亦可洽南投縣政府社會及勞動局社會救助科。",
+        "howToApply": [
+          "向戶籍所在地公所社會課或民政課提出申請。",
+          "檢附戶籍、收入、財產、居住及就學等資料。",
+          "由公所與縣府依社會救助規定審查。"
+        ],
+        "documents": [
+          "申請表",
+          "戶籍資料",
+          "收入與財產資料",
+          "居住事實資料",
+          "在學證明",
+          "帳戶資料"
+        ],
+        "contact": {
+          "phone": "049-2248750",
+          "website": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115年度",
+          "confidence": "source-dated",
+          "notes": "Official Nantou 115 social assistance handbook."
+        },
+        "id": "nantou-low-income-living-assistance-115",
+        "name": "南投縣115年度低收入戶申請及生活補助",
+        "provider": "南投縣政府社會及勞動局",
+        "jurisdiction": "南投縣",
+        "county": "南投縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "yunlin-low-income-application-115",
+      "name": "雲林縣115年度低收入戶暨中低收入戶申請",
+      "url": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268",
+      "organization": "雲林縣政府社會處",
+      "jurisdiction": "雲林縣",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "雲林縣",
+        "低收入戶",
+        "中低收入戶",
+        "生活補助",
+        "115年度"
+      ],
+      "record": {
+        "summary": "雲林縣115年度低收入戶暨中低收入戶申請資格與方式介紹，含生活補助金額。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭",
+          "兒少家庭",
+          "學生"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "申請資訊"
+        ],
+        "needTags": [
+          "雲林低收入戶",
+          "雲林中低收入戶",
+          "雲林115標準",
+          "家庭生活補助"
+        ],
+        "eligibility": "需符合雲林縣115年度低收入戶或中低收入戶收入、財產及家庭人口審查標準。",
+        "conditionSourceNote": "雲林縣政府社會處115年度申請資格與方式介紹列出資格與生活補助。",
+        "applicationConditions": [
+          {
+            "label": "115年度低收與中低收審查",
+            "requirement": "家庭收入、動產、不動產與應計人口須符合雲林縣115年度社會救助審查標準。",
+            "note": "正式結果仍由戶籍地公所及縣府審查。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
+          }
+        ],
+        "benefitSourceNote": "雲林縣政府社會處頁面列出家庭生活補助金額。",
+        "benefitItems": [
+          {
+            "label": "家庭生活補助",
+            "amount": "11,850元",
+            "unit": "戶/月",
+            "note": "依頁面列示之低收入戶生活補助項目核定。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
+          },
+          {
+            "label": "家庭生活補助",
+            "amount": "6,825元",
+            "unit": "戶/月",
+            "note": "依頁面列示之不同款別核定。",
+            "sourceDate": "115年度；查核日2026-06-05",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所提出申請，依社會處頁面與承辦單位要求備件。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所社會課提出申請。",
+          "檢附收入、財產、戶籍及相關證明。",
+          "由公所初審後送縣府核定。"
+        ],
+        "documents": [
+          "申請表",
+          "戶籍資料",
+          "收入與財產資料",
+          "郵局或指定帳戶",
+          "公所要求文件"
+        ],
+        "contact": {
+          "website": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115年度",
+          "confidence": "source-dated",
+          "notes": "Official Yunlin 115 low/middle-low income application page."
+        },
+        "id": "yunlin-low-income-application-115",
+        "name": "雲林縣115年度低收入戶暨中低收入戶申請",
+        "provider": "雲林縣政府社會處",
+        "jurisdiction": "雲林縣",
+        "county": "雲林縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
       "id": "sfaa-social-welfare-foundations",
       "name": "全國性財團法人社會福利基金會查詢",
       "url": "https://swft.sfaa.gov.tw/fund/fh0300#",
