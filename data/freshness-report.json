@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-05T02:06:52+00:00",
+  "generatedAt": "2026-06-05T03:31:25+00:00",
   "summary": {
-    "checked": 71,
-    "changed": 50,
-    "transportWarnings": 8,
+    "checked": 83,
+    "changed": 58,
+    "transportWarnings": 12,
     "warnings": 0
   },
   "warnings": [],
@@ -30,7 +30,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:03:57+00:00"
+          "checkedAt": "2026-06-05T03:27:59+00:00"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:03:58+00:00"
+          "checkedAt": "2026-06-05T03:28:00+00:00"
         }
       ]
     },
@@ -82,7 +82,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:00+00:00"
+          "checkedAt": "2026-06-05T03:28:01+00:00"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:01+00:00"
+          "checkedAt": "2026-06-05T03:28:02+00:00"
         }
       ]
     },
@@ -134,7 +134,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:06+00:00"
+          "checkedAt": "2026-06-05T03:28:04+00:00"
         }
       ]
     },
@@ -154,13 +154,13 @@
           "finalUrl": "https://www.taiwanjobs.gov.tw/Internet/Index/index.aspx",
           "lastModified": null,
           "etag": null,
-          "contentLength": "118397",
+          "contentLength": "118938",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T02:04:08+00:00"
+          "checkedAt": "2026-06-05T03:28:05+00:00"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:10+00:00"
+          "checkedAt": "2026-06-05T03:28:11+00:00"
         }
       ]
     },
@@ -212,7 +212,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:11+00:00"
+          "checkedAt": "2026-06-05T03:28:12+00:00"
         }
       ]
     },
@@ -238,7 +238,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:12+00:00"
+          "checkedAt": "2026-06-05T03:28:13+00:00"
         }
       ]
     },
@@ -264,7 +264,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:13+00:00"
+          "checkedAt": "2026-06-05T03:28:13+00:00"
         }
       ]
     },
@@ -290,7 +290,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:14+00:00"
+          "checkedAt": "2026-06-05T03:28:14+00:00"
         }
       ]
     },
@@ -316,7 +316,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:15+00:00"
+          "checkedAt": "2026-06-05T03:28:15+00:00"
         }
       ]
     },
@@ -342,7 +342,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:16+00:00"
+          "checkedAt": "2026-06-05T03:28:15+00:00"
         }
       ]
     },
@@ -368,7 +368,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:17+00:00"
+          "checkedAt": "2026-06-05T03:28:16+00:00"
         }
       ]
     },
@@ -394,7 +394,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:18+00:00"
+          "checkedAt": "2026-06-05T03:28:16+00:00"
         }
       ]
     },
@@ -420,7 +420,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:19+00:00"
+          "checkedAt": "2026-06-05T03:28:17+00:00"
         }
       ]
     },
@@ -440,13 +440,13 @@
           "finalUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E",
           "lastModified": null,
           "etag": null,
-          "contentLength": "119222",
+          "contentLength": "123127",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:20+00:00"
+          "checkedAt": "2026-06-05T03:28:18+00:00"
         }
       ]
     },
@@ -472,7 +472,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:21+00:00"
+          "checkedAt": "2026-06-05T03:28:18+00:00"
         }
       ]
     },
@@ -498,7 +498,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:22+00:00"
+          "checkedAt": "2026-06-05T03:28:20+00:00"
         }
       ]
     },
@@ -524,7 +524,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:23+00:00"
+          "checkedAt": "2026-06-05T03:28:21+00:00"
         }
       ]
     },
@@ -550,7 +550,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:24+00:00"
+          "checkedAt": "2026-06-05T03:28:21+00:00"
         }
       ]
     },
@@ -576,7 +576,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:25+00:00"
+          "checkedAt": "2026-06-05T03:28:22+00:00"
         }
       ]
     },
@@ -602,7 +602,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:26+00:00"
+          "checkedAt": "2026-06-05T03:28:22+00:00"
         }
       ]
     },
@@ -628,7 +628,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:27+00:00"
+          "checkedAt": "2026-06-05T03:28:23+00:00"
         }
       ]
     },
@@ -648,13 +648,13 @@
           "finalUrl": "https://www.dayuan.tycg.gov.tw/News_Content.aspx?n=7621&s=1583686&sms=12069",
           "lastModified": null,
           "etag": null,
-          "contentLength": "94873",
+          "contentLength": "94798",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
-          "retryAttempts": 0,
+          "retryAttempts": 1,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:04:56+00:00"
+          "checkedAt": "2026-06-05T03:29:16+00:00"
         }
       ]
     },
@@ -680,7 +680,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:24+00:00"
+          "checkedAt": "2026-06-05T03:29:19+00:00"
         }
       ]
     },
@@ -694,19 +694,19 @@
       },
       "entries": [
         {
-          "url": "https://www.society.taichung.gov.tw/13710/13735/13856/13862/3101150",
+          "url": "https://www.society.taichung.gov.tw/3101150/post",
           "ok": true,
           "status": 200,
-          "finalUrl": "https://www.society.taichung.gov.tw/13710/13735/13856/13862/3101150",
+          "finalUrl": "https://www.society.taichung.gov.tw/3101150/post",
           "lastModified": null,
           "etag": null,
-          "contentLength": "95951",
+          "contentLength": "95931",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": true,
+          "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:26+00:00"
+          "checkedAt": "2026-06-05T03:29:20+00:00"
         }
       ]
     },
@@ -732,7 +732,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:27+00:00"
+          "checkedAt": "2026-06-05T03:29:20+00:00"
         }
       ]
     },
@@ -758,7 +758,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:28+00:00"
+          "checkedAt": "2026-06-05T03:29:22+00:00"
         }
       ]
     },
@@ -784,7 +784,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:30+00:00"
+          "checkedAt": "2026-06-05T03:29:24+00:00"
         }
       ]
     },
@@ -810,7 +810,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T02:05:33+00:00"
+          "checkedAt": "2026-06-05T03:29:26+00:00"
         }
       ]
     },
@@ -832,11 +832,11 @@
           "etag": null,
           "contentLength": "197336",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": true,
+          "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T02:05:35+00:00"
+          "checkedAt": "2026-06-05T03:29:28+00:00"
         }
       ]
     },
@@ -858,11 +858,11 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:37+00:00"
+          "checkedAt": "2026-06-05T03:29:28+00:00"
         }
       ]
     },
@@ -884,11 +884,11 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:38+00:00"
+          "checkedAt": "2026-06-05T03:29:29+00:00"
         }
       ]
     },
@@ -910,11 +910,11 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=UTF-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:40+00:00"
+          "checkedAt": "2026-06-05T03:29:31+00:00"
         }
       ]
     },
@@ -936,11 +936,11 @@
           "etag": null,
           "contentLength": "147226",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:42+00:00"
+          "checkedAt": "2026-06-05T03:29:33+00:00"
         }
       ]
     },
@@ -960,13 +960,13 @@
           "finalUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634",
           "lastModified": null,
           "etag": null,
-          "contentLength": "78581",
+          "contentLength": "78583",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T02:05:45+00:00"
+          "checkedAt": "2026-06-05T03:29:34+00:00"
         }
       ]
     },
@@ -986,13 +986,13 @@
           "finalUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681",
           "lastModified": null,
           "etag": null,
-          "contentLength": "79304",
+          "contentLength": "79306",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T02:05:47+00:00"
+          "checkedAt": "2026-06-05T03:29:34+00:00"
         }
       ]
     },
@@ -1014,11 +1014,11 @@
           "etag": null,
           "contentLength": "92680",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:50+00:00"
+          "checkedAt": "2026-06-05T03:29:37+00:00"
         }
       ]
     },
@@ -1040,11 +1040,11 @@
           "etag": null,
           "contentLength": "97797",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:51+00:00"
+          "checkedAt": "2026-06-05T03:29:37+00:00"
         }
       ]
     },
@@ -1066,11 +1066,11 @@
           "etag": null,
           "contentLength": "78642",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": false,
+          "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:52+00:00"
+          "checkedAt": "2026-06-05T03:29:39+00:00"
         }
       ]
     },
@@ -1096,7 +1096,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:53+00:00"
+          "checkedAt": "2026-06-05T03:29:39+00:00"
         }
       ]
     },
@@ -1122,7 +1122,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:55+00:00"
+          "checkedAt": "2026-06-05T03:29:42+00:00"
         }
       ]
     },
@@ -1144,11 +1144,323 @@
           "etag": null,
           "contentLength": null,
           "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": null,
+          "checkedAt": "2026-06-05T03:29:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "chiayi-city-low-income-living-assistance-115",
+      "name": "嘉義市115年度低收入戶生活扶助",
+      "jurisdiction": "嘉義市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:56+00:00"
+          "checkedAt": "2026-06-05T03:29:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "chiayi-city-medical-assistance",
+      "name": "嘉義市低收及中低收入戶傷病醫療費用補助",
+      "jurisdiction": "嘉義市",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": null,
+          "checkedAt": "2026-06-05T03:29:44+00:00"
+        }
+      ]
+    },
+    {
+      "id": "chiayi-county-low-income-living-assistance-115",
+      "name": "嘉義縣115年度低收入戶救助",
+      "jurisdiction": "嘉義縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "94236",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
+          "checkedAt": "2026-06-05T03:29:47+00:00"
+        }
+      ]
+    },
+    {
+      "id": "chiayi-county-emergency-assistance",
+      "name": "嘉義縣急難救助",
+      "jurisdiction": "嘉義縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "91855",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
+          "checkedAt": "2026-06-05T03:29:49+00:00"
+        }
+      ]
+    },
+    {
+      "id": "pingtung-low-income-living-assistance-115",
+      "name": "屏東縣115年度低收入戶生活補助",
+      "jurisdiction": "屏東縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": null,
+          "checkedAt": "2026-06-05T03:29:49+00:00"
+        }
+      ]
+    },
+    {
+      "id": "pingtung-employment-transport-subsidy",
+      "name": "屏東縣低收及中低收就業交通補助",
+      "jurisdiction": "屏東縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": null,
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": null,
+          "checkedAt": "2026-06-05T03:29:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "yilan-city-low-income-living-assistance-115",
+      "name": "宜蘭市低收入戶生活扶助與中低收入戶資格",
+      "jurisdiction": "宜蘭縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "85350",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": null,
+          "checkedAt": "2026-06-05T03:29:51+00:00"
+        }
+      ]
+    },
+    {
+      "id": "yilan-long-term-care-transport-115",
+      "name": "宜蘭縣長期照顧交通服務",
+      "jurisdiction": "宜蘭縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "100974",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": null,
+          "checkedAt": "2026-06-05T03:29:51+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hualien-low-income-living-assistance-115",
+      "name": "花蓮縣低收入戶及中低收入戶補助",
+      "jurisdiction": "花蓮縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "25981",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": null,
+          "checkedAt": "2026-06-05T03:29:53+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hualien-emergency-assistance",
+      "name": "花蓮縣急難救助",
+      "jurisdiction": "花蓮縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "20601",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": false,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": null,
+          "checkedAt": "2026-06-05T03:29:54+00:00"
+        }
+      ]
+    },
+    {
+      "id": "taitung-learning-equipment-subsidy-115",
+      "name": "臺東縣115年度脫貧支持服務計畫購置學習設備補助",
+      "jurisdiction": "臺東縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "37706",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-05T03:29:55+00:00"
+        }
+      ]
+    },
+    {
+      "id": "taitung-medical-assistance",
+      "name": "臺東縣中低收傷病醫療費用補助",
+      "jurisdiction": "臺東縣",
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      },
+      "entries": [
+        {
+          "url": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d",
+          "lastModified": null,
+          "etag": null,
+          "contentLength": "47363",
+          "contentType": "text/html; charset=utf-8",
+          "changedSinceLastRun": true,
+          "error": null,
+          "retryAttempts": 0,
+          "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
+          "checkedAt": "2026-06-05T03:29:56+00:00"
         }
       ]
     },
@@ -1174,7 +1486,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:56+00:00"
+          "checkedAt": "2026-06-05T03:29:56+00:00"
         }
       ]
     },
@@ -1200,7 +1512,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:05:57+00:00"
+          "checkedAt": "2026-06-05T03:29:57+00:00"
         }
       ]
     },
@@ -1226,7 +1538,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:00+00:00"
+          "checkedAt": "2026-06-05T03:29:58+00:00"
         }
       ]
     },
@@ -1252,7 +1564,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:01+00:00"
+          "checkedAt": "2026-06-05T03:29:58+00:00"
         }
       ]
     },
@@ -1278,7 +1590,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:01+00:00"
+          "checkedAt": "2026-06-05T03:29:59+00:00"
         }
       ]
     },
@@ -1304,7 +1616,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:03+00:00"
+          "checkedAt": "2026-06-05T03:29:59+00:00"
         }
       ]
     },
@@ -1324,13 +1636,13 @@
           "finalUrl": "https://dosw.gov.taipei/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "329285",
+          "contentLength": "329291",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": true,
+          "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:04+00:00"
+          "checkedAt": "2026-06-05T03:30:00+00:00"
         }
       ]
     },
@@ -1356,7 +1668,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:05+00:00"
+          "checkedAt": "2026-06-05T03:30:01+00:00"
         }
       ]
     },
@@ -1376,13 +1688,13 @@
           "finalUrl": "https://sab.tycg.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "160465",
+          "contentLength": "160405",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
-          "retryAttempts": 0,
+          "retryAttempts": 1,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:07+00:00"
+          "checkedAt": "2026-06-05T03:30:58+00:00"
         }
       ]
     },
@@ -1408,7 +1720,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:10+00:00"
+          "checkedAt": "2026-06-05T03:31:00+00:00"
         }
       ]
     },
@@ -1434,7 +1746,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T02:06:11+00:00"
+          "checkedAt": "2026-06-05T03:31:01+00:00"
         }
       ]
     },
@@ -1454,13 +1766,13 @@
           "finalUrl": "https://www.miaoli.gov.tw/social_affairs/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "90456",
+          "contentLength": "90508",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:12+00:00"
+          "checkedAt": "2026-06-05T03:31:02+00:00"
         }
       ]
     },
@@ -1480,13 +1792,13 @@
           "finalUrl": "https://www.society.taichung.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "108728",
+          "contentLength": "108727",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": true,
+          "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:25+00:00"
+          "checkedAt": "2026-06-05T03:31:04+00:00"
         }
       ]
     },
@@ -1512,7 +1824,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:27+00:00"
+          "checkedAt": "2026-06-05T03:31:05+00:00"
         }
       ]
     },
@@ -1532,13 +1844,13 @@
           "finalUrl": "https://www.nantou.gov.tw/big5/index.php",
           "lastModified": null,
           "etag": null,
-          "contentLength": "134873",
+          "contentLength": "134761",
           "contentType": "text/html; charset=UTF-8",
           "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:28+00:00"
+          "checkedAt": "2026-06-05T03:31:09+00:00"
         }
       ]
     },
@@ -1564,7 +1876,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:29+00:00"
+          "checkedAt": "2026-06-05T03:31:09+00:00"
         }
       ]
     },
@@ -1590,7 +1902,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:30+00:00"
+          "checkedAt": "2026-06-05T03:31:10+00:00"
         }
       ]
     },
@@ -1610,13 +1922,13 @@
           "finalUrl": "https://sabcc.cyhg.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "164502",
+          "contentLength": "164442",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": true,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T02:06:32+00:00"
+          "checkedAt": "2026-06-05T03:31:11+00:00"
         }
       ]
     },
@@ -1636,13 +1948,13 @@
           "finalUrl": "https://sab.tainan.gov.tw/Default.aspx",
           "lastModified": null,
           "etag": null,
-          "contentLength": "220534",
+          "contentLength": "220489",
           "contentType": "text/html; charset=utf-8",
           "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:32+00:00"
+          "checkedAt": "2026-06-05T03:31:12+00:00"
         }
       ]
     },
@@ -1668,7 +1980,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:34+00:00"
+          "checkedAt": "2026-06-05T03:31:14+00:00"
         }
       ]
     },
@@ -1694,7 +2006,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:35+00:00"
+          "checkedAt": "2026-06-05T03:31:15+00:00"
         }
       ]
     },
@@ -1720,7 +2032,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:36+00:00"
+          "checkedAt": "2026-06-05T03:31:16+00:00"
         }
       ]
     },
@@ -1746,7 +2058,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:38+00:00"
+          "checkedAt": "2026-06-05T03:31:18+00:00"
         }
       ]
     },
@@ -1772,7 +2084,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>",
-          "checkedAt": "2026-06-05T02:06:39+00:00"
+          "checkedAt": "2026-06-05T03:31:19+00:00"
         }
       ]
     },
@@ -1798,7 +2110,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:42+00:00"
+          "checkedAt": "2026-06-05T03:31:22+00:00"
         }
       ]
     },
@@ -1818,13 +2130,13 @@
           "finalUrl": "https://social.kinmen.gov.tw/",
           "lastModified": null,
           "etag": null,
-          "contentLength": "110563",
+          "contentLength": "113414",
           "contentType": "text/html; charset=utf-8",
-          "changedSinceLastRun": true,
+          "changedSinceLastRun": false,
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:49+00:00"
+          "checkedAt": "2026-06-05T03:31:23+00:00"
         }
       ]
     },
@@ -1850,7 +2162,7 @@
           "error": null,
           "retryAttempts": 0,
           "sslWarning": null,
-          "checkedAt": "2026-06-05T02:06:51+00:00"
+          "checkedAt": "2026-06-05T03:31:24+00:00"
         }
       ]
     }

@@ -1910,7 +1910,7 @@
     {
       "id": "taichung-low-income-standards-115",
       "name": "臺中市115年低收入戶與中低收入戶審核標準",
-      "url": "https://www.society.taichung.gov.tw/13710/13735/13856/13862/3101150",
+      "url": "https://www.society.taichung.gov.tw/3101150/post",
       "organization": "臺中市政府社會局",
       "jurisdiction": "臺中市",
       "sourceType": "official-local-annual-standard",
@@ -1940,22 +1940,22 @@
           "臺中115標準",
           "最低生活費"
         ],
-        "eligibility": "115年度臺中市低收入戶標準為每人每月16,431元；中低收入戶為每人每月24,647元，並需符合動產與不動產限制。",
+        "eligibility": "115年度臺中市低收入戶標準為每人每月16,431元、動產每人96,000元、不動產全戶386萬元；中低收入戶標準為每人每月24,647元、動產每人144,000元、不動產全戶579萬元。",
         "conditionSourceNote": "臺中市政府社會局公告115年最低生活費及家庭財產一定金額。",
         "applicationConditions": [
           {
-            "label": "低收入戶所得標準",
-            "requirement": "家庭總收入平均每人每月未超過16,431元。",
-            "note": "動產、不動產及家庭應計人口仍須一併審查。",
-            "sourceDate": "114-09-12",
-            "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13856/13862/3101150"
+            "label": "低收入戶審核標準",
+            "requirement": "家庭總收入平均每人每月未超過16,431元；動產限額每人96,000元；不動產限額全戶386萬元。",
+            "note": "仍需併同家庭應計人口、居住事實及其他社會救助法規定審查。",
+            "sourceDate": "發布日期2025-09-24；最後異動2026-05-04；查核日2026-06-05",
+            "sourceUrl": "https://www.society.taichung.gov.tw/3101150/post"
           },
           {
-            "label": "中低收入戶所得標準",
-            "requirement": "家庭總收入平均每人每月未超過24,647元。",
+            "label": "中低收入戶審核標準",
+            "requirement": "家庭總收入平均每人每月未超過24,647元；動產限額每人144,000元；不動產限額全戶579萬元。",
             "note": "中低收入戶不是只看收入，仍需看財產與家庭成員。",
-            "sourceDate": "114-09-12",
-            "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13856/13862/3101150"
+            "sourceDate": "發布日期2025-09-24；最後異動2026-05-04；查核日2026-06-05",
+            "sourceUrl": "https://www.society.taichung.gov.tw/3101150/post"
           }
         ],
         "benefitSourceNote": "本卡為審核標準，不直接核發金額；低收入戶相關給付需看福利一覽表或個別申請項目。",
@@ -1965,8 +1965,8 @@
             "amount": "無固定金額",
             "unit": "",
             "note": "通過資格後，可能銜接生活扶助、租金、就學交通、喪葬或其他低收入戶福利。",
-            "sourceDate": "114-09-12",
-            "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13856/13862/3101150"
+            "sourceDate": "發布日期2025-09-24；最後異動2026-05-04；查核日2026-06-05",
+            "sourceUrl": "https://www.society.taichung.gov.tw/3101150/post"
           }
         ],
         "applicationMethodSourceNote": "實際申請仍由戶籍地區公所或社會局依規定審查。",
@@ -1983,11 +1983,11 @@
           "區公所要求文件"
         ],
         "contact": {
-          "website": "https://www.society.taichung.gov.tw/13710/13735/13856/13862/3101150"
+          "website": "https://www.society.taichung.gov.tw/3101150/post"
         },
         "freshness": {
           "lastChecked": "2026-06-05",
-          "sourceUpdatedAt": "114-09-12",
+          "sourceUpdatedAt": "2026-05-04",
           "confidence": "source-dated",
           "notes": "Official Taichung 115 annual standard announcement."
         },
@@ -3772,6 +3772,1465 @@
         "provider": "雲林縣政府社會處",
         "jurisdiction": "雲林縣",
         "county": "雲林縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "chiayi-city-low-income-living-assistance-115",
+      "name": "嘉義市115年度低收入戶生活扶助",
+      "url": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107",
+      "organization": "嘉義市政府社會處",
+      "jurisdiction": "嘉義市",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "嘉義市",
+        "低收入戶",
+        "生活扶助",
+        "115年度"
+      ],
+      "record": {
+        "summary": "嘉義市低收入戶生活扶助，含115年度資格門檻、款別生活補助、兒童、就學、身障及老人加給。",
+        "audiences": [
+          "低收入戶",
+          "經濟困難家庭",
+          "兒少家庭",
+          "學生",
+          "身心障礙者",
+          "長者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "年度標準"
+        ],
+        "needTags": [
+          "嘉義市低收入戶",
+          "嘉義市生活扶助",
+          "嘉義市115標準",
+          "低收入戶補助"
+        ],
+        "eligibility": "設籍並實際居住嘉義市，最近一年居住國內超過183日；家庭總收入、動產與不動產需符合嘉義市低收入戶標準。",
+        "conditionSourceNote": "嘉義市政府社會處頁面列出115年低收入戶申請資格。",
+        "applicationConditions": [
+          {
+            "label": "115年度低收入戶標準",
+            "requirement": "家庭總收入平均每人每月15,515元以下；動產平均每人不超過96,000元；不動產全戶不超過385萬元。",
+            "note": "嘉義市屬臺灣省標準地區，仍需審查家庭應計人口與實際居住事實。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+          }
+        ],
+        "benefitSourceNote": "嘉義市政府社會處頁面列出低收入戶款別及加給金額。",
+        "benefitItems": [
+          {
+            "label": "第一款家庭生活補助",
+            "amount": "11,850元",
+            "unit": "每人每月",
+            "note": "依核列款別核發。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+          },
+          {
+            "label": "第二款家庭生活補助",
+            "amount": "6,825元",
+            "unit": "每戶每月",
+            "note": "第二款另可依戶內身分核發兒童或就學生活補助。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+          },
+          {
+            "label": "兒童生活補助",
+            "amount": "3,008元",
+            "unit": "每人每月",
+            "note": "第二、三款戶內15歲以下兒童。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+          },
+          {
+            "label": "高中職以上就學生活補助",
+            "amount": "6,825元",
+            "unit": "每人每月",
+            "note": "第二、三款戶內就讀高中職以上學生。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+          },
+          {
+            "label": "低收入戶身心障礙加給",
+            "amount": "5,437元至9,485元",
+            "unit": "每人每月",
+            "note": "輕度5,437元；中度以上9,485元。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+          },
+          {
+            "label": "低收入戶65歲以上老人津貼",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "低收入戶內65歲以上老人加給。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地聯合里辦公室提出，文件依個案狀況可能補充。",
+        "howToApply": [
+          "向戶籍所在地聯合里辦公室提出申請。",
+          "準備身分證、印章、郵局存簿、戶籍、在學、身障、收入財產等資料。",
+          "由承辦單位依家庭人口、收入、財產及居住事實審查。"
+        ],
+        "documents": [
+          "申請人及代辦人身分證、印章",
+          "郵局存簿封面及內頁影本",
+          "最近三個月戶籍謄本",
+          "學生證或身心障礙證明",
+          "收入、財產或其他證明文件"
+        ],
+        "contact": {
+          "website": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "2026-01-01",
+          "confidence": "source-dated",
+          "notes": "Official Chiayi City 115 low-income assistance page."
+        },
+        "id": "chiayi-city-low-income-living-assistance-115",
+        "name": "嘉義市115年度低收入戶生活扶助",
+        "provider": "嘉義市政府社會處",
+        "jurisdiction": "嘉義市",
+        "county": "嘉義市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "chiayi-city-medical-assistance",
+      "name": "嘉義市低收及中低收入戶傷病醫療費用補助",
+      "url": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329",
+      "organization": "嘉義市政府社會處",
+      "jurisdiction": "嘉義市",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "嘉義市",
+        "醫療補助",
+        "低收入戶",
+        "中低收入戶"
+      ],
+      "record": {
+        "summary": "嘉義市低收及中低收入戶傷病醫療費用補助，協助住院或傷病就醫後無力負擔自付醫療費者。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "住院病患",
+          "經濟困難家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "醫療補助",
+          "健保與醫療",
+          "低收入戶與中低收入戶救助"
+        ],
+        "needTags": [
+          "嘉義市醫療補助",
+          "傷病醫療費",
+          "低收入戶醫療",
+          "中低收入戶醫療"
+        ],
+        "eligibility": "設籍並實際居住嘉義市，且為列冊低收入戶、中低收入戶，或家庭總收入平均每人每月未超過最低生活費1.5倍並因傷病住院無力負擔自付醫療費者。",
+        "conditionSourceNote": "嘉義市政府社會處頁面列出設籍居住、弱勢身分、醫療行為發生日起3個月內申請等條件。",
+        "applicationConditions": [
+          {
+            "label": "傷病就醫且限期申請",
+            "requirement": "罹患傷病就醫住院，無力負擔自行負擔醫療費用，並於醫療行為發生日起3個月內申請。",
+            "note": "非列冊者仍需符合最低生活費1.5倍以下等經濟審查。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
+          }
+        ],
+        "benefitSourceNote": "嘉義市頁面列出不同身分與醫療費門檻的補助比例。",
+        "benefitItems": [
+          {
+            "label": "列冊低收入戶",
+            "amount": "全額補助",
+            "unit": "案",
+            "note": "限最近三個月自行負擔醫療費用，且以疾病、傷病之醫療為限。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
+          },
+          {
+            "label": "中低收入戶",
+            "amount": "80%",
+            "unit": "案",
+            "note": "最近三個月自行負擔醫療費用累計超過30,000元。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
+          },
+          {
+            "label": "最低生活費1.5倍以下者",
+            "amount": "70%",
+            "unit": "案",
+            "note": "最近三個月自行負擔醫療費用累計超過50,000元。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
+          },
+          {
+            "label": "年度上限",
+            "amount": "300,000元",
+            "unit": "每人每年",
+            "note": "每人每年度傷病醫療補助以30萬元為限。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
+          }
+        ],
+        "applicationMethodSourceNote": "戶籍地區公所或聯合里辦公處受理，需檢附醫療及財稅資料。",
+        "howToApply": [
+          "於醫療行為發生日起3個月內提出。",
+          "向戶籍地區公所或聯合里辦公處申請。",
+          "檢附診斷證明、醫療收據正本、戶籍及財產稅賦資料。"
+        ],
+        "documents": [
+          "申請表",
+          "全戶戶籍謄本",
+          "全戶財產、稅賦證明",
+          "診斷證明書",
+          "醫療費用收據正本",
+          "印章"
+        ],
+        "contact": {
+          "website": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "Official Chiayi City medical assistance page checked 2026-06-05."
+        },
+        "id": "chiayi-city-medical-assistance",
+        "name": "嘉義市低收及中低收入戶傷病醫療費用補助",
+        "provider": "嘉義市政府社會處",
+        "jurisdiction": "嘉義市",
+        "county": "嘉義市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "chiayi-county-low-income-living-assistance-115",
+      "name": "嘉義縣115年度低收入戶救助",
+      "url": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930",
+      "organization": "嘉義縣政府社會局",
+      "jurisdiction": "嘉義縣",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "嘉義縣",
+        "低收入戶",
+        "生活扶助",
+        "115年度"
+      ],
+      "record": {
+        "summary": "嘉義縣低收入戶救助，含115年度最低生活費、動產、不動產門檻及家庭生活、兒童、就學、喪葬與營養補助。",
+        "audiences": [
+          "低收入戶",
+          "經濟困難家庭",
+          "兒少家庭",
+          "學生",
+          "孕產婦"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "年度標準"
+        ],
+        "needTags": [
+          "嘉義縣低收入戶",
+          "嘉義縣生活扶助",
+          "嘉義縣115標準",
+          "產婦嬰兒營養補助"
+        ],
+        "eligibility": "設籍且實際居住嘉義縣，家庭總收入、動產及不動產符合衛福部當年度公告標準；依家庭經濟情形分為三款。",
+        "conditionSourceNote": "嘉義縣社會局頁面列出115年度最低生活費、動產與不動產限額。",
+        "applicationConditions": [
+          {
+            "label": "115年度低收入戶標準",
+            "requirement": "最低生活費平均每人每月15,515元；平均每人動產限額96,000元；全戶不動產限額385萬元。",
+            "note": "依家庭應計算人口與收入狀況分為一、二、三款。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+          }
+        ],
+        "benefitSourceNote": "嘉義縣社會局頁面列出低收入戶救助項目與金額。",
+        "benefitItems": [
+          {
+            "label": "第一款家庭生活補助",
+            "amount": "11,850元",
+            "unit": "每人每月",
+            "note": "家庭應計算人口均無工作能力，且無收入及財產。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+          },
+          {
+            "label": "第二款家庭生活補助",
+            "amount": "6,825元",
+            "unit": "每戶每月",
+            "note": "依第二款低收入戶資格核發。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+          },
+          {
+            "label": "兒童生活補助",
+            "amount": "3,008元",
+            "unit": "每人每月",
+            "note": "第二、三款15歲以下兒童。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+          },
+          {
+            "label": "高中職以上就學生活補助",
+            "amount": "6,825元",
+            "unit": "每人每月",
+            "note": "列冊第二、三款低收入戶高中職以上學生。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+          },
+          {
+            "label": "產婦及嬰兒營養補助",
+            "amount": "6,000元",
+            "unit": "每人或每次",
+            "note": "低收入戶產婦每次分娩6,000元，每名嬰兒6,000元。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+          },
+          {
+            "label": "低收入戶喪葬補助",
+            "amount": "10,000元至15,000元",
+            "unit": "每人",
+            "note": "一款15,000元、二款12,000元、三款10,000元。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+          }
+        ],
+        "applicationMethodSourceNote": "由戶長或法定代理人向各鄉鎮市公所或村里辦公處提出。",
+        "howToApply": [
+          "由戶長或法定代理人向鄉鎮市公所或村里辦公處提出。",
+          "準備低收入戶申請書、戶籍、存摺、保險與其他證明。",
+          "由公所與社會局依家庭經濟情形審查款別。"
+        ],
+        "documents": [
+          "全戶新式戶口名簿或戶籍謄本",
+          "低收入戶申請書或委託書",
+          "戶內人口存摺及商業保險資料",
+          "在學證明或學生證",
+          "印章及身分證",
+          "其他相關證明文件"
+        ],
+        "contact": {
+          "phone": "05-3620900",
+          "website": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-06-04",
+          "confidence": "source-dated",
+          "notes": "Official Chiayi County low-income assistance page."
+        },
+        "id": "chiayi-county-low-income-living-assistance-115",
+        "name": "嘉義縣115年度低收入戶救助",
+        "provider": "嘉義縣政府社會局",
+        "jurisdiction": "嘉義縣",
+        "county": "嘉義縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "chiayi-county-emergency-assistance",
+      "name": "嘉義縣急難救助",
+      "url": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654",
+      "organization": "嘉義縣政府社會局",
+      "jurisdiction": "嘉義縣",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "嘉義縣",
+        "急難救助",
+        "生活危機"
+      ],
+      "record": {
+        "summary": "嘉義縣急難救助，協助死亡、重病、失業、財產凍結、福利尚未核准或重大變故造成生活陷困者。",
+        "audiences": [
+          "急難家庭",
+          "經濟困難家庭",
+          "失業者",
+          "住院病患",
+          "一般民眾"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "急難救助",
+          "生活危機服務",
+          "社會救助"
+        ],
+        "needTags": [
+          "嘉義縣急難救助",
+          "臨時生活困難",
+          "重病急難",
+          "失業急難",
+          "車資救助"
+        ],
+        "eligibility": "設籍嘉義縣，因戶內人口死亡、意外傷害、重病、主要生計者失業失蹤或入監、財產凍結、福利或保險尚未核准、重大變故等使生活陷於困境者。",
+        "conditionSourceNote": "嘉義縣社會局頁面列出急難救助服務對象。",
+        "applicationConditions": [
+          {
+            "label": "急難事由",
+            "requirement": "需有死亡殮葬、意外傷害或重病、主要生計者無法工作、財產凍結、福利尚未核准、重大變故，或缺乏前往他縣市工作車資等情形。",
+            "note": "同一事故以救助1次為限。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654"
+          }
+        ],
+        "benefitSourceNote": "嘉義縣社會局頁面說明依案家狀況核實撥發。",
+        "benefitItems": [
+          {
+            "label": "急難救助金",
+            "amount": "10,000元以下",
+            "unit": "每案",
+            "note": "視案家情況核實撥發；情況嚴重者可轉介衛福部急難救助或社會資源。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654"
+          }
+        ],
+        "applicationMethodSourceNote": "可向戶籍所在地公所或嘉義縣社會局申請。",
+        "howToApply": [
+          "整理急難事由與相關證明。",
+          "向戶籍所在地公所或逕向嘉義縣社會局申請。",
+          "承辦單位視情況訪視評估，必要時轉介中央急難救助或民間資源。"
+        ],
+        "documents": [
+          "戶籍謄本或戶口名簿影本",
+          "死亡、診斷、失業、入監、財產凍結等相關證明",
+          "申請人身分資料",
+          "其他承辦單位要求文件"
+        ],
+        "contact": {
+          "phone": "05-3620900",
+          "website": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-06-04",
+          "confidence": "source-dated",
+          "notes": "Official Chiayi County emergency assistance page."
+        },
+        "id": "chiayi-county-emergency-assistance",
+        "name": "嘉義縣急難救助",
+        "provider": "嘉義縣政府社會局",
+        "jurisdiction": "嘉義縣",
+        "county": "嘉義縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "pingtung-low-income-living-assistance-115",
+      "name": "屏東縣115年度低收入戶生活補助",
+      "url": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4",
+      "organization": "屏東縣政府社會處",
+      "jurisdiction": "屏東縣",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "屏東縣",
+        "低收入戶",
+        "生活補助",
+        "115年度"
+      ],
+      "record": {
+        "summary": "屏東縣低收入戶生活補助，含115年度最低生活費、動產、不動產門檻，以及家庭、兒童、高中職生活補助。",
+        "audiences": [
+          "低收入戶",
+          "經濟困難家庭",
+          "兒少家庭",
+          "學生",
+          "孕產婦"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "年度標準"
+        ],
+        "needTags": [
+          "屏東低收入戶",
+          "屏東生活補助",
+          "屏東115標準",
+          "屏東生育補助",
+          "屏東住宅修繕"
+        ],
+        "eligibility": "設籍並實際居住屏東縣，最近一年在國內居住超過183日；家庭總收入、動產及不動產需符合當年度最低生活費標準。",
+        "conditionSourceNote": "屏東縣政府社會處頁面列出115年度低收入戶生活補助條件。",
+        "applicationConditions": [
+          {
+            "label": "115年度低收入戶標準",
+            "requirement": "家庭總收入平均每人每月未達15,515元；動產平均每人不得超過96,000元；不動產全戶不得超過385萬元。",
+            "note": "仍需審查家庭應計算人口與實際居住狀況。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+          }
+        ],
+        "benefitSourceNote": "屏東縣頁面列出低收入戶現金給付與相關項目。",
+        "benefitItems": [
+          {
+            "label": "第一款家庭生活補助",
+            "amount": "11,850元",
+            "unit": "每人每月",
+            "note": "低收入戶第一款。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+          },
+          {
+            "label": "第二款家庭生活補助",
+            "amount": "6,825元",
+            "unit": "每戶每月",
+            "note": "低收入戶第二款。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+          },
+          {
+            "label": "兒童生活補助",
+            "amount": "3,008元",
+            "unit": "每人每月",
+            "note": "低收入戶兒童生活補助。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+          },
+          {
+            "label": "高中職生活補助",
+            "amount": "6,825元",
+            "unit": "每人每月",
+            "note": "低收入戶高中職生活補助。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+          },
+          {
+            "label": "低收入戶及中低收入戶婦女生育補助",
+            "amount": "3,000元至10,000元",
+            "unit": "每次",
+            "note": "低收入戶10,000元；中低收入戶3,000元。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+          },
+          {
+            "label": "低收入戶產婦及嬰兒營養補助",
+            "amount": "5,000元",
+            "unit": "每人",
+            "note": "產婦5,000元；嬰兒每人5,000元。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+          }
+        ],
+        "applicationMethodSourceNote": "屏東縣內各鄉鎮市公所受理，表單由社會處頁面提供。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所提出。",
+          "依低收入戶、婦女生育、營養、住宅修繕等不同項目準備表件。",
+          "由公所初審後送屏東縣政府社會處核定。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證與印章",
+          "郵局存摺封面",
+          "在學、身障、診斷或生育相關證明",
+          "收入與財產資料"
+        ],
+        "contact": {
+          "phone": "08-7320415#5339",
+          "website": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-06-04",
+          "confidence": "source-dated",
+          "notes": "Official Pingtung 115 social assistance page."
+        },
+        "id": "pingtung-low-income-living-assistance-115",
+        "name": "屏東縣115年度低收入戶生活補助",
+        "provider": "屏東縣政府社會處",
+        "jurisdiction": "屏東縣",
+        "county": "屏東縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "pingtung-employment-transport-subsidy",
+      "name": "屏東縣低收及中低收就業交通補助",
+      "url": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2",
+      "organization": "屏東縣政府社會處",
+      "jurisdiction": "屏東縣",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "屏東縣",
+        "低收入戶",
+        "中低收入戶",
+        "就業交通",
+        "交通補助"
+      ],
+      "record": {
+        "summary": "屏東縣低收及中低收就業交通補助，協助經縣府提供或轉介就業成功並穩定就業者負擔通勤交通費。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "求職者",
+          "就業者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "就業與職訓",
+          "交通接送",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "屏東就業交通補助",
+          "低收入戶通勤",
+          "中低收入戶就業",
+          "穩定就業交通"
+        ],
+        "eligibility": "經屏東縣政府提供或轉介就業成功之低收入戶或中低收入戶，並於同一雇主就業達3個月以上。",
+        "conditionSourceNote": "屏東縣政府社會處頁面列出實施對象與就業滿3個月規定。",
+        "applicationConditions": [
+          {
+            "label": "轉介就業且穩定就業",
+            "requirement": "經縣府提供或轉介就業成功，並於同一雇主就業達3個月以上。",
+            "note": "就業滿3個月後需於3個月內提出；中斷就業者須重新符合規定。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2"
+          }
+        ],
+        "benefitSourceNote": "屏東縣頁面列出以客運線上計價方式計算交通費。",
+        "benefitItems": [
+          {
+            "label": "就業交通補助",
+            "amount": "按屏東客運票價來回計算",
+            "unit": "每月最高22天",
+            "note": "自工作地點至實際居住地點，按實際上班日補助。",
+            "sourceDate": "更新日期115-06-04；查核日2026-06-05",
+            "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所社會課提出，後續每月5日前申請上月補助。",
+        "howToApply": [
+          "就業滿3個月後於期限內向戶籍地鄉鎮市公所提出。",
+          "後續持續申請時，每月5日前申請上個月補助。",
+          "檢附領據、存摺封面、在職證明、勞保投保證明與縣府轉介公文。"
+        ],
+        "documents": [
+          "領據",
+          "存摺封面影本",
+          "在職工作證明書",
+          "勞保投保證明",
+          "縣府轉介至就業服務站公文"
+        ],
+        "contact": {
+          "phone": "08-7320415#5412",
+          "website": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-06-04",
+          "confidence": "source-dated",
+          "notes": "Official Pingtung employment transportation subsidy page."
+        },
+        "id": "pingtung-employment-transport-subsidy",
+        "name": "屏東縣低收及中低收就業交通補助",
+        "provider": "屏東縣政府社會處",
+        "jurisdiction": "屏東縣",
+        "county": "屏東縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "yilan-city-low-income-living-assistance-115",
+      "name": "宜蘭市低收入戶生活扶助與中低收入戶資格",
+      "url": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134",
+      "organization": "宜蘭市公所",
+      "jurisdiction": "宜蘭縣",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "宜蘭縣",
+        "宜蘭市",
+        "低收入戶",
+        "中低收入戶",
+        "生活扶助"
+      ],
+      "record": {
+        "summary": "宜蘭市低收入戶生活扶助與中低收入戶資格說明，包含款別生活補助、身障加給、健保與學雜費減免。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭",
+          "學生",
+          "身心障礙者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "申請資訊"
+        ],
+        "needTags": [
+          "宜蘭低收入戶",
+          "宜蘭中低收入戶",
+          "宜蘭生活扶助",
+          "宜蘭市申請"
+        ],
+        "eligibility": "設籍且居住宜蘭市；家庭總收入、動產及不動產需符合當年最低生活費或中低收入戶1.5倍等標準。",
+        "conditionSourceNote": "宜蘭市公所頁面列出補助對象與申請條件，縣府核定。",
+        "applicationConditions": [
+          {
+            "label": "低收或中低收資格",
+            "requirement": "設籍且居住本市，家庭總收入平均每人每月未超過當年公布最低生活費標準；中低收入戶為1.5倍。",
+            "note": "仍須審查全家人口動產、不動產及應計人口。",
+            "sourceDate": "更新日期115-06-05；查核日2026-06-05",
+            "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+          }
+        ],
+        "benefitSourceNote": "宜蘭市公所頁面列出低收入戶款別、中低收入資格及身障加給內容。",
+        "benefitItems": [
+          {
+            "label": "第一款生活補助",
+            "amount": "11,040元",
+            "unit": "每人每月",
+            "note": "核列一款低收入戶。",
+            "sourceDate": "更新日期115-06-05；查核日2026-06-05",
+            "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+          },
+          {
+            "label": "第二款家庭補助",
+            "amount": "6,825元",
+            "unit": "每戶每月",
+            "note": "核列二款低收入戶。",
+            "sourceDate": "更新日期115-06-05；查核日2026-06-05",
+            "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+          },
+          {
+            "label": "兒童生活補助",
+            "amount": "3,008元",
+            "unit": "每人每月",
+            "note": "第二、三款戶內15歲以下兒童。",
+            "sourceDate": "更新日期115-06-05；查核日2026-06-05",
+            "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+          },
+          {
+            "label": "高中職以上就學補助",
+            "amount": "6,825元",
+            "unit": "每人每月",
+            "note": "未含進修、補校生等非一般學生。",
+            "sourceDate": "更新日期115-06-05；查核日2026-06-05",
+            "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+          },
+          {
+            "label": "低收入戶身障生活補助",
+            "amount": "5,437元至9,485元",
+            "unit": "每人每月",
+            "note": "中、重、極重度9,485元；輕度5,437元。",
+            "sourceDate": "更新日期115-06-05；查核日2026-06-05",
+            "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+          },
+          {
+            "label": "中低收入戶身障生活補助",
+            "amount": "4,049元至5,437元",
+            "unit": "每人每月",
+            "note": "中、重、極重度5,437元；輕度4,049元。",
+            "sourceDate": "更新日期115-06-05；查核日2026-06-05",
+            "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地里辦公處提出，公所社會課初審後轉宜蘭縣政府核定。",
+        "howToApply": [
+          "向戶籍所在地里辦公處提出申請。",
+          "公所社會課初審後轉宜蘭縣政府核定。",
+          "戶籍遷出會註銷低收或中低收入戶身分，次月津貼停撥或繳回。"
+        ],
+        "documents": [
+          "申請書",
+          "全戶戶籍謄本",
+          "郵局存簿封面影本",
+          "郵局印章",
+          "勞保、學生證、身障手冊、服役或在監等證明"
+        ],
+        "contact": {
+          "phone": "03-9325164",
+          "website": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-06-05",
+          "confidence": "source-dated",
+          "notes": "Official Yilan City low/middle-low income page under Yilan County."
+        },
+        "id": "yilan-city-low-income-living-assistance-115",
+        "name": "宜蘭市低收入戶生活扶助與中低收入戶資格",
+        "provider": "宜蘭市公所",
+        "jurisdiction": "宜蘭縣",
+        "county": "宜蘭縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "yilan-long-term-care-transport-115",
+      "name": "宜蘭縣長期照顧交通服務",
+      "url": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855",
+      "organization": "宜蘭縣政府社會處",
+      "jurisdiction": "宜蘭縣",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "宜蘭縣",
+        "長照",
+        "交通接送",
+        "低收入戶",
+        "中低收入戶"
+      ],
+      "record": {
+        "summary": "宜蘭縣長期照顧交通服務，提供就醫、復健交通接送，低收入戶核定趟次內自付額0元。",
+        "audiences": [
+          "長者",
+          "身心障礙者",
+          "失能者",
+          "失智者",
+          "低收入戶",
+          "中低收入戶"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "長期照顧服務",
+          "交通接送",
+          "醫療交通"
+        ],
+        "needTags": [
+          "宜蘭長照交通",
+          "復康交通",
+          "長照接送",
+          "低收入戶交通",
+          "1966"
+        ],
+        "eligibility": "居住宜蘭縣，經長期照護服務管理所評估日常生活活動能力達長照需要等級第2級以上，並符合年齡、身障、失智或急性後期照護收案條件之一，且有交通接送需求者。",
+        "conditionSourceNote": "宜蘭縣政府社會處頁面列出長照交通服務申請資格。",
+        "applicationConditions": [
+          {
+            "label": "長照等級及交通需求",
+            "requirement": "ADL評估達長照需要等級第2級以上，且符合65歲以上、55歲以上原住民、身障、失智或急性後期照護收案對象之一。",
+            "note": "服務以就醫、復健需求交通接送為主。",
+            "sourceDate": "更新日期115-02-05；查核日2026-06-05",
+            "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+          }
+        ],
+        "benefitSourceNote": "宜蘭縣頁面列出核定補助趟次以內自付額。",
+        "benefitItems": [
+          {
+            "label": "宜蘭縣全區一般路線",
+            "amount": "0元至62元",
+            "unit": "每趟自付額",
+            "note": "一般戶62元；中低收入戶20元；低收入戶0元。",
+            "sourceDate": "更新日期115-02-05；查核日2026-06-05",
+            "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+          },
+          {
+            "label": "大同鄉及南澳鄉",
+            "amount": "0元至63元",
+            "unit": "每趟自付額",
+            "note": "一般戶63元；中低收入戶21元；低收入戶0元。",
+            "sourceDate": "更新日期115-02-05；查核日2026-06-05",
+            "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+          },
+          {
+            "label": "共乘收費",
+            "amount": "自付額50%",
+            "unit": "每趟",
+            "note": "共乘以服務使用者自付額百分之五十收費。",
+            "sourceDate": "更新日期115-02-05；查核日2026-06-05",
+            "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+          }
+        ],
+        "applicationMethodSourceNote": "長照交通服務應先經長照需求評估，可洽1966或宜蘭縣政府社會處。",
+        "howToApply": [
+          "先洽1966或宜蘭縣長照窗口申請長照需求評估。",
+          "確認長照等級及交通接送需求。",
+          "依核定趟次使用合作交通服務單位。"
+        ],
+        "documents": [
+          "長照評估資料",
+          "身心障礙證明或失智、急性後期照護相關資料",
+          "低收入戶或中低收入戶證明",
+          "承辦單位要求文件"
+        ],
+        "contact": {
+          "phone": "03-9328822#213",
+          "website": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "115-02-05",
+          "confidence": "source-dated",
+          "notes": "Official Yilan County long-term care transportation page."
+        },
+        "id": "yilan-long-term-care-transport-115",
+        "name": "宜蘭縣長期照顧交通服務",
+        "provider": "宜蘭縣政府社會處",
+        "jurisdiction": "宜蘭縣",
+        "county": "宜蘭縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "hualien-low-income-living-assistance-115",
+      "name": "花蓮縣低收入戶及中低收入戶補助",
+      "url": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089",
+      "organization": "花蓮縣政府社會處",
+      "jurisdiction": "花蓮縣",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "花蓮縣",
+        "低收入戶",
+        "中低收入戶",
+        "115年度",
+        "生活扶助"
+      ],
+      "record": {
+        "summary": "花蓮縣低收入戶及中低收入戶補助，列出115年度最低生活費、動產、不動產門檻與低收入戶生活扶助金額。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "經濟困難家庭",
+          "學生",
+          "長者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "低收入戶與中低收入戶救助",
+          "生活補助",
+          "年度標準"
+        ],
+        "needTags": [
+          "花蓮低收入戶",
+          "花蓮中低收入戶",
+          "花蓮115標準",
+          "花蓮生活補助"
+        ],
+        "eligibility": "設籍並實際居住花蓮縣，最近一年居住國內超過183天；家庭總收入、動產與不動產需符合低收入戶或中低收入戶標準。",
+        "conditionSourceNote": "花蓮縣政府社會處頁面列出115年度低收入戶與中低收入戶門檻。",
+        "applicationConditions": [
+          {
+            "label": "115年度低收入戶標準",
+            "requirement": "每人每月最低生活費15,515元；動產每人每年96,000元；不動產全戶385萬元。",
+            "note": "仍需符合設籍、居住及家庭人口審查。",
+            "sourceDate": "2026/01/01；查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+          },
+          {
+            "label": "115年度中低收入戶標準",
+            "requirement": "每人每月23,273元；動產每人每年144,000元；不動產全戶578萬元。",
+            "note": "中低收入戶不是只看收入，仍需看財產與家庭成員。",
+            "sourceDate": "2026/01/01；查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+          }
+        ],
+        "benefitSourceNote": "花蓮縣政府社會處頁面列出低收入戶補助內容。",
+        "benefitItems": [
+          {
+            "label": "第一款家庭生活補助",
+            "amount": "11,850元",
+            "unit": "每月",
+            "note": "依核列款別核定。",
+            "sourceDate": "2026/01/01；查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+          },
+          {
+            "label": "第二款家庭生活補助",
+            "amount": "6,825元",
+            "unit": "每月",
+            "note": "依核列款別核定。",
+            "sourceDate": "2026/01/01；查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+          },
+          {
+            "label": "兒童生活補助",
+            "amount": "3,008元",
+            "unit": "每月",
+            "note": "15歲以下兒童。",
+            "sourceDate": "2026/01/01；查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+          },
+          {
+            "label": "就學生活補助",
+            "amount": "6,825元",
+            "unit": "每月",
+            "note": "高中職以上學生。",
+            "sourceDate": "2026/01/01；查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+          },
+          {
+            "label": "老人生活津貼",
+            "amount": "8,329元",
+            "unit": "每月",
+            "note": "65歲以上低收入戶老人。",
+            "sourceDate": "2026/01/01；查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所提出。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所申請。",
+          "檢附身分、戶籍、郵局存摺與家庭收入財產資料。",
+          "依審查結果核列低收入戶款別或中低收入戶資格。"
+        ],
+        "documents": [
+          "身分證",
+          "印章",
+          "郵局存摺封面及最近6個月明細",
+          "戶籍資料",
+          "收入與財產資料",
+          "其他證明文件"
+        ],
+        "contact": {
+          "phone": "03-8227171#397-399",
+          "website": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "2026-01-01",
+          "confidence": "source-dated",
+          "notes": "Official Hualien low/middle-low income assistance page."
+        },
+        "id": "hualien-low-income-living-assistance-115",
+        "name": "花蓮縣低收入戶及中低收入戶補助",
+        "provider": "花蓮縣政府社會處",
+        "jurisdiction": "花蓮縣",
+        "county": "花蓮縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "hualien-emergency-assistance",
+      "name": "花蓮縣急難救助",
+      "url": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974",
+      "organization": "花蓮縣政府社會處",
+      "jurisdiction": "花蓮縣",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "花蓮縣",
+        "急難救助",
+        "生活危機"
+      ],
+      "record": {
+        "summary": "花蓮縣急難救助，協助設籍花蓮縣且因死亡、重病、失業、財產凍結、福利尚未核准或重大變故而生活陷困者。",
+        "audiences": [
+          "急難家庭",
+          "經濟困難家庭",
+          "失業者",
+          "住院病患",
+          "一般民眾"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "急難救助",
+          "生活危機服務",
+          "社會救助"
+        ],
+        "needTags": [
+          "花蓮急難救助",
+          "花蓮臨時困難",
+          "喪葬急難",
+          "重病急難",
+          "失業急難"
+        ],
+        "eligibility": "設籍花蓮縣，因家庭成員死亡無力殮葬、意外傷害或重病、主要生計者失業或無法工作、財產未能運用、福利尚未核准或其他重大變故而生活陷困者。",
+        "conditionSourceNote": "花蓮縣政府社會處頁面列出急難救助補助對象。",
+        "applicationConditions": [
+          {
+            "label": "急難事由",
+            "requirement": "有死亡無力殮葬、意外傷害或重病、主要生計者無法工作、財產或帳戶凍結、福利或保險尚未核准、重大變故等情形。",
+            "note": "補助需由承辦單位依個案事實審查。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+          }
+        ],
+        "benefitSourceNote": "花蓮縣頁面列出不同急難事由補助金額。",
+        "benefitItems": [
+          {
+            "label": "低收入戶一款死亡無力殮葬",
+            "amount": "30,000元",
+            "unit": "每案最高",
+            "note": "戶內人口死亡無力殮葬。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+          },
+          {
+            "label": "低收入戶二、三款死亡無力殮葬",
+            "amount": "10,000元至20,000元",
+            "unit": "每案最高",
+            "note": "負家庭生計者20,000元；非負擔家庭生計者10,000元。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+          },
+          {
+            "label": "非列冊低收入戶死亡無力殮葬",
+            "amount": "6,000元",
+            "unit": "每案",
+            "note": "依頁面列示金額。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+          },
+          {
+            "label": "重病、失業、財產凍結或福利尚未核准",
+            "amount": "5,000元",
+            "unit": "每案",
+            "note": "依急難事由核定。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+          },
+          {
+            "label": "其他重大變故",
+            "amount": "最高10,000元",
+            "unit": "每案",
+            "note": "經訪視評估確有救助需要者。",
+            "sourceDate": "查核日2026-06-05",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所申請，依實際需要檢附文件。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所提出。",
+          "下載急難救助申請書並依急難事由檢附證明。",
+          "由承辦單位審查或訪視後核定。"
+        ],
+        "documents": [
+          "急難救助申請書",
+          "身分及戶籍資料",
+          "死亡、診斷、失業、財產凍結等證明",
+          "收據或帳戶資料",
+          "其他公所要求文件"
+        ],
+        "contact": {
+          "website": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "Official Hualien emergency assistance page checked 2026-06-05."
+        },
+        "id": "hualien-emergency-assistance",
+        "name": "花蓮縣急難救助",
+        "provider": "花蓮縣政府社會處",
+        "jurisdiction": "花蓮縣",
+        "county": "花蓮縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "taitung-learning-equipment-subsidy-115",
+      "name": "臺東縣115年度脫貧支持服務計畫購置學習設備補助",
+      "url": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d",
+      "organization": "臺東縣政府社會處",
+      "jurisdiction": "臺東縣",
+      "sourceType": "official-local-annual-program",
+      "tags": [
+        "地方政府",
+        "臺東縣",
+        "低收入戶",
+        "中低收入戶",
+        "脫貧",
+        "學生",
+        "115年度"
+      ],
+      "record": {
+        "summary": "臺東縣115年度脫貧支持服務計畫購置學習設備補助，協助低收及中低收入戶16至25歲在學學生購置電腦或課程必需用品。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "高中職學生",
+          "大專學生",
+          "學生"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "教育補助",
+          "脫貧支持",
+          "資訊設備"
+        ],
+        "needTags": [
+          "臺東學習設備補助",
+          "臺東脫貧",
+          "低收入戶學生",
+          "中低收入戶學生",
+          "電腦補助"
+        ],
+        "eligibility": "臺東縣列冊低收入戶及中低收入戶，高中職以上在學學生16歲以上至25歲以下；不含延畢生、碩士班、博士班及空中大學。",
+        "conditionSourceNote": "臺東縣政府社會處頁面列出115年度申請條件與申請期限。",
+        "applicationConditions": [
+          {
+            "label": "學生及弱勢身分",
+            "requirement": "本縣列冊低收及中低收入戶，高中職以上在學學生16歲以上至25歲以下。",
+            "note": "不包含延畢生、碩士班、博士班學生及空中大學。",
+            "sourceDate": "資料更新日期2026/4/1；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d"
+          },
+          {
+            "label": "申請期間",
+            "requirement": "115年1月1日至115年10月31日止，經費用罄即截止。",
+            "note": "需先經書面審核通過並收到核定公文後，才可自行購置。",
+            "sourceDate": "資料更新日期2026/4/1；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d"
+          }
+        ],
+        "benefitSourceNote": "臺東縣頁面列出電腦設備與課程必需用品補助上限。",
+        "benefitItems": [
+          {
+            "label": "電腦設備",
+            "amount": "最高15,000元",
+            "unit": "每人",
+            "note": "桌上型或一般型筆記型電腦，不含平板電腦；需於當年度參與志願服務16小時。",
+            "sourceDate": "資料更新日期2026/4/1；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d"
+          },
+          {
+            "label": "課程學習必需用品",
+            "amount": "最高5,000元",
+            "unit": "每人",
+            "note": "例如語音翻譯機、技能檢定考試用具、影音設備、妝髮教具、大專生就學書籍費等；需志願服務8小時。",
+            "sourceDate": "資料更新日期2026/4/1；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d"
+          }
+        ],
+        "applicationMethodSourceNote": "向臺東縣政府社會處社會救助及社工科提出，需先核定後購置。",
+        "howToApply": [
+          "填具申請表向臺東縣政府社會處提出書面申請。",
+          "等收到核定公文後再購置學習設備。",
+          "備妥核銷資料向縣府請領補助款，並完成規定志願服務。"
+        ],
+        "documents": [
+          "申請表",
+          "低收入戶或中低收入戶證明",
+          "在學證明",
+          "核銷資料",
+          "領據",
+          "志願服務佐證"
+        ],
+        "contact": {
+          "phone": "089-350731#235",
+          "website": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "2026-04-01",
+          "confidence": "source-dated",
+          "notes": "Official Taitung 115 learning equipment subsidy page."
+        },
+        "id": "taitung-learning-equipment-subsidy-115",
+        "name": "臺東縣115年度脫貧支持服務計畫購置學習設備補助",
+        "provider": "臺東縣政府社會處",
+        "jurisdiction": "臺東縣",
+        "county": "臺東縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "taitung-medical-assistance",
+      "name": "臺東縣中低收傷病醫療費用補助",
+      "url": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d",
+      "organization": "臺東縣政府社會處",
+      "jurisdiction": "臺東縣",
+      "sourceType": "official-local-program",
+      "tags": [
+        "地方政府",
+        "臺東縣",
+        "醫療補助",
+        "低收入戶",
+        "中低收入戶"
+      ],
+      "record": {
+        "summary": "臺東縣傷病醫療費用補助，協助低收入戶、中低收入戶及最低生活費1.5倍以下傷病患者負擔自付醫療費。",
+        "audiences": [
+          "低收入戶",
+          "中低收入戶",
+          "住院病患",
+          "經濟困難家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "醫療補助",
+          "健保與醫療",
+          "低收入戶與中低收入戶救助"
+        ],
+        "needTags": [
+          "臺東醫療補助",
+          "中低收傷病醫療",
+          "低收入戶醫療",
+          "住院自付費用"
+        ],
+        "eligibility": "設籍並實際居住臺東縣，且為列冊低收入戶傷病患者、列冊中低收入戶嚴重傷病者，或家庭總收入平均未達最低生活費1.5倍且醫療費非本人或扶養義務人所能負擔者。",
+        "conditionSourceNote": "臺東縣政府社會處頁面列出補助對象與醫療費門檻。",
+        "applicationConditions": [
+          {
+            "label": "傷病與經濟條件",
+            "requirement": "列冊低收入戶、中低收入戶，或未列冊但家庭總收入平均未達最低生活費1.5倍，且醫療費非本人或扶養義務人所能負擔。",
+            "note": "申請人應於出院或就醫後3個月內向戶籍地鄉鎮市公所辦理。",
+            "sourceDate": "資料更新日期2026/5/14；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
+          }
+        ],
+        "benefitSourceNote": "臺東縣頁面列出低收入戶、中低收入戶及未列冊弱勢者的補助比例與年度上限。",
+        "benefitItems": [
+          {
+            "label": "列冊低收入戶",
+            "amount": "全額補助",
+            "unit": "案",
+            "note": "符合規定之醫療費用。",
+            "sourceDate": "資料更新日期2026/5/14；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
+          },
+          {
+            "label": "列冊中低收入戶",
+            "amount": "80%",
+            "unit": "案",
+            "note": "最近三個月醫療費用累計達30,000元以上。",
+            "sourceDate": "資料更新日期2026/5/14；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
+          },
+          {
+            "label": "最低生活費1.5倍以下者",
+            "amount": "70%",
+            "unit": "案",
+            "note": "最近三個月醫療費用累計達50,000元以上。",
+            "sourceDate": "資料更新日期2026/5/14；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
+          },
+          {
+            "label": "年度補助上限",
+            "amount": "100,000元",
+            "unit": "每人每年",
+            "note": "每人每年最高補助10萬元。",
+            "sourceDate": "資料更新日期2026/5/14；查核日2026-06-05",
+            "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
+          }
+        ],
+        "applicationMethodSourceNote": "出院或就醫後3個月內向戶籍地鄉鎮市公所申請，公所初審後送縣府複核。",
+        "howToApply": [
+          "出院或就醫後3個月內提出申請。",
+          "向戶籍地鄉鎮市公所送件。",
+          "公所7日內初審後彙送縣府，縣府再複核補助結果。"
+        ],
+        "documents": [
+          "申請表",
+          "身分證或戶口名簿影本",
+          "低收入戶或中低收入戶證明",
+          "診斷證明書",
+          "醫療費用收據正本及明細",
+          "存摺封面影本",
+          "委託書或切結書"
+        ],
+        "contact": {
+          "phone": "089-350731",
+          "website": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-05",
+          "sourceUpdatedAt": "2026-05-14",
+          "confidence": "source-dated",
+          "notes": "Official Taitung medical assistance page."
+        },
+        "id": "taitung-medical-assistance",
+        "name": "臺東縣中低收傷病醫療費用補助",
+        "provider": "臺東縣政府社會處",
+        "jurisdiction": "臺東縣",
+        "county": "臺東縣"
       },
       "format": "static-record",
       "crawl": true,
