@@ -1,0 +1,1243 @@
+{
+  "generatedAt": "2026-06-06T16:18:48+00:00",
+  "batch": "H",
+  "mode": "candidate-only",
+  "notice": "Review-only candidate pages crawled from foundation websites. Do not treat these as public resource records until manually reviewed.",
+  "crawlPolicy": {
+    "userAgent": "taiwan-welfare-resource-hub/0.1 (+https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub)",
+    "robotsRespected": true,
+    "maxPagesPerSite": 6,
+    "maxCandidatesPerSite": 3,
+    "minScore": 8,
+    "sourceDataset": "data/resources.json",
+    "previousCandidateFiles": [
+      "data\\foundation-program-candidates.json",
+      "data\\foundation-program-candidates-batch-b.json",
+      "data\\foundation-program-candidates-batch-c.json",
+      "data\\foundation-program-candidates-batch-d.json",
+      "data\\foundation-program-candidates-batch-e.json",
+      "data\\foundation-program-candidates-batch-f.json",
+      "data\\foundation-program-candidates-batch-g.json"
+    ],
+    "excludedFoundations": 183,
+    "onlyCurrentYear": false
+  },
+  "summary": {
+    "selectedFoundations": 9,
+    "websitesAttempted": 9,
+    "websitesWithCandidates": 7,
+    "pagesFetched": 33,
+    "candidates": 17,
+    "highConfidence": 14,
+    "mediumConfidence": 3,
+    "lowConfidence": 0,
+    "errors": 1
+  },
+  "selectedFoundations": [
+    {
+      "id": "sfaa-foundation-a0223",
+      "name": "財團法人育田社會福利慈善基金會",
+      "county": "桃園市",
+      "website": "http://www.mercyland.org.tw/",
+      "sourceUpdatedAt": "2025-10-22",
+      "priorityScore": 14,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-a0220",
+      "name": "財團法人基督教聖道兒少福利基金會",
+      "county": "臺北市",
+      "website": "http://www.hwcyf.org.tw/",
+      "sourceUpdatedAt": "2025-07-25",
+      "priorityScore": 14,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-d0002",
+      "name": "財團法人台灣省私立鴻佳啟能庇護中心",
+      "county": "臺南市",
+      "website": "https://www.hc.org.tw",
+      "sourceUpdatedAt": "2025-12-22",
+      "priorityScore": 12,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-d0003",
+      "name": "財團法人台灣省私立心德慈化教養院",
+      "county": "臺南市",
+      "website": "http://www.sinte.org",
+      "sourceUpdatedAt": "2025-12-05",
+      "priorityScore": 12,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-d0001",
+      "name": "財團法人台灣省私立台灣盲人重建院",
+      "county": "新北市",
+      "website": "http://www.ibt.org.tw/RWD01/Default.aspx",
+      "sourceUpdatedAt": "2025-12-05",
+      "priorityScore": 12,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-a0095",
+      "name": "財團法人育成社會福利基金會",
+      "county": "臺北市",
+      "website": "http://www.ycswf.org.tw",
+      "sourceUpdatedAt": "2025-11-26",
+      "priorityScore": 12,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-a0099",
+      "name": "財團法人華山社會福利慈善事業基金會",
+      "county": "臺北市",
+      "website": "http://www.elder.org.tw",
+      "sourceUpdatedAt": "2025-07-18",
+      "priorityScore": 12,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-a0074",
+      "name": "財團法人中國國民黨身心障礙者保護基金會",
+      "county": "臺北市",
+      "website": "http://www.pmdpfound.org.tw",
+      "sourceUpdatedAt": "2025-07-09",
+      "priorityScore": 12,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    },
+    {
+      "id": "sfaa-foundation-a0253",
+      "name": "財團法人公益傳播基金會",
+      "county": "臺中市",
+      "website": "https://www.hopemedia.tw/",
+      "sourceUpdatedAt": "2025-07-09",
+      "priorityScore": 10,
+      "priorityReason": "Real website plus current-year update, high-demand service category, or high-recognition foundation name."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sfaa-foundation-a0223-candidate-abc7d406ea81",
+      "foundationId": "sfaa-foundation-a0223",
+      "foundationName": "財團法人育田社會福利慈善基金會",
+      "county": "桃園市",
+      "audiences": [
+        "其他",
+        "家庭",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "其他",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.mercyland.org.tw/",
+      "pageUrl": "http://www.mercyland.org.tw/?page_id=269",
+      "pageTitle": "脆弱癌友家庭扶助 – 育田基金會",
+      "linkText": "脆弱癌友家庭扶助",
+      "summary": "【公告】115 年度「脆弱癌友家庭扶助計畫」申請辦法 實施日期：115 年 1 月 1 日至 11 月 30 日*115.02.11 修訂（調整商業保險排除條款） 育田基金會致力於協助因罹癌導致經濟陷入困境的家庭。本年度扶助辦法如下，敬請各轉介單位配合辦理。 一、 補助對象 醫學條件： 罹患癌症且正接受積極性治療（手術、化放療等，不含定期回診），發生於收件日...",
+      "matchedKeywords": [
+        "家庭",
+        "扶助",
+        "服務",
+        "114年",
+        "114年度",
+        "急難",
+        "救助",
+        "申請",
+        "表單",
+        "獎助",
+        "2026",
+        "2025",
+        "聯絡",
+        "公告",
+        "計畫",
+        "辦法",
+        "補助",
+        "條件",
+        "照護",
+        "中低收入",
+        "低收入",
+        "資格",
+        "社福",
+        "醫療",
+        "長照",
+        "受理",
+        "文件",
+        "福利",
+        "電話",
+        "最新消息",
+        "弱勢",
+        "照顧",
+        "老人"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "2025",
+        "114年",
+        "114年度",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "申請",
+        "資格",
+        "條件",
+        "文件",
+        "表單",
+        "辦法",
+        "受理",
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 84,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0223-candidate-127d72d00a4d",
+      "foundationId": "sfaa-foundation-a0223",
+      "foundationName": "財團法人育田社會福利慈善基金會",
+      "county": "桃園市",
+      "audiences": [
+        "其他",
+        "家庭",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "其他",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.mercyland.org.tw/",
+      "pageUrl": "http://www.mercyland.org.tw/?page_id=4252",
+      "pageTitle": "癌友家庭子女─育秧獎助學金 – 育田基金會",
+      "linkText": "癌友家庭子女─育秧獎助學金",
+      "summary": "育田基金會長期致力於「癌友家庭扶助」服務，深知癌症為家庭帶來的經濟與心理考驗。我們特別辦理「癌友家庭子女獎助學金」，期盼在艱難的時刻伸出援手，協助求學中的子女安心就學、持續勇敢追求夢想。 歡迎符合資格的同學踴躍提出申請！ 📅 重要作業時程表 申請期間： 115 年 6 月 1 日起至 9 月 20 日止（*收件截止日以郵戳為憑）。 結果公告： 115 年 1...",
+      "matchedKeywords": [
+        "家庭",
+        "獎助",
+        "服務",
+        "114年",
+        "114年度",
+        "扶助",
+        "急難",
+        "救助",
+        "申請",
+        "表單",
+        "2026",
+        "2025",
+        "聯絡",
+        "資格",
+        "公告",
+        "條件",
+        "照顧",
+        "低收入",
+        "中低收入",
+        "名額",
+        "文件",
+        "清寒",
+        "受理",
+        "計畫",
+        "獎學",
+        "辦法",
+        "電話",
+        "補助",
+        "洽詢",
+        "最新消息",
+        "弱勢",
+        "老人",
+        "福利"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "2025",
+        "114年",
+        "114年度",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "申請",
+        "資格",
+        "條件",
+        "文件",
+        "表單",
+        "辦法",
+        "名額",
+        "受理",
+        "洽詢",
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 82,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0223-candidate-35f05d29842e",
+      "foundationId": "sfaa-foundation-a0223",
+      "foundationName": "財團法人育田社會福利慈善基金會",
+      "county": "桃園市",
+      "audiences": [
+        "其他",
+        "家庭",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "急難救助(短期、臨時性補助)",
+        "其他",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.mercyland.org.tw/",
+      "pageUrl": "http://www.mercyland.org.tw/?p=4949",
+      "pageTitle": "📌【115 年度癌友家庭各項服務方案及活動轉介公告】 – 育田基金會",
+      "linkText": "📌【115 年度癌友家庭各項服務方案及活動轉介公告】",
+      "summary": "各位專業夥伴及網絡社工您好：歲末年終，育田基金會感謝您過去一年在個案服務上的投入與協助。為持續精進對脆弱癌友家庭的服務，本會已於官方網站發布 115 年度（2026年）各項計畫簡章及申請辦法。誠摯邀請各單位專業人員逕行上網查詢，並依相關規範辦理轉介：一、 115 年度重點服務計畫●脆弱癌友家庭扶助專案： 提供經濟、營養品生活扶助，請詳閱 115 年辦法並填寫...",
+      "matchedKeywords": [
+        "家庭",
+        "服務",
+        "服務方案",
+        "方案",
+        "公告",
+        "114年",
+        "114年度",
+        "扶助",
+        "急難",
+        "救助",
+        "申請",
+        "表單",
+        "獎助",
+        "2026",
+        "2025",
+        "聯絡",
+        "計畫",
+        "辦法",
+        "專案",
+        "洽詢",
+        "照顧",
+        "文件",
+        "補助",
+        "電話",
+        "福利",
+        "最新消息",
+        "受理",
+        "弱勢",
+        "老人"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "2025",
+        "114年",
+        "114年度",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "申請",
+        "文件",
+        "表單",
+        "辦法",
+        "受理",
+        "洽詢",
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 77,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0220-candidate-57eb757f4002",
+      "foundationId": "sfaa-foundation-a0220",
+      "foundationName": "財團法人基督教聖道兒少福利基金會",
+      "county": "臺北市",
+      "audiences": [
+        "兒童(含青少年)",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "兒童及青少年福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.hwcyf.org.tw/",
+      "pageUrl": "https://www.hwcyf.org.tw/",
+      "pageTitle": "聖道兒少福利基金會",
+      "linkText": "首頁",
+      "summary": "聖道兒少福利基金會 跳至主要內容 Home 認識聖道 我們的願景 我們是誰 最新消息 我要捐款 捐款方式 Home 認識聖道 我們的願景 我們是誰 最新消息 我要捐款 捐款方式 選單 認識聖道 聖道兒少福利基金會於2011年五月成立，延續計志文牧師關懷弱勢兒少心志，除了致力聖道兒童之家的安置服務，也透過補助經費與提供兒少工作者訓練，與全國多間兒少社福單位合作...",
+      "matchedKeywords": [
+        "兒少",
+        "福利",
+        "最新消息",
+        "弱勢",
+        "兒童",
+        "服務",
+        "補助",
+        "社福",
+        "青少年",
+        "少年",
+        "家庭",
+        "計畫",
+        "照護",
+        "方案",
+        "照顧",
+        "電話",
+        "2026"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "最新消息"
+      ],
+      "applicationSignals": [
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 48,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-d0003-candidate-0b1be0e7d2ae",
+      "foundationId": "sfaa-foundation-d0003",
+      "foundationName": "財團法人台灣省私立心德慈化教養院",
+      "county": "臺南市",
+      "audiences": [
+        "身心障礙者",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.sinte.org",
+      "pageUrl": "https://www.sinte.org/m2/m.php?id=1&mid=1&m2id=70&category=x",
+      "pageTitle": "服務概況-心德慈化教養院",
+      "linkText": "服務概況",
+      "summary": "服務概況-心德慈化教養院 認識心德 心德簡介 院長的話 緣起與沿革 走過歷史 服務概況 宗旨使命與願景 組織架構 遠景 地圖位置 心德服務 工作訓練 福憨兒烘焙坊 清潔工作隊 憨老服務 最新消息 活動宣傳 心德之聲期刊 人才招募 心德訊息 心德生活 心德花絮 心德專業課程 愛心關懷 幫助心德 募款方案 每月物資需求 捐款方式 心德愛心車 福憨兒烘焙 志工服務...",
+      "matchedKeywords": [
+        "服務",
+        "最新消息",
+        "方案",
+        "114年",
+        "114年度",
+        "專案",
+        "115年度",
+        "115年",
+        "補助",
+        "獎助",
+        "醫療",
+        "照護",
+        "福利",
+        "辦法",
+        "身心障礙",
+        "服務內容",
+        "照顧",
+        "家庭",
+        "聯絡",
+        "電話"
+      ],
+      "currentYearSignals": [
+        "115年",
+        "115年度",
+        "114年",
+        "114年度",
+        "最新消息"
+      ],
+      "applicationSignals": [
+        "辦法",
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 56,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-d0003-candidate-b73f614cba19",
+      "foundationId": "sfaa-foundation-d0003",
+      "foundationName": "財團法人台灣省私立心德慈化教養院",
+      "county": "臺南市",
+      "audiences": [
+        "身心障礙者",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.sinte.org",
+      "pageUrl": "https://www.sinte.org/m2/m.php?id=1&mid=2&m2id=7&category=x",
+      "pageTitle": "在地老化,專業老化,快樂老化的服務",
+      "linkText": "憨老服務",
+      "summary": "本院服務對象平均年齡47歲，面臨愈來愈多的憨老者，本著提供在地老化、專業老化、快樂老化的服務理念，透過專業團隊資源以及在地支持網絡系統，將專業服務送入機構，期望為憨老者建構更完善、多元化的服務網絡",
+      "matchedKeywords": [
+        "服務",
+        "最新消息",
+        "方案",
+        "114年",
+        "114年度",
+        "專案",
+        "115年度",
+        "115年",
+        "補助",
+        "獎助",
+        "醫療",
+        "照護",
+        "福利",
+        "家庭",
+        "照顧",
+        "聯絡",
+        "電話"
+      ],
+      "currentYearSignals": [
+        "115年",
+        "115年度",
+        "114年",
+        "114年度",
+        "最新消息"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 48,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-d0003-candidate-f905b4fb0916",
+      "foundationId": "sfaa-foundation-d0003",
+      "foundationName": "財團法人台灣省私立心德慈化教養院",
+      "county": "臺南市",
+      "audiences": [
+        "身心障礙者",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.sinte.org",
+      "pageUrl": "https://www.sinte.org/m2/m.php?id=1&mid=8&m2id=67&category=x",
+      "pageTitle": "接受捐贈、補助、獎助及支付捐贈清冊-心德慈化教養院",
+      "linkText": "接受捐贈、補助、獎助及支付捐贈清冊",
+      "summary": "接受捐贈、補助、獎助及支付捐贈清冊-心德慈化教養院 認識心德 心德簡介 院長的話 緣起與沿革 走過歷史 服務概況 宗旨使命與願景 組織架構 遠景 地圖位置 心德服務 工作訓練 福憨兒烘焙坊 清潔工作隊 憨老服務 最新消息 活動宣傳 心德之聲期刊 人才招募 心德訊息 心德生活 心德花絮 心德專業課程 愛心關懷 幫助心德 募款方案 每月物資需求 捐款方式 心德愛...",
+      "matchedKeywords": [
+        "補助",
+        "獎助",
+        "服務",
+        "最新消息",
+        "方案",
+        "114年",
+        "114年度",
+        "專案",
+        "115年度",
+        "115年",
+        "醫療",
+        "照護",
+        "福利",
+        "聯絡",
+        "電話"
+      ],
+      "currentYearSignals": [
+        "115年",
+        "115年度",
+        "114年",
+        "114年度",
+        "最新消息"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 42,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-d0001-candidate-dea3d00ff361",
+      "foundationId": "sfaa-foundation-d0001",
+      "foundationName": "財團法人台灣省私立台灣盲人重建院",
+      "county": "新北市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.ibt.org.tw/RWD01/Default.aspx",
+      "pageUrl": "https://www.ibt.org.tw/RWD01/Default.aspx",
+      "pageTitle": "財團法人台灣省私立台灣盲人重建院 > 首頁",
+      "linkText": "首頁",
+      "summary": "財團法人台灣省私立台灣盲人重建院 > 首頁 跳到主要內容區 ::: 搜尋 聯絡我們 網站導覽 字體尺寸 ::: 搜尋 聯絡我們 網站導覽 字體尺寸 Toggle navigation 立即捐款 捐款資訊 捐款方式 線上捐款 愛心商品 繁星天使名單 捐款芳名錄查詢 歷年度財務收支表 勸募活動公告徵信 最新消息 關於重建院 簡介 大事紀 董事長半世紀奮鬥史 服務...",
+      "matchedKeywords": [
+        "聯絡",
+        "公告",
+        "最新消息",
+        "服務",
+        "2026",
+        "115年",
+        "醫療",
+        "計畫",
+        "電話"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "115年",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 21,
+      "confidence": "medium",
+      "candidateType": "news-or-activity",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-d0001-candidate-5e8198dd71d6",
+      "foundationId": "sfaa-foundation-d0001",
+      "foundationName": "財團法人台灣省私立台灣盲人重建院",
+      "county": "新北市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.ibt.org.tw/RWD01/Default.aspx",
+      "pageUrl": "https://www.ibt.org.tw/RWD01/OnePage.aspx?tid=120&id=1035",
+      "pageTitle": "財團法人台灣省私立台灣盲人重建院 > 【南部服務中心】視障者浮淺體驗，重新感受海洋的魅力",
+      "linkText": "2026/05/28 【南部服務中心】視障者浮淺體驗，重新感受海洋的魅力",
+      "summary": "本院南部服務中心於5月23日辦理視障者浮潛體驗活動，帶領視障朋友走進海洋、挑戰自我。",
+      "matchedKeywords": [
+        "服務",
+        "聯絡",
+        "公告",
+        "最新消息",
+        "電話",
+        "2026"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 17,
+      "confidence": "medium",
+      "candidateType": "news-or-activity",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-d0001-candidate-770c492f8098",
+      "foundationId": "sfaa-foundation-d0001",
+      "foundationName": "財團法人台灣省私立台灣盲人重建院",
+      "county": "新北市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.ibt.org.tw/RWD01/Default.aspx",
+      "pageUrl": "https://www.ibt.org.tw/RWD01/OnePage.aspx?tid=103",
+      "pageTitle": "財團法人台灣省私立台灣盲人重建院 > 服務據點資訊",
+      "linkText": "服務據點",
+      "summary": "財團法人台灣省私立台灣盲人重建院 > 服務據點資訊 跳到主要內容區 ::: 搜尋 聯絡我們 網站導覽 字體尺寸 ::: 搜尋 聯絡我們 網站導覽 字體尺寸 Toggle navigation 立即捐款 捐款資訊 捐款方式 線上捐款 愛心商品 繁星天使名單 捐款芳名錄查詢 歷年度財務收支表 勸募活動公告徵信 最新消息 關於重建院 簡介 大事紀 董事長半世紀奮鬥...",
+      "matchedKeywords": [
+        "服務",
+        "聯絡",
+        "公告",
+        "最新消息",
+        "電話",
+        "2026"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 17,
+      "confidence": "medium",
+      "candidateType": "news-or-activity",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0095-candidate-b6b4a6f952a2",
+      "foundationId": "sfaa-foundation-a0095",
+      "foundationName": "財團法人育成社會福利基金會",
+      "county": "臺北市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.ycswf.org.tw",
+      "pageUrl": "https://www.ycswf.org.tw/news_detail/325",
+      "pageTitle": "【育成社福】報名簡章｜從CRPD到ISP－專業人員支持身心障礙者積極參與個別化服務計畫研習課程 - 最新消息 - 財團法人育成社會福利基金會",
+      "linkText": "報名簡章｜從CRPD到ISP－專業人員支持身心障礙者積極參與個別化服務計畫研習課程",
+      "summary": "報名簡章｜從CRPD到ISP－專業人員支持身心障礙者積極參與個別化服務計畫研習課程 - 最新消息 - 財團法人育成社會福利基金會",
+      "matchedKeywords": [
+        "社福",
+        "報名",
+        "身心障礙",
+        "服務",
+        "計畫",
+        "最新消息",
+        "福利",
+        "申請",
+        "專案",
+        "家庭",
+        "2026",
+        "洽詢",
+        "2025",
+        "服務方案",
+        "方案",
+        "115年",
+        "婦女",
+        "聯絡",
+        "電話"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "115年",
+        "2025",
+        "最新消息"
+      ],
+      "applicationSignals": [
+        "申請",
+        "報名",
+        "洽詢",
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 54,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0095-candidate-ad308abaabfa",
+      "foundationId": "sfaa-foundation-a0095",
+      "foundationName": "財團法人育成社會福利基金會",
+      "county": "臺北市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.ycswf.org.tw",
+      "pageUrl": "https://www.ycswf.org.tw/",
+      "pageTitle": "財團法人育成社會福利基金會",
+      "linkText": "首頁",
+      "summary": "《育成社福》至今已設立超過30個機構，主要服務對象為心智障礙者，如唐氏症、腦性麻痺、自閉症、極重度障礙等多重障礙者，以「為愛堅持 永不放棄」的心情，提供0歲到終身照顧的完整保護傘，平均每年服務近73萬人次。龐大的服務量能雖然沉重且艱辛，但《育成社福》仍然堅守理念，為一輩子牽掛孩子的父母、手足，接手照顧最弱勢的憨寶貝！ - 財團法人育成社會福利基金會",
+      "matchedKeywords": [
+        "福利",
+        "申請",
+        "專案",
+        "計畫",
+        "最新消息",
+        "社福",
+        "服務",
+        "家庭",
+        "身心障礙",
+        "照顧",
+        "2026",
+        "報名",
+        "弱勢",
+        "條件"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "最新消息"
+      ],
+      "applicationSignals": [
+        "申請",
+        "條件",
+        "報名"
+      ],
+      "negativeSignals": [],
+      "score": 37,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0095-candidate-6021f51e2ed0",
+      "foundationId": "sfaa-foundation-a0095",
+      "foundationName": "財團法人育成社會福利基金會",
+      "county": "臺北市",
+      "audiences": [
+        "身心障礙者",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "身心障礙福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.ycswf.org.tw",
+      "pageUrl": "https://www.ycswf.org.tw/about3",
+      "pageTitle": "育成社福起源 - 財團法人育成社會福利基金會",
+      "linkText": "育成社福起源",
+      "summary": "育成社福起源 - 財團法人育成社會福利基金會",
+      "matchedKeywords": [
+        "社福",
+        "福利",
+        "申請",
+        "專案",
+        "計畫",
+        "最新消息",
+        "服務",
+        "家庭",
+        "身心障礙",
+        "弱勢",
+        "照顧",
+        "救助",
+        "兒少"
+      ],
+      "currentYearSignals": [
+        "最新消息"
+      ],
+      "applicationSignals": [
+        "申請"
+      ],
+      "negativeSignals": [],
+      "score": 37,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0099-candidate-e6f63fd2b0a7",
+      "foundationId": "sfaa-foundation-a0099",
+      "foundationName": "財團法人華山社會福利慈善事業基金會",
+      "county": "臺北市",
+      "audiences": [
+        "老人",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "老人福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.elder.org.tw",
+      "pageUrl": "https://www.elder.org.tw/contents/news_ct?id=479",
+      "pageTitle": "華山基金會",
+      "linkText": "[全台統籌]2026常年服務暨「愛老人 端午動起來」公益行動",
+      "summary": "華山基金會 請輸入關鍵字 訂閱電子報 登入 註冊 ( 0 筆) Toggle navigation 登入 註冊 ( 0 筆) 訂閱電子報 認識華山 華山簡介 華山影音 全台愛心天使站 成果報告 財務報告 服務介紹 三失長輩 百歲人瑞 華山三中心 華山訊息 最新消息 華山電子報 人才招募 護老一點訣 健康體能活動 長者防跌 慢性病管理 節慶不孤單 老人營養 改...",
+      "matchedKeywords": [
+        "服務",
+        "最新消息",
+        "老人",
+        "專案",
+        "2026",
+        "計畫",
+        "服務項目",
+        "照顧",
+        "福利",
+        "電話",
+        "公告",
+        "2025",
+        "聯絡"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "2025",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 35,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0099-candidate-f10c56383881",
+      "foundationId": "sfaa-foundation-a0099",
+      "foundationName": "財團法人華山社會福利慈善事業基金會",
+      "county": "臺北市",
+      "audiences": [
+        "老人",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "老人福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.elder.org.tw",
+      "pageUrl": "https://www.elder.org.tw/contents/news",
+      "pageTitle": "華山基金會",
+      "linkText": "最新消息",
+      "summary": "華山基金會 請輸入關鍵字 訂閱電子報 登入 註冊 ( 0 筆) Toggle navigation 登入 註冊 ( 0 筆) 訂閱電子報 認識華山 華山簡介 華山影音 全台愛心天使站 成果報告 財務報告 服務介紹 三失長輩 百歲人瑞 華山三中心 華山訊息 最新消息 華山電子報 人才招募 護老一點訣 健康體能活動 長者防跌 慢性病管理 節慶不孤單 老人營養 改...",
+      "matchedKeywords": [
+        "服務",
+        "最新消息",
+        "老人",
+        "專案",
+        "2026",
+        "計畫",
+        "服務項目",
+        "照顧",
+        "福利",
+        "電話",
+        "115年",
+        "公告",
+        "聯絡"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "115年",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 35,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0099-candidate-ee737e2b1774",
+      "foundationId": "sfaa-foundation-a0099",
+      "foundationName": "財團法人華山社會福利慈善事業基金會",
+      "county": "臺北市",
+      "audiences": [
+        "老人",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "老人福利",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "http://www.elder.org.tw",
+      "pageUrl": "https://www.elder.org.tw/",
+      "pageTitle": "華山基金會",
+      "linkText": "首頁",
+      "summary": "華山基金會 請輸入關鍵字 訂閱電子報 登入 註冊 ( 0 筆) Toggle navigation 登入 註冊 ( 0 筆) 訂閱電子報 認識華山 華山簡介 華山影音 全台愛心天使站 成果報告 財務報告 服務介紹 三失長輩 百歲人瑞 華山三中心 華山訊息 最新消息 華山電子報 人才招募 護老一點訣 健康體能活動 長者防跌 慢性病管理 節慶不孤單 老人營養 改...",
+      "matchedKeywords": [
+        "服務",
+        "最新消息",
+        "老人",
+        "專案",
+        "2026",
+        "計畫",
+        "服務項目",
+        "照顧",
+        "福利",
+        "電話",
+        "115年",
+        "公告",
+        "聯絡"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "115年",
+        "最新消息",
+        "公告"
+      ],
+      "applicationSignals": [
+        "聯絡",
+        "電話"
+      ],
+      "negativeSignals": [],
+      "score": 33,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    },
+    {
+      "id": "sfaa-foundation-a0253-candidate-f9358fbf73c4",
+      "foundationId": "sfaa-foundation-a0253",
+      "foundationName": "財團法人公益傳播基金會",
+      "county": "臺中市",
+      "audiences": [
+        "其他",
+        "none",
+        "一般民眾"
+      ],
+      "serviceCategories": [
+        "志願服務",
+        "none",
+        "民間社福資源",
+        "社福基金會"
+      ],
+      "website": "https://www.hopemedia.tw/",
+      "pageUrl": "https://www.hopemedia.tw/",
+      "pageTitle": "首頁 - HopeMedia公益傳播",
+      "linkText": "首頁",
+      "summary": "最新消息 2022-10-05 台灣義行獎李怡潔募資企劃延期 2022-10-05 台灣義行獎林英美募資企劃延 […]",
+      "matchedKeywords": [
+        "服務項目",
+        "服務",
+        "最新消息",
+        "兒童",
+        "115年度",
+        "115年",
+        "2026",
+        "計畫",
+        "2025",
+        "社福",
+        "身心障礙",
+        "青少年",
+        "少年",
+        "聯絡"
+      ],
+      "currentYearSignals": [
+        "2026",
+        "115年",
+        "115年度",
+        "2025",
+        "最新消息"
+      ],
+      "applicationSignals": [
+        "聯絡"
+      ],
+      "negativeSignals": [],
+      "score": 36,
+      "confidence": "high",
+      "candidateType": "official-service-page",
+      "reviewStatus": "candidate-review-required",
+      "canConvertToResource": false,
+      "reason": "Candidate page only. Confirm current-year eligibility, open intake, documents, and contact before converting into a public resource card.",
+      "lastChecked": "2026-06-07"
+    }
+  ],
+  "siteReports": [
+    {
+      "foundationId": "sfaa-foundation-a0223",
+      "foundationName": "財團法人育田社會福利慈善基金會",
+      "website": "http://www.mercyland.org.tw/",
+      "fetchedPages": [
+        "http://www.mercyland.org.tw/",
+        "http://www.mercyland.org.tw/?p=4949",
+        "http://www.mercyland.org.tw/?tag=%E5%BC%B1%E5%8B%A2%E7%99%8C%E5%8F%8B%E5%AE%B6%E5%BA%AD%E6%89%B6%E5%8A%A9",
+        "http://www.mercyland.org.tw/?page_id=563",
+        "http://www.mercyland.org.tw/?page_id=269",
+        "http://www.mercyland.org.tw/?page_id=4252"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-a0220",
+      "foundationName": "財團法人基督教聖道兒少福利基金會",
+      "website": "http://www.hwcyf.org.tw/",
+      "fetchedPages": [
+        "https://www.hwcyf.org.tw/"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-d0002",
+      "foundationName": "財團法人台灣省私立鴻佳啟能庇護中心",
+      "website": "https://www.hc.org.tw",
+      "fetchedPages": [
+        "https://www.hc.org.tw"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-d0003",
+      "foundationName": "財團法人台灣省私立心德慈化教養院",
+      "website": "http://www.sinte.org",
+      "fetchedPages": [
+        "https://www.sinte.org/",
+        "https://www.sinte.org/m2_file/detail.php?id=1&mid=9&m2id=17&category=x&nid=527",
+        "https://www.sinte.org/m2/m.php?id=1&mid=8&m2id=67&category=x",
+        "https://www.sinte.org/m2/m.php?id=1&mid=1&m2id=70&category=x",
+        "https://www.sinte.org/m1/mm.php?id=1&mid=2&category=x",
+        "https://www.sinte.org/m2/m.php?id=1&mid=2&m2id=7&category=x"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-d0001",
+      "foundationName": "財團法人台灣省私立台灣盲人重建院",
+      "website": "http://www.ibt.org.tw/RWD01/Default.aspx",
+      "fetchedPages": [
+        "https://www.ibt.org.tw/RWD01/Default.aspx",
+        "https://www.ibt.org.tw/RWD01/OnePage.aspx?tid=120&id=1035",
+        "https://www.ibt.org.tw/RWD01/OnePage.aspx?tid=103",
+        "https://www.ibt.org.tw/RWD01/List.aspx?tid=105",
+        "https://www.ibt.org.tw/RWD01/OnePage.aspx?tid=120&id=1031",
+        "https://www.ibt.org.tw/RWD01/OnePage.aspx?tid=125&id=978"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-a0095",
+      "foundationName": "財團法人育成社會福利基金會",
+      "website": "http://www.ycswf.org.tw",
+      "fetchedPages": [
+        "https://www.ycswf.org.tw/",
+        "https://www.ycswf.org.tw/news_detail/325",
+        "https://www.ycswf.org.tw/",
+        "https://www.ycswf.org.tw/products/all/1",
+        "https://www.ycswf.org.tw/download/2_8/1",
+        "https://www.ycswf.org.tw/about3"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-a0099",
+      "foundationName": "財團法人華山社會福利慈善事業基金會",
+      "website": "http://www.elder.org.tw",
+      "fetchedPages": [
+        "https://www.elder.org.tw/",
+        "https://www.elder.org.tw/contents/news_ct?id=479",
+        "https://www.elder.org.tw/contents/news_ct?id=488",
+        "https://www.elder.org.tw/contents/volunteer_ct?page=1&v_id=2",
+        "https://www.elder.org.tw/contents/text?id=2",
+        "https://www.elder.org.tw/contents/news"
+      ],
+      "errors": []
+    },
+    {
+      "foundationId": "sfaa-foundation-a0074",
+      "foundationName": "財團法人中國國民黨身心障礙者保護基金會",
+      "website": "http://www.pmdpfound.org.tw",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "foundationId": "sfaa-foundation-a0253",
+      "foundationName": "財團法人公益傳播基金會",
+      "website": "https://www.hopemedia.tw/",
+      "fetchedPages": [
+        "https://www.hopemedia.tw/"
+      ],
+      "errors": []
+    }
+  ]
+}

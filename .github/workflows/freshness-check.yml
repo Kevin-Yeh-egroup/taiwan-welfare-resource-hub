@@ -30,10 +30,10 @@ jobs:
         run: python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
 
       - name: Convert reviewed foundation program pages
-        run: python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json data/foundation-program-candidates-batch-c.json data/foundation-program-candidates-batch-d.json data/foundation-program-candidates-batch-e.json data/foundation-program-candidates-batch-f.json data/foundation-program-candidates-batch-g.json --allowlist data/formal-program-allowlist.json --out data/resources.json
+        run: python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json data/foundation-program-candidates-batch-c.json data/foundation-program-candidates-batch-d.json data/foundation-program-candidates-batch-e.json data/foundation-program-candidates-batch-f.json data/foundation-program-candidates-batch-g.json data/foundation-program-candidates-batch-h.json --allowlist data/formal-program-allowlist.json --out data/resources.json
 
       - name: Check source freshness
-        run: python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json
+        run: python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json --timeout 5 --retries 0 --retry-sleep 0
 
       - name: Validate data
         run: python scripts/validate_data.py

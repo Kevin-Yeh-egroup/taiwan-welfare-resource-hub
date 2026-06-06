@@ -43,10 +43,10 @@ def open_url(request: urllib.request.Request, *, timeout: int, allow_insecure_fa
         raise
 
 
-def get_url(url: str, method: str = "HEAD", *, allow_insecure_fallback: bool = False) -> dict:
+def get_url(url: str, method: str = "HEAD", *, allow_insecure_fallback: bool = False, timeout: int = 25) -> dict:
     request = urllib.request.Request(url, method=method, headers={"User-Agent": USER_AGENT})
     started = time.time()
-    with open_url(request, timeout=25, allow_insecure_fallback=allow_insecure_fallback) as response:
+    with open_url(request, timeout=timeout, allow_insecure_fallback=allow_insecure_fallback) as response:
         body = b""
         if method == "GET":
             body = response.read(1_000_000)
@@ -65,16 +65,16 @@ def get_url(url: str, method: str = "HEAD", *, allow_insecure_fallback: bool = F
         }
 
 
-def check(url: str, *, allow_insecure_fallback: bool = False) -> dict:
+def check(url: str, *, allow_insecure_fallback: bool = False, timeout: int = 25) -> dict:
     try:
-        result = get_url(url, "HEAD", allow_insecure_fallback=allow_insecure_fallback)
+        result = get_url(url, "HEAD", allow_insecure_fallback=allow_insecure_fallback, timeout=timeout)
         if result["status"] >= 400 or not result.get("etag") and not result.get("lastModified"):
-            get_result = get_url(url, "GET", allow_insecure_fallback=allow_insecure_fallback)
+            get_result = get_url(url, "GET", allow_insecure_fallback=allow_insecure_fallback, timeout=timeout)
             result.update({k: v for k, v in get_result.items() if v is not None})
         return {"ok": True, **result}
     except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
         try:
-            get_result = get_url(url, "GET", allow_insecure_fallback=allow_insecure_fallback)
+            get_result = get_url(url, "GET", allow_insecure_fallback=allow_insecure_fallback, timeout=timeout)
             return {"ok": True, **get_result, "headWarning": str(exc)}
         except Exception as get_exc:
             return {"ok": False, "error": str(get_exc), "headError": str(exc)}
@@ -102,12 +102,13 @@ def check_with_retries(
     url: str,
     *,
     allow_insecure_fallback: bool = False,
+    timeout: int = 25,
     retries: int = 2,
     retry_sleep: float = 2.0,
 ) -> dict:
     result = {}
     for attempt in range(retries + 1):
-        result = check(url, allow_insecure_fallback=allow_insecure_fallback)
+        result = check(url, allow_insecure_fallback=allow_insecure_fallback, timeout=timeout)
         if result.get("ok") or not is_retryable_failure(result) or attempt == retries:
             if attempt:
                 result["retryAttempts"] = attempt
@@ -129,6 +130,7 @@ def main() -> int:
     parser.add_argument("--out", default="data/freshness-report.json")
     parser.add_argument("--snapshots", default="data/source-snapshots.json")
     parser.add_argument("--sleep", type=float, default=0.7)
+    parser.add_argument("--timeout", type=int, default=25)
     parser.add_argument("--retries", type=int, default=2)
     parser.add_argument("--retry-sleep", type=float, default=2.0)
     args = parser.parse_args()
@@ -150,6 +152,7 @@ def main() -> int:
             result = check_with_retries(
                 url,
                 allow_insecure_fallback=source.get("allowInsecureSslFallback", False),
+                timeout=args.timeout,
                 retries=args.retries,
                 retry_sleep=args.retry_sleep,
             )

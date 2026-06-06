@@ -138,7 +138,7 @@ def build_summary(override: dict, candidate: dict) -> str:
 
 def build_record(override: dict, candidate: dict, foundation: dict, reviewed_at: str) -> dict:
     candidate_id = candidate["id"]
-    candidate_url = clean(candidate.get("pageUrl"))
+    candidate_url = clean(override.get("sourceUrl")) or clean(candidate.get("pageUrl"))
     if not candidate_url:
         raise ValueError(f"{candidate_id} missing pageUrl")
 

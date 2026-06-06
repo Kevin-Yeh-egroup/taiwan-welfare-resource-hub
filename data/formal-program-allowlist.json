@@ -1099,6 +1099,175 @@
       "applicationMethodSourceNote": "來源頁提供服務據點入口，建議先洽所在地喜憨兒據點確認收案、費用與補助。",
       "howToApply": ["先洽喜憨兒基金會或所在地服務據點，說明心智障礙者年齡、能力、照顧需求與家庭狀況。", "確認適合日間照顧、全日型、家庭托顧、臨時照顧、長照或社區作業設施。", "依據點評估準備身心障礙證明、需求資料與可能的長照或社政轉介資料。"],
       "documents": ["身分資料", "身心障礙證明", "醫療或功能評估資料", "家庭照顧需求資料", "長照或社政轉介資料（如有）", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0223-candidate-abc7d406ea81",
+      "sourceUrl": "https://www.mercyland.org.tw/?page_id=269",
+      "name": "育田脆弱癌友家庭扶助計畫",
+      "summary": "育田基金會115年度脆弱癌友家庭扶助計畫協助因罹癌治療導致經濟陷入困境的家庭，提供單次性經濟協助與營養品補助；本案不開放民眾自行申請，須由醫院社工、癌症中心、政府社福單位或社福團體社工轉介。",
+      "audiences": ["癌症病友", "癌友家庭", "低收入戶", "中低收入戶", "近貧家庭", "社工或轉介單位"],
+      "serviceCategories": ["急難救助(短期、臨時性補助)", "經濟補助", "醫療支持", "營養補助", "家庭支持", "民間社福資源"],
+      "needTags": ["育田", "癌友", "癌症家庭", "低收入戶", "中低收入戶", "近貧家庭", "營養品補助", "社工轉介"],
+      "eligibility": "適合罹患癌症且正接受積極性治療，或已接受安寧照護6個月內，並具低收、中低收入戶資格，或家庭人均月收入低於當地最低生活費1.5倍的近貧、邊緣脆弱家庭；需由專業單位轉介。",
+      "conditionSourceNote": "來源頁列出115年度實施期間、醫學條件、經濟條件、優先對象與排除條款。",
+      "applicationConditions": [
+        {"label": "醫學條件", "requirement": "罹患癌症且正接受手術、化放療等積極性治療，發生於收件日回溯一年內；或已接受安寧照護6個月內。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=269"},
+        {"label": "經濟條件", "requirement": "具政府核定低收或中低收入戶資格，或家庭人均月收入低於當地最低生活費1.5倍。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=269"},
+        {"label": "轉介限制", "requirement": "僅受理醫院社工、癌症中心、政府社福單位、社福團體社工等專業單位轉介，不開放民眾自行申請。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=269"}
+      ],
+      "benefitSourceNote": "來源頁列出經濟協助、營養品補助與不補助項目。",
+      "benefitItems": [
+        {"label": "經濟協助", "amount": "依社工評估單次性補助", "unit": "每案", "note": "每戶案家當年度限申請一次。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=269"},
+        {"label": "營養品補助", "amount": "每月上限8箱，最高3個月", "unit": "每案", "note": "限需半流質、流質或管灌飲食者，不含糖尿病、腎臟病等特殊配方。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=269"},
+        {"label": "不補助項目", "amount": "不補助", "unit": "項目", "note": "不補助醫療費、看護費、輔具、長照機構費。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=269"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供115年轉介表、應備文件、Email、掛號郵寄地址與電話確認提醒。",
+      "howToApply": ["請先由醫院社工、癌症中心、政府社福單位或社福團體社工評估並開案。", "由轉介單位下載115年新版轉介表，備齊文件後以加密電子郵件寄至apply@mercyland.org.tw，或掛號郵寄至育田基金會。", "寄出後務必來電03-328-5188分機115確認收件與後續評估。"],
+      "documents": ["115年轉介表", "個人資料告知暨同意書", "全戶戶籍謄本或戶口名簿影本", "財稅證明或政府福利身分公文", "診斷證明書", "營養需求說明（申請營養品者）", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0223-candidate-127d72d00a4d",
+      "sourceUrl": "https://www.mercyland.org.tw/?page_id=4252",
+      "name": "育田癌友家庭子女育秧獎助學金",
+      "summary": "育田基金會115年度癌友家庭子女育秧獎助學金協助父母或主要照顧者罹癌、家庭經濟陷入困難的高中職與大專院校學生安心就學；高中職組與大專院校組每名皆為2萬元。",
+      "audiences": ["癌友家庭", "學生", "高中職學生", "大專學生", "低收入戶", "中低收入戶", "近貧家庭"],
+      "serviceCategories": ["清寒獎學金", "教育補助", "經濟補助", "癌友家庭支持", "民間社福資源"],
+      "needTags": ["育田", "癌友家庭", "育秧獎助學金", "高中職", "大專", "低收入戶", "中低收入戶", "近貧家庭"],
+      "eligibility": "適合父母或主要照顧者罹癌且仍持續治療，導致家庭經濟陷入困難，並就讀國內高中職或大專院校正式學制且有學籍的學生；須符合成績與經濟條件。",
+      "conditionSourceNote": "來源頁列出115年度申請期間、家庭狀況、就學條件、成績標準與經濟條件。",
+      "applicationConditions": [
+        {"label": "家庭狀況", "requirement": "父母或主要照顧者罹患癌症且仍持續接受手術、化療、放療、標靶、免疫或安寧療護等治療，導致家庭經濟陷入困難。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=4252"},
+        {"label": "就學條件", "requirement": "國內各公私立高中職或大專院校正式學制且具學籍之學生；不含年滿25歲以上、研究所以上、延修、軍警校、推廣教育、進修學院、在職專班、空中大學或在職進修學生。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=4252"},
+        {"label": "成績與經濟條件", "requirement": "114學年度第二學期學科成績平均與操行皆達70分以上；經濟條件以低收、中低收入戶、實際生活困難近貧或邊緣脆弱家庭為主。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=4252"}
+      ],
+      "benefitSourceNote": "來源頁列出115年度獎助名額與金額。",
+      "benefitItems": [
+        {"label": "高中職組", "amount": "20,000元", "unit": "每名", "note": "含五專1至3年級，預計15名。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=4252"},
+        {"label": "大專院校組", "amount": "20,000元", "unit": "每名", "note": "含五專4至5年級，預計10名。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=4252"},
+        {"label": "錄取名額", "amount": "依申請情況調整", "unit": "年度", "note": "基金會保留視申請情況調整錄取名額或增額發放之權利。", "sourceUrl": "https://www.mercyland.org.tw/?page_id=4252"}
+      ],
+      "applicationMethodSourceNote": "來源頁列出申請期間、掛號郵寄方式、文件與注意事項。",
+      "howToApply": ["申請期間為115年6月1日至9月20日，以郵戳為憑。", "至育田基金會官網下載申請表，填寫後連同檢附文件掛號郵寄至桃園市龜山區文東五街37巷37號2樓育田基金會。", "信封請註明申請獎學金；書面審查後須配合家庭訪視或電話訪談，獲獎者需於期限內寄回領獎資料。"],
+      "documents": ["獎助學金申請表正本", "一年內罹癌診斷證明書影本", "三個月內全戶戶籍謄本", "所得與財產清單或115年度低收／中低收證明", "114-2學年度成績單", "115-1學年度在學證明或學生證影本", "自傳", "推薦函", "照片", "本人金融機構存簿封面影本"]
+    },
+    {
+      "candidateId": "sfaa-foundation-d0003-candidate-0b1be0e7d2ae",
+      "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=1&m2id=70&category=x",
+      "name": "心德慈化教養院成人心智障礙住宿照顧與諮詢服務",
+      "summary": "心德慈化教養院提供成人重度、極重度智能障礙者及多重障礙者住宿式照顧，並提供身心障礙專業諮詢、就養評估、轉介與社會資源協助。",
+      "audiences": ["身心障礙者", "智能障礙者", "多重障礙者", "家庭照顧者", "社工或轉介單位"],
+      "serviceCategories": ["身心障礙福利", "住宿式服務", "長期照顧服務", "專業諮詢", "轉介服務", "民間社福資源"],
+      "needTags": ["心德", "教養院", "智能障礙", "多重障礙", "住宿式照顧", "就養評估", "社工諮詢"],
+      "eligibility": "適合年滿18歲以上重度、極重度智能障礙者及多重障礙者，且經直轄市、縣市政府轉介者；也適合身心障礙者及家庭查詢專業諮詢與社會資源轉介。",
+      "conditionSourceNote": "來源頁列出服務對象、政府轉介條件、住宿式照顧、專業諮詢與服務時間。",
+      "applicationConditions": [
+        {"label": "住宿式照顧對象", "requirement": "持有身心障礙手冊或證明，經合作直轄市、縣市政府轉介，且年滿18歲以上之重度、極重度智能障礙者及多重障礙者。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=1&m2id=70&category=x"},
+        {"label": "照顧年齡", "requirement": "住宿式照顧服務對象為18歲以上、65歲以下之重度、極重度智能障礙者及多重障礙者。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=1&m2id=70&category=x"},
+        {"label": "諮詢對象", "requirement": "領有身心障礙手冊者及家庭，可洽詢身心障礙專業諮詢、就養服務評估與社會資源協助。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=1&m2id=70&category=x"}
+      ],
+      "benefitSourceNote": "此頁為住宿照顧與諮詢服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "住宿式照顧", "amount": "服務協助，費用依轉介與收案確認", "unit": "依收案", "note": "全年無休，每日提供24小時服務。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=1&m2id=70&category=x"},
+        {"label": "專業諮詢與轉介", "amount": "服務協助，非定額現金補助", "unit": "依諮詢", "note": "提供身心障礙者諮詢、就養服務評估、轉介與協助家長尋求社會資源。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=1&m2id=70&category=x"}
+      ],
+      "applicationMethodSourceNote": "來源頁列諮詢專線與服務時間；住宿照顧需政府轉介。",
+      "howToApply": ["住宿式照顧請先洽戶籍地或所在地社政單位，確認是否符合政府轉介條件。", "需要就養評估或社會資源協助，可於週一至週五8:30至17:00洽心德社工組。", "電話諮詢06-6581816轉社工組，確認收案資格、費用、文件與等候情形。"],
+      "documents": ["身分資料", "身心障礙證明", "政府轉介資料", "醫療或功能評估資料", "家庭照顧需求資料", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-d0003-candidate-b73f614cba19",
+      "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=2&m2id=7&category=x",
+      "name": "心德慈化教養院憨老服務",
+      "summary": "心德慈化教養院憨老服務針對逐漸高齡化的心智障礙成人，透過教保、護理、復健、社工等專業團隊，提供個別化照顧、身心健康維護、家庭支持與社區適應，協助雙老家庭提早準備。",
+      "audiences": ["身心障礙者", "智能障礙者", "老人", "家庭照顧者", "雙老家庭"],
+      "serviceCategories": ["身心障礙福利", "老人福利", "住宿式服務", "生活重建", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["心德", "憨老", "雙老家庭", "心智障礙", "個別化照顧", "健康維護", "社區適應"],
+      "eligibility": "適合面臨高齡化的心智障礙成人、雙老家庭與家庭照顧者查詢安養照顧、健康維護、家庭支持與社區適應服務。",
+      "conditionSourceNote": "來源頁說明服務對象平均年齡、憨老服務理念、專業團隊與服務內容。",
+      "applicationConditions": [
+        {"label": "憨老服務需求", "requirement": "心智障礙成人逐漸高齡化，需要安養照顧、身心健康維護、家庭支持或社區適應服務。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=2&m2id=7&category=x"},
+        {"label": "家庭支持需求", "requirement": "雙老家庭或家庭照顧者需要及早準備照顧安排，減輕家庭照顧負擔。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=2&m2id=7&category=x"}
+      ],
+      "benefitSourceNote": "此頁是照顧與支持服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "個別化照顧", "amount": "服務協助，費用依收案確認", "unit": "依服務", "note": "由教保員、護理師、復健治療師、社工等團隊提供個別化照顧。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=2&m2id=7&category=x"},
+        {"label": "健康維護與社區適應", "amount": "服務協助，費用依收案確認", "unit": "依服務", "note": "提供身心健康維護、家庭支持與社區適應，協助心智障礙朋友快樂安老、安心安老。", "sourceUrl": "https://www.sinte.org/m2/m.php?id=1&mid=2&m2id=7&category=x"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供心德聯絡電話、地址與Email；實際服務需電話確認。",
+      "howToApply": ["先洽心德慈化教養院，說明服務對象年齡、障礙狀況、照顧需求與家庭照顧壓力。", "確認是否適合憨老服務、住宿照顧或其他社福轉介。", "依院方評估準備身心障礙證明、醫療與功能資料、家庭照顧需求資料。"],
+      "documents": ["身分資料", "身心障礙證明", "醫療或功能評估資料", "家庭照顧需求資料", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-d0001-candidate-770c492f8098",
+      "sourceUrl": "https://www.ibt.org.tw/RWD01/List.aspx?tid=86",
+      "name": "台灣盲人重建院視障生活重建服務",
+      "summary": "台灣盲人重建院生活重建服務協助視覺障礙者重新建立生活信心、日常能力與社區參與，並透過生活重建訓練、輔具運用、社區活動與團體活動，銜接後續職業重建。",
+      "audiences": ["視覺障礙者", "身心障礙者", "家庭照顧者", "就業困難者", "社工或轉介單位"],
+      "serviceCategories": ["身心障礙福利", "生活重建", "輔具服務", "職業重建", "社區參與", "民間社福資源"],
+      "needTags": ["台灣盲人重建院", "視障", "生活重建", "輔具", "職業重建", "社區活動", "視障服務據點"],
+      "eligibility": "適合因先天遺傳、後天疾病或意外造成視力缺損或喪失，導致生活自理、行動、心理調適、社區參與或職業重建需求的視覺障礙者。",
+      "conditionSourceNote": "來源頁說明視覺障礙者生活重建需求、訓練方向與諮詢專線；服務據點頁列北、中、南服務中心。",
+      "applicationConditions": [
+        {"label": "視覺障礙生活重建需求", "requirement": "因視力缺損或喪失，面臨行動不便、日常生活困難、心理調適、社區生活或職業重建銜接需求。", "sourceUrl": "https://www.ibt.org.tw/RWD01/List.aspx?tid=86"},
+        {"label": "服務據點", "requirement": "可洽北部總院、中部服務中心或南部服務中心確認服務內容、名額與轉介方式。", "sourceUrl": "https://www.ibt.org.tw/RWD01/OnePage.aspx?tid=103"}
+      ],
+      "benefitSourceNote": "此頁是視障生活重建服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "生活重建訓練", "amount": "服務協助，費用依服務確認", "unit": "依服務", "note": "協助視障者重新建立日常生活能力、自信與社區生活。", "sourceUrl": "https://www.ibt.org.tw/RWD01/List.aspx?tid=86"},
+        {"label": "輔具運用與社區參與", "amount": "服務協助，費用依服務確認", "unit": "依需求", "note": "透過輔具運用、社區活動與團體活動，協助重新融入社區生活。", "sourceUrl": "https://www.ibt.org.tw/RWD01/List.aspx?tid=86"},
+        {"label": "職業重建銜接", "amount": "服務協助，費用依服務確認", "unit": "依評估", "note": "生活重建後可依需求銜接職業重建，重新建立社會角色功能。", "sourceUrl": "https://www.ibt.org.tw/RWD01/List.aspx?tid=86"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供生活重建組諮詢專線；服務據點頁列北中南聯絡電話。",
+      "howToApply": ["先洽生活重建組諮詢專線02-2998-5588分機123，說明視力狀況與生活重建需求。", "依所在區域洽北部總院、中部服務中心或南部服務中心，確認服務內容、名額與交通方式。", "依院方評估準備身心障礙證明、醫療或視力資料、生活與職業重建需求資料。"],
+      "documents": ["身分資料", "身心障礙證明", "視覺障礙或醫療資料", "生活重建需求資料", "轉介資料（如有）", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0095-candidate-ad308abaabfa",
+      "sourceUrl": "https://www.ycswf.org.tw/branch_detail/14",
+      "name": "育成永明發展中心成人日間照顧服務",
+      "summary": "育成永明發展中心提供設籍臺北市半年以上、18歲以上中度以上智能障礙或合併智能障礙多重障礙者成人日間照顧，包含生活技能、工作技能、社區適應、家庭支持、健康照顧與轉銜服務。",
+      "audiences": ["身心障礙者", "智能障礙者", "多重障礙者", "家庭照顧者", "社工或轉介單位"],
+      "serviceCategories": ["身心障礙福利", "日間照顧", "生活重建", "工作訓練", "家庭照顧支持", "民間社福資源"],
+      "needTags": ["育成", "永明發展中心", "日間照顧", "智能障礙", "多重障礙", "生活技能", "社區適應", "家庭支持"],
+      "eligibility": "適合18歲以上、設籍臺北市半年以上，持有中度以上智能障礙及合併智能障礙多重障礙證明，或身心障礙證明第一類且ICD診斷欄位註記06或11者查詢。",
+      "conditionSourceNote": "來源頁列出服務對象、聯絡方式與成人日間照顧服務內容。",
+      "applicationConditions": [
+        {"label": "年齡與設籍", "requirement": "18歲以上，設籍臺北市半年以上。", "sourceUrl": "https://www.ycswf.org.tw/branch_detail/14"},
+        {"label": "障礙類別", "requirement": "持有中度以上智能障礙及合併智能障礙之多重障礙者，或身心障礙證明障礙類別第一類且ICD診斷欄位註記06或11者。", "sourceUrl": "https://www.ycswf.org.tw/branch_detail/14"}
+      ],
+      "benefitSourceNote": "此頁是日間照顧服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "成人日間照顧", "amount": "服務協助，費用依收案確認", "unit": "依服務", "note": "提供生活自理、金錢使用、工作技巧、工作態度、人際互動與溝通訓練。", "sourceUrl": "https://www.ycswf.org.tw/branch_detail/14"},
+        {"label": "社區適應與家庭支持", "amount": "服務協助，費用依收案確認", "unit": "依需求", "note": "提供公共交通與社會資源運用訓練、專業諮詢、親子親職活動與健康照顧。", "sourceUrl": "https://www.ycswf.org.tw/branch_detail/14"}
+      ],
+      "applicationMethodSourceNote": "來源頁提供永明發展中心電話、傳真與地址；實際收案需電話確認。",
+      "howToApply": ["先洽永明發展中心02-2828-3051，說明年齡、設籍、障礙證明與日間照顧需求。", "確認是否符合臺北市設籍與障礙類別條件，並詢問名額、費用與評估流程。", "依中心要求準備身心障礙證明、戶籍或設籍資料、需求評估與其他服務文件。"],
+      "documents": ["身分資料", "戶籍或設籍資料", "身心障礙證明", "醫療或功能評估資料", "日間照顧需求資料", "服務端要求文件"]
+    },
+    {
+      "candidateId": "sfaa-foundation-a0099-candidate-ee737e2b1774",
+      "sourceUrl": "https://www.elder.org.tw/contents/text?id=25",
+      "name": "華山三失長輩到宅服務",
+      "summary": "華山基金會三失長輩服務協助65歲以上或原住民55歲以上失依、失能、失智長輩，也服務百歲人瑞與有原床泡澡需求的長輩；可由民眾通報、單位轉介或主動求助，經訪視評估與審核後開案。",
+      "audiences": ["老人", "獨居老人", "失能者", "失智者", "家庭照顧者", "社工或轉介單位"],
+      "serviceCategories": ["老人福利", "到宅服務", "餐食服務", "物資協助", "陪同就醫", "民間社福資源"],
+      "needTags": ["華山", "三失長輩", "失依", "失能", "失智", "原床泡澡", "年節關懷", "到宅服務"],
+      "eligibility": "適合65歲以上或原住民55歲以上失依、失能、失智長輩，因照顧資源不足影響生活支持；也適合100歲以上人瑞，或臥床、半臥床且有原床泡澡需求並取得本人或家屬同意者。",
+      "conditionSourceNote": "來源頁列出服務對象、服務流程與年節關懷、護甲、原床泡澡等服務例示。",
+      "applicationConditions": [
+        {"label": "三失長輩", "requirement": "65歲以上或原住民55歲以上失依、失能、失智長輩，因照顧資源不足影響生活支持。", "sourceUrl": "https://www.elder.org.tw/contents/text?id=25"},
+        {"label": "人瑞服務", "requirement": "100歲以上人瑞，經長輩本人或家屬同意即可服務。", "sourceUrl": "https://www.elder.org.tw/contents/text?id=25"},
+        {"label": "原床泡澡需求", "requirement": "臥床或半臥床等有泡澡需求之長輩，需取得長輩或家屬、照顧者同意。", "sourceUrl": "https://www.elder.org.tw/contents/text?id=25"}
+      ],
+      "benefitSourceNote": "此頁是長輩到宅與生活支持服務，不是固定金額現金補助。",
+      "benefitItems": [
+        {"label": "到宅關懷與生活支持", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "包含訪視、補不足、在地資源連結與其他生活支持。", "sourceUrl": "https://www.elder.org.tw/contents/text?id=25"},
+        {"label": "年節關懷與護甲服務", "amount": "服務協助，非定額現金補助", "unit": "依服務安排", "note": "逢三節致贈應節禮品並問候，並可為高齡或失能長輩進行護甲清潔修剪。", "sourceUrl": "https://www.elder.org.tw/contents/text?id=25"},
+        {"label": "原床泡澡", "amount": "服務協助，非定額現金補助", "unit": "依評估", "note": "為臥床或半臥床長輩在原本床上進行泡澡服務。", "sourceUrl": "https://www.elder.org.tw/contents/text?id=25"}
+      ],
+      "applicationMethodSourceNote": "來源頁列出服務流程：民眾通報、單位轉介或主動求助，訪視評估及社工部審核後開案。",
+      "howToApply": ["可由民眾通報、單位轉介或長輩及家屬主動求助。", "華山進行訪視評估及社工部審核，確認是否開案服務。", "若非服務對象，華山會提供轉介資源或其他服務。"],
+      "documents": ["長輩身分資料", "居住地與聯絡資料", "失依、失能、失智或照顧資源不足說明", "家屬或照顧者同意資料（如原床泡澡）", "服務端要求文件"]
     }
   ]
 }
