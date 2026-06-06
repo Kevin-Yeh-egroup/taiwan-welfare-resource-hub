@@ -150,6 +150,22 @@ Disallow: /
 - Production browser verification: homepage status grid shows `公部門中央資源 21`, `公部門地方資源 70`, and `民間資源 414`; filtering `臺北市` + `燒傷者` + `醫療復健` found exactly 1 card, `陽光燒傷顏損重建服務`, with `申請條件`, `補助項目與金額`, and `申請注意事項` in the expected order; `none` was absent from the audience dropdown and card text
 - Runtime log check: not run because the Vercel CLI was not available in PATH; Vercel deployment state, HTTP checks, data checks, and browser verification all passed
 
+## Batch 4E Production Verification - 2026-06-07
+
+- Commit: `62e54544b29bf6b010c4e0ba36afec140982b7f9`
+- Deployment: `dpl_3dboKGw5jZZ4aFfYd5MEHfEy895T`
+- Deployment URL: `https://taiwan-welfare-resource-oocgwct6n-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/freshness-report.json` `200`, `robots.txt` `200`; `index.html` references `app.js?v=20260607-batch4e`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 512 records, 92 sources, 92 freshness URLs checked, 0 freshness warnings
+- Batch 4E verification: 7 of 7 reviewed foundation program cards present; reviewed foundation program total is 66
+- Added civil-society program pages: `育田脆弱癌友家庭扶助計畫`, `育田癌友家庭子女育秧獎助學金`, `心德慈化教養院成人心智障礙住宿照顧與諮詢服務`, `心德慈化教養院憨老服務`, `台灣盲人重建院視障生活重建服務`, `育成永明發展中心成人日間照顧服務`, and `華山三失長輩到宅服務`
+- Pipeline change: `scripts/convert_candidate_programs.py` supports reviewed `sourceUrl` overrides for precise public service links; `scripts/check_freshness.py` supports `--timeout`, and GitHub Actions now uses `--timeout 5 --retries 0 --retry-sleep 0` to avoid slow source checks hanging the run.
+- Production browser verification: homepage status grid shows `公部門中央資源 21`, `公部門地方資源 70`, and `民間資源 421`; filtering `桃園市` + `癌友家庭` + `清寒獎學金` found exactly 1 card, `育田癌友家庭子女育秧獎助學金`, with `20,000元`, the 115年度申請期間, and `申請條件`, `補助項目與金額`, `申請注意事項` in the expected order; `none` was absent from the audience dropdown
+- Runtime logs: Vercel runtime logs for Production error/fatal in the last hour returned no logs
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
