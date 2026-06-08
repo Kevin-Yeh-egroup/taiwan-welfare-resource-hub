@@ -28,7 +28,8 @@ def load_json(path: Path, default):
 
 
 def is_ssl_certificate_error(exc: Exception) -> bool:
-    return "CERTIFICATE_VERIFY_FAILED" in str(exc)
+    text = str(exc)
+    return "CERTIFICATE_VERIFY_FAILED" in text or "DH_KEY_TOO_SMALL" in text
 
 
 def open_url(request: urllib.request.Request, *, timeout: int, allow_insecure_fallback: bool = False):
@@ -37,6 +38,10 @@ def open_url(request: urllib.request.Request, *, timeout: int, allow_insecure_fa
     except urllib.error.URLError as exc:
         if allow_insecure_fallback and is_ssl_certificate_error(exc):
             context = ssl._create_unverified_context()
+            try:
+                context.set_ciphers("DEFAULT@SECLEVEL=1")
+            except ssl.SSLError:
+                pass
             response = urllib.request.urlopen(request, timeout=timeout, context=context)
             response.ssl_warning = str(exc)
             return response
@@ -46,23 +51,42 @@ def open_url(request: urllib.request.Request, *, timeout: int, allow_insecure_fa
 def get_url(url: str, method: str = "HEAD", *, allow_insecure_fallback: bool = False, timeout: int = 25) -> dict:
     request = urllib.request.Request(url, method=method, headers={"User-Agent": USER_AGENT})
     started = time.time()
-    with open_url(request, timeout=timeout, allow_insecure_fallback=allow_insecure_fallback) as response:
-        body = b""
-        if method == "GET":
-            body = response.read(1_000_000)
-        elapsed = round(time.time() - started, 3)
-        headers = {key.lower(): value for key, value in response.headers.items()}
-        return {
-            "status": response.status,
-            "url": response.geturl(),
-            "elapsedSeconds": elapsed,
-            "etag": headers.get("etag"),
-            "lastModified": headers.get("last-modified"),
-            "contentLength": headers.get("content-length"),
-            "contentType": headers.get("content-type"),
-            "sha256": hashlib.sha256(body).hexdigest() if body else None,
-            "sslWarning": getattr(response, "ssl_warning", None),
-        }
+    try:
+        with open_url(request, timeout=timeout, allow_insecure_fallback=allow_insecure_fallback) as response:
+            body = b""
+            if method == "GET":
+                body = response.read(1_000_000)
+            elapsed = round(time.time() - started, 3)
+            headers = {key.lower(): value for key, value in response.headers.items()}
+            return {
+                "status": response.status,
+                "url": response.geturl(),
+                "elapsedSeconds": elapsed,
+                "etag": headers.get("etag"),
+                "lastModified": headers.get("last-modified"),
+                "contentLength": headers.get("content-length"),
+                "contentType": headers.get("content-type"),
+                "sha256": hashlib.sha256(body).hexdigest() if body else None,
+                "sslWarning": getattr(response, "ssl_warning", None),
+            }
+    except urllib.error.HTTPError as exc:
+        location = exc.headers.get("location") if exc.headers else None
+        redirected_url = urllib.parse.urljoin(url, location) if location else None
+        if exc.code == 308 and redirected_url and urllib.parse.urlparse(redirected_url).path == urllib.parse.urlparse(url).path:
+            headers = {key.lower(): value for key, value in exc.headers.items()}
+            return {
+                "status": exc.code,
+                "url": redirected_url,
+                "elapsedSeconds": round(time.time() - started, 3),
+                "etag": headers.get("etag"),
+                "lastModified": headers.get("last-modified"),
+                "contentLength": headers.get("content-length"),
+                "contentType": headers.get("content-type"),
+                "sha256": None,
+                "sslWarning": None,
+                "redirectWarning": str(exc),
+            }
+        raise
 
 
 def check(url: str, *, allow_insecure_fallback: bool = False, timeout: int = 25) -> dict:

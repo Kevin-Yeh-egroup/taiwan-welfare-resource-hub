@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T03:18:58.096654+00:00",
+  "generatedAt": "2026-06-08T04:22:44.660252+00:00",
   "status": "generated",
   "notice": "Generated from allowlisted sources. Review before public publication.",
   "errors": [],
@@ -2305,7 +2305,7 @@
       }
     },
     {
-      "summary": "桃園市115年度低收入戶及中低收入戶最低生活費暨家庭財產一定金額，含最低生活費、動產、不動產門檻與應備資料。",
+      "summary": "桃園市115年度低收入戶及中低收入戶申請資格，含最低生活費、動產、不動產門檻與應備資料。",
       "audiences": [
         "低收入戶",
         "中低收入戶",
@@ -2330,15 +2330,15 @@
           "label": "115年度低收入戶標準",
           "requirement": "最低生活費每人每月17,186元；動產每人每年96,000元；不動產每戶470萬元。",
           "note": "家庭應計人口、收入及財產仍由地方政府依社會救助規定審查。",
-          "sourceDate": "115年度；頁面查核日2026-06-05",
-          "sourceUrl": "https://www.dayuan.tycg.gov.tw/News_Content.aspx?n=7621&s=1583686&sms=12069"
+          "sourceDate": "上版日期115-04-16；查核日2026-06-08",
+          "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
         },
         {
           "label": "115年度中低收入戶標準",
-          "requirement": "最低生活費1.5倍，每人每月25,779元；動產每人每年144,000元；不動產每戶564萬元。",
+          "requirement": "最低生活費1.5倍，每人每月25,779元；動產每人每年144,000元；不動產每戶705萬元。",
           "note": "只看單一收入數字不等於一定通過，仍需看戶內人口與財產。",
-          "sourceDate": "115年度；頁面查核日2026-06-05",
-          "sourceUrl": "https://www.dayuan.tycg.gov.tw/News_Content.aspx?n=7621&s=1583686&sms=12069"
+          "sourceDate": "上版日期115-04-16；查核日2026-06-08",
+          "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
         }
       ],
       "benefitSourceNote": "本卡是資格入口；通過後依各項社會救助或福利身分核發。",
@@ -2348,30 +2348,35 @@
           "amount": "無固定金額",
           "unit": "",
           "note": "取得低收入戶或中低收入戶資格後，才會銜接生活扶助、醫療、教育、租金或其他補助。",
-          "sourceDate": "115年度；頁面查核日2026-06-05",
-          "sourceUrl": "https://www.dayuan.tycg.gov.tw/News_Content.aspx?n=7621&s=1583686&sms=12069"
+          "sourceDate": "上版日期115-04-16；查核日2026-06-08",
+          "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
         }
       ],
-      "applicationMethodSourceNote": "桃園市頁面列出申請人與受扶助人口郵局存摺封面影本等資料提醒。",
+      "applicationMethodSourceNote": "桃園市政府常見問題頁列出需至戶籍所在地區公所申辦資格審查，並列出調查表、戶口名簿、財稅資料、存摺、勞保資料與其他佐證文件。",
       "howToApply": [
-        "向戶籍所在地區公所提出申請。",
-        "準備申請人及受扶助人口資料與郵局存摺封面影本。",
-        "依區公所或社會局通知補件與等待審查。"
+        "向戶籍所在地區公所提出資格審查。",
+        "準備桃園市低收入戶及中低收入戶申請調查表、戶籍、財稅、存摺及其他佐證資料。",
+        "填寫財稅查調委託書者，可由區公所代為查調部分所得財產資料。"
       ],
       "documents": [
-        "申請表",
-        "郵局存摺封面影本",
-        "戶籍、收入與財產相關資料",
-        "區公所要求文件"
+        "桃園市低收入戶及中低收入戶申請調查表",
+        "全戶新式戶口名簿",
+        "全家人口最近1年度綜合所得稅各類所得資料清單",
+        "全國財產稅總歸戶財產查詢清單",
+        "申請人及受扶助人口郵局存摺封面影本",
+        "有工作能力者勞保投保資料表",
+        "切結書",
+        "申請人印章",
+        "身心障礙證明、診斷證明、學生證、薪資證明、房屋所有權狀等其他相關證明"
       ],
       "contact": {
-        "website": "https://www.dayuan.tycg.gov.tw/News_Content.aspx?n=7621&s=1583686&sms=12069"
+        "website": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
       },
       "freshness": {
         "lastChecked": "2026-06-08",
-        "sourceUpdatedAt": "115年度",
+        "sourceUpdatedAt": "115-04-16",
         "confidence": "source-dated",
-        "notes": "Official Taoyuan 115 annual qualification announcement mirrored by Dayuan District Office."
+        "notes": "Official Taoyuan City Government FAQ for 115 annual qualification standards."
       },
       "id": "taoyuan-low-income-application-115",
       "name": "桃園市115年低收入戶與中低收入戶資格申請",
@@ -2381,7 +2386,7 @@
       "districts": [],
       "source": {
         "id": "taoyuan-low-income-application-115",
-        "url": "https://www.dayuan.tycg.gov.tw/News_Content.aspx?n=7621&s=1583686&sms=12069",
+        "url": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923",
         "type": "official-local-application"
       }
     },
@@ -2406,49 +2411,49 @@
         "就學生活補助"
       ],
       "eligibility": "需為桃園市列冊低收入戶，補助款別與戶內兒童、學生身分依社會局審查結果認定。",
-      "conditionSourceNote": "桃園市社會局生活扶助頁面與金額調整公告列出補助對象及金額。",
+      "conditionSourceNote": "桃園市低收入戶生活扶助金額調整一覽表列出補助對象及金額；資格申請另由戶籍所在地區公所審查。",
       "applicationConditions": [
         {
           "label": "列冊低收入戶",
           "requirement": "已由桃園市審核列冊為低收入戶，並依款別、年齡或就學身分核發。",
           "note": "福利身分異動或不符合資格時，補助可能調整或停止。",
-          "sourceDate": "頁面查核日2026-06-05",
-          "sourceUrl": "https://sab.tycg.gov.tw/home.jsp?aplistdn=ou%3Ddata%2Cou%3Dassistance%2Cou%3Dchsocial%2Cou%3Dap_root%2Co%3Dtycg%2Cc%3Dtw&dataserno=201209130004&id=30579&mcustomize=onemessages_view.jsp&parentpath=0%2C30484%2C30494&toolsflag=Y"
+          "sourceDate": "113年度調整公告；查核日2026-06-08",
+          "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
         }
       ],
-      "benefitSourceNote": "桃園市113年度起調整低收入戶生活扶助金額，仍由社會局生活扶助頁面列為現行參考。",
+      "benefitSourceNote": "桃園市政府官方 PDF 列出低收入戶生活扶助金額調整一覽表。",
       "benefitItems": [
         {
           "label": "第1款家庭生活補助",
           "amount": "13,115元",
           "unit": "每人每月",
           "note": "低收入戶第1款家庭生活補助。",
-          "sourceDate": "113年度調整公告；查核日2026-06-05",
-          "sourceUrl": "https://sab.tycg.gov.tw/home.jsp?aplistdn=ou%3Ddata%2Cou%3Dassistance%2Cou%3Dchsocial%2Cou%3Dap_root%2Co%3Dtycg%2Cc%3Dtw&dataserno=201209130004&id=30579&mcustomize=onemessages_view.jsp&parentpath=0%2C30484%2C30494&toolsflag=Y"
+          "sourceDate": "113年度調整公告；查核日2026-06-08",
+          "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
         },
         {
           "label": "第2款家庭生活補助",
           "amount": "6,825元",
           "unit": "每戶每月",
           "note": "低收入戶第2款家庭生活補助。",
-          "sourceDate": "113年度調整公告；查核日2026-06-05",
-          "sourceUrl": "https://sab.tycg.gov.tw/home.jsp?aplistdn=ou%3Ddata%2Cou%3Dassistance%2Cou%3Dchsocial%2Cou%3Dap_root%2Co%3Dtycg%2Cc%3Dtw&dataserno=201209130004&id=30579&mcustomize=onemessages_view.jsp&parentpath=0%2C30484%2C30494&toolsflag=Y"
+          "sourceDate": "113年度調整公告；查核日2026-06-08",
+          "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
         },
         {
           "label": "兒童生活補助",
           "amount": "3,008元",
           "unit": "每人每月",
           "note": "第2款及第3款低收入戶15歲以下兒童。",
-          "sourceDate": "113年度調整公告；查核日2026-06-05",
-          "sourceUrl": "https://sab.tycg.gov.tw/home.jsp?aplistdn=ou%3Ddata%2Cou%3Dassistance%2Cou%3Dchsocial%2Cou%3Dap_root%2Co%3Dtycg%2Cc%3Dtw&dataserno=201209130004&id=30579&mcustomize=onemessages_view.jsp&parentpath=0%2C30484%2C30494&toolsflag=Y"
+          "sourceDate": "113年度調整公告；查核日2026-06-08",
+          "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
         },
         {
           "label": "高中職以上就學生活補助",
           "amount": "6,825元",
           "unit": "每人每月",
           "note": "第2款及第3款低收入戶高中職以上學生。",
-          "sourceDate": "113年度調整公告；查核日2026-06-05",
-          "sourceUrl": "https://sab.tycg.gov.tw/home.jsp?aplistdn=ou%3Ddata%2Cou%3Dassistance%2Cou%3Dchsocial%2Cou%3Dap_root%2Co%3Dtycg%2Cc%3Dtw&dataserno=201209130004&id=30579&mcustomize=onemessages_view.jsp&parentpath=0%2C30484%2C30494&toolsflag=Y"
+          "sourceDate": "113年度調整公告；查核日2026-06-08",
+          "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
         }
       ],
       "applicationMethodSourceNote": "低收入戶生活扶助通常由列冊資格連動，實際核發與異動以社會局或區公所審查為準。",
@@ -2464,13 +2469,13 @@
         "社會局或區公所要求文件"
       ],
       "contact": {
-        "website": "https://sab.tycg.gov.tw/home.jsp?aplistdn=ou%3Ddata%2Cou%3Dassistance%2Cou%3Dchsocial%2Cou%3Dap_root%2Co%3Dtycg%2Cc%3Dtw&dataserno=201209130004&id=30579&mcustomize=onemessages_view.jsp&parentpath=0%2C30484%2C30494&toolsflag=Y"
+        "website": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
       },
       "freshness": {
         "lastChecked": "2026-06-08",
-        "sourceUpdatedAt": null,
-        "confidence": "checked",
-        "notes": "Official Taoyuan social bureau assistance page."
+        "sourceUpdatedAt": "113-01-01",
+        "confidence": "source-dated",
+        "notes": "Official Taoyuan City Government PDF for living assistance amount adjustment."
       },
       "id": "taoyuan-low-income-living-assistance",
       "name": "桃園市低收入戶生活扶助",
@@ -2480,7 +2485,7 @@
       "districts": [],
       "source": {
         "id": "taoyuan-low-income-living-assistance",
-        "url": "https://sab.tycg.gov.tw/home.jsp?aplistdn=ou%3Ddata%2Cou%3Dassistance%2Cou%3Dchsocial%2Cou%3Dap_root%2Co%3Dtycg%2Cc%3Dtw&dataserno=201209130004&id=30579&mcustomize=onemessages_view.jsp&parentpath=0%2C30484%2C30494&toolsflag=Y",
+        "url": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D",
         "type": "official-local-program"
       }
     },
@@ -6725,6 +6730,634 @@
       "source": {
         "id": "taoyuan-middle-low-income-elderly-allowance-115",
         "url": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description",
+        "type": "official-local-application"
+      }
+    },
+    {
+      "summary": "臺中市身心障礙者生活補助費，符合設籍居住、身心障礙資格與收入財產標準者，依低收入戶、中低收入戶或一般資格及障礙程度按月核發。",
+      "audiences": [
+        "身心障礙者",
+        "低收入戶",
+        "中低收入戶",
+        "經濟困難家庭"
+      ],
+      "serviceCategories": [
+        "公部門地方資源",
+        "身心障礙福利",
+        "生活補助",
+        "經濟弱勢"
+      ],
+      "needTags": [
+        "臺中身障生活補助",
+        "臺中身心障礙生活補助",
+        "身心障礙者生活補助",
+        "身障生活補助",
+        "每月補助",
+        "區公所"
+      ],
+      "eligibility": "設籍並實際居住臺中市且最近一年居住國內超過183日，領有身心障礙證明，未經政府補助收容安置且未領有政府提供之其他生活補助或津貼；家庭收入、動產與不動產需符合身心障礙者生活補助標準。",
+      "conditionSourceNote": "臺中市政府社會局頁面與一次告知單列明設籍居住、未安置、所得財產與應備文件標準。",
+      "applicationConditions": [
+        {
+          "label": "設籍居住與身心障礙資格",
+          "requirement": "設籍並實際居住臺中市，最近一年居住國內超過183日，領有身心障礙證明，且未經政府補助收容安置。",
+          "note": "如同時符合其他生活補助或津貼，需先確認是否只能擇一請領。",
+          "sourceDate": "最後異動日期2025-09-30；網站更新115-06-04；查核日2026-06-08",
+          "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
+        },
+        {
+          "label": "所得與財產標準",
+          "requirement": "家庭總收入平均每人每月未達最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度標準審查。",
+          "note": "實際審查仍會看家庭應計人口、所得、存款投資與土地房屋價值。",
+          "sourceDate": "最後異動日期2025-09-30；網站更新115-06-04；查核日2026-06-08",
+          "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
+        }
+      ],
+      "benefitSourceNote": "臺中市政府社會局頁面列出低收入戶、中低收入戶與一般資格之每月補助金額。",
+      "benefitItems": [
+        {
+          "label": "列冊低收入戶身障中、重、極重度",
+          "amount": "9,485元",
+          "unit": "每人每月",
+          "note": "輕度為5,437元。",
+          "sourceDate": "最後異動日期2025-09-30；查核日2026-06-08",
+          "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
+        },
+        {
+          "label": "列冊中低收入戶身障中、重、極重度",
+          "amount": "5,437元",
+          "unit": "每人每月",
+          "note": "輕度為4,049元。",
+          "sourceDate": "最後異動日期2025-09-30；查核日2026-06-08",
+          "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
+        },
+        {
+          "label": "一般資格身障中、重、極重度",
+          "amount": "5,437元",
+          "unit": "每人每月",
+          "note": "輕度為4,049元。",
+          "sourceDate": "最後異動日期2025-09-30；查核日2026-06-08",
+          "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
+        }
+      ],
+      "applicationMethodSourceNote": "向戶籍所在地區公所提出申請，由公所初審並送臺中市政府社會局核定；須備身心障礙證明、身分與帳戶等資料。",
+      "howToApply": [
+        "向戶籍所在地區公所提出申請。",
+        "準備身心障礙證明、身分證明、郵局或金融機構存摺封面及收入財產相關資料。",
+        "如已領其他生活津貼或補助，送件前先向區公所確認是否需擇一請領。"
+      ],
+      "documents": [
+        "申請表",
+        "身心障礙證明",
+        "身分及戶籍資料",
+        "郵局或金融機構存摺封面",
+        "收入與財產相關資料",
+        "其他審查所需文件"
+      ],
+      "contact": {
+        "phone": "04-22289111",
+        "website": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-08",
+        "sourceUpdatedAt": "2025-09-30；網站更新115-06-04",
+        "confidence": "source-dated",
+        "notes": "Official Taichung disability living allowance page."
+      },
+      "id": "taichung-disability-living-allowance-115",
+      "name": "臺中市身心障礙者生活補助費",
+      "provider": "臺中市政府社會局",
+      "jurisdiction": "臺中市",
+      "county": "臺中市",
+      "districts": [],
+      "source": {
+        "id": "taichung-disability-living-allowance-115",
+        "url": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728",
+        "type": "official-local-application"
+      }
+    },
+    {
+      "summary": "臺中市中低收入老人生活津貼，65歲以上且符合設籍居住、所得與財產標準者，依收入級距按月核發。",
+      "audiences": [
+        "老人",
+        "中低收入戶",
+        "低收入戶",
+        "經濟困難家庭"
+      ],
+      "serviceCategories": [
+        "公部門地方資源",
+        "老人福利",
+        "生活津貼",
+        "經濟弱勢"
+      ],
+      "needTags": [
+        "臺中中低收入老人",
+        "臺中老人生活津貼",
+        "中低收入老人生活津貼",
+        "65歲補助",
+        "每月津貼",
+        "區公所"
+      ],
+      "eligibility": "年滿65歲，設籍並實際居住臺中市，最近一年居住國內超過183日，未接受政府公費收容安置，且家庭收入、動產與不動產符合中低收入老人生活津貼標準。",
+      "conditionSourceNote": "臺中市政府社會局頁面與一次告知單列出資格、所得財產門檻、補助金額與申請文件。",
+      "applicationConditions": [
+        {
+          "label": "115年度中低收入老人標準",
+          "requirement": "65歲以上，家庭總收入平均每人每月在24,647元以下或超過24,647元至39,960元以下，並符合動產及不動產限額。",
+          "note": "收入級距會影響每月津貼金額；仍需審查家庭應計人口與財產資料。",
+          "sourceDate": "最後異動日期2025-02-04；網站更新115-06-04；查核日2026-06-08",
+          "sourceUrl": "https://www.society.taichung.gov.tw/461548/post"
+        }
+      ],
+      "benefitSourceNote": "臺中市政府社會局頁面列明兩級距每月生活津貼金額。",
+      "benefitItems": [
+        {
+          "label": "家庭總收入平均每人每月24,647元以下",
+          "amount": "8,329元",
+          "unit": "每人每月",
+          "note": "依審查結果核定。",
+          "sourceDate": "最後異動日期2025-02-04；查核日2026-06-08",
+          "sourceUrl": "https://www.society.taichung.gov.tw/461548/post"
+        },
+        {
+          "label": "家庭總收入平均每人每月超過24,647元至39,960元以下",
+          "amount": "4,164元",
+          "unit": "每人每月",
+          "note": "依審查結果核定。",
+          "sourceDate": "最後異動日期2025-02-04；查核日2026-06-08",
+          "sourceUrl": "https://www.society.taichung.gov.tw/461548/post"
+        }
+      ],
+      "applicationMethodSourceNote": "申請人向戶籍所在地區公所提出；社會局頁面列有申請表、戶籍、郵局存摺與相關佐證資料。",
+      "howToApply": [
+        "向戶籍所在地區公所提出申請。",
+        "備妥申請表、身分戶籍資料、郵局存摺封面及所得財產相關證明。",
+        "如已領其他老人、身障或政府生活津貼，先確認是否可併領或需擇一。"
+      ],
+      "documents": [
+        "申請表",
+        "身分及戶籍資料",
+        "郵局存摺封面",
+        "收入與財產相關資料",
+        "學生、服役、服刑、失蹤、身障或其他必要證明"
+      ],
+      "contact": {
+        "phone": "04-22289111",
+        "website": "https://www.society.taichung.gov.tw/461548/post"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-08",
+        "sourceUpdatedAt": "2025-02-04；網站更新115-06-04",
+        "confidence": "source-dated",
+        "notes": "Official Taichung middle-low-income elderly allowance page."
+      },
+      "id": "taichung-middle-low-income-elderly-allowance-115",
+      "name": "臺中市中低收入老人生活津貼",
+      "provider": "臺中市政府社會局",
+      "jurisdiction": "臺中市",
+      "county": "臺中市",
+      "districts": [],
+      "source": {
+        "id": "taichung-middle-low-income-elderly-allowance-115",
+        "url": "https://www.society.taichung.gov.tw/461548/post",
+        "type": "official-local-application"
+      }
+    },
+    {
+      "summary": "高雄市中低收入老人生活津貼，65歲以上且符合居住、所得與財產標準者，依收入級距按月核發。",
+      "audiences": [
+        "老人",
+        "中低收入戶",
+        "低收入戶",
+        "經濟困難家庭"
+      ],
+      "serviceCategories": [
+        "公部門地方資源",
+        "老人福利",
+        "生活津貼",
+        "經濟弱勢"
+      ],
+      "needTags": [
+        "高雄中低收入老人",
+        "高雄老人生活津貼",
+        "中低收入老人生活津貼",
+        "65歲補助",
+        "每月津貼",
+        "區公所"
+      ],
+      "eligibility": "年滿65歲並設籍實際居住高雄市，最近一年居住國內超過183日，未接受政府公費收容安置、未入獄服刑或羈押拘禁，且家庭收入、動產及不動產符合高雄市中低收入老人生活津貼標準。",
+      "conditionSourceNote": "高雄市政府社會局長青綜合服務中心頁面列出115年度收入級距、動產、不動產、申請文件與服務窗口。",
+      "applicationConditions": [
+        {
+          "label": "115年度中低收入老人標準",
+          "requirement": "65歲以上；家庭總收入平均每人每月未超過42,425元且依級距核發；動產單一人口250萬元、每增加一口加25萬元；不動產全戶691萬元以下。",
+          "note": "頁面列出8,329元級距與4,164元級距，實際仍由區公所與社會局依資料審核。",
+          "sourceDate": "更新日期115-05-29；查核日2026-06-08",
+          "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?n=3DDD5FAEE88FB982"
+        }
+      ],
+      "benefitSourceNote": "高雄市長青綜合服務中心頁面列明每月津貼金額。",
+      "benefitItems": [
+        {
+          "label": "家庭總收入平均每人每月39,960元以下",
+          "amount": "8,329元",
+          "unit": "每人每月",
+          "note": "頁面另列高雄市收入審核級距，依核定結果發給。",
+          "sourceDate": "更新日期115-05-29；查核日2026-06-08",
+          "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?n=3DDD5FAEE88FB982"
+        },
+        {
+          "label": "家庭總收入平均每人每月超過39,960元至42,425元以下",
+          "amount": "4,164元",
+          "unit": "每人每月",
+          "note": "依審查結果核定。",
+          "sourceDate": "更新日期115-05-29；查核日2026-06-08",
+          "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?n=3DDD5FAEE88FB982"
+        }
+      ],
+      "applicationMethodSourceNote": "高雄市頁面列出向戶籍所在地區公所社會課申請，並由區公所與社會局審核。",
+      "howToApply": [
+        "向戶籍所在地區公所社會課提出申請。",
+        "備妥申請表、身分戶籍、郵局或金融帳戶及所得財產相關資料。",
+        "如有公費安置、服刑羈押或已領其他津貼情形，送件前先確認是否影響資格。"
+      ],
+      "documents": [
+        "申請表",
+        "身分及戶籍資料",
+        "郵局或金融機構存摺封面",
+        "收入與財產相關資料",
+        "其他區公所或社會局要求文件"
+      ],
+      "contact": {
+        "phone": "07-7710055",
+        "website": "https://older.kcg.gov.tw/cp.aspx?n=3DDD5FAEE88FB982"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-08",
+        "sourceUpdatedAt": "115-05-29",
+        "confidence": "source-dated",
+        "notes": "Official Kaohsiung elderly allowance page."
+      },
+      "id": "kaohsiung-middle-low-income-elderly-allowance-115",
+      "name": "高雄市中低收入老人生活津貼",
+      "provider": "高雄市政府社會局長青綜合服務中心",
+      "jurisdiction": "高雄市",
+      "county": "高雄市",
+      "districts": [],
+      "source": {
+        "id": "kaohsiung-middle-low-income-elderly-allowance-115",
+        "url": "https://older.kcg.gov.tw/cp.aspx?n=3DDD5FAEE88FB982",
+        "type": "official-local-application"
+      }
+    },
+    {
+      "summary": "高雄市身心障礙者生活補助，符合設籍居住、身心障礙證明及所得財產標準者，依低收入戶、中低收入戶或一般資格及障礙程度按月核發。",
+      "audiences": [
+        "身心障礙者",
+        "低收入戶",
+        "中低收入戶",
+        "經濟困難家庭"
+      ],
+      "serviceCategories": [
+        "公部門地方資源",
+        "身心障礙福利",
+        "生活補助",
+        "經濟弱勢"
+      ],
+      "needTags": [
+        "高雄身障生活補助",
+        "高雄身心障礙生活補助",
+        "身心障礙者生活補助",
+        "身障生活補助",
+        "每月補助",
+        "區公所"
+      ],
+      "eligibility": "設籍並實際居住高雄市且領有身心障礙證明，未接受政府公費收容安置，家庭總收入、動產與不動產符合年度標準。",
+      "conditionSourceNote": "高雄市官方區公所頁面列出115年度所得財產標準與申辦流程；補助金額另以高雄市官方區公所補助說明頁交叉確認。",
+      "applicationConditions": [
+        {
+          "label": "115年度所得與財產標準",
+          "requirement": "家庭總收入平均每人每月未達39,960元；動產第一口200萬元、每增加一口增加25萬元；不動產全戶770萬元以下。",
+          "note": "仍需符合設籍居住、身心障礙證明、未公費安置等條件。",
+          "sourceDate": "更新日期115-06-01；查核日2026-06-08",
+          "sourceUrl": "https://hsingsin.kcg.gov.tw/cp.aspx?n=1223BAF7068622E7"
+        }
+      ],
+      "benefitSourceNote": "高雄市官方區公所補助說明頁列出身心障礙者生活補助每月金額；115年度資格頁另確認所得財產標準。",
+      "benefitItems": [
+        {
+          "label": "列冊低收入戶身障中、重、極重度",
+          "amount": "9,485元",
+          "unit": "每人每月",
+          "note": "輕度為5,437元。",
+          "sourceDate": "更新時間113-06-06；查核日2026-06-08",
+          "sourceUrl": "https://nanzih.kcg.gov.tw/News_Content.aspx?n=B478C83129A6E8D3&s=FC673FBF4E5533F9&sms=5D18E56883EFDEF4"
+        },
+        {
+          "label": "列冊中低收入戶或一般資格身障中、重、極重度",
+          "amount": "5,437元",
+          "unit": "每人每月",
+          "note": "輕度為4,049元。",
+          "sourceDate": "更新時間113-06-06；查核日2026-06-08",
+          "sourceUrl": "https://nanzih.kcg.gov.tw/News_Content.aspx?n=B478C83129A6E8D3&s=FC673FBF4E5533F9&sms=5D18E56883EFDEF4"
+        }
+      ],
+      "applicationMethodSourceNote": "向戶籍所在地區公所社會課提出申請，經區公所審查後送高雄市政府社會局核定。",
+      "howToApply": [
+        "向戶籍所在地區公所社會課提出申請。",
+        "準備申請表、身心障礙證明、身分戶籍、存摺封面及所得財產相關資料。",
+        "高齡身心障礙者或已領其他津貼者，先請區公所協助確認較適合請領的項目。"
+      ],
+      "documents": [
+        "申請表",
+        "身心障礙證明",
+        "身分及戶籍資料",
+        "郵局或金融機構存摺封面",
+        "所得與財產資料",
+        "其他審查所需文件"
+      ],
+      "contact": {
+        "website": "https://hsingsin.kcg.gov.tw/cp.aspx?n=1223BAF7068622E7"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-08",
+        "sourceUpdatedAt": "115-06-01",
+        "confidence": "source-dated",
+        "notes": "Official Kaohsiung district application page with current standards; amount cross-checked from an official Kaohsiung district page."
+      },
+      "id": "kaohsiung-disability-living-allowance-115",
+      "name": "高雄市身心障礙者生活補助",
+      "provider": "高雄市政府社會局",
+      "jurisdiction": "高雄市",
+      "county": "高雄市",
+      "districts": [],
+      "source": {
+        "id": "kaohsiung-disability-living-allowance-115",
+        "url": "https://hsingsin.kcg.gov.tw/cp.aspx?n=1223BAF7068622E7",
+        "type": "official-local-application"
+      }
+    },
+    {
+      "summary": "基隆市中低收入老人生活津貼，65歲以上且符合居住、所得與財產標準者，依收入級距按月核發。",
+      "audiences": [
+        "老人",
+        "中低收入戶",
+        "低收入戶",
+        "經濟困難家庭"
+      ],
+      "serviceCategories": [
+        "公部門地方資源",
+        "老人福利",
+        "生活津貼",
+        "經濟弱勢"
+      ],
+      "needTags": [
+        "基隆中低收入老人",
+        "基隆老人生活津貼",
+        "中低收入老人生活津貼",
+        "65歲補助",
+        "每月津貼",
+        "區公所"
+      ],
+      "eligibility": "年滿65歲，設籍並實際居住基隆市，最近一年居住國內超過183日，未接受政府公費收容安置、未入獄服刑或羈押拘禁，且家庭收入與財產符合中低收入老人生活津貼標準。",
+      "conditionSourceNote": "基隆市政府社會處頁面列出申請資格、補助金額、應備文件與受理單位。",
+      "applicationConditions": [
+        {
+          "label": "中低收入老人資格",
+          "requirement": "65歲以上並符合居住、所得及財產標準；家庭總收入級距會影響每月津貼金額。",
+          "note": "實際金額與資格仍由戶籍所在地區公所依申請資料審查。",
+          "sourceDate": "發布日期2018-04-26；最後更新2024-05-09；查核日2026-06-08",
+          "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html"
+        }
+      ],
+      "benefitSourceNote": "基隆市政府社會處頁面列出每月津貼金額。",
+      "benefitItems": [
+        {
+          "label": "較低收入級距",
+          "amount": "8,329元",
+          "unit": "每人每月",
+          "note": "依區公所審查結果核定。",
+          "sourceDate": "最後更新2024-05-09；查核日2026-06-08",
+          "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html"
+        },
+        {
+          "label": "次一收入級距",
+          "amount": "4,164元",
+          "unit": "每人每月",
+          "note": "依區公所審查結果核定。",
+          "sourceDate": "最後更新2024-05-09；查核日2026-06-08",
+          "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html"
+        }
+      ],
+      "applicationMethodSourceNote": "向戶籍所在地區公所申請；頁面列出身分、戶籍、印章、郵局存摺及其他必要證明。",
+      "howToApply": [
+        "向戶籍所在地區公所提出申請。",
+        "準備身分戶籍資料、印章、郵局存摺封面與所得財產相關資料。",
+        "如同時符合老人、身障或低收入戶相關津貼，送件前先確認是否可併領。"
+      ],
+      "documents": [
+        "申請表",
+        "身分及戶籍資料",
+        "印章",
+        "郵局存摺封面",
+        "所得與財產相關資料",
+        "其他審查所需文件"
+      ],
+      "contact": {
+        "phone": "02-24201122",
+        "website": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-08",
+        "sourceUpdatedAt": "2024-05-09",
+        "confidence": "source-dated",
+        "notes": "Official Keelung elderly allowance page."
+      },
+      "id": "keelung-middle-low-income-elderly-allowance-115",
+      "name": "基隆市中低收入老人生活津貼",
+      "provider": "基隆市政府社會處",
+      "jurisdiction": "基隆市",
+      "county": "基隆市",
+      "districts": [],
+      "source": {
+        "id": "keelung-middle-low-income-elderly-allowance-115",
+        "url": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html",
+        "type": "official-local-application"
+      }
+    },
+    {
+      "summary": "宜蘭縣中低收入老人生活津貼，65歲以上且符合設籍居住、所得與財產標準者，依收入級距按月核發。",
+      "audiences": [
+        "老人",
+        "中低收入戶",
+        "低收入戶",
+        "經濟困難家庭"
+      ],
+      "serviceCategories": [
+        "公部門地方資源",
+        "老人福利",
+        "生活津貼",
+        "經濟弱勢"
+      ],
+      "needTags": [
+        "宜蘭中低收入老人",
+        "宜蘭老人生活津貼",
+        "中低收入老人生活津貼",
+        "65歲補助",
+        "每月津貼",
+        "公所"
+      ],
+      "eligibility": "年滿65歲，設籍並實際居住宜蘭縣，最近一年居住國內超過183日，未接受政府公費收容安置、未入獄服刑或羈押拘禁，且所得與財產符合中低收入老人生活津貼標準。",
+      "conditionSourceNote": "宜蘭市公所社會課頁面列出中低收入老人生活津貼資格、金額、文件與申辦單位，供宜蘭縣公所端申請參考。",
+      "applicationConditions": [
+        {
+          "label": "中低收入老人資格",
+          "requirement": "年滿65歲且設籍居住，家庭總收入、動產及不動產符合中低收入老人生活津貼標準。",
+          "note": "仍需審查家庭應計人口、所得、存款投資與土地房屋價值。",
+          "sourceDate": "更新日期115-05-29；查核日2026-06-08",
+          "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372388&sms=16134"
+        }
+      ],
+      "benefitSourceNote": "宜蘭市公所社會課頁面列明兩級距每月生活津貼金額。",
+      "benefitItems": [
+        {
+          "label": "較低收入級距",
+          "amount": "8,329元",
+          "unit": "每人每月",
+          "note": "依審查結果核定。",
+          "sourceDate": "更新日期115-05-29；查核日2026-06-08",
+          "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372388&sms=16134"
+        },
+        {
+          "label": "次一收入級距",
+          "amount": "4,164元",
+          "unit": "每人每月",
+          "note": "依審查結果核定。",
+          "sourceDate": "更新日期115-05-29；查核日2026-06-08",
+          "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372388&sms=16134"
+        }
+      ],
+      "applicationMethodSourceNote": "向戶籍所在地聯合里辦公處或公所社會課窗口提出申請，再送縣府審核；不同鄉鎮市實際送件窗口可能略有差異。",
+      "howToApply": [
+        "向戶籍所在地公所或聯合里辦公處提出申請。",
+        "準備身分戶籍、印章、郵局存摺封面、收入財產與其他佐證資料。",
+        "宜蘭縣各鄉鎮市窗口可能不同，送件前可先以戶籍地公所社會課確認。"
+      ],
+      "documents": [
+        "申請表",
+        "身分及戶籍資料",
+        "印章",
+        "郵局存摺封面",
+        "所得與財產相關資料",
+        "其他審查所需文件"
+      ],
+      "contact": {
+        "phone": "03-9325164",
+        "website": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372388&sms=16134"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-08",
+        "sourceUpdatedAt": "115-05-29",
+        "confidence": "source-dated",
+        "notes": "Official Yilan City office social affairs page for county elderly allowance handling."
+      },
+      "id": "yilan-middle-low-income-elderly-allowance-115",
+      "name": "宜蘭縣中低收入老人生活津貼",
+      "provider": "宜蘭縣宜蘭市公所",
+      "jurisdiction": "宜蘭縣",
+      "county": "宜蘭縣",
+      "districts": [],
+      "source": {
+        "id": "yilan-middle-low-income-elderly-allowance-115",
+        "url": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372388&sms=16134",
+        "type": "official-local-application"
+      }
+    },
+    {
+      "summary": "宜蘭縣身心障礙者生活補助，符合設籍居住、身心障礙證明及所得財產標準者，依障礙程度按月核發。",
+      "audiences": [
+        "身心障礙者",
+        "低收入戶",
+        "中低收入戶",
+        "經濟困難家庭"
+      ],
+      "serviceCategories": [
+        "公部門地方資源",
+        "身心障礙福利",
+        "生活補助",
+        "經濟弱勢"
+      ],
+      "needTags": [
+        "宜蘭身障生活補助",
+        "宜蘭身心障礙生活補助",
+        "身心障礙者生活補助",
+        "身障生活補助",
+        "每月補助",
+        "公所"
+      ],
+      "eligibility": "設籍並實際居住宜蘭縣，領有身心障礙證明，且家庭總收入、動產與不動產符合年度標準；應計人口含配偶、一親等直系血親、同戶或共同生活直系血親及列報扶養者。",
+      "conditionSourceNote": "宜蘭市公所社會課頁面列出身心障礙者生活補助之收入、動產、不動產、應計人口、應備資料與申辦單位。",
+      "applicationConditions": [
+        {
+          "label": "所得與財產標準",
+          "requirement": "家庭總收入平均每人每月未達最低生活費2.5倍且未超過臺灣地區平均每人每月消費支出1.5倍；動產單口戶200萬元、每增加1人增加25萬元；不動產全戶未逾746萬元。",
+          "note": "仍需持有身心障礙證明，並由縣府依送件資料核定。",
+          "sourceDate": "更新日期115-06-05；查核日2026-06-08",
+          "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372385&sms=16134"
+        }
+      ],
+      "benefitSourceNote": "宜蘭市公所社會課頁面列出身心障礙者生活補助每月金額。",
+      "benefitItems": [
+        {
+          "label": "身心障礙輕度",
+          "amount": "4,049元",
+          "unit": "每人每月",
+          "note": "符合補助標準者核發。",
+          "sourceDate": "更新日期115-06-05；查核日2026-06-08",
+          "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372385&sms=16134"
+        },
+        {
+          "label": "身心障礙中度以上",
+          "amount": "5,437元",
+          "unit": "每人每月",
+          "note": "符合補助標準者核發。",
+          "sourceDate": "更新日期115-06-05；查核日2026-06-08",
+          "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372385&sms=16134"
+        }
+      ],
+      "applicationMethodSourceNote": "向戶籍所在地聯合里辦公處提出申請，由公所社會課初審後轉宜蘭縣政府核定。",
+      "howToApply": [
+        "向戶籍所在地聯合里辦公處或公所社會課提出申請。",
+        "準備身障證明、身分證、印章、郵局存摺、學生證及其他佐證資料。",
+        "由公所初審後轉宜蘭縣政府核定，送件前可先向戶籍地公所確認最新窗口。"
+      ],
+      "documents": [
+        "身心障礙證明",
+        "身分證",
+        "印章",
+        "郵局存摺",
+        "學生證",
+        "其他佐證資料"
+      ],
+      "contact": {
+        "phone": "03-9325164",
+        "website": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372385&sms=16134"
+      },
+      "freshness": {
+        "lastChecked": "2026-06-08",
+        "sourceUpdatedAt": "115-06-05",
+        "confidence": "source-dated",
+        "notes": "Official Yilan City office page for county disability living allowance handling."
+      },
+      "id": "yilan-disability-living-allowance-115",
+      "name": "宜蘭縣身心障礙者生活補助",
+      "provider": "宜蘭縣宜蘭市公所",
+      "jurisdiction": "宜蘭縣",
+      "county": "宜蘭縣",
+      "districts": [],
+      "source": {
+        "id": "yilan-disability-living-allowance-115",
+        "url": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372385&sms=16134",
         "type": "official-local-application"
       }
     },
@@ -36336,11 +36969,11 @@
       "districts": [],
       "eligibility": "依各服務項目規定。",
       "contact": {
-        "website": "https://sab.tycg.gov.tw/"
+        "website": "https://sab.tycg.gov.tw/default.aspx"
       },
       "source": {
         "id": "county-taoyuan-social",
-        "url": "https://sab.tycg.gov.tw/",
+        "url": "https://sab.tycg.gov.tw/default.aspx",
         "type": "official-local-government"
       }
     },
@@ -36894,11 +37527,11 @@
       "districts": [],
       "eligibility": "依各服務項目規定。",
       "contact": {
-        "website": "https://sabcc.cyhg.gov.tw/"
+        "website": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
       },
       "source": {
         "id": "county-chiayi-county-social",
-        "url": "https://sabcc.cyhg.gov.tw/",
+        "url": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4",
         "type": "official-local-government"
       }
     },

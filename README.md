@@ -7,7 +7,7 @@
 - Public GitHub repo: https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub
 - Vercel Production: https://taiwan-welfare-resource-hub.vercel.app/
 - Review-stage `noindex` 保留中：HTML meta robots、`robots.txt`、Vercel `X-Robots-Tag` 都會阻擋搜尋引擎索引。
-- Current dataset: 522 resource records from 97 allowlisted sources.
+- Current dataset: 529 resource records from 104 allowlisted sources.
 - Foundation coverage: 355 official SFAA national social-welfare foundation records queried on 2026-06-03.
 - Reviewed foundation program cards: 71 manually allowlisted program/service pages converted from candidate crawls.
 - Batch 0/1 central expansion: 9 high-demand nationwide cards for national pension premium subsidy, special-circumstances families, disability welfare, childcare, elder welfare, education tuition reduction, labor subsidy, 115 rent subsidy, and 113 protection hotline.
@@ -22,6 +22,7 @@
 - Batch 4E foundation deep crawl: 7 reviewed civil-society program cards for Mercyland cancer-family assistance and scholarships, Sin Te adult disability residential/aging support, Taiwan Blind Institute life reconstruction, YCSWF adult day care, and Huashan three-loss elder home-based services.
 - Batch 4F foundation review: 5 additional civil-society cards for Chang Yung-Fa case assistance, Chung Hua Tang emergency/low-income/student/medical aid, Eting application forms, Mustard Seed child placement support, and Chuan Cheng long-term/disability service windows; the existing Wan Hai emergency assistance card was also enriched with conditions, benefit items, documents, and 2025/08/01 online-application notes.
 - V2 Batch 5A local deep-dive: 5 new official city program cards for Taipei/New Taipei disability living allowances and Taipei/New Taipei/Taoyuan middle-low-income elderly living allowances; the existing Tainan elderly allowance card was de-duplicated and enriched with official eligibility, benefit amounts, documents, and application notes.
+- V2 Batch 5B local deep-dive: 7 new official local allowance cards for Taichung, Kaohsiung, Keelung, and Yilan, focused on disability living allowances and middle-low-income elderly living allowances with eligibility, benefit amounts, and application notes.
 
 ## Local Preview
 
