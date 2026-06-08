@@ -23,6 +23,8 @@ REQUIRED_RECORD_FIELDS = [
     "freshness",
 ]
 
+FORBIDDEN_DISPLAY_VALUES = {"none", "null"}
+
 
 def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
@@ -33,6 +35,13 @@ def valid_url(url: str | None) -> bool:
         return True
     parsed = urllib.parse.urlparse(url)
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+
+def has_forbidden_display_value(value) -> bool:
+    if value is None:
+        return False
+    text = str(value).strip().lower()
+    return text in FORBIDDEN_DISPLAY_VALUES
 
 
 def validate_candidate_file(path: Path, errors: list[str]) -> None:
@@ -126,6 +135,12 @@ def main() -> int:
             errors.append(f"Record {record_id} has no audience.")
         if not record.get("serviceCategories"):
             errors.append(f"Record {record_id} has no service category.")
+        for field in ["audiences", "serviceCategories"]:
+            for value in record.get(field, []):
+                if has_forbidden_display_value(value):
+                    errors.append(f"Record {record_id} has forbidden display value in {field}: {value}")
+        if "、none" in (record.get("summary") or "").lower() or "none、" in (record.get("summary") or "").lower():
+            errors.append(f"Record {record_id} summary contains forbidden display value: none")
         for condition_index, condition in enumerate(record.get("applicationConditions", []), start=1):
             if not condition.get("label"):
                 errors.append(f"Record {record_id} condition {condition_index} missing label.")

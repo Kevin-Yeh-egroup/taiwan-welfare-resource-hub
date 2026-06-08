@@ -35,6 +35,7 @@ const priorityNames = [
 ];
 
 const els = {
+  query: document.querySelector("#queryInput"),
   county: document.querySelector("#countyFilter"),
   audience: document.querySelector("#audienceFilter"),
   category: document.querySelector("#categoryFilter"),
@@ -636,6 +637,9 @@ function setSelectValue(select, value) {
 }
 
 function syncControls() {
+  if (els.query && els.query.value !== state.query) {
+    els.query.value = state.query;
+  }
   setSelectValue(els.county, state.county);
   setSelectValue(els.audience, state.audience);
   setSelectValue(els.category, state.category);
@@ -682,6 +686,7 @@ function setAudience(audience) {
 }
 
 function showResourceDescriptions() {
+  state.query = els.query?.value.trim() || "";
   const hasNarrowingFilter = Boolean(state.query || state.county || state.audience || state.category || state.currentOnly);
   state.group = hasNarrowingFilter ? "all" : "recommended";
   syncControls();
@@ -707,6 +712,15 @@ function syncGroupButtons() {
 }
 
 function bindEvents() {
+  els.query.addEventListener("input", (event) => {
+    state.query = event.target.value;
+    render();
+  });
+  els.query.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      showResourceDescriptions();
+    }
+  });
   els.county.addEventListener("change", (event) => {
     state.county = event.target.value;
     render();

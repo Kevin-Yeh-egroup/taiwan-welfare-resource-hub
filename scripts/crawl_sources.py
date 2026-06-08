@@ -50,7 +50,7 @@ def clean(value):
     if value is None:
         return None
     text = str(value).strip()
-    return None if text in {"", "null", "None"} else text
+    return None if text == "" or text.lower() in {"null", "none"} else text
 
 
 class PageSummaryParser(HTMLParser):

@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-06-08T01:12:21+00:00",
+  "batch": "I",
+  "mode": "candidate-only",
+  "notice": "Review-only candidate pages crawled from foundation websites. Do not treat these as public resource records until manually reviewed.",
+  "crawlPolicy": {
+    "userAgent": "taiwan-welfare-resource-hub/0.1 (+https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub)",
+    "robotsRespected": true,
+    "maxPagesPerSite": 6,
+    "maxCandidatesPerSite": 3,
+    "minScore": 8,
+    "sourceDataset": "data/resources.json",
+    "previousCandidateFiles": [
+      "data\\foundation-program-candidates.json",
+      "data\\foundation-program-candidates-batch-b.json",
+      "data\\foundation-program-candidates-batch-c.json",
+      "data\\foundation-program-candidates-batch-d.json",
+      "data\\foundation-program-candidates-batch-e.json",
+      "data\\foundation-program-candidates-batch-f.json",
+      "data\\foundation-program-candidates-batch-g.json",
+      "data\\foundation-program-candidates-batch-h.json"
+    ],
+    "excludedFoundations": 192,
+    "onlyCurrentYear": false
+  },
+  "summary": {
+    "selectedFoundations": 0,
+    "websitesAttempted": 0,
+    "websitesWithCandidates": 0,
+    "pagesFetched": 0,
+    "candidates": 0,
+    "highConfidence": 0,
+    "mediumConfidence": 0,
+    "lowConfidence": 0,
+    "errors": 0
+  },
+  "selectedFoundations": [],
+  "candidates": [],
+  "siteReports": []
+}

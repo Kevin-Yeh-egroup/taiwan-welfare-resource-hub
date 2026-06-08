@@ -32,7 +32,9 @@ def clean(value: Any) -> str | None:
     if value is None:
         return None
     text = re.sub(r"\s+", " ", str(value)).strip()
-    return text or None
+    if not text or text.lower() in {"null", "none"}:
+        return None
+    return text
 
 
 def unique(values: list[Any], limit: int | None = None) -> list[str]:
@@ -88,6 +90,11 @@ def has_current_year_signal(candidate: dict) -> bool:
 
 def confidence(candidate: dict) -> str:
     return "source-dated" if has_current_year_signal(candidate) else "checked"
+
+
+def candidate_signal_note(candidate: dict) -> str:
+    signals = unique(candidate.get("currentYearSignals") or [])
+    return ", ".join(signals) if signals else "not listed"
 
 
 def contact_from_foundation(foundation: dict, candidate: dict) -> dict:
@@ -179,7 +186,7 @@ def build_record(override: dict, candidate: dict, foundation: dict, reviewed_at:
             "confidence": confidence(candidate),
             "notes": (
                 f"Converted from manually reviewed candidate {candidate_id} on {reviewed_at}. "
-                f"Candidate signals: {', '.join(candidate.get('currentYearSignals') or ['none'])}. "
+                f"Candidate signals: {candidate_signal_note(candidate)}. "
                 "Application details still require source-page or phone confirmation before use."
             ),
         },
