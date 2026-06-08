@@ -188,9 +188,9 @@ Disallow: /
 
 ## V2 Batch 5A Production Verification - 2026-06-08
 
-- Commit: `65f6095aa4e5f3860b169544435925cb22e5f54a` (`Add v2 local living allowance batch`)
-- Deployment: `dpl_4PPW1LfKwhSv2XQM1Adp4ncNNGNd`
-- Deployment URL: `https://taiwan-welfare-resource-pi1w6yvja-egroup-task3s-projects.vercel.app`
+- Commits: `65f6095aa4e5f3860b169544435925cb22e5f54a` (`Add v2 local living allowance batch`), `1d19b1b7b9ceb056b75158f1ca35e33387b476b2` (`Deduplicate v2 local allowance data`)
+- Deployment: `dpl_6nRFe8d6VrWFsWGWWpnznUegTbfo`
+- Deployment URL: `https://taiwan-welfare-resource-rmhg3je0a-egroup-task3s-projects.vercel.app`
 - Target/status: Production / Ready
 - Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
 - HTTP verification: page `200`, `data/resources.json` `200`, `data/freshness-report.json` `200`; stable URL returns `X-Robots-Tag: noindex, nofollow, noarchive`
@@ -199,8 +199,8 @@ Disallow: /
 - Homepage count verification: 21 central public resources, 75 local public resources, and 426 private resources
 - Added V2 local public-sector living allowance cards: `臺北市身心障礙者生活補助`, `新北市身心障礙者生活補助`, `臺北市中低收入老人生活津貼`, `新北市中低收入老人生活津貼`, and `桃園市中低收入老人生活津貼`; enriched the existing `臺南市中低收入老人生活津貼` card instead of keeping a duplicate
 - Taiwan wording/search refinement: added `身心障礙生活補助` and `身障生活補助` as search terms so ordinary wording finds the Taipei/New Taipei cards, not only the formal `身心障礙者生活補助` phrasing
-- Local browser verification: homepage showed counts 21 / 75 / 426; searching `中低收入老人` found the added Taipei, New Taipei, Taoyuan, and enriched Tainan elderly cards; searching `身心障礙生活補助` found the Taipei and New Taipei disability cards
-- Production browser verification: searching `身心障礙生活補助` found 3 results including `臺北市身心障礙者生活補助` and `新北市身心障礙者生活補助`; the Taipei card showed `申請條件先看`, `補助項目與金額`, `申請注意事項`, and `9,485元`; visible literal `none` remained absent
+- Local data verification: homepage-count logic resolves to 21 / 75 / 426; `低收入戶`, `中低收入戶`, `中低收入老人`, `身心障礙生活補助`, and `身障生活補助` all return local dataset hits.
+- Production HTTP verification: stable URL serves 522 records, 0 duplicate same-name/provider/jurisdiction records, 1 Tainan elderly allowance card, and all 6 target allowance names are present; noindex response header and HTML meta are present.
 - Runtime logs: Vercel Production error/fatal logs for the last hour returned no logs
 
 ## GitHub Actions
