@@ -166,6 +166,26 @@ Disallow: /
 - Production browser verification: homepage status grid shows `公部門中央資源 21`, `公部門地方資源 70`, and `民間資源 421`; filtering `桃園市` + `癌友家庭` + `清寒獎學金` found exactly 1 card, `育田癌友家庭子女育秧獎助學金`, with `20,000元`, the 115年度申請期間, and `申請條件`, `補助項目與金額`, `申請注意事項` in the expected order; `none` was absent from the audience dropdown
 - Runtime logs: Vercel runtime logs for Production error/fatal in the last hour returned no logs
 
+## Batch 4F Production Verification - 2026-06-08
+
+- Data commit: `4f0ad8cf993d1082b9d94b43bc45c5a2fb186b58` (`Add foundation program batch 4f`)
+- Deployment: `dpl_AAo2FXWyMmwBhV12tLLJvD7iGUrV`
+- Deployment URL: `https://taiwan-welfare-resource-f0ico8yau-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/freshness-report.json` `200`, `robots.txt` `200`; `index.html` references `app.js?v=20260608-batch4f-search`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 517 records, 92 sources, 92 freshness URLs checked, 0 freshness warnings; reviewed foundation program total is 71
+- Homepage count verification: 21 central public resources, 70 local public resources, and 426 private resources
+- Batch I crawl status: after Batch A-H had already covered the 192 eligible SFAA foundation websites under the current priority rules, Batch I selected 0 additional websites and wrote 0 candidates with 0 errors
+- Added reviewed civil-society program pages: `張榮發慈善基金會個案救助`, `崇華堂急難、低收生活、助學與醫療補助`, `義廷急難救助、低收扶助、醫療補助與清寒獎助學金表單`, `芥菜種會家的扶助兒少安置服務`, and `全成長照、身障評估與急難醫療扶助服務窗口`
+- Enriched reviewed civil-society program page: `萬海急難救助與生活扶助`
+- Candidate-only exclusions retained: 林登山 was an old 2016 page with no current intake evidence; 久鑫 source says service is paused; 富邦家庭照顧者喘息 was a finished 2026/05/15 activity recap; 萬海 2026 讓愛閃耀 was fundraising or organization support rather than a direct resident-facing application route
+- UI refinement: restored a free-text search box, made the "查看資源說明" action use the typed query directly, verified the low-income shortcut opens results, and removed visible literal `none` from audience/category/summary display data
+- Production browser verification: searched `張榮發`, found 2 resources merged into 1 card, opened the related detail, and confirmed the detail contains `申請條件先看`, `補助項目與金額`, and `申請注意事項`
+- Local mobile verification: at 390x844, no horizontal overflow was detected; the hero count blocks and search input remained visible
+- Runtime logs: Vercel Production error/fatal logs for the last hour returned no logs
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
