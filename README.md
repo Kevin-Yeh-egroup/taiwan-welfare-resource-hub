@@ -7,7 +7,7 @@
 - Public GitHub repo: https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub
 - Vercel Production: https://taiwan-welfare-resource-hub.vercel.app/
 - Review-stage `noindex` 保留中：HTML meta robots、`robots.txt`、Vercel `X-Robots-Tag` 都會阻擋搜尋引擎索引。
-- Current dataset: 517 resource records from 92 allowlisted sources.
+- Current dataset: 523 resource records from 98 allowlisted sources.
 - Foundation coverage: 355 official SFAA national social-welfare foundation records queried on 2026-06-03.
 - Reviewed foundation program cards: 71 manually allowlisted program/service pages converted from candidate crawls.
 - Batch 0/1 central expansion: 9 high-demand nationwide cards for national pension premium subsidy, special-circumstances families, disability welfare, childcare, elder welfare, education tuition reduction, labor subsidy, 115 rent subsidy, and 113 protection hotline.
@@ -21,6 +21,7 @@
 - Batch 4D foundation deep crawl: 12 reviewed civil-society program cards for Chinese Culture child/elder care, hearing life-reconstruction/family support, Pearl S. Buck new immigrant family services, Yude elder/LTC transport, Sunshine burn/facial-difference reconstruction, Oldyes community/home care, Syin-Lu early intervention/disability care, and Children Are Us care services.
 - Batch 4E foundation deep crawl: 7 reviewed civil-society program cards for Mercyland cancer-family assistance and scholarships, Sin Te adult disability residential/aging support, Taiwan Blind Institute life reconstruction, YCSWF adult day care, and Huashan three-loss elder home-based services.
 - Batch 4F foundation review: 5 additional civil-society cards for Chang Yung-Fa case assistance, Chung Hua Tang emergency/low-income/student/medical aid, Eting application forms, Mustard Seed child placement support, and Chuan Cheng long-term/disability service windows; the existing Wan Hai emergency assistance card was also enriched with conditions, benefit items, documents, and 2025/08/01 online-application notes.
+- V2 Batch 5A local deep-dive: 6 official city program cards for Taipei/New Taipei disability living allowances and Taipei/New Taipei/Taoyuan/Tainan middle-low-income elderly living allowances, each with resident-facing eligibility, benefit amounts, documents, and application notes.
 
 ## Local Preview
 

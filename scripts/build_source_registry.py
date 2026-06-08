@@ -1850,6 +1850,236 @@ LOCAL_PROGRAM_SOURCES_BATCH_3C = [
 ]
 
 
+LOCAL_PROGRAM_SOURCES_V2_BATCH_5A = [
+    {
+        "id": "taipei-disability-living-allowance-115",
+        "name": "臺北市身心障礙者生活補助",
+        "url": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08",
+        "organization": "臺北市政府社會局",
+        "jurisdiction": "臺北市",
+        "sourceType": "official-local-application",
+        "tags": ["地方政府", "臺北市", "身心障礙者", "生活補助", "115年度", "經濟弱勢"],
+        "record": {
+            "summary": "臺北市身心障礙者生活補助，依低收入戶、中低收入戶或一般資格，以及障礙程度按月核發。",
+            "audiences": ["身心障礙者", "低收入戶", "中低收入戶", "經濟困難家庭"],
+            "serviceCategories": ["公部門地方資源", "身心障礙福利", "生活補助", "經濟弱勢"],
+            "needTags": ["臺北身障生活補助", "身心障礙生活補助", "身障生活補助", "身心障礙補助", "低收入戶身障", "中低收入戶身障", "每月補助"],
+            "eligibility": "設籍並實際居住臺北市，最近一年居住國內超過183日，領有臺北市核發或註記之身心障礙證明，且未經政府公費收容安置；115年度家庭總收入平均每人每月未超過39,960元，動產與不動產也需符合臺北市標準。",
+            "conditionSourceNote": "臺北市政府社會局頁面列明115年度收入、動產與不動產審核標準。",
+            "applicationConditions": [
+                {
+                    "label": "戶籍、居住與身障證明",
+                    "requirement": "需設籍並實際居住臺北市，最近一年居住國內超過183日，並領有臺北市核發或註記之身心障礙證明。",
+                    "note": "已經政府公費收容安置者不符合。",
+                    "sourceDate": "資料更新114-12-31；資料檢視115-06-02",
+                    "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08",
+                },
+                {
+                    "label": "115年度收入與財產標準",
+                    "requirement": "家庭總收入平均每人每月未超過39,960元；動產單一人口家庭200萬元，每增加一口增加25萬元；土地及房屋價值合計不超過992萬元。",
+                    "note": "家庭應計人口範圍依身心障礙者生活補助費發給辦法及社會救助法規定。",
+                    "sourceDate": "115年度",
+                    "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08",
+                },
+            ],
+            "benefitSourceNote": "臺北市政府社會局頁面列明不同身分與障礙程度的每月補助金額。",
+            "benefitItems": [
+                {"label": "低收入戶極重度、重度、中度", "amount": "9,485元", "unit": "每人每月", "note": "低收入戶輕度為5,437元。", "sourceDate": "115年度", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08"},
+                {"label": "中低收入戶極重度、重度、中度", "amount": "5,437元", "unit": "每人每月", "note": "中低收入戶輕度為4,049元。", "sourceDate": "115年度", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08"},
+                {"label": "非列冊低收或中低收之極重度、重度、中度", "amount": "5,437元", "unit": "每人每月", "note": "輕度為4,049元。", "sourceDate": "115年度", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08"},
+            ],
+            "applicationMethodSourceNote": "臺北市頁面提供申請說明、應備文件與洽辦資訊；已列冊低收入戶或中低收入戶者由社會局主動核發，毋須另行申請。",
+            "howToApply": ["已列冊低收入戶或中低收入戶者，社會局會主動核發。", "非列冊者可依頁面申請說明備妥資料，洽臺北市社會局或區公所窗口。", "若同時可能符合其他生活津貼，先詢問承辦窗口避免重複領取問題。"],
+            "documents": ["申請書", "身心障礙證明", "身分及戶籍資料", "收入與財產相關資料", "存摺封面", "承辦窗口要求文件"],
+            "contact": {"website": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08"},
+            "freshness": {"lastChecked": dt.date.today().isoformat(), "sourceUpdatedAt": "114-12-31", "confidence": "source-dated", "notes": "Official Taipei social welfare page; page inspected by source on 115-06-02."},
+        },
+    },
+    {
+        "id": "new-taipei-disability-living-allowance-115",
+        "name": "新北市身心障礙者生活補助",
+        "url": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049",
+        "organization": "新北市政府社會局",
+        "jurisdiction": "新北市",
+        "sourceType": "official-local-application",
+        "tags": ["地方政府", "新北市", "身心障礙者", "生活補助", "115年度", "線上申辦"],
+        "record": {
+            "summary": "新北市身心障礙者生活補助線上申辦說明，含115年度收入、動產、不動產標準與每月補助金額。",
+            "audiences": ["身心障礙者", "低收入戶", "中低收入戶", "經濟困難家庭"],
+            "serviceCategories": ["公部門地方資源", "身心障礙福利", "生活補助", "線上申辦"],
+            "needTags": ["新北身障生活補助", "身心障礙生活補助", "身障生活補助", "身心障礙補助", "新北線上申辦", "每月補助", "區公所"],
+            "eligibility": "設籍並實際居住新北市，最近一年居住國內超過183日，領有身心障礙證明，且家庭收入、動產、不動產符合115年度標準；年滿65歲以上身心障礙者，頁面提醒基於福利最佳原則先申請中低收入老人生活津貼。",
+            "conditionSourceNote": "新北市線上申辦頁列明115年度所得與財產基準。",
+            "applicationConditions": [
+                {
+                    "label": "115年度收入與財產標準",
+                    "requirement": "家庭總收入平均每人每月未達當年度最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；115年度標準為39,960元。",
+                    "note": "動產第1人200萬元、每增加1人增加25萬元；不動產115年度標準為770萬元。",
+                    "sourceDate": "查核日2026-06-08",
+                    "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049",
+                }
+            ],
+            "benefitSourceNote": "新北市線上申辦頁面列明每月補助金額。",
+            "benefitItems": [
+                {"label": "一般身障中、重、極重度", "amount": "5,437元", "unit": "每人每月", "note": "輕度為4,049元。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"},
+                {"label": "列冊中低收入戶身障中、重、極重度", "amount": "5,437元", "unit": "每人每月", "note": "輕度為4,049元。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"},
+                {"label": "列冊低收入戶身障中、重、極重度", "amount": "9,485元", "unit": "每人每月", "note": "輕度為5,437元。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"},
+            ],
+            "applicationMethodSourceNote": "可由新北市線上申辦頁進入，也可依區公所流程辦理；無須代查財稅30日、需代查財稅44日。",
+            "howToApply": ["可從新北市線上申辦頁進入案件。", "備妥身心障礙證明、存摺、戶籍與收入財產相關資料。", "如已符合其他生活補助或津貼，先確認是否只能擇一領取。"],
+            "documents": ["身心障礙證明", "身分及戶籍資料", "郵局存摺封面", "收入與財產資料", "其他審查所需文件"],
+            "contact": {"website": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"},
+            "freshness": {"lastChecked": dt.date.today().isoformat(), "sourceUpdatedAt": "查核日2026-06-08", "confidence": "checked", "notes": "Official New Taipei online application page."},
+        },
+    },
+    {
+        "id": "taipei-middle-low-income-elderly-allowance-115",
+        "name": "臺北市中低收入老人生活津貼",
+        "url": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F",
+        "organization": "臺北市政府社會局",
+        "jurisdiction": "臺北市",
+        "sourceType": "official-local-application",
+        "tags": ["地方政府", "臺北市", "老人", "中低收入老人", "生活津貼", "115年度"],
+        "record": {
+            "summary": "臺北市中低收入老人生活津貼，65歲以上符合收入與財產標準者，依家庭總收入級距按月核發。",
+            "audiences": ["老人", "中低收入戶", "低收入戶", "經濟困難家庭"],
+            "serviceCategories": ["公部門地方資源", "老人福利", "生活津貼", "經濟弱勢"],
+            "needTags": ["臺北中低收入老人", "老人生活津貼", "65歲補助", "長者補助", "每月津貼"],
+            "eligibility": "設籍並實際居住臺北市、最近一年居住國內超過183日、年滿65歲，且未接受政府公費收容安置、未入獄服刑或羈押拘禁；115年度家庭收入、動產與不動產需符合臺北市標準。",
+            "conditionSourceNote": "臺北市政府社會局頁面列明115年度收入、動產及不動產標準。",
+            "applicationConditions": [
+                {
+                    "label": "115年度中低收入老人標準",
+                    "requirement": "年滿65歲，家庭總收入平均每人每月需在39,960元以下；動產單一人口家庭250萬元，每增加一口增加25萬元；土地及房屋價值合計不超過992萬元。",
+                    "note": "家庭應計人口範圍依中低收入老人生活津貼發給辦法及社會救助法相關規定。",
+                    "sourceDate": "115年度",
+                    "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F",
+                }
+            ],
+            "benefitSourceNote": "臺北市政府社會局頁面列明115年度每月核發金額。",
+            "benefitItems": [
+                {"label": "家庭總收入平均每人每月29,635元以下", "amount": "8,329元", "unit": "每人每月", "note": "依審查結果核定。", "sourceDate": "115年度", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F"},
+                {"label": "家庭總收入平均每人每月超過29,635元至39,960元以下", "amount": "4,164元", "unit": "每人每月", "note": "依審查結果核定。", "sourceDate": "115年度", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F"},
+                {"label": "符合資格且同時領有榮民就養給付", "amount": "2,290元", "unit": "每人每月", "note": "限115年度臺北市頁面列明情形。", "sourceDate": "115年度", "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F"},
+            ],
+            "applicationMethodSourceNote": "臺北市頁面提供申請說明、應備文件與洽辦資訊；可向區公所或社會局承辦窗口確認。",
+            "howToApply": ["向戶籍所在地區公所或臺北市社會局指定窗口提出。", "準備身分、戶籍、收入財產與帳戶資料。", "審查通過後依核定月份按月撥入帳戶。"],
+            "documents": ["申請書", "身分及戶籍資料", "郵局或金融機構存摺封面", "收入與財產相關資料", "租賃、服役、服刑、學生或其他必要證明"],
+            "contact": {"website": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F"},
+            "freshness": {"lastChecked": dt.date.today().isoformat(), "sourceUpdatedAt": "115年度", "confidence": "source-dated", "notes": "Official Taipei social welfare page with 115 annual values."},
+        },
+    },
+    {
+        "id": "new-taipei-middle-low-income-elderly-allowance-115",
+        "name": "新北市中低收入老人生活津貼",
+        "url": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110027",
+        "organization": "新北市政府社會局",
+        "jurisdiction": "新北市",
+        "sourceType": "official-local-application",
+        "tags": ["地方政府", "新北市", "老人", "中低收入老人", "生活津貼", "115年度", "線上申辦"],
+        "record": {
+            "summary": "新北市中低收入老人生活津貼線上申辦說明，含115年度所得、動產、不動產標準、應備文件與處理期限。",
+            "audiences": ["老人", "中低收入戶", "低收入戶", "經濟困難家庭"],
+            "serviceCategories": ["公部門地方資源", "老人福利", "生活津貼", "線上申辦"],
+            "needTags": ["新北中低收入老人", "老人生活津貼", "65歲補助", "每月津貼", "區公所"],
+            "eligibility": "年滿65歲，設籍並實際居住新北市，最近一年居住國內超過183日，且家庭收入、動產、不動產符合115年度標準；未接受政府公費收容安置、未入獄服刑或羈押拘禁。",
+            "conditionSourceNote": "新北市線上申辦頁面列明115年度收入與財產基準。",
+            "applicationConditions": [
+                {
+                    "label": "115年度收入與財產標準",
+                    "requirement": "家庭總收入平均每人每月未超過新北市115年度最低生活費17,750元的1.5倍，即26,625元，且未超過臺灣地區平均消費支出1.5倍39,960元。",
+                    "note": "動產單一申請人250萬元、每增加1人增加25萬元；土地或房屋價值115年度為708萬元。",
+                    "sourceDate": "查核日2026-06-08",
+                    "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110027",
+                }
+            ],
+            "benefitSourceNote": "新北市線上申辦頁面列明每月津貼金額。",
+            "benefitItems": [
+                {"label": "家庭總收入平均每人每月26,625元以下", "amount": "8,329元", "unit": "每人每月", "note": "符合中低收入老人審核標準者核發。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110027"},
+                {"label": "家庭總收入平均每人每月超過26,625元至39,960元以下", "amount": "4,164元", "unit": "每人每月", "note": "符合中低收入老人審核標準者核發。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110027"},
+            ],
+            "applicationMethodSourceNote": "申請人向新北市各區公所提出，由戶籍所在地區公所審查及核定；處理期限44天。",
+            "howToApply": ["向戶籍所在地區公所提出申請。", "備妥老人生活津貼調查表、郵局存摺封面與必要證明。", "區公所審查核定，符合者自齊備證件當月份起發給生活津貼。"],
+            "documents": ["老人生活津貼調查表", "申請人郵局存簿封面影本", "申請人身分證正本", "申請人印章", "委託書及受託人身分證影本（委託辦理時）", "租賃契約、服刑或服役證明等其他審查文件"],
+            "contact": {"website": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110027"},
+            "freshness": {"lastChecked": dt.date.today().isoformat(), "sourceUpdatedAt": "查核日2026-06-08", "confidence": "checked", "notes": "Official New Taipei online application page."},
+        },
+    },
+    {
+        "id": "taoyuan-middle-low-income-elderly-allowance-115",
+        "name": "桃園市中低收入老人生活津貼",
+        "url": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description",
+        "organization": "桃園市政府社會局",
+        "jurisdiction": "桃園市",
+        "sourceType": "official-local-application",
+        "tags": ["地方政府", "桃園市", "老人", "中低收入老人", "生活津貼", "115年度"],
+        "record": {
+            "summary": "桃園市中低收入老人生活津貼，65歲以上且符合115年度所得、動產與不動產標準者，可向戶籍所在地區公所社會課申請。",
+            "audiences": ["老人", "中低收入戶", "低收入戶", "經濟困難家庭"],
+            "serviceCategories": ["公部門地方資源", "老人福利", "生活津貼", "經濟弱勢"],
+            "needTags": ["桃園中低收入老人", "老人生活津貼", "65歲補助", "區公所", "每月津貼"],
+            "eligibility": "年滿65歲且確實居住在戶籍所在地，未領取其他生活津貼；115年度全家平均所得需符合25,779元或39,960元級距，動產與不動產也需符合桃園市標準。",
+            "conditionSourceNote": "桃園市政府常見問題頁列明115年度審核標準；桃園網路e指通頁面補充申請方式、文件與津貼金額。",
+            "applicationConditions": [
+                {
+                    "label": "115年度收入與財產標準",
+                    "requirement": "全家每人每月平均所得不得超過1.5倍或2.5倍，且不得超過平均每人每月消費支出1.5倍；115年度審核標準為25,779元或39,960元。",
+                    "note": "不動產全家應計人口土地及房屋合計770萬元以內；動產單一人口250萬元，每增加一人增加25萬元。",
+                    "sourceDate": "115-03-13",
+                    "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552905",
+                }
+            ],
+            "benefitSourceNote": "桃園網路e指通申辦說明列明每月津貼金額；115年度收入標準另以市府常見問題頁確認。",
+            "benefitItems": [
+                {"label": "全戶平均所得低於最低生活費1.5倍且未超過消費支出1.5倍", "amount": "8,329元", "unit": "每人每月", "note": "依區公所審查結果核定。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description"},
+                {"label": "全戶平均所得低於最低生活費2.5倍且未超過消費支出1.5倍", "amount": "4,164元", "unit": "每人每月", "note": "依區公所審查結果核定。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description"},
+            ],
+            "applicationMethodSourceNote": "桃園網路e指通列明臨櫃向戶籍所在地各區公所社會課申請，處理期限30日。",
+            "howToApply": ["向戶籍所在地各區公所社會課臨櫃申請。", "準備中低收入老人生活津貼申請調查表、戶籍資料、郵局存簿封面與必要證明。", "如委託他人辦理，需填寫委託書並檢附受託人身分證明文件。"],
+            "documents": ["中低收入老人生活津貼申請調查表", "全家人口最近3個月戶籍謄本或可代查資料", "申請人郵局存簿封面影本", "身分證明與印章", "所得稅、不動產、身心障礙、學生、退休俸等相關證明文件", "委託書及受託人身分證明文件（委託辦理時）"],
+            "contact": {"phone": "03-3322101分機6402", "website": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description"},
+            "freshness": {"lastChecked": dt.date.today().isoformat(), "sourceUpdatedAt": "115-03-13", "confidence": "source-dated", "notes": "Official Taoyuan FAQ has 115 standards; Taoyuan e-services page supplies application flow and benefit amounts."},
+        },
+    },
+    {
+        "id": "tainan-middle-low-income-elderly-allowance-115",
+        "name": "臺南市中低收入老人生活津貼",
+        "url": "https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297",
+        "organization": "臺南市政府社會局",
+        "jurisdiction": "臺南市",
+        "sourceType": "official-local-application",
+        "tags": ["地方政府", "臺南市", "老人", "中低收入老人", "生活津貼", "115年度"],
+        "record": {
+            "summary": "臺南市中低收入老人生活津貼，65歲以上符合收入與財產標準者，由各區區公所受理並按月撥入老人帳戶。",
+            "audiences": ["老人", "中低收入戶", "低收入戶", "經濟困難家庭"],
+            "serviceCategories": ["公部門地方資源", "老人福利", "生活津貼", "經濟弱勢"],
+            "needTags": ["臺南中低收入老人", "老人生活津貼", "65歲補助", "每月津貼", "區公所"],
+            "eligibility": "年滿65歲、設籍並實際居住臺南市，最近一年居住國內超過183日；家庭總收入、動產、不動產符合臺南市標準，且未接受政府公費收容安置、未入獄服刑或羈押拘禁。",
+            "conditionSourceNote": "臺南市政府社會局頁面列明最低生活費、消費支出、動產與不動產標準。",
+            "applicationConditions": [
+                {
+                    "label": "臺南市收入與財產標準",
+                    "requirement": "家庭總收入平均每人每月未超過臺南市最低生活費15,515元的2.5倍，且未超過臺灣地區平均每人每月消費支出25,726元的1.5倍。",
+                    "note": "動產單一申請人250萬元，每增加一人增加25萬元；土地及房屋價值合計不超過650萬元。",
+                    "sourceDate": "修改時間113-12-31；網站更新114-11-30",
+                    "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297",
+                }
+            ],
+            "benefitSourceNote": "臺南市政府社會局頁面列明每月核發金額。",
+            "benefitItems": [
+                {"label": "未達最低生活費1.5倍且未超過消費支出1.5倍", "amount": "8,329元", "unit": "每人每月", "note": "由區公所逕撥匯至老人帳戶。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297"},
+                {"label": "達最低生活費1.5倍以上，未超過2.5倍且未超過消費支出1.5倍", "amount": "4,164元", "unit": "每人每月", "note": "由區公所逕撥匯至老人帳戶。", "sourceDate": "查核日2026-06-08", "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297"},
+            ],
+            "applicationMethodSourceNote": "洽辦單位為各區區公所；社會局頁面列承辦聯絡電話。",
+            "howToApply": ["向戶籍所在地區公所申請。", "備妥身分證明、戶籍或家庭資料、郵局或農會存摺封面與其他證明文件。", "審查通過後由區公所按月撥入老人帳戶。"],
+            "documents": ["申請人國民身分證影本或戶口名簿影本", "申請人郵局或農會存摺封面影本", "其他證明文件"],
+            "contact": {"phone": "06-2991111分機8353", "website": "https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297"},
+            "freshness": {"lastChecked": dt.date.today().isoformat(), "sourceUpdatedAt": "114-11-30", "confidence": "source-dated", "notes": "Official Tainan social bureau page; content modification time shown as 113-12-31."},
+        },
+    },
+]
+
+
 SOURCE_DOCUMENTS = [
     "C:/Users/Kevin/Downloads/民國114年12月29日，完成社福資源資料庫建置耗時17分鐘。_20251229102216631.pdf",
     "C:/Users/Kevin/Downloads/民國115年1月1日，完成社福資源資料庫建置耗時28分鐘。_20260222123907788.pdf",
@@ -1922,6 +2152,7 @@ def main() -> int:
     sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_BATCH_3A)
     sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_BATCH_3B)
     sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_BATCH_3C)
+    sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_V2_BATCH_5A)
     sources.append({
         "id": "sfaa-social-welfare-foundations",
         "name": "全國性財團法人社會福利基金會查詢",
