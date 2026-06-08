@@ -20,22 +20,27 @@ Batch 5A focuses on local public-sector living allowances that ordinary resident
 | 臺北市 | 臺北市中低收入老人生活津貼 | https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F |
 | 新北市 | 新北市中低收入老人生活津貼 | https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110027 |
 | 桃園市 | 桃園市中低收入老人生活津貼 | https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description |
+
+## Updated Existing Card
+
+| County/city | Resource | Source |
+| --- | --- | --- |
 | 臺南市 | 臺南市中低收入老人生活津貼 | https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297 |
 
 ## Review Notes
 
 - 臺北市 and 新北市 disability allowance pages include 115年度 income or property standards and monthly payment amounts by disability severity and household status.
-- 臺北市, 新北市, 桃園市, and 臺南市 elderly allowance pages include monthly benefit amounts, income thresholds, application location, or documents.
+- 臺北市, 新北市, 桃園市, and 臺南市 elderly allowance pages include monthly benefit amounts, income thresholds, application location, or documents. Tainan was already present from the earlier local batch, so V2 enriched the existing card instead of creating a duplicate.
 - 桃園市 uses the stable e-services URL as the primary freshness URL because the official FAQ page currently triggers a Python 308 redirect loop during automated checks. The 115年度 condition source remains referenced inside the card.
 - Pages that only list a unit homepage, old static table, activity recap, or unclear current intake were not used for this V2 batch.
 
 ## Verification
 
-- `python scripts/build_source_registry.py` wrote 98 sources.
+- `python scripts/build_source_registry.py` wrote 97 sources after de-duplicating the existing Tainan elderly allowance card.
 - `python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json` wrote 452 base records with 0 errors.
-- `python scripts/convert_candidate_programs.py ...` converted 71 reviewed foundation program pages; total records are 523.
-- `python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json --sleep 0.1 --timeout 5 --retries 0 --retry-sleep 0` checked 98 URLs with 0 warnings after one transient retry.
-- `python scripts/validate_data.py` passed with 523 records and 98 sources.
+- `python scripts/convert_candidate_programs.py ...` converted 71 reviewed foundation program pages; total records are 522.
+- `python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json --sleep 0.1 --timeout 5 --retries 0 --retry-sleep 0` checked 97 URLs with 0 warnings after one transient retry.
+- `python scripts/validate_data.py` passed with 522 records and 97 sources.
 - `node scripts/build_static.mjs` passed.
 
 ## Next V2 Batch Candidates
