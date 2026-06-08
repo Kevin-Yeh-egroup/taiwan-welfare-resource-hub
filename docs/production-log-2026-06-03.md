@@ -186,6 +186,23 @@ Disallow: /
 - Local mobile verification: at 390x844, no horizontal overflow was detected; the hero count blocks and search input remained visible
 - Runtime logs: Vercel Production error/fatal logs for the last hour returned no logs
 
+## V2 Batch 5A Production Verification - 2026-06-08
+
+- Commit: `65f6095aa4e5f3860b169544435925cb22e5f54a` (`Add v2 local living allowance batch`)
+- Deployment: `dpl_4PPW1LfKwhSv2XQM1Adp4ncNNGNd`
+- Deployment URL: `https://taiwan-welfare-resource-pi1w6yvja-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/freshness-report.json` `200`; stable URL returns `X-Robots-Tag: noindex, nofollow, noarchive`
+- Noindex verification: HTML meta robots present; review-stage public/noindex posture remains unchanged
+- Data verification: 523 records, 98 sources, 98 freshness URLs checked, 0 freshness warnings; reviewed foundation program total remains 71
+- Homepage count verification: 21 central public resources, 76 local public resources, and 426 private resources
+- Added V2 local public-sector living allowance cards: `臺北市身心障礙者生活補助`, `新北市身心障礙者生活補助`, `臺北市中低收入老人生活津貼`, `新北市中低收入老人生活津貼`, `桃園市中低收入老人生活津貼`, and `臺南市中低收入老人生活津貼`
+- Taiwan wording/search refinement: added `身心障礙生活補助` and `身障生活補助` as search terms so ordinary wording finds the Taipei/New Taipei cards, not only the formal `身心障礙者生活補助` phrasing
+- Local browser verification: homepage showed counts 21 / 76 / 426; searching `中低收入老人` found the added Taipei, New Taipei, Taoyuan, and Tainan elderly cards; searching `身心障礙生活補助` found the Taipei and New Taipei disability cards
+- Production browser verification: searching `身心障礙生活補助` found 3 results including `臺北市身心障礙者生活補助` and `新北市身心障礙者生活補助`; the Taipei card showed `申請條件先看`, `補助項目與金額`, `申請注意事項`, and `9,485元`; visible literal `none` remained absent
+- Runtime logs: Vercel Production error/fatal logs for the last hour returned no logs
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
