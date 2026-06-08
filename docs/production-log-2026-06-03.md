@@ -203,6 +203,23 @@ Disallow: /
 - Production HTTP verification: stable URL serves 522 records, 0 duplicate same-name/provider/jurisdiction records, 1 Tainan elderly allowance card, and all 6 target allowance names are present; noindex response header and HTML meta are present.
 - Runtime logs: Vercel Production error/fatal logs for the last hour returned no logs
 
+## V2 Batch 5B Production Verification - 2026-06-08
+
+- Data commit: `400555000995dc3a6a0d1081ed9f0871b7cab78b` (`Add v2 local living allowance batch 5b`)
+- Deployment: `dpl_FgGXQsFyfdqc9UPQiEh6732sw9kL`
+- Deployment URL: `https://taiwan-welfare-resource-je5ejxb7y-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/freshness-report.json` `200`, `robots.txt` `200`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 529 records, 104 sources, 104 freshness URLs checked, 0 freshness warnings; duplicate same-name/provider/jurisdiction records: 0
+- Homepage count verification: 21 central public resources, 82 local public resources, and 426 private resources
+- Added V2 Batch 5B official local allowance cards: `臺中市身心障礙者生活補助費`, `臺中市中低收入老人生活津貼`, `高雄市中低收入老人生活津貼`, `高雄市身心障礙者生活補助`, `基隆市中低收入老人生活津貼`, `宜蘭縣中低收入老人生活津貼`, and `宜蘭縣身心障礙者生活補助`
+- Source maintenance: updated 桃園市低收入戶/中低收入戶資格 source to the city government FAQ, corrected the 115年度中低收入戶不動產上限 to `705萬元`, updated 桃園市低收入戶生活扶助 to the official amount-adjustment PDF, and replaced slow or broken generic Taoyuan/Chiayi County social-bureau entry URLs with stable official pages.
+- Freshness checker maintenance: added support for self-referential 308 redirects and old-DH TLS fallback for sources already marked as allowing insecure SSL fallback.
+- Production HTTP verification: stable URL serves all 7 Batch 5B target names, 529 records, 0 duplicate same-name/provider/jurisdiction records, and review-stage noindex controls remain active.
+- Runtime logs: Vercel Production error/fatal logs for deployment `dpl_FgGXQsFyfdqc9UPQiEh6732sw9kL` in the last hour returned no logs
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
