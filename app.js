@@ -130,11 +130,39 @@ function queryTerms() {
     .filter(Boolean);
 }
 
+const querySynonyms = [
+  ["台灣", "臺灣"],
+  ["台北", "臺北"],
+  ["台中", "臺中"],
+  ["台南", "臺南"],
+  ["台東", "臺東"],
+  ["低收", "低收入戶"],
+  ["中低收", "中低收入戶"],
+  ["身障", "身心障礙"],
+  ["老人津貼", "老人生活津貼"],
+  ["老人生活補助", "老人生活津貼"],
+  ["老人生活津貼", "中低收入老人生活津貼"],
+  ["公所", "鄉鎮市公所", "區公所"],
+  ["金門連江", "福建省", "金門", "連江"],
+];
+
+function queryTermGroups() {
+  return queryTerms().map((term) => {
+    const variants = new Set([term]);
+    querySynonyms.forEach((group) => {
+      if (group.includes(term)) {
+        group.forEach((variant) => variants.add(variant.toLowerCase()));
+      }
+    });
+    return [...variants];
+  });
+}
+
 function matchesQuery(record) {
-  const terms = queryTerms();
-  if (!terms.length) return true;
+  const termGroups = queryTermGroups();
+  if (!termGroups.length) return true;
   const text = searchableText(record);
-  return terms.every((term) => text.includes(term));
+  return termGroups.every((group) => group.some((term) => text.includes(term)));
 }
 
 function matchesBaseFilters(record) {
@@ -224,7 +252,7 @@ function groupMatches(record) {
 }
 
 function rankRecord(record) {
-  const terms = queryTerms();
+  const terms = queryTermGroups().flat();
   const name = String(record.name || "").toLowerCase();
   const provider = String(record.provider || "").toLowerCase();
   const tags = (record.needTags || []).join(" ").toLowerCase();

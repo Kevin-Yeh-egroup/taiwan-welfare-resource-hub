@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T09:10:17.295Z",
+  "generatedAt": "2026-06-09T00:00:00.000Z",
   "note": "Citizen-facing detail fields merged after source crawl so scheduled rebuilds preserve application conditions, benefit amounts, and application notes.",
   "records": {
     "mohw-low-income": {
@@ -62,15 +62,15 @@
           "label": "先用戶籍地判斷",
           "requirement": "低收入戶與中低收入戶需依戶籍地看當年度門檻，六都、臺灣省、福建省（金門縣、連江縣）標準不同。",
           "note": "完整115年度標準已集中在年度標準卡，避免同一張表在結果頁重複出現。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+          "sourceDate": "115年度公告；查核日2026-06-09",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
         },
         {
           "label": "三項都要符合",
           "requirement": "所得、動產、不動產三項都要看；只符合其中一項，不代表一定通過。",
           "note": "正式結果仍由戶籍地公所或縣市政府依家庭人口與資料審查。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+          "sourceDate": "115年度公告；查核日2026-06-09",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
         },
         {
           "label": "由地方政府審查",
@@ -210,30 +210,30 @@
           "label": "三項都要符合",
           "requirement": "所得、動產、不動產三項都要看；只符合其中一項，不代表一定通過。",
           "note": "正式結果仍由戶籍地公所或縣市政府依家庭人口與資料審查。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+          "sourceDate": "115年度公告；查核日2026-06-09",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
         },
         {
           "label": "六都各有自己的標準",
           "requirement": "戶籍在臺北市、新北市、桃園市、臺中市、臺南市、高雄市，要看該直轄市那一欄。",
           "note": "不要用臺灣省欄位判斷六都資格。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+          "sourceDate": "115年度公告；查核日2026-06-09",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
         },
         {
           "label": "金門、連江看福建省",
           "requirement": "戶籍在金門縣或連江縣，依官方表格的福建省欄位判斷。",
           "note": "福建省欄位的動產限額是以每戶4口內計算，超過4口再加計。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+          "sourceDate": "115年度公告；查核日2026-06-09",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
         }
       ],
       "applicationMethodSourceNote": "這張卡是資格門檻查詢，不是核定結果；實際申請仍需向戶籍地公所或縣市政府送件。",
       "incomeStandardGroups": [
         {
           "label": "115年低收入戶資格審核標準",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html",
+          "sourceDate": "115年度公告；查核日2026-06-09",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html",
           "items": [
             {
               "region": "臺灣省",
@@ -288,8 +288,8 @@
         },
         {
           "label": "115年中低收入戶資格審核標準",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html",
+          "sourceDate": "115年度公告；查核日2026-06-09",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html",
           "items": [
             {
               "region": "臺灣省",
@@ -364,13 +364,13 @@
         ]
       },
       "contact": {
-        "website": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+        "website": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
       },
       "freshness": {
-        "lastChecked": "2026-06-03",
+        "lastChecked": "2026-06-09",
         "sourceUpdatedAt": null,
-        "confidence": "official-entry",
-        "notes": "Official source entry; specific program pages should be checked from the linked source."
+        "confidence": "source-dated",
+        "notes": "115年度臺灣省及福建省低收入戶與中低收入戶標準已查核；六都仍依各直轄市標準欄位與地方政府公告審查。"
       },
       "benefitSourceNote": "這張卡是115年度資格審核標準，不是單一補助金額；實際生活扶助、健保費、租金、國民年金等補助金額，要再看對應資源卡與地方政府核定。",
       "benefitItems": [
@@ -379,8 +379,8 @@
           "amount": "無固定金額",
           "unit": "",
           "note": "本卡用來判斷可能是否符合低收入戶或中低收入戶資格；通過後可銜接生活扶助、醫療、健保費、租金或其他弱勢補助。",
-          "sourceDate": "114-10-15",
-          "sourceUrl": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+          "sourceDate": "115年度公告；查核日2026-06-09",
+          "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
         },
         {
           "label": "低收入戶／中低收入戶相關補助",

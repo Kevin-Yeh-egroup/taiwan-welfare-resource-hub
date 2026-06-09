@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08",
+  "generatedAt": "2026-06-09",
   "note": "Official-source registry for Taiwan welfare resource coverage. Raw Kevin-provided source documents were not available locally during generation.",
   "sourceDocuments": [
     {
@@ -87,7 +87,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -147,7 +147,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -201,7 +201,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -266,7 +266,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -323,7 +323,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -379,7 +379,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -432,7 +432,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -450,7 +450,7 @@
     {
       "id": "mohw-low-income-115-standards",
       "name": "115年度低收入戶、中低收入戶資格審核標準",
-      "url": "https://dep.mohw.gov.tw/dosaasw/fp-566-84223-103.html",
+      "url": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html",
       "organization": "衛生福利部社會救助及社工司",
       "jurisdiction": "全國",
       "sourceType": "official-annual-standard",
@@ -460,7 +460,12 @@
         "中低收入戶",
         "115年度",
         "資格標準",
-        "社會救助"
+        "社會救助",
+        "臺灣省",
+        "台灣省",
+        "福建省",
+        "金門",
+        "連江"
       ],
       "record": {
         "summary": "115年度低收入戶與中低收入戶資格審核標準，含各地區每人每月平均所得、動產與不動產限額。",
@@ -477,11 +482,17 @@
         ],
         "needTags": [
           "115年低收標準",
+          "115年中低收標準",
           "低收入戶資格",
           "中低收入戶資格",
           "所得標準",
           "財產標準",
-          "社會救助"
+          "社會救助",
+          "臺灣省標準",
+          "台灣省標準",
+          "福建省標準",
+          "金門低收",
+          "連江低收"
         ],
         "eligibility": "需同時看家庭總收入、動產、不動產及地方政府資格審查。115年度低收入戶每人每月所得標準例：臺北市2萬744元、新北市1萬7,750元、桃園市1萬7,186元、臺中市1萬6,431元、臺南市1萬5,515元、高雄市1萬6,970元；中低收入戶標準例：臺北市2萬9,635元、新北市2萬6,625元、臺中市2萬4,647元、臺南市2萬3,273元。",
         "howToApply": [
@@ -499,7 +510,7 @@
           "地方政府要求文件"
         ],
         "contact": {
-          "website": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"
+          "website": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
         },
         "id": "mohw-low-income-115-standards",
         "name": "115年度低收入戶、中低收入戶資格審核標準",
@@ -507,7 +518,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -576,7 +587,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -650,7 +661,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -723,7 +734,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -783,7 +794,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -844,7 +855,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -902,7 +913,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -960,7 +971,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -1017,7 +1028,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -1078,7 +1089,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -1137,7 +1148,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -1196,7 +1207,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -1261,7 +1272,7 @@
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -1354,7 +1365,7 @@
           "website": "https://www.gov.taipei/News_Content.aspx?n=D0042A87C2F0270A&s=22C0CE414323E107&sms=78D644F2755ACCAA"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Taipei 115 annual program announcement."
@@ -1447,7 +1458,7 @@
           "website": "https://dosw.gov.taipei/cp.aspx?n=0BF751F1B9F07AA1"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-03-31",
           "confidence": "source-dated",
           "notes": "Official Taipei social welfare page checked."
@@ -1556,7 +1567,7 @@
           "website": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110017"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "checked",
           "notes": "Official New Taipei online application page."
@@ -1671,7 +1682,7 @@
           "website": "https://www.planning.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=9f2f505e1fe1dd6c351b9a407d804389&id=f57762b740db24e7"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2026-02-24",
           "confidence": "source-dated",
           "notes": "Official New Taipei 115 annual program announcement."
@@ -1775,7 +1786,7 @@
           "website": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-04-16",
           "confidence": "source-dated",
           "notes": "Official Taoyuan City Government FAQ for 115 annual qualification standards."
@@ -1892,7 +1903,7 @@
           "website": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "113-01-01",
           "confidence": "source-dated",
           "notes": "Official Taoyuan City Government PDF for living assistance amount adjustment."
@@ -1991,7 +2002,7 @@
           "website": "https://www.society.taichung.gov.tw/3101150/post"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2026-05-04",
           "confidence": "source-dated",
           "notes": "Official Taichung 115 annual standard announcement."
@@ -2118,7 +2129,7 @@
           "website": "https://www.society.taichung.gov.tw/media/1333656/%E8%87%BA%E4%B8%AD%E5%B8%82%E4%BD%8E%E6%94%B6%E5%85%A5%E6%88%B6%E7%A6%8F%E5%88%A9%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "114-11-07",
           "confidence": "source-dated",
           "notes": "Official Taichung low-income benefit table PDF."
@@ -2234,7 +2245,7 @@
           "website": "https://sab.tainan.gov.tw/News_Content.aspx?n=21390&s=4378483"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "checked",
           "notes": "Official Tainan social bureau assistance page."
@@ -2351,7 +2362,7 @@
           "website": "https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-02-10",
           "confidence": "source-dated",
           "notes": "Official Tainan elderly welfare page."
@@ -2452,7 +2463,7 @@
           "website": "https://older.kcg.gov.tw/cp.aspx?Create=1&n=EDF792DF41A20EC2"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-04-09",
           "confidence": "source-dated",
           "notes": "Official Kaohsiung 115 updated welfare page."
@@ -2554,7 +2565,7 @@
           "website": "https://health.kcg.gov.tw/Content_List.aspx?n=1E202D17FB6C53C6"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Kaohsiung Health Bureau 115 medical assistance page."
@@ -2653,7 +2664,7 @@
           "website": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Keelung application page."
@@ -2754,7 +2765,7 @@
           "website": "https://www.klcg.gov.tw/tw/financial/2798-113116.html"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "checked",
           "notes": "Official Keelung disability subsidy page."
@@ -2849,7 +2860,7 @@
           "website": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Hsinchu City social affairs page."
@@ -2942,7 +2953,7 @@
           "website": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Hsinchu City Health Bureau 115 medical assistance page."
@@ -3036,7 +3047,7 @@
           "website": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Hsinchu County 115 computer equipment subsidy."
@@ -3145,7 +3156,7 @@
           "website": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "checked",
           "notes": "Official Hsinchu County employment incentive page."
@@ -3248,7 +3259,7 @@
           "website": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=919810"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-01-01",
           "confidence": "source-dated",
           "notes": "Official Miaoli County 115 program announcement."
@@ -3366,7 +3377,7 @@
           "website": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-03",
           "confidence": "source-dated",
           "notes": "Official Miaoli social affairs page checked."
@@ -3459,7 +3470,7 @@
           "website": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Changhua social affairs 115 assistance page."
@@ -3562,7 +3573,7 @@
           "website": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-01-01",
           "confidence": "source-dated",
           "notes": "Official Changhua Health Bureau 115 long-term care transportation PDF."
@@ -3681,7 +3692,7 @@
           "website": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Nantou 115 social assistance handbook."
@@ -3784,7 +3795,7 @@
           "website": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Yunlin 115 low/middle-low income application page."
@@ -3919,7 +3930,7 @@
           "website": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2026-01-01",
           "confidence": "source-dated",
           "notes": "Official Chiayi City 115 low-income assistance page."
@@ -4037,7 +4048,7 @@
           "website": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "checked",
           "notes": "Official Chiayi City medical assistance page checked 2026-06-05."
@@ -4173,7 +4184,7 @@
           "website": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-04",
           "confidence": "source-dated",
           "notes": "Official Chiayi County low-income assistance page."
@@ -4267,7 +4278,7 @@
           "website": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-04",
           "confidence": "source-dated",
           "notes": "Official Chiayi County emergency assistance page."
@@ -4403,7 +4414,7 @@
           "website": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-04",
           "confidence": "source-dated",
           "notes": "Official Pingtung 115 social assistance page."
@@ -4498,7 +4509,7 @@
           "website": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-04",
           "confidence": "source-dated",
           "notes": "Official Pingtung employment transportation subsidy page."
@@ -4634,7 +4645,7 @@
           "website": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-05",
           "confidence": "source-dated",
           "notes": "Official Yilan City low/middle-low income page under Yilan County."
@@ -4747,7 +4758,7 @@
           "website": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-02-05",
           "confidence": "source-dated",
           "notes": "Official Yilan County long-term care transportation page."
@@ -4883,7 +4894,7 @@
           "website": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2026-01-01",
           "confidence": "source-dated",
           "notes": "Official Hualien low/middle-low income assistance page."
@@ -5009,7 +5020,7 @@
           "website": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "checked",
           "notes": "Official Hualien emergency assistance page checked 2026-06-05."
@@ -5123,7 +5134,7 @@
           "website": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2026-04-01",
           "confidence": "source-dated",
           "notes": "Official Taitung 115 learning equipment subsidy page."
@@ -5243,7 +5254,7 @@
           "website": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2026-05-14",
           "confidence": "source-dated",
           "notes": "Official Taitung medical assistance page."
@@ -5372,7 +5383,7 @@
           "website": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260005&id=234"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2024-04-26",
           "confidence": "source-dated",
           "notes": "Official Penghu low/middle-low income operation guideline; annual thresholds and benefit amount linked to MOHW tables."
@@ -5468,7 +5479,7 @@
           "website": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260001&id=114"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2024-02-27",
           "confidence": "source-dated",
           "notes": "Official Penghu emergency assistance page."
@@ -5583,7 +5594,7 @@
           "website": "https://www.penghu.gov.tw/Society/home.jsp?act=view&dataserno=201203020028&id=147"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2026-03-16",
           "confidence": "source-dated",
           "notes": "Official Penghu 115 after-school care program."
@@ -5711,7 +5722,7 @@
           "website": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=7A1D5BD79C00DCCC"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-02-04",
           "confidence": "source-dated",
           "notes": "Official Kinmen 115 low-income assistance page."
@@ -5831,7 +5842,7 @@
           "website": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=FCE747C0D3337E3F"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "111-03-14",
           "confidence": "source-dated",
           "notes": "Official Kinmen emergency assistance page."
@@ -5956,7 +5967,7 @@
           "website": "https://social.kinmen.gov.tw/Content_List.aspx?n=81A09B86DAF7E6C5"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-02",
           "confidence": "source-dated",
           "notes": "Official Kinmen pre-registration new immigrant social assistance page."
@@ -6086,7 +6097,7 @@
           "website": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000391&kw="
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "114-01-14",
           "confidence": "source-dated",
           "notes": "Official Lienchiang low/middle-low income operation guideline plus MOHW 115 standards and benefit table."
@@ -6206,7 +6217,7 @@
           "website": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000064"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "113-07-12",
           "confidence": "source-dated",
           "notes": "Official Lienchiang emergency assistance ordinance."
@@ -6348,7 +6359,7 @@
           "website": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000399"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "98-03-18",
           "confidence": "source-dated",
           "notes": "Official Lienchiang child and youth medical assistance regulation in the county law database."
@@ -6469,7 +6480,7 @@
           "website": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "114-12-31",
           "confidence": "source-dated",
           "notes": "Official Taipei social welfare page; page inspected by source on 115-06-02."
@@ -6582,7 +6593,7 @@
           "website": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "查核日2026-06-08",
           "confidence": "checked",
           "notes": "Official New Taipei online application page."
@@ -6693,7 +6704,7 @@
           "website": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度",
           "confidence": "source-dated",
           "notes": "Official Taipei social welfare page with 115 annual values."
@@ -6798,7 +6809,7 @@
           "website": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110027"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "查核日2026-06-08",
           "confidence": "checked",
           "notes": "Official New Taipei online application page."
@@ -6903,7 +6914,7 @@
           "website": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-03-13",
           "confidence": "source-dated",
           "notes": "Official Taoyuan FAQ has 115 standards; Taoyuan e-services page supplies application flow and benefit amounts."
@@ -7024,7 +7035,7 @@
           "website": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2025-09-30；網站更新115-06-04",
           "confidence": "source-dated",
           "notes": "Official Taichung disability living allowance page."
@@ -7129,7 +7140,7 @@
           "website": "https://www.society.taichung.gov.tw/461548/post"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2025-02-04；網站更新115-06-04",
           "confidence": "source-dated",
           "notes": "Official Taichung middle-low-income elderly allowance page."
@@ -7234,7 +7245,7 @@
           "website": "https://older.kcg.gov.tw/cp.aspx?n=3DDD5FAEE88FB982"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-05-29",
           "confidence": "source-dated",
           "notes": "Official Kaohsiung elderly allowance page."
@@ -7339,7 +7350,7 @@
           "website": "https://hsingsin.kcg.gov.tw/cp.aspx?n=1223BAF7068622E7"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-01",
           "confidence": "source-dated",
           "notes": "Official Kaohsiung district application page with current standards; amount cross-checked from an official Kaohsiung district page."
@@ -7445,7 +7456,7 @@
           "website": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2024-05-09",
           "confidence": "source-dated",
           "notes": "Official Keelung elderly allowance page."
@@ -7551,7 +7562,7 @@
           "website": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372388&sms=16134"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-05-29",
           "confidence": "source-dated",
           "notes": "Official Yilan City office social affairs page for county elderly allowance handling."
@@ -7657,7 +7668,7 @@
           "website": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372385&sms=16134"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-06-05",
           "confidence": "source-dated",
           "notes": "Official Yilan City office page for county disability living allowance handling."
@@ -7778,7 +7789,7 @@
           "website": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201603290060&id=127&mcustomize=onemessages_view.jsp&mserno=201603090030&parentpath=0%2C3%2C26&t=SocietyOnes&toolsflag=Y"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-01-08",
           "confidence": "source-dated",
           "notes": "Official Hsinchu City disability living allowance application page."
@@ -7890,7 +7901,7 @@
           "website": "https://society.hccg.gov.tw/ch/hotkey_print.jsp?contentid=119&contentlink=ap%2Fonemessages_view.jsp&dataserno=201603290031&id=119&mclassno=null&mserno=201603090025&mtitle=%E7%B6%93%E6%BF%9F%E8%A3%9C%E5%8A%A9&page=null"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115-04-01",
           "confidence": "source-dated",
           "notes": "Official Hsinchu City middle-low-income elderly allowance page."
@@ -7993,7 +8004,7 @@
           "website": "https://social.hsinchu.gov.tw/"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度施政報告",
           "confidence": "official-report",
           "notes": "Official Hsinchu County administration report confirms the program and monthly amounts; application details require township office confirmation."
@@ -8096,7 +8107,7 @@
           "website": "https://social.hsinchu.gov.tw/News_Content.aspx?n=923&s=90795"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "縣政統計通報",
           "confidence": "official-statistical-brief",
           "notes": "Official Hsinchu County statistical brief confirms the program and amount levels; application details require township office confirmation."
@@ -8207,7 +8218,7 @@
           "website": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=147151"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "申辦須知清單115-03-06",
           "confidence": "source-dated-list",
           "notes": "Official Miaoli County disability living allowance application guide; 115 application-guide list confirms current listing."
@@ -8318,7 +8329,7 @@
           "website": "https://social.chcg.gov.tw/07other/other01_con.aspx?cate_id=5066&data_id=20144&topsn=715"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度頁面",
           "confidence": "source-dated",
           "notes": "Official Changhua County disability living allowance page."
@@ -8430,7 +8441,7 @@
           "website": "https://www.chcg.gov.tw/DTO/social/06service/service01_con.aspx?data_id=25525&topsn=2434"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "2026-05-29",
           "confidence": "source-dated",
           "notes": "Official Changhua County middle-low-income elderly allowance application page."
@@ -8549,7 +8560,7 @@
           "website": "https://welfare.nantou.gov.tw/"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度福利手冊",
           "confidence": "source-dated",
           "notes": "Official Nantou County 115 social assistance welfare handbook."
@@ -8660,7 +8671,7 @@
           "website": "https://www.nantou.gov.tw/"
         },
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": "115年度申辦資料",
           "confidence": "source-dated",
           "notes": "Official Nantou County middle-low-income elderly allowance application PDF."
@@ -8670,6 +8681,1589 @@
         "provider": "南投縣政府社會及勞動局",
         "jurisdiction": "南投縣",
         "county": "南投縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "miaoli-middle-low-income-elderly-allowance-115",
+      "name": "苗栗縣中低收入老人生活津貼",
+      "url": "https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007",
+      "organization": "苗栗縣政府／造橋鄉公所",
+      "jurisdiction": "苗栗縣",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "苗栗縣",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "苗栗縣中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "苗栗縣中低收入老人",
+          "苗栗縣老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住苗栗縣，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住苗栗縣，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "造橋鄉公所頁面115-06-04；查核日2026-06-09",
+            "sourceUrl": "https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入未超過最低生活費2.5倍且未超過平均消費支出1.5倍；動產以每人250萬元、每增加一人加25萬元計，不動產依苗栗縣與年度標準審查。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "造橋鄉公所頁面115-06-04；查核日2026-06-09",
+            "sourceUrl": "https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "造橋鄉公所頁面115-06-04；查核日2026-06-09",
+            "sourceUrl": "https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "造橋鄉公所頁面115-06-04；查核日2026-06-09",
+            "sourceUrl": "https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所提出申請。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所提出申請。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "115-06-04",
+          "confidence": "source-dated",
+          "notes": "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。"
+        },
+        "id": "miaoli-middle-low-income-elderly-allowance-115",
+        "name": "苗栗縣中低收入老人生活津貼",
+        "provider": "苗栗縣政府／造橋鄉公所",
+        "jurisdiction": "苗栗縣",
+        "county": "苗栗縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "pingtung-disability-living-allowance-115",
+      "name": "屏東縣身心障礙者生活補助",
+      "url": "https://www.gov.tw/News_Content_2_781538",
+      "organization": "屏東縣政府／東港鎮公所",
+      "jurisdiction": "屏東縣",
+      "sourceType": "official-online-application-cross-check",
+      "tags": [
+        "地方政府",
+        "屏東縣",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "屏東縣身心障礙者生活補助，協助設籍或實際居住屏東縣、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "屏東縣身障生活補助",
+          "屏東縣身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住屏東縣，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "Gov.tw服務入口可作為屏東縣身心障礙者生活補助申辦入口；115年度金額與經濟標準以中央及地方年度規定交叉查核，送件前仍需向戶籍地公所確認。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合屏東縣設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "MyData/Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_781538"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "MyData/Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_781538"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "MyData/Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_781538"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "MyData/Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_781538"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "MyData/Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_781538"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市區公所提出申請。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市區公所提出申請。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://www.gov.tw/News_Content_2_781538"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "Gov.tw服務入口可作為屏東縣身心障礙者生活補助申辦入口；115年度金額與經濟標準以中央及地方年度規定交叉查核，送件前仍需向戶籍地公所確認。"
+        },
+        "id": "pingtung-disability-living-allowance-115",
+        "name": "屏東縣身心障礙者生活補助",
+        "provider": "屏東縣政府／東港鎮公所",
+        "jurisdiction": "屏東縣",
+        "county": "屏東縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "pingtung-middle-low-income-elderly-allowance-115",
+      "name": "屏東縣中低收入老人生活津貼",
+      "url": "https://www.gov.tw/News_Content_2_863413",
+      "organization": "屏東縣政府",
+      "jurisdiction": "屏東縣",
+      "sourceType": "official-online-application-cross-check",
+      "tags": [
+        "地方政府",
+        "屏東縣",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "屏東縣中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "屏東縣中低收入老人",
+          "屏東縣老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住屏東縣，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "Gov.tw服務入口列出屏東縣中低收入老人生活津貼申辦服務；115年度金額與經濟標準以中央及地方年度規定交叉查核，送件前仍需向戶籍地公所確認。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住屏東縣，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_863413"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_863413"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_863413"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_863413"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市區公所提出申請。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市區公所提出申請。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://www.gov.tw/News_Content_2_863413"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "Gov.tw服務入口列出屏東縣中低收入老人生活津貼申辦服務；115年度金額與經濟標準以中央及地方年度規定交叉查核，送件前仍需向戶籍地公所確認。"
+        },
+        "id": "pingtung-middle-low-income-elderly-allowance-115",
+        "name": "屏東縣中低收入老人生活津貼",
+        "provider": "屏東縣政府",
+        "jurisdiction": "屏東縣",
+        "county": "屏東縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "yunlin-disability-living-allowance-115",
+      "name": "雲林縣身心障礙者生活補助",
+      "url": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100",
+      "organization": "雲林縣政府社會處",
+      "jurisdiction": "雲林縣",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "雲林縣",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "雲林縣身心障礙者生活補助，協助設籍或實際居住雲林縣、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "雲林縣身障生活補助",
+          "雲林縣身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住雲林縣，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "官方地方申辦頁列出身心障礙者生活補助之資格、金額、文件或受理窗口。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合雲林縣設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "頁面更新115-06-08；查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未達38,788元且未超過平均消費支出39,960元；不動產全戶未逾770萬元，動產依戶內人口年度標準審查。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "頁面更新115-06-08；查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "頁面更新115-06-08；查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "頁面更新115-06-08；查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "頁面更新115-06-08；查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所或村里辦公處提出申請。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所或村里辦公處提出申請。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "115-06-08",
+          "confidence": "source-dated",
+          "notes": "官方地方申辦頁列出身心障礙者生活補助之資格、金額、文件或受理窗口。"
+        },
+        "id": "yunlin-disability-living-allowance-115",
+        "name": "雲林縣身心障礙者生活補助",
+        "provider": "雲林縣政府社會處",
+        "jurisdiction": "雲林縣",
+        "county": "雲林縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "yunlin-middle-low-income-elderly-allowance-115",
+      "name": "雲林縣中低收入老人生活津貼",
+      "url": "https://social.yunlin.gov.tw/News_Content.aspx?n=22321&s=519657",
+      "organization": "雲林縣政府社會處",
+      "jurisdiction": "雲林縣",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "雲林縣",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "雲林縣中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "雲林縣中低收入老人",
+          "雲林縣老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住雲林縣，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住雲林縣，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "雲林縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=22321&s=519657"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍且未超過平均消費支出1.5倍；動產與不動產依115年度臺灣省標準及縣府審查辦理。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "雲林縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=22321&s=519657"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "雲林縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=22321&s=519657"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "雲林縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=22321&s=519657"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所提出申請。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所提出申請。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://social.yunlin.gov.tw/News_Content.aspx?n=22321&s=519657"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。"
+        },
+        "id": "yunlin-middle-low-income-elderly-allowance-115",
+        "name": "雲林縣中低收入老人生活津貼",
+        "provider": "雲林縣政府社會處",
+        "jurisdiction": "雲林縣",
+        "county": "雲林縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "chiayi-city-disability-living-allowance-115",
+      "name": "嘉義市身心障礙者生活補助",
+      "url": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314",
+      "organization": "嘉義市政府社會處",
+      "jurisdiction": "嘉義市",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "嘉義市",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "嘉義市身心障礙者生活補助，協助設籍或實際居住嘉義市、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "嘉義市身障生活補助",
+          "嘉義市身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住嘉義市，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "官方地方申辦頁列出身心障礙者生活補助之資格、金額、文件或受理窗口。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合嘉義市設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍38,788元且未超過平均消費支出39,960元；動產與不動產依嘉義市年度標準審查。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地區公所提出申請。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "向戶籍所在地區公所提出申請。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "2026-01-01",
+          "confidence": "source-dated",
+          "notes": "官方地方申辦頁列出身心障礙者生活補助之資格、金額、文件或受理窗口。"
+        },
+        "id": "chiayi-city-disability-living-allowance-115",
+        "name": "嘉義市身心障礙者生活補助",
+        "provider": "嘉義市政府社會處",
+        "jurisdiction": "嘉義市",
+        "county": "嘉義市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "chiayi-city-middle-low-income-elderly-allowance-115",
+      "name": "嘉義市中低收入老人生活津貼",
+      "url": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333",
+      "organization": "嘉義市政府社會處",
+      "jurisdiction": "嘉義市",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "嘉義市",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "嘉義市中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "嘉義市中低收入老人",
+          "嘉義市老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住嘉義市，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住嘉義市，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍38,788元且未超過平均消費支出39,960元；動產與不動產依嘉義市年度標準審查。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "上版日期2026-01-01；查核日2026-06-09",
+            "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地區公所提出申請。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "向戶籍所在地區公所提出申請。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "2026-01-01",
+          "confidence": "source-dated",
+          "notes": "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。"
+        },
+        "id": "chiayi-city-middle-low-income-elderly-allowance-115",
+        "name": "嘉義市中低收入老人生活津貼",
+        "provider": "嘉義市政府社會處",
+        "jurisdiction": "嘉義市",
+        "county": "嘉義市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "chiayi-county-disability-living-allowance-115",
+      "name": "嘉義縣身心障礙者生活補助",
+      "url": "https://www.gov.tw/News_Content_2_834333",
+      "organization": "嘉義縣政府",
+      "jurisdiction": "嘉義縣",
+      "sourceType": "official-online-application-cross-check",
+      "tags": [
+        "地方政府",
+        "嘉義縣",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "嘉義縣身心障礙者生活補助，協助設籍或實際居住嘉義縣、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "嘉義縣身障生活補助",
+          "嘉義縣身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住嘉義縣，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "Gov.tw服務入口可作為嘉義縣身心障礙者生活補助申辦入口，但入口文字可能落後年度金額；115年度補助金額以中央身心障礙生活補助標準交叉查核，送件前需向鄉鎮市公所確認。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合嘉義縣設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_834333"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_834333"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_834333"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_834333"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.gov.tw/News_Content_2_834333"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市區公所提出申請。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市區公所提出申請。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://www.gov.tw/News_Content_2_834333"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "Gov.tw服務入口可作為嘉義縣身心障礙者生活補助申辦入口，但入口文字可能落後年度金額；115年度補助金額以中央身心障礙生活補助標準交叉查核，送件前需向鄉鎮市公所確認。"
+        },
+        "id": "chiayi-county-disability-living-allowance-115",
+        "name": "嘉義縣身心障礙者生活補助",
+        "provider": "嘉義縣政府",
+        "jurisdiction": "嘉義縣",
+        "county": "嘉義縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "chiayi-county-middle-low-income-elderly-allowance-115",
+      "name": "嘉義縣中低收入老人生活津貼",
+      "url": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4",
+      "organization": "嘉義縣政府社會局",
+      "jurisdiction": "嘉義縣",
+      "sourceType": "official-local-entry-cross-check",
+      "tags": [
+        "地方政府",
+        "嘉義縣",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "嘉義縣中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "嘉義縣中低收入老人",
+          "嘉義縣老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住嘉義縣，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "嘉義縣社會局入口可導向社會救助與老人福利窗口；本次未取得穩定詳細頁，115年度老人津貼金額以中央及地方通用標準交叉查核，實際仍需向鄉鎮市公所確認。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住嘉義縣，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "嘉義縣社會局入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "嘉義縣社會局入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "嘉義縣社會局入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "嘉義縣社會局入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市區公所提出申請。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市區公所提出申請。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "嘉義縣社會局入口可導向社會救助與老人福利窗口；本次未取得穩定詳細頁，115年度老人津貼金額以中央及地方通用標準交叉查核，實際仍需向鄉鎮市公所確認。"
+        },
+        "id": "chiayi-county-middle-low-income-elderly-allowance-115",
+        "name": "嘉義縣中低收入老人生活津貼",
+        "provider": "嘉義縣政府社會局",
+        "jurisdiction": "嘉義縣",
+        "county": "嘉義縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "hualien-disability-living-allowance-115",
+      "name": "花蓮縣身心障礙者生活補助",
+      "url": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6",
+      "organization": "花蓮縣政府社會處",
+      "jurisdiction": "花蓮縣",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "花蓮縣",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "花蓮縣身心障礙者生活補助，協助設籍或實際居住花蓮縣、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "花蓮縣身障生活補助",
+          "花蓮縣身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住花蓮縣，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "官方地方申辦頁列出身心障礙者生活補助之資格、金額、文件或受理窗口。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合花蓮縣設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未達38,787元且未超過平均消費支出39,960元；動產與不動產依115年度標準及縣府審查辦理。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所提出申請。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所提出申請。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "官方地方申辦頁列出身心障礙者生活補助之資格、金額、文件或受理窗口。"
+        },
+        "id": "hualien-disability-living-allowance-115",
+        "name": "花蓮縣身心障礙者生活補助",
+        "provider": "花蓮縣政府社會處",
+        "jurisdiction": "花蓮縣",
+        "county": "花蓮縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "hualien-middle-low-income-elderly-allowance-115",
+      "name": "花蓮縣中低收入老人生活津貼",
+      "url": "https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5",
+      "organization": "花蓮縣政府社會處",
+      "jurisdiction": "花蓮縣",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "花蓮縣",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "花蓮縣中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "花蓮縣中低收入老人",
+          "花蓮縣老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住花蓮縣，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住花蓮縣，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍且未超過平均消費支出1.5倍；動產與不動產依花蓮縣及115年度臺灣省標準審查。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "花蓮縣政府社會處頁面查核日2026-06-09",
+            "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市公所提出申請。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市公所提出申請。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。"
+        },
+        "id": "hualien-middle-low-income-elderly-allowance-115",
+        "name": "花蓮縣中低收入老人生活津貼",
+        "provider": "花蓮縣政府社會處",
+        "jurisdiction": "花蓮縣",
+        "county": "花蓮縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "taitung-disability-living-allowance-115",
+      "name": "臺東縣身心障礙者生活補助",
+      "url": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99",
+      "organization": "臺東市公所／臺東縣政府",
+      "jurisdiction": "臺東縣",
+      "sourceType": "official-local-entry-cross-check",
+      "tags": [
+        "地方政府",
+        "臺東縣",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "臺東縣身心障礙者生活補助，協助設籍或實際居住臺東縣、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "臺東縣身障生活補助",
+          "臺東縣身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住臺東縣，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "臺東市公所社會福利業務清單列有身心障礙者生活補助入口；細節頁自動查核不穩，115年度金額以中央身心障礙生活補助標準交叉查核，送件前需向公所或臺東縣政府確認。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合臺東縣設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市區公所提出申請。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市區公所提出申請。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "臺東市公所社會福利業務清單列有身心障礙者生活補助入口；細節頁自動查核不穩，115年度金額以中央身心障礙生活補助標準交叉查核，送件前需向公所或臺東縣政府確認。"
+        },
+        "id": "taitung-disability-living-allowance-115",
+        "name": "臺東縣身心障礙者生活補助",
+        "provider": "臺東市公所／臺東縣政府",
+        "jurisdiction": "臺東縣",
+        "county": "臺東縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "taitung-middle-low-income-elderly-allowance-115",
+      "name": "臺東縣中低收入老人生活津貼",
+      "url": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99",
+      "organization": "臺東市公所／臺東縣政府",
+      "jurisdiction": "臺東縣",
+      "sourceType": "official-local-entry-cross-check",
+      "tags": [
+        "地方政府",
+        "臺東縣",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "臺東縣中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "臺東縣中低收入老人",
+          "臺東縣老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住臺東縣，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "臺東市公所社會福利業務清單列有中低收入老人生活津貼入口；細節頁自動查核不穩，115年度金額以中央及地方通用標準交叉查核，送件前需向公所或臺東縣政府確認。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住臺東縣，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮市區公所提出申請。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮市區公所提出申請。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "臺東市公所社會福利業務清單列有中低收入老人生活津貼入口；細節頁自動查核不穩，115年度金額以中央及地方通用標準交叉查核，送件前需向公所或臺東縣政府確認。"
+        },
+        "id": "taitung-middle-low-income-elderly-allowance-115",
+        "name": "臺東縣中低收入老人生活津貼",
+        "provider": "臺東市公所／臺東縣政府",
+        "jurisdiction": "臺東縣",
+        "county": "臺東縣"
       },
       "format": "static-record",
       "crawl": true,
@@ -8804,7 +10398,7 @@
         "jurisdiction": "臺南市",
         "county": "臺南市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -8857,7 +10451,7 @@
         "jurisdiction": "臺中市",
         "county": "臺中市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -8917,7 +10511,7 @@
         "jurisdiction": "臺北市",
         "county": "臺北市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -8992,7 +10586,7 @@
         "jurisdiction": "基隆市",
         "county": "基隆市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9067,7 +10661,7 @@
         "jurisdiction": "臺北市",
         "county": "臺北市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9142,7 +10736,7 @@
         "jurisdiction": "新北市",
         "county": "新北市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9217,7 +10811,7 @@
         "jurisdiction": "桃園市",
         "county": "桃園市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9292,7 +10886,7 @@
         "jurisdiction": "新竹市",
         "county": "新竹市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9367,7 +10961,7 @@
         "jurisdiction": "新竹縣",
         "county": "新竹縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9442,7 +11036,7 @@
         "jurisdiction": "苗栗縣",
         "county": "苗栗縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9517,7 +11111,7 @@
         "jurisdiction": "臺中市",
         "county": "臺中市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9592,7 +11186,7 @@
         "jurisdiction": "彰化縣",
         "county": "彰化縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9667,7 +11261,7 @@
         "jurisdiction": "南投縣",
         "county": "南投縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9742,7 +11336,7 @@
         "jurisdiction": "雲林縣",
         "county": "雲林縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9817,7 +11411,7 @@
         "jurisdiction": "嘉義市",
         "county": "嘉義市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9892,7 +11486,7 @@
         "jurisdiction": "嘉義縣",
         "county": "嘉義縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -9967,7 +11561,7 @@
         "jurisdiction": "臺南市",
         "county": "臺南市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -10042,7 +11636,7 @@
         "jurisdiction": "高雄市",
         "county": "高雄市",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -10117,7 +11711,7 @@
         "jurisdiction": "屏東縣",
         "county": "屏東縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -10192,7 +11786,7 @@
         "jurisdiction": "宜蘭縣",
         "county": "宜蘭縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -10267,7 +11861,7 @@
         "jurisdiction": "花蓮縣",
         "county": "花蓮縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -10342,7 +11936,7 @@
         "jurisdiction": "臺東縣",
         "county": "臺東縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -10417,7 +12011,7 @@
         "jurisdiction": "澎湖縣",
         "county": "澎湖縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -10492,7 +12086,7 @@
         "jurisdiction": "金門縣",
         "county": "金門縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."
@@ -10567,7 +12161,7 @@
         "jurisdiction": "連江縣",
         "county": "連江縣",
         "freshness": {
-          "lastChecked": "2026-06-08",
+          "lastChecked": "2026-06-09",
           "sourceUpdatedAt": null,
           "confidence": "official-entry",
           "notes": "Official source entry; specific program pages should be checked from the linked source."

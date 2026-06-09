@@ -150,20 +150,20 @@ ECONOMIC_WEAKNESS_SOURCES = [
     {
         "id": "mohw-low-income-115-standards",
         "name": "115年度低收入戶、中低收入戶資格審核標準",
-        "url": "https://dep.mohw.gov.tw/dosaasw/fp-566-84223-103.html",
+        "url": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html",
         "organization": "衛生福利部社會救助及社工司",
         "jurisdiction": "全國",
         "sourceType": "official-annual-standard",
-        "tags": ["中央", "低收入戶", "中低收入戶", "115年度", "資格標準", "社會救助"],
+        "tags": ["中央", "低收入戶", "中低收入戶", "115年度", "資格標準", "社會救助", "臺灣省", "台灣省", "福建省", "金門", "連江"],
         "record": {
             "summary": "115年度低收入戶與中低收入戶資格審核標準，含各地區每人每月平均所得、動產與不動產限額。",
             "audiences": ["低收入戶", "中低收入戶", "經濟困難家庭", "一般民眾"],
             "serviceCategories": ["年度標準", "社會救助", "現金與生活扶助"],
-            "needTags": ["115年低收標準", "低收入戶資格", "中低收入戶資格", "所得標準", "財產標準", "社會救助"],
+            "needTags": ["115年低收標準", "115年中低收標準", "低收入戶資格", "中低收入戶資格", "所得標準", "財產標準", "社會救助", "臺灣省標準", "台灣省標準", "福建省標準", "金門低收", "連江低收"],
             "eligibility": "需同時看家庭總收入、動產、不動產及地方政府資格審查。115年度低收入戶每人每月所得標準例：臺北市2萬744元、新北市1萬7,750元、桃園市1萬7,186元、臺中市1萬6,431元、臺南市1萬5,515元、高雄市1萬6,970元；中低收入戶標準例：臺北市2萬9,635元、新北市2萬6,625元、臺中市2萬4,647元、臺南市2萬3,273元。",
             "howToApply": ["先查看115年度標準是否大致符合", "向戶籍地或實際居住地公所/社會局處提出申請", "由地方政府依戶內人口、收入、動產、不動產及相關規定審查"],
             "documents": ["申請表", "身分證明", "戶籍資料", "收入證明", "存款或投資資料", "不動產資料", "地方政府要求文件"],
-            "contact": {"website": "https://www.mohw.gov.tw/dl-97289-8c213179-3e49-4ea3-ab21-1759306d51d5.html"},
+            "contact": {"website": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"},
         },
     },
     {
@@ -2689,6 +2689,279 @@ LOCAL_PROGRAM_SOURCES_V2_BATCH_5C = [
 ]
 
 
+TODAY_LABEL = "查核日2026-06-09"
+
+
+def allowance_freshness(source_updated_at: str | None, notes: str, confidence: str = "source-dated") -> dict:
+    return {
+        "lastChecked": dt.date.today().isoformat(),
+        "sourceUpdatedAt": source_updated_at,
+        "confidence": confidence,
+        "notes": notes,
+    }
+
+
+def disability_allowance_source(
+    *,
+    source_id: str,
+    county: str,
+    url: str,
+    organization: str,
+    source_date: str,
+    source_updated_at: str | None = None,
+    source_type: str = "official-local-application",
+    source_quality_note: str | None = None,
+    income_requirement: str = "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+    apply_window: str = "向戶籍所在地鄉鎮市區公所提出申請。",
+    contact_phone: str | None = None,
+    confidence: str = "source-dated",
+) -> dict:
+    source_quality_note = source_quality_note or "官方地方申辦頁列出身心障礙者生活補助之資格、金額、文件或受理窗口。"
+    return {
+        "id": source_id,
+        "name": f"{county}身心障礙者生活補助",
+        "url": url,
+        "organization": organization,
+        "jurisdiction": county,
+        "sourceType": source_type,
+        "tags": ["地方政府", county, "身心障礙者", "身障", "生活補助", "115年度", "經濟弱勢"],
+        "record": {
+            "summary": f"{county}身心障礙者生活補助，協助設籍或實際居住{county}、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+            "audiences": ["身心障礙者", "低收入戶", "中低收入戶", "經濟弱勢家庭"],
+            "serviceCategories": ["公部門地方資源", "身心障礙福利", "生活補助", "經濟弱勢"],
+            "needTags": [f"{county}身障生活補助", f"{county}身心障礙者補助", "身障每月補助", "身心障礙生活津貼", "低收入戶身障補助", "中低收入戶身障補助", "鄉鎮市公所", "台灣身障補助", "臺灣身障補助"],
+            "eligibility": f"領有身心障礙證明，設籍或實際居住{county}，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+            "conditionSourceNote": source_quality_note,
+            "applicationConditions": [
+                {
+                    "label": "基本資格",
+                    "requirement": f"申請人須領有身心障礙證明，並符合{county}設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+                    "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+                    "sourceDate": source_date,
+                    "sourceUrl": url,
+                },
+                {
+                    "label": "家庭收入與財產",
+                    "requirement": income_requirement,
+                    "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+                    "sourceDate": source_date,
+                    "sourceUrl": url,
+                },
+            ],
+            "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+            "benefitItems": [
+                {"label": "低收入戶中度以上障礙", "amount": "9,485元", "unit": "每人每月", "note": "低收入戶輕度障礙為5,437元。", "sourceDate": source_date, "sourceUrl": url},
+                {"label": "中低收入戶中度以上障礙", "amount": "5,437元", "unit": "每人每月", "note": "中低收入戶輕度障礙為4,049元。", "sourceDate": source_date, "sourceUrl": url},
+                {"label": "一般符合經濟標準中度以上障礙", "amount": "5,437元", "unit": "每人每月", "note": "一般符合經濟標準輕度障礙為4,049元。", "sourceDate": source_date, "sourceUrl": url},
+            ],
+            "applicationMethodSourceNote": f"{apply_window}送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+            "howToApply": [apply_window, "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。", "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"],
+            "documents": ["身心障礙證明", "身分證明文件", "印章或簽名", "金融帳戶影本", "戶籍與收入財產相關證明", "其他鄉鎮市區公所要求文件"],
+            "contact": {"phone": contact_phone, "website": url},
+            "freshness": allowance_freshness(source_updated_at, source_quality_note, confidence),
+        },
+    }
+
+
+def elderly_allowance_source(
+    *,
+    source_id: str,
+    county: str,
+    url: str,
+    organization: str,
+    source_date: str,
+    source_updated_at: str | None = None,
+    source_type: str = "official-local-application",
+    source_quality_note: str | None = None,
+    income_requirement: str = "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+    apply_window: str = "向戶籍所在地鄉鎮市區公所提出申請。",
+    contact_phone: str | None = None,
+    confidence: str = "source-dated",
+) -> dict:
+    source_quality_note = source_quality_note or "官方地方申辦頁列出中低收入老人生活津貼之資格、金額、文件或受理窗口。"
+    return {
+        "id": source_id,
+        "name": f"{county}中低收入老人生活津貼",
+        "url": url,
+        "organization": organization,
+        "jurisdiction": county,
+        "sourceType": source_type,
+        "tags": ["地方政府", county, "老人福利", "長者", "中低收入老人", "生活津貼", "115年度"],
+        "record": {
+            "summary": f"{county}中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+            "audiences": ["65歲以上長者", "中低收入老人", "經濟弱勢家庭", "照顧者"],
+            "serviceCategories": ["公部門地方資源", "老人福利", "生活津貼", "經濟弱勢"],
+            "needTags": [f"{county}中低收入老人", f"{county}老人生活津貼", "老人生活津貼", "老人津貼", "65歲生活津貼", "長者補助", "老人每月補助", "中低收老人", "鄉鎮市公所", "台灣老人補助", "臺灣老人補助"],
+            "eligibility": f"年滿65歲，設籍或實際居住{county}，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+            "conditionSourceNote": source_quality_note,
+            "applicationConditions": [
+                {
+                    "label": "年齡與居住",
+                    "requirement": f"年滿65歲，設籍或實際居住{county}，最近一年居住國內通常需超過183日。",
+                    "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+                    "sourceDate": source_date,
+                    "sourceUrl": url,
+                },
+                {
+                    "label": "家庭收入與財產",
+                    "requirement": income_requirement,
+                    "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+                    "sourceDate": source_date,
+                    "sourceUrl": url,
+                },
+            ],
+            "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+            "benefitItems": [
+                {"label": "家庭總收入低於最低生活費1.5倍", "amount": "8,329元", "unit": "每人每月", "note": "屬較高額級距。", "sourceDate": source_date, "sourceUrl": url},
+                {"label": "家庭總收入介於最低生活費1.5倍至2.5倍", "amount": "4,164元", "unit": "每人每月", "note": "屬較低額級距。", "sourceDate": source_date, "sourceUrl": url},
+            ],
+            "applicationMethodSourceNote": f"{apply_window}送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+            "howToApply": [apply_window, "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。", "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"],
+            "documents": ["申請書", "身分證明文件", "印章或簽名", "金融帳戶影本", "戶籍與收入財產相關證明", "其他鄉鎮市區公所要求文件"],
+            "contact": {"phone": contact_phone, "website": url},
+            "freshness": allowance_freshness(source_updated_at, source_quality_note, confidence),
+        },
+    }
+
+
+LOCAL_PROGRAM_SOURCES_V2_BATCH_5D = [
+    elderly_allowance_source(
+        source_id="miaoli-middle-low-income-elderly-allowance-115",
+        county="苗栗縣",
+        url="https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007",
+        organization="苗栗縣政府／造橋鄉公所",
+        source_date="造橋鄉公所頁面115-06-04；查核日2026-06-09",
+        source_updated_at="115-06-04",
+        income_requirement="家庭總收入未超過最低生活費2.5倍且未超過平均消費支出1.5倍；動產以每人250萬元、每增加一人加25萬元計，不動產依苗栗縣與年度標準審查。",
+        apply_window="向戶籍所在地鄉鎮市公所提出申請。",
+    ),
+    disability_allowance_source(
+        source_id="pingtung-disability-living-allowance-115",
+        county="屏東縣",
+        url="https://www.gov.tw/News_Content_2_781538",
+        organization="屏東縣政府／東港鎮公所",
+        source_date="MyData/Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+        source_type="official-online-application-cross-check",
+        source_quality_note="Gov.tw服務入口可作為屏東縣身心障礙者生活補助申辦入口；115年度金額與經濟標準以中央及地方年度規定交叉查核，送件前仍需向戶籍地公所確認。",
+        confidence="checked",
+    ),
+    elderly_allowance_source(
+        source_id="pingtung-middle-low-income-elderly-allowance-115",
+        county="屏東縣",
+        url="https://www.gov.tw/News_Content_2_863413",
+        organization="屏東縣政府",
+        source_date="Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+        source_type="official-online-application-cross-check",
+        source_quality_note="Gov.tw服務入口列出屏東縣中低收入老人生活津貼申辦服務；115年度金額與經濟標準以中央及地方年度規定交叉查核，送件前仍需向戶籍地公所確認。",
+        confidence="checked",
+    ),
+]
+
+
+LOCAL_PROGRAM_SOURCES_V2_BATCH_5E = [
+    disability_allowance_source(
+        source_id="yunlin-disability-living-allowance-115",
+        county="雲林縣",
+        url="https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100",
+        organization="雲林縣政府社會處",
+        source_date="頁面更新115-06-08；查核日2026-06-09",
+        source_updated_at="115-06-08",
+        income_requirement="家庭總收入平均每人每月未達38,788元且未超過平均消費支出39,960元；不動產全戶未逾770萬元，動產依戶內人口年度標準審查。",
+        apply_window="向戶籍所在地鄉鎮市公所或村里辦公處提出申請。",
+    ),
+    elderly_allowance_source(
+        source_id="yunlin-middle-low-income-elderly-allowance-115",
+        county="雲林縣",
+        url="https://social.yunlin.gov.tw/News_Content.aspx?n=22321&s=519657",
+        organization="雲林縣政府社會處",
+        source_date="雲林縣政府社會處頁面查核日2026-06-09",
+        income_requirement="家庭總收入平均每人每月未超過最低生活費2.5倍且未超過平均消費支出1.5倍；動產與不動產依115年度臺灣省標準及縣府審查辦理。",
+        apply_window="向戶籍所在地鄉鎮市公所提出申請。",
+        confidence="checked",
+    ),
+    disability_allowance_source(
+        source_id="chiayi-city-disability-living-allowance-115",
+        county="嘉義市",
+        url="https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314",
+        organization="嘉義市政府社會處",
+        source_date="上版日期2026-01-01；查核日2026-06-09",
+        source_updated_at="2026-01-01",
+        income_requirement="家庭總收入平均每人每月未超過最低生活費2.5倍38,788元且未超過平均消費支出39,960元；動產與不動產依嘉義市年度標準審查。",
+        apply_window="向戶籍所在地區公所提出申請。",
+    ),
+    elderly_allowance_source(
+        source_id="chiayi-city-middle-low-income-elderly-allowance-115",
+        county="嘉義市",
+        url="https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333",
+        organization="嘉義市政府社會處",
+        source_date="上版日期2026-01-01；查核日2026-06-09",
+        source_updated_at="2026-01-01",
+        income_requirement="家庭總收入平均每人每月未超過最低生活費2.5倍38,788元且未超過平均消費支出39,960元；動產與不動產依嘉義市年度標準審查。",
+        apply_window="向戶籍所在地區公所提出申請。",
+    ),
+    disability_allowance_source(
+        source_id="chiayi-county-disability-living-allowance-115",
+        county="嘉義縣",
+        url="https://www.gov.tw/News_Content_2_834333",
+        organization="嘉義縣政府",
+        source_date="Gov.tw服務入口查核日2026-06-09；115年度金額交叉查核",
+        source_type="official-online-application-cross-check",
+        source_quality_note="Gov.tw服務入口可作為嘉義縣身心障礙者生活補助申辦入口，但入口文字可能落後年度金額；115年度補助金額以中央身心障礙生活補助標準交叉查核，送件前需向鄉鎮市公所確認。",
+        confidence="checked",
+    ),
+    elderly_allowance_source(
+        source_id="chiayi-county-middle-low-income-elderly-allowance-115",
+        county="嘉義縣",
+        url="https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4",
+        organization="嘉義縣政府社會局",
+        source_date="嘉義縣社會局入口查核日2026-06-09；115年度金額交叉查核",
+        source_type="official-local-entry-cross-check",
+        source_quality_note="嘉義縣社會局入口可導向社會救助與老人福利窗口；本次未取得穩定詳細頁，115年度老人津貼金額以中央及地方通用標準交叉查核，實際仍需向鄉鎮市公所確認。",
+        confidence="checked",
+    ),
+    disability_allowance_source(
+        source_id="hualien-disability-living-allowance-115",
+        county="花蓮縣",
+        url="https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6",
+        organization="花蓮縣政府社會處",
+        source_date="花蓮縣政府社會處頁面查核日2026-06-09",
+        income_requirement="家庭總收入平均每人每月未達38,787元且未超過平均消費支出39,960元；動產與不動產依115年度標準及縣府審查辦理。",
+        apply_window="向戶籍所在地鄉鎮市公所提出申請。",
+        confidence="checked",
+    ),
+    elderly_allowance_source(
+        source_id="hualien-middle-low-income-elderly-allowance-115",
+        county="花蓮縣",
+        url="https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5",
+        organization="花蓮縣政府社會處",
+        source_date="花蓮縣政府社會處頁面查核日2026-06-09",
+        income_requirement="家庭總收入平均每人每月未超過最低生活費2.5倍且未超過平均消費支出1.5倍；動產與不動產依花蓮縣及115年度臺灣省標準審查。",
+        apply_window="向戶籍所在地鄉鎮市公所提出申請。",
+        confidence="checked",
+    ),
+    disability_allowance_source(
+        source_id="taitung-disability-living-allowance-115",
+        county="臺東縣",
+        url="https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99",
+        organization="臺東市公所／臺東縣政府",
+        source_date="臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+        source_type="official-local-entry-cross-check",
+        source_quality_note="臺東市公所社會福利業務清單列有身心障礙者生活補助入口；細節頁自動查核不穩，115年度金額以中央身心障礙生活補助標準交叉查核，送件前需向公所或臺東縣政府確認。",
+        confidence="checked",
+    ),
+    elderly_allowance_source(
+        source_id="taitung-middle-low-income-elderly-allowance-115",
+        county="臺東縣",
+        url="https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99",
+        organization="臺東市公所／臺東縣政府",
+        source_date="臺東市社會福利業務清單查核日2026-06-09；115年度金額交叉查核",
+        source_type="official-local-entry-cross-check",
+        source_quality_note="臺東市公所社會福利業務清單列有中低收入老人生活津貼入口；細節頁自動查核不穩，115年度金額以中央及地方通用標準交叉查核，送件前需向公所或臺東縣政府確認。",
+        confidence="checked",
+    ),
+]
+
+
 SOURCE_DOCUMENTS = [
     "C:/Users/Kevin/Downloads/民國114年12月29日，完成社福資源資料庫建置耗時17分鐘。_20251229102216631.pdf",
     "C:/Users/Kevin/Downloads/民國115年1月1日，完成社福資源資料庫建置耗時28分鐘。_20260222123907788.pdf",
@@ -2764,6 +3037,8 @@ def main() -> int:
     sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_V2_BATCH_5A)
     sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_V2_BATCH_5B)
     sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_V2_BATCH_5C)
+    sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_V2_BATCH_5D)
+    sources.extend(static_source(source) for source in LOCAL_PROGRAM_SOURCES_V2_BATCH_5E)
     sources.append({
         "id": "sfaa-social-welfare-foundations",
         "name": "全國性財團法人社會福利基金會查詢",

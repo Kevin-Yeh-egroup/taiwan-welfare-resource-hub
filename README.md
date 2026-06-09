@@ -7,7 +7,7 @@
 - Public GitHub repo: https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub
 - Vercel Production: https://taiwan-welfare-resource-hub.vercel.app/
 - Review-stage `noindex` 保留中：HTML meta robots、`robots.txt`、Vercel `X-Robots-Tag` 都會阻擋搜尋引擎索引。
-- Current dataset: 538 resource records from 113 allowlisted sources.
+- Current dataset: 551 resource records from 126 allowlisted sources.
 - Foundation coverage: 355 official SFAA national social-welfare foundation records queried on 2026-06-03.
 - Reviewed foundation program cards: 71 manually allowlisted program/service pages converted from candidate crawls.
 - Batch 0/1 central expansion: 9 high-demand nationwide cards for national pension premium subsidy, special-circumstances families, disability welfare, childcare, elder welfare, education tuition reduction, labor subsidy, 115 rent subsidy, and 113 protection hotline.
@@ -24,6 +24,10 @@
 - V2 Batch 5A local deep-dive: 5 new official city program cards for Taipei/New Taipei disability living allowances and Taipei/New Taipei/Taoyuan middle-low-income elderly living allowances; the existing Tainan elderly allowance card was de-duplicated and enriched with official eligibility, benefit amounts, documents, and application notes.
 - V2 Batch 5B local deep-dive: 7 new official local allowance cards for Taichung, Kaohsiung, Keelung, and Yilan, focused on disability living allowances and middle-low-income elderly living allowances with eligibility, benefit amounts, and application notes.
 - V2 Batch 5C local deep-dive: 9 new official local allowance cards for Hsinchu City, Hsinchu County, Miaoli, Changhua, and Nantou, focused on disability living allowances and middle-low-income elderly living allowances with eligibility, benefit amounts, and application notes.
+- V2 Batch 5D local deep-dive: 3 new official/cross-checked cards for Miaoli middle-low-income elderly living allowance and Pingtung disability/elderly living allowances.
+- V2 Batch 5E local deep-dive: 10 new official/cross-checked cards for Yunlin, Chiayi City, Chiayi County, Hualien, and Taitung disability living allowances and middle-low-income elderly living allowances.
+- V2 Batch 5F annual-standard audit: refreshed the 115年度 low-income/middle-low-income standard card, Taiwan/Fujian source links, and "臺灣省" explanation/search terms.
+- V2 Batch 5G Taiwan search/UX pass: added common Taiwan query synonyms such as `台/臺`, `身障/身心障礙`, `低收/低收入戶`, `中低收/中低收入戶`, and elder-allowance wording.
 
 ## Local Preview
 
