@@ -32,6 +32,7 @@
 - V2 Batch 6D high-intent central expansion: 3 new nationwide cards for family caregiver support, low-income student grants, and child/youth economic support; the 115 rent-subsidy card now points to the MOI official update and hotline.
 - UX-1 search and no-result pass: added high-demand query synonyms, source-confidence rows, match-reason chips, no-result suggestions, and quick tiles for rent pressure and caregiver support.
 - V2 Batch 6E source hardening: replaced 4 unstable warning sources with stronger official anchors and split freshness output into hard `warnings` versus retryable `transientWarnings`.
+- QA-1/UX-2 operating layer: added county-by-need coverage matrix, source-health summary, batch-gate candidates, 60-second guided query path, and missing-data-aware no-result messaging.
 
 ## Local Preview
 
@@ -53,6 +54,7 @@ python scripts/extract_source_urls.py source-docs --out data/extracted-urls.json
 python scripts/crawl_sources.py --sources data/sources.json --out data/resources.json
 python scripts/convert_candidate_programs.py --resources data/resources.json --candidates data/foundation-program-candidates.json data/foundation-program-candidates-batch-b.json data/foundation-program-candidates-batch-c.json data/foundation-program-candidates-batch-d.json data/foundation-program-candidates-batch-e.json data/foundation-program-candidates-batch-f.json data/foundation-program-candidates-batch-g.json data/foundation-program-candidates-batch-h.json data/foundation-program-candidates-batch-i.json --allowlist data/formal-program-allowlist.json --out data/resources.json
 python scripts/check_freshness.py --sources data/sources.json --out data/freshness-report.json --timeout 5 --retries 0 --retry-sleep 0
+python scripts/build_operational_artifacts.py
 python scripts/validate_data.py
 node scripts/build_static.mjs
 ```

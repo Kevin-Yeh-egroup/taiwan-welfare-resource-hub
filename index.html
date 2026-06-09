@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex,nofollow,noarchive">
     <title>台灣社會福利資源查詢</title>
-    <link rel="stylesheet" href="styles.css?v=20260609-batch6-ux1">
+    <link rel="stylesheet" href="styles.css?v=20260609-qa1-ux2">
   </head>
   <body class="is-booting">
     <header class="app-header">
@@ -148,9 +148,38 @@
         </article>
       </section>
 
+      <section class="ops-strip" aria-label="資料覆蓋與來源健康">
+        <div class="ops-summary">
+          <div>
+            <p class="eyebrow">資料健康</p>
+            <h2>先維持品質，再補高缺口</h2>
+          </div>
+          <p id="coverageSummary">覆蓋矩陣載入中...</p>
+        </div>
+        <div class="ops-grid">
+          <article>
+            <span id="hardWarningTotal">0</span>
+            <p>來源硬警告</p>
+          </article>
+          <article>
+            <span id="transientWarningTotal">0</span>
+            <p>暫時連線異常</p>
+          </article>
+          <article>
+            <span id="batchGateMode">維持優化</span>
+            <p>下一批資料策略</p>
+          </article>
+        </div>
+        <details class="batch-gate-panel">
+          <summary>查看目前最需要補強的主題</summary>
+          <div id="batchGateList" class="batch-gate-list"></div>
+        </details>
+      </section>
+
       <section class="results-layout">
         <aside class="filter-panel" aria-label="進階篩選">
           <h2>縮小查詢範圍</h2>
+          <div id="guidedPath" class="guided-path" aria-label="60秒查詢路徑"></div>
           <label>
             <span>輸入關鍵字</span>
             <input id="queryInput" type="search" placeholder="例如：身障生活補助、老人生活津貼、租金補貼、照顧者" autocomplete="off">
@@ -187,6 +216,7 @@
             </div>
             <div id="activeFilters" class="active-filters" aria-label="目前篩選"></div>
           </div>
+          <div id="decisionAid" class="decision-aid" aria-live="polite"></div>
 
           <div class="group-tabs" role="tablist" aria-label="結果分組">
             <button type="button" data-group="recommended" class="is-active">建議先看</button>
@@ -206,6 +236,6 @@
       <a href="PUBLICATION_CHECKLIST.md">Publication checklist</a>
     </footer>
 
-    <script src="app.js?v=20260609-batch6-ux1"></script>
+    <script src="app.js?v=20260609-qa1-ux2"></script>
   </body>
 </html>

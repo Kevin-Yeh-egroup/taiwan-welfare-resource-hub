@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-06-09T05:44:21+00:00",
+  "summary": {
+    "records": 562,
+    "sourcesChecked": 137,
+    "hardWarnings": 0,
+    "transientWarnings": 3,
+    "transportWarnings": 10
+  },
+  "hardWarnings": [],
+  "transientWarnings": [
+    {
+      "level": "transient-warning",
+      "sourceId": "nantou-low-income-living-assistance-115",
+      "message": "One or more URLs hit a retryable transport failure during freshness check."
+    },
+    {
+      "level": "transient-warning",
+      "sourceId": "penghu-after-school-care-subsidy-115",
+      "message": "One or more URLs hit a retryable transport failure during freshness check."
+    },
+    {
+      "level": "transient-warning",
+      "sourceId": "county-taoyuan-social",
+      "message": "One or more URLs hit a retryable transport failure during freshness check."
+    }
+  ],
+  "confidenceCounts": {
+    "official-entry": 39,
+    "source-dated": 277,
+    "checked": 242,
+    "official-report": 1,
+    "official-statistical-brief": 1,
+    "source-dated-list": 1,
+    "needs-local-confirmation": 1
+  },
+  "sourceLevelCounts": {
+    "entry": 39,
+    "strong": 515,
+    "cross-check": 7,
+    "confirm": 1
+  },
+  "topSourceTypes": [
+    [
+      "official-foundation-directory",
+      355
+    ],
+    [
+      "foundation-program-page",
+      71
+    ],
+    [
+      "official-local-application",
+      32
+    ],
+    [
+      "official-local-program",
+      22
+    ],
+    [
+      "official-local-government",
+      22
+    ],
+    [
+      "official-local-annual-program",
+      15
+    ],
+    [
+      "official-portal",
+      9
+    ],
+    [
+      "official-program",
+      8
+    ],
+    [
+      "official-local-entry-cross-check",
+      4
+    ],
+    [
+      "official-local-regulation",
+      3
+    ],
+    [
+      "official-online-application-cross-check",
+      3
+    ],
+    [
+      "official-hotline",
+      2
+    ]
+  ]
+}

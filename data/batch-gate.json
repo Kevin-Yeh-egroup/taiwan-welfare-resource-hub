@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-06-09T05:44:21+00:00",
+  "decision": {
+    "openBroadBatch": false,
+    "recommendedMode": "maintain-and-target",
+    "nextBatchLabel": "Batch 7 should be targeted only",
+    "reason": "Use coverage and source-health signals before adding records by volume."
+  },
+  "gates": [
+    {
+      "id": "hard-warning",
+      "label": "來源硬警告",
+      "trigger": "hardWarnings > 0",
+      "currentValue": 0,
+      "action": "先修壞連結或不可驗證來源，再新增資料。"
+    },
+    {
+      "id": "coverage-gap",
+      "label": "覆蓋缺口",
+      "trigger": "high-score coverage candidates exist",
+      "currentValue": 9,
+      "action": "只補矩陣列出的高分缺口。"
+    },
+    {
+      "id": "no-result-query",
+      "label": "查不到語句",
+      "trigger": "validated common user wording returns 0 results",
+      "currentValue": 0,
+      "action": "先補同義詞或官方 fallback，再決定是否新增資料。"
+    }
+  ],
+  "topCandidates": [
+    {
+      "county": "南投縣",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "基隆市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "屏東縣",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "新北市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "新竹縣",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "臺中市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "臺北市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "臺南市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "雲林縣",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    }
+  ]
+}

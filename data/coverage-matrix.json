@@ -1,0 +1,5075 @@
+{
+  "generatedAt": "2026-06-09T05:44:21+00:00",
+  "counties": [
+    "臺北市",
+    "新北市",
+    "桃園市",
+    "臺中市",
+    "臺南市",
+    "高雄市",
+    "基隆市",
+    "新竹市",
+    "新竹縣",
+    "苗栗縣",
+    "彰化縣",
+    "南投縣",
+    "雲林縣",
+    "嘉義市",
+    "嘉義縣",
+    "屏東縣",
+    "宜蘭縣",
+    "花蓮縣",
+    "臺東縣",
+    "澎湖縣",
+    "金門縣",
+    "連江縣"
+  ],
+  "needs": [
+    {
+      "id": "income",
+      "label": "低收入／生活扶助",
+      "terms": [
+        "低收入",
+        "中低收入",
+        "生活扶助",
+        "社會救助",
+        "資格審核"
+      ],
+      "localExpected": true,
+      "priority": "high"
+    },
+    {
+      "id": "emergency",
+      "label": "急難救助",
+      "terms": [
+        "急難",
+        "急難救助",
+        "急難紓困",
+        "事故",
+        "臨時生活"
+      ],
+      "localExpected": true,
+      "priority": "high"
+    },
+    {
+      "id": "medical",
+      "label": "醫療／健保補助",
+      "terms": [
+        "醫療",
+        "健保",
+        "保費",
+        "住院",
+        "看護",
+        "就醫"
+      ],
+      "localExpected": true,
+      "priority": "high"
+    },
+    {
+      "id": "disability",
+      "label": "身心障礙服務",
+      "terms": [
+        "身心障礙",
+        "身障",
+        "輔具",
+        "生活補助",
+        "復康巴士",
+        "交通接送"
+      ],
+      "localExpected": true,
+      "priority": "high"
+    },
+    {
+      "id": "elder",
+      "label": "長者／老人津貼",
+      "terms": [
+        "老人",
+        "長者",
+        "中低收入老人",
+        "老人生活津貼",
+        "老人福利"
+      ],
+      "localExpected": true,
+      "priority": "high"
+    },
+    {
+      "id": "long_care",
+      "label": "長照／照顧者",
+      "terms": [
+        "長照",
+        "照顧者",
+        "家庭照顧者",
+        "喘息",
+        "居家服務",
+        "1966"
+      ],
+      "localExpected": false,
+      "priority": "medium"
+    },
+    {
+      "id": "child_family",
+      "label": "兒少／家庭支持",
+      "terms": [
+        "兒少",
+        "兒童",
+        "少年",
+        "托育",
+        "家庭支持",
+        "脆弱家庭",
+        "特殊境遇"
+      ],
+      "localExpected": true,
+      "priority": "medium"
+    },
+    {
+      "id": "housing",
+      "label": "租屋／居住壓力",
+      "terms": [
+        "租金",
+        "租屋",
+        "房租",
+        "住宅補貼",
+        "承租"
+      ],
+      "localExpected": false,
+      "priority": "medium"
+    },
+    {
+      "id": "education",
+      "label": "學費／助學",
+      "terms": [
+        "學費",
+        "助學",
+        "獎學",
+        "清寒",
+        "學生",
+        "學雜費"
+      ],
+      "localExpected": false,
+      "priority": "medium"
+    }
+  ],
+  "summary": {
+    "totalPairs": 198,
+    "strongOrCentralOkPairs": 154,
+    "attentionPairs": 44,
+    "statusCounts": {
+      "local-strong": 135,
+      "central-fallback": 9,
+      "local-entry": 27,
+      "central-ok": 19,
+      "local-needs-confirmation": 8
+    }
+  },
+  "rows": [
+    {
+      "county": "臺北市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 211,
+          "sampleRecords": [
+            {
+              "id": "taipei-low-income-rent-subsidy-115",
+              "name": "115年度臺北市低收入戶承租住宅租金補貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.gov.taipei/News_Content.aspx?n=D0042A87C2F0270A&s=22C0CE414323E107&sms=78D644F2755ACCAA"
+            },
+            {
+              "id": "taipei-emergency-assistance",
+              "name": "臺北市急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=0BF751F1B9F07AA1"
+            },
+            {
+              "id": "taipei-disability-living-allowance-115",
+              "name": "臺北市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 212,
+          "sampleRecords": [
+            {
+              "id": "taipei-emergency-assistance",
+              "name": "臺北市急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=0BF751F1B9F07AA1"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 221,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 223,
+          "sampleRecords": [
+            {
+              "id": "taipei-disability-living-allowance-115",
+              "name": "臺北市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 158,
+          "sampleRecords": [
+            {
+              "id": "taipei-middle-low-income-elderly-allowance-115",
+              "name": "臺北市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 16,
+          "sampleRecords": [
+            {
+              "id": "taipei-welfare-map",
+              "name": "臺北市社福設施地圖資訊網",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://map.dosw.gov.taipei/"
+            },
+            {
+              "id": "county-taipei-social",
+              "name": "臺北市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://dosw.gov.taipei/"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 199,
+          "sampleRecords": [
+            {
+              "id": "taipei-welfare-map",
+              "name": "臺北市社福設施地圖資訊網",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://map.dosw.gov.taipei/"
+            },
+            {
+              "id": "county-taipei-social",
+              "name": "臺北市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://dosw.gov.taipei/"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 3,
+          "sampleRecords": [
+            {
+              "id": "taipei-low-income-rent-subsidy-115",
+              "name": "115年度臺北市低收入戶承租住宅租金補貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.gov.taipei/News_Content.aspx?n=D0042A87C2F0270A&s=22C0CE414323E107&sms=78D644F2755ACCAA"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 101,
+          "sampleRecords": [
+            {
+              "id": "taipei-middle-low-income-elderly-allowance-115",
+              "name": "臺北市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dosw.gov.taipei/cp.aspx?n=FCF3DAE98DDA289F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "新北市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 48,
+          "sampleRecords": [
+            {
+              "id": "ntpc-low-income-application-115",
+              "name": "新北市低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110017"
+            },
+            {
+              "id": "ntpc-low-income-home-repair-115",
+              "name": "新北市115年度低收入戶修繕住宅補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.planning.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=9f2f505e1fe1dd6c351b9a407d804389&id=f57762b740db24e7"
+            },
+            {
+              "id": "new-taipei-disability-living-allowance-115",
+              "name": "新北市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 50,
+          "sampleRecords": [
+            {
+              "id": "county-new-taipei-social",
+              "name": "新北市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.sw.ntpc.gov.tw/"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 52,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 49,
+          "sampleRecords": [
+            {
+              "id": "ntpc-low-income-application-115",
+              "name": "新北市低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110017"
+            },
+            {
+              "id": "new-taipei-disability-living-allowance-115",
+              "name": "新北市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 36,
+          "sampleRecords": [
+            {
+              "id": "new-taipei-disability-living-allowance-115",
+              "name": "新北市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"
+            },
+            {
+              "id": "new-taipei-middle-low-income-elderly-allowance-115",
+              "name": "新北市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110027"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "county-new-taipei-social",
+              "name": "新北市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.sw.ntpc.gov.tw/"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 44,
+          "sampleRecords": [
+            {
+              "id": "ntpc-low-income-application-115",
+              "name": "新北市低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110017"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "ntpc-low-income-home-repair-115",
+              "name": "新北市115年度低收入戶修繕住宅補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.planning.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=9f2f505e1fe1dd6c351b9a407d804389&id=f57762b740db24e7"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 21,
+          "sampleRecords": [
+            {
+              "id": "ntpc-low-income-application-115",
+              "name": "新北市低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "桃園市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 17,
+          "sampleRecords": [
+            {
+              "id": "taoyuan-low-income-application-115",
+              "name": "桃園市115年低收入戶與中低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
+            },
+            {
+              "id": "taoyuan-low-income-living-assistance",
+              "name": "桃園市低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
+            },
+            {
+              "id": "taoyuan-middle-low-income-elderly-allowance-115",
+              "name": "桃園市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 17,
+          "sampleRecords": [
+            {
+              "id": "county-taoyuan-social",
+              "name": "桃園市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://sab.tycg.gov.tw/default.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 18,
+          "sampleRecords": [
+            {
+              "id": "taoyuan-low-income-application-115",
+              "name": "桃園市115年低收入戶與中低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 19,
+          "sampleRecords": [
+            {
+              "id": "taoyuan-low-income-application-115",
+              "name": "桃園市115年低收入戶與中低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
+            },
+            {
+              "id": "taoyuan-low-income-living-assistance",
+              "name": "桃園市低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
+            },
+            {
+              "id": "taoyuan-middle-low-income-elderly-allowance-115",
+              "name": "桃園市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 10,
+          "sampleRecords": [
+            {
+              "id": "taoyuan-middle-low-income-elderly-allowance-115",
+              "name": "桃園市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "county-taoyuan-social",
+              "name": "桃園市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://sab.tycg.gov.tw/default.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 15,
+          "sampleRecords": [
+            {
+              "id": "taoyuan-low-income-living-assistance",
+              "name": "桃園市低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "taoyuan-low-income-application-115",
+              "name": "桃園市115年低收入戶與中低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 3,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 6,
+          "sampleRecords": [
+            {
+              "id": "taoyuan-low-income-application-115",
+              "name": "桃園市115年低收入戶與中低收入戶資格申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1552602&sms=7923"
+            },
+            {
+              "id": "taoyuan-low-income-living-assistance",
+              "name": "桃園市低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC5pS%2F5bqc5YWs5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzkvcmVsZmlsZS8xMDcwMi82Mzc1LzIwZjdkNGZhLWNhOWYtNDk4MC1iZjhhLTBlYzMzZTFhMGNjZi5wZGY%3D"
+            },
+            {
+              "id": "taoyuan-middle-low-income-elderly-allowance-115",
+              "name": "桃園市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://e-services.tycg.gov.tw/TycgOnline/tycgOnline.action?Aid=AP03030000000078&func=description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "臺中市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 45,
+          "sampleRecords": [
+            {
+              "id": "taichung-low-income-standards-115",
+              "name": "臺中市115年低收入戶與中低收入戶審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/3101150/post"
+            },
+            {
+              "id": "taichung-low-income-benefit-overview-115",
+              "name": "臺中市低收入戶福利一覽表",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/media/1333656/%E8%87%BA%E4%B8%AD%E5%B8%82%E4%BD%8E%E6%94%B6%E5%85%A5%E6%88%B6%E7%A6%8F%E5%88%A9%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf"
+            },
+            {
+              "id": "taichung-disability-living-allowance-115",
+              "name": "臺中市身心障礙者生活補助費",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 45,
+          "sampleRecords": [
+            {
+              "id": "county-taichung-social",
+              "name": "臺中市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.society.taichung.gov.tw/"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 47,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 49,
+          "sampleRecords": [
+            {
+              "id": "taichung-disability-living-allowance-115",
+              "name": "臺中市身心障礙者生活補助費",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461728"
+            },
+            {
+              "id": "taichung-middle-low-income-elderly-allowance-115",
+              "name": "臺中市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/461548/post"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 41,
+          "sampleRecords": [
+            {
+              "id": "taichung-middle-low-income-elderly-allowance-115",
+              "name": "臺中市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/461548/post"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 7,
+          "sampleRecords": [
+            {
+              "id": "county-taichung-social",
+              "name": "臺中市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.society.taichung.gov.tw/"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 34,
+          "sampleRecords": [
+            {
+              "id": "taichung-low-income-benefit-overview-115",
+              "name": "臺中市低收入戶福利一覽表",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/media/1333656/%E8%87%BA%E4%B8%AD%E5%B8%82%E4%BD%8E%E6%94%B6%E5%85%A5%E6%88%B6%E7%A6%8F%E5%88%A9%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "taichung-low-income-standards-115",
+              "name": "臺中市115年低收入戶與中低收入戶審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/3101150/post"
+            },
+            {
+              "id": "taichung-low-income-benefit-overview-115",
+              "name": "臺中市低收入戶福利一覽表",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/media/1333656/%E8%87%BA%E4%B8%AD%E5%B8%82%E4%BD%8E%E6%94%B6%E5%85%A5%E6%88%B6%E7%A6%8F%E5%88%A9%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 20,
+          "sampleRecords": [
+            {
+              "id": "taichung-low-income-benefit-overview-115",
+              "name": "臺中市低收入戶福利一覽表",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/media/1333656/%E8%87%BA%E4%B8%AD%E5%B8%82%E4%BD%8E%E6%94%B6%E5%85%A5%E6%88%B6%E7%A6%8F%E5%88%A9%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf"
+            },
+            {
+              "id": "taichung-middle-low-income-elderly-allowance-115",
+              "name": "臺中市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.society.taichung.gov.tw/461548/post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "臺南市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 11,
+          "sampleRecords": [
+            {
+              "id": "tainan-low-income-living-assistance",
+              "name": "臺南市低收入戶家庭生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21390&s=4378483"
+            },
+            {
+              "id": "tainan-elderly-living-allowance-115",
+              "name": "臺南市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297"
+            },
+            {
+              "id": "tainan-disability-living-allowance-115",
+              "name": "臺南市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 11,
+          "sampleRecords": [
+            {
+              "id": "county-tainan-social",
+              "name": "臺南市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://sab.tainan.gov.tw/Default.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 13,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 13,
+          "sampleRecords": [
+            {
+              "id": "tainan-low-income-living-assistance",
+              "name": "臺南市低收入戶家庭生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21390&s=4378483"
+            },
+            {
+              "id": "tainan-disability-living-allowance-115",
+              "name": "臺南市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 9,
+          "sampleRecords": [
+            {
+              "id": "tainan-elderly-living-allowance-115",
+              "name": "臺南市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?Create=1&n=21369&s=4378297"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "tainan-welfare-map",
+              "name": "臺南市福利地圖",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://tnsmap.tainan.gov.tw/"
+            },
+            {
+              "id": "county-tainan-social",
+              "name": "臺南市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://sab.tainan.gov.tw/Default.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 4,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 8,
+          "sampleRecords": [
+            {
+              "id": "tainan-low-income-living-assistance",
+              "name": "臺南市低收入戶家庭生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21390&s=4378483"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 6,
+          "sampleRecords": [
+            {
+              "id": "tainan-low-income-living-assistance",
+              "name": "臺南市低收入戶家庭生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21390&s=4378483"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "高雄市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 18,
+          "sampleRecords": [
+            {
+              "id": "kaohsiung-low-income-living-assistance-115",
+              "name": "高雄市低收入戶生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?Create=1&n=EDF792DF41A20EC2"
+            },
+            {
+              "id": "kaohsiung-weak-medical-assistance-115",
+              "name": "高雄市115年弱勢個案就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://health.kcg.gov.tw/Content_List.aspx?n=1E202D17FB6C53C6"
+            },
+            {
+              "id": "kaohsiung-middle-low-income-elderly-allowance-115",
+              "name": "高雄市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?n=3DDD5FAEE88FB982"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 18,
+          "sampleRecords": [
+            {
+              "id": "county-kaohsiung-social",
+              "name": "高雄市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "http://socbu.kcg.gov.tw/index.php"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 17,
+          "sampleRecords": [
+            {
+              "id": "kaohsiung-weak-medical-assistance-115",
+              "name": "高雄市115年弱勢個案就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://health.kcg.gov.tw/Content_List.aspx?n=1E202D17FB6C53C6"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 17,
+          "sampleRecords": [
+            {
+              "id": "kaohsiung-low-income-living-assistance-115",
+              "name": "高雄市低收入戶生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?Create=1&n=EDF792DF41A20EC2"
+            },
+            {
+              "id": "kaohsiung-weak-medical-assistance-115",
+              "name": "高雄市115年弱勢個案就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://health.kcg.gov.tw/Content_List.aspx?n=1E202D17FB6C53C6"
+            },
+            {
+              "id": "kaohsiung-disability-living-allowance-115",
+              "name": "高雄市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://hsingsin.kcg.gov.tw/cp.aspx?n=1223BAF7068622E7"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 14,
+          "sampleRecords": [
+            {
+              "id": "kaohsiung-weak-medical-assistance-115",
+              "name": "高雄市115年弱勢個案就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://health.kcg.gov.tw/Content_List.aspx?n=1E202D17FB6C53C6"
+            },
+            {
+              "id": "kaohsiung-middle-low-income-elderly-allowance-115",
+              "name": "高雄市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?n=3DDD5FAEE88FB982"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "county-kaohsiung-social",
+              "name": "高雄市政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "http://socbu.kcg.gov.tw/index.php"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 16,
+          "sampleRecords": [
+            {
+              "id": "kaohsiung-low-income-living-assistance-115",
+              "name": "高雄市低收入戶生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?Create=1&n=EDF792DF41A20EC2"
+            },
+            {
+              "id": "kaohsiung-weak-medical-assistance-115",
+              "name": "高雄市115年弱勢個案就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://health.kcg.gov.tw/Content_List.aspx?n=1E202D17FB6C53C6"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 13,
+          "sampleRecords": [
+            {
+              "id": "kaohsiung-low-income-living-assistance-115",
+              "name": "高雄市低收入戶生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://older.kcg.gov.tw/cp.aspx?Create=1&n=EDF792DF41A20EC2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "基隆市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "keelung-low-income-application-115",
+              "name": "基隆市115年低收入戶與中低收入戶申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
+            },
+            {
+              "id": "keelung-disability-living-assistance",
+              "name": "基隆市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2798-113116.html"
+            },
+            {
+              "id": "keelung-middle-low-income-elderly-allowance-115",
+              "name": "基隆市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "county-keelung-social",
+              "name": "基隆市政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/social"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "keelung-low-income-application-115",
+              "name": "基隆市115年低收入戶與中低收入戶申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
+            },
+            {
+              "id": "keelung-disability-living-assistance",
+              "name": "基隆市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2798-113116.html"
+            },
+            {
+              "id": "keelung-middle-low-income-elderly-allowance-115",
+              "name": "基隆市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "keelung-middle-low-income-elderly-allowance-115",
+              "name": "基隆市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/2750-112778.html"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "county-keelung-social",
+              "name": "基隆市政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/social"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "keelung-low-income-application-115",
+              "name": "基隆市115年低收入戶與中低收入戶申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "keelung-low-income-application-115",
+              "name": "基隆市115年低收入戶與中低收入戶申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.klcg.gov.tw/tw/financial/2810-292783.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "新竹市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 8,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-city-low-income-application-115",
+              "name": "新竹市低收入戶及中低收入戶資格與生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y"
+            },
+            {
+              "id": "hsinchu-city-weak-medical-assistance-115",
+              "name": "新竹市115年度弱勢族群就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
+            },
+            {
+              "id": "hsinchu-city-disability-living-allowance-115",
+              "name": "新竹市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.hccg.gov.tw/LawContent.aspx?id=FL084082&media=print"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 8,
+          "sampleRecords": [
+            {
+              "id": "county-hsinchu-city-social",
+              "name": "新竹市政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://society.hccg.gov.tw/ch/index.jsp"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 7,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-city-weak-medical-assistance-115",
+              "name": "新竹市115年度弱勢族群就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 8,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-city-low-income-application-115",
+              "name": "新竹市低收入戶及中低收入戶資格與生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y"
+            },
+            {
+              "id": "hsinchu-city-weak-medical-assistance-115",
+              "name": "新竹市115年度弱勢族群就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
+            },
+            {
+              "id": "hsinchu-city-disability-living-allowance-115",
+              "name": "新竹市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.hccg.gov.tw/LawContent.aspx?id=FL084082&media=print"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 3,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-city-weak-medical-assistance-115",
+              "name": "新竹市115年度弱勢族群就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
+            },
+            {
+              "id": "hsinchu-city-middle-low-income-elderly-allowance-115",
+              "name": "新竹市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://society.hccg.gov.tw/ch/hotkey_print.jsp?contentid=119&contentlink=ap%2Fonemessages_view.jsp&dataserno=201603290031&id=119&mclassno=null&mserno=201603090025&mtitle=%E7%B6%93%E6%BF%9F%E8%A3%9C%E5%8A%A9&page=null"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-city-middle-low-income-elderly-allowance-115",
+              "name": "新竹市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://society.hccg.gov.tw/ch/hotkey_print.jsp?contentid=119&contentlink=ap%2Fonemessages_view.jsp&dataserno=201603290031&id=119&mclassno=null&mserno=201603090025&mtitle=%E7%B6%93%E6%BF%9F%E8%A3%9C%E5%8A%A9&page=null"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 8,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-city-low-income-application-115",
+              "name": "新竹市低收入戶及中低收入戶資格與生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y"
+            },
+            {
+              "id": "hsinchu-city-weak-medical-assistance-115",
+              "name": "新竹市115年度弱勢族群就醫補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202005120001&id=56&mcustomize=onemessages_view.jsp&mserno=201605110002&parentpath=&t=DisadvantagedGroups&toolsflag=Y"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-city-low-income-application-115",
+              "name": "新竹市低收入戶及中低收入戶資格與生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201902210001&id=139&mcustomize=onemessages_view.jsp&mserno=201603090042&parentpath=0&t=SocietyOnes&toolsflag=Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "新竹縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-county-computer-subsidy-115",
+              "name": "新竹縣115年度低收入戶及中低收入戶電腦設備購置補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634"
+            },
+            {
+              "id": "hsinchu-county-employment-incentive",
+              "name": "新竹縣低收入戶及中低收入戶就業獎勵補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=263681"
+            },
+            {
+              "id": "hsinchu-county-disability-living-allowance-115",
+              "name": "新竹縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.hsinchu.gov.tw/Download.ashx?n=MjAtN%2BaWveaUv%2BWgseWRiijmm7jpnaIpLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg3MDAvMjgxOTQzL2YyZjJjMTBkLWJjZWMtNGQxNC1iZTI0LTVmNGRjNjc2MThmOC5wZGY%3D"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "county-hsinchu-county-social",
+              "name": "新竹縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://social.hsinchu.gov.tw/"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-county-disability-living-allowance-115",
+              "name": "新竹縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.hsinchu.gov.tw/Download.ashx?n=MjAtN%2BaWveaUv%2BWgseWRiijmm7jpnaIpLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg3MDAvMjgxOTQzL2YyZjJjMTBkLWJjZWMtNGQxNC1iZTI0LTVmNGRjNjc2MThmOC5wZGY%3D"
+            },
+            {
+              "id": "hsinchu-county-middle-low-income-elderly-allowance-115",
+              "name": "新竹縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.hsinchu.gov.tw/Download.ashx?icon=.pdf&n=MTEzLUEtMDEwLeaWsOeruee4o%2BS4reS9juaUtuWFpeiAgeS6uuWQhOmgheemj%2BWIqeijnOWKqeaDheW9oi5wZGY%3D&u=LzAwMS9VcGxvYWQvMTkvY2tmaWxlLzA3MWEwOGVmLWYzNGMtNGUxMi05M2IzLTZhNGEyMWRjYWExNi5wZGY%3D"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-county-middle-low-income-elderly-allowance-115",
+              "name": "新竹縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.hsinchu.gov.tw/Download.ashx?icon=.pdf&n=MTEzLUEtMDEwLeaWsOeruee4o%2BS4reS9juaUtuWFpeiAgeS6uuWQhOmgheemj%2BWIqeijnOWKqeaDheW9oi5wZGY%3D&u=LzAwMS9VcGxvYWQvMTkvY2tmaWxlLzA3MWEwOGVmLWYzNGMtNGUxMi05M2IzLTZhNGEyMWRjYWExNi5wZGY%3D"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-county-middle-low-income-elderly-allowance-115",
+              "name": "新竹縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://ws.hsinchu.gov.tw/Download.ashx?icon=.pdf&n=MTEzLUEtMDEwLeaWsOeruee4o%2BS4reS9juaUtuWFpeiAgeS6uuWQhOmgheemj%2BWIqeijnOWKqeaDheW9oi5wZGY%3D&u=LzAwMS9VcGxvYWQvMTkvY2tmaWxlLzA3MWEwOGVmLWYzNGMtNGUxMi05M2IzLTZhNGEyMWRjYWExNi5wZGY%3D"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "county-hsinchu-county-social",
+              "name": "新竹縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://social.hsinchu.gov.tw/"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "hsinchu-county-computer-subsidy-115",
+              "name": "新竹縣115年度低收入戶及中低收入戶電腦設備購置補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=283634"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "苗栗縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "miaoli-maternal-newborn-nutrition-115",
+              "name": "苗栗縣低收入戶與中低收入戶產婦及新生兒營養補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=147156"
+            },
+            {
+              "id": "miaoli-hospital-care-subsidy",
+              "name": "苗栗縣低收入戶及中低收入戶傷病住院看護費用補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
+            },
+            {
+              "id": "miaoli-disability-living-allowance-115",
+              "name": "苗栗縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=147151"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "county-miaoli-social",
+              "name": "苗栗縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "miaoli-maternal-newborn-nutrition-115",
+              "name": "苗栗縣低收入戶與中低收入戶產婦及新生兒營養補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=147156"
+            },
+            {
+              "id": "miaoli-hospital-care-subsidy",
+              "name": "苗栗縣低收入戶及中低收入戶傷病住院看護費用補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40640"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 3,
+          "sampleRecords": [
+            {
+              "id": "miaoli-disability-living-allowance-115",
+              "name": "苗栗縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=147151"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "miaoli-middle-low-income-elderly-allowance-115",
+              "name": "苗栗縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "miaoli-middle-low-income-elderly-allowance-115",
+              "name": "苗栗縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.tch.gov.tw/News_Content.aspx?n=10272&s=829007"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 3,
+          "sampleRecords": [
+            {
+              "id": "miaoli-maternal-newborn-nutrition-115",
+              "name": "苗栗縣低收入戶與中低收入戶產婦及新生兒營養補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=147156"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "mohw-special-circumstances-family",
+              "name": "特殊境遇家庭扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOPS/cp-1287-14940-105.html"
+            },
+            {
+              "id": "moe-dream-aid-tuition-reduction",
+              "name": "教育部圓夢助學網：學雜費減免",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.edu.tw/helpdreams/cp.aspx?n=B99F77007C45EA0F&s=4810D2C08B273D5E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "彰化縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "changhua-low-income-living-assistance-115",
+              "name": "彰化縣115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714"
+            },
+            {
+              "id": "changhua-long-term-care-transport-115",
+              "name": "彰化縣115年度長期照顧交通接送服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+            },
+            {
+              "id": "changhua-disability-living-allowance-115",
+              "name": "彰化縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chcg.gov.tw/07other/other01_con.aspx?cate_id=5066&data_id=20144&topsn=715"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "county-changhua-social",
+              "name": "彰化縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://social.chcg.gov.tw/00home/index1.asp"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "changhua-long-term-care-transport-115",
+              "name": "彰化縣115年度長期照顧交通接送服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 7,
+          "sampleRecords": [
+            {
+              "id": "changhua-low-income-living-assistance-115",
+              "name": "彰化縣115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714"
+            },
+            {
+              "id": "changhua-long-term-care-transport-115",
+              "name": "彰化縣115年度長期照顧交通接送服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+            },
+            {
+              "id": "changhua-disability-living-allowance-115",
+              "name": "彰化縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chcg.gov.tw/07other/other01_con.aspx?cate_id=5066&data_id=20144&topsn=715"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "changhua-long-term-care-transport-115",
+              "name": "彰化縣115年度長期照顧交通接送服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+            },
+            {
+              "id": "changhua-middle-low-income-elderly-allowance-115",
+              "name": "彰化縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chcg.gov.tw/DTO/social/06service/service01_con.aspx?data_id=25525&topsn=2434"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "changhua-long-term-care-transport-115",
+              "name": "彰化縣115年度長期照顧交通接送服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chshb.gov.tw/sites/default/files/2026-02/%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C115%E5%B9%B4%E5%BA%A6%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E4%BA%A4%E9%80%9A%E6%8E%A5%E9%80%81%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_2.pdf"
+            },
+            {
+              "id": "changhua-middle-low-income-elderly-allowance-115",
+              "name": "彰化縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chcg.gov.tw/DTO/social/06service/service01_con.aspx?data_id=25525&topsn=2434"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "changhua-low-income-living-assistance-115",
+              "name": "彰化縣115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "changhua-low-income-living-assistance-115",
+              "name": "彰化縣115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=8716&topsn=714"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "南投縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "nantou-low-income-living-assistance-115",
+              "name": "南投縣115年度低收入戶申請及生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+            },
+            {
+              "id": "nantou-disability-living-allowance-115",
+              "name": "南投縣身心障礙者生活補助費",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+            },
+            {
+              "id": "nantou-middle-low-income-elderly-allowance-115",
+              "name": "南投縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.nantou.gov.tw/getfile.php?path=upload%2F00NjDpbIwUXJRKqy.pdf"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "county-nantou-social-labor",
+              "name": "南投縣政府社會及勞動處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.nantou.gov.tw/big5/index.asp?dptid=376480000au130000"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "nantou-low-income-living-assistance-115",
+              "name": "南投縣115年度低收入戶申請及生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+            },
+            {
+              "id": "nantou-disability-living-allowance-115",
+              "name": "南投縣身心障礙者生活補助費",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+            },
+            {
+              "id": "nantou-middle-low-income-elderly-allowance-115",
+              "name": "南投縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.nantou.gov.tw/getfile.php?path=upload%2F00NjDpbIwUXJRKqy.pdf"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 3,
+          "sampleRecords": [
+            {
+              "id": "nantou-middle-low-income-elderly-allowance-115",
+              "name": "南投縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.nantou.gov.tw/getfile.php?path=upload%2F00NjDpbIwUXJRKqy.pdf"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "nantou-middle-low-income-elderly-allowance-115",
+              "name": "南投縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.nantou.gov.tw/getfile.php?path=upload%2F00NjDpbIwUXJRKqy.pdf"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 3,
+          "sampleRecords": [
+            {
+              "id": "nantou-low-income-living-assistance-115",
+              "name": "南投縣115年度低收入戶申請及生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "nantou-low-income-living-assistance-115",
+              "name": "南投縣115年度低收入戶申請及生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=0b0091d5-f1a9-4914-8d9c-c4268900d0d9&module=File&name=1D186F4F5B0A427785E3E140ED0C24B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "雲林縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "yunlin-low-income-application-115",
+              "name": "雲林縣115年度低收入戶暨中低收入戶申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
+            },
+            {
+              "id": "yunlin-disability-living-allowance-115",
+              "name": "雲林縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100"
+            },
+            {
+              "id": "yunlin-middle-low-income-elderly-allowance-115",
+              "name": "雲林縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=442453"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "county-yunlin-social",
+              "name": "雲林縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://social.yunlin.gov.tw/"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "yunlin-low-income-application-115",
+              "name": "雲林縣115年度低收入戶暨中低收入戶申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
+            },
+            {
+              "id": "yunlin-disability-living-allowance-115",
+              "name": "雲林縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "yunlin-middle-low-income-elderly-allowance-115",
+              "name": "雲林縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=442453"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yunlin-middle-low-income-elderly-allowance-115",
+              "name": "雲林縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=442453"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "yunlin-low-income-application-115",
+              "name": "雲林縣115年度低收入戶暨中低收入戶申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yunlin-low-income-application-115",
+              "name": "雲林縣115年度低收入戶暨中低收入戶申請",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.yunlin.gov.tw/News_Content.aspx?n=737&s=350268"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "嘉義市",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "chiayi-city-low-income-living-assistance-115",
+              "name": "嘉義市115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+            },
+            {
+              "id": "chiayi-city-medical-assistance",
+              "name": "嘉義市低收及中低收入戶傷病醫療費用補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
+            },
+            {
+              "id": "chiayi-city-disability-living-allowance-115",
+              "name": "嘉義市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "county-chiayi-city-social",
+              "name": "嘉義市政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.chiayi.gov.tw/web/social/"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "chiayi-city-medical-assistance",
+              "name": "嘉義市低收及中低收入戶傷病醫療費用補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293329"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "chiayi-city-low-income-living-assistance-115",
+              "name": "嘉義市115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+            },
+            {
+              "id": "chiayi-city-disability-living-allowance-115",
+              "name": "嘉義市身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 5,
+          "sampleRecords": [
+            {
+              "id": "chiayi-city-low-income-living-assistance-115",
+              "name": "嘉義市115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+            },
+            {
+              "id": "chiayi-city-middle-low-income-elderly-allowance-115",
+              "name": "嘉義市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "chiayi-city-middle-low-income-elderly-allowance-115",
+              "name": "嘉義市中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=293333"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "chiayi-city-low-income-living-assistance-115",
+              "name": "嘉義市115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-city-low-income-living-assistance-115",
+              "name": "嘉義市115年度低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.chiayi.gov.tw/News_Content.aspx?n=397&s=843107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "嘉義縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 2,
+          "centralFallbackCount": 15,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-county-low-income-living-assistance-115",
+              "name": "嘉義縣115年度低收入戶救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+            },
+            {
+              "id": "chiayi-county-emergency-assistance",
+              "name": "嘉義縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-county-emergency-assistance",
+              "name": "嘉義縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-county-emergency-assistance",
+              "name": "嘉義縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=11654"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 14,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-county-low-income-living-assistance-115",
+              "name": "嘉義縣115年度低收入戶救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-needs-confirmation",
+          "score": 58,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 7,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-county-middle-low-income-elderly-allowance-115",
+              "name": "嘉義縣中低收入老人生活津貼",
+              "sourceLevel": "cross-check",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+            },
+            {
+              "id": "county-chiayi-county-social",
+              "name": "嘉義縣政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-needs-confirmation",
+          "score": 46,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-county-middle-low-income-elderly-allowance-115",
+              "name": "嘉義縣中低收入老人生活津貼",
+              "sourceLevel": "cross-check",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+            },
+            {
+              "id": "county-chiayi-county-social",
+              "name": "嘉義縣政府社會局",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/Content_List.aspx?n=3F51137B77F5ECC4"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-county-low-income-living-assistance-115",
+              "name": "嘉義縣115年度低收入戶救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "chiayi-county-low-income-living-assistance-115",
+              "name": "嘉義縣115年度低收入戶救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sabcc.cyhg.gov.tw/cp.aspx?n=4930"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "屏東縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 2,
+          "centralFallbackCount": 15,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "pingtung-low-income-living-assistance-115",
+              "name": "屏東縣115年度低收入戶生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+            },
+            {
+              "id": "pingtung-employment-transport-subsidy",
+              "name": "屏東縣低收及中低收就業交通補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "county-pingtung-social",
+              "name": "屏東縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/Default.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "central-fallback",
+          "score": 90,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "mohw-ebao-box",
+              "name": "衛生福利e寶箱",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-16-22219-1.html"
+            },
+            {
+              "id": "mohw-low-income",
+              "name": "低收入戶及中低收入戶",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-88-79005-1.html"
+            },
+            {
+              "id": "nhi-premium-subsidy",
+              "name": "各級政府辦理保險對象健保費補助項目",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://data.gov.tw/dataset/106333"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 14,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "pingtung-low-income-living-assistance-115",
+              "name": "屏東縣115年度低收入戶生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+            },
+            {
+              "id": "pingtung-employment-transport-subsidy",
+              "name": "屏東縣低收及中低收就業交通補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7248506703B0E5E2"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-needs-confirmation",
+          "score": 58,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 7,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "pingtung-middle-low-income-elderly-allowance-115",
+              "name": "屏東縣中低收入老人生活津貼",
+              "sourceLevel": "cross-check",
+              "sourceUrl": "https://www.gov.tw/News_Content_2_863413"
+            },
+            {
+              "id": "county-pingtung-social",
+              "name": "屏東縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/Default.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-needs-confirmation",
+          "score": 46,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "pingtung-middle-low-income-elderly-allowance-115",
+              "name": "屏東縣中低收入老人生活津貼",
+              "sourceLevel": "cross-check",
+              "sourceUrl": "https://www.gov.tw/News_Content_2_863413"
+            },
+            {
+              "id": "county-pingtung-social",
+              "name": "屏東縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/Default.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "pingtung-low-income-living-assistance-115",
+              "name": "屏東縣115年度低收入戶生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "pingtung-low-income-living-assistance-115",
+              "name": "屏東縣115年度低收入戶生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "宜蘭縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yilan-city-low-income-living-assistance-115",
+              "name": "宜蘭市低收入戶生活扶助與中低收入戶資格",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+            },
+            {
+              "id": "yilan-long-term-care-transport-115",
+              "name": "宜蘭縣長期照顧交通服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+            },
+            {
+              "id": "yilan-middle-low-income-elderly-allowance-115",
+              "name": "宜蘭縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372388&sms=16134"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "county-yilan-social",
+              "name": "宜蘭縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://sntroot.e-land.gov.tw/Default.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yilan-city-low-income-living-assistance-115",
+              "name": "宜蘭市低收入戶生活扶助與中低收入戶資格",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+            },
+            {
+              "id": "yilan-long-term-care-transport-115",
+              "name": "宜蘭縣長期照顧交通服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yilan-city-low-income-living-assistance-115",
+              "name": "宜蘭市低收入戶生活扶助與中低收入戶資格",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+            },
+            {
+              "id": "yilan-long-term-care-transport-115",
+              "name": "宜蘭縣長期照顧交通服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+            },
+            {
+              "id": "yilan-disability-living-allowance-115",
+              "name": "宜蘭縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372385&sms=16134"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yilan-long-term-care-transport-115",
+              "name": "宜蘭縣長期照顧交通服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+            },
+            {
+              "id": "yilan-middle-low-income-elderly-allowance-115",
+              "name": "宜蘭縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372388&sms=16134"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yilan-long-term-care-transport-115",
+              "name": "宜蘭縣長期照顧交通服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sntroot.e-land.gov.tw/cp.aspx?n=10407&s=1855"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yilan-city-low-income-living-assistance-115",
+              "name": "宜蘭市低收入戶生活扶助與中低收入戶資格",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "yilan-city-low-income-living-assistance-115",
+              "name": "宜蘭市低收入戶生活扶助與中低收入戶資格",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372392&sms=16134"
+            },
+            {
+              "id": "yilan-disability-living-allowance-115",
+              "name": "宜蘭縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372385&sms=16134"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "花蓮縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "hualien-low-income-living-assistance-115",
+              "name": "花蓮縣低收入戶及中低收入戶補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+            },
+            {
+              "id": "hualien-emergency-assistance",
+              "name": "花蓮縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+            },
+            {
+              "id": "hualien-disability-living-allowance-115",
+              "name": "花蓮縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "hualien-emergency-assistance",
+              "name": "花蓮縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 3,
+          "sampleRecords": [
+            {
+              "id": "hualien-emergency-assistance",
+              "name": "花蓮縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/ce71b2c5d6024dfca9eb1d6f87ba2974"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "hualien-low-income-living-assistance-115",
+              "name": "花蓮縣低收入戶及中低收入戶補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+            },
+            {
+              "id": "hualien-disability-living-allowance-115",
+              "name": "花蓮縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "hualien-low-income-living-assistance-115",
+              "name": "花蓮縣低收入戶及中低收入戶補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+            },
+            {
+              "id": "hualien-middle-low-income-elderly-allowance-115",
+              "name": "花蓮縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "hualien-middle-low-income-elderly-allowance-115",
+              "name": "花蓮縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/dc1acc8d6464424787aead9e1052f4e5"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 4,
+          "sampleRecords": [
+            {
+              "id": "hualien-low-income-living-assistance-115",
+              "name": "花蓮縣低收入戶及中低收入戶補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "hualien-low-income-living-assistance-115",
+              "name": "花蓮縣低收入戶及中低收入戶補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://sa.hl.gov.tw/Detail_sp/e600e5783a3d43859f310d41a8d2a089"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "臺東縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 5,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 2,
+          "centralFallbackCount": 15,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "taitung-learning-equipment-subsidy-115",
+              "name": "臺東縣115年度脫貧支持服務計畫購置學習設備補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d"
+            },
+            {
+              "id": "taitung-medical-assistance",
+              "name": "臺東縣中低收傷病醫療費用補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-entry",
+          "score": 40,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "county-taitung-social",
+              "name": "臺東縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "http://taisoc.taitung.gov.tw/WebSite/Page/index.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "taitung-medical-assistance",
+              "name": "臺東縣中低收傷病醫療費用補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=Iv8nUWDTvq4%3d"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-needs-confirmation",
+          "score": 58,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 14,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "taitung-disability-living-allowance-115",
+              "name": "臺東縣身心障礙者生活補助",
+              "sourceLevel": "cross-check",
+              "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+            },
+            {
+              "id": "county-taitung-social",
+              "name": "臺東縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "http://taisoc.taitung.gov.tw/WebSite/Page/index.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-needs-confirmation",
+          "score": 58,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 7,
+          "privateCount": 2,
+          "sampleRecords": [
+            {
+              "id": "taitung-middle-low-income-elderly-allowance-115",
+              "name": "臺東縣中低收入老人生活津貼",
+              "sourceLevel": "cross-check",
+              "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+            },
+            {
+              "id": "county-taitung-social",
+              "name": "臺東縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "http://taisoc.taitung.gov.tw/WebSite/Page/index.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-needs-confirmation",
+          "score": 46,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "taitung-middle-low-income-elderly-allowance-115",
+              "name": "臺東縣中低收入老人生活津貼",
+              "sourceLevel": "cross-check",
+              "sourceUrl": "https://www.taitungcity.gov.tw/article/%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E6%A5%AD%E5%8B%99"
+            },
+            {
+              "id": "county-taitung-social",
+              "name": "臺東縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "http://taisoc.taitung.gov.tw/WebSite/Page/index.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 1,
+          "sampleRecords": [
+            {
+              "id": "county-taitung-social",
+              "name": "臺東縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "http://taisoc.taitung.gov.tw/WebSite/Page/index.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "taitung-learning-equipment-subsidy-115",
+              "name": "臺東縣115年度脫貧支持服務計畫購置學習設備補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://taisoc.taitung.gov.tw/WebSite/Service/serviceDetail.aspx?menuid=lW%2bfKiAxClc%3d&page=1&id=pKJCfMLiUNA%3d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "澎湖縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 6,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 15,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "penghu-low-middle-income-living-assistance-115",
+              "name": "澎湖縣低收入戶及中低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260005&id=234"
+            },
+            {
+              "id": "penghu-emergency-assistance",
+              "name": "澎湖縣民眾遭遇急難事件救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260001&id=114"
+            },
+            {
+              "id": "penghu-after-school-care-subsidy-115",
+              "name": "澎湖縣115年度弱勢兒童課後照顧服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/Society/home.jsp?act=view&dataserno=201203020028&id=147"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "penghu-emergency-assistance",
+              "name": "澎湖縣民眾遭遇急難事件救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260001&id=114"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "penghu-emergency-assistance",
+              "name": "澎湖縣民眾遭遇急難事件救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260001&id=114"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "penghu-low-middle-income-living-assistance-115",
+              "name": "澎湖縣低收入戶及中低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260005&id=234"
+            },
+            {
+              "id": "penghu-after-school-care-subsidy-115",
+              "name": "澎湖縣115年度弱勢兒童課後照顧服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/Society/home.jsp?act=view&dataserno=201203020028&id=147"
+            },
+            {
+              "id": "penghu-disability-living-allowance-115",
+              "name": "澎湖縣身心障礙者生活補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=6FF931AE74219A47&s=EE5BE061F433EBC7"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-needs-confirmation",
+          "score": 58,
+          "localCount": 2,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 7,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "penghu-middle-low-income-elderly-allowance-115",
+              "name": "澎湖縣中低收入老人生活津貼",
+              "sourceLevel": "confirm",
+              "sourceUrl": "https://www.penghu.gov.tw/society/"
+            },
+            {
+              "id": "county-penghu-social",
+              "name": "澎湖縣政府社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.penghu.gov.tw/society/"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 3,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "penghu-after-school-care-subsidy-115",
+              "name": "澎湖縣115年度弱勢兒童課後照顧服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/Society/home.jsp?act=view&dataserno=201203020028&id=147"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "penghu-low-middle-income-living-assistance-115",
+              "name": "澎湖縣低收入戶及中低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260005&id=234"
+            },
+            {
+              "id": "penghu-after-school-care-subsidy-115",
+              "name": "澎湖縣115年度弱勢兒童課後照顧服務",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/Society/home.jsp?act=view&dataserno=201203020028&id=147"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "penghu-low-middle-income-living-assistance-115",
+              "name": "澎湖縣低收入戶及中低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201309260005&id=234"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "金門縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 6,
+          "strongLocalCount": 4,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 15,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "kinmen-low-income-living-assistance-115",
+              "name": "金門縣115年度低收入戶家庭生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=7A1D5BD79C00DCCC"
+            },
+            {
+              "id": "kinmen-emergency-assistance",
+              "name": "金門縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=FCE747C0D3337E3F"
+            },
+            {
+              "id": "kinmen-pre-registration-new-immigrant-social-assistance-115",
+              "name": "金門縣設籍前新住民社會救助計畫",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/Content_List.aspx?n=81A09B86DAF7E6C5"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "kinmen-emergency-assistance",
+              "name": "金門縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=FCE747C0D3337E3F"
+            },
+            {
+              "id": "kinmen-pre-registration-new-immigrant-social-assistance-115",
+              "name": "金門縣設籍前新住民社會救助計畫",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/Content_List.aspx?n=81A09B86DAF7E6C5"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "kinmen-low-income-living-assistance-115",
+              "name": "金門縣115年度低收入戶家庭生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=7A1D5BD79C00DCCC"
+            },
+            {
+              "id": "kinmen-emergency-assistance",
+              "name": "金門縣急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=FCE747C0D3337E3F"
+            },
+            {
+              "id": "kinmen-pre-registration-new-immigrant-social-assistance-115",
+              "name": "金門縣設籍前新住民社會救助計畫",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/Content_List.aspx?n=81A09B86DAF7E6C5"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 1,
+          "centralFallbackCount": 14,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "kinmen-low-income-living-assistance-115",
+              "name": "金門縣115年度低收入戶家庭生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=7A1D5BD79C00DCCC"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "kinmen-middle-low-income-elderly-allowance-115",
+              "name": "金門縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.kinmen.gov.tw/LawContent.aspx?id=FL033242&media=print"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "kinmen-middle-low-income-elderly-allowance-115",
+              "name": "金門縣中低收入老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.kinmen.gov.tw/LawContent.aspx?id=FL033242&media=print"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "kinmen-low-income-living-assistance-115",
+              "name": "金門縣115年度低收入戶家庭生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=7A1D5BD79C00DCCC"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "kinmen-low-income-living-assistance-115",
+              "name": "金門縣115年度低收入戶家庭生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=7A1D5BD79C00DCCC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "county": "連江縣",
+      "cells": [
+        {
+          "needId": "income",
+          "needLabel": "低收入／生活扶助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 6,
+          "strongLocalCount": 5,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 15,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "lienchiang-low-middle-income-living-assistance-115",
+              "name": "連江縣低收入戶及中低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000391&kw="
+            },
+            {
+              "id": "lienchiang-emergency-assistance",
+              "name": "連江縣政府民眾急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000064"
+            },
+            {
+              "id": "lienchiang-child-youth-medical-assistance",
+              "name": "連江縣低收入戶及弱勢兒少醫療補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000399"
+            }
+          ]
+        },
+        {
+          "needId": "emergency",
+          "needLabel": "急難救助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 2,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 6,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "lienchiang-emergency-assistance",
+              "name": "連江縣政府民眾急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000064"
+            }
+          ]
+        },
+        {
+          "needId": "medical",
+          "needLabel": "醫療／健保補助",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 11,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "lienchiang-emergency-assistance",
+              "name": "連江縣政府民眾急難救助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000064"
+            },
+            {
+              "id": "lienchiang-child-youth-medical-assistance",
+              "name": "連江縣低收入戶及弱勢兒少醫療補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000399"
+            },
+            {
+              "id": "lienchiang-disability-living-allowance-115",
+              "name": "連江縣身心障礙者生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf"
+            }
+          ]
+        },
+        {
+          "needId": "disability",
+          "needLabel": "身心障礙服務",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 4,
+          "strongLocalCount": 3,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 14,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "lienchiang-low-middle-income-living-assistance-115",
+              "name": "連江縣低收入戶及中低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000391&kw="
+            },
+            {
+              "id": "lienchiang-disability-living-allowance-115",
+              "name": "連江縣身心障礙者生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf"
+            },
+            {
+              "id": "lienchiang-middle-low-income-elderly-allowance-115",
+              "name": "連江縣中低收入戶老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000404&media=print"
+            }
+          ]
+        },
+        {
+          "needId": "elder",
+          "needLabel": "長者／老人津貼",
+          "status": "local-strong",
+          "score": 12,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 7,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "lienchiang-disability-living-allowance-115",
+              "name": "連江縣身心障礙者生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf"
+            },
+            {
+              "id": "lienchiang-middle-low-income-elderly-allowance-115",
+              "name": "連江縣中低收入戶老人生活津貼",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000404&media=print"
+            }
+          ]
+        },
+        {
+          "needId": "long_care",
+          "needLabel": "長照／照顧者",
+          "status": "local-entry",
+          "score": 28,
+          "localCount": 1,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 8,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "county-lienchiang-civil-social",
+              "name": "連江縣政府民政社會處",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.matsu.gov.tw/Chhtml/Index/371030000A0001"
+            }
+          ]
+        },
+        {
+          "needId": "child_family",
+          "needLabel": "兒少／家庭支持",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 3,
+          "strongLocalCount": 2,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 12,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "lienchiang-low-middle-income-living-assistance-115",
+              "name": "連江縣低收入戶及中低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000391&kw="
+            },
+            {
+              "id": "lienchiang-child-youth-medical-assistance",
+              "name": "連江縣低收入戶及弱勢兒少醫療補助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000399"
+            }
+          ]
+        },
+        {
+          "needId": "housing",
+          "needLabel": "租屋／居住壓力",
+          "status": "central-ok",
+          "score": 16,
+          "localCount": 0,
+          "strongLocalCount": 0,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "mohw-low-income-115-standards",
+              "name": "115年度低收入戶、中低收入戶資格審核標準",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://dep.mohw.gov.tw/DOSAASW/cp-566-84031-103.html"
+            },
+            {
+              "id": "mohw-emergency-assistance",
+              "name": "急難救助",
+              "sourceLevel": "entry",
+              "sourceUrl": "https://www.mohw.gov.tw/cp-190-226-1.html"
+            },
+            {
+              "id": "wda-labor-subsidy",
+              "name": "勞動部勞工補助與就業促進資源",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://emps.wda.gov.tw/Internet/Index/labor-subsidy.aspx"
+            }
+          ]
+        },
+        {
+          "needId": "education",
+          "needLabel": "學費／助學",
+          "status": "local-strong",
+          "score": 0,
+          "localCount": 1,
+          "strongLocalCount": 1,
+          "confirmLocalCount": 0,
+          "centralFallbackCount": 4,
+          "privateCount": 0,
+          "sampleRecords": [
+            {
+              "id": "lienchiang-low-middle-income-living-assistance-115",
+              "name": "連江縣低收入戶及中低收入戶生活扶助",
+              "sourceLevel": "strong",
+              "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000391&kw="
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gapCandidates": [
+    {
+      "county": "南投縣",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "基隆市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "屏東縣",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "新北市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "新竹縣",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "臺中市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "臺北市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "臺南市",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    },
+    {
+      "county": "雲林縣",
+      "needId": "medical",
+      "needLabel": "醫療／健保補助",
+      "status": "central-fallback",
+      "score": 90,
+      "query": "醫療 健保",
+      "reason": "需要地方細節或官方來源強化"
+    }
+  ]
+}

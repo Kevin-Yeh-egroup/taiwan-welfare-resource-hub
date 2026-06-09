@@ -5,7 +5,10 @@ const state = {
   category: "",
   currentOnly: false,
   group: "recommended",
-  records: []
+  records: [],
+  coverage: null,
+  sourceHealth: null,
+  batchGate: null
 };
 
 const labels = {
@@ -52,7 +55,14 @@ const els = {
   applyFilterButton: document.querySelector("#applyFilterButton"),
   centralResourceTotal: document.querySelector("#centralResourceTotal"),
   localResourceTotal: document.querySelector("#localResourceTotal"),
-  privateResourceTotal: document.querySelector("#privateResourceTotal")
+  privateResourceTotal: document.querySelector("#privateResourceTotal"),
+  coverageSummary: document.querySelector("#coverageSummary"),
+  hardWarningTotal: document.querySelector("#hardWarningTotal"),
+  transientWarningTotal: document.querySelector("#transientWarningTotal"),
+  batchGateMode: document.querySelector("#batchGateMode"),
+  batchGateList: document.querySelector("#batchGateList"),
+  guidedPath: document.querySelector("#guidedPath"),
+  decisionAid: document.querySelector("#decisionAid")
 };
 
 const hiddenDisplayValues = new Set(["none"]);
@@ -187,7 +197,7 @@ function matchesQuery(record) {
 
 function matchesBaseFilters(record) {
   if (!matchesQuery(record)) return false;
-  if (state.county && record.county !== state.county) return false;
+  if (state.county && record.county !== state.county && !isPublicCentralResource(record)) return false;
   if (state.audience && !(record.audiences || []).includes(state.audience)) return false;
   if (state.category && !(record.serviceCategories || []).includes(state.category)) return false;
   if (state.currentOnly && !hasDatedSource(record)) return false;
@@ -681,6 +691,119 @@ function currentFilteredRecords() {
     .sort((a, b) => rankRecord(b) - rankRecord(a) || String(a.name).localeCompare(String(b.name), "zh-Hant"));
 }
 
+function statusLabel(status) {
+  return {
+    "local-strong": "地方強來源",
+    "local-entry": "地方入口",
+    "local-needs-confirmation": "地方需確認",
+    "central-ok": "中央可用",
+    "central-fallback": "中央 fallback",
+    "private-only": "民間為主",
+    gap: "資料缺口"
+  }[status] || status;
+}
+
+function findCoverageCell(county, query) {
+  if (!state.coverage || !county) return null;
+  const row = (state.coverage.rows || []).find((item) => item.county === county);
+  if (!row) return null;
+  const text = String(query || "").toLowerCase();
+  return (row.cells || []).find((cell) => {
+    const need = (state.coverage.needs || []).find((item) => item.id === cell.needId);
+    return need && (need.terms || []).some((term) => text.includes(String(term).toLowerCase()));
+  }) || null;
+}
+
+function renderGuidedPath(filteredCount = 0) {
+  if (!els.guidedPath) return;
+  const steps = [
+    {
+      label: "1 選縣市",
+      value: state.county || "不限縣市",
+      state: state.county ? "done" : "active"
+    },
+    {
+      label: "2 選狀況",
+      value: state.query || state.category || "先選遇到的問題",
+      state: state.query || state.category ? "done" : "pending"
+    },
+    {
+      label: "3 看窗口",
+      value: filteredCount ? "看資格、文件、下一步" : "用官方 fallback",
+      state: filteredCount ? "done" : "pending"
+    }
+  ];
+  els.guidedPath.innerHTML = steps
+    .map(
+      (step) => `
+        <div class="guided-step is-${escapeHtml(step.state)}">
+          <span>${escapeHtml(step.label)}</span>
+          <strong>${escapeHtml(step.value)}</strong>
+        </div>
+      `
+    )
+    .join("");
+}
+
+function renderDecisionAid(filtered) {
+  if (!els.decisionAid) return;
+  const first = filtered[0];
+  const coverageCell = findCoverageCell(state.county, state.query || state.category);
+  let message = "先看前幾張卡的資格、文件、下一步，再開來源頁確認。";
+  let tone = "steady";
+  if (!state.county && !state.query && !state.category) {
+    message = "先從縣市或遇到的狀況開始，結果會優先排出較相關的卡片。";
+  } else if (!filtered.length) {
+    message = "查不到不代表沒有福利，先改用社會局、公所、1957或社福中心查詢。";
+    tone = "alert";
+  } else if (coverageCell && ["gap", "central-fallback", "private-only"].includes(coverageCell.status)) {
+    message = `這個主題目前是「${statusLabel(coverageCell.status)}」，申請前要再問所在地社會局處或公所。`;
+    tone = "caution";
+  } else if (first && sourceConfidence(first).level === "strong") {
+    message = "第一批結果已有較完整來源，先比對資格和應備文件，再用來源頁確認。";
+  }
+  els.decisionAid.className = `decision-aid tone-${tone}`;
+  els.decisionAid.innerHTML = `
+    <strong>下一步</strong>
+    <span>${escapeHtml(message)}</span>
+  `;
+}
+
+function renderOperationalPanels() {
+  if (els.coverageSummary && state.coverage?.summary) {
+    const summary = state.coverage.summary;
+    const strong = summary.strongOrCentralOkPairs || 0;
+    const total = summary.totalPairs || 0;
+    const attention = summary.attentionPairs || 0;
+    els.coverageSummary.textContent = `目前 ${strong}/${total} 個縣市與需求組合已有較穩來源，${attention} 個組合列入觀察或補強。`;
+  }
+  if (els.hardWarningTotal && state.sourceHealth?.summary) {
+    els.hardWarningTotal.textContent = state.sourceHealth.summary.hardWarnings ?? 0;
+    els.transientWarningTotal.textContent = state.sourceHealth.summary.transientWarnings ?? 0;
+  }
+  if (els.batchGateMode && state.batchGate?.decision) {
+    const mode = state.batchGate.decision.recommendedMode || "maintain-and-target";
+    els.batchGateMode.textContent = mode === "maintain-and-target" ? "缺口驅動" : mode;
+  }
+  if (els.batchGateList && state.batchGate?.topCandidates) {
+    const candidates = state.batchGate.topCandidates.slice(0, 6);
+    if (!candidates.length) {
+      els.batchGateList.innerHTML = `<p>目前沒有高優先新增批次，先維持來源健康與搜尋體驗。</p>`;
+      return;
+    }
+    els.batchGateList.innerHTML = candidates
+      .map(
+        (item) => `
+          <button type="button" data-gap-county="${escapeHtml(item.county)}" data-gap-query="${escapeHtml(item.query)}">
+            <strong>${escapeHtml(item.county)} ${escapeHtml(item.needLabel)}</strong>
+            <span>${escapeHtml(statusLabel(item.status))}</span>
+          </button>
+        `
+      )
+      .join("");
+  }
+}
+
 function groupVisibleRecords(records) {
   const visibleIds = new Set(records.map((record) => record.id));
   const childrenByParent = new Map();
@@ -734,6 +857,8 @@ function render() {
       ? `找到 ${filtered.length} 筆可參考資源${collapsedCount ? `，合併顯示為 ${visibleCards.length} 張卡` : ""}`
       : `${groupLabel} ${filtered.length} 筆，先顯示 ${visibleCards.length} 張卡${collapsedCount ? `（已收合 ${collapsedCount} 筆同單位方案）` : ""}${hasBaseFilter && baseCount !== filtered.length ? `；目前篩選共 ${baseCount} 筆` : ""}`;
   renderActiveFilters();
+  renderGuidedPath(filtered.length);
+  renderDecisionAid(filtered);
   syncGroupButtons();
   syncShortcutButtons();
 
@@ -753,6 +878,10 @@ function renderEmptyState() {
   const countyHint = state.county ? `${state.county} 社會局 公所` : "社會局 公所";
   const currentQuery = state.query.trim();
   const shortQuery = currentQuery.split(/\s+/)[0] || "低收入戶";
+  const coverageCell = findCoverageCell(state.county, currentQuery || state.category);
+  const gapText = coverageCell && ["gap", "central-fallback", "private-only"].includes(coverageCell.status)
+    ? `目前覆蓋矩陣標示為「${statusLabel(coverageCell.status)}」，這比較像資料需要補強，不代表沒有資源。`
+    : "這可能是關鍵字太窄、縣市限制太細，或資料仍在補強。";
   const suggestions = [
     countyHint,
     shortQuery,
@@ -764,6 +893,7 @@ function renderEmptyState() {
     <div class="empty-state detailed-empty">
       <div>
         <strong>目前沒有找到完全符合的資源</strong>
+        <p>${escapeHtml(gapText)}</p>
         <p>先放寬條件通常比較快：取消縣市或身分限制，再用短一點的詞搜尋。若是急迫狀況，可以先問1957或所在地社會局處。</p>
       </div>
       <div class="empty-actions">
@@ -921,18 +1051,51 @@ function bindEvents() {
       render();
     });
   });
+  els.batchGateList?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-gap-query]");
+    if (!button) return;
+    state.county = button.dataset.gapCounty || "";
+    state.query = button.dataset.gapQuery || "";
+    state.audience = "";
+    state.category = "";
+    state.currentOnly = false;
+    state.group = "all";
+    syncControls();
+    render();
+    scrollToResults();
+  });
+}
+
+async function loadOptionalJson(path) {
+  try {
+    const response = await fetch(path, { cache: "no-store" });
+    if (!response.ok) return null;
+    return await response.json();
+  } catch (error) {
+    console.warn(`Unable to load ${path}`, error);
+    return null;
+  }
 }
 
 async function init() {
   try {
     bindEvents();
     document.body.classList.remove("is-booting");
-    const response = await fetch("data/resources.json", { cache: "no-store" });
-    const data = await response.json();
+    const [data, coverage, sourceHealth, batchGate] = await Promise.all([
+      loadOptionalJson("data/resources.json"),
+      loadOptionalJson("data/coverage-matrix.json"),
+      loadOptionalJson("data/source-health-summary.json"),
+      loadOptionalJson("data/batch-gate.json")
+    ]);
+    if (!data) throw new Error("Unable to load data/resources.json");
     state.records = hydrateRelatedPrograms(data.records || []);
+    state.coverage = coverage;
+    state.sourceHealth = sourceHealth;
+    state.batchGate = batchGate;
     setupFilters(state.records);
     syncControls();
     updateStats(state.records);
+    renderOperationalPanels();
     render();
   } catch (error) {
     els.resultCount.textContent = "資料載入失敗";
