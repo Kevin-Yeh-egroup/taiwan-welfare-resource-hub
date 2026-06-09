@@ -7,7 +7,7 @@
 - Public GitHub repo: https://github.com/Kevin-Yeh-egroup/taiwan-welfare-resource-hub
 - Vercel Production: https://taiwan-welfare-resource-hub.vercel.app/
 - Review-stage `noindex` 保留中：HTML meta robots、`robots.txt`、Vercel `X-Robots-Tag` 都會阻擋搜尋引擎索引。
-- Current dataset: 551 resource records from 126 allowlisted sources.
+- Current dataset: 562 resource records from 137 allowlisted sources.
 - Foundation coverage: 355 official SFAA national social-welfare foundation records queried on 2026-06-03.
 - Reviewed foundation program cards: 71 manually allowlisted program/service pages converted from candidate crawls.
 - Batch 0/1 central expansion: 9 high-demand nationwide cards for national pension premium subsidy, special-circumstances families, disability welfare, childcare, elder welfare, education tuition reduction, labor subsidy, 115 rent subsidy, and 113 protection hotline.
@@ -28,6 +28,9 @@
 - V2 Batch 5E local deep-dive: 10 new official/cross-checked cards for Yunlin, Chiayi City, Chiayi County, Hualien, and Taitung disability living allowances and middle-low-income elderly living allowances.
 - V2 Batch 5F annual-standard audit: refreshed the 115年度 low-income/middle-low-income standard card, Taiwan/Fujian source links, and "臺灣省" explanation/search terms.
 - V2 Batch 5G Taiwan search/UX pass: added common Taiwan query synonyms such as `台/臺`, `身障/身心障礙`, `低收/低收入戶`, `中低收/中低收入戶`, and elder-allowance wording.
+- V2 Batch 6A local closure: 8 new official/cross-checked cards for Taoyuan, Tainan, Penghu, Kinmen, and Lienchiang disability living allowances and middle-low-income elder allowances, with local-confirmation labels where current detail pages are incomplete.
+- V2 Batch 6D high-intent central expansion: 3 new nationwide cards for family caregiver support, low-income student grants, and child/youth economic support; the 115 rent-subsidy card now points to the MOI official update and hotline.
+- UX-1 search and no-result pass: added high-demand query synonyms, source-confidence rows, match-reason chips, no-result suggestions, and quick tiles for rent pressure and caregiver support.
 
 ## Local Preview
 

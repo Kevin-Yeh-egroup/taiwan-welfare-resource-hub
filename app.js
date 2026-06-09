@@ -10,7 +10,11 @@ const state = {
 
 const labels = {
   "official-entry": "官方入口",
+  "official-report": "官方報告",
+  "official-statistical-brief": "官方統計",
   "source-dated": "來源有日期",
+  "source-dated-list": "日期清單",
+  "needs-local-confirmation": "需向公所確認",
   checked: "已檢查",
   "needs-review": "需再確認"
 };
@@ -139,11 +143,27 @@ const querySynonyms = [
   ["低收", "低收入戶"],
   ["中低收", "中低收入戶"],
   ["身障", "身心障礙"],
+  ["殘障", "身心障礙", "身障"],
+  ["身障津貼", "身障生活補助", "身心障礙者生活補助"],
   ["老人津貼", "老人生活津貼"],
   ["老人生活補助", "老人生活津貼"],
   ["老人生活津貼", "中低收入老人生活津貼"],
+  ["長輩補助", "老人生活津貼", "中低收入老人生活津貼"],
   ["公所", "鄉鎮市公所", "區公所"],
   ["金門連江", "福建省", "金門", "連江"],
+  ["租屋", "租金補貼", "房租", "房租補助", "住宅補貼"],
+  ["房租", "租金補貼", "租屋補助"],
+  ["照顧者", "家庭照顧者", "喘息", "長照"],
+  ["顧老人", "家庭照顧者", "長照", "1966"],
+  ["輔具", "生活輔具", "輔具補助", "身心障礙"],
+  ["復康巴士", "交通接送", "長照交通", "身障交通"],
+  ["小孩", "兒童", "兒少", "兒少家庭"],
+  ["小朋友", "兒童", "兒少", "兒少家庭"],
+  ["單親", "特殊境遇家庭", "家庭支持"],
+  ["學費", "學雜費減免", "助學金", "清寒獎學金"],
+  ["助學", "助學金", "學雜費減免", "低收入戶學生"],
+  ["繳不起健保", "健保費補助", "保費補助"],
+  ["不知道找誰", "1957", "社會福利服務中心", "社福中心"],
 ];
 
 function queryTermGroups() {
@@ -170,8 +190,13 @@ function matchesBaseFilters(record) {
   if (state.county && record.county !== state.county) return false;
   if (state.audience && !(record.audiences || []).includes(state.audience)) return false;
   if (state.category && !(record.serviceCategories || []).includes(state.category)) return false;
-  if (state.currentOnly && record.freshness?.confidence !== "source-dated") return false;
+  if (state.currentOnly && !hasDatedSource(record)) return false;
   return true;
+}
+
+function hasDatedSource(record) {
+  const confidence = record.freshness?.confidence || "";
+  return Boolean(record.freshness?.sourceUpdatedAt) || ["source-dated", "source-dated-list", "checked", "official-report", "official-statistical-brief"].includes(confidence);
 }
 
 function parentFoundationId(record) {
@@ -278,6 +303,78 @@ function rankRecord(record) {
 
 function statusText(status) {
   return labels[status] || "已收錄";
+}
+
+function sourceConfidence(record) {
+  const confidence = record.freshness?.confidence || "needs-review";
+  const sourceType = record.source?.type || "";
+  if (confidence === "needs-local-confirmation") {
+    return {
+      level: "confirm",
+      label: "需向公所確認",
+      note: "找到官方入口或法規線索，但最新受理細節仍要打給戶籍地公所或主管機關。"
+    };
+  }
+  if (/cross-check/.test(sourceType)) {
+    return {
+      level: "confirm",
+      label: "交叉查核",
+      note: "來源可用，但年度金額、文件或細節仍以送件窗口核定為準。"
+    };
+  }
+  if (hasDatedSource(record)) {
+    return {
+      level: "strong",
+      label: "來源較完整",
+      note: "來源頁有日期、更新時間或已完成年度查核。"
+    };
+  }
+  if (isGovernmentResource(record)) {
+    return {
+      level: "entry",
+      label: "官方入口",
+      note: "可先用來找到主管機關，再確認今年度資格與申請文件。"
+    };
+  }
+  return {
+    level: "review",
+    label: "需再確認",
+    note: "民間方案與名額可能變動，申請前請電話確認。"
+  };
+}
+
+function renderSourceConfidence(record) {
+  const info = sourceConfidence(record);
+  const checked = record.freshness?.lastChecked ? `查核：${record.freshness.lastChecked}` : "查核日未標示";
+  return `
+    <div class="source-confidence source-${escapeHtml(info.level)}">
+      <strong>${escapeHtml(info.label)}</strong>
+      <span>${escapeHtml(info.note)}</span>
+      <small>${escapeHtml(checked)}</small>
+    </div>
+  `;
+}
+
+function matchedTerms(record) {
+  const groups = queryTermGroups();
+  if (!groups.length) return [];
+  const text = searchableText(record);
+  return [...new Set(groups.map((group) => group.find((term) => text.includes(term))).filter(Boolean))].slice(0, 4);
+}
+
+function renderMatchReasons(record) {
+  const matches = matchedTerms(record);
+  const reasons = [
+    ...matches.map((term) => `符合「${term}」`),
+    state.county && record.county === state.county ? `縣市是${state.county}` : "",
+    state.audience && (record.audiences || []).includes(state.audience) ? `身分含${state.audience}` : ""
+  ].filter(Boolean);
+  if (!reasons.length) return "";
+  return `
+    <div class="match-reasons" aria-label="查詢命中原因">
+      ${reasons.slice(0, 5).map((reason) => `<span>${escapeHtml(reason)}</span>`).join("")}
+    </div>
+  `;
 }
 
 function needMeta(record) {
@@ -521,6 +618,8 @@ function renderRecord(record) {
         ${visibleCategories.slice(0, 2).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
       </div>
 
+      ${renderSourceConfidence(record)}
+      ${renderMatchReasons(record)}
       ${renderApplicationConditions(record)}
       ${renderBenefitItems(record)}
       ${renderApplicationMethod(record)}
@@ -639,7 +738,7 @@ function render() {
   syncShortcutButtons();
 
   if (!visible.length) {
-    els.results.innerHTML = `<div class="empty-state"><p>目前沒有找到符合條件的資源。可以改用比較短的說法，例如「低收入戶」、「急難」、「長照」，或先取消縣市、身分、日期限制。</p></div>`;
+    els.results.innerHTML = renderEmptyState();
     return;
   }
 
@@ -648,6 +747,31 @@ function render() {
       ? `<div class="more-note">這組還有 ${filtered.length - visible.length} 筆。可以切到「全部結果」，或用縣市、身分、資源類別再縮小。</div>`
       : "";
   els.results.innerHTML = visibleCards.map(renderRecord).join("") + moreNote;
+}
+
+function renderEmptyState() {
+  const countyHint = state.county ? `${state.county} 社會局 公所` : "社會局 公所";
+  const currentQuery = state.query.trim();
+  const shortQuery = currentQuery.split(/\s+/)[0] || "低收入戶";
+  const suggestions = [
+    countyHint,
+    shortQuery,
+    "1957 福利諮詢",
+    "社福中心"
+  ].filter(Boolean);
+  const unique = [...new Set(suggestions)].slice(0, 4);
+  return `
+    <div class="empty-state detailed-empty">
+      <div>
+        <strong>目前沒有找到完全符合的資源</strong>
+        <p>先放寬條件通常比較快：取消縣市或身分限制，再用短一點的詞搜尋。若是急迫狀況，可以先問1957或所在地社會局處。</p>
+      </div>
+      <div class="empty-actions">
+        ${unique.map((item) => `<button type="button" data-empty-query="${escapeHtml(item)}">${escapeHtml(item)}</button>`).join("")}
+        <button type="button" data-empty-action="broaden">放寬所有條件</button>
+      </div>
+    </div>
+  `;
 }
 
 function updateStats(records) {
@@ -766,6 +890,24 @@ function bindEvents() {
     render();
   });
   els.applyFilterButton.addEventListener("click", showResourceDescriptions);
+  els.results.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-empty-query], [data-empty-action]");
+    if (!button) return;
+    if (button.dataset.emptyAction === "broaden") {
+      resetFilters();
+      scrollToResults();
+      return;
+    }
+    state.query = button.dataset.emptyQuery || "";
+    state.county = "";
+    state.audience = "";
+    state.category = "";
+    state.currentOnly = false;
+    state.group = "all";
+    syncControls();
+    render();
+    scrollToResults();
+  });
 
   document.querySelectorAll("[data-need]").forEach((button) => {
     button.addEventListener("click", () => applyShortcut({ query: button.dataset.need || "" }));

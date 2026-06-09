@@ -1166,7 +1166,7 @@
     {
       "id": "moi-rent-subsidy-115",
       "name": "115年300億元中央擴大租金補貼",
-      "url": "https://www.gov.tw/News_Content_37_561179",
+      "url": "https://www.moi.gov.tw/News_Content.aspx?n=4&s=318897",
       "organization": "內政部國土管理署",
       "jurisdiction": "全國",
       "sourceType": "official-annual-program",
@@ -1180,7 +1180,7 @@
         "中低收入戶"
       ],
       "record": {
-        "summary": "115年度300億元中央擴大租金補貼，協助租屋家庭減輕租金負擔，申請期間為115年1月1日至115年12月31日。",
+        "summary": "115年度300億元中央擴大租金補貼，協助租屋家庭減輕租金負擔；可由內政部住宅補貼專線或官方租金補貼網站確認申請、續領與撥款狀態。",
         "audiences": [
           "租屋家庭",
           "低收入戶",
@@ -1199,11 +1199,283 @@
           "300億租金補貼",
           "115年租金補貼",
           "房租",
-          "住宅補貼"
+          "房租補助",
+          "住宅補貼",
+          "租屋",
+          "居住壓力"
         ],
+        "howToApply": [
+          "先確認是否租屋且未重複領取其他同性質住宅補貼。",
+          "到內政部住宅補貼或300億元中央擴大租金補貼網站查詢申請期間、續領及撥款資訊。",
+          "如遇申請狀態、撥款或資格疑問，可撥住宅補貼諮詢專線02-7729-8003。"
+        ],
+        "documents": [
+          "租賃契約或租屋事實資料",
+          "申請人與家庭成員身分資料",
+          "金融帳戶",
+          "所得、住宅持有或其他資格審查資料"
+        ],
+        "contact": {
+          "phone": "02-7729-8003",
+          "website": "https://www.moi.gov.tw/News_Content.aspx?n=4&s=318897"
+        },
         "id": "moi-rent-subsidy-115",
         "name": "115年300億元中央擴大租金補貼",
         "provider": "內政部國土管理署",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "mohw-family-caregiver-support-1966",
+      "name": "1966家庭照顧者支持服務",
+      "url": "https://1966.gov.tw/LTC/lp-6455-207.html",
+      "organization": "衛生福利部長照專區",
+      "jurisdiction": "全國",
+      "sourceType": "official-program",
+      "tags": [
+        "中央",
+        "長照",
+        "家庭照顧者",
+        "喘息",
+        "照顧者支持",
+        "1966"
+      ],
+      "record": {
+        "summary": "照顧失能、失智或長照需要者的家人，可由1966長照專線或各地家照據點查詢喘息、支持服務、照顧技巧與照顧壓力支持。",
+        "audiences": [
+          "家庭照顧者",
+          "照顧者",
+          "老人",
+          "身心障礙者",
+          "長照家庭"
+        ],
+        "serviceCategories": [
+          "長照",
+          "家庭照顧者支持",
+          "喘息服務",
+          "照顧服務"
+        ],
+        "needTags": [
+          "家庭照顧者",
+          "照顧者支持",
+          "喘息",
+          "長照",
+          "1966",
+          "家照據點",
+          "失智照顧",
+          "青少年照顧者"
+        ],
+        "eligibility": "家中有人需要長照、失智照顧、失能照顧或照顧者支持時，可先洽1966或地方長照窗口；實際服務仍依長照評估、照顧計畫及地方據點受理狀態辦理。",
+        "howToApply": [
+          "撥打1966或洽地方長照管理中心。",
+          "說明被照顧者狀況、照顧壓力、是否需要喘息或家照據點支持。",
+          "依地方長照窗口安排評估、轉介或服務連結。"
+        ],
+        "documents": [
+          "被照顧者身分與健康狀況資料",
+          "長照評估或醫療資料（如有）",
+          "福利身分證明（如有）",
+          "地方窗口要求文件"
+        ],
+        "contact": {
+          "phone": "1966",
+          "website": "https://1966.gov.tw/LTC/lp-6455-207.html"
+        },
+        "id": "mohw-family-caregiver-support-1966",
+        "name": "1966家庭照顧者支持服務",
+        "provider": "衛生福利部長照專區",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "moe-low-income-student-grant",
+      "name": "教育部學產基金低收入戶學生助學金",
+      "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000019&media=print",
+      "organization": "教育部",
+      "jurisdiction": "全國",
+      "sourceType": "official-program",
+      "tags": [
+        "中央",
+        "教育部",
+        "低收入戶",
+        "學生",
+        "助學金",
+        "學產基金"
+      ],
+      "record": {
+        "summary": "教育部學產基金協助低收入戶學生就學，國中小、高中職、五專、大專各級依規定核給每學期助學金。",
+        "audiences": [
+          "低收入戶",
+          "學生",
+          "兒童及青少年",
+          "大專學生"
+        ],
+        "serviceCategories": [
+          "助學",
+          "教育補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "低收入戶學生",
+          "助學金",
+          "學產基金",
+          "清寒助學",
+          "國中小助學金",
+          "高中助學金",
+          "大學助學金"
+        ],
+        "eligibility": "設籍臺灣地區、金門縣或連江縣且持有低收入戶證明之在學學生；不同學制需符合成績、懲處與不得重複領取其他政府補助等規定。",
+        "benefitSourceNote": "教育部學產基金實施要點列明各級學校每學期助學金額；實際名額與申請期間以學校及教育主管機關公告為準。",
+        "benefitItems": [
+          {
+            "label": "國民小學、國民中學",
+            "amount": "2,500元",
+            "unit": "每人每學期",
+            "note": "需持低收入戶證明並符合在學及懲處規定。",
+            "sourceDate": "修正日期112-12-25；查核日2026-06-09",
+            "sourceUrl": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000019&media=print"
+          },
+          {
+            "label": "高中職及五專前三年",
+            "amount": "4,000元",
+            "unit": "每人每學期",
+            "note": "一年級新生免審前一學期成績；其餘依要點審查。",
+            "sourceDate": "修正日期112-12-25；查核日2026-06-09",
+            "sourceUrl": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000019&media=print"
+          },
+          {
+            "label": "大學、專科及五專後二年",
+            "amount": "5,000元",
+            "unit": "每人每學期",
+            "note": "不得與列明之同性質政府就學補助重複請領。",
+            "sourceDate": "修正日期112-12-25；查核日2026-06-09",
+            "sourceUrl": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000019&media=print"
+          }
+        ],
+        "howToApply": [
+          "在申請期間內向就讀學校提出申請。",
+          "由學校初審後送教育局處或承辦學校彙整，再送教育部複審。",
+          "注意是否已領其他學雜費減免或政府助學補助，避免重複。"
+        ],
+        "documents": [
+          "低收入戶證明",
+          "申請表",
+          "切結書",
+          "學校要求之成績或在學資料",
+          "其他學校公告文件"
+        ],
+        "contact": {
+          "website": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000019&media=print"
+        },
+        "id": "moe-low-income-student-grant",
+        "name": "教育部學產基金低收入戶學生助學金",
+        "provider": "教育部",
+        "jurisdiction": "全國",
+        "county": "全國",
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "official-entry",
+          "notes": "Official source entry; specific program pages should be checked from the linked source."
+        }
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "mohw-child-youth-economic-support",
+      "name": "兒童及少年福利與弱勢兒少支持入口",
+      "url": "https://www.mohw.gov.tw/cp-88-223-1.html",
+      "organization": "衛生福利部",
+      "jurisdiction": "全國",
+      "sourceType": "official-portal",
+      "tags": [
+        "中央",
+        "兒少福利",
+        "兒童",
+        "少年",
+        "弱勢兒少",
+        "家庭支持"
+      ],
+      "record": {
+        "summary": "兒童及少年福利主題入口，可作為查詢弱勢兒少生活扶助、托育、醫療、保護服務與地方兒少福利窗口的第一站。",
+        "audiences": [
+          "兒童及青少年",
+          "家庭",
+          "低收入戶",
+          "中低收入戶",
+          "弱勢家庭"
+        ],
+        "serviceCategories": [
+          "兒少家庭",
+          "家庭支持",
+          "經濟弱勢",
+          "保護服務"
+        ],
+        "needTags": [
+          "兒少補助",
+          "弱勢兒少",
+          "兒童生活扶助",
+          "少年福利",
+          "兒童醫療",
+          "兒少家庭",
+          "托育"
+        ],
+        "eligibility": "兒少福利項目多由地方政府或學校依年齡、家庭經濟狀況、保護需求及就學狀態審查；可先由中央入口確認類型，再回戶籍地或所在地主管機關申請。",
+        "howToApply": [
+          "先用兒少福利入口確認服務類型。",
+          "依兒少戶籍地、居住地或就讀學校洽社會局處、教育單位或社福中心。",
+          "若涉及保護、安全或急迫風險，改撥113或1957尋求即時協助。"
+        ],
+        "documents": [
+          "兒少身分資料",
+          "家庭經濟證明",
+          "就學或醫療資料",
+          "保護或急難事實資料",
+          "地方主管機關要求文件"
+        ],
+        "contact": {
+          "website": "https://www.mohw.gov.tw/cp-88-223-1.html"
+        },
+        "id": "mohw-child-youth-economic-support",
+        "name": "兒童及少年福利與弱勢兒少支持入口",
+        "provider": "衛生福利部",
         "jurisdiction": "全國",
         "county": "全國",
         "freshness": {
@@ -10264,6 +10536,967 @@
         "provider": "臺東市公所／臺東縣政府",
         "jurisdiction": "臺東縣",
         "county": "臺東縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "taoyuan-disability-living-allowance-115",
+      "name": "桃園市身心障礙者生活補助",
+      "url": "https://sab.tycg.gov.tw/cp.aspx?n=7356",
+      "organization": "桃園市政府社會局",
+      "jurisdiction": "桃園市",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "桃園市",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "桃園市身心障礙者生活補助，協助設籍或實際居住桃園市、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "桃園市身障生活補助",
+          "桃園市身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住桃園市，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "桃園市政府社會局頁面列出洽辦單位、服務內容、115年度收入財產標準、文件與聯絡電話。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合桃園市設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "桃園市政府社會局頁面查核日2026-06-09",
+            "sourceUrl": "https://sab.tycg.gov.tw/cp.aspx?n=7356"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均未達當年度每人每月最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍39,960元；存款本金及有價證券1人時未超過200萬元，每增加1人增加25萬元；土地及房屋價值合計未超過770萬元。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "桃園市政府社會局頁面查核日2026-06-09",
+            "sourceUrl": "https://sab.tycg.gov.tw/cp.aspx?n=7356"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "桃園市政府社會局頁面查核日2026-06-09",
+            "sourceUrl": "https://sab.tycg.gov.tw/cp.aspx?n=7356"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "桃園市政府社會局頁面查核日2026-06-09",
+            "sourceUrl": "https://sab.tycg.gov.tw/cp.aspx?n=7356"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "桃園市政府社會局頁面查核日2026-06-09",
+            "sourceUrl": "https://sab.tycg.gov.tw/cp.aspx?n=7356"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地各區公所社會課提出申請。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "向戶籍所在地各區公所社會課提出申請。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": "03-3350628、03-3322101分機6402-6407",
+          "website": "https://sab.tycg.gov.tw/cp.aspx?n=7356"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "桃園市政府社會局頁面列出洽辦單位、服務內容、115年度收入財產標準、文件與聯絡電話。"
+        },
+        "id": "taoyuan-disability-living-allowance-115",
+        "name": "桃園市身心障礙者生活補助",
+        "provider": "桃園市政府社會局",
+        "jurisdiction": "桃園市",
+        "county": "桃園市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "tainan-disability-living-allowance-115",
+      "name": "臺南市身心障礙者生活補助",
+      "url": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407",
+      "organization": "臺南市政府社會局",
+      "jurisdiction": "臺南市",
+      "sourceType": "official-local-application",
+      "tags": [
+        "地方政府",
+        "臺南市",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "臺南市身心障礙者生活補助，協助設籍或實際居住臺南市、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "臺南市身障生活補助",
+          "臺南市身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住臺南市，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "臺南市政府社會局頁面列出115年度補助金額、資格條件、收入財產標準、應備文件與戶籍地區公所受理方式。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合臺南市設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "修改時間115-05-04；查核日2026-06-09",
+            "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均分配全家人口未達當年度每人每月最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；115年度為38,788元。存款本金及有價證券1人時未超過200萬元，每增加1人增加25萬元；土地及房屋價值合計未超過770萬元。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "修改時間115-05-04；查核日2026-06-09",
+            "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "修改時間115-05-04；查核日2026-06-09",
+            "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "修改時間115-05-04；查核日2026-06-09",
+            "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "修改時間115-05-04；查核日2026-06-09",
+            "sourceUrl": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍地區公所社會課提出申請。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "向戶籍地區公所社會課提出申請。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "115-05-04",
+          "confidence": "source-dated",
+          "notes": "臺南市政府社會局頁面列出115年度補助金額、資格條件、收入財產標準、應備文件與戶籍地區公所受理方式。"
+        },
+        "id": "tainan-disability-living-allowance-115",
+        "name": "臺南市身心障礙者生活補助",
+        "provider": "臺南市政府社會局",
+        "jurisdiction": "臺南市",
+        "county": "臺南市"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "penghu-disability-living-allowance-115",
+      "name": "澎湖縣身心障礙者生活補助",
+      "url": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=6FF931AE74219A47&s=EE5BE061F433EBC7",
+      "organization": "澎湖縣政府社會處",
+      "jurisdiction": "澎湖縣",
+      "sourceType": "official-online-application",
+      "tags": [
+        "地方政府",
+        "澎湖縣",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "澎湖縣身心障礙者生活補助，協助設籍或實際居住澎湖縣、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "澎湖縣身障生活補助",
+          "澎湖縣身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住澎湖縣，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "澎湖縣線上申辦頁列出身心障礙者生活補助費資格、應備文件、線上/臨櫃申請方式、處理時間與承辦電話；115年度總清查消息另確認此補助仍在辦理。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合澎湖縣設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "線上申辦更新日期113-06-05；查核日2026-06-09",
+            "sourceUrl": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=6FF931AE74219A47&s=EE5BE061F433EBC7"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均未達當年度每人每月最低生活費2.5倍；土地及房屋價值合計未超過650萬元；存款本金及有價證券1人時未超過200萬元，每增加1人增加25萬元。年度金額仍請以公所或縣府最新審查為準。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "線上申辦更新日期113-06-05；查核日2026-06-09",
+            "sourceUrl": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=6FF931AE74219A47&s=EE5BE061F433EBC7"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "線上申辦更新日期113-06-05；查核日2026-06-09",
+            "sourceUrl": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=6FF931AE74219A47&s=EE5BE061F433EBC7"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "線上申辦更新日期113-06-05；查核日2026-06-09",
+            "sourceUrl": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=6FF931AE74219A47&s=EE5BE061F433EBC7"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "線上申辦更新日期113-06-05；查核日2026-06-09",
+            "sourceUrl": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=6FF931AE74219A47&s=EE5BE061F433EBC7"
+          }
+        ],
+        "applicationMethodSourceNote": "親洽轄區村里幹事或公所社會課、民政課，也可依線上申辦頁辦理。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "親洽轄區村里幹事或公所社會課、民政課，也可依線上申辦頁辦理。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": "06-9274400分機560",
+          "website": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=6FF931AE74219A47&s=EE5BE061F433EBC7"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "113-06-05",
+          "confidence": "source-dated",
+          "notes": "澎湖縣線上申辦頁列出身心障礙者生活補助費資格、應備文件、線上/臨櫃申請方式、處理時間與承辦電話；115年度總清查消息另確認此補助仍在辦理。"
+        },
+        "id": "penghu-disability-living-allowance-115",
+        "name": "澎湖縣身心障礙者生活補助",
+        "provider": "澎湖縣政府社會處",
+        "jurisdiction": "澎湖縣",
+        "county": "澎湖縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "penghu-middle-low-income-elderly-allowance-115",
+      "name": "澎湖縣中低收入老人生活津貼",
+      "url": "https://www.penghu.gov.tw/society/",
+      "organization": "澎湖縣政府社會處",
+      "jurisdiction": "澎湖縣",
+      "sourceType": "official-local-entry-cross-check",
+      "tags": [
+        "地方政府",
+        "澎湖縣",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "澎湖縣中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "澎湖縣中低收入老人",
+          "澎湖縣老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住澎湖縣，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "本次查得澎湖縣政府社會處老人福利服務與公務統計入口，但未取得穩定的最新中低收入老人生活津貼申辦詳頁；金額以中央115年度標準交叉查核，送件前務必向戶籍地公所或澎湖縣政府社會處確認。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住澎湖縣，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "澎湖縣政府社會處入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.penghu.gov.tw/society/"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "澎湖縣政府社會處入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.penghu.gov.tw/society/"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "澎湖縣政府社會處入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.penghu.gov.tw/society/"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "澎湖縣政府社會處入口查核日2026-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://www.penghu.gov.tw/society/"
+          }
+        ],
+        "applicationMethodSourceNote": "先洽戶籍所在地鄉市公所或澎湖縣政府社會處確認是否受理與應備文件。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "先洽戶籍所在地鄉市公所或澎湖縣政府社會處確認是否受理與應備文件。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": "06-9274400",
+          "website": "https://www.penghu.gov.tw/society/"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "needs-local-confirmation",
+          "notes": "本次查得澎湖縣政府社會處老人福利服務與公務統計入口，但未取得穩定的最新中低收入老人生活津貼申辦詳頁；金額以中央115年度標準交叉查核，送件前務必向戶籍地公所或澎湖縣政府社會處確認。"
+        },
+        "id": "penghu-middle-low-income-elderly-allowance-115",
+        "name": "澎湖縣中低收入老人生活津貼",
+        "provider": "澎湖縣政府社會處",
+        "jurisdiction": "澎湖縣",
+        "county": "澎湖縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "kinmen-disability-living-allowance-115",
+      "name": "金門縣身心障礙者生活補助",
+      "url": "https://jincheng.kinmen.gov.tw/cp.aspx?n=91180D3C1DDF9D7C",
+      "organization": "金門縣政府／金城鎮公所",
+      "jurisdiction": "金門縣",
+      "sourceType": "official-local-application-cross-check",
+      "tags": [
+        "地方政府",
+        "金門縣",
+        "身心障礙者",
+        "身障",
+        "生活補助",
+        "115年度",
+        "經濟弱勢"
+      ],
+      "record": {
+        "summary": "金門縣身心障礙者生活補助，協助設籍或實際居住金門縣、領有身心障礙證明且收入財產符合標準者，每月取得生活補助。",
+        "audiences": [
+          "身心障礙者",
+          "低收入戶",
+          "中低收入戶",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "金門縣身障生活補助",
+          "金門縣身心障礙者補助",
+          "身障每月補助",
+          "身心障礙生活津貼",
+          "低收入戶身障補助",
+          "中低收入戶身障補助",
+          "鄉鎮市公所",
+          "台灣身障補助",
+          "臺灣身障補助"
+        ],
+        "eligibility": "領有身心障礙證明，設籍或實際居住金門縣，最近一年居住國內日數、收入、動產、不動產及未接受公費安置等條件仍由公所與縣市政府審查。",
+        "conditionSourceNote": "金城鎮公所頁面列出身心障礙生活補助申請程序、文件與承辦電話；金門縣政府社會處另有身心障礙者生活補助統計入口，送件前仍需以戶籍地鄉鎮公所及縣府最新標準確認。",
+        "applicationConditions": [
+          {
+            "label": "基本資格",
+            "requirement": "申請人須領有身心障礙證明，並符合金門縣設籍、實際居住或最近一年居住國內規定；未接受政府公費收容安置。",
+            "note": "若同時符合其他生活津貼或補助，應先向公所確認是否可併領。",
+            "sourceDate": "金城鎮公所頁面日期112-02-16；網站更新114-10-05；查核日2026-06-09",
+            "sourceUrl": "https://jincheng.kinmen.gov.tw/cp.aspx?n=91180D3C1DDF9D7C"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍；動產與不動產依年度及地方標準審查。",
+            "note": "年度金額、應計人口與財產資料需由戶籍所在地公所或縣市政府依送件資料審查。",
+            "sourceDate": "金城鎮公所頁面日期112-02-16；網站更新114-10-05；查核日2026-06-09",
+            "sourceUrl": "https://jincheng.kinmen.gov.tw/cp.aspx?n=91180D3C1DDF9D7C"
+          }
+        ],
+        "benefitSourceNote": "115年度身心障礙者生活補助依低收入戶、中低收入戶及一般符合經濟標準者分級，並依障礙程度核發月補助。",
+        "benefitItems": [
+          {
+            "label": "低收入戶中度以上障礙",
+            "amount": "9,485元",
+            "unit": "每人每月",
+            "note": "低收入戶輕度障礙為5,437元。",
+            "sourceDate": "金城鎮公所頁面日期112-02-16；網站更新114-10-05；查核日2026-06-09",
+            "sourceUrl": "https://jincheng.kinmen.gov.tw/cp.aspx?n=91180D3C1DDF9D7C"
+          },
+          {
+            "label": "中低收入戶中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "中低收入戶輕度障礙為4,049元。",
+            "sourceDate": "金城鎮公所頁面日期112-02-16；網站更新114-10-05；查核日2026-06-09",
+            "sourceUrl": "https://jincheng.kinmen.gov.tw/cp.aspx?n=91180D3C1DDF9D7C"
+          },
+          {
+            "label": "一般符合經濟標準中度以上障礙",
+            "amount": "5,437元",
+            "unit": "每人每月",
+            "note": "一般符合經濟標準輕度障礙為4,049元。",
+            "sourceDate": "金城鎮公所頁面日期112-02-16；網站更新114-10-05；查核日2026-06-09",
+            "sourceUrl": "https://jincheng.kinmen.gov.tw/cp.aspx?n=91180D3C1DDF9D7C"
+          }
+        ],
+        "applicationMethodSourceNote": "檢附申請文件由戶籍地鄉鎮公所初審後層轉金門縣政府複審核定。送件前建議先電話確認最新年度標準、文件與帳戶資料格式。",
+        "howToApply": [
+          "檢附申請文件由戶籍地鄉鎮公所初審後層轉金門縣政府複審核定。",
+          "備妥身心障礙證明、身分證明、印章或簽名、金融帳戶影本，以及收入財產相關資料。",
+          "由公所初審或收件後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "身心障礙證明",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": "082-325058分機508",
+          "website": "https://jincheng.kinmen.gov.tw/cp.aspx?n=91180D3C1DDF9D7C"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "114-10-05",
+          "confidence": "checked",
+          "notes": "金城鎮公所頁面列出身心障礙生活補助申請程序、文件與承辦電話；金門縣政府社會處另有身心障礙者生活補助統計入口，送件前仍需以戶籍地鄉鎮公所及縣府最新標準確認。"
+        },
+        "id": "kinmen-disability-living-allowance-115",
+        "name": "金門縣身心障礙者生活補助",
+        "provider": "金門縣政府／金城鎮公所",
+        "jurisdiction": "金門縣",
+        "county": "金門縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "kinmen-middle-low-income-elderly-allowance-115",
+      "name": "金門縣中低收入老人生活津貼",
+      "url": "https://law.kinmen.gov.tw/LawContent.aspx?id=FL033242&media=print",
+      "organization": "金門縣政府",
+      "jurisdiction": "金門縣",
+      "sourceType": "official-local-regulation",
+      "tags": [
+        "地方政府",
+        "金門縣",
+        "老人福利",
+        "長者",
+        "中低收入老人",
+        "生活津貼",
+        "115年度"
+      ],
+      "record": {
+        "summary": "金門縣中低收入老人生活津貼，協助年滿65歲且收入財產符合標準的長者，每月領取生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "經濟弱勢家庭",
+          "照顧者"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活津貼",
+          "經濟弱勢"
+        ],
+        "needTags": [
+          "金門縣中低收入老人",
+          "金門縣老人生活津貼",
+          "老人生活津貼",
+          "老人津貼",
+          "65歲生活津貼",
+          "長者補助",
+          "老人每月補助",
+          "中低收老人",
+          "鄉鎮市公所",
+          "台灣老人補助",
+          "臺灣老人補助"
+        ],
+        "eligibility": "年滿65歲，設籍或實際居住金門縣，最近一年居住國內超過183日，且未接受公費安置、未領取不得併領的同性質津貼；家庭收入與財產需符合中低收入老人標準。",
+        "conditionSourceNote": "金門縣主管法規系統列出中低收入老人生活津貼審核作業規定、申請文件、鄉鎮公所受理與縣府審查流程；115年度金額需以中央及縣府當年度公告交叉確認。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍或實際居住金門縣，最近一年居住國內通常需超過183日。",
+            "note": "公費安置、入監服刑或領取其他同性質津貼者，可能不得重複領取。",
+            "sourceDate": "金門縣主管法規列印時間115-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://law.kinmen.gov.tw/LawContent.aspx?id=FL033242&media=print"
+          },
+          {
+            "label": "家庭收入與財產",
+            "requirement": "年滿65歲並實際居住金門縣，最近一年居住國內超過183日；全家人口存款本金、投資及有價證券1人時未超過250萬元，每增加1人增加25萬元；土地及房屋合計未超過650萬元，並依當年度最低生活費與消費支出標準審查。",
+            "note": "所得、動產、不動產與應計人口由公所及縣市政府審查，請以送件年度公告為準。",
+            "sourceDate": "金門縣主管法規列印時間115-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://law.kinmen.gov.tw/LawContent.aspx?id=FL033242&media=print"
+          }
+        ],
+        "benefitSourceNote": "115年度中低收入老人生活津貼分兩級，依家庭總收入相對於最低生活費倍數核定。",
+        "benefitItems": [
+          {
+            "label": "家庭總收入低於最低生活費1.5倍",
+            "amount": "8,329元",
+            "unit": "每人每月",
+            "note": "屬較高額級距。",
+            "sourceDate": "金門縣主管法規列印時間115-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://law.kinmen.gov.tw/LawContent.aspx?id=FL033242&media=print"
+          },
+          {
+            "label": "家庭總收入介於最低生活費1.5倍至2.5倍",
+            "amount": "4,164元",
+            "unit": "每人每月",
+            "note": "屬較低額級距。",
+            "sourceDate": "金門縣主管法規列印時間115-06-09；115年度金額交叉查核",
+            "sourceUrl": "https://law.kinmen.gov.tw/LawContent.aspx?id=FL033242&media=print"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉鎮公所以書面提出申請。送件前建議先確認是否已有其他年金、津貼或安置狀態會影響資格。",
+        "howToApply": [
+          "向戶籍所在地鄉鎮公所以書面提出申請。",
+          "備妥申請書、身分證明、印章或簽名、金融帳戶，以及戶籍、收入與財產相關文件。",
+          "由公所收件或初審後轉縣市政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請書",
+          "身分證明文件",
+          "印章或簽名",
+          "金融帳戶影本",
+          "戶籍與收入財產相關證明",
+          "其他鄉鎮市區公所要求文件"
+        ],
+        "contact": {
+          "phone": null,
+          "website": "https://law.kinmen.gov.tw/LawContent.aspx?id=FL033242&media=print"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": null,
+          "confidence": "checked",
+          "notes": "金門縣主管法規系統列出中低收入老人生活津貼審核作業規定、申請文件、鄉鎮公所受理與縣府審查流程；115年度金額需以中央及縣府當年度公告交叉確認。"
+        },
+        "id": "kinmen-middle-low-income-elderly-allowance-115",
+        "name": "金門縣中低收入老人生活津貼",
+        "provider": "金門縣政府",
+        "jurisdiction": "金門縣",
+        "county": "金門縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "lienchiang-disability-living-allowance-115",
+      "name": "連江縣身心障礙者生活津貼",
+      "url": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf",
+      "organization": "連江縣政府／莒光鄉公所",
+      "jurisdiction": "連江縣",
+      "sourceType": "official-local-regulation-pdf",
+      "tags": [
+        "地方政府",
+        "連江縣",
+        "馬祖",
+        "身心障礙者",
+        "身障",
+        "生活津貼",
+        "離島"
+      ],
+      "record": {
+        "summary": "連江縣身心障礙者生活津貼，依縣府實施要點提供設籍並實際居住連江縣、領有身心障礙證明者每月生活津貼。",
+        "audiences": [
+          "身心障礙者",
+          "離島居民",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "身心障礙福利",
+          "生活補助",
+          "離島福利"
+        ],
+        "needTags": [
+          "連江身障生活津貼",
+          "馬祖身心障礙補助",
+          "身障生活津貼",
+          "連江縣身障",
+          "鄉公所"
+        ],
+        "eligibility": "設籍連江縣滿一年，且每年實際居住合計183日以上，依法領有身心障礙證明或手冊者；現職軍公教、公營事業人員、全額公費收容安置或已領特定同性質津貼者可能不得領取。",
+        "conditionSourceNote": "連江縣政府發放身心障礙者生活津貼實施要點列出資格、不得領取情形、金額與鄉村公所申請程序。",
+        "applicationConditions": [
+          {
+            "label": "設籍與居住",
+            "requirement": "設籍連江縣滿一年，且每年實際居住合計183日以上。",
+            "note": "就醫、就學等特殊狀況須檢附證明，是否採計由公所及縣府認定。",
+            "sourceDate": "113-01-04修訂；查核日2026-06-09",
+            "sourceUrl": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf"
+          },
+          {
+            "label": "身障資格與不得重複",
+            "requirement": "需領有身心障礙證明或手冊，且未領老農、漁津貼、65歲以上老人居家生活補助、中低收入老人生活津貼、中低收入身障生活補助或其他列明津貼。",
+            "note": "若已領其他生活津貼，送件前需先確認是否擇一或不得併領。",
+            "sourceDate": "113-01-04修訂；查核日2026-06-09",
+            "sourceUrl": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf"
+          }
+        ],
+        "benefitSourceNote": "連江縣政府實施要點列明身心障礙生活津貼金額；不同於一般縣市身心障礙者生活補助金額，應以連江縣法規與公所審查為準。",
+        "benefitItems": [
+          {
+            "label": "輕度、中度、重度身心障礙者",
+            "amount": "3,500元",
+            "unit": "每人每月",
+            "note": "符合連江縣實施要點資格者核發。",
+            "sourceDate": "113-01-04修訂；查核日2026-06-09",
+            "sourceUrl": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf"
+          },
+          {
+            "label": "極重度身心障礙者",
+            "amount": "4,000元",
+            "unit": "每人每月",
+            "note": "符合連江縣實施要點資格者核發。",
+            "sourceDate": "113-01-04修訂；查核日2026-06-09",
+            "sourceUrl": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf"
+          }
+        ],
+        "applicationMethodSourceNote": "由申請人填具申請書並檢具身心障礙者證明或手冊、戶口名簿等文件，向戶籍所在地鄉村公所辦理初核。",
+        "howToApply": [
+          "向戶籍所在地鄉村公所提出申請。",
+          "檢具身心障礙者證明或手冊正反面影本、戶口名簿影本及公所要求文件。",
+          "公所初核後報連江縣政府審核，合格者自當月份發給。"
+        ],
+        "documents": [
+          "申請書",
+          "身心障礙者證明或手冊正反面影本",
+          "戶口名簿影本",
+          "居住日數或特殊事由證明",
+          "公所要求文件"
+        ],
+        "contact": {
+          "website": "https://www.chukuang.gov.tw/upload/f-20240530191619.pdf"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "113-01-04",
+          "confidence": "source-dated",
+          "notes": "連江縣政府實施要點PDF；查核日2026-06-09。"
+        },
+        "id": "lienchiang-disability-living-allowance-115",
+        "name": "連江縣身心障礙者生活津貼",
+        "provider": "連江縣政府／莒光鄉公所",
+        "jurisdiction": "連江縣",
+        "county": "連江縣"
+      },
+      "format": "static-record",
+      "crawl": true,
+      "crawlDepth": 0,
+      "allowInsecureSslFallback": true,
+      "refreshPolicy": {
+        "normalDays": 14,
+        "crossYearDays": 3
+      }
+    },
+    {
+      "id": "lienchiang-middle-low-income-elderly-allowance-115",
+      "name": "連江縣中低收入戶老人生活津貼",
+      "url": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000404&media=print",
+      "organization": "連江縣政府",
+      "jurisdiction": "連江縣",
+      "sourceType": "official-local-regulation",
+      "tags": [
+        "地方政府",
+        "連江縣",
+        "馬祖",
+        "中低收入老人",
+        "老人福利",
+        "生活津貼",
+        "離島"
+      ],
+      "record": {
+        "summary": "連江縣中低收入戶老人生活津貼，依縣府審核作業規定提供年滿65歲且收入財產符合規定之長者每月生活津貼。",
+        "audiences": [
+          "65歲以上長者",
+          "中低收入老人",
+          "離島居民",
+          "經濟弱勢家庭"
+        ],
+        "serviceCategories": [
+          "公部門地方資源",
+          "老人福利",
+          "生活補助",
+          "離島福利"
+        ],
+        "needTags": [
+          "連江老人生活津貼",
+          "馬祖老人補助",
+          "中低收入老人",
+          "老人津貼",
+          "65歲補助",
+          "鄉公所"
+        ],
+        "eligibility": "年滿65歲、設籍並實際居住連江縣，最近一年居住國內超過183日，且未接受政府公費收容安置、未入獄服刑或依法拘禁，家庭收入與財產符合規定者。",
+        "conditionSourceNote": "連江縣主管法規系統列出中低收入戶老人生活津貼之資格、申請、發放標準與財產限制。",
+        "applicationConditions": [
+          {
+            "label": "年齡與居住",
+            "requirement": "年滿65歲，設籍並實際居住連江縣，最近一年居住國內超過183日。",
+            "note": "不得接受政府公費收容安置、入獄服刑或依法拘禁。",
+            "sourceDate": "主管法規列印時間115-06-09",
+            "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000404&media=print"
+          },
+          {
+            "label": "收入與財產",
+            "requirement": "家庭總收入平均每人每月未超過當年度最低生活費2.5倍且未超過臺灣地區平均每人每月消費支出1.5倍；存款本金及有價證券1人時未超過250萬元，每增加1人增加25萬元；土地及房屋價值未超過500萬元。",
+            "note": "連江縣法規金額與中央年度標準可能需送件時再由公所確認。",
+            "sourceDate": "主管法規列印時間115-06-09",
+            "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000404&media=print"
+          }
+        ],
+        "benefitSourceNote": "連江縣主管法規列出本生活津貼兩級金額；送件時仍請向鄉公所確認是否有最新年度調整。",
+        "benefitItems": [
+          {
+            "label": "未達最低生活費1.5倍",
+            "amount": "6,000元",
+            "unit": "每人每月",
+            "note": "由鄉公所逕撥匯至老人帳戶。",
+            "sourceDate": "主管法規列印時間115-06-09",
+            "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000404&media=print"
+          },
+          {
+            "label": "最低生活費1.5倍至2.5倍",
+            "amount": "3,000元",
+            "unit": "每人每月",
+            "note": "由鄉公所逕撥匯至老人帳戶。",
+            "sourceDate": "主管法規列印時間115-06-09",
+            "sourceUrl": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000404&media=print"
+          }
+        ],
+        "applicationMethodSourceNote": "向戶籍所在地鄉公所申請；各鄉公所應隨時受理，初審後報縣府核定。",
+        "howToApply": [
+          "向戶籍所在地鄉公所填具申請調查表提出申請。",
+          "檢附戶籍謄本或戶口名簿影本、在臺子女所得財產資料及其他證明文件。",
+          "鄉公所初審後報連江縣政府核定，結果以核定通知為準。"
+        ],
+        "documents": [
+          "申請調查表",
+          "戶籍謄本或戶口名簿影本",
+          "所得與財產資料",
+          "在臺子女相關資料",
+          "金融帳戶",
+          "其他鄉公所要求文件"
+        ],
+        "contact": {
+          "website": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000404&media=print"
+        },
+        "freshness": {
+          "lastChecked": "2026-06-09",
+          "sourceUpdatedAt": "115-06-09列印",
+          "confidence": "source-dated",
+          "notes": "連江縣主管法規系統列印頁；查核日2026-06-09。"
+        },
+        "id": "lienchiang-middle-low-income-elderly-allowance-115",
+        "name": "連江縣中低收入戶老人生活津貼",
+        "provider": "連江縣政府",
+        "jurisdiction": "連江縣",
+        "county": "連江縣"
       },
       "format": "static-record",
       "crawl": true,

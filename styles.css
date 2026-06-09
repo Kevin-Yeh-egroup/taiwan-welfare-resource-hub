@@ -602,10 +602,18 @@ summary:focus-visible {
 }
 
 .status-pill.official-entry,
+.status-pill.official-report,
+.status-pill.official-statistical-brief,
 .status-pill.source-dated,
+.status-pill.source-dated-list,
 .status-pill.checked {
   background: var(--teal-soft);
   color: var(--teal);
+}
+
+.status-pill.needs-local-confirmation {
+  background: var(--gold-soft);
+  color: var(--gold);
 }
 
 .status-pill.needs-review {
@@ -623,6 +631,70 @@ summary:focus-visible {
 .tag {
   background: #eef0eb;
   color: #3d4945;
+}
+
+.source-confidence {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+  min-width: 0;
+  margin-top: 12px;
+  border: 1px solid #d4ded8;
+  border-radius: 8px;
+  background: #fbfcfa;
+  padding: 9px 10px;
+  color: #31413d;
+}
+
+.source-confidence strong {
+  color: #183d38;
+  font-size: 0.88rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.source-confidence span,
+.source-confidence small {
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.source-confidence small {
+  text-align: right;
+}
+
+.source-strong {
+  border-color: #b9dcd5;
+  background: #f2faf8;
+}
+
+.source-confirm {
+  border-color: #efd59d;
+  background: #fff9ea;
+}
+
+.source-review {
+  border-color: #efc1d2;
+  background: #fff5f9;
+}
+
+.match-reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.match-reasons span {
+  border: 1px solid #d2ddd8;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #3d4945;
+  padding: 4px 9px;
+  font-size: 0.82rem;
+  font-weight: 800;
 }
 
 .condition-block {
@@ -1137,6 +1209,44 @@ summary:focus-visible {
   padding: 18px;
 }
 
+.detailed-empty {
+  justify-items: stretch;
+  text-align: left;
+}
+
+.detailed-empty strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.detailed-empty p {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.empty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.empty-actions button {
+  min-height: 42px;
+  border: 1px solid #b8d8d4;
+  border-radius: 6px;
+  background: #ffffff;
+  color: var(--teal);
+  padding: 8px 11px;
+  font-weight: 900;
+}
+
+.empty-actions button:hover {
+  background: var(--teal-soft);
+}
+
 .more-note {
   min-height: 64px;
   font-weight: 800;
@@ -1247,6 +1357,14 @@ summary:focus-visible {
 
   .status-pill {
     justify-self: start;
+  }
+
+  .source-confidence {
+    grid-template-columns: 1fr;
+  }
+
+  .source-confidence small {
+    text-align: left;
   }
 
   .standard-group-heading {
