@@ -220,6 +220,24 @@ Disallow: /
 - Production HTTP verification: stable URL serves all 7 Batch 5B target names, 529 records, 0 duplicate same-name/provider/jurisdiction records, and review-stage noindex controls remain active.
 - Runtime logs: Vercel Production error/fatal logs for deployment `dpl_FgGXQsFyfdqc9UPQiEh6732sw9kL` in the last hour returned no logs
 
+## V2 Batch 5C Production Verification - 2026-06-09
+
+- Data commit: `3c03d54503acd9cae219a3035a3ac4e86dab2a01` (`Add v2 local living allowance batch 5c`)
+- Deployment: `dpl_4FNrGgSjQyfybsz5E47weu6qBF2y`
+- Deployment URL: `https://taiwan-welfare-resource-jc683bg0x-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/freshness-report.json` `200`, `robots.txt` `200`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 538 records, 113 sources, 113 freshness URLs checked, 0 freshness warnings; duplicate same-name/provider/jurisdiction records: 0
+- Homepage count verification: 21 central public resources, 91 local public resources, and 426 private resources
+- Added V2 Batch 5C official local allowance cards: `新竹市身心障礙者生活補助`, `新竹市中低收入老人生活津貼`, `新竹縣身心障礙者生活補助`, `新竹縣中低收入老人生活津貼`, `苗栗縣身心障礙者生活補助`, `彰化縣身心障礙者生活補助`, `彰化縣中低收入老人生活津貼`, `南投縣身心障礙者生活補助費`, and `南投縣中低收入老人生活津貼`
+- Source error audit: the one rebuild error was `sfaa-social-welfare-foundations` (`https://swft.sfaa.gov.tw/fund/fh0300#`), not a Batch 5C local source. The public page and code-table API later responded, the POST search returned 355 rows, and a longer full crawl completed with `errors=0`.
+- Deferred to Batch 5D: `苗栗縣中低收入老人生活津貼`, `屏東縣身心障礙者生活補助`, and `屏東縣中低收入老人生活津貼` because current official source evidence was not yet sufficient for citizen-facing conditions, amounts, and application notes.
+- Planned follow-up batches: Batch 5D resolves the deferred 苗栗/屏東 monthly allowances; Batch 5E continues 雲林、嘉義市、嘉義縣、花蓮、臺東 monthly allowance coverage; Batch 5F re-audits low-income/middle-low-income annual standard cards; Batch 5G checks Taiwan wording and search behavior.
+- Production HTTP verification: stable URL serves all 9 Batch 5C target names, 538 records, 0 duplicate same-name/provider/jurisdiction records, and review-stage noindex controls remain active.
+- Runtime logs: Vercel Production error/fatal logs for deployment `dpl_4FNrGgSjQyfybsz5E47weu6qBF2y` in the last hour returned no logs
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
