@@ -31,6 +31,7 @@
 - V2 Batch 6A local closure: 8 new official/cross-checked cards for Taoyuan, Tainan, Penghu, Kinmen, and Lienchiang disability living allowances and middle-low-income elder allowances, with local-confirmation labels where current detail pages are incomplete.
 - V2 Batch 6D high-intent central expansion: 3 new nationwide cards for family caregiver support, low-income student grants, and child/youth economic support; the 115 rent-subsidy card now points to the MOI official update and hotline.
 - UX-1 search and no-result pass: added high-demand query synonyms, source-confidence rows, match-reason chips, no-result suggestions, and quick tiles for rent pressure and caregiver support.
+- V2 Batch 6E source hardening: replaced 4 unstable warning sources with stronger official anchors and split freshness output into hard `warnings` versus retryable `transientWarnings`.
 
 ## Local Preview
 

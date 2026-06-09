@@ -169,6 +169,7 @@ def main() -> int:
     changed = 0
     transport_warnings = 0
     warnings = []
+    transient_warnings = []
 
     for source in sources_data.get("sources", []):
         entries = []
@@ -216,8 +217,20 @@ def main() -> int:
             }
             time.sleep(args.sleep)
 
-        if any(not entry["ok"] for entry in entries):
-            warnings.append({"level": "warning", "sourceId": source["id"], "message": "One or more URLs failed freshness check."})
+        failed_entries = [entry for entry in entries if not entry["ok"]]
+        if failed_entries:
+            retryable_failures = [
+                is_retryable_failure({"ok": False, "error": entry.get("error"), "headError": entry.get("headError")})
+                for entry in failed_entries
+            ]
+            if all(retryable_failures):
+                transient_warnings.append({
+                    "level": "transient-warning",
+                    "sourceId": source["id"],
+                    "message": "One or more URLs hit a retryable transport failure during freshness check.",
+                })
+            else:
+                warnings.append({"level": "warning", "sourceId": source["id"], "message": "One or more URLs failed freshness check."})
         report_sources.append({
             "id": source["id"],
             "name": source.get("name"),
@@ -232,15 +245,17 @@ def main() -> int:
             "checked": sum(len(item["entries"]) for item in report_sources),
             "changed": changed,
             "transportWarnings": transport_warnings,
+            "transientWarnings": len(transient_warnings),
             "warnings": len(warnings),
         },
         "warnings": warnings,
+        "transientWarnings": transient_warnings,
         "sources": report_sources,
     }
 
     Path(args.out).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     Path(args.snapshots).write_text(json.dumps({"generatedAt": now_iso(), "sources": snapshot_sources}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Checked {report['summary']['checked']} URLs; changed={changed}; warnings={len(warnings)}")
+    print(f"Checked {report['summary']['checked']} URLs; changed={changed}; warnings={len(warnings)}; transientWarnings={len(transient_warnings)}")
     return 0
 
 
