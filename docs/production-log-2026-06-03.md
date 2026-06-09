@@ -238,6 +238,23 @@ Disallow: /
 - Production HTTP verification: stable URL serves all 9 Batch 5C target names, 538 records, 0 duplicate same-name/provider/jurisdiction records, and review-stage noindex controls remain active.
 - Runtime logs: Vercel Production error/fatal logs for deployment `dpl_4FNrGgSjQyfybsz5E47weu6qBF2y` in the last hour returned no logs
 
+## V2 Batch 5D-5G Production Verification - 2026-06-09
+
+- Data commit: `f23f83d` (`Add batch 5D-5G welfare resources`)
+- Deployment: `dpl_2ttHAhBAddAqGTSy2LXAHXH72sU9`
+- Deployment URL: `https://taiwan-welfare-resource-qoil2k85g-egroup-task3s-projects.vercel.app`
+- Target/status: Production / Ready
+- Stable URL verified: `https://taiwan-welfare-resource-hub.vercel.app/`
+- HTTP verification: page `200`, `data/resources.json` `200`, `data/sources.json` `200`, `robots.txt` `200`
+- Noindex verification: `X-Robots-Tag: noindex, nofollow, noarchive`; HTML meta robots present; `robots.txt` includes `Disallow: /`
+- Data verification: 551 records, 126 sources, 126 freshness URLs checked, 1 freshness warning (`pingtung-disability-living-allowance-115` Gov.tw gateway check)
+- Homepage count verification: 20 central public resources, 105 local public resources, and 426 private resources
+- Added V2 Batch 5D/5E allowance cards: `苗栗縣中低收入老人生活津貼`, `屏東縣身心障礙者生活補助`, `屏東縣中低收入老人生活津貼`, `雲林縣身心障礙者生活補助`, `雲林縣中低收入老人生活津貼`, `嘉義市身心障礙者生活補助`, `嘉義市中低收入老人生活津貼`, `嘉義縣身心障礙者生活補助`, `嘉義縣中低收入老人生活津貼`, `花蓮縣身心障礙者生活補助`, `花蓮縣中低收入老人生活津貼`, `臺東縣身心障礙者生活補助`, and `臺東縣中低收入老人生活津貼`
+- Batch 5F standard audit: refreshed the 115年度 low-income/middle-low-income annual-standard source to the MOHW `DOSAASW/cp-566-84031-103.html` announcement page, kept the `臺灣省` explanation, and added Taiwan/Fujian search tags.
+- Batch 5G search verification: production browser search for `台東 老人津貼` returned `臺東縣中低收入老人生活津貼`; `台灣省 低收` returned `115年度低收入戶、中低收入戶資格審核標準`; deployed `index.html` references `app.js?v=20260609-batch5g-search`.
+- Local mobile verification: at 390x844, no horizontal overflow was detected.
+- Runtime logs: Vercel Production logs for deployment `dpl_2ttHAhBAddAqGTSy2LXAHXH72sU9` in the last hour returned no logs.
+
 ## GitHub Actions
 
 - Workflow: `Freshness Check`
